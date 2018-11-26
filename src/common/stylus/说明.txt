@@ -1,0 +1,5 @@
+﻿variable 全局变量
+mixmin  函数
+reset 重置样式
+
+minin,variable 组件里用
