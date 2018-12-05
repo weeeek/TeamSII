@@ -25,111 +25,112 @@ export const weiboConfig = {
 }
 
 export const paintingConfig = {
-  list: [{
-    author: '',
-    url: './static/painting/S早期一期生.jpg',
-    weibo: ''
-  },
-  {
-    author: '小小栗鼠控-阿遼',
-    url: './static/painting/S老来俏（小小栗鼠控-阿遼）.jpg',
-    weibo: ''
-  },
-  {
-    author: '吉他他他他他他他他他他',
-    url: './static/painting/呆驼（吉他他他他他他他他他他）.png',
-    weibo: ''
-  },
-  {
-    author: '',
-    url: './static/painting/孙芮校园.png',
-    weibo: ''
-  },
-  {
-    author: '',
-    url: './static/painting/吕一校园.png',
-    weibo: ''
-  },
-  {
-    author: '冯晓菲的萝卜养护中心',
-    url: './static/painting/冯晓菲6.jpg',
-    weibo: 'https://weibo.com/u/5904226206'
-  },
-  {
-    author: '',
-    url: './static/painting/申月姣.jpg',
-    weibo: ''
-  },
-  {
-    author: '一根普通的竹子',
-    url: './static/painting/莫寒总选（一根普通的竹子）.jpg',
-    weibo: ''
-  },
-  {
-    author: '好好做只已经是条废狗死机中',
-    url: './static/painting/莫寒1.jpg',
-    weibo: ''
-  },
-  {
-    author: '',
-    url: './static/painting/肖钱1.jpg',
-    weibo: ''
-  },
-  {
-    author: '栞時',
-    url: './static/painting/袁雨桢（栞時）.jpg',
-    weibo: ''
-  },
-  {
-    author: '取名字让人头疼',
-    url: './static/painting/张语格3（取名字让人头疼）.png',
-    weibo: ''
-  },
-  {
-    author: '',
-    url: './static/painting/莫寒倔强甜心.jpg',
-    weibo: ''
-  },
-  {
-    author: '',
-    url: './static/painting/络震.jpg',
-    weibo: ''
-  },
-  {
-    author: '只影飞_',
-    url: './static/painting/戴莫-那不勒斯的黎明（只影飞_）.jpg',
-    weibo: ''
-  },
-  {
-    author: '',
-    url: './static/painting/徐晨辰3.png',
-    weibo: ''
-  },
-  {
-    author: '',
-    url: './static/painting/许佳琪.jpg',
-    weibo: ''
-  },
-  {
-    author: '吉他',
-    url: './static/painting/毛C（吉他）.png',
-    weibo: ''
-  },
-  {
-    author: '',
-    url: './static/painting/徐晨辰1.png',
-    weibo: ''
-  },
-  {
-    author: '',
-    url: './static/painting/艾思.png',
-    weibo: ''
-  },
-  {
-    author: '',
-    url: './static/painting/张语格蒋芸爱未央.jpg',
-    weibo: ''
-  }
+  list: [
+    {
+      author: '',
+      url: './static/painting/S早期一期生.jpg',
+      weibo: ''
+    },
+    {
+      author: '小小栗鼠控-阿遼',
+      url: './static/painting/S老来俏（小小栗鼠控-阿遼）.jpg',
+      weibo: ''
+    },
+    {
+      author: '吉他他他他他他他他他他',
+      url: './static/painting/呆驼（吉他他他他他他他他他他）.png',
+      weibo: ''
+    },
+    {
+      author: '',
+      url: './static/painting/孙芮校园.png',
+      weibo: ''
+    },
+    {
+      author: '',
+      url: './static/painting/吕一校园.png',
+      weibo: ''
+    },
+    {
+      author: '冯晓菲的萝卜养护中心',
+      url: './static/painting/冯晓菲6.jpg',
+      weibo: 'https://weibo.com/u/5904226206'
+    },
+    {
+      author: '',
+      url: './static/painting/申月姣.jpg',
+      weibo: ''
+    },
+    {
+      author: '一根普通的竹子',
+      url: './static/painting/莫寒总选（一根普通的竹子）.jpg',
+      weibo: ''
+    },
+    {
+      author: '好好做只已经是条废狗死机中',
+      url: './static/painting/莫寒1.jpg',
+      weibo: ''
+    },
+    {
+      author: '',
+      url: './static/painting/肖钱1.jpg',
+      weibo: ''
+    },
+    {
+      author: '栞時',
+      url: './static/painting/袁雨桢（栞時）.jpg',
+      weibo: ''
+    },
+    {
+      author: '取名字让人头疼',
+      url: './static/painting/张语格3（取名字让人头疼）.png',
+      weibo: ''
+    },
+    {
+      author: '',
+      url: './static/painting/莫寒倔强甜心.jpg',
+      weibo: ''
+    },
+    {
+      author: '',
+      url: './static/painting/络震.jpg',
+      weibo: ''
+    },
+    {
+      author: '只影飞_',
+      url: './static/painting/戴莫-那不勒斯的黎明（只影飞_）.jpg',
+      weibo: ''
+    },
+    {
+      author: '',
+      url: './static/painting/徐晨辰3.png',
+      weibo: ''
+    },
+    {
+      author: '',
+      url: './static/painting/许佳琪.jpg',
+      weibo: ''
+    },
+    {
+      author: '吉他',
+      url: './static/painting/毛C（吉他）.png',
+      weibo: ''
+    },
+    {
+      author: '',
+      url: './static/painting/徐晨辰1.png',
+      weibo: ''
+    },
+    {
+      author: '',
+      url: './static/painting/艾思.png',
+      weibo: ''
+    },
+    {
+      author: '',
+      url: './static/painting/张语格蒋芸爱未央.jpg',
+      weibo: ''
+    }
   ]
 }
 
@@ -302,128 +303,130 @@ export const musicApi = {
 export const musicConfig = {
   list: [{
     type: '公演曲',
-    songs: [{
-      from: '重生计划',
-      plat: 'M',
-      songId: "1113500075",
-      copyrightId: "63273402565",
-      title: "晨光"
-    }, {
-      from: '重生计划',
-      plat: 'M',
-      songId: "1113500081",
-      copyrightId: "63273402561",
-      title: "Forever XLVIII"
-    }, {
-      from: '重生计划',
-      plat: 'M',
-      songId: "1113500080",
-      copyrightId: "63273402562",
-      title: "Who Is The One"
-    }, {
-      from: '重生计划',
-      plat: 'M',
-      songId: "1113500077",
-      copyrightId: "63273402564",
-      title: "黑洞"
-    }, {
-      from: '重生计划',
-      plat: 'M',
-      songId: "1113500079",
-      copyrightId: "63273402563",
-      title: "Lost"
-    }, {
-      from: '重生计划',
-      plat: 'M',
-      songId: "1113500082",
-      copyrightId: "63273402560",
-      title: "Hold Me Tight"
-    }, {
-      from: '重生计划',
-      plat: 'M',
-      songId: "1113500074",
-      copyrightId: "63273402566",
-      title: "解语者"
-    }, {
-      from: '重生计划',
-      plat: 'M',
-      songId: "1113500073",
-      copyrightId: "63273402567",
-      title: "最终回合"
-    }, {
-      from: '重生计划',
-      plat: 'M',
-      songId: "1113861739",
-      copyrightId: "63273402571",
-      title: "无罪无我"
-    }, {
-      from: '重生计划',
-      plat: 'M',
-      songId: "1113861741",
-      copyrightId: "63273402569",
-      title: "Somewhere"
-    }, {
-      from: '重生计划',
-      plat: 'M',
-      songId: "1113861738",
-      copyrightId: "63273402572",
-      title: "噩梦轮回"
-    }, {
-      from: '重生计划',
-      plat: 'M',
-      songId: "1113861742",
-      copyrightId: "63273402568",
-      title: "Restart"
-    }, {
-      from: '重生计划',
-      plat: 'M',
-      songId: "1113861737",
-      copyrightId: "63273402573",
-      title: "预言"
-    }, {
-      from: '重生计划',
-      plat: 'M',
-      songId: "1113861740",
-      copyrightId: "63273402570",
-      title: "彼岸花"
-    }, {
-      from: '重生计划',
-      plat: 'M',
-      songId: "1113861736",
-      copyrightId: "63273402574",
-      title: "重生计划"
-    }, {
-      from: '重生计划',
-      plat: 'M',
-      songId: "1113861735",
-      copyrightId: "63273402575",
-      title: "坐标121E 31N"
-    },
-    {
-      from: '第48区',
-      plat: 'Q',
-      copyrightId: "202497230",
-      title: "第48区"
-    }
+    songs: [
+      {
+        from: '重生计划',
+        plat: 'M',
+        songId: '1113500075',
+        copyrightId: '63273402565',
+        title: '晨光'
+      }, {
+        from: '重生计划',
+        plat: 'M',
+        songId: '1113500081',
+        copyrightId: '63273402561',
+        title: 'Forever XLVIII'
+      }, {
+        from: '重生计划',
+        plat: 'M',
+        songId: '1113500080',
+        copyrightId: '63273402562',
+        title: 'Who Is The One'
+      }, {
+        from: '重生计划',
+        plat: 'M',
+        songId: '1113500077',
+        copyrightId: '63273402564',
+        title: '黑洞'
+      }, {
+        from: '重生计划',
+        plat: 'M',
+        songId: '1113500079',
+        copyrightId: '63273402563',
+        title: 'Lost'
+      }, {
+        from: '重生计划',
+        plat: 'M',
+        songId: '1113500082',
+        copyrightId: '63273402560',
+        title: 'Hold Me Tight'
+      }, {
+        from: '重生计划',
+        plat: 'M',
+        songId: '1113500074',
+        copyrightId: '63273402566',
+        title: '解语者'
+      }, {
+        from: '重生计划',
+        plat: 'M',
+        songId: '1113500073',
+        copyrightId: '63273402567',
+        title: '最终回合'
+      }, {
+        from: '重生计划',
+        plat: 'M',
+        songId: '1113861739',
+        copyrightId: '63273402571',
+        title: '无罪无我'
+      }, {
+        from: '重生计划',
+        plat: 'M',
+        songId: '1113861741',
+        copyrightId: '63273402569',
+        title: 'Somewhere'
+      }, {
+        from: '重生计划',
+        plat: 'M',
+        songId: '1113861738',
+        copyrightId: '63273402572',
+        title: '噩梦轮回'
+      }, {
+        from: '重生计划',
+        plat: 'M',
+        songId: '1113861742',
+        copyrightId: '63273402568',
+        title: 'Restart'
+      }, {
+        from: '重生计划',
+        plat: 'M',
+        songId: '1113861737',
+        copyrightId: '63273402573',
+        title: '预言'
+      }, {
+        from: '重生计划',
+        plat: 'M',
+        songId: '1113861740',
+        copyrightId: '63273402570',
+        title: '彼岸花'
+      }, {
+        from: '重生计划',
+        plat: 'M',
+        songId: '1113861736',
+        copyrightId: '63273402574',
+        title: '重生计划'
+      }, {
+        from: '重生计划',
+        plat: 'M',
+        songId: '1113861735',
+        copyrightId: '63273402575',
+        title: '坐标121E 31N'
+      },
+      {
+        from: '第48区',
+        plat: 'Q',
+        copyrightId: '202497230',
+        title: '第48区'
+      }
     ]
   }, {
     type: 'EP曲',
-    songs: [{
-      title: '青春的花瓣',
-      from: '万圣节之夜',
-      plat: 'Q',
-      copyrightId: '104780425',
-      score: 'https://imgsa.baidu.com/forum/pic/item/1d9ebf44d688d43fbb88d9bb741ed21b0ff43bf0.jpg',
-      play: 'http://www.bilibili.com/video/av7053703'
-    },
-    {
-      title: '盛夏好声音',
-      from: '盛夏好声音',
-      plat: 'Q',
-      copyrightId: '102385350',
-      score: 'https://imgsa.baidu.com/forum/pic/item/9ea34a08c93d70cfd42b264df2dcd100bba12b38.jpg',
-      play: 'http://www.acfun.cn/v/ac2385852'
-    }
+    songs: [
+      {
+        title: '青春的花瓣',
+        from: '万圣节之夜',
+        plat: 'Q',
+        copyrightId: '104780425',
+        score: 'https://imgsa.baidu.com/forum/pic/item/1d9ebf44d688d43fbb88d9bb741ed21b0ff43bf0.jpg',
+        play: 'http://www.bilibili.com/video/av7053703'
+      },
+      {
+        title: '盛夏好声音',
+        from: '盛夏好声音',
+        plat: 'Q',
+        copyrightId: '102385350',
+        score: 'https://imgsa.baidu.com/forum/pic/item/9ea34a08c93d70cfd42b264df2dcd100bba12b38.jpg',
+        play: 'http://www.acfun.cn/v/ac2385852'
+      }
     ]
   }, {
     type: '其它',
@@ -457,19 +460,19 @@ export const tripData = [{
     description: '出席成员：陈思，陈观慧，戴萌，莫寒，李宇琪，孔肖吟，吴哲晗，徐子轩，袁雨桢，蒋芸，袁丹妮，徐伊人，邵雪聪，钱蓓婷，张语格，刘增艳，温晶婕，孙芮，徐晨辰',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av37107074'
-  },{
+  }, {
     nameMonth: '11月25日 19:00',
     title: '《重生计划》首演第三场',
     description: '出席成员：陈思，陈观慧，戴萌，莫寒，李宇琪，孔肖吟，吴哲晗，徐子轩，袁雨桢，蒋芸，袁丹妮，徐伊人，邵雪聪，钱蓓婷，张语格，刘增艳，温晶婕，孙芮，徐晨辰',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av36769190'
-  },{
+  }, {
     nameMonth: '11月24日 19:00',
     title: '《重生计划》首演第二场',
     description: '出席成员：陈思，陈观慧，戴萌，莫寒，李宇琪，孔肖吟，吴哲晗，徐子轩，袁雨桢，蒋芸，袁丹妮，徐伊人，邵雪聪，钱蓓婷，张语格，刘增艳，温晶婕，孙芮',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av36683092'
-  },{
+  }, {
     nameMonth: '11月23日 19:30',
     title: '《重生计划》首演',
     description: '出席成员：陈思，陈观慧，戴萌，莫寒，李宇琪，孔肖吟，吴哲晗，徐子轩，袁雨桢，蒋芸，袁丹妮，徐伊人，邵雪聪，钱蓓婷，张语格，刘增艳，温晶婕，孙芮',
@@ -481,20 +484,17 @@ export const tripData = [{
     description: '出席成员：张语格，陈思，袁丹妮.........',
     typeClass: 'dot-blue',
     url: ''
-  },
-  {
+  }, {
     nameMonth: '11月3日 14:00',
     title: '《美丽48区》公演普通场',
     description: '出席成员：莫寒，孔肖吟，李宇琪，邵雪聪，袁丹妮，徐晨辰，袁雨桢，刘增艳，徐伊人，孙芮，钱蓓婷，温晶婕',
     typeClass: 'dot-blue',
     url: ''
-  },
-  {
+  }, {
     nameMonth: '11月1日 19:00',
     title: '超新星运动会',
     description: '出席成员：孙芮，李宇琪',
     typeClass: 'dot-red',
     url: 'https://v.qq.com/x/cover/syf5vvuk9e5jup2/v00286kb0w7.html'
-  }
-  ]
+  }]
 }]
