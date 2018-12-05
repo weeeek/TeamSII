@@ -1,7 +1,7 @@
 {
-  "name": "team-s2-video-archives",
+  "name": "team-s2-archives",
   "version": "1.0.0",
-  "description": "TeamSII资源中心",
+  "description": "TeamSII档案中心",
   "author": "weeeek <407351071@qq.com>",
   "private": true,
   "scripts": {
@@ -27,10 +27,12 @@
     "lyric-parser": "^1.0.1",
     "postcss-import": "^12.0.0",
     "postcss-url": "^8.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.5.1",
     "timeline-vuejs": "^0.2.2",
     "vue": "^2.5.5",
     "vue-highcharts": "^0.0.10",
-    "vue-lazyload": "1.0.3",
+    "vue-lazyload": "^1.0.3",
     "vue-router": "^2.5.3",
     "vue2-highcharts": "^1.2.5",
     "vuex": "^2.3.1"

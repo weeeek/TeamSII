@@ -6,8 +6,8 @@
     <div class="header-container">
       <div class="header-control">
         <h1 class="title">{{ title }}</h1>
-        <button class="btn-orange">发帖</button>
-        <button class="btn-default">签到</button>
+        <button class="btn-orange" disabled>发帖</button>
+        <button class="btn-default" disabled>签到</button>
       </div>
     </div>
   </div>

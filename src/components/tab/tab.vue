@@ -26,9 +26,9 @@
       </router-link>
     </keep-alive>
     <keep-alive>
-      <a class="tab-item" href="http://www.baidu.com" target="_blank">
+      <router-link tag="div" class="tab-item" to="/music">
         <span class="tab-link">歌曲</span>
-      </a>
+      </router-link>
     </keep-alive>
     <keep-alive>
       <router-link tag="div" class="tab-item" to="/trip">
@@ -65,7 +65,7 @@
         cursor: pointer
         font-weight: bolder
         padding: 0 15px 5px 15px
-      &.router-link-active
-        .tab-link
-          border-bottom: 5px solid $color-team-sii
+    &.router-link-active
+      .tab-link
+        border-bottom: 5px solid $color-team-sii
 </style>

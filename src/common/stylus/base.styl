@@ -1,94 +1,99 @@
 @import "variable.styl"
 
 a
-  color:#2c3e50
-  text-decoration: none
+  color#2c3e50
+  text-decoration none
+
+input,button[disabled]{
+  cursor not-allowed
+}
+
 .container 
-  width: 1336px
-  margin: 0 auto
+  width 1336px
+  margin 0 auto
 .block 
-  background-color: white
-  margin: 15px 0
-  padding: 20px
-  width: 100%
-  height: auto
+  background-color white
+  margin 15px 0
+  padding 20px
+  width 100%
+  height auto
 
 button
-  width: 82px
+  width 82px
 .btn-default
-  box-shadow: 0px 1px 2px rgba(0,0,0,0.1)
-  &:hover
-    box-shadow: 0 1px 2px rgba(0,0,0,0.15)
+  box-shadow 0px 1px 2px rgba(0,0,0,0.1)
+  &hover
+    box-shadow 0 1px 2px rgba(0,0,0,0.15)
 .btn-orange
-  color: white
-  background: #fa7d3c
-  background: -webkit-linear-gradient(top, #fa7d3c 0%,#f55f10 100%)
-  background: linear-gradient(top bottom, #fa7d3c 0%,#f55f10 100%)
-  &:hover
-    background: #f4722e
-    background: -webkit-linear-gradient(top, #f4722e 0%,#f05807 100%)
-    background: linear-gradient(top bottom, #f4722e 0%,#f05807 100%)
+  color white
+  background #fa7d3c
+  background -webkit-linear-gradient(top, #fa7d3c 0%,#f55f10 100%)
+  background linear-gradient(top bottom, #fa7d3c 0%,#f55f10 100%)
+  &hover
+    background #f4722e
+    background -webkit-linear-gradient(top, #f4722e 0%,#f05807 100%)
+    background linear-gradient(top bottom, #f4722e 0%,#f05807 100%)
 
 .link
-  color: $color-team-sii
+  color $color-team-sii
 .img-content
-  width: 100%
-  display: inline-block
-  border: 1px solid #e5e9ef
-  border-radius: 4px
-  padding: 2px
-  background-position: center center
-  background-repeat: no-repeat
-  background-size: cover
+  width 100%
+  display inline-block
+  border 1px solid #e5e9ef
+  border-radius 4px
+  padding 2px
+  background-position center center
+  background-repeat no-repeat
+  background-size cover
 .img-content-sm
-  display: inline-block
-  width: 104px
-  height: 104px
-  border: 1px solid #e5e9ef
-  border-radius: 4px
-  padding: 2px
-  background-position: center center
-  background-repeat: no-repeat
-  background-size: cover
-  margin-right: 16px
+  display inline-block
+  width 104px
+  height 104px
+  border 1px solid #e5e9ef
+  border-radius 4px
+  padding 2px
+  background-position center center
+  background-repeat no-repeat
+  background-size cover
+  margin-right 16px
 
 .text-ellipsis  
-  overflow: hidden
-  text-overflow: ellipsis
-  white-space: nowrap
+  overflow hidden
+  text-overflow ellipsis
+  white-space nowrap
 
 .text-ellipsis-mul
-  overflow: hidden
-  text-overflow: ellipsis
-  white-space: break
-  display: -webkit-box
-  -webkit-line-clamp: 2
-  -webkit-box-orient: vertical
+  overflow hidden
+  text-overflow ellipsis
+  white-space break
+  display -webkit-box
+  -webkit-line-clamp 2
+  -webkit-box-orient vertical
 
 .waterfall
-  margin-top: 15px
-  -moz-column-count: 6
-  -webkit-column-count: 6
-  column-count: 6
-  -moz-column-gap: 1em
-  -webkit-column-gap: 1em
-  column-gap: 1em
+  margin-top 15px
+  -moz-column-count 6
+  -webkit-column-count 6
+  column-count 6
+  -moz-column-gap 1em
+  -webkit-column-gap 1em
+  column-gap 1em
   .fallitem
-    padding: 1em
-    margin: 0 0 15px 0
-    -webkit-column-break-inside: avoid
-    break-inside: avoid
-    background: #ffffff
-    box-shadow: 2px 2px 2px rgba(0,0,0,.3)
-    width: 100%
-    height: 100%
-    display: block
-    &:hover
-      box-shadow: 2px 2px 6px rgba(0,0,0,.4)
+    padding 1em
+    margin 0 0 15px 0
+    -webkit-column-break-inside avoid
+    break-inside avoid
+    background #ffffff
+    box-shadow 2px 2px 2px rgba(0,0,0,.3)
+    width 100%
+    height 100%
+    display block
+    &hover
+      box-shadow 2px 2px 6px rgba(0,0,0,.4)
     img
-      width: 100%
+      width 100%
     .fallcover
-      line-height: 1.4em
+      line-height 1.4em
       .img-author
-        width: 100%
-        text-align: center
+        width 100%
+        text-align center

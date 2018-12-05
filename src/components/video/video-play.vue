@@ -7,7 +7,7 @@ export default {
   name: 'VideoPlay',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App，呵呵呵'
+      msg: 'Welcome to Your Vue.js App'
     }
   }
 }
