@@ -23,37 +23,3 @@
     }
   }
 </script>
-
-<style scoped lang="stylus" rel="stylesheet/stylus">
-  .global-header
-    height: 220px
-    position: relative
-    .header-container
-      height: 110px
-      position: absolute
-      bottom: 0
-      left: 0
-      z-index: 1
-      width: 100%
-      background-color: white
-      .header-control
-        width: calc(100% - 220px)
-        margin-left: 220px
-        padding: 10px 10px 10px 0
-        h1
-          margin: 10px 0
-          font-size: 32px
-      .title
-          width: 100%
-    .logo
-      position: absolute
-      left: 20px
-      bottom: 20px
-      z-index: 2
-      background-image: url('/TeamSII/dist/static/images/flag.jpg')
-      width: 180px
-      height: 180px
-      border: 3px solid #FFF
-      box-shadow: 0 2px 4px rgba(0,0,0,0.3)
-      cursor: pointer
-</style>
