@@ -26,12 +26,12 @@ export default {
 <style lang="stylus" rel="stylesheet/stylus" >
 @import '~common/stylus/index'
 #app
-  height: 100%
-  background-image: url('assets/bg.jpg')
-  background-repeat: no-repeat
-  background-position: top center
-  background-size: contain
-  color: #2c3e50
-  padding: 15px 0
-  background-color: $color-bg
+  height 100%
+  background-image url('/static/images/bg.jpg')
+  background-repeat no-repeat
+  background-position top center
+  background-size contain
+  color #2c3e50
+  padding 15px 0
+  background-color $color-bg
 </style>
