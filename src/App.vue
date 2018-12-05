@@ -27,7 +27,7 @@ export default {
 @import '~common/stylus/index'
 #app
   height 100%
-  background-image url('/dist/static/images/bg.jpg')
+  background-image url('/TeamSII/dist/static/images/bg.jpg')
   background-repeat no-repeat
   background-position top center
   background-size contain
