@@ -15,11 +15,14 @@ export default {
 }
 </script>
 
-<style scoped>
-#raise{
-  width: 100%;
-  border: none;
-  overflow: none;
-  height: 2858px;
-}
+<style scoped lang="stylus" rel="stylesheet/stylus">
+#raise
+  width 100%
+  border none
+  overflow none
+  height calc(100vh - 362px)
+  #header
+    display none
+  .flat-footer
+    display none
 </style>
