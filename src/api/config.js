@@ -202,12 +202,12 @@ export const recommendConfig = {
       title: '倔强甜心',
       from: 'I',
       url: 'v_19rrbo53t0',
-      img: 'https://img2.dzwww.com:8888/tupian/20180306/20180306125692701e1d8a6139.jpg'
+      img: 'http://img2.dzwww.com:8888/tupian/20180306/20180306125692701e1d8a6139.jpg'
     }, {
       title: '贴身校花',
       from: 'L',
       url: 'https://so.tv.sohu.com/mts?box=1&wd=%E8%B4%B4%E8%BA%AB%E6%A0%A1%E8%8A%B1',
-      img: 'https://itedou.com/Public/kindeditor/attached/image/20171013/20171013144953_63689.png'
+      img: 'http://itedou.com/Public/kindeditor/attached/image/20171013/20171013144953_63689.png'
     }]
   }, {
     type: '纪录片',
