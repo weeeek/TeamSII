@@ -50,7 +50,7 @@
       left: 20px
       bottom: 20px
       z-index: 2
-      background-image: url('/static/images/flag.jpg')
+      background-image: url('/dist/static/images/flag.jpg')
       width: 180px
       height: 180px
       border: 3px solid #FFF
