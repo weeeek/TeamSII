@@ -48,24 +48,50 @@
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
+@media screen and (min-width 1366px)
   .tab
-    border-top: 1px solid #f2f2f5
-    box-shadow: 0 1px 1px rgba(0,0,0,0.15)
-    background-color: #FFF
-    display: flex
-    height: 40px
-    line-height: 40px
-    font-size: $font-size-medium4
+    border-top 1px solid #f2f2f5
+    box-shadow 0 1px 1px rgba(0,0,0,0.15)
+    background-color #FFF
+    display flex
+    height 40px
+    line-height 40px
+    font-size $font-size-medium4
+    flex-direction row
     .tab-item
-      flex: 1
-      text-align: center
-      text-decoration: none
-      color: #2c3e50
+      flex-grow 1
+      text-align center
+      text-decoration none
+      color #2c3e50
       .tab-link
-        cursor: pointer
-        font-weight: bolder
-        padding: 0 15px 5px 15px
+        cursor pointer
+        font-weight bolder
+        padding 0 15px 5px 15px
     &.router-link-active
       .tab-link
-        border-bottom: 5px solid $color-team-sii
+        border-bottom 5px solid $color-team-sii
+
+@media screen and (max-width 1366px)
+  .tab
+    border-top 1px solid #f2f2f5
+    box-shadow 0 1px 1px rgba(0,0,0,0.15)
+    background-color #FFF
+    display flex
+    height 20px
+    line-height 20px
+    font-size $font-size-medium4
+    flex-direction row
+    .tab-item
+      flex-grow 1
+      text-align center
+      text-decoration none
+      color #2c3e50
+      .tab-link
+        cursor pointer
+        font-weight bolder
+        padding 0 6px 2px 6px
+        font-size 10px
+    &.router-link-active
+      .tab-link
+        border-bottom 2px solid $color-team-sii
 </style>

@@ -73,56 +73,104 @@
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
-  @import "~common/stylus/variable"
-
+@import "~common/stylus/variable"
+@media screen and (min-width 1366px)
   #dynamic-container
-    width: 100%
-    height: 100%
+    width 100%
+    height 100%
     .dynamic
-      margin-top: 15px
+      margin-top 15px
     .block-o
-      display: none
+      display none
     .block-av
-      display: -webkit-flex
-      display: flex
-      height: 170px
+      display -webkit-flex
+      display flex
+      height 170px
     .block-h
-      display: block
+      display block
       article
-        line-height: 30px
-        word-break: break-all
-        margin-bottom: 10px
+        line-height 30px
+        word-break break-all
+        margin-bottom 10px
     .block-av, .block-h
-      border: 1px solid #e5e9ef
-      background: white
-      border-radius: 4px
-      text-align: left
-      overflow: hidden
-      padding: 20px
+      border 1px solid #e5e9ef
+      background white
+      border-radius 4px
+      text-align left
+      overflow hidden
+      padding 20px
       .dynamic-date
-        flex-basis: 90px
-        height: 130px
-        flex-shrink: 0
+        flex-basis 90px
+        height 130px
+        flex-shrink 0
       .dynamic-title
-        font-size: 16px
-        line-height: 30px
-        vertical-align: text-top
-        font-weight: bolder
-        margin-bottom: 15px
+        font-size 16px
+        line-height 30px
+        vertical-align text-top
+        font-weight bolder
+        margin-bottom 15px
         &:hover
-          color: $color-team-sii
+          color $color-team-sii
       .img
-        flex-basis: 231px
-        height: 130px
-        background-position: center center
-        background-repeat: no-repeat
-        background-size: cover
-        flex-shrink: 0
+        flex-basis 231px
+        height 130px
+        background-position center center
+        background-repeat no-repeat
+        background-size cover
+        flex-shrink 0
       .av-info
-        padding: 0 15px
-        height: 130px
-        flex-grow: 1
+        padding 0 15px
+        height 130px
+        flex-grow 1
       .av-stat
         div
-          display: inline
+          display inline
+
+@media screen and (max-width 1366px)
+  #dynamic-container
+    width 100%
+    height 100%
+    .dynamic
+      margin-top 10px
+    .block-o
+      display none
+    .block-av
+      display -webkit-flex
+      display flex
+      flex-direction column
+    .block-h
+      display block
+      article
+        line-height 20px
+        word-break break-all
+        margin-bottom 10px
+    .block-av, .block-h
+      border 1px solid #e5e9ef
+      background white
+      border-radius 4px
+      text-align left
+      overflow hidden
+      padding 10px
+      .dynamic-date
+        flex-shrink 0
+        font-size 10px
+      .dynamic-title
+        font-size 12px
+        line-height 20px
+        vertical-align text-top
+        font-weight bolder
+        margin-bottom 5px
+        &:hover
+          color $color-team-sii
+      .img
+        flex-basis 231px
+        height 130px
+        background-position center center
+        background-repeat no-repeat
+        background-size cover
+        flex-shrink 0
+      .av-info
+        flex-grow 1
+      .av-stat
+        display none
 </style>
