@@ -6,6 +6,118 @@ export const commonParams = {
   format: 'jsonp'
 }
 
+export const raiseConfig = [
+  {
+    name: '陈观慧',
+    id: '1485197'
+  },
+  {
+    name: '陈思',
+    id: '988407'
+  },
+  {
+    name: '成珏',
+    id: '1604111'
+  },
+  {
+    name: '戴萌',
+    id: '991407'
+  },
+  {
+    name: '冯晓菲',
+    id: '1170704'
+  },
+  {
+    name: '蒋芸',
+    id: '2620358'
+  },
+  {
+    name: '孔肖吟',
+    id: '986515'
+  },
+  {
+    name: '李宇琪',
+    id: '1186273'
+  },
+  {
+    name: '刘增艳',
+    id: '1171801'
+  },
+  {
+    name: '吕一',
+    id: '1082202'
+  },
+  {
+    name: '莫寒',
+    id: '990040'
+  },
+  {
+    name: '潘燕琦',
+    id: '1535074'
+  },
+  {
+    name: '钱蓓婷',
+    id: '1081356'
+  },
+  {
+    name: '邱欣怡',
+    id: '1078296'
+  },
+  {
+    name: '邵雪聪',
+    id: '987799'
+  },
+  {
+    name: '孙芮',
+    id: '1086367'
+  },
+  {
+    name: '温晶婕',
+    id: '1085711'
+  },
+  {
+    name: '吴哲晗',
+    id: '1073349'
+  },
+  {
+    name: '徐晨辰',
+    id: '1079154'
+  },
+  {
+    name: '许佳琪',
+    id: '1067442'
+  },
+  {
+    name: '徐伊人',
+    id: '1189199'
+  },
+  {
+    name: '徐子轩',
+    id: '1105967'
+  },
+  {
+    name: '袁丹妮',
+    id: '1156063'
+  },
+  {
+    name: '袁雨桢',
+    id: '1095343'
+  },
+  {
+    name: '张语格',
+    id: '1157969'
+  },
+  {
+    name: '赵晔',
+    id: '1093167'
+  },
+  {
+    name: 'TeamSII',
+    id: '2112648'
+  }
+]
+
+export const modianApi = 'https://mapi.modian.com/v41/user/build_product_list'
 export const yahhoapisBase = 'https://query.yahooapis.com/v1/public/yql'
 export const yahhoapisFormate = 'json'
 
