@@ -2,22 +2,25 @@
   <div>
     <div class="block">
       <!-- <iframe src="https://teamsii.top" id="raise"></iframe> -->
-        <ul class="project-filter">
-            <li class="member active"><a data-filter="*" href="javascript:void(0)">All</a></li>
-            <li class="member" v-for="(m, index) in YYHList" :key="m.id"><a :data-filter="`.member${index}`" href="javascript:void(0)">{{m.name}}</a></li>
-        </ul>
+        <div class="project-filter">
+            <div class="member active">
+              <switcher :onText="``" :offText="``" :status="all"></switcher>
+            </div>
+            <div class="member" v-for="(m, index) in YYHList" :key="m.id">
+              <!-- <a :data-filter="`.member${index}`" href="javascript:void(0)">{{m.name}}</a> -->
+              <blockcheck :class="`.member${index}`" :id="m.id" :text="m.name"></blockcheck>
+            </div>
+        </div>
     </div>
-    <div class="block">
-      <div class="project-wrap">
-          <a :class="`project-item member${index}`" v-for="(obj, index) in modianDatas" :key="obj.id" target="_blank" :href="`https://zhongchou.modian.com/item/${obj.id}.html`">
-              <div class="project-info" :style="`background-image:url(${obj.logo_4x3})`">                        
-                  <h3 class="project-title text-ellipsis">{{obj.name}}</h3>                        
-              </div>                        
-              <progressbar :value="getProgress(obj.progress)" :type="getProgressType(obj.value)"></progressbar>
-              <!-- <p class="project-progress">{{ obj.backer_money }}/{{ obj.install_money_fmt }}</p> -->
-              <p class="project-progress">￥{{ obj.backer_money }}</p>
-          </a>                
-      </div>
+    <div class="project-wrap">
+        <a :class="`project-item member${index}`" v-for="(obj, index) in modianDatas" :key="obj.id" target="_blank" :href="`https://zhongchou.modian.com/item/${obj.id}.html`">
+            <div class="project-info" :style="`background-image:url(${obj.logo_4x3})`">                        
+                <h3 class="project-title text-ellipsis">{{obj.name}}</h3>                        
+            </div>                        
+            <progressbar :value="getProgress(obj.progress)" :type="getProgressType(obj.value)"></progressbar>
+            <!-- <p class="project-progress">{{ obj.backer_money }}/{{ obj.install_money_fmt }}</p> -->
+            <p class="project-progress">￥{{ obj.backer_money }}</p>
+        </a>                
     </div>
   </div>
 </template>
@@ -26,13 +29,18 @@
 import {raiseConfig, modianApi} from 'api/config'
 import jQuery from 'jquery'
 import progressbar from 'components/plugin/progressbar'
+import blockcheck from 'components/plugin/blockCheck'
+import switcher from 'components/plugin/switcher'
 
 export default {
   components: {
+    blockcheck,
+    switcher,
     progressbar
   },
   data () {
     return {
+      all:true,
       YYHList:[],
       modianDatas: []
     }
@@ -57,22 +65,16 @@ export default {
   },
   mounted () {
     let _this = this
-    _this.YYHList = raiseConfig
-    raiseConfig.map((y)=>{
-      jQuery.post(`${modianApi}`, { to_user_id: y.id }, function (response) {
-        let json = JSON.parse(response)
-        let data = JSON.parse(json.data)   
-        //最新项目
-        _this.modianDatas.push(data[0]);
-        })
-    })
-    // jQuery.post(`${modianApi}`, { to_user_id: raiseConfig[25].id }, function (response) {
+    _this.YYHList = raiseConfig.filter((x)=>{return x.enabled}).sort(function(a,b){return a.line - b.line})
+    // _this.YYHList.map((y)=>{
+    //   jQuery.post(`${modianApi}`, { to_user_id: y.id }, function (response) {
     //     let json = JSON.parse(response)
-    //     let data = JSON.parse(json.data)        
-    //     console.log("data",data)
+    //     //所有项目
+    //     let data = JSON.parse(json.data)   
     //     //最新项目
     //     _this.modianDatas.push(data[0]);
     //     })
+    // })
   }
 }
 </script>
@@ -80,38 +82,29 @@ export default {
 <style scoped lang="stylus" rel="stylesheet/stylus">
 .member
   display inline-block
-  padding 6px 12px
-  .active
-    border 1px solid #87cefa
-  &:hover
-    box-shadow 0 0 3px #97cefa
-
-
+  
 .project-filter
   list-style none
 .project-wrap
-  display flex
-  flex-direction column
-  justify-content space-between
-  align-content space-between
   .project-item
-    flex-grow 1
-    flex-basis 300px
-    flex-shrink 0
-    .project-progress
-      margin-top 10px
-    .project-info
-      width 300px
-      height 225px
-      line-height 225px
-      margin-bottom 10px
-      background-size cover
-      background-position center center
-      background-repeat no-repeat
-      &:hover          
+    -webkit-column-break-inside avoid
+    break-inside avoid
+    background #ffffff
+    box-shadow 2px 2px 2px rgba(0,0,0,.3)
+    width 100%
+    height 100%
+    display block
+    &:hover
+      box-shadow 2px 2px 6px rgba(0,0,0,.4)      
+      .project-info
         .project-title
           background-color rgba(0,0,0,.6)
           opacity 1
+    .project-info
+      width 100%
+      background-size cover
+      background-position center center
+      background-repeat no-repeat
       .project-title
         opacity 0
         vertical-align middle
@@ -119,4 +112,61 @@ export default {
         font-weight bolder
         color #FFF
         transition all .5s ease-in-out
+
+@media screen and (min-width 1024px)
+  .project-wrap
+    -moz-column-count 4
+    -webkit-column-count 4
+    column-count 4
+    -moz-column-gap 1em
+    -webkit-column-gap 1em
+    column-gap 1em
+    .project-item
+      padding 1em
+      margin 0 0 15px 0
+      .project-progress
+        margin-top 10px
+      .project-info
+        width 100%
+        height 190px
+        line-height 190px
+        margin-bottom 10px
+          
+@media screen and (max-width 1024px)  and (min-width 600px) 
+  .project-wrap
+    -moz-column-count 2
+    -webkit-column-count 2
+    column-count 2
+    -moz-column-gap 1em
+    -webkit-column-gap 1em
+    column-gap 1em
+    .project-item
+      padding 1em
+      margin 0 0 15px 0
+      .project-progress
+        margin-top 10px
+      .project-info
+        width 100%
+        height 190px
+        line-height 190px
+        margin-bottom 10px
+
+@media screen and (max-width 600px) 
+  .project-wrap
+    -moz-column-count 1
+    -webkit-column-count 1
+    column-count 1
+    -moz-column-gap 1em
+    -webkit-column-gap 1em
+    column-gap 1em
+    .project-item
+      padding 1em
+      margin 0 0 15px 0
+      .project-progress
+        margin-top 10px
+      .project-info
+        width 100%
+        height 190px
+        line-height 190px
+        margin-bottom 10px
 </style>

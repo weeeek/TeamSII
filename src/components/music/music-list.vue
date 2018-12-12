@@ -53,45 +53,90 @@ export default {
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
-#music-container
-  width: 100%
-  height: 100%
-  .music-block
-    border: 1px solid #e5e9ef
-    background: white
-    border-radius: 4px
-    text-align: left
-    overflow: hidden
-    padding: 10px 20px 0 20px
-    margin-top: 15px
-    .music-type
-      font-size: 20px
-      font-weight: bolder
-      margin: 5px 0
-    .music-list
-      display: flex
-      flex-direction: column
-      flex-wrap: wrap
-      justify-content: flex-start
-      align-content: flex-start
-      width: 100%
-      margin: 0 -10px
-      .music-from
-        text-indent: 2em
-      .music-detail
-        flex-grow: 0
-        margin: 10px
-        .music-title
-          font-weight: bold
-          text-align: center
-          line-height: 2em
-        .music-img
-          div
-            background-position: center center
-            background-repeat: no-repeat
-            background-size: cover
-            width: 238px
-            height: 150px
-        .music-info
-          display: none
+@media screen and (min-width 1366px)  
+  #music-container
+    width: 100%
+    height: 100%
+    .music-block
+      border: 1px solid #e5e9ef
+      background: white
+      border-radius: 4px
+      text-align: left
+      overflow: hidden
+      padding: 10px 20px 0 20px
+      margin-top: 15px
+      .music-type
+        font-size: 20px
+        font-weight: bolder
+        margin: 5px 0
+      .music-list
+        display: flex
+        flex-direction: column
+        flex-wrap: wrap
+        justify-content: flex-start
+        align-content: flex-start
+        width: 100%
+        margin: 0 -10px
+        .music-from
+          text-indent: 2em
+        .music-detail
+          flex-grow: 0
+          margin: 10px
+          .music-title
+            font-weight: bold
+            text-align: center
+            line-height: 2em
+          .music-img
+            div
+              background-position: center center
+              background-repeat: no-repeat
+              background-size: cover
+              width: 238px
+              height: 150px
+          .music-info
+            display: none
+          
+@media screen and (max-width 1366px)
+  #music-container
+    width: 100%
+    height: 100%
+    .music-block
+      border: 1px solid #e5e9ef
+      background: white
+      border-radius: 4px
+      text-align: left
+      overflow: hidden
+      padding: 5px 10px 0 10px
+      margin-top: 10px
+      .music-type
+        font-size: 16px
+        font-weight: bolder
+        margin: 5px 0
+      .music-list
+        display: flex
+        flex-direction: column
+        flex-wrap: wrap
+        justify-content: flex-start
+        align-content: flex-start
+        width: 100%
+        margin: 0 -10px
+        .music-from
+          text-indent: 2em
+        .music-detail
+          font-size: 12px
+          flex-grow: 0
+          margin: 5px 10px
+          .music-title
+            font-weight: bold
+            text-align: center
+            line-height: 2em
+          .music-img
+            div
+              background-position: center center
+              background-repeat: no-repeat
+              background-size: cover
+              width: 238px
+              height: 150px
+          .music-info
+            display: none
 </style>

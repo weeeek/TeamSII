@@ -8,7 +8,7 @@
 
 <script type="text/ecmascript-6">
     export default{
-        name: 'Switch',
+        name: 'Switcher',
         props:{
             onText:{
                 type:String,
@@ -54,7 +54,8 @@
     font-size 12px
     line-height:18px
     color:white
-
+input[type='checkbox']
+  display none
 input[type='checkbox']:checked
   & + .switch::after
     left 11px
