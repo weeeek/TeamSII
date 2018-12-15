@@ -3,24 +3,27 @@
     <div class="block">
       <!-- <iframe src="https://teamsii.top" id="raise"></iframe> -->
         <div class="project-filter">
-            <div class="member active">
-              <switcher :onText="``" :offText="``" :status="all"></switcher>
+          <div class="member-all">
+            <div class="member-switch">
+              <switcher :onText="``" :offText="``" :status.sync="all"></switcher>
             </div>
-            <div class="member" v-for="(m, index) in YYHList" :key="m.id">
-              <!-- <a :data-filter="`.member${index}`" href="javascript:void(0)">{{m.name}}</a> -->
-              <blockcheck :class="`.member${index}`" :id="m.id" :text="m.name"></blockcheck>
+          </div>
+          <div class="members" v-show="all">
+            <div class="member" v-for="(m, index) in YYHList" :key="m.id">              
+              <blockcheck :class="`.member${index}`" :id="m.id" :text="m.name" :status.sync="m.checked"></blockcheck>
             </div>
+          </div>
         </div>
     </div>
     <div class="project-wrap">
-        <a :class="`project-item member${index}`" v-for="(obj, index) in modianDatas" :key="obj.id" target="_blank" :href="`https://zhongchou.modian.com/item/${obj.id}.html`">
-            <div class="project-info" :style="`background-image:url(${obj.logo_4x3})`">                        
-                <h3 class="project-title text-ellipsis">{{obj.name}}</h3>                        
-            </div>                        
-            <progressbar :value="getProgress(obj.progress)" :type="getProgressType(obj.value)"></progressbar>
-            <!-- <p class="project-progress">{{ obj.backer_money }}/{{ obj.install_money_fmt }}</p> -->
-            <p class="project-progress">￥{{ obj.backer_money }}</p>
-        </a>                
+      <a :class="`project-item member${index}`" v-for="(obj, index) in raiseFilter" :key="obj.id" target="_blank" :href="`https://zhongchou.modian.com/item/${obj.id}.html`">
+        <div class="project-info" :style="`background-image:url(${obj.logo_4x3})`">                        
+            <h3 class="project-title text-ellipsis">{{obj.name}}</h3>                        
+        </div>                        
+        <progressbar :value="getProgress(obj.progress)" :type="getProgressType(obj.value)"></progressbar>
+        <!-- <p class="project-progress">{{ obj.backer_money }}/{{ obj.install_money_fmt }}</p> -->
+        <p class="project-progress">￥{{ obj.backer_money }}</p>
+      </a>
     </div>
   </div>
 </template>
@@ -41,8 +44,15 @@ export default {
   data () {
     return {
       all:true,
+      blossom:true,
       YYHList:[],
       modianDatas: []
+    }
+  },
+  watch:{
+    all(newValue){
+      this.all = newValue
+      //console.log(this.all)
     }
   },
   methods: {
@@ -60,21 +70,35 @@ export default {
         return Number.parseFloat(value)
     },
     initProject (response) {
-    console.log('data',JSON.parse(response.data))
+      console.log('data',JSON.parse(response.data))
     }
   },
   mounted () {
     let _this = this
-    _this.YYHList = raiseConfig.filter((x)=>{return x.enabled}).sort(function(a,b){return a.line - b.line})
-    // _this.YYHList.map((y)=>{
-    //   jQuery.post(`${modianApi}`, { to_user_id: y.id }, function (response) {
-    //     let json = JSON.parse(response)
-    //     //所有项目
-    //     let data = JSON.parse(json.data)   
-    //     //最新项目
-    //     _this.modianDatas.push(data[0]);
-    //     })
-    // })
+    raiseConfig.filter((x)=>{return x.enabled})
+               .sort(function(a,b){return a.line - b.line})
+               .map((y)=>{
+                 Object.assign(y,{checked:true})
+                 _this.YYHList.push(y)
+                 jQuery.post(`${modianApi}`, { to_user_id: y.id }, function (response) {
+                   let json = JSON.parse(response)
+                   //所有项目
+                   let data = JSON.parse(json.data)   
+                   //最新项目
+                   _this.modianDatas.push(data[0]);
+                 })
+               })
+  },
+  computed: {
+    //实时计算    
+    raiseFilter: function () {
+      return this.modianDatas.filter((x)=>{
+        if(this.YYHList.filter((y)=>{
+          return y.id == x.user_id && y.checked
+        }).length > 0)
+          return x
+      })
+    }
   }
 }
 </script>
@@ -82,9 +106,29 @@ export default {
 <style scoped lang="stylus" rel="stylesheet/stylus">
 .member
   display inline-block
+  line-height 2.5em
+  &:first-child
+    display block
   
 .project-filter
-  list-style none
+  display flex
+  .member-all
+    padding 12px
+    flex-basis 5em
+    flex-grow 0
+    flex-shrink 0
+    display flex
+    flex-direction column
+    .member-switch
+      flex-basis 22px
+      flex-grow 0
+      flex-shrink 0
+    .icon-toggle
+      flex-basis 2em
+      flex-grow 0
+      flex-shrink 0
+  .members
+    flex-grow 1
 .project-wrap
   .project-item
     -webkit-column-break-inside avoid
@@ -114,6 +158,8 @@ export default {
         transition all .5s ease-in-out
 
 @media screen and (min-width 1024px)
+  .member
+    margin-right 1em
   .project-wrap
     -moz-column-count 4
     -webkit-column-count 4

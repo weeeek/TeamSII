@@ -1,7 +1,6 @@
 <template>
     <div>
-        <input type="checkbox" id="toggle" class="offscreen" v-if="status" />
-        <input type="checkbox" id="toggle" class="offscreen" v-if="!status"  checked/>
+        <input type="checkbox" id="toggle" class="offscreen" :checked="status" @change="switchChange()"/>
         <label for="toggle" class="switch" :class="`switch-${theme}`" :onText="onText" :off-text="offText"></label>
     </div>
 </template>
@@ -25,6 +24,21 @@
             status:{
                 type:Boolean,
                 default:false
+            }
+        },
+        data () {
+            return {
+                switchStatus: this.status
+            }
+        },
+        mounted(){
+            //不应该直接操作props里的值
+            this.switchStatus = this.status
+        },
+        methods:{
+            switchChange () {
+                this.switchStatus = !this.switchStatus
+                this.$emit('update:status',this.switchStatus)
             }
         }
     }
@@ -66,7 +80,7 @@ input[type='checkbox']:checked
     line-height 18px
     color #FFF
   & + .switch
-    background-color #7983ff
+    background-color #a9cc29
 
 .offscreen
   position absolute

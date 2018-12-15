@@ -54,10 +54,10 @@
               return Object.assign({type: 'h'}, card)
             }
           })
-          console.log('json', jsonResult)
+          //console.log('json', jsonResult)
           this.dynamicCards = jsonResult
         } else {
-          console.log('errorCode', data.query.results.json.code)
+          //console.log('errorCode', data.query.results.json.code)
         }
       },
       translate (str) {

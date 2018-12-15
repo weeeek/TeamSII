@@ -6,6 +6,10 @@ export const commonParams = {
   format: 'jsonp'
 }
 
+export const performanceConfig = {
+  url: 'http://www.snh48.com/ticketsinfo.php?act=choose'
+}
+
 export const raiseConfig = [
   {
     name: '陈观慧',
@@ -618,9 +622,45 @@ export const musicConfig = {
 export const tripData = [{
   year: {
     from: '',
-    to: '2018'
+    to: ''
   },
   items: [{
+    nameMonth: '12月22日 19:00',
+    title: '《重生计划》第七场',
+    description: '吴哲晗、徐子轩拉票公演',
+    typeClass: 'dot-blue',
+    url: ''
+  }, {
+    nameMonth: '12月30日 19:30',
+    title: '《重生计划》第六场',
+    description: '袁雨桢拉票公演',
+    typeClass: 'dot-blue',
+    url: ''
+  }, {
+    nameMonth: '12月13日 19:30',
+    title: '《重生计划》第五场',
+    description: '出席成员：陈思，陈观慧，戴萌，莫寒，孔肖吟，吴哲晗，徐子轩，袁雨桢，蒋芸，袁丹妮，徐伊人，邵雪聪，钱蓓婷，张语格，刘增艳，温晶婕，孙芮，徐晨辰',
+    typeClass: 'dot-blue',
+    url: 'https://www.bilibili.com/video/av38093762'
+  }, {
+    nameMonth: '12月13日',
+    title: '《养乐多青春剧场》第一话·相见恨晚',
+    description: '莫寒',
+    typeClass: 'dot-green',
+    url: 'https://www.bilibili.com/video/av38098402'
+  }, {
+    nameMonth: '12月12日',
+    title: '人民的宝贝总决选',
+    description: '许佳琪 徐子轩 莫寒 孔肖吟 孙芮 李宇琪',
+    typeClass: 'dot-red',
+    url: 'https://www.bilibili.com/video/av38021796'
+  }, {
+    nameMonth: '12月09日',
+    title: '咪咕次元盛典',
+    description: '邵雪聪 陈观慧 李宇琪 刘增艳 钱蓓婷 莫寒 孙芮',
+    typeClass: 'dot-red',
+    url: 'https://www.bilibili.com/video/av37815149'
+  }, {
     nameMonth: '11月30日 19:30',
     title: '《重生计划》第四场',
     description: '出席成员：陈思，陈观慧，戴萌，莫寒，李宇琪，孔肖吟，吴哲晗，徐子轩，袁雨桢，蒋芸，袁丹妮，徐伊人，邵雪聪，钱蓓婷，张语格，刘增艳，温晶婕，孙芮，徐晨辰',

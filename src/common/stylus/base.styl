@@ -1,12 +1,96 @@
 @import "variable.styl"
-
+@import "animation.styl"
 a
   color #2c3e50
   text-decoration none
 
-input,button[disabled]{
+input,button[disabled]
   cursor not-allowed
-}
+
+.flex-grow
+  flex-grow: 1
+
+.btn-radius-t-l
+  border-top-left-radius 50% 100%
+
+
+.btn-radius-b-r
+  border-bottom-right-radius 50% 100%
+
+
+.btn-radius-trapezoid
+  border-top-left-radius 25% 100%
+  border-top-right-radius 25% 100%
+
+.btn-gradient
+  position relative
+  &:after
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 60%;
+    top: 0;
+    left: 5%;
+    background-image: -webkit-gradient(linear, 0% 0, 100% 0, from( rgba(255,255,255,.55) ), to( rgba(255,255,255,.5) ), color-stop(.5, rgba(255,255,255,0)), color-stop(.8, rgba(255,255,255,0)) );
+    background-image: -moz-linear-gradient(left, rgba(255,255,255,.55), rgba(255,255,255,0) 50%, rgba(255,255,255,0) 80%, rgba(255,255,255,.5) );
+    background-image: gradient(linear, 0% 0, 100% 0, from( rgba(255,255,255,.55) ), to( rgba(255,255,255,.5) ), color-stop(.5, rgba(255,255,255,0)), color-stop(.8, rgba(255,255,255,0)) );
+
+.icon-toggle-animation-cross
+  filter drop-shadow(0 0 10px #FF0000)
+  .toggle-content
+    width 40px !important
+    height 20px !important
+    background #87cefa 
+    &::after
+      width 40px !important
+      height 20px !important
+      transform rotate(90deg)  
+      background #87cefa
+
+.icon-toggle-animation-jump
+  animation-name jump
+  .toggle-content
+    transform rotate(45deg)
+    border-left 2px solid #000000
+    border-top 2px solid #000000
+    &::after
+      border-left 2px solid #000000
+      border-top 2px solid #000000
+.icon-toggle-animation-diving
+  animation-name diving
+  .toggle-content  
+    transform rotate(45deg)
+    border-right 2px solid #000000
+    border-bottom 2px solid #000000
+    &::after
+      border-right 2px solid #000000
+      border-bottom 2px solid #000000
+.icon-toggle
+  border none
+  background transparent
+  padding 0
+  margin 0 auto
+  width 2em
+  text-align center
+  vertical-align middle
+  font-size 12px
+
+  &:hover
+    animation-duration 1s
+    animation-timing-function ease
+    animation-iteration-count infinite
+  .toggle-content
+    width 1em
+    height 1em    
+    position relative
+    display inline-block
+    &::after    
+      position absolute
+      left 4px
+      top 4px 
+      content " "
+      width 1em
+      height 1em
 
 @media screen and (min-width 1366px)
   .block

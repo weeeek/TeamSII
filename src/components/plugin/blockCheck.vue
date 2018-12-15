@@ -1,10 +1,7 @@
 <template>
     <div class="block-check">
-        <input type="checkbox" :id="`check-${id}`" class="offscreen" v-if="status" />
-        <input type="checkbox" :id="`check-${id}`" class="offscreen" v-if="!status"  checked/>
-        <label :for="`check-${id}`" class="check" :class="theme">
-            {{ text }}
-        </label>
+        <input type="checkbox" :id="`check-${id}`" class="offscreen" :checked="status" @change="switchChange()"/>
+        <label :for="`check-${id}`" class="check" :class="theme">{{ text }}</label>
     </div>
 </template>
 
@@ -27,6 +24,21 @@
             status:{
                 type:Boolean,
                 default:false
+            }
+        },
+        data () {
+            return {
+                switchStatus: this.status
+            }
+        },
+        mounted(){
+            //不应该直接操作props里的值
+            this.switchStatus = this.status
+        },
+        methods:{
+            switchChange () {
+                this.switchStatus = !this.switchStatus
+                this.$emit('update:status',this.switchStatus)
             }
         }
     }
@@ -95,7 +107,7 @@ input[type='checkbox']:checked
     line-height 18px
     color #FFF
   & + .check
-    background-color #7983ff
+    background-color #87cefa
 
 .offscreen
   position absolute
