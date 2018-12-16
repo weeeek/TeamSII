@@ -6,8 +6,8 @@
     <div class="header-container">
       <div class="header-control">
         <h1 class="title">{{ title }}</h1>
-        <button class="btn-orange btn-gradient btn-radius-t-l btn-radius-b-r" disabled>发帖</button>
-        <button class="btn-default btn-gradient btn-radius-trapezoid" disabled>签到</button>
+        <button class="button blue brackets" disabled>发帖</button>
+        <button class="button green serif skew glossy" disabled>签到</button>
       </div>
     </div>
   </div>
@@ -25,6 +25,8 @@
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
+@import '~common/stylus/bonbonbutton'
+
 @media screen and (min-width 1366px)
   .global-header
     height 220px

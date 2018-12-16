@@ -1,0 +1,315 @@
+$color-1 = rgba(255,255,255,.5)
+$color-2 = rgba(255,255,255,0.8)
+$color-3 = rgba(0,0,0,0.1)
+$color-4 = hsl(0, 0%, 40%)
+$color-5 = hsl(0, 0%, 75%)
+$color-6 = rgba(255,254,255,0.6)
+$color-7 = rgba(0,0,0,0.15)
+$color-8 = hsl(0, 0%, 60%)
+$color-9 = hsl(0, 0%, 45%)
+$color-10 = rgba(0,0,0,0.2)
+$color-11 = hsl(39, 100%, 30%)
+$color-12 = hsl(39, 100%, 50%)
+$color-13 = hsl(39, 100%, 40%)
+$color-14 = hsl(39, 100%, 65%)
+$color-15 = hsl(208, 50%, 40%)
+$color-16 = hsl(208, 100%, 75%)
+$color-17 = hsl(208, 50%, 55%)
+$color-18 = hsl(208, 100%, 83%)
+$color-19 = hsl(88, 70%, 30%)
+$color-20 = hsl(88, 70%, 60%)
+$color-21 = hsl(88, 70%, 40%)
+$color-22 = hsl(88, 70%, 75%)
+$color-23 = hsl(340, 100%, 30%)
+$color-24 = hsl(340, 100%, 75%)
+$color-25 = hsl(340, 70%, 50%)
+$color-26 = hsl(340, 80%, 40%)
+$color-27 = hsl(340, 100%, 83%)
+$color-28 = rgba(0,0,0,0.5)
+$color-29 = hsl(0, 0%, 83%)
+$color-30 = rgba(255,255,255,0.6)
+$color-31 = rgba(0,0,0,0.4)
+$color-32 = rgba(254,255,255,0.9)
+$color-33 = rgba(0,0,0,0.05)
+$color-34 = rgba(255,254,255,0.4)
+$color-35 = rgba(0,0,0,0.3)
+$color-36 = rgba(0,0,0,0.18)
+$color-37 = rgba(255,255,255,.3)
+$color-38 = rgba(255,255,255,0.5)
+
+.button
+    text-decoration none
+    font-weight bold
+    text-shadow $color-1 0 1px 0
+    user-select none
+    padding .5em .6em .4em .6em
+    margin .5em
+    display inline-block
+    position relative
+    border-radius 8px
+    border-top 1px solid $color-2
+    border-bottom 1px solid $color-3
+    background-image gradient(radial, 50% 0, 100, 50% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0.7) )), url('/TeamSII/dist/static/images/noise.png')
+    transition background .2s ease-in-out
+    color $color-4 !important
+    background-color $color-5
+    box-shadow inset $color-6 0 0.3em .3em, inset $color-7 0 -0.1em .3em,  
+						$color-8 0 .1em 3px, $color-9 0 .3em 1px, 
+						$color-10 0 .5em 5px
+
+    &:before
+        font 1.2em/0 sans-serif
+        content attr(data-icon)
+        margin-right 6px
+
+    &.orange
+        color $color-11 !important
+        background-color $color-12
+        box-shadow inset $color-6 0 0.3em .3em, inset $color-7 0 -0.1em .3em,  
+							$color-13 0 .1em 3px, $color-11 0 .3em 1px, 
+							$color-10 0 .5em 5px
+
+        &:hover
+            background-color $color-14
+
+    &.blue
+        color $color-15 !important
+        background-color $color-16
+        box-shadow inset $color-6 0 0.3em .3em, inset $color-7 0 -0.1em .3em,  
+							$color-17 0 .1em 3px, $color-15 0 .3em 1px, 
+							$color-10 0 .5em 5px
+
+        &:hover
+            background-color $color-18
+
+    &.green
+        color $color-19 !important
+        background-color $color-20
+        box-shadow inset $color-6 0 0.3em .3em, inset $color-7 0 -0.1em .3em,  
+							$color-21 0 .1em 3px, $color-19 0 .3em 1px, 
+							$color-10 0 .5em 5px
+
+        &:hover
+            background-color $color-22
+
+    &.pink
+        color $color-23 !important
+        background-color $color-24
+        box-shadow inset $color-6 0 0.3em .3em, inset $color-7 0 -0.1em .3em,  
+							$color-25 0 .1em 3px, $color-26 0 .3em 1px, 
+							$color-10 0 .5em 5px
+
+        &:hover
+            background-color $color-27
+
+    &.transparent
+        color $color-28 !important
+
+        &:hover
+            opacity .9
+
+    &:hover
+        background-color $color-29
+
+    &:active
+        background-image gradient(radial, 50% 0, 100, 50% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0) )), url('/TeamSII/dist/static/images/noise.png')
+        box-shadow inset $color-30 0 0.3em .3em, inset $color-10 0 -0.1em .3em,  
+							$color-31 0 .1em 1px, 
+							$color-10 0 .2em 6px
+        transform translateY(.2em)
+
+    &:focus
+        outline none
+        color $color-32 !important
+        text-shadow $color-10 0 1px 2px
+
+    &.glass
+        text-shadow $color-1 0 -1px 0, $color-36 0 .18em .15em
+
+        &:active
+            text-shadow $color-37 0 1px 0, $color-7 0 .18em .15em
+
+button
+    &.button
+        border-left none
+        border-right none
+
+        &:hover
+            cursor pointer
+
+.icon
+    font-weight normal
+    font-style normal
+
+    &:before
+        display block
+        height .75em
+        line-height .75em
+        margin 0
+
+.button.transparent
+.button.transparent:hover
+.button.transparent:active
+    background-color transparent
+    background-image none
+
+.button[disabled]
+.button[disabled]:hover
+.button.disabled
+.button.disabled:hover
+    opacity .5
+    cursor default
+    color $color-10 !important
+    text-shadow none !important
+    background-color $color-33
+    background-image none
+    border-top none
+    box-shadow inset $color-34 0 0.3em .3em, inset $color-3 0 -0.1em .3em,  
+							$color-35 0 .1em 1px, 
+							$color-10 0 .2em 6px
+    transform translateY(5px)
+
+.serif
+    font-weight normal
+
+.xs
+    font-size 16px
+
+.xl
+    font-size 32px
+
+.button.glossy:after
+.button.glass:after
+    content ""
+    position absolute
+    width 90%
+    height 60%
+    top 0
+    left 5%
+    border-radius .5em .5em 1em 1em / .5em .5em 2em 2em
+    background-image -webkit-gradient(linear, 0% 0, 100% 0, from( rgba(255,255,255,.55) ), to( rgba(255,255,255,.5) ),
+    							color-stop(.5, rgba(255,255,255,0)), color-stop(.8, rgba(255,255,255,0)) )
+    background-image gradient(linear, 0% 0, 100% 0, from( rgba(255,255,255,.55) ), to( rgba(255,255,255,.5) ),
+    							color-stop(.5, rgba(255,255,255,0)), color-stop(.8, rgba(255,255,255,0)) )
+
+.button.glossy:active:after
+.button.glass:active:after
+.button.disabled:after
+.button[disabled]:after
+    opacity .6
+
+.button.icon.glossy:after
+.button.icon.glass:after
+    height 75%
+
+.round
+.round.glossy:after
+.round.glass:after
+    border-top none
+    border-radius 1em
+
+.oval
+    border-top none
+    padding-left .8em
+    padding-right .8em
+    border-radius 5em / 2em
+
+    &.icon
+        padding-left .8em
+        padding-right .8em
+        border-radius 1.5em / 1em
+
+.oval.glossy:after
+.oval.glass:after
+    top 5%
+    border-radius 5em / 2em 2em 1em 1em
+
+.oval.icon.glossy:after
+.oval.icon.glass:after
+    border-radius 1.5em / 1em
+
+.brackets
+.brackets.glossy:after
+.brackets.glass:after
+    border-top none
+    border-radius .5em / 1em
+
+.skew
+    border-top none
+    padding-right 1.2em
+    padding-left 0.8em
+    border-radius 5em 1em / 5em 1em
+
+    &.icon
+        padding-right .9em
+        padding-left .8em
+
+.skew.glossy:after
+.skew.glass:after
+    left 10%
+    border-radius 7em 1em / 5em 1em
+
+.back
+.back.glossy:after
+.back.glass:after
+    border-top-color $color-38
+    border-radius 1.6em 1.6em 1em 1em / 4em 4em 1em 1em
+
+.back.glossy:after
+.back.glass:after
+    left 6%
+    width 88%
+
+.knife
+    padding-left 1.5em
+    border-radius .2em .5em .5em 8em / .2em .5em .5em 5em
+
+.knife.glossy:after
+.knife.glass:after
+    left 3%
+    width 97%
+    border-radius .1em .5em .5em 8em / .1em .5em .5em 2em
+
+.knife.glossy.icon:after
+.knife.glass.icon:after
+    left 5%
+    width 95%
+    border-radius .5em .5em 1em 6em / .5em .5em 1em 4em
+
+.shield
+.shield.glossy:after
+.shield.glass:after
+    border-radius .4em .4em 2em 2em / .4em .4em 3em 3em
+
+.shield
+    padding-left .8em
+    padding-right .8em
+
+    &.icon
+        padding-left .6em
+        padding-right .6em
+
+.drop
+    border-top none
+    border-radius 2em 5em  2em .6em / 2em 4em 2em .6em
+
+    &.icon
+        padding-right .6em
+
+.drop.glossy:after
+.drop.glass:after
+    left 4%
+    border-radius 2em 6em  2em 1em / 2em 4em 2em 2em
+
+.morph
+    border-top none
+    border-radius 5em / 2em
+
+    &:hover
+        border-radius .4em .4em 2em 2em / .4em .4em 3em 3em
+
+    &:active
+        border-radius .3em
+
+    &:after
+        display none

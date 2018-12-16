@@ -7,8 +7,12 @@
             <div class="member-switch">
               <switcher :onText="``" :offText="``" :status.sync="all"></switcher>
             </div>
+            <div class="flex-grow"></div>
+            <button class="icon-toggle" :title="show?'收起':'展开'" :class="{'icon-toggle-animation-jump':show,'icon-toggle-animation-diving':!show}" @click="show=!show">
+              <div class="toggle-content "></div>
+            </button>
           </div>
-          <div class="members" v-show="all">
+          <div class="members" v-show="show">
             <div class="member" v-for="(m, index) in YYHList" :key="m.id">              
               <blockcheck :class="`.member${index}`" :id="m.id" :text="m.name" :status.sync="m.checked"></blockcheck>
             </div>
@@ -43,6 +47,7 @@ export default {
   },
   data () {
     return {
+      show:true,
       all:true,
       blossom:true,
       YYHList:[],
@@ -52,6 +57,9 @@ export default {
   watch:{
     all(newValue){
       this.all = newValue
+      this.YYHList.map((item)=>{
+        item.checked = this.all
+      })
       //console.log(this.all)
     }
   },
@@ -124,9 +132,15 @@ export default {
       flex-grow 0
       flex-shrink 0
     .icon-toggle
-      flex-basis 2em
+      cursor pointer      
+      flex-basis 1em
       flex-grow 0
       flex-shrink 0
+      &:visited      
+      &:focus
+      &:active
+      &:hover
+        box-shadow none
   .members
     flex-grow 1
 .project-wrap

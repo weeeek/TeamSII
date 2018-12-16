@@ -625,17 +625,23 @@ export const tripData = [{
     to: ''
   },
   items: [{
+    nameMonth: '12月30日 19:30',
+    title: '《重生计划》第六场',
+    description: '袁雨桢拉票公演',
+    typeClass: 'dot-blue',
+    url: ''
+  }, {
     nameMonth: '12月22日 19:00',
     title: '《重生计划》第七场',
     description: '吴哲晗、徐子轩拉票公演',
     typeClass: 'dot-blue',
     url: ''
   }, {
-    nameMonth: '12月30日 19:30',
-    title: '《重生计划》第六场',
-    description: '袁雨桢拉票公演',
-    typeClass: 'dot-blue',
-    url: ''
+    nameMonth: '12月16日',
+    title: '7SENSES《由你音乐榜》',
+    description: '《天鹅SWAN》首秀',
+    typeClass: 'dot-green',
+    url: 'https://www.bilibili.com/video/av38329892'
   }, {
     nameMonth: '12月13日 19:30',
     title: '《重生计划》第五场',
@@ -686,16 +692,16 @@ export const tripData = [{
     url: 'https://www.bilibili.com/video/av36605536'
   }, {
     nameMonth: '11月17日 19:00',
-    title: '《美丽48区》张语格生日公演',
+    title: '张语格生日公演，《第48区》公演千秋乐，TeamSII五周年',
     description: '出席成员：张语格，陈思，袁丹妮.........',
     typeClass: 'dot-blue',
-    url: ''
+    url: 'https://www.bilibili.com/video/av36242302'
   }, {
     nameMonth: '11月3日 14:00',
     title: '《美丽48区》公演普通场',
     description: '出席成员：莫寒，孔肖吟，李宇琪，邵雪聪，袁丹妮，徐晨辰，袁雨桢，刘增艳，徐伊人，孙芮，钱蓓婷，温晶婕',
     typeClass: 'dot-blue',
-    url: ''
+    url: 'https://www.bilibili.com/video/av35204783'
   }, {
     nameMonth: '11月1日 19:00',
     title: '超新星运动会',
