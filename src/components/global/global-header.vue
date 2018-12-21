@@ -6,8 +6,8 @@
     <div class="header-container">
       <div class="header-control">
         <h1 class="title">{{ title }}</h1>
-        <button class="button blue brackets" disabled>发帖</button>
-        <button class="button green serif skew glossy" disabled>签到</button>
+        <button class="button blue brackets">发帖</button>
+        <button class="button green skew">签到</button>
       </div>
     </div>
   </div>
@@ -44,7 +44,6 @@
         margin-left 220px
         padding 10px 10px 10px 0
         h1
-          margin 10px 0
           font-size 32px
       .title
           width 100%
@@ -65,7 +64,7 @@
     height 110px
     position relative
     .header-container
-      height 55px
+      height 65px
       position absolute
       bottom 0
       left 0
@@ -77,8 +76,12 @@
         margin-left 110px
         padding 5px 5px 5px 0
         h1
-          margin 5px 0
+          margin 4px 0
           font-size 16px
+        button
+          font-size 12px
+          line-height 12px
+          height 18px
       .title
           width 100%
     .logo

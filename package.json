@@ -34,6 +34,7 @@
     "vue-highcharts": "^0.0.10",
     "vue-lazyload": "^1.0.3",
     "vue-router": "^2.5.3",
+    "vue2-collapse": "^1.0.15",
     "vue2-highcharts": "^1.2.5",
     "vuex": "^2.3.1"
   },

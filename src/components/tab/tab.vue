@@ -17,7 +17,7 @@
     </keep-alive>
     <keep-alive>
       <router-link tag="div" class="tab-item" to="/article">
-        <span class="tab-link">同人文</span>
+        <span class="tab-link">文章</span>
       </router-link>
     </keep-alive>
     <keep-alive>

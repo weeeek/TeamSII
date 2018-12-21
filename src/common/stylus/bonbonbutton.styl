@@ -38,6 +38,7 @@ $color-37 = rgba(255,255,255,.3)
 $color-38 = rgba(255,255,255,0.5)
 
 .button
+    line-height 26px
     text-decoration none
     font-weight bold
     text-shadow $color-1 0 1px 0
@@ -55,12 +56,7 @@ $color-38 = rgba(255,255,255,0.5)
     background-color $color-5
     box-shadow inset $color-6 0 0.3em .3em, inset $color-7 0 -0.1em .3em,  
 						$color-8 0 .1em 3px, $color-9 0 .3em 1px, 
-						$color-10 0 .5em 5px
-
-    &:before
-        font 1.2em/0 sans-serif
-        content attr(data-icon)
-        margin-right 6px
+						$color-10 0 .5em 5px    
 
     &.orange
         color $color-11 !important

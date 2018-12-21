@@ -357,6 +357,30 @@ export const recommendConfig = {
       img: 'https://i1.hdslb.com/bfs/archive/aee94020bd4ec1ab996ac61fb90b76c4095a4507.jpg_380x240.jpg'
     }]
   }, {
+    type: '合集',
+    list: [{
+      title: 'Team SII 小品',
+      from: 'B',
+      av: 'av3754688',
+      img: 'https://i1.hdslb.com/bfs/archive/52dc36de2bfd7837c4db97b600ac28542029f05d.jpg_380x240.jpg'
+    }, {
+      title: 'S队“事故”现场',
+      from: 'B',
+      av: 'av3905126',
+      img: 'http://i0.hdslb.com/bfs/archive/31f5c88d601c0514fa736764de9caaff327e0414.jpg_380x240.jpg'
+    }, {
+      title: '心的旅程MC+生日表演环节',
+      from: 'B',
+      av: 'av10311516',
+      img: 'https://i0.hdslb.com/bfs/archive/e94e28e1fa8704ba41ee617f8f60ea5e21ff3f94.jpg_380x240.jpg'
+    }, {
+      title: '2016-2017成员看视频reaction',
+      from: 'B',
+      av: 'av16966158',
+      img: 'http://i0.hdslb.com/bfs/archive/824b94d586fca0600f9c6eb15946c5b04a94dbd6.jpg_380x240.jpg'
+    }]
+  },
+  {
     type: '影视',
     list: [{
       title: '梦想预备生',
@@ -380,6 +404,42 @@ export const recommendConfig = {
       img: 'http://itedou.com/Public/kindeditor/attached/image/20171013/20171013144953_63689.png'
     }]
   }, {
+    type: '鬼畜',
+    list: [{
+      title: '我饭的爱豆怎么这么社会',
+      from: 'B',
+      av: 'av5841033',
+      img: 'http://i2.hdslb.com/bfs/archive/a12777759524fd5005f27cbc4b54dbbd8a599c21.jpg_380x240.jpg'
+    }, {
+      title: '普通的社会队表情包',
+      from: 'B',
+      av: 'av7803827',
+      img: 'http://i0.hdslb.com/bfs/archive/77bb14fea9136808b3d1bd01246c66103e4c05a8.jpg_380x240.jpg'
+    }, {
+      title: '最骚社会话',
+      from: 'B',
+      av: 'av23573616',
+      img: 'http://i2.hdslb.com/bfs/archive/6ff750084ea174537c4e1ad7c7e5d79b5c5cc2cf.jpg_380x240.jpg'
+    }, {
+      title: 'SNH48和你一起学语文',
+      from: 'B',
+      av: 'av6105242',
+      img: 'http://i2.hdslb.com/bfs/archive/d329157389d217eee31da8b5c8cbe0ce94980ffe.jpg_380x240.jpg'
+    }, {
+      title: '《The SII》',
+      from: 'B',
+      av: 'av7029870',
+      img: 'http://i2.hdslb.com/bfs/archive/090a85c911b75dfffd6d7aa1f632e792d50173ae.jpg_380x240.jpg'
+    }]
+  }, {
+    type: '科普',
+    list: [{
+      title: '零期生冯晓菲的传奇人生',
+      from: 'B',
+      av: 'av15965863',
+      img: 'http://i1.hdslb.com/bfs/archive/44803602dee6cc79137a3828b2dc59d87f525fce.jpg_380x240.jpg'
+    }]
+  }, {
     type: '纪录片',
     list: [{
       title: '一期生成长史',
@@ -400,35 +460,15 @@ export const recommendConfig = {
   }, {
     type: '饭制视频',
     list: [{
-      title: '猫和老鼠《S喵协作曲》',
-      from: 'B',
-      av: '14354411',
+      title: '猫和老鼠系列',
+      from: 'O',
+      url: 'https://space.bilibili.com/12444300/favlist?fid=445722',
       img: 'https://i2.hdslb.com/bfs/archive/12c7b802283be38c089de270dbbe69c88f65415c.png_380x240.png'
     }, {
-      title: '猫和老鼠《MC传奇演唱会》',
-      from: 'B',
-      av: '14694094',
-      img: 'https://i2.hdslb.com/bfs/archive/c2311a8711cab2661823db51a408e2e5da1608ad.png_380x240.png'
-    }, {
-      title: '猫和老鼠《CAT48天选之猫》',
-      from: 'B',
-      av: '14930061',
-      img: 'https://i2.hdslb.com/bfs/archive/02d1da08a3db1c8267c9896db189a86435c55128.png_380x240.png'
-    }, {
-      title: '猫和老鼠《逐梦48区》',
-      from: 'B',
-      av: '152083391',
-      img: 'https://i1.hdslb.com/bfs/archive/6e07e317233efb16d3688cf851ed27c89e5138fa.png_380x240.png'
-    }, {
-      title: '猫和老鼠《0期ACE》',
-      from: 'B',
-      av: '15601710',
-      img: 'https://i1.hdslb.com/bfs/archive/c12f071ceb8795f7a0ab9bee998c2aeeca93bee6.jpg_380x240.jpg'
-    }, {
-      title: '猫和老鼠《S的诱惑》',
-      from: 'B',
-      av: '18065339',
-      img: 'https://i0.hdslb.com/bfs/archive/6d175a9c37786e93fe52ce5433848f224f57ade5.jpg_380x240.jpg'
+      title: '大师之大',
+      from: 'O',
+      url: 'https://space.bilibili.com/33670738/favlist?fid=2831864',
+      img: 'http://i0.hdslb.com/bfs/archive/a72d5816d65f82acda05d590869aad99be1059b6.jpg_380x240.jpg'
     }]
   }, {
     type: '演奏',
@@ -450,6 +490,11 @@ export const recommendConfig = {
       from: 'B',
       av: '35704665',
       img: 'https://i1.hdslb.com/bfs/archive/15163e067062949284cc640002540b0217d8165b.jpg_380x240.jpg'
+    }, {
+      title: '社会镇-唯美版',
+      from: 'B',
+      av: 'av9543580',
+      img: 'http://i1.hdslb.com/bfs/archive/f4b0820f68a1040ad0fc59c74f41be3be2ceea11.jpg_380x240.jpg'
     }]
   }, {
     type: '游戏',
@@ -636,6 +681,12 @@ export const tripData = [{
     description: '吴哲晗、徐子轩拉票公演',
     typeClass: 'dot-blue',
     url: ''
+  }, {
+    nameMonth: '12月20日',
+    title: '搜狗IN全景·臻选礼',
+    description: '《第48区》',
+    typeClass: 'dot-green',
+    url: 'https://www.bilibili.com/video/av38609505'
   }, {
     nameMonth: '12月16日',
     title: '7SENSES《由你音乐榜》',
