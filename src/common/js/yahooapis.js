@@ -2,7 +2,7 @@ import jQuery from 'jquery'
 
 export default function getJson (url, data, fn) {
   url += (url.indexOf('?') < 0 ? '?' : '&') + param(data)
-  jQuery.getJSON(`http://query.yahooapis.com/v1/public/yql`, {
+  jQuery.getJSON(`https://query.yahooapis.com/v1/public/yql`, {
     q: `select * from json where url='${url}'`,
     format: 'json'
   }, function (response) {

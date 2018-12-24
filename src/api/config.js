@@ -677,10 +677,10 @@ export const tripData = [{
     url: ''
   }, {
     nameMonth: '12月22日 19:00',
-    title: '《重生计划》第七场',
-    description: '吴哲晗、徐子轩拉票公演',
+    title: '《重生计划》第七场 吴哲晗、徐子轩小组合拉票公演',
+    description: '出席成员：吴哲晗，徐子轩，许佳琪，袁雨桢，温晶婕，蒋芸，徐晨辰，孔肖吟，莫寒，钱蓓婷，戴萌，徐伊人，袁丹妮，邵雪聪，刘增艳',
     typeClass: 'dot-blue',
-    url: ''
+    url: 'https://www.bilibili.com/video/av38782017'
   }, {
     nameMonth: '12月22日',
     title: '深圳卫视《极速环游记》',
@@ -689,7 +689,7 @@ export const tripData = [{
     url: ''
   }, {
     nameMonth: '12月21日 19:30',
-    title: '《重生计划》第六场，袁雨桢拉票公演，许佳琪噩梦轮回首演',
+    title: '《重生计划》第六场，袁雨桢小组合拉票公演，许佳琪噩梦轮回首演',
     description: '出席成员：许佳琪，袁雨桢，温晶婕，蒋芸，徐晨辰，孔肖吟，莫寒，钱蓓婷，戴萌，徐伊人，袁丹妮，邵雪聪，刘增艳',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av38690294'
