@@ -5,7 +5,7 @@
       <v-collapse-wrapper  v-for="a in articleDatas" :key="a.name">
         <div class="header" v-collapse-toggle>
             <span :class="{'member':a.member}">{{ a.name }}</span>
-            <a target="_blank" :class="{'member':a.member}">{{ a.author.name }}</a>
+            <a target="_blank" :href="a.author.link" :class="{'member':a.member}">{{ a.author.name }}</a>
         </div>
         <div class="content" v-collapse-content>
           <ol>

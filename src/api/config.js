@@ -396,7 +396,7 @@ export const recommendConfig = {
       title: '倔强甜心',
       from: 'I',
       url: 'v_19rrbo53t0',
-      img: 'http://img2.dzwww.com:8888/tupian/20180306/20180306125692701e1d8a6139.jpg'
+      img: 'http://5b0988e595225.cdn.sohucs.com/images/20180307/7faf44143c4141a5966fe87f1c221688.jpeg'
     }, {
       title: '贴身校花',
       from: 'L',
@@ -503,6 +503,14 @@ export const recommendConfig = {
       from: 'G',
       url: 'https://weeeek.github.io/SNH48Kill/',
       img: 'https://camo.githubusercontent.com/3fe4a55c41d753a7a482e2e66ecfce244d78051c/68747470733a2f2f77656565656b2e6769746875622e696f2f534e4834384b696c6c2f696d6167652f73637265656e73686f742f73656c6563744d6f64652e6a7067'
+    }]
+  }, {
+    type: '狂欢',
+    list: [{
+      title: '2018.12.23奇迹饲养员公演',
+      from: 'B',
+      av: 'av38906005',
+      img: 'http:////i2.hdslb.com/bfs/archive/e08d35bffd9bcd34ff4fd9e6cabc73ae1b7bc3a9.jpg_380x240.jpg'
     }]
   }]
 }
@@ -678,7 +686,7 @@ export const tripData = [{
   }, {
     nameMonth: '12月22日 19:00',
     title: '《重生计划》第七场 吴哲晗、徐子轩小组合拉票公演',
-    description: '出席成员：吴哲晗，徐子轩，许佳琪，袁雨桢，温晶婕，蒋芸，徐晨辰，孔肖吟，莫寒，钱蓓婷，戴萌，徐伊人，袁丹妮，邵雪聪，刘增艳',
+    description: '出席成员：吴哲晗，徐子轩，许佳琪，袁雨桢，温晶婕，蒋芸，孙芮，徐晨辰，孔肖吟，莫寒，钱蓓婷，戴萌，徐伊人，袁丹妮，邵雪聪，刘增艳',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av38782017'
   }, {
@@ -690,7 +698,7 @@ export const tripData = [{
   }, {
     nameMonth: '12月21日 19:30',
     title: '《重生计划》第六场，袁雨桢小组合拉票公演，许佳琪噩梦轮回首演',
-    description: '出席成员：许佳琪，袁雨桢，温晶婕，蒋芸，徐晨辰，孔肖吟，莫寒，钱蓓婷，戴萌，徐伊人，袁丹妮，邵雪聪，刘增艳',
+    description: '出席成员：许佳琪，袁雨桢，温晶婕，蒋芸，徐晨辰，孔肖吟，孙芮，莫寒，钱蓓婷，戴萌，徐伊人，袁丹妮，邵雪聪，刘增艳',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av38690294'
   }, {

@@ -51,7 +51,6 @@
         let list = []
         let count = Math.floor(this.pagegroup / 2)
         let center = this.current
-
         if (len <= this.pagegroup) {
           while (len--) {
             temp.push({text: this.page - len, val: this.page - len})
@@ -61,9 +60,11 @@
         while (len--) {
           temp.push(this.page - len)
         }
-        // let idx = temp.indexOf(center)
-        // (idx < count) && ( center = center + count - idx)
-        // (this.current > this.page - count) && (center = this.page - count)
+        let idx = temp.indexOf(center)
+        if (idx < count)
+          center = center + count - idx
+        if (this.current > this.page - count)
+          center = this.page - count
         temp = temp.splice(center - count - 1, this.pagegroup)
         do {
           let t = temp.shift()
@@ -73,8 +74,11 @@
           })
         } while (temp.length)
         if (this.page > this.pagegroup) {
-          // (this.current > count + 1) && list.unshift({text: '...', val: list[0].val - 1})
-          // (this.current < this.page - count) && list.push({text: '...', val: list[list.length - 1].val + 1})
+          if (this.current > count + 1){
+            list.unshift({text: '...', val: list[0].val - 1})
+          }
+          if (this.current < this.page - count) 
+            list.push({text: '...', val: list[list.length - 1].val + 1})
         }
         return list
       }
@@ -91,31 +95,34 @@
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
+@import '~common/stylus/variable'
   .pagination
-    overflow: hidden
-    display: table
-    margin: 0 auto
-    /*width: 100%*/
-    height: 50px
+    overflow hidden
+    display table
+    margin 0 auto
+    /*width 100%*/
+    height 50px
   li
-    float: left
-    height: 30px
-    border-radius: 5px
-    margin: 3px
-    color: #666666
+    float left
+    height 30px
+    border-radius 5px
+    margin 3px
+    color #666666
+    animation all .6s linear
     &:hover
-      background: #000000
-      color: #666666
+      background $color-team-sii
+      a
+        color #FFFFFF
   a
-    display: block
-    width: 30px
-    height: 30px
-    text-align: center
-    line-height: 30px
-    font-size: 12px
-    border-radius: 5px
-    text-decoration: none
+    display block
+    width 30px
+    height 30px
+    text-align center
+    line-height 30px
+    font-size 12px
+    border-radius 5px
+    text-decoration none    
     .active
-      color: #666666
-      background: #000000
+      color #FFFFFF
+      background $color-team-sii
 </style>

@@ -5,7 +5,7 @@
         <a class="active">
           全部<span class="count">{{total}}</span>
         </a>
-        <a class="" v-for="t in categories" :key="t.tid">
+        <a class="" v-for="t in categories" :key="t.tid" title="筛选功能建设中...">
           {{t.name}}<span class="count">{{t.count}}</span>
         </a>
       </div>
@@ -35,7 +35,7 @@ export default {
   data () {
     return {
       total: 0, // 记录总条数
-      display: this.$route.display ? this.$route.display : 30, // 每页显示条数
+      display: this.$route.display ? this.$route.display : 20, // 每页显示条数
       current: this.$route.page ? this.$route.page : 1, // 当前的页数
       videolist: [],
       categories: []

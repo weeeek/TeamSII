@@ -6,8 +6,8 @@
     <div class="header-container">
       <div class="header-control">
         <h1 class="title">{{ title }}</h1>
-        <button class="button blue brackets">发帖</button>
-        <button class="button green skew">签到</button>
+        <button class="button blue brackets" title="功能完善中...">发帖</button>
+        <button class="button green skew" title="功能完善中...">签到</button>
       </div>
     </div>
   </div>
