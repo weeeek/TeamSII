@@ -465,7 +465,7 @@ export const recommendConfig = {
       url: 'https://space.bilibili.com/12444300/favlist?fid=445722',
       img: 'https://i2.hdslb.com/bfs/archive/12c7b802283be38c089de270dbbe69c88f65415c.png_380x240.png'
     }, {
-      title: '大师之大',
+      title: '蘑菇蹲',
       from: 'O',
       url: 'https://space.bilibili.com/33670738/favlist?fid=2831864',
       img: 'http://i0.hdslb.com/bfs/archive/a72d5816d65f82acda05d590869aad99be1059b6.jpg_380x240.jpg'
@@ -671,8 +671,8 @@ export const tripData = [{
   },
   items: [{
     nameMonth: '12月30日 19:30',
-    title: '《重生计划》第六场',
-    description: '袁雨桢拉票公演',
+    title: '《重生计划》第八场',
+    description: '',
     typeClass: 'dot-blue',
     url: ''
   }, {
@@ -681,6 +681,18 @@ export const tripData = [{
     description: '吴哲晗、徐子轩拉票公演',
     typeClass: 'dot-blue',
     url: ''
+  }, {
+    nameMonth: '12月22日',
+    title: '深圳卫视《极速环游记》',
+    description: '孙芮，李艺彤',
+    typeClass: 'dot-green',
+    url: ''
+  }, {
+    nameMonth: '12月21日 19:30',
+    title: '《重生计划》第六场，袁雨桢拉票公演，许佳琪噩梦轮回首演',
+    description: '出席成员：许佳琪，袁雨桢，温晶婕，蒋芸，徐晨辰，孔肖吟，莫寒，钱蓓婷，戴萌，徐伊人，袁丹妮，邵雪聪，刘增艳',
+    typeClass: 'dot-blue',
+    url: 'https://www.bilibili.com/video/av38690294'
   }, {
     nameMonth: '12月20日',
     title: '搜狗IN全景·臻选礼',
@@ -702,7 +714,7 @@ export const tripData = [{
   }, {
     nameMonth: '12月13日',
     title: '《养乐多青春剧场》第一话·相见恨晚',
-    description: '莫寒',
+    description: '莫寒 费沁源',
     typeClass: 'dot-green',
     url: 'https://www.bilibili.com/video/av38098402'
   }, {

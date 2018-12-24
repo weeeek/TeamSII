@@ -1,6 +1,5 @@
 @import "animation.styl"
-body
-  margin-right calc(100% - 100vw)
+
 a
   color #2c3e50
   text-decoration none
@@ -8,11 +7,21 @@ a
 input,button[disabled]
   cursor not-allowed
 
-.block
-  background #FFFFFF
-
 .flex-grow
   flex-grow 1
+
+.text-ellipsis
+  overflow hidden
+  text-overflow ellipsis
+  white-space nowrap
+.text-ellipsis-mul
+  overflow hidden
+  text-overflow ellipsis
+  white-space break
+  display -webkit-box
+  -webkit-line-clamp 2
+  -webkit-box-orient vertical
+
 .btn-radius-t-l
   border-top-left-radius 50% 100%
 .btn-radius-b-r
@@ -31,8 +40,8 @@ input,button[disabled]
 
 .btn-gradient
   &.glassy
-    text-shadow: rgba(255,255,255,.5) 0 -1px 0, rgba(0,0,0,0.18) 0 0.18em 0.15em;
-  position relative
+    text-shadow rgba(255,255,255,.5) 0 -1px 0, rgba(0,0,0,0.18) 0 0.18em 0.15em
+    position relative
   &:after
     content ""
     position absolute
@@ -41,18 +50,18 @@ input,button[disabled]
     top 0
     left 5%
     background-image -webkit-gradient(linear, 0% 0, 100% 0, from( rgba(255,255,255,.55) ), to( rgba(255,255,255,.5) ), color-stop(.5, rgba(255,255,255,0)), color-stop(.8, rgba(255,255,255,0)) )
-	  background-image -moz-linear-gradient(left, rgba(255,255,255,.55), rgba(255,255,255,0) 50%, rgba(255,255,255,0) 80%, rgba(255,255,255,.5) )
-	  background-image gradient(linear, 0% 0, 100% 0, from( rgba(255,255,255,.55) ), to( rgba(255,255,255,.5) ), color-stop(.5, rgba(255,255,255,0)), color-stop(.8, rgba(255,255,255,0)) )
+    background-image -moz-linear-gradient(left, rgba(255,255,255,.55), rgba(255,255,255,0) 50%, rgba(255,255,255,0) 80%, rgba(255,255,255,.5) )
+    background-image gradient(linear, 0% 0, 100% 0, from( rgba(255,255,255,.55) ), to( rgba(255,255,255,.5) ), color-stop(.5, rgba(255,255,255,0)), color-stop(.8, rgba(255,255,255,0)) )
 .icon-toggle-animation-cross
   filter drop-shadow(0 0 10px #FF0000)
   .toggle-content
     width 40px !important
     height 20px !important
     background #87cefa 
-    &::after
+    &:after
       width 40px !important
       height 20px !important
-      transform rotate(90deg)  
+      transform rotate(90deg)
       background #87cefa
 
 .icon-toggle-animation-jump
@@ -61,16 +70,16 @@ input,button[disabled]
     transform rotate(45deg)
     border-left 2px solid #000000
     border-top 2px solid #000000
-    &::after
+    &:after
       border-left 2px solid #000000
       border-top 2px solid #000000
 .icon-toggle-animation-diving
   animation-name diving
-  .toggle-content  
+  .toggle-content
     transform rotate(45deg)
     border-right 2px solid #000000
     border-bottom 2px solid #000000
-    &::after
+    &:after
       border-right 2px solid #000000
       border-bottom 2px solid #000000
 .icon-toggle
@@ -82,17 +91,16 @@ input,button[disabled]
   text-align center
   vertical-align middle
   font-size 12px
-
   &:hover
     animation-duration 1s
     animation-timing-function ease
     animation-iteration-count infinite
   .toggle-content
     width 1em
-    height 1em    
+    height 1em
     position relative
     display inline-block
-    &::after    
+    &:after 
       position absolute
       left 4px
       top 4px 
@@ -102,29 +110,28 @@ input,button[disabled]
 
 @media screen and (min-width 1366px)
   .block
+    background-color white
     margin 15px 0
     padding 20px
     width 100%
     height auto
     &.nobg
       background transparent
-
   button
     width 82px
   .btn-default
     box-shadow 0px 1px 2px rgba(0,0,0,0.1)
-    &hover
+    &:hover
       box-shadow 0 1px 2px rgba(0,0,0,0.15)
   .btn-orange
     color white
     background #fa7d3c
     background -webkit-linear-gradient(top, #fa7d3c 0%,#f55f10 100%)
     background linear-gradient(top bottom, #fa7d3c 0%,#f55f10 100%)
-    &hover
+    &:hover
       background #f4722e
       background -webkit-linear-gradient(top, #f4722e 0%,#f05807 100%)
       background linear-gradient(top bottom, #f4722e 0%,#f05807 100%)
-
   .link
     color $color-team-sii
   .img-content
@@ -148,21 +155,10 @@ input,button[disabled]
     background-size cover
     margin-right 16px
 
-  .text-ellipsis  
-    overflow hidden
-    text-overflow ellipsis
-    white-space nowrap
-
-  .text-ellipsis-mul
-    overflow hidden
-    text-overflow ellipsis
-    white-space break
-    display -webkit-box
-    -webkit-line-clamp 2
-    -webkit-box-orient vertical
-
+/*当屏幕尺寸小于1366px时，应用下面的CSS样式*/
 @media screen and (max-width 1366px)
   .block
+    background-color white
     margin 10px 0
     padding 10px
     width 100%
@@ -176,18 +172,17 @@ input,button[disabled]
     font-size 10px
   .btn-default
     box-shadow 0px 1px 2px rgba(0,0,0,0.1)
-    &hover
+    &:hover
       box-shadow 0 1px 2px rgba(0,0,0,0.15)
   .btn-orange
     color white
     background #fa7d3c
     background -webkit-linear-gradient(top, #fa7d3c 0%,#f55f10 100%)
     background linear-gradient(top bottom, #fa7d3c 0%,#f55f10 100%)
-    &hover
+    &:hover
       background #f4722e
       background -webkit-linear-gradient(top, #f4722e 0%,#f05807 100%)
       background linear-gradient(top bottom, #f4722e 0%,#f05807 100%)
-
   .link
     color $color-team-sii
   .img-content
@@ -210,17 +205,3 @@ input,button[disabled]
     background-repeat no-repeat
     background-size cover
     margin-right 8px
-
-  .text-ellipsis  
-    overflow hidden
-    text-overflow ellipsis
-    white-space nowrap
-
-  .text-ellipsis-mul
-    overflow hidden
-    text-overflow ellipsis
-    white-space break
-    display -webkit-box
-    -webkit-line-clamp 2
-    -webkit-box-orient vertical
-  
