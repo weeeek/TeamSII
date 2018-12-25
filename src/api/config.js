@@ -464,6 +464,11 @@ export const recommendConfig = {
       av: '15965863',
       img: 'http://i1.hdslb.com/bfs/archive/44803602dee6cc79137a3828b2dc59d87f525fce.jpg_380x240.jpg'
     }, {
+      title: '蘑菇蹲',
+      from: 'O',
+      url: 'https://space.bilibili.com/33670738/favlist?fid=2831864',
+      img: 'http://i0.hdslb.com/bfs/archive/a72d5816d65f82acda05d590869aad99be1059b6.jpg_380x240.jpg'
+    }, {
       title: '这个世界太脏了',
       from: 'B',
       av: '3610879',

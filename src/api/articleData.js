@@ -1,6 +1,6 @@
 export const articleDatas = [{
   member: false,
-  finish: false,
+  finish: true,
   name: '重生计划-硝烟终奏',
   author: {
     name: '晓白鵺',
@@ -54,6 +54,18 @@ export const articleDatas = [{
     chapter: 12,
     title: '理由',
     url: 'http://t.cn/E4MVJu7'
+  }, {
+    chapter: 13,
+    title: '暗杀',
+    url: 'http://t.cn/E4X1OHl'
+  }, {
+    chapter: 14,
+    title: 'somewhere',
+    url: 'http://t.cn/E4S3tL2'
+  }, {
+    chapter: 15,
+    title: '回溯',
+    url: 'http://t.cn/E4p5C3o'
   }]
 }, {
   member: true,
