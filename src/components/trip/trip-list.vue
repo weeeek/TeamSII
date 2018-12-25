@@ -21,25 +21,6 @@ export default {
     }
   },
   created () {
-    // jQuery.ajax(
-    //   {
-    //     url: 'http://www.snh48.com/ticketsinfo.php?act=choose',
-    //     data: { date: this.getYearMonth(), team: 1},
-    //     dataType: "json",
-    //     type:'POST',
-    //     success:function(data){
-    //       data.map((item)=>{
-    //         tripData.push({
-    //           nameMonth: formatDate(item.pretime * 1000),
-    //           title: item.theme,
-    //           description: item.special,
-    //           typeClass: 'dot-blue',
-    //           url:''
-    //         })
-    //       })
-    //     }
-    //   }
-    // )
   },
   methods: {
     getYearMonth(){

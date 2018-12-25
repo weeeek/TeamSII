@@ -438,6 +438,11 @@ export const recommendConfig = {
       from: 'B',
       av: 'av15965863',
       img: 'http://i1.hdslb.com/bfs/archive/44803602dee6cc79137a3828b2dc59d87f525fce.jpg_380x240.jpg'
+    }, {
+      title: '蘑菇蹲',
+      from: 'O',
+      url: 'https://space.bilibili.com/33670738/favlist?fid=2831864',
+      img: 'http://i0.hdslb.com/bfs/archive/a72d5816d65f82acda05d590869aad99be1059b6.jpg_380x240.jpg'
     }]
   }, {
     type: '纪录片',
@@ -464,11 +469,6 @@ export const recommendConfig = {
       from: 'O',
       url: 'https://space.bilibili.com/12444300/favlist?fid=445722',
       img: 'https://i2.hdslb.com/bfs/archive/12c7b802283be38c089de270dbbe69c88f65415c.png_380x240.png'
-    }, {
-      title: '蘑菇蹲',
-      from: 'O',
-      url: 'https://space.bilibili.com/33670738/favlist?fid=2831864',
-      img: 'http://i0.hdslb.com/bfs/archive/a72d5816d65f82acda05d590869aad99be1059b6.jpg_380x240.jpg'
     }]
   }, {
     type: '演奏',
