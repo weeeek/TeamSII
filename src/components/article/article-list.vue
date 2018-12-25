@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div class="block">欢迎投稿，投稿请<a class="link" href="https://weibo.com/u/5266139275">@SNH48 TeamSII应援会</a>，或者发布于<a class="link" target="_blank" href="https://weibo.com/p/100808ece29cf744f4d14b450f0c12999e767b/super_index">“SNH48 TeamSII”超级话题</a></div>
+    <div class="block">欢迎投稿，投稿请<a class="link" href="https://weibo.com/u/5266139275">@SNH48 TeamSII应援会</a>，或者发布于<a class="link" target="_blank" href="https://weibo.com/p/100808ece29cf744f4d14b450f0c12999e767b/super_index">“SNH48 TeamSII”超级话题</a>
+      文章打开后如遇错误码:100098，请先登录微博
+    </div>
     <div class="block">
       <v-collapse-wrapper  v-for="a in articleDatas" :key="a.name">
         <div class="header" v-collapse-toggle>
