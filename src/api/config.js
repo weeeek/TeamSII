@@ -361,22 +361,22 @@ export const recommendConfig = {
     list: [{
       title: 'Team SII 小品',
       from: 'B',
-      av: 'av3754688',
+      av: '3754688',
       img: 'https://i1.hdslb.com/bfs/archive/52dc36de2bfd7837c4db97b600ac28542029f05d.jpg_380x240.jpg'
     }, {
       title: 'S队“事故”现场',
       from: 'B',
-      av: 'av3905126',
+      av: '3905126',
       img: 'http://i0.hdslb.com/bfs/archive/31f5c88d601c0514fa736764de9caaff327e0414.jpg_380x240.jpg'
     }, {
       title: '心的旅程MC+生日表演环节',
       from: 'B',
-      av: 'av10311516',
+      av: '10311516',
       img: 'https://i0.hdslb.com/bfs/archive/e94e28e1fa8704ba41ee617f8f60ea5e21ff3f94.jpg_380x240.jpg'
     }, {
       title: '2016-2017成员看视频reaction',
       from: 'B',
-      av: 'av16966158',
+      av: '16966158',
       img: 'http://i0.hdslb.com/bfs/archive/824b94d586fca0600f9c6eb15946c5b04a94dbd6.jpg_380x240.jpg'
     }]
   },
@@ -408,36 +408,89 @@ export const recommendConfig = {
     list: [{
       title: '我饭的爱豆怎么这么社会',
       from: 'B',
-      av: 'av5841033',
+      av: '5841033',
       img: 'http://i2.hdslb.com/bfs/archive/a12777759524fd5005f27cbc4b54dbbd8a599c21.jpg_380x240.jpg'
     }, {
       title: '普通的社会队表情包',
       from: 'B',
-      av: 'av7803827',
+      av: '7803827',
       img: 'http://i0.hdslb.com/bfs/archive/77bb14fea9136808b3d1bd01246c66103e4c05a8.jpg_380x240.jpg'
     }, {
       title: '最骚社会话',
       from: 'B',
-      av: 'av23573616',
+      av: '23573616',
       img: 'http://i2.hdslb.com/bfs/archive/6ff750084ea174537c4e1ad7c7e5d79b5c5cc2cf.jpg_380x240.jpg'
     }, {
       title: 'SNH48和你一起学语文',
       from: 'B',
-      av: 'av6105242',
+      av: '6105242',
       img: 'http://i2.hdslb.com/bfs/archive/d329157389d217eee31da8b5c8cbe0ce94980ffe.jpg_380x240.jpg'
     }, {
-      title: '《The SII》',
+      title: 'S队是什么样的前辈',
       from: 'B',
-      av: 'av7029870',
-      img: 'http://i2.hdslb.com/bfs/archive/090a85c911b75dfffd6d7aa1f632e792d50173ae.jpg_380x240.jpg'
+      av: '7290602',
+      img: 'http://i1.hdslb.com/bfs/archive/1cbfd90f66f678378bdc59fe9db0b13f25b30d45.jpg_380x240.jpg'
+    }, {
+      title: 'SII开年抖腿RAP',
+      from: 'B',
+      av: '8307756',
+      img: 'http://i1.hdslb.com/bfs/archive/39cadd0592060033aa6c77aa1071d54f0a147fd3.png_380x240.png'
+    }, {
+      title: '艺人活着很累',
+      from: 'B',
+      av: '6442113',
+      img: 'http://i1.hdslb.com/bfs/archive/451005ffd75cf1ea756e33c89a98c5ab5c6b6fa0.jpg_380x240.jpg'
+    }, {
+      title: '艾斯兔热唱健康歌',
+      from: 'B',
+      av: '10305546',
+      img: 'http://i2.hdslb.com/bfs/archive/266b2c554eca89f1f3415ff2dd26c98353379207.jpg_380x240.jpg'
+    }, {
+      title: '不如跳舞',
+      from: 'B',
+      av: '4784849',
+      img: 'http://i2.hdslb.com/bfs/archive/432c2a77ef940b3afd932ecf9df1982e41f663b1.jpg_380x240.jpg'
+    }, {
+      title: '大话塞纳河',
+      from: 'B',
+      av: '6718106',
+      img: 'http://i0.hdslb.com/bfs/archive/a6986c27cd2917a2c2574b6fc75b853d5011705d.jpg_380x240.jpg'
     }]
   }, {
     type: '科普',
     list: [{
       title: '零期生冯晓菲的传奇人生',
       from: 'B',
-      av: 'av15965863',
+      av: '15965863',
       img: 'http://i1.hdslb.com/bfs/archive/44803602dee6cc79137a3828b2dc59d87f525fce.jpg_380x240.jpg'
+    }, {
+      title: '这个世界太脏了',
+      from: 'B',
+      av: '3610879',
+      img: 'http://i0.hdslb.com/bfs/archive/dd6b6b1eedee7bd6d62196266165c5cdb3b4ebb2.jpg_380x240.jpg'
+    }, {
+      title: '徐子轩飙车记',
+      from: 'B',
+      av: '4886380',
+      img: 'http://i0.hdslb.com/bfs/archive/bd17f5ae84e7e0925c4f42b7acb16971b7a9a9d3.jpg_380x240.jpg'
+    }]
+  }, {
+    type: '治愈',
+    list: [{
+      title: '说了多少次，不要让爸爸带孩子',
+      from: 'B',
+      av: '14684523',
+      img: 'http://i0.hdslb.com/bfs/archive/9af1bebe3aa84d6c42233d4b6824c58623d4c3ce.jpg_380x240.jpg'
+    }, {
+      title: '听莫妈的话',
+      from: 'B',
+      av: '6706750',
+      img: 'http://i2.hdslb.com/bfs/archive/d6c88288166533085e9d8a0f4bcdb60e459a6aad.jpg_380x240.jpg'
+    }, {
+      title: '98line的小幸运',
+      from: 'B',
+      av: '5824552',
+      img: 'http://i1.hdslb.com/bfs/archive/a87a1e503a3504022dc2591f21884eacb1d92b9e.jpg_380x240.jpg'
     }]
   }, {
     type: '纪录片',
@@ -469,6 +522,11 @@ export const recommendConfig = {
       from: 'O',
       url: 'https://space.bilibili.com/33670738/favlist?fid=2831864',
       img: 'http://i0.hdslb.com/bfs/archive/a72d5816d65f82acda05d590869aad99be1059b6.jpg_380x240.jpg'
+    }, {
+      title: '小钱夜谈',
+      from: 'B',
+      av: '20017416',
+      img: ''
     }]
   }, {
     type: '演奏',
@@ -495,6 +553,11 @@ export const recommendConfig = {
       from: 'B',
       av: 'av9543580',
       img: 'http://i1.hdslb.com/bfs/archive/f4b0820f68a1040ad0fc59c74f41be3be2ceea11.jpg_380x240.jpg'
+    }, {
+      title: '宝山卫视跨年晚会',
+      from: 'B',
+      av: '7853883',
+      img: 'http://i2.hdslb.com/bfs/archive/29c5d6541835c18b0b25f14a999a7101bec73ba3.png_380x240.png'
     }]
   }, {
     type: '游戏',
