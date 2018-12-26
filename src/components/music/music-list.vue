@@ -1,11 +1,11 @@
 <template>
-  <div id="music-container">    
+  <div id="music-container">
     <div class="music-block"  v-for="item in musiclist" :key="item.type">
       <div class="music-type">{{ item.type }}</div>
       <div class="music-list">
         <div class="music-detail" v-for="s in item.songs" :key="s.title">
             <a v-if="s.plat === 'M'" target="_blank" :href="`http://music.migu.cn/v3/music/song/${s.copyrightId}`" class="music-title">{{ s.from }} - {{ s.title }}</a>
-            <a v-else-if="s.plat === 'Q'" target="_blank" :href="`https://y.qq.com/n/yqq/song/${s.copyrightId}_num.html`" class="music-title">{{ s.from }} - {{ s.title }}</a>            
+            <a v-else-if="s.plat === 'Q'" target="_blank" :href="`https://y.qq.com/n/yqq/song/${s.copyrightId}_num.html`" class="music-title">{{ s.from }} - {{ s.title }}</a>
             <a v-else target="_blank" :href="s.src">{{ s.from }} - {{ s.title }} &#12288; 编曲：{{ s.author }}</a>
             <div class="music-info">{{ s.from }}</div>
             <a v-if="s.score" target="_blank" :href="s.score">曲谱</a>
@@ -27,20 +27,20 @@ import {musicConfig} from 'api/musicData'
 import MusicPlay from 'components/music/music-play'
 export default {
   name: `MusicList`,
-  components:{
+  components: {
     MusicPlay
   },
   filters: {
     plat (p) {
-      
+
     }
   },
   methods: {
-    play(s){
-      currentMp3 = s.mp3
+    play (s) {
+      this.currentMp3 = s.mp3
     }
     // getmusicImage (musicinfo) {
-    //   return musicinfo.img      
+    //   return musicinfo.img
     // },
     // getmusicPlayUrl (musicinfo) {
     //   switch (musicinfo.from) {
@@ -106,7 +106,7 @@ export default {
     top 0
     height 100vh
     width 400px
-    z-index 5    
+    z-index 5
     &:before
       padding 0.5em
       content "=>"
@@ -123,12 +123,12 @@ export default {
       background #91ccea
       filter blur(20px)
 
-@media screen and (min-width 1366px)  
+@media screen and (min-width 1366px)
   #music-container
     .music-block
       padding 10px 20px 0 20px
       margin-top 15px
-      .music-type        
+      .music-type
         font-size: 20px
         margin: 5px 0
       .music-list
