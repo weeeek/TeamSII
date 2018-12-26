@@ -21,7 +21,7 @@
 
 <script type="ecmascript-6">
   // import {formatDate} from 'common/js/date'
-  import {paintingConfig} from 'api/config'
+  import {paintingConfig} from 'api/paintingData'
 
   export default {
     data () {

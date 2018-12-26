@@ -33,7 +33,8 @@
 </template>
 
 <script type="text/ecmascript-6">
-import {raiseConfig, modianApi} from 'api/config'
+import {modianApi} from 'api/config'
+import {raiseConfig} from 'api/raiseConfig'
 import jQuery from 'jquery'
 import progressbar from 'components/plugin/progressbar'
 import blockcheck from 'components/plugin/blockCheck'

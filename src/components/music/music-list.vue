@@ -17,7 +17,7 @@
 </template>
 
 <script type="text/ecmascript-6">
-import {musicConfig} from 'api/config'
+import {musicConfig} from 'api/musicData'
 export default {
   name: `MusicList`,
   filters: {

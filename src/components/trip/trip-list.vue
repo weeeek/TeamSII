@@ -6,7 +6,7 @@
 
 <script type="text/ecmascript-6">
 import Timeline from 'components/plugin/timeline'
-import {tripData} from 'api/config'
+import {tripData} from 'api/tripData'
 import {formatDate} from 'common/js/date'
 import jQuery from 'jquery'
 

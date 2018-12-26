@@ -16,7 +16,7 @@
 </template>
 
 <script type="text/ecmascript-6">
-import {recommendConfig} from 'api/config'
+import {recommendConfig} from 'api/recommendData'
 export default {
   name: `RecommendList`,
   methods: {
