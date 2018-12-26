@@ -49,7 +49,8 @@ export const musicConfig = {
         plat: 'M',
         songId: '1113500073',
         copyrightId: '63273402567',
-        title: '最终回合'
+        title: '最终回合',
+        mp3: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_320_16_Stero/63273402567.mp3'
       }, {
         from: '重生计划',
         plat: 'M',
@@ -62,43 +63,50 @@ export const musicConfig = {
         plat: 'M',
         songId: '1113861741',
         copyrightId: '63273402569',
-        title: 'Somewhere'
+        title: 'Somewhere',
+        mp3: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_320_16_Stero/63273402569.mp3'
       }, {
         from: '重生计划',
         plat: 'M',
         songId: '1113861738',
         copyrightId: '63273402572',
-        title: '噩梦轮回'
+        title: '噩梦轮回',
+        mp3: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_320_16_Stero/63273402572.mp3'
       }, {
         from: '重生计划',
         plat: 'M',
         songId: '1113861742',
         copyrightId: '63273402568',
-        title: 'Restart'
+        title: 'Restart',
+        mp3: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_320_16_Stero/63273402568.mp3'
       }, {
         from: '重生计划',
         plat: 'M',
         songId: '1113861737',
         copyrightId: '63273402573',
-        title: '预言'
+        title: '预言',
+        mp3: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_320_16_Stero/63273402573.mp3'
       }, {
         from: '重生计划',
         plat: 'M',
         songId: '1113861740',
         copyrightId: '63273402570',
-        title: '彼岸花'
+        title: '彼岸花',
+        mp3: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_320_16_Stero/63273402570.mp3'
       }, {
         from: '重生计划',
         plat: 'M',
         songId: '1113861736',
         copyrightId: '63273402574',
-        title: '重生计划'
+        title: '重生计划',
+        mp3: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_320_16_Stero/63273402574.mp3'
       }, {
         from: '重生计划',
         plat: 'M',
         songId: '1113861735',
         copyrightId: '63273402575',
-        title: '坐标121E 31N'
+        title: '坐标121E 31N',
+        mp3: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_320_16_Stero/63273402575.mp3'
       },
       {
         from: '第48区',

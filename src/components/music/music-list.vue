@@ -8,16 +8,14 @@
             <a v-else-if="s.plat === 'Q'" target="_blank" :href="`https://y.qq.com/n/yqq/song/${s.copyrightId}_num.html`" class="music-title">{{ s.from }} - {{ s.title }}</a>
             <a v-else target="_blank" :href="s.src">{{ s.from }} - {{ s.title }} &#12288; 编曲：{{ s.author }}</a>
             <div class="music-info">{{ s.from }}</div>
-            <a v-if="s.score" target="_blank" :href="s.score">曲谱</a>
+            <a v-if="s.score" target="_blank" :href="s.score" title="如遇“百度图片无法查看”，请先登录百度账号">曲谱</a>
             <a v-if="s.play" target="_blank" :href="s.play">演奏</a>
-            <button class="" @click="play(s)">播放</button>
+            <button class="btn btn-xs" @click="play(s)" v-if="s.mp3">K歌</button>
         </div>
       </div>
     </div>
     <div class="music-play-box">
-      <div class="play-box">
-        <music-play :resource="currentMp3"></music-play>
-      </div>
+      <music-play :resource="currentMp3"></music-play>
     </div>
   </div>
 </template>
@@ -117,11 +115,6 @@ export default {
       top 20%
       background #000
       color #FFF
-    .play-box
-      width 400px
-      height 100%
-      background #91ccea
-      filter blur(20px)
 
 @media screen and (min-width 1366px)
   #music-container

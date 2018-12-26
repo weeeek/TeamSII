@@ -1,6 +1,6 @@
 # team-s2-archives
 
-> TeamSII档案中心
+> [TeamSII信息中心](https://weeeek.github.io/TeamSII/dist/index.html)
 
 ## Build Setup
 
@@ -18,4 +18,4 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+You'd better use cnpm instead
