@@ -55,7 +55,8 @@ export const musicConfig = {
         plat: 'M',
         songId: '1113861739',
         copyrightId: '63273402571',
-        title: '无罪无我'
+        title: '无罪无我',
+        mp3: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_320_16_Stero/63273402571.mp3'
       }, {
         from: '重生计划',
         plat: 'M',
