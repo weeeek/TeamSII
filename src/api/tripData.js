@@ -4,11 +4,17 @@ export const tripData = [{
     to: ''
   },
   items: [{
-    nameMonth: '12月30日 19:30',
+    nameMonth: '12月28日 19:30',
     title: '《重生计划》第八场',
-    description: '',
+    description: '出席成员：陈观慧，吴哲晗，徐子轩，许佳琪，袁雨桢，温晶婕，蒋芸，孙芮，徐晨辰，孔肖吟，莫寒，钱蓓婷，戴萌，徐伊人，袁丹妮，邵雪聪，刘增艳',
     typeClass: 'dot-blue',
-    url: ''
+    url: 'https://www.bilibili.com/video/av39250599'
+  }, {
+    nameMonth: '12月28日 18:00',
+    title: 'XUYIR | 喝酒聊天企划—《再来伊杯》 （上）| 跟锅组阁一年中的感受',
+    description: '徐伊人，刘增艳',
+    typeClass: 'dot-gray',
+    url: 'https://www.bilibili.com/video/av39148816'
   }, {
     nameMonth: '12月22日 19:00',
     title: '《重生计划》第七场 吴哲晗、徐子轩小组合拉票公演',

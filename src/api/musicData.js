@@ -151,6 +151,7 @@ export const musicConfig = {
       from: 'Team SII 五周年',
       author: 'kvn22',
       plat: 'G',
+      mp3: 'https://raw.githubusercontent.com/weeeek/SNH48/gh-pages/SIIMedleyScore/SIIMedley.mp3',
       src: 'https://raw.githubusercontent.com/weeeek/SNH48/gh-pages/SIIMedleyScore/SIIMedley.mp3'
     }]
   }]
