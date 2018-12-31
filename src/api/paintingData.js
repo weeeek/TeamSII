@@ -48,7 +48,12 @@ export const paintingConfig = {
     },
     {
       author: '',
-      url: './static/painting/肖钱1.jpg',
+      url: './static/painting/肖钱1.png',
+      weibo: ''
+    },
+    {
+      author: 'shioly',
+      url: './static/painting/KiMo（shioly）.jpg',
       weibo: ''
     },
     {
@@ -58,8 +63,28 @@ export const paintingConfig = {
     },
     {
       author: '取名字让人头疼',
+      url: './static/painting/张语格1（取名字让人头疼）.png',
+      weibo: 'https://weibo.com/u/5826817845'
+    },
+    {
+      author: '取名字让人头疼',
+      url: './static/painting/张语格2（取名字让人头疼）.png',
+      weibo: 'https://weibo.com/u/5826817845'
+    },
+    {
+      author: '取名字让人头疼',
       url: './static/painting/张语格3（取名字让人头疼）.png',
-      weibo: ''
+      weibo: 'https://weibo.com/u/5826817845'
+    },
+    {
+      author: '取名字让人头疼',
+      url: './static/painting/张语格4（取名字让人头疼）.png',
+      weibo: 'https://weibo.com/u/5826817845'
+    },
+    {
+      author: '取名字让人头疼',
+      url: './static/painting/张语格5（取名字让人头疼）.jpg',
+      weibo: 'https://weibo.com/u/5826817845'
     },
     {
       author: '',

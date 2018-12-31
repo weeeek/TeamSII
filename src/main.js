@@ -1,4 +1,5 @@
 import 'babel-polyfill'
+import 'common/js/hack'
 
 import Vue from 'vue'
 import App from './App'
@@ -8,6 +9,8 @@ import VueLazyload from 'vue-lazyload'
 import VueHighcharts from 'vue-highcharts'
 import Highcharts from 'highcharts'
 import VueCollapse from 'vue2-collapse'
+
+import store from './store'
 
 // import '../node_modules/timeline-vuejs/dist/timeline-vuejs.css'
 /* eslint-disable no-unused-vars */
@@ -24,5 +27,6 @@ Vue.use(VueLazyload, {
 new Vue({
   el: '#app',
   router,
+  store,
   render: h => h(App)
 })

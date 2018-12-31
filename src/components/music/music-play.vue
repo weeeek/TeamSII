@@ -2,7 +2,7 @@
     <div v-show="resource" class="play-box">
         <div id="lyric-block"></div>
         <canvas id="canvas" width="400" height="300"></canvas>
-        <audio id="audio" crossorigin="anonymous" :src="resource" autoplay controls @load="analys()" @playing="playing()"></audio>
+        <audio id="audio" crossorigin="anonymous" volume="0.5"  :src="resource" autoplay controls @load="analys()" @playing="playing()"></audio>
     </div>
 </template>
 
@@ -44,6 +44,7 @@
             this.ctx = new AudioContext()
             this.analyser = this.ctx.createAnalyser()
             this.audio = document.getElementById('audio')
+            this.audio.volume = 0.3;
             this.audioSrc = this.ctx.createMediaElementSource(this.audio)
             // we have to connect the MediaElementSource with the analyser
             this.audioSrc.connect(this.analyser)
@@ -71,7 +72,6 @@
         playing () {
             let _this = this;
             function renderFrame() {
-                console.log("renderFrame")
                 var array = new Uint8Array(_this.analyser.frequencyBinCount);
                 _this.analyser.getByteFrequencyData(array);
                 var step = Math.round(array.length / _this.meterNum); //sample limited data from the total array
@@ -106,7 +106,7 @@
   height 100%
   background #91ccea
   canvas  
-    filter blur(20px)
+    filter blur(0px)
   #lyric-block
     height calc(100vh - 350px)
   #audio

@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <!-- <div class="music-play-box" :class="{'musicBoxShow':musicBoxShow}">
+      <a class="switch" href="javascript:void(0)" @click="musicBoxShow=!musicBoxShow"></a>       
+    </div> -->
+    <player></player>
     <div class="container">
       <global-header></global-header>
       <tab></tab>
@@ -14,11 +18,21 @@
 <script type="text/ecmascript-6">
 import GlobalHeader from 'components/global/global-header'
 import Tab from 'components/tab/tab'
+import Player from 'components/music/Music-Player/player/player'
+// import MusicApp from 'components/music/Music-Player/MusicApp'
 
 export default {
   components: {
     GlobalHeader,
-    Tab
+    Tab,
+    //MusicApp
+    Player
+  },  
+  data () {
+    return {
+      musicBoxShow: false,
+      currentMp3: '',
+    }
   },
   name: 'App'
 }
@@ -38,7 +52,27 @@ export default {
     background-color $color-bg
     .container
       width 1336px
-      margin 0 auto
+      margin 0 auto  
+    .music-play-box
+      position fixed
+      right -400px
+      top 190px
+      height calc(100% - 190px * 2)
+      width 400px
+      z-index 5
+      transition all .6s ease-in-out
+      background $color-team-sii
+      &.musicBoxShow
+        right 0
+      a.switch
+        padding 0.5em
+        width auto
+        height auto
+        position absolute
+        right 100%
+        top calc(50% - 1em)
+        background #000
+        color #FFF
 
 @media screen and (max-width 1366px)
   #app

@@ -10,24 +10,17 @@
             <div class="music-info">{{ s.from }}</div>
             <a v-if="s.score" target="_blank" :href="s.score" title="如遇“百度图片无法查看”，请先登录百度账号">曲谱</a>
             <a v-if="s.play" target="_blank" :href="s.play">演奏</a>
-            <button class="btn btn-xs" @click="play(s)" v-if="s.mp3">K歌</button>
+            <button class="btn btn-xs" @click="play(s)" v-if="s.mp3">播放</button>
         </div>
       </div>
-    </div>
-    <div class="music-play-box">
-      <music-play :resource="currentMp3"></music-play>
     </div>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
 import {musicConfig} from 'api/musicData'
-import MusicPlay from 'components/music/music-play'
 export default {
   name: `MusicList`,
-  components: {
-    MusicPlay
-  },
   filters: {
     plat (p) {
 
@@ -37,23 +30,6 @@ export default {
     play (s) {
       this.currentMp3 = s.mp3
     }
-    // getmusicImage (musicinfo) {
-    //   return musicinfo.img
-    // },
-    // getmusicPlayUrl (musicinfo) {
-    //   switch (musicinfo.from) {
-    //     case `B`:
-    //       return `https://www.bilibili.com/music/av${musicinfo.av}`
-    //     case `Q`:
-    //       return `http://v.qq.com`
-    //     case `S`:
-    //       return `https://tv.sohu.com/v/`
-    //     case `I`:
-    //       return `https://www.iqiyi.com/${musicinfo.url}.html`
-    //     default:
-    //       return musicinfo.url
-    //   }
-    // }
   },
   data () {
     return {
@@ -98,24 +74,6 @@ export default {
             height: 150px
         .music-info
           display: none
-  .music-play-box
-    position fixed
-    right 0
-    top 0
-    height 100vh
-    width 400px
-    z-index 5
-    &:before
-      padding 0.5em
-      content "=>"
-      width auto
-      height auto
-      position absolute
-      right 100%
-      top 20%
-      background #000
-      color #FFF
-
 @media screen and (min-width 1366px)
   #music-container
     .music-block

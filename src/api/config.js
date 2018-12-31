@@ -36,3 +36,8 @@ export const musicApi = {
     getSongPic: 'http://music.migu.cn/v3/api/music/audioPlayer/getSongPic?songId=1113500073'
   }
 }
+
+export const playMode = {
+  sequence: 0,
+  loop: false
+}
