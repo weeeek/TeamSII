@@ -1,5 +1,6 @@
 import Song from 'common/js/song'
 
+// 用getter取state的数据
 export const singer = state => state.singer
 
 export const playing = state => state.playing

@@ -10,6 +10,7 @@ import VueHighcharts from 'vue-highcharts'
 import Highcharts from 'highcharts'
 import VueCollapse from 'vue2-collapse'
 
+// 全局初始化
 import store from './store'
 
 // import '../node_modules/timeline-vuejs/dist/timeline-vuejs.css'
@@ -24,6 +25,7 @@ Vue.use(VueLazyload, {
 })
 
 /* eslint-disable no-new */
+// 注入Store
 new Vue({
   el: '#app',
   router,

@@ -10,7 +10,7 @@
             <div class="music-info">{{ s.from }}</div>
             <a v-if="s.score" target="_blank" :href="s.score" title="如遇“百度图片无法查看”，请先登录百度账号">曲谱</a>
             <a v-if="s.play" target="_blank" :href="s.play">演奏</a>
-            <button class="btn btn-xs" @click="play(s)" v-if="s.mp3">播放</button>
+            <button class="btn btn-xs" @click="play(s)" v-if="s.src">播放</button>
         </div>
       </div>
     </div>
@@ -19,23 +19,28 @@
 
 <script type="text/ecmascript-6">
 import {musicConfig} from 'api/musicData'
+import {mapMutations} from 'vuex'
+
 export default {
   name: `MusicList`,
+  data () {
+    return {
+      musiclist: musicConfig.list
+    }
+  },
   filters: {
     plat (p) {
 
     }
   },
   methods: {
-    play (s) {
-      this.currentMp3 = s.mp3
-    }
-  },
-  data () {
-    return {
-      currentMp3: '',
-      musiclist: musicConfig.list
-    }
+    play (item) {
+      // 实现对mutation的提交
+      this.setPlayList(item)
+    },
+    ...mapMutations({
+      setPlayList: 'SET_PLAYLIST'
+    })
   }
 }
 </script>

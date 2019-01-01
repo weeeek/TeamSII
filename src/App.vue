@@ -1,9 +1,10 @@
 <template>
   <div id="app">
-    <!-- <div class="music-play-box" :class="{'musicBoxShow':musicBoxShow}">
+    <div class="music-play-box" :class="{'musicBoxShow':musicBoxShow}">
       <a class="switch" href="javascript:void(0)" @click="musicBoxShow=!musicBoxShow"></a>       
-    </div> -->
-    <player></player>
+      <player></player>
+    </div>
+    <!-- <player></player> -->
     <div class="container">
       <global-header></global-header>
       <tab></tab>
@@ -18,7 +19,8 @@
 <script type="text/ecmascript-6">
 import GlobalHeader from 'components/global/global-header'
 import Tab from 'components/tab/tab'
-import Player from 'components/music/Music-Player/player/player'
+import Player from 'components/music/music-play'
+// import Player from 'components/music/Music-Player/player/player'
 // import MusicApp from 'components/music/Music-Player/MusicApp'
 
 export default {

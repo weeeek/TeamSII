@@ -62,57 +62,63 @@ export default {
 <style scoped lang="stylus" rel="stylesheet/stylus">
 @import "~common/stylus/variable"
 .timeline
-  text-align: left
-  width: 100%
-  max-width: 500px
+  text-align left
+  width 100%
+  max-width 500px
   .wrapper-timeline
-    position: relative
+    position relative
   .wrapper-item
-    display: grid
-    grid-template-columns: 100px 1fr
-    margin-bottom: 20px
+    display grid
+    grid-template-columns 100px 1fr
+    margin-bottom 20px
     .section-year
-      display: flex
-      flex-direction: column
-      justify-content: space-between
-      align-items: flex-end
-      padding: 15px
-      font-weight: bold
-      font-size: 20px
+      display flex
+      flex-direction column
+      justify-content space-between
+      align-items flex-end
+      padding 15px
+      font-weight bold
+      font-size 20px
       .year
-        margin: 0
+        margin 0
     .timeline-items
       .item
-        display: block
-        border-left: 5px solid #ccd5db
-        padding: 20px 0 20px 15px
-        position: relative
+        display block
+        border-left 5px solid #ccd5db
+        padding 20px 0 20px 15px
+        position relative
       .month-item
-        margin: 0
-        text-transform: uppercase
-        font-size: 18px
-        letter-spacing: 2px
+        margin 0
+        text-transform uppercase
+        font-size 18px
+        letter-spacing 2px
       .title-item
-        margin: 0
-        padding: 5px 0
-        font-size: 16px
-        font-weight: 500
+        margin 0
+        padding 5px 0
+        font-size 16px
+        font-weight 500
       .description-item
-        font-weight: 100
-        margin: 0
+        font-weight 100
+        margin 0
       .dot
-        display: block
-        position: absolute
-        width: 15px
-        height: 15px
-        border-radius: 50%
-        background: $color-team-sii
-        left: -10px
-        top: 26px
+        display block
+        position absolute
+        width 15px
+        height 15px
+        border-radius 50%
+        background $color-team-sii
+        left -10px
+        top 26px
+      .dot-blue
+        background $color-team-sii
       .dot-red
-        background: #ff2471
+        background #ff2471
       .dot-green
-        background: #a9cc29
+        background #a9cc29
       .dot-orange
-        background: #f39800
+        background #f39800
+      .dot-gray
+        background #c3c3c3
+      .dot-sea
+        background #006ab7
 </style>
