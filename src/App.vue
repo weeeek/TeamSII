@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <div class="music-play-box" :class="{'musicBoxShow':musicBoxShow}">
-      <a class="switch" href="javascript:void(0)" @click="musicBoxShow=!musicBoxShow"></a>       
+      <a class="switch" href="javascript:void(0)" @click="musicBoxShow=!musicBoxShow">
+        <jam-arrow-square-right v-if="musicBoxShow"/>
+        <jam-arrow-square-left v-if="!musicBoxShow"/>
+      </a>       
       <player></player>
     </div>
     <!-- <player></player> -->
@@ -73,8 +76,6 @@ export default {
         position absolute
         right 100%
         top calc(50% - 1em)
-        background #000
-        color #FFF
 
 @media screen and (max-width 1366px)
   #app

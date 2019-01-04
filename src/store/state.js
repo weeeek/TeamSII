@@ -1,10 +1,11 @@
 import {playMode} from 'common/js/config'
-import {loadSearch, loadPlay, loadFavorite} from 'common/js/cache'
+// import {loadSearch, loadPlay, loadFavorite} from 'common/js/cache'
+import {loadPlay, loadFavorite} from 'common/js/cache'
 
 // 当前播放信息
 const state = {
   // 歌手
-  singer: {},
+  // singer: {},
   // 正在播放、暂停
   playing: false,
   // 全屏
@@ -20,8 +21,8 @@ const state = {
   // 当前播放索引
   currentIndex: -1,
   disc: {},
-  topList: {},
-  searchHistory: loadSearch(),
+  // topList: {},
+  // searchHistory: loadSearch(),
   playHistory: loadPlay(),
   favoriteList: loadFavorite()
 }

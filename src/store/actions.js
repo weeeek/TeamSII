@@ -1,9 +1,10 @@
 import * as types from './mutation-types'
 import {playMode} from 'common/js/config'
 import {shuffle} from 'common/js/util'
-import {saveSearch, clearSearch, deleteSearch, savePlay, saveFavorite, deleteFavorite} from 'common/js/cache'
+// import {saveSearch, clearSearch, deleteSearch, savePlay, saveFavorite, deleteFavorite} from 'common/js/cache'
+import {savePlay, saveFavorite, deleteFavorite} from 'common/js/cache'
 
-function findIndex(list, song) {
+function findIndex (list, song) {
   return list.findIndex((item) => {
     return item.id === song.id
   })
@@ -77,17 +78,17 @@ export const insertSong = function ({commit, state}, song) {
   commit(types.SET_PLAYING_STATE, true)
 }
 
-export const saveSearchHistory = function ({commit}, query) {
-  commit(types.SET_SEARCH_HISTORY, saveSearch(query))
-}
+// export const saveSearchHistory = function ({commit}, query) {
+//   commit(types.SET_SEARCH_HISTORY, saveSearch(query))
+// }
 
-export const deleteSearchHistory = function ({commit}, query) {
-  commit(types.SET_SEARCH_HISTORY, deleteSearch(query))
-}
+// export const deleteSearchHistory = function ({commit}, query) {
+//   commit(types.SET_SEARCH_HISTORY, deleteSearch(query))
+// }
 
-export const clearSearchHistory = function ({commit}) {
-  commit(types.SET_SEARCH_HISTORY, clearSearch())
-}
+// export const clearSearchHistory = function ({commit}) {
+//   commit(types.SET_SEARCH_HISTORY, clearSearch())
+// }
 
 export const deleteSong = function ({commit, state}, song) {
   let playlist = state.playlist.slice()
@@ -120,13 +121,19 @@ export const deleteSongList = function ({commit}) {
 }
 
 export const savePlayHistory = function ({commit}, song) {
-  commit(types.SET_PLAY_HISTORY, savePlay(song))
+  if (song !== undefined) {
+    commit(types.SET_PLAY_HISTORY, savePlay(song))
+  }
 }
 
 export const saveFavoriteList = function ({commit}, song) {
-  commit(types.SET_FAVORITE_LIST, saveFavorite(song))
+  if (song !== undefined) {
+    commit(types.SET_FAVORITE_LIST, saveFavorite(song))
+  }
 }
 
 export const deleteFavoriteList = function ({commit}, song) {
-  commit(types.SET_FAVORITE_LIST, deleteFavorite(song))
+  if (song !== undefined) {
+    commit(types.SET_FAVORITE_LIST, deleteFavorite(song))
+  }
 }

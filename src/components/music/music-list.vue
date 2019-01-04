@@ -10,7 +10,8 @@
             <div class="music-info">{{ s.from }}</div>
             <a v-if="s.score" target="_blank" :href="s.score" title="如遇“百度图片无法查看”，请先登录百度账号">曲谱</a>
             <a v-if="s.play" target="_blank" :href="s.play">演奏</a>
-            <button class="btn btn-xs" @click="play(s)" v-if="s.src">播放</button>
+            <button class="btn btn-xs" @click="play(s,0)" v-if="s.src">播放</button>
+            <button class="btn btn-xs" @click="selectItem(s,-1)" v-if="s.src">加入</button>
         </div>
       </div>
     </div>
@@ -19,7 +20,8 @@
 
 <script type="text/ecmascript-6">
 import {musicConfig} from 'api/musicData'
-import {mapMutations} from 'vuex'
+import {mapMutations, mapActions, mapGetters } from 'vuex'
+import {playMode} from 'common/js/config'
 
 export default {
   name: `MusicList`,
@@ -34,13 +36,31 @@ export default {
     }
   },
   methods: {
-    play (item) {
-      // 实现对mutation的提交
-      this.setPlayList(item)
+    //在歌单里的，选择之，播放。不在，加入歌单，播放
+    play(item, index) {
+      debugger
+      if (this.mode === playMode.random) {
+        index = this.playlist.findIndex((song) => {
+          return song.id === item.id
+        })
+      }
+      this.setCurrentIndex(index)
+      this.setPlayingState(true)
+    },
+    //加入歌单并播放
+    selectItem (item) {
+      // 使用mutation，commit
+      
+      //this.setCurrentIndex(this.playlist.length - 1)
+      //this.setPlayingState(true)
+      //this.selectPlay(item)
     },
     ...mapMutations({
-      setPlayList: 'SET_PLAYLIST'
-    })
+      setPlayList: 'SET_PLAYLIST',
+      setCurrentIndex: 'SET_CURRENT_INDEX',
+      setPlayingState: 'SET_PLAYING_STATE'
+    }),
+    ...mapActions({})
   }
 }
 </script>

@@ -9,6 +9,7 @@ import VueLazyload from 'vue-lazyload'
 import VueHighcharts from 'vue-highcharts'
 import Highcharts from 'highcharts'
 import VueCollapse from 'vue2-collapse'
+import VueJamIcons from 'vue-jam-icons'
 
 // 全局初始化
 import store from './store'
@@ -18,6 +19,8 @@ import store from './store'
 // import vConsole from 'vconsole'
 
 fastclick.attach(document.body)
+
+Vue.use(VueJamIcons)
 Vue.use(VueCollapse)
 Vue.use(VueHighcharts, { Highcharts })
 Vue.use(VueLazyload, {

@@ -1,7 +1,7 @@
 import Song from 'common/js/song'
 
 // 用getter取state的数据
-export const singer = state => state.singer
+// export const singer = state => state.singer
 
 export const playing = state => state.playing
 
@@ -23,9 +23,9 @@ export const currentSong = (state) => {
 
 export const disc = state => state.disc
 
-export const topList = state => state.topList
+// export const topList = state => state.topList
 
-export const searchHistory = state => state.searchHistory
+// export const searchHistory = state => state.searchHistory
 
 export const playHistory = (state) => {
   return state.playHistory.map((song) => {

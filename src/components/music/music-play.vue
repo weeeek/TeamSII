@@ -1,7 +1,18 @@
 <template>
   <div v-show="resource" class="play-box">
+    <!--歌曲列表-->
+    <div id="song-list">
+      <ul>
+        <li v-for="(item,index) in playlist" :key="index">
+          {{ item.title }}
+        </li>
+      </ul>
+    </div>
+    <!--当前歌曲歌词-->
     <div id="lyric-block"></div>
+    <!--当前歌曲分析-->
     <canvas id="canvas" width="400" height="300"></canvas>
+    <!--歌曲播放-->
     <audio
       id="audio"
       @loadstart="ready"
@@ -63,7 +74,7 @@ export default {
     ...mapGetters(['playlist'])
   },
   created(){
-    console.log('playlist', this.playlist)
+    console.log('music-playlist', this.playlist)
   },
   mounted() {
     this.analys()
@@ -264,11 +275,17 @@ export default {
   width 400px
   height 100%
   background #91ccea
+  
+  #song-list
+    background #999
   canvas
     filter blur(0px)
+    background #CCC
   #lyric-block
-    height calc(100vh - 350px)
+    height calc(100vh - 350px)    
+    background rgba(255,255,0,.6)
   #audio
     width 100%
     height 50px
+    background white
 </style>

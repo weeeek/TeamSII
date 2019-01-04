@@ -3,9 +3,9 @@ import * as types from './mutation-types'
 // 相关的修改方法，state:当前状态树（state.js）
 // 通常有mutation-type做关联
 const mutations = {
-  [types.SET_SINGER] (state, singer) {
-    state.singer = singer
-  },
+  // [types.SET_SINGER] (state, singer) {
+  //   state.singer = singer
+  // },
   [types.SET_PLAYING_STATE] (state, flag) {
     state.playing = flag
   },
@@ -30,12 +30,12 @@ const mutations = {
   [types.SET_DISC] (state, disc) {
     state.disc = disc
   },
-  [types.SET_TOP_LIST] (state, topList) {
-    state.topList = topList
-  },
-  [types.SET_SEARCH_HISTORY] (state, history) {
-    state.searchHistory = history
-  },
+  // [types.SET_TOP_LIST] (state, topList) {
+  //   state.topList = topList
+  // },
+  // [types.SET_SEARCH_HISTORY] (state, history) {
+  //   state.searchHistory = history
+  // },
   [types.SET_PLAY_HISTORY] (state, history) {
     state.playHistory = history
   },
