@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="music-play-box" :class="{'musicBoxShow':musicBoxShow}">
-      <a class="switch" href="javascript:void(0)" @click="musicBoxShow=!musicBoxShow">
+      <a class="switch" href="javascript:void(0)" @click="musicBoxShow=!musicBoxShow" v-if="playlist.length > 0">
         <jam-arrow-square-right v-if="musicBoxShow"/>
         <jam-arrow-square-left v-if="!musicBoxShow"/>
       </a>       
@@ -20,6 +20,7 @@
 </template>
 
 <script type="text/ecmascript-6">
+import { mapGetters } from "vuex";
 import GlobalHeader from 'components/global/global-header'
 import Tab from 'components/tab/tab'
 import Player from 'components/music/music-play'
@@ -32,7 +33,10 @@ export default {
     Tab,
     //MusicApp
     Player
-  },  
+  },
+  computed: {
+      ...mapGetters(['playlist'])
+  },
   data () {
     return {
       musicBoxShow: false,
