@@ -1,17 +1,20 @@
 <template>
-  <div v-show="resource" class="play-box">
+  <div class="play-box">
     <!--歌曲列表-->
     <div id="song-list">
       <ul>
         <li v-for="(item,index) in playlist" :key="index">
-          {{ item.title }}
+          {{ item.from }} - {{ item.title }}
+          <a href="javascript:void(0)" @click="deleteSong(item)">
+            <jam-close-circle />
+          </a>
         </li>
       </ul>
     </div>
     <!--当前歌曲歌词-->
     <div id="lyric-block"></div>
     <!--当前歌曲分析-->
-    <canvas id="canvas" width="400" height="300"></canvas>
+    <canvas id="canvas" width="400" height="200"></canvas>
     <!--歌曲播放-->
     <audio
       id="audio"
@@ -21,7 +24,7 @@
       @ended="end"
       @pause="paused"
       volume="0.3"
-      :src="resource"
+      :src="getSrc"
       autoplay
       controls
       @load="analys()"
@@ -35,12 +38,6 @@ import { mapGetters, mapMutations, mapActions } from 'vuex'
 
 export default {
   name: `MusicPlay`,
-  props: {
-    resource: {
-      type: String,
-      default: ""
-    }
-  },
   data() {
     return {
       lyrics: [],
@@ -70,11 +67,16 @@ export default {
       pureMusicLyric: ""
     }
   },
-  computed:{
-    ...mapGetters(['playlist'])
+  computed: {
+    getSrc () {
+      if(this.playlist.length > 0 && this.currentIndex >= 0)
+        return  this.playlist[this.currentIndex].src
+      return ""
+    },
+    ...mapGetters(['playlist','currentIndex'])
   },
   created(){
-    console.log('music-playlist', this.playlist)
+    // console.log('music-playlist', this.playlist)
   },
   mounted() {
     this.analys()
@@ -212,10 +214,12 @@ export default {
       renderFrame()
     },
     ...mapMutations({
-      setFullScreen: 'SET_FULL_SCREEN'
+      setFullScreen: 'SET_FULL_SCREEN',
+      setPlayingState: 'SET_PLAYING_STATE'
     }),
     ...mapActions([
-      'savePlayHistory'
+      'savePlayHistory',
+      'deleteSong'
     ])
   },
   watch: {
@@ -277,14 +281,25 @@ export default {
   background #91ccea
   
   #song-list
+    height 200px
     background #999
+    padding 10px
+    ul
+      list-style none
+      overflow-y auto
+      li
+        line-height 24px
+        a
+          float right
   canvas
+    height 200px
     filter blur(0px)
     background #CCC
   #lyric-block
-    height calc(100vh - 350px)    
+    height calc(100% - 450px + 2px)    
     background rgba(255,255,0,.6)
   #audio
+    margin-top -2px
     width 100%
     height 50px
     background white

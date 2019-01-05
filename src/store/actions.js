@@ -35,8 +35,11 @@ export const randomPlay = function ({commit}, {list}) {
 }
 
 export const insertSong = function ({commit, state}, song) {
+  // 复制播放列表数组
   let playlist = state.playlist.slice()
+  // 复制顺序列表数组
   let sequenceList = state.sequenceList.slice()
+  // 当前播放序号
   let currentIndex = state.currentIndex
   // 记录当前歌曲
   let currentSong = playlist[currentIndex]

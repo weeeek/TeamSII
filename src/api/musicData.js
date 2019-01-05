@@ -120,7 +120,7 @@ export const musicConfig = {
     songs: [
       {
         title: '青春的花瓣',
-        from: '万圣节之夜',
+        from: 'EP万圣节之夜',
         plat: 'Q',
         copyrightId: '104780425',
         score: 'https://imgsa.baidu.com/forum/pic/item/1d9ebf44d688d43fbb88d9bb741ed21b0ff43bf0.jpg',
@@ -128,7 +128,7 @@ export const musicConfig = {
       },
       {
         title: '盛夏好声音',
-        from: '盛夏好声音',
+        from: 'EP盛夏好声音',
         plat: 'Q',
         copyrightId: '102385350',
         score: 'https://imgsa.baidu.com/forum/pic/item/9ea34a08c93d70cfd42b264df2dcd100bba12b38.jpg',
@@ -139,7 +139,7 @@ export const musicConfig = {
     type: '其它',
     songs: [{
       title: '流着泪微笑',
-      from: '红白歌战',
+      from: 'SNH48红白歌战',
       plat: 'Q',
       copyrightId: '101840112',
       score: 'https://imgsa.baidu.com/forum/pic/item/78b891305c6034a8346e916cc21349540b2376e9.jpg'
@@ -147,14 +147,16 @@ export const musicConfig = {
   }, {
     type: '饭制',
     songs: [{
+      id: '2018111101',
       title: '蔚蓝回响',
       from: 'Team SII 五周年',
       author: 'kvn22',
       plat: 'G',
       src: 'https://raw.githubusercontent.com/weeeek/SNH48/gh-pages/SIIMedleyScore/SIIMedley.mp3'
     }, {
+      id: '2018111102',
       title: '晴天',
-      from: '',
+      from: '周杰伦',
       author: '周杰伦',
       plat: 'Q',
       src: 'http://dl.stream.qqmusic.qq.com/C4000039MnYb0qxYhV.m4a?vkey=A5429CF2AE4C304E1240E9C7EDB80B805AD096FEC2FCF26358EFBB84B5EE38F01972FD85AA8860F8A546A6E703F38615F7410C8DD6D79375&guid=9861410884&uin=0&fromtag=66'
