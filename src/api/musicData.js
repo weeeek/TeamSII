@@ -1,3 +1,50 @@
+export const qqMusicList = {
+  list: [{
+    type: '公演曲',
+    performance: [{
+      title: '重生计划',
+      enabled: true,
+      albumids: ['001XCBGl227qbI', '002pMKun3M7HV2'],
+      songs: []
+    }, {
+      title: '第48区',
+      enabled: true,
+      albumids: ['004My8i842dw0C'],
+      songs: []
+    }, {
+      title: '心的旅程',
+      enabled: true,
+      albumids: ['004Z2HU82Doj4Y', '001utMms2JlWHC'],
+      songs: []
+    }, {
+      title: '让梦想闪耀',
+      enabled: false,
+      albumids: [''],
+      songs: []
+    }, {
+      title: '勇气重生',
+      enabled: false,
+      albumids: [''],
+      songs: []
+    }, {
+      title: '不眠之夜',
+      enabled: false,
+      albumids: [''],
+      songs: []
+    }, {
+      title: '永恒之光',
+      enabled: false,
+      albumids: [''],
+      songs: []
+    }, {
+      title: '最后的钟声响起',
+      enabled: false,
+      albumids: [''],
+      songs: []
+    }]
+  }]
+}
+
 export const musicConfig = {
   list: [{
     type: '公演曲',
@@ -7,106 +54,121 @@ export const musicConfig = {
         plat: 'M',
         songId: '1113500075',
         copyrightId: '63273402565',
-        title: '晨光'
+        title: '晨光',
+        img: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002pMKun3M7HV2.jpg?max_age=2592000'
       }, {
         from: '重生计划',
         plat: 'M',
         songId: '1113500081',
         copyrightId: '63273402561',
-        title: 'Forever XLVIII'
+        title: 'Forever XLVIII',
+        img: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002pMKun3M7HV2.jpg?max_age=2592000'
       }, {
         from: '重生计划',
         plat: 'M',
         songId: '1113500080',
         copyrightId: '63273402562',
-        title: 'Who Is The One'
+        title: 'Who Is The One',
+        img: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002pMKun3M7HV2.jpg?max_age=2592000'
       }, {
         from: '重生计划',
         plat: 'M',
         songId: '1113500077',
         copyrightId: '63273402564',
-        title: '黑洞'
+        title: '黑洞',
+        img: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002pMKun3M7HV2.jpg?max_age=2592000'
       }, {
         from: '重生计划',
         plat: 'M',
         songId: '1113500079',
         copyrightId: '63273402563',
-        title: 'Lost'
+        title: 'Lost',
+        img: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002pMKun3M7HV2.jpg?max_age=2592000'
       }, {
         from: '重生计划',
         plat: 'M',
         songId: '1113500082',
         copyrightId: '63273402560',
-        title: 'Hold Me Tight'
+        title: 'Hold Me Tight',
+        img: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002pMKun3M7HV2.jpg?max_age=2592000'
       }, {
         from: '重生计划',
         plat: 'M',
         songId: '1113500074',
         copyrightId: '63273402566',
-        title: '解语者'
+        title: '解语者',
+        img: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002pMKun3M7HV2.jpg?max_age=2592000'
       }, {
         from: '重生计划',
         plat: 'M',
         songId: '1113500073',
         copyrightId: '63273402567',
         title: '最终回合',
-        mp3: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_320_16_Stero/63273402567.mp3'
+        img: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002pMKun3M7HV2.jpg?max_age=2592000',
+        src: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/src_320_16_Stero/63273402567.src'
       }, {
         from: '重生计划',
         plat: 'M',
         songId: '1113861739',
         copyrightId: '63273402571',
         title: '无罪无我',
-        mp3: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_320_16_Stero/63273402571.mp3'
+        img: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002pMKun3M7HV2.jpg?max_age=2592000',
+        src: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/src_320_16_Stero/63273402571.src'
       }, {
         from: '重生计划',
         plat: 'M',
         songId: '1113861741',
         copyrightId: '63273402569',
         title: 'Somewhere',
-        mp3: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_320_16_Stero/63273402569.mp3'
+        img: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002pMKun3M7HV2.jpg?max_age=2592000',
+        src: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/src_320_16_Stero/63273402569.src'
       }, {
         from: '重生计划',
         plat: 'M',
         songId: '1113861738',
         copyrightId: '63273402572',
         title: '噩梦轮回',
-        mp3: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_320_16_Stero/63273402572.mp3'
+        img: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002pMKun3M7HV2.jpg?max_age=2592000',
+        src: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/src_320_16_Stero/63273402572.src'
       }, {
         from: '重生计划',
         plat: 'M',
         songId: '1113861742',
         copyrightId: '63273402568',
         title: 'Restart',
-        mp3: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_320_16_Stero/63273402568.mp3'
+        img: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002pMKun3M7HV2.jpg?max_age=2592000',
+        src: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/src_320_16_Stero/63273402568.src'
       }, {
         from: '重生计划',
         plat: 'M',
         songId: '1113861737',
         copyrightId: '63273402573',
         title: '预言',
-        mp3: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_320_16_Stero/63273402573.mp3'
+        img: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002pMKun3M7HV2.jpg?max_age=2592000',
+        src: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/src_320_16_Stero/63273402573.src'
       }, {
         from: '重生计划',
         plat: 'M',
         songId: '1113861740',
         copyrightId: '63273402570',
         title: '彼岸花',
-        mp3: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_320_16_Stero/63273402570.mp3'
+        img: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002pMKun3M7HV2.jpg?max_age=2592000',
+        src: 'http://116.211.73.17/amobile.music.tc.qq.com/C400004C5gcy1zL0Bn.m4a?guid=7709763462&vkey=3B9C1018205C83A9011931155D15B329B274AC5D8D47C53B73A0CEF0102BB6C8353BB6E9A62BC97FF62B3F7F83866D7E09C2B85ABE90D4DC&uin=0&fromtag=66'
       }, {
         from: '重生计划',
-        plat: 'M',
+        plat: 'Q',
         songId: '1113861736',
         copyrightId: '63273402574',
         title: '重生计划',
-        mp3: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_320_16_Stero/63273402574.mp3'
+        img: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002pMKun3M7HV2.jpg?max_age=2592000',
+        src: 'http://116.211.73.17/amobile.music.tc.qq.com/C40000249aXe1LogWS.m4a?guid=7709763462&vkey=AFD87A1D6DA59122BD310EB5B37477C6EFA2BA0670BA62ABF47755EC14DB09976D45A66B869EC3412353BD12A6F67BDFA27468A2E92D2647&uin=0&fromtag=66'
       }, {
         from: '重生计划',
-        plat: 'M',
+        plat: 'Q',
         songId: '1113861735',
         copyrightId: '63273402575',
         title: '坐标121E 31N',
-        mp3: 'http://tyst.migu.cn/public/product5th/product25/2018/11/28/2018%E5%B9%B411%E6%9C%8828%E6%97%A516%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%898%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_320_16_Stero/63273402575.mp3'
+        img: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002pMKun3M7HV2.jpg?max_age=2592000'
       },
       {
         from: '第48区',
@@ -143,6 +205,13 @@ export const musicConfig = {
       plat: 'Q',
       copyrightId: '101840112',
       score: 'https://imgsa.baidu.com/forum/pic/item/78b891305c6034a8346e916cc21349540b2376e9.jpg'
+    }, {
+      title: '天黑日记',
+      from: '网剧《贴身校花》',
+      plat: 'Q',
+      id: '107602020',
+      img: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000004adF7t3fyp8y.jpg?max_age=2592000',
+      src: 'https://weeeek.github.io/Skills/%E5%BC%A0%E8%AF%AD%E6%A0%BC%20-%20%E5%A4%A9%E9%BB%91%E6%97%A5%E8%AE%B0.src'
     }]
   }, {
     type: '饭制',
@@ -152,14 +221,8 @@ export const musicConfig = {
       from: 'Team SII 五周年',
       author: 'kvn22',
       plat: 'G',
-      src: 'https://raw.githubusercontent.com/weeeek/SNH48/gh-pages/SIIMedleyScore/SIIMedley.mp3'
-    }, {
-      id: '2018111102',
-      title: '晴天',
-      from: '周杰伦',
-      author: '周杰伦',
-      plat: 'Q',
-      src: 'http://dl.stream.qqmusic.qq.com/C4000039MnYb0qxYhV.m4a?vkey=A5429CF2AE4C304E1240E9C7EDB80B805AD096FEC2FCF26358EFBB84B5EE38F01972FD85AA8860F8A546A6E703F38615F7410C8DD6D79375&guid=9861410884&uin=0&fromtag=66'
+      img: 'http://i1.hdslb.com/bfs/archive/cb878823ebbe5ae10fd21263d72f52c4aa8e4f3f.jpg_400x252.jpg',
+      src: 'https://raw.githubusercontent.com/weeeek/SNH48/gh-pages/SIIMedleyScore/SIIMedley.src'
     }]
   }]
 }

@@ -2,19 +2,25 @@
   <div class="play-box">
     <!--歌曲列表-->
     <div id="song-list">
-      <ul>
+      <ol>
         <li v-for="(item,index) in playlist" :key="index">
-          {{ item.from }} - {{ item.title }}
-          <a href="javascript:void(0)" @click="deleteSong(item)">
+          {{ index + 1 }}.{{ item.from }} - {{ item.title }}
+          <a v-if="false">
+            <jam-arrow-square-up />
+          </a>
+          <a v-if="false">
+            <jam-arrow-square-down />
+          </a>
+          <a @click="deleteSong(item)">
             <jam-close-circle />
           </a>
         </li>
-      </ul>
+      </ol>
     </div>
     <!--当前歌曲歌词-->
-    <div id="lyric-block"></div>
+    <div id="lyric-block" :style="`background-image:url('${getImg}')`"></div>
     <!--当前歌曲分析-->
-    <canvas id="canvas" width="400" height="200"></canvas>
+    <canvas id="canvas" width="575" height="250"></canvas>
     <!--歌曲播放-->
     <audio
       id="audio"
@@ -29,12 +35,14 @@
       controls
       @load="analys()"
       @playing="playing()"
+      crossOrigin="anonymous"
     ></audio>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
 import { mapGetters, mapMutations, mapActions } from 'vuex'
+import { playMode } from 'common/js/config'
 
 export default {
   name: `MusicPlay`,
@@ -73,6 +81,11 @@ export default {
         return  this.playlist[this.currentIndex].src
       return ""
     },
+    getImg () {
+      if(this.playlist.length > 0 && this.currentIndex >= 0)
+        return  this.playlist[this.currentIndex].img
+      return "rgba(255,255,0,.6)"
+    },
     ...mapGetters(['playlist','currentIndex'])
   },
   created(){
@@ -81,6 +94,15 @@ export default {
   mounted() {
     this.analys()
   },
+  ...mapMutations({
+    setFullScreen: 'SET_FULL_SCREEN',
+    setPlayingState: 'SET_PLAYING_STATE'
+  }),
+  ...mapActions([
+    'savePlayHistory',
+    'deleteSong',
+    'playing'
+  ]),
   methods: {
     back() {
       this.setFullScreen(false)
@@ -106,7 +128,7 @@ export default {
     },
     end() {
       this.currentTime = 0
-      if (this.mode === playMode.loop) {
+      if (this.mode === this.playMode.loop) {
         this.loop()
       } else {
         this.next()
@@ -138,7 +160,6 @@ export default {
       }
     },
     analys() {
-      console.log("onload")
       window.AudioContext =
         window.AudioContext ||
         window.webkitAudioContext ||
@@ -163,10 +184,11 @@ export default {
       this.gap = 2 //gap between meters
       this.capHeight = 2
       this.capStyle = "#fff"
-      this.meterNum = 800 / (10 + 2) //count of the meters
+      this.meterNum = 800 / 10 //count of the meters
       this.capYPositionArray = [] ////store the vertical position of hte caps for the preivous frame
       this.ctx = this.canvas.getContext("2d")
       this.gradient = this.ctx.createLinearGradient(0, 0, 0, 300)
+      // 0f0绿，ff0红 f00黄
       this.gradient.addColorStop(1, "#0f0")
       this.gradient.addColorStop(0.5, "#ff0")
       this.gradient.addColorStop(0, "#f00")
@@ -212,15 +234,7 @@ export default {
         requestAnimationFrame(renderFrame)
       }
       renderFrame()
-    },
-    ...mapMutations({
-      setFullScreen: 'SET_FULL_SCREEN',
-      setPlayingState: 'SET_PLAYING_STATE'
-    }),
-    ...mapActions([
-      'savePlayHistory',
-      'deleteSong'
-    ])
+    }
   },
   watch: {
     currentSong(newSong, oldSong) {
@@ -276,28 +290,31 @@ export default {
 
 <style lang="stylus" scoped  rel="stylesheet/stylus">
 .play-box
-  width 400px
+  width 100%
   height 100%
   background #91ccea
   
   #song-list
-    height 200px
+    height 150px
     background #999
-    padding 10px
-    ul
-      list-style none
+    padding 4px 10px
+    ol
       overflow-y auto
       li
         line-height 24px
+        margin 6px 0
         a
+          cursor pointer
           float right
   canvas
-    height 200px
+    width 100%
+    height 250px
     filter blur(0px)
     background #CCC
   #lyric-block
-    height calc(100% - 450px + 2px)    
-    background rgba(255,255,0,.6)
+    filter blur(5px)
+    height calc(100% - 150px - 250px - 50px + 2px)    
+    background-image rgba(255,255,0,.6)
   #audio
     margin-top -2px
     width 100%

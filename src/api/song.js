@@ -5,7 +5,7 @@ import { getUid } from 'common/js/uid'
 
 const debug = process.env.NODE_ENV !== 'production'
 
-export function getLyric(mid) {
+export function getLyric (mid) {
   const url = debug ? '/api/lyric' : 'http://ustbhuangyi.com/music/api/lyric'
 
   const data = Object.assign({}, commonParams, {
@@ -25,7 +25,7 @@ export function getLyric(mid) {
   })
 }
 
-export function getVKey(songmid, filename) {
+export function getVKey (songmid, filename) {
   const url = 'https://c.y.qq.com/base/fcgi-bin/fcg_music_express_mobile3.fcg'
 
   const data = Object.assign({}, commonParams, {

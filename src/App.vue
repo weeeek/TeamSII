@@ -46,9 +46,10 @@ export default {
   name: 'App'
 }
 </script>
+
 <style lang="stylus" rel="stylesheet/stylus" >
 @import '~common/stylus/index'
-  
+
 @media screen and (min-width 1366px)  
   #app
     height 100%
@@ -65,8 +66,8 @@ export default {
     .music-play-box
       position fixed
       right -400px
-      top 190px
-      height calc(100% - 190px * 2)
+      top 290px
+      height calc(100% - 290px)
       width 400px
       z-index 5
       transition all .6s ease-in-out
