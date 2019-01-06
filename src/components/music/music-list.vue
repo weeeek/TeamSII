@@ -1,7 +1,27 @@
 <template>
   <div id="music-container">
-    <div class="music-block" v-for="item in qqMusicList" :key="item.songid"></div>
-    <div class="music-block"  v-for="item in musiclist" :key="item.type">
+    <div class="music-block" v-for="item in qqMusicList" :key="item.typeName">      
+      <div class="music-type">{{ item.typeName }}</div>
+      <div class="music-group" v-for="g in item.group" :key="g.title">
+        <div class="music-group-title">{{ g.title }}</div>        
+        <div class="music-list">
+          <div class="music-detail" v-for="(s,index) in g.songs" :key="s.songid">          
+            <a v-if="s.plat === 'yyh'" target="_blank" :href="s.src">{{ s.from }} - {{ s.title }} &#12288; 编曲：{{ s.author }}</a>
+            <a v-else target="_blank" :href="`https://y.qq.com/n/yqq/song/${s.songmid}.html`" class="music-title">{{ index + 1 }}.{{ s.songname }}</a>            
+            <a class="music-info">{{ s.from }}</a>
+            <a v-if="s.score" target="_blank" :href="s.score" title="如遇“百度图片无法查看”，请先登录百度账号">曲谱</a>
+            <a v-if="s.play" target="_blank" :href="s.play">演奏</a>
+            <a @click="insertSong(s)" v-if="s.src">
+                <jam-play />
+              </a>
+              <a @click="insertSong(s)" v-if="s.src">
+                <jam-plus-circle />
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="music-block"  v-for="item in musiclist" :key="item.type">
       <div class="music-type">{{ item.type }}</div>
       <div class="music-list">
         <div class="music-detail" v-for="s in item.songs" :key="s.title">
@@ -19,12 +39,13 @@
             </a>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script type="text/ecmascript-6">
-import {musicConfig, qqMusicList} from 'api/musicData'
+import {qqMusicConfig} from 'api/musicData'
+import {getAlbumSongList} from 'api/album'
 import {mapMutations, mapActions, mapGetters } from 'vuex'
 import {playMode} from 'common/js/config'
 
@@ -32,7 +53,8 @@ export default {
   name: `MusicList`,
   data () {
     return {
-      musiclist: musicConfig.list
+      // musiclist: musicConfig.list,
+      qqMusicList: qqMusicConfig.list
     }
   },
   filters: {
@@ -50,11 +72,7 @@ export default {
     ...mapActions(['insertSong'])
   },
   mounted () {
-    qqMusicList.filters((x)=> x.filters((y)=>{
-      y.filters((z)=>{ 
-        return  z.enabled
-      })
-    }))
+
   }
 }
 </script>
@@ -69,9 +87,16 @@ export default {
     border-radius: 4px
     text-align: left
     overflow: hidden
+    .music-group
+      margin 15px 0
+      padding-left 2em
+      .music-group-title
+        font-weight: bolder
+        font-size 20px
     .music-type
       font-weight: bolder
     .music-list
+      padding-left 2em
       display: flex
       flex-direction: column
       flex-wrap: wrap

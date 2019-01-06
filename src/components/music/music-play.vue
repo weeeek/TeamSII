@@ -4,7 +4,7 @@
     <div id="song-list">
       <ol>
         <li v-for="(item,index) in playlist" :key="index">
-          {{ index + 1 }}.{{ item.from }} - {{ item.title }}
+          {{ index + 1 }}.{{ item.songname }}
           <a v-if="false">
             <jam-arrow-square-up />
           </a>
@@ -315,6 +315,10 @@ export default {
     filter blur(5px)
     height calc(100% - 150px - 250px - 50px + 2px)    
     background-image rgba(255,255,0,.6)
+    background-size cover
+    background-position center center
+    background-repeat no-repeat
+    animation filter-blur 5s linear infinite
   #audio
     margin-top -2px
     width 100%
