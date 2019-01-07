@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <div class="music-play-box" :class="{'musicBoxShow':musicBoxShow}">
-      <a class="switch" href="javascript:void(0)" @click="musicBoxShow=!musicBoxShow" v-if="sequenceList.length > 0">
+      <a class="switch" href="javascript:void(0)" @click="musicBoxShow=!musicBoxShow" v-if="playlist.length > 0">
         <jam-arrow-square-right v-if="musicBoxShow"/>
         <jam-arrow-square-left v-if="!musicBoxShow"/>
-      </a>       
-      <player></player>
+      </a>
+      <music-player></music-player>
     </div>
     <!-- <player></player> -->
     <div class="container">
@@ -23,19 +23,18 @@
 import { mapGetters } from "vuex";
 import GlobalHeader from 'components/global/global-header'
 import Tab from 'components/tab/tab'
-import Player from 'components/music/music-play'
+import MusicPlayer from 'components/music/music-play'
 // import Player from 'components/music/Music-Player/player/player'
-// import MusicApp from 'components/music/Music-Player/MusicApp'
 
 export default {
   components: {
     GlobalHeader,
     Tab,
-    //MusicApp
-    Player
+    // Player,
+    MusicPlayer
   },
   computed: {
-      ...mapGetters(['sequenceList'])
+      ...mapGetters(['playlist'])
   },
   data () {
     return {
@@ -50,7 +49,7 @@ export default {
 <style lang="stylus" rel="stylesheet/stylus" >
 @import '~common/stylus/index'
 
-@media screen and (min-width 1366px)  
+@media screen and (min-width 1366px)
   #app
     height 100%
     background-image url('/TeamSII/dist/static/images/bg.jpg')
@@ -62,7 +61,7 @@ export default {
     background-color $color-bg
     .container
       width 1336px
-      margin 0 auto  
+      margin 0 auto
     .music-play-box
       position fixed
       right -400px

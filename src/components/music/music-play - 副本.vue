@@ -18,8 +18,8 @@
       </ol>
     </div>
     <!--当前歌曲歌词-->
-    <div id="lyric-block" :style="`background-image:url('${albumImg}')`">
-      <div class="playing-lyric">{{calcLyric}}</div>
+    <div id="lyric-block" :style="`background-image:url('${getImg}')`">
+      <div class="playing-lyric">{{playingLyric}}</div>
     </div>
     <!--当前歌曲分析-->
     <canvas id="canvas" width="575" height="250"></canvas>
@@ -32,7 +32,7 @@
       @ended="end"
       @pause="paused"
       volume="0.3"
-      :src="playSrc"
+      :src="getSrc"
       autoplay
       controls
       @load="analys()"
@@ -45,9 +45,6 @@
 <script type="text/ecmascript-6">
 import { mapGetters, mapMutations, mapActions } from 'vuex'
 import { playMode } from 'common/js/config'
-import { getLyric, getVKey } from 'api/song'
-import { getUid } from 'common/js/uid'
-import { ERR_OK } from 'api/config'
 
 export default {
   name: `MusicPlay`,
@@ -69,7 +66,6 @@ export default {
       capYPositionArray: [],
       gradient: null,
 
-      albumImg: '',
       songReady: false,
       currentTime: 0,
       radius: 32,
@@ -82,40 +78,16 @@ export default {
     }
   },
   computed: {
-    playSrc () {      
-      // 播放资源地址
-      if(this.playlist.length == 0)
-        return "";        
-      let currentSong = this.playlist[this.currentIndex]
-      if(currentSong.url){        
-        return currentSong.url
-      }
-      if(this.playlist.length > 0 && this.currentIndex >= 0){
-        getVKey(currentSong.songmid,`C400${currentSong.songmid}.m4a`).then((res) => {
-          if (res.code === ERR_OK) {
-            const vkey = res.data.items[0].vkey
-            currentSong.url = `http://dl.stream.qqmusic.qq.com/C400${currentSong.songmid}.m4a?vkey=${vkey}&guid=${getUid()}&uin=0&fromtag=66`
-            console.log('url', currentSong.url)            
-            return currentSong.url
-          }
-        })
-      }
-      
-      this.albumImg = this.playlist[this.currentIndex].image || "rgba(255,255,0,.6)"
-
-      getLyric(currentSong.songmid).then((res) => {
-          if (res.retcode === ERR_OK) {
-            this.currentLyric = Base64.decode(res.lyric)
-            // resolve(this.currentLyric)
-            console.log('currentLyric',this.currentLyric)
-          } else {
-            // reject('no lyric')
-          }
-        })
+    getSrc () {
+      if(this.playlist.length > 0 && this.currentIndex >= 0)
+        return  this.playlist[this.currentIndex].src
+      return ""
     },
-    calcLyric () {
-      this.playingLyric = this.currentLyric;
-    },    
+    getImg () {
+      if(this.playlist.length > 0 && this.currentIndex >= 0)
+        return  this.playlist[this.currentIndex].img
+      return "rgba(255,255,0,.6)"
+    },
     ...mapGetters(['playlist','currentIndex'])
   },
   created(){
@@ -129,7 +101,7 @@ export default {
     setPlayingState: 'SET_PLAYING_STATE'
   }),
   ...mapActions([
-    // 'savePlayHistory',
+    'savePlayHistory',
     'deleteSong',
     'playing'
   ]),
@@ -228,7 +200,7 @@ export default {
       // 监听 playing 这个事件可以确保慢网速或者快速切换歌曲导致的 DOM Exception
       this.songReady = true
       this.canLyricPlay = true
-      // this.savePlayHistory(this.currentSong)
+      this.savePlayHistory(this.currentSong)
       // 如果歌曲的播放晚于歌词的出现，播放的时候需要同步歌词
       if (this.currentLyric && !this.isPureMusic) {
         this.currentLyric.seek(this.currentTime * 1000)
@@ -319,7 +291,7 @@ export default {
   },
   watch: {
     currentSong(newSong, oldSong) {
-      if (!newSong.songid || !newSong.url || newSong.songid === oldSong.songid) {
+      if (!newSong.id || !newSong.url || newSong.id === oldSong.id) {
         return
       }
       this.songReady = false
