@@ -5,19 +5,6 @@
       <div class="music-group" v-for="g in item.group" :key="g.title">
         <div class="music-group-title">{{ g.title }}</div>        
         <div class="music-list">
-          <!-- <div class="music-detail" v-for="(s,index) in g.songs" :key="s.songid">          
-            <a v-if="s.plat === 'yyh'" target="_blank" :href="s.src">{{ s.from }} - {{ s.title }} &#12288; 编曲：{{ s.author }}</a>
-            <a v-else target="_blank" :href="`https://y.qq.com/n/yqq/song/${s.songmid}.html`" class="music-title">{{ index + 1 }}.{{ s.songname }}</a>            
-            <a class="music-info">{{ s.from }}</a>
-            <a v-if="s.score" target="_blank" :href="s.score" title="如遇“百度图片无法查看”，请先登录百度账号">曲谱</a>
-            <a v-if="s.play" target="_blank" :href="s.play">演奏</a>
-            <a @click="insertSong(s)" v-if="s.src">
-                <jam-play />
-              </a>
-              <a @click="insertSong(s)" v-if="s.src">
-                <jam-plus-circle />
-              </a>
-          </div> -->
           <song-list :songs="g.songs" @select="selectSong"></song-list>
         </div>
       </div>
@@ -27,7 +14,6 @@
 
 <script type="text/ecmascript-6">
 import {qqMusicConfig} from 'api/musicData'
-import {getAlbumSongList} from 'api/album'
 import {mapMutations, mapActions, mapGetters } from 'vuex'
 import {playMode} from 'common/js/config'
 import SongList from 'components/music/song-list'
@@ -39,7 +25,6 @@ export default {
   },
   data () {
     return {
-      // musiclist: musicConfig.list,
       qqMusicList: qqMusicConfig.list
     }
   },
@@ -53,11 +38,11 @@ export default {
       this.insertSong(song)
     },
     //在歌单里的，选择之，播放。不在，加入歌单，播放
-    // ...mapMutations({
-    //   setPlayList: 'SET_PLAYLIST',
-    //   setCurrentIndex: 'SET_CURRENT_INDEX',
-    //   setPlayingState: 'SET_PLAYING_STATE'
-    // }),
+    ...mapMutations({
+      setPlayList: 'SET_PLAYLIST',
+      setCurrentIndex: 'SET_CURRENT_INDEX',
+      setPlayingState: 'SET_PLAYING_STATE'
+    }),
     ...mapActions(['insertSong'])
   },
   mounted () {

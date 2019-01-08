@@ -7,7 +7,7 @@
         </div>
         <div class="content">
           <a class="name text-ellipsis" target="_blank" :href="`https://y.qq.com/n/yqq/song/${song.songmid}.html`">{{song.songname}}</a>
-          <a href="javascript:void(0)" @click="selectItem(song, index)">
+          <a class="play" href="javascript:void(0)" @click="selectItem(song, index)">
             <jam-play />
           </a>
         </div>
@@ -48,7 +48,6 @@
       .rank
         flex: 0 0 25px
         width: 25px
-        margin-right: 30px
         text-align: center
         .icon
           display: inline-block
@@ -64,8 +63,13 @@
         overflow: hidden
         a
           float left
-        .name 
+        .name
+          height 32px
+          line-height 32px
           margin-right 1em
+        .play
+          margin 4px 0
+          height 24px
         .desc
           margin-top: 4px
 </style>

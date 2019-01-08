@@ -6,7 +6,8 @@ import {savePlay, saveFavorite, deleteFavorite} from 'common/js/cache'
 
 function findIndex (list, song) {
   return list.findIndex((item) => {
-    return item.id === song.id
+    // return item.id === song.id
+    return item.songid === song.songid
   })
 }
 
@@ -43,6 +44,7 @@ export const insertSong = function ({commit, state}, song) {
   let currentIndex = state.currentIndex
   // 记录当前歌曲
   let currentSong = playlist[currentIndex]
+
   // 查找当前列表中是否有待插入的歌曲并返回其索引
   let fpIndex = findIndex(playlist, song)
   // 因为是插入歌曲，所以索引+1

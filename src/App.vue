@@ -7,7 +7,6 @@
       </a>
       <music-player></music-player>
     </div>
-    <!-- <player></player> -->
     <div class="container">
       <global-header></global-header>
       <tab></tab>
@@ -24,13 +23,11 @@ import { mapGetters } from "vuex";
 import GlobalHeader from 'components/global/global-header'
 import Tab from 'components/tab/tab'
 import MusicPlayer from 'components/music/music-play'
-// import Player from 'components/music/Music-Player/player/player'
 
 export default {
   components: {
     GlobalHeader,
     Tab,
-    // Player,
     MusicPlayer
   },
   computed: {
