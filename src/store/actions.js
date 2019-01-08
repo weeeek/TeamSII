@@ -2,11 +2,10 @@ import * as types from './mutation-types'
 import {playMode} from 'common/js/config'
 import {shuffle} from 'common/js/util'
 // import {saveSearch, clearSearch, deleteSearch, savePlay, saveFavorite, deleteFavorite} from 'common/js/cache'
-import {savePlay, saveFavorite, deleteFavorite} from 'common/js/cache'
+// import {savePlay, saveFavorite, deleteFavorite} from 'common/js/cache'
 
 function findIndex (list, song) {
   return list.findIndex((item) => {
-    // return item.id === song.id
     return item.songid === song.songid
   })
 }
@@ -125,20 +124,20 @@ export const deleteSongList = function ({commit}) {
   commit(types.SET_PLAYING_STATE, false)
 }
 
-export const savePlayHistory = function ({commit}, song) {
-  if (song !== undefined) {
-    commit(types.SET_PLAY_HISTORY, savePlay(song))
-  }
-}
+// export const savePlayHistory = function ({commit}, song) {
+//   if (song !== undefined) {
+//     commit(types.SET_PLAY_HISTORY, savePlay(song))
+//   }
+// }
 
-export const saveFavoriteList = function ({commit}, song) {
-  if (song !== undefined) {
-    commit(types.SET_FAVORITE_LIST, saveFavorite(song))
-  }
-}
+// export const saveFavoriteList = function ({commit}, song) {
+//   if (song !== undefined) {
+//     commit(types.SET_FAVORITE_LIST, saveFavorite(song))
+//   }
+// }
 
-export const deleteFavoriteList = function ({commit}, song) {
-  if (song !== undefined) {
-    commit(types.SET_FAVORITE_LIST, deleteFavorite(song))
-  }
-}
+// export const deleteFavoriteList = function ({commit}, song) {
+//   if (song !== undefined) {
+//     commit(types.SET_FAVORITE_LIST, deleteFavorite(song))
+//   }
+// }

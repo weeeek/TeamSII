@@ -24,20 +24,6 @@
     <!--当前歌曲分析-->
     <canvas id="canvas" width="575" height="250"></canvas>
     <!--歌曲播放-->
-    <!-- <audio
-      id="audio"
-      @loadstart="ready"
-      @error="error"
-      @timeupdate="updateTime"
-      @ended="end"
-      @pause="paused"
-      autoplay
-      controls
-      @load="analys()"
-      @playing="playing()"
-      crossOrigin="anonymous"
-    ></audio> -->
-    
     <audio id="audio" autoplay controls ref="audio" @loadstart="loadstart" @playing="ready" @error="error" @timeupdate="updateTime"
       volume="0.3" @ended="end" @pause="paused"></audio>
   </div>
@@ -221,7 +207,7 @@
         // 监听 playing 这个事件可以确保慢网速或者快速切换歌曲导致的 DOM Exception
         this.songReady = true
         this.canLyricPlay = true
-        this.savePlayHistory(this.currentSong)
+        // this.savePlayHistory(this.currentSong)
         // 如果歌曲的播放晚于歌词的出现，播放的时候需要同步歌词
         if (this.currentLyric && !this.isPureMusic) {
           this.currentLyric.seek(this.currentTime * 1000)
@@ -403,7 +389,8 @@
         setFullScreen: 'SET_FULL_SCREEN'
       }),
       ...mapActions([
-        'savePlayHistory','deleteSong'
+        // 'savePlayHistory',
+        'deleteSong'
       ]),      
       analys() {
         window.AudioContext =
@@ -507,8 +494,7 @@
         
         this.albumImg = newSong.image || "rgba(255,255,0,.6)"
         
-        console.log('newSong', newSong)
-        debugger
+        console.log('newSongUrl', newSong.url)
         this.$refs.audio.src = newSong.url
         this.$refs.audio.play()
         // 若歌曲 5s 未播放，则认为超时，修改状态确保可以切换歌曲。

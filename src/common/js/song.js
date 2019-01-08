@@ -1,5 +1,5 @@
 import { getLyric, getVKey } from 'api/song'
-// import { getUid } from './uid'
+import { getUid } from './uid'
 import { ERR_OK } from 'api/config'
 import { Base64 } from 'js-base64'
 
@@ -43,8 +43,8 @@ export default class Song {
     getVKey(this.songmid, this.filename).then((res) => {
       if (res.code === ERR_OK) {
         const vkey = res.data.items[0].vkey
-        this.url = `http://116.211.73.28/amobile.music.tc.qq.com/${this.filename}?guid=7709763462&vkey=${vkey}&uin=0&fromtag=66`
-        // this.url = `http://dl.stream.qqmusic.qq.com/${this.filename}?vkey=${vkey}&guid=${getUid()}&uin=0&fromtag=66`
+        // this.url = `http://116.211.73.28/amobile.music.tc.qq.com/${this.filename}?guid=${getUid()}&vkey=${vkey}&uin=0&fromtag=66`
+        this.url = `http://dl.stream.qqmusic.qq.com/${this.filename}?vkey=${vkey}&guid=${getUid()}&uin=0&fromtag=66`
         urlMap[this.songid] = this.url
       }
     })
