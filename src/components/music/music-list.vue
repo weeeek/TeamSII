@@ -13,9 +13,10 @@
 </template>
 
 <script type="text/ecmascript-6">
-import {qqMusicConfig} from 'api/musicData'
-import {mapMutations, mapActions, mapGetters } from 'vuex'
-import {playMode} from 'common/js/config'
+import { qqMusicConfig } from 'api/musicData'
+import { mapMutations, mapActions, mapGetters } from 'vuex'
+import { createSong } from 'common/js/song'
+import Song from 'common/js/song'
 import SongList from 'components/music/song-list'
 
 export default {
@@ -28,14 +29,18 @@ export default {
       qqMusicList: qqMusicConfig.list
     }
   },
-  filters: {
-    plat (p) {
-
-    }
+  mounted () {
+    this.insertSong(createSong({      
+      image: '',
+      'songid': 0,
+      'songmid': '0',
+      'songname': ''
+    }))
+    //this.deleteSong({'songid': 0})
   },
   methods: {
     selectSong(song) {
-      this.insertSong(song)
+      this.insertSong(createSong(song))
     },
     //在歌单里的，选择之，播放。不在，加入歌单，播放
     ...mapMutations({
@@ -43,10 +48,7 @@ export default {
       setCurrentIndex: 'SET_CURRENT_INDEX',
       setPlayingState: 'SET_PLAYING_STATE'
     }),
-    ...mapActions(['insertSong'])
-  },
-  mounted () {
-
+    ...mapActions(['insertSong','deleteSong'])
   }
 }
 </script>

@@ -64,7 +64,6 @@ export default {
 .timeline
   text-align left
   width 100%
-  max-width 500px
   .wrapper-timeline
     position relative
   .wrapper-item
@@ -121,4 +120,6 @@ export default {
         background #c3c3c3
       .dot-sea
         background #006ab7
+      .dot-black
+        background #000000
 </style>

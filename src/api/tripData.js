@@ -4,17 +4,47 @@ export const tripData = [{
     to: '2019'
   },
   items: [{
+    nameMonth: '2月3日',
+    title: '2019安徽卫视春节联欢晚会',
+    description: '出席成员：SNH48 7senses',
+    typeClass: 'dot-green',
+    url: ''
+  }, {
+    nameMonth: '1月19日 17:30',
+    title: 'SNH48 GROUP 第五届年度金曲大赏演唱会',
+    description: '',
+    typeClass: 'dot-black',
+    url: ''
+  }, {
+    nameMonth: '1月13日 19:00',
+    title: 'SNH48 金曲大赏小组合《Just Dance》剧场公演',
+    description: '出席成员：徐子轩，吴哲晗',
+    typeClass: 'dot-blue',
+    url: ''
+  }, {
     nameMonth: '1月9日 19:30',
-    title: 'Team SII 出道6周年 公演',
-    description: '出席成员：',
+    title: 'SNH48 一期生 出道6周年 公演',
+    description: '出席成员：陈观慧，陈思，吴哲晗，许佳琪，袁雨桢，温晶婕，蒋芸，孙芮，徐晨辰，孔肖吟，莫寒，钱蓓婷，戴萌，袁丹妮，邵雪聪，刘增艳，李宇琪',
     typeClass: 'dot-blue',
     url: ''
   }, {
     nameMonth: '1月6日 19:30',
-    title: '《重生计划》第九场',
-    description: '出席成员：',
+    title: '《重生计划》第九场 刘增艳生日公演',
+    description: '出席成员：陈观慧，陈思，吴哲晗，许佳琪，袁雨桢，温晶婕，蒋芸，孙芮，徐晨辰，孔肖吟，莫寒，钱蓓婷，戴萌，袁丹妮，邵雪聪，刘增艳，李宇琪，张语格',
     typeClass: 'dot-blue',
-    url: ''
+    url: 'https://www.bilibili.com/video/av40108380'
+  }, {
+    nameMonth: '1月6日',
+    title: '芒果TV《综艺吃瓜社》',
+    description: '李宇琪 莫寒 孙芮 孔肖吟 许佳琪 徐子轩 李艺彤 赵粤 万丽娜 易嘉爱 张怡 张昕',
+    typeClass: 'dot-green',
+    url: 'https://www.bilibili.com/video/av40105733'
+  }, {
+    nameMonth: '1月5日',
+    title: '深圳卫视《极速环游记》',
+    description: '孙芮，李艺彤',
+    typeClass: 'dot-green',
+    url: 'https://www.bilibili.com/video/av40250635'
   }]
 }, {
   year: {
@@ -38,15 +68,22 @@ export const tripData = [{
     },
     {
       nameMonth: '12月28日 19:30',
-      title: '袁雨桢 NHK综合《もう1人の私に会いたい！（想见另一个我！）》',
-      description: '',
+      title: 'NHK综合《もう1人の私に会いたい！（想见另一个我！）》',
+      description: '本田翼，袁雨桢',
       typeClass: 'dot-green',
       url: 'https://www.bilibili.com/video/av39290717'
     },
     {
+      nameMonth: '12月28日 18:00',
+      title: 'XUYIR | 喝酒聊天企划—《再来伊杯》 （下）| 跟锅吐露真言',
+      description: '徐伊人，刘增艳',
+      typeClass: 'dot-gray',
+      url: 'https://www.bilibili.com/video/av39309577'
+    },
+    {
       nameMonth: '12月28日 19:30',
       title: '《重生计划》第八场',
-      description: '出席成员：陈观慧，吴哲晗，徐子轩，许佳琪，袁雨桢，温晶婕，蒋芸，孙芮，徐晨辰，孔肖吟，莫寒，钱蓓婷，戴萌，徐伊人，袁丹妮，邵雪聪，刘增艳',
+      description: '出席成员：陈观慧，吴哲晗，徐子轩，许佳琪，袁雨桢，温晶婕，蒋芸，孙芮，徐晨辰，孔肖吟，莫寒，钱蓓婷，戴萌，徐伊人，袁丹妮，邵雪聪，刘增艳，张语格',
       typeClass: 'dot-blue',
       url: 'https://www.bilibili.com/video/av39250599'
     }, {
@@ -61,12 +98,6 @@ export const tripData = [{
       description: '出席成员：吴哲晗，徐子轩，许佳琪，袁雨桢，温晶婕，蒋芸，孙芮，徐晨辰，孔肖吟，莫寒，钱蓓婷，戴萌，徐伊人，袁丹妮，邵雪聪，刘增艳',
       typeClass: 'dot-blue',
       url: 'https://www.bilibili.com/video/av38782017'
-    }, {
-      nameMonth: '12月22日',
-      title: '深圳卫视《极速环游记》',
-      description: '孙芮，李艺彤',
-      typeClass: 'dot-green',
-      url: ''
     }, {
       nameMonth: '12月21日 19:30',
       title: '《重生计划》第六场，袁雨桢小组合拉票公演，许佳琪噩梦轮回首演',
@@ -95,19 +126,19 @@ export const tripData = [{
       nameMonth: '12月13日',
       title: '《养乐多青春剧场》第一话·相见恨晚',
       description: '莫寒 费沁源',
-      typeClass: 'dot-green',
+      typeClass: 'dot-red',
       url: 'https://www.bilibili.com/video/av38098402'
     }, {
       nameMonth: '12月12日',
       title: '人民的宝贝总决选',
       description: '许佳琪 徐子轩 莫寒 孔肖吟 孙芮 李宇琪',
-      typeClass: 'dot-red',
+      typeClass: 'dot-green',
       url: 'https://www.bilibili.com/video/av38021796'
     }, {
       nameMonth: '12月09日',
       title: '咪咕次元盛典',
       description: '邵雪聪 陈观慧 李宇琪 刘增艳 钱蓓婷 莫寒 孙芮',
-      typeClass: 'dot-red',
+      typeClass: 'dot-green',
       url: 'https://www.bilibili.com/video/av37815149'
     }, {
       nameMonth: '11月30日 19:30',
@@ -141,7 +172,7 @@ export const tripData = [{
       url: 'https://www.bilibili.com/video/av36242302'
     }, {
       nameMonth: '11月3日 14:00',
-      title: '《美丽48区》公演普通场',
+      title: '《美丽48区》',
       description: '出席成员：莫寒，孔肖吟，李宇琪，邵雪聪，袁丹妮，徐晨辰，袁雨桢，刘增艳，徐伊人，孙芮，钱蓓婷，温晶婕',
       typeClass: 'dot-blue',
       url: 'https://www.bilibili.com/video/av35204783'
@@ -149,7 +180,7 @@ export const tripData = [{
       nameMonth: '11月1日 19:00',
       title: '超新星运动会',
       description: '出席成员：孙芮，李宇琪',
-      typeClass: 'dot-red',
+      typeClass: 'dot-green',
       url: 'https://v.qq.com/x/cover/syf5vvuk9e5jup2/v00286kb0w7.html'
     }
   ]

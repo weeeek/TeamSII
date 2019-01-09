@@ -24,7 +24,7 @@
     <!--当前歌曲分析-->
     <canvas id="canvas" width="575" height="250"></canvas>
     <!--歌曲播放-->
-    <audio id="audio" autoplay controls ref="audio" @loadstart="loadstart" @playing="ready" @error="error" @timeupdate="updateTime"
+    <audio controls ref="audio" @loadstart="loadstart" @playing="ready" @error="error" @timeupdate="updateTime"
       volume="0.3" @ended="end" @pause="paused"></audio>
   </div>
 </template>
@@ -36,7 +36,8 @@
   import ProgressBar from 'base/progress-bar/progress-bar'
   import ProgressCircle from 'base/progress-circle/progress-circle'
   import { playMode } from 'common/js/config'
-  import { createSong } from 'common/js/song'
+  import { getLyric, getVKey } from 'api/song'
+  import Song from 'common/js/song'
   import Lyric from 'lyric-parser'
   import Scroll from 'base/scroll/scroll'
   import { playerMixin } from 'common/js/mixin'
@@ -399,7 +400,8 @@
           window.mozAudioContext
         this.ctx = new AudioContext()
         this.analyser = this.ctx.createAnalyser()
-        this.audio = document.getElementById("audio")
+        //this.audio = document.getElementById("audio")
+        this.audio = this.$refs.audio
         this.audio.volume = 0.3
         this.audioSrc = this.ctx.createMediaElementSource(this.audio)
         // we have to connect the MediaElementSource with the analyser
@@ -480,32 +482,15 @@
         setTimeout(() => {
           item.deleting = false
         }, 300)
-      },
+      }
     },
-    watch: {
+    watch: {      
       currentSong(newSong, oldSong) {
         if (!newSong.songid || !newSong.url || newSong.songid === oldSong.songid) {
-          if(!newSong.url){
-            newSong = createSong(newSong)
-          }else{
-            return
-          }
+          return
         }
-        
-        this.albumImg = newSong.image || "rgba(255,255,0,.6)"
-        
-        console.log('newSongUrl', newSong.url)
-        this.$refs.audio.src = newSong.url
-        this.$refs.audio.play()
-        // 若歌曲 5s 未播放，则认为超时，修改状态确保可以切换歌曲。
-        clearTimeout(this.timer)
-        this.timer = setTimeout(() => {
-          this.songReady = true
-        }, 5000)
-
-        // 异步取歌词
-        // this.songReady = false
-        // this.canLyricPlay = false
+        this.songReady = false
+        this.canLyricPlay = false
         // if (this.currentLyric) {
         //   this.currentLyric.stop()
         //   // 重置为null
@@ -514,13 +499,15 @@
         //   this.playingLyric = ''
         //   this.currentLineNum = 0
         // }
-        // this.$refs.audio.src = newSong.url
-        // this.$refs.audio.play()
-        // // 若歌曲 5s 未播放，则认为超时，修改状态确保可以切换歌曲。
-        // clearTimeout(this.timer)
-        // this.timer = setTimeout(() => {
-        //   this.songReady = true
-        // }, 5000)
+        
+        this.albumImg = newSong.image || "rgba(255,255,0,.6)"
+        this.$refs.audio.src = newSong.url
+        this.$refs.audio.play()
+        // 若歌曲 5s 未播放，则认为超时，修改状态确保可以切换歌曲。
+        clearTimeout(this.timer)
+        this.timer = setTimeout(() => {
+          this.songReady = true
+        }, 5000)
         // this.getLyric()
       },
       playing(newPlaying) {
@@ -589,7 +576,7 @@
     background-position center center
     background-repeat no-repeat
     animation filter-blur 5s linear infinite
-  #audio
+  audio
     margin-top -2px
     width 100%
     height 50px

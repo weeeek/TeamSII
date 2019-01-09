@@ -9,7 +9,7 @@ export default class Song {
   constructor ({songid, songmid, songname, image}) {
     this.songid = songid
     this.songmid = songmid
-    this.name = songname
+    this.songname = songname
     this.image = image
     this.filename = `C400${this.songmid}.m4a`
     // 确保一首歌曲的 id 只对应一个 url
@@ -19,7 +19,6 @@ export default class Song {
       this._genUrl()
     }
   }
-
   getLyric () {
     if (this.lyric) {
       return Promise.resolve(this.lyric)
@@ -39,15 +38,20 @@ export default class Song {
   _genUrl () {
     if (this.url) {
       return
+    } else if (this.songid === '0' || this.songmid === '0') {
+      this.url = ''
+      return
+    } else {
+      getVKey(this.songmid, this.filename).then((res) => {
+        if (res.code === ERR_OK) {
+          const vkey = res.data.items[0].vkey
+          // this.url = `http://116.211.73.28/amobile.music.tc.qq.com/${this.filename}?guid=${getUid()}&vkey=${vkey}&uin=0&fromtag=66`
+          this.url = `http://dl.stream.qqmusic.qq.com/${this.filename}?vkey=${vkey}&guid=${getUid()}&uin=0&fromtag=66`
+          urlMap[this.songid] = this.url
+          console.log('url', this.url)
+        }
+      })
     }
-    getVKey(this.songmid, this.filename).then((res) => {
-      if (res.code === ERR_OK) {
-        const vkey = res.data.items[0].vkey
-        // this.url = `http://116.211.73.28/amobile.music.tc.qq.com/${this.filename}?guid=${getUid()}&vkey=${vkey}&uin=0&fromtag=66`
-        this.url = `http://dl.stream.qqmusic.qq.com/${this.filename}?vkey=${vkey}&guid=${getUid()}&uin=0&fromtag=66`
-        urlMap[this.songid] = this.url
-      }
-    })
   }
 }
 
@@ -76,5 +80,5 @@ export function createSong (musicData) {
 // }
 
 export function isValidMusic (musicData) {
-  return musicData.songid && musicData.albummid && (!musicData.pay || musicData.pay.payalbumprice === 0)
+  return musicData.songid
 }
