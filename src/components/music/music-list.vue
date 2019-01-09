@@ -15,8 +15,6 @@
 <script type="text/ecmascript-6">
 import { qqMusicConfig } from 'api/musicData'
 import { mapMutations, mapActions, mapGetters } from 'vuex'
-import { createSong } from 'common/js/song'
-import Song from 'common/js/song'
 import SongList from 'components/music/song-list'
 
 export default {
@@ -29,18 +27,9 @@ export default {
       qqMusicList: qqMusicConfig.list
     }
   },
-  mounted () {
-    this.insertSong(createSong({      
-      image: '',
-      'songid': 0,
-      'songmid': '0',
-      'songname': ''
-    }))
-    //this.deleteSong({'songid': 0})
-  },
   methods: {
     selectSong(song) {
-      this.insertSong(createSong(song))
+      this.insertSong(song)
     },
     //在歌单里的，选择之，播放。不在，加入歌单，播放
     ...mapMutations({
@@ -48,7 +37,7 @@ export default {
       setCurrentIndex: 'SET_CURRENT_INDEX',
       setPlayingState: 'SET_PLAYING_STATE'
     }),
-    ...mapActions(['insertSong','deleteSong'])
+    ...mapActions(['insertSong'])
   }
 }
 </script>

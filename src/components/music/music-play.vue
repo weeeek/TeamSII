@@ -24,7 +24,7 @@
     <!--当前歌曲分析-->
     <canvas id="canvas" width="575" height="250"></canvas>
     <!--歌曲播放-->
-    <audio controls ref="audio" @loadstart="loadstart" @playing="ready" @error="error" @timeupdate="updateTime"
+    <audio controls ref="audio" @loadstart="loadstart" @playing="ready" @error="error" @timeupdate="updateTime" crossorigin="anonymous"
       volume="0.3" @ended="end" @pause="paused"></audio>
   </div>
 </template>
@@ -484,7 +484,7 @@
         }, 300)
       }
     },
-    watch: {      
+    watch: {
       currentSong(newSong, oldSong) {
         if (!newSong.songid || !newSong.url || newSong.songid === oldSong.songid) {
           return
@@ -499,7 +499,6 @@
         //   this.playingLyric = ''
         //   this.currentLineNum = 0
         // }
-        
         this.albumImg = newSong.image || "rgba(255,255,0,.6)"
         this.$refs.audio.src = newSong.url
         this.$refs.audio.play()

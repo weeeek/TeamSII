@@ -17,6 +17,8 @@
 </template>
 
 <script type="text/ecmascript-6">
+  // import { createSong } from 'common/js/song'
+
   export default {
     props: {
       songs: {
@@ -24,6 +26,19 @@
         default: []
       }
     },
+    // mounted () {
+    //   this.songs.forEach((s)=>{
+    //     s = createSong(s)
+    //   })
+    // },
+    // watch: {
+    //   songs: function(newSongs, oldSongs){
+    //     newSongs.forEach((s)=>{
+    //       if(!s.url)
+    //         console.log(s.songname+'没有url')
+    //     })
+    //   }
+    // },
     methods: {
       selectItem (item, index) {
         this.$emit('select', item, index)

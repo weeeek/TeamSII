@@ -298,5 +298,26 @@ export const qqMusicConfig = {
       albumids: [''],
       songs: []
     }]
+  }, {
+    typeName: '饭制',
+    group: [{
+      title: '应援',
+      songs: [{
+        image: '',
+        'songid': 20181111,
+        'songmid': '0',
+        'songname': '蔚蓝回响',
+        url: 'https://raw.githubusercontent.com/weeeek/SNH48/gh-pages/SIIMedleyScore/SIIMedley.mp3'
+      }]
+    }, {
+      title: '改编',
+      songs: [{
+        image: '',
+        'songid': 20150000,
+        'songmid': '0',
+        'songname': '',
+        url: ''
+      }]
+    }]
   }]
 }

@@ -6,17 +6,23 @@ import { Base64 } from 'js-base64'
 let urlMap = {}
 
 export default class Song {
-  constructor ({songid, songmid, songname, image}) {
+  constructor ({songid, songmid, songname, image, url}) {
     this.songid = songid
     this.songmid = songmid
     this.songname = songname
     this.image = image
     this.filename = `C400${this.songmid}.m4a`
+    // 固定的src配置
+    if (url) {
+      urlMap[this.songid] = url
+    }
     // 确保一首歌曲的 id 只对应一个 url
     if (urlMap[this.songid]) {
       this.url = urlMap[this.songid]
+      console.log(this.url)
     } else {
-      this._genUrl()
+      // 取url
+      this.url = this._genUrl()
     }
   }
   getLyric () {
@@ -37,21 +43,17 @@ export default class Song {
   }
   _genUrl () {
     if (this.url) {
-      return
-    } else if (this.songid === '0' || this.songmid === '0') {
-      this.url = ''
-      return
-    } else {
-      getVKey(this.songmid, this.filename).then((res) => {
-        if (res.code === ERR_OK) {
-          const vkey = res.data.items[0].vkey
-          // this.url = `http://116.211.73.28/amobile.music.tc.qq.com/${this.filename}?guid=${getUid()}&vkey=${vkey}&uin=0&fromtag=66`
-          this.url = `http://dl.stream.qqmusic.qq.com/${this.filename}?vkey=${vkey}&guid=${getUid()}&uin=0&fromtag=66`
-          urlMap[this.songid] = this.url
-          console.log('url', this.url)
-        }
-      })
+      return this.url
     }
+    getVKey(this.songmid, this.filename).then((res) => {
+      if (res.code === ERR_OK) {
+        const vkey = res.data.items[0].vkey
+        // this.url = `http://116.211.73.28/amobile.music.tc.qq.com/${this.filename}?guid=${getUid()}&vkey=${vkey}&uin=0&fromtag=66`
+        urlMap[this.songid] = `http://dl.stream.qqmusic.qq.com/${this.filename}?vkey=${vkey}&guid=${getUid()}&uin=0&fromtag=66`
+        // console.log('url', urlMap[this.songid])
+        return urlMap[this.songid]
+      }
+    })
   }
 }
 
@@ -64,7 +66,8 @@ export function createSong (musicData) {
     // album: musicData.albumname,
     // duration: musicData.interval,
     // image: `https://y.gtimg.cn/music/photo_new/T002R300x300M000${musicData.albummid}.jpg?max_age=2592000`
-    image: musicData.image || '/TeamSII/dist/static/images/flag.jpg'
+    image: musicData.image || '/TeamSII/dist/static/images/flag.jpg',
+    url: musicData.url || null
   })
 }
 
