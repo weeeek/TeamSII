@@ -34,6 +34,13 @@ export const randomPlay = function ({commit}, {list}) {
   commit(types.SET_PLAYING_STATE, true)
 }
 
+export const setCurrentUrl = function ({commit, state}, url) {
+  state.playlist[state.currentIndex].url = url
+  commit(types.SET_PLAYLIST, state.playlist)
+  commit(types.SET_CURRENT_INDEX, state.currentIndex)
+  commit(types.SET_PLAYING_STATE, true)
+}
+
 export const insertSong = function ({commit, state}, song) {
   // 复制播放列表数组
   let playlist = state.playlist.slice()

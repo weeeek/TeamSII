@@ -24,7 +24,7 @@
     <!--当前歌曲分析-->
     <canvas id="canvas" width="575" height="250"></canvas>
     <!--歌曲播放-->
-    <audio controls ref="audio" @loadstart="loadstart" @playing="ready" @error="error" @timeupdate="updateTime" crossorigin="anonymous"
+    <audio controls ref="audio" @loadstart="loadstart" @playing="ready" @error="error" @timeupdate="updateTime" 
       volume="0.3" @ended="end" @pause="paused"></audio>
   </div>
 </template>
@@ -38,6 +38,8 @@
   import { playMode } from 'common/js/config'
   import { getLyric, getVKey } from 'api/song'
   import Song from 'common/js/song'
+  import { getUid } from 'common/js/uid'
+  import { ERR_OK } from 'api/config'
   import Lyric from 'lyric-parser'
   import Scroll from 'base/scroll/scroll'
   import { playerMixin } from 'common/js/mixin'
@@ -391,7 +393,8 @@
       }),
       ...mapActions([
         // 'savePlayHistory',
-        'deleteSong'
+        'deleteSong',
+        'setCurrentUrl'
       ]),      
       analys() {
         window.AudioContext =
@@ -482,11 +485,28 @@
         setTimeout(() => {
           item.deleting = false
         }, 300)
+      },
+      hide () {
+
       }
     },
     watch: {
       currentSong(newSong, oldSong) {
         if (!newSong.songid || !newSong.url || newSong.songid === oldSong.songid) {
+          if (!newSong.url) {
+            let filename = `C400${newSong.songmid}.m4a`
+            let guid = getUid()
+            getVKey(newSong.songmid, filename, guid).then((res) => {
+              if (res.code === ERR_OK) {
+                const vkey = res.data.items[0].vkey
+                const hostStr = 'http://dl.stream.qqmusic.qq.com'
+                
+                this.setCurrentUrl(`${hostStr}/${filename}?vkey=${vkey}&guid=${guid}&uin=0&fromtag=66`)
+                this.$refs.audio.src = newSong.url
+                this.$refs.audio.play()
+              }
+            })
+          }
           return
         }
         this.songReady = false
@@ -499,7 +519,8 @@
         //   this.playingLyric = ''
         //   this.currentLineNum = 0
         // }
-        this.albumImg = newSong.image || "rgba(255,255,0,.6)"
+        this.albumImg = newSong.image || "/TeamSII/dist/static/images/flag.jpg"
+        this.$refs.audio.crossOrigin = 'anonymous';
         this.$refs.audio.src = newSong.url
         this.$refs.audio.play()
         // 若歌曲 5s 未播放，则认为超时，修改状态确保可以切换歌曲。

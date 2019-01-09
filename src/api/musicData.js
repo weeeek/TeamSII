@@ -312,11 +312,10 @@ export const qqMusicConfig = {
     }, {
       title: '改编',
       songs: [{
-        image: '',
-        'songid': 20150000,
-        'songmid': '0',
-        'songname': '',
-        url: ''
+        songid: 102065756,
+        songmid: '004Z8Ihr0JIu5s',
+        songname: '七里香'
+        // url: 'http://116.211.73.22/amobile.music.tc.qq.com/C400004Z8Ihr0JIu5s.m4a?guid=8243701759&vkey=36C51BFC64D7778A3DD5C5C0B582DEA2C63C6D810A43CBAE8F55A52AF6949D8E636814CB2A454264820440D6F670D14A6975674CC1F376AC&uin=3871&fromtag=66'
       }]
     }]
   }]

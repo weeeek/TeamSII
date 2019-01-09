@@ -48,7 +48,7 @@ export function getLyc (songid) {
   return jsonp(url, data, Object.assign({}, options))
 }
 
-export function getVKey (songmid, filename) {
+export function getVKey (songmid, filename, guid = getUid()) {
   const url = 'https://c.y.qq.com/base/fcgi-bin/fcg_music_express_mobile3.fcg'
 
   const data = Object.assign({}, commonParams, {
@@ -60,7 +60,8 @@ export function getVKey (songmid, filename) {
     uin: 0,
     songmid,
     filename,
-    guid: getUid()
+    guid: guid,
+    fromtag: 66
   })
 
   return jsonp(url, data, Object.assign({}, options, {
