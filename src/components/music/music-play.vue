@@ -36,7 +36,7 @@
   import ProgressBar from 'base/progress-bar/progress-bar'
   import ProgressCircle from 'base/progress-circle/progress-circle'
   import { playMode } from 'common/js/config'
-  import { getLyric, getVKey } from 'api/song'
+  import { getLyric, getVKey, getUrl, getToken } from 'api/song'
   import Song from 'common/js/song'
   import { getUid } from 'common/js/uid'
   import { ERR_OK } from 'api/config'
@@ -496,16 +496,41 @@
           if (!newSong.url) {
             let filename = `C400${newSong.songmid}.m4a`
             let guid = getUid()
-            getVKey(newSong.songmid, filename, guid).then((res) => {
-              if (res.code === ERR_OK) {
-                const vkey = res.data.items[0].vkey
-                const hostStr = 'http://dl.stream.qqmusic.qq.com'
-                
-                this.setCurrentUrl(`${hostStr}/${filename}?vkey=${vkey}&guid=${guid}&uin=0&fromtag=66`)
-                this.$refs.audio.src = newSong.url
-                this.$refs.audio.play()
+            //this.setCurrentUrl(`http://ws.stream.qqmusic.qq.com/C100${newSong.songmid}.m4a?fromtag=0&guid=${guid}`)
+            //this.setCurrentUrl(`https://api.bzqll.com/music/tencent/url?key=579621905&id=${newSong.songmid}&br=320`)
+            this.setCurrentUrl(`http://cc.stream.qqmusic.qq.com/C100${newSong.songmid}.m4a?fromtag=52`)
+            console.log(newSong.url)
+            this.$refs.audio.src = newSong.url
+            this.$refs.audio.play()
+
+            getToken(newSong.songmid).then((res)=>{
+              if(res.code == ERR_OK){
+                console.log(res)
               }
             })
+
+            // getUrl(newSong.songmid).then((res)=>{
+            //   if(res.code == ERR_OK){
+            //     this.setCurrentUrl(res.req_0.data.sip[0] + res.req_0.data.midurlinfo[0].purl)
+            //     console.log(newSong.url)
+            //     this.$refs.audio.src = newSong.url
+            //     this.$refs.audio.play()
+            //   }
+            // })
+
+            // getVKey(newSong.songmid, filename, guid).then((res) => {
+            //   if (res.code === ERR_OK) {
+            //     const vkey = res.data.items[0].vkey
+            //     const hostStr = 'http://dl.stream.qqmusic.qq.com'
+            //     // http://116.211.73.21/amobile.music.tc.qq.com/C400000v0G8E0aG6UI.m4a?
+            //     // guid=7709763462
+            //     // &vkey=40611BD549B6487B214291D1BDFEB225CF646D0D39056282F27DE4470EC5725B2F1023B22A9723C6F7524678B9CDD794153689A99A34FEEA
+            //     // &uin=0&fromtag=66
+            //     this.setCurrentUrl(`${hostStr}/${filename}?vkey=${vkey}&guid=${guid}&uin=0&fromtag=66`)
+            //     this.$refs.audio.src = newSong.url
+            //     this.$refs.audio.play()
+            //   }
+            // })
           }
           return
         }

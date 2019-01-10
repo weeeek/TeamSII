@@ -1,4 +1,6 @@
 import jQuery from 'jquery'
+// for detail
+// https://developer.yahoo.com/yql/
 
 export default function getJson (url, data, fn) {
   url += (url.indexOf('?') < 0 ? '?' : '&') + param(data)
