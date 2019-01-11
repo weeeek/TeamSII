@@ -60,13 +60,13 @@ export function getVKey (songmid, filename, guid = getUid()) {
     uin: 0,
     songmid,
     filename,
-    guid: guid,
-    fromtag: 66
-  })
+    guid: guid
+  }, { g_tk: 1928093487 })
 
-  return jsonp(url, data, Object.assign({}, options, {
-    param: 'callback'
-  }))
+  // return jsonp(url, data, Object.assign({}, options, {
+  //   param: 'callback'
+  // }))
+  return jsonp(url, data)
 }
 
 export function getUrl (songmid) {

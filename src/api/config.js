@@ -1,10 +1,17 @@
 export const commonParams = {
-  g_tk: 5381,
+  g_tk: 1928093487,
   inCharset: 'utf-8',
-  outChartset: 'utf-8',
+  outCharset: 'utf-8',
   notice: 0,
   format: 'jsonp'
 }
+
+export const options = {
+  param: 'jsonpCallback',
+  prefix: 'jp'
+}
+
+export const ERR_OK = 0
 
 export const performanceConfig = {
   url: 'http://www.snh48.com/ticketsinfo.php?act=choose'
@@ -13,12 +20,6 @@ export const performanceConfig = {
 export const modianApi = 'https://mapi.modian.com/v41/user/build_product_list'
 export const yahhoapisBase = 'https://query.yahooapis.com/v1/public/yql'
 export const yahhoapisFormate = 'json'
-
-export const options = {
-  param: 'jsonpCallback'
-}
-
-export const ERR_OK = 0
 
 export const bilibiliConfig = {
   TeamSII: '12444300'

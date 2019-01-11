@@ -24,7 +24,34 @@
     <!--当前歌曲分析-->
     <canvas id="canvas" width="575" height="250"></canvas>
     <!--歌曲播放-->
-    <audio controls ref="audio" @loadstart="loadstart" @playing="ready" @error="error" @timeupdate="updateTime" 
+    <div class="operators">
+      <div class="icon i-left" @click="changeMode">
+        <!--顺序-->
+        <jam-direction v-if="iconMode == 'sequence'"/>
+        <!--随机-->
+        <jam-directions v-if="iconMode == 'random'"/>
+        <!--单曲循环-->
+        <jam-repeat  v-if="iconMode == 'loop'"/>        
+      </div>
+      <div class="icon i-left" :class="disableCls">
+        <jam-set-backward-circle  @click="prev"/>        
+      </div>
+      <div class="icon i-center" :class="disableCls">
+        <!-- <i class="needsclick" @click="togglePlaying" :class="playIcon"></i> -->
+        <jam-play  @click="togglePlaying" v-if="playIcon"/>
+        <jam-pause  @click="togglePlaying"  v-if="!playIcon"/>
+      </div>
+      <div class="icon i-right" :class="disableCls">
+        <jam-set-forward-circle  @click="next"/>
+      </div>
+      <div class="icon i-right">
+        <i @click="toggleFavorite(currentSong)" class="icon" :class="favoriteIcon"></i>
+      </div>
+      <!-- <div class="icon i-right">
+        <i :class="volumeIcon"></i>
+      </div> -->
+    </div>
+    <audio ref="audio" @loadstart="loadstart" @playing="ready" @error="error" @timeupdate="updateTime" 
       volume="0.3" @ended="end" @pause="paused"></audio>
   </div>
 </template>
@@ -80,7 +107,34 @@
         pureMusicLyric: ''
       }
     },
-    computed: {      
+    
+    computed: {
+      cdCls() {
+        return this.playing ? 'play' : ''
+      },
+      playIcon() {
+        return this.playing
+      },
+      volumeIcon() {
+        // let audio = document.getElementsByTagName('audio')[0];
+        // if (audio.volume == 0) {
+        //   return 'volume-mute'
+        // }
+        // else if (audio.volume < 0.5) {
+        //   return 'volume-down'
+        // }
+        // else
+          return 'volume-up'
+      },
+      miniIcon() {
+        return this.playing ? 'icon-pause-mini' : 'icon-play-mini'
+      },
+      disableCls() {
+        return this.songReady ? '' : 'disable'
+      },
+      percent() {
+        return this.currentTime / this.currentSong.duration
+      },
       ...mapGetters([
         'currentIndex',
         'fullScreen',
@@ -496,43 +550,20 @@
           if (!newSong.url) {
             let filename = `C400${newSong.songmid}.m4a`
             let guid = getUid()
-            //this.setCurrentUrl(`http://ws.stream.qqmusic.qq.com/C100${newSong.songmid}.m4a?fromtag=0&guid=${guid}`)
-            //this.setCurrentUrl(`https://api.bzqll.com/music/tencent/url?key=579621905&id=${newSong.songmid}&br=320`)
-            this.setCurrentUrl(`http://cc.stream.qqmusic.qq.com/C100${newSong.songmid}.m4a?fromtag=52`)
-            console.log(newSong.url)
-            this.$refs.audio.src = newSong.url
-            this.$refs.audio.play()
-
-            getToken(newSong.songmid).then((res)=>{
-              if(res.code == ERR_OK){
-                console.log(res)
+            this.$refs.audio.removeAttribute('crossOrigin');
+            getVKey(newSong.songmid, filename, guid).then((res) => {
+              if (res.code === ERR_OK) {
+                const vkey = res.data.items[0].vkey
+                const hostStr = 'http://dl.stream.qqmusic.qq.com'
+                this.setCurrentUrl(`${hostStr}/${filename}?vkey=${vkey}&guid=${guid}&uin=0&fromtag=66`)
+                this.$refs.audio.src = newSong.url
+                this.$refs.audio.play()
               }
             })
-
-            // getUrl(newSong.songmid).then((res)=>{
-            //   if(res.code == ERR_OK){
-            //     this.setCurrentUrl(res.req_0.data.sip[0] + res.req_0.data.midurlinfo[0].purl)
-            //     console.log(newSong.url)
-            //     this.$refs.audio.src = newSong.url
-            //     this.$refs.audio.play()
-            //   }
-            // })
-
-            // getVKey(newSong.songmid, filename, guid).then((res) => {
-            //   if (res.code === ERR_OK) {
-            //     const vkey = res.data.items[0].vkey
-            //     const hostStr = 'http://dl.stream.qqmusic.qq.com'
-            //     // http://116.211.73.21/amobile.music.tc.qq.com/C400000v0G8E0aG6UI.m4a?
-            //     // guid=7709763462
-            //     // &vkey=40611BD549B6487B214291D1BDFEB225CF646D0D39056282F27DE4470EC5725B2F1023B22A9723C6F7524678B9CDD794153689A99A34FEEA
-            //     // &uin=0&fromtag=66
-            //     this.setCurrentUrl(`${hostStr}/${filename}?vkey=${vkey}&guid=${guid}&uin=0&fromtag=66`)
-            //     this.$refs.audio.src = newSong.url
-            //     this.$refs.audio.play()
-            //   }
-            // })
           }
           return
+        } else if (newSong.url) {
+          this.$refs.audio.crossOrigin = 'anonymous';
         }
         this.songReady = false
         this.canLyricPlay = false
@@ -545,7 +576,7 @@
         //   this.currentLineNum = 0
         // }
         this.albumImg = newSong.image || "/TeamSII/dist/static/images/flag.jpg"
-        this.$refs.audio.crossOrigin = 'anonymous';
+        // this.$refs.audio.crossOrigin = 'anonymous';
         this.$refs.audio.src = newSong.url
         this.$refs.audio.play()
         // 若歌曲 5s 未播放，则认为超时，修改状态确保可以切换歌曲。
@@ -621,9 +652,15 @@
     background-position center center
     background-repeat no-repeat
     animation filter-blur 5s linear infinite
-  audio
+  .operators
     margin-top -2px
     width 100%
     height 50px
     background white
+  audio
+    &:not([controls])
+      display none !important
+  .disable
+    pointer-events none
+    cursor not-allowed
 </style>
