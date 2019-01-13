@@ -38,16 +38,25 @@ export default {
   },
   methods: {
     _normalizaSongs (list) {
-      list.forEach((l)=>{
-        l.group.forEach((g)=>{
-          g.songs.forEach((s)=>{
-            let song = createSong(s) 
-            let newS = Object.assign(s, song)
-            s = newS
+      let ret = []
+      list.map((l,xIndex)=>{
+        ret.push({
+          typeName: l.typeName,
+          group: []
+        })
+        l.group.map((g,yIndex)=>{
+          ret[xIndex].group.push({
+            title: g.title,
+            songs: []
+          })
+          g.songs.map((s)=>{
+            let song = createSong(s)
+            ret[xIndex].group[yIndex].songs.push(song)
           })
         })
       })
-      return list
+      console.log(ret)
+      return ret
     },
     selectSong(song) {
       this.insertSong(song)

@@ -1,12 +1,12 @@
 <template>
   <div class="song-list">
     <ul>
-      <li class="item" v-for="(song, index) in songs" :key="song.songid">
+      <li class="item" v-for="(song, index) in songs" :key="song.id">
         <div class="rank">
           <span v-text="index + 1"></span>
         </div>
         <div class="content">
-          <a class="name text-ellipsis" target="_blank" :href="`https://y.qq.com/n/yqq/song/${song.songmid}.html`">{{song.songname}}</a>
+          <a class="name text-ellipsis" target="_blank" :href="`https://y.qq.com/n/yqq/song/${song.mid}.html`">{{song.name}}</a>
           <a class="play" href="javascript:void(0)" @click="selectItem(song, index)">
             <jam-play />
           </a>
@@ -17,8 +17,6 @@
 </template>
 
 <script type="text/ecmascript-6">
-  // import { createSong } from 'common/js/song'
-
   export default {
     props: {
       songs: {
@@ -26,19 +24,6 @@
         default: []
       }
     },
-    // mounted () {
-    //   this.songs.forEach((s)=>{
-    //     s = createSong(s)
-    //   })
-    // },
-    // watch: {
-    //   songs: function(newSongs, oldSongs){
-    //     newSongs.forEach((s)=>{
-    //       if(!s.url)
-    //         console.log(s.songname+'没有url')
-    //     })
-    //   }
-    // },
     methods: {
       selectItem (item, index) {
         this.$emit('select', item, index)
@@ -49,7 +34,6 @@
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
   @import "~common/stylus/variable"
-//   @import "~common/stylus/mixin"
 
   .song-list
     ul

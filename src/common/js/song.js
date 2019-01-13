@@ -35,6 +35,7 @@ export default class Song {
       getLyric(this.mid).then((res) => {
         if (res.retcode === ERR_OK) {
           this.lyric = Base64.decode(res.lyric)
+          console.log(this.lyric)
           resolve(this.lyric)
         } else {
           reject('no lyric')
@@ -58,16 +59,14 @@ export default class Song {
 }
 
 export function createSong (musicData) {
-  // if (musicData.notQQMusic) {
-  //   debugger
-  // }
-  return new Song({id: musicData.songid,
-    mid: musicData.songmid,
+  return new Song({
+    id: musicData.id,
+    mid: musicData.mid,
     singer: filterSinger(musicData.singer),
-    name: musicData.songname,
+    name: musicData.name,
     album: musicData.albumname || 'SNH48 Team SII',
     duration: musicData.interval || 200,
-    image: musicData.image || (musicData.albummid ? `https://y.gtimg.cn/music/photo_new/T002R300x300M000${musicData.albummid}.jpg?max_age=2592000` : `/TeamSII/dist/static/images/flag.jpg`),
+    image: musicData.image || (musicData.albummid ? `https://y.gtimg.cn/music/photo_new/T002R300x300M000${musicData.albummid}.jpg?max_age=2592000` : `https://weeeek.github.io/TeamSII/dist/static/images/flag.jpg`),
     url: musicData.url
   })
 }

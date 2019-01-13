@@ -31,7 +31,7 @@
             <!-- <div class="playing-lyric-wrapper">
               <div class="playing-lyric">{{playingLyric}}</div>
             </div> -->
-            <canvas ref="canvas" id="canvas" width="575" height="250"></canvas>
+            <!-- <canvas ref="canvas" id="canvas" width="575" height="250"></canvas> -->
           </div>
           <scroll class="middle-r" ref="lyricList" :data="currentLyric && currentLyric.lines">
             <div class="lyric-wrapper">
@@ -45,10 +45,10 @@
           </scroll>
         </div>
         <div class="bottom">
-          <div class="dot-wrapper">
+          <!-- <div class="dot-wrapper">
             <span class="dot" :class="{'active':currentShow==='cd'}"></span>
             <span class="dot" :class="{'active':currentShow==='lyric'}"></span>
-          </div>
+          </div> -->
           <div class="progress-wrapper">
             <span class="time time-l">{{format(currentTime)}}</span>
             <div class="progress-bar-wrapper">
@@ -59,10 +59,11 @@
           </div>
           <div class="operators">
             <div class="icon i-left" @click="changeMode">
+              <!-- <jam-repeat v-if="iconMode === ''"> -->
               <i :class="iconMode"></i>
             </div>
             <div class="icon i-left" :class="disableCls">
-              <i @click="prev" class="icon-prev"></i>
+              <jam-set-backward  @click="prev"/>
             </div>
             <div class="icon i-center" :class="disableCls">
               <jam-play v-if="playIcon"  @click="togglePlaying"/>
@@ -70,7 +71,7 @@
               <!-- <i class="needsclick" @click="togglePlaying" :class="playIcon"></i> -->
             </div>
             <div class="icon i-right" :class="disableCls">
-              <i @click="next" class="icon-next"></i>
+              <jam-set-forward @click="next"/>
             </div>
             <div class="icon i-right">
               <i @click="toggleFavorite(currentSong)" class="icon" :class="favoriteIcon"></i>
@@ -103,9 +104,11 @@
         </div>
       </div>
     </transition>
-    <playlist ref="playlist"></playlist>           
-    <audio ref="audio" @loadstart="loadstart" @playing="ready" @error="error" @timeupdate="updateTime" 
+    <playlist ref="playlist"></playlist>
+    <audio ref="audio" @playing="ready" @error="error" @timeupdate="updateTime" 
       volume="0.3" @ended="end" @pause="paused"></audio>
+    <!-- <audio ref="audio" @loadstart="loadstart" @playing="ready" @error="error" @timeupdate="updateTime" 
+      volume="0.3" @ended="end" @pause="paused"></audio> -->
   </div>
 </template>
 
@@ -354,7 +357,7 @@
           this.isPureMusic = true
           return
         }
-        this.currentSong.getLyric().then((lyric) => {
+        this.currentSong.getLyric(this.currentSong.mid).then((lyric) => {
           if (this.currentSong.lyric !== lyric) {
             return
           }
@@ -495,86 +498,84 @@
       }),
       ...mapActions([
         'savePlayHistory'
-      ]),         
-      analys() {
-        window.AudioContext =
-          window.AudioContext ||
-          window.webkitAudioContext ||
-          window.mozAudioContext
-        
-        debugger
-        this.ctx = new AudioContext()
-        this.analyser = this.ctx.createAnalyser()
-        //this.audio = document.getElementById("audio")
-        this.audio = this.$refs.audio
-        // this.audio.volume = 0.3
-        this.audioSrc = this.ctx.createMediaElementSource(this.audio)
-        // we have to connect the MediaElementSource with the analyser
-        this.audioSrc.connect(this.analyser)
-        this.analyser.connect(this.ctx.destination)
-        // we could configure the analyser: e.g. analyser.fftSize (for further infos read the spec)
-        // analyser.fftSize = 64
-        // frequencyBinCount tells you how many values you'll receive from the analyser
-        this.frequencyData = new Uint8Array(this.analyser.frequencyBinCount)
-        // we're ready to receive some data!
-        this.canvas = this.$refs.canvas
-        this.cwidth = this.canvas.width
-        this.cheight = this.canvas.height - 2
-        this.meterWidth = 10 //width of the meters in the spectrum
-        this.gap = 2 //gap between meters
-        this.capHeight = 2
-        this.capStyle = "#fff"
-        this.meterNum = 800 / 10 //count of the meters
-        this.capYPositionArray = [] ////store the vertical position of hte caps for the preivous frame
-        this.ctx = this.canvas.getContext("2d")
-        this.gradient = this.ctx.createLinearGradient(0, 0, 0, 300)
-        // 0f0绿，ff0红 f00黄
-        this.gradient.addColorStop(1, "#0f0")
-        this.gradient.addColorStop(0.5, "#ff0")
-        this.gradient.addColorStop(0, "#f00")
-      },
-      loadstart() {
-        let _this = this
-        function renderFrame() {
-          var array = new Uint8Array(_this.analyser.frequencyBinCount)
-          _this.analyser.getByteFrequencyData(array)
-          var step = Math.round(array.length / _this.meterNum) //sample limited data from the total array
-          _this.ctx.clearRect(0, 0, _this.cwidth, _this.cheight)
-          for (var i = 0; i < _this.meterNum; i++) {
-            var value = array[i * step]
-            if (_this.capYPositionArray.length < Math.round(_this.meterNum)) {
-              _this.capYPositionArray.push(value)
-            }
-            _this.ctx.fillStyle = _this.capStyle
-            //draw the cap, with transition effect
-            if (value < _this.capYPositionArray[i]) {
-              _this.ctx.fillRect(
-                i * 12,
-                _this.cheight - --_this.capYPositionArray[i],
-                _this.meterWidth,
-                _this.capHeight
-              )
-            } else {
-              _this.ctx.fillRect(
-                i * 12,
-                _this.cheight - value,
-                _this.meterWidth,
-                _this.capHeight
-              )
-              _this.capYPositionArray[i] = value
-            }
-            _this.ctx.fillStyle = _this.gradient //set the filllStyle to gradient for a better look
-            _this.ctx.fillRect(
-              i * 12 /*meterWidth+gap*/,
-              _this.cheight - value + _this.capHeight,
-              _this.meterWidth,
-              _this.cheight
-            ) //the meter
-          }
-          requestAnimationFrame(renderFrame)
-        }
-        renderFrame()
-      }
+      ])
+      // analys() {
+      //   window.AudioContext =
+      //     window.AudioContext ||
+      //     window.webkitAudioContext ||
+      //     window.mozAudioContext        
+      //   this.ctx = new AudioContext()
+      //   this.analyser = this.ctx.createAnalyser()
+      //   //this.audio = document.getElementById("audio")
+      //   this.audio = this.$refs.audio
+      //   // this.audio.volume = 0.3
+      //   this.audioSrc = this.ctx.createMediaElementSource(this.audio)
+      //   // we have to connect the MediaElementSource with the analyser
+      //   this.audioSrc.connect(this.analyser)
+      //   this.analyser.connect(this.ctx.destination)
+      //   // we could configure the analyser: e.g. analyser.fftSize (for further infos read the spec)
+      //   // analyser.fftSize = 64
+      //   // frequencyBinCount tells you how many values you'll receive from the analyser
+      //   this.frequencyData = new Uint8Array(this.analyser.frequencyBinCount)
+      //   // we're ready to receive some data!
+      //   this.canvas = this.$refs.canvas
+      //   this.cwidth = this.canvas.width
+      //   this.cheight = this.canvas.height - 2
+      //   this.meterWidth = 10 //width of the meters in the spectrum
+      //   this.gap = 2 //gap between meters
+      //   this.capHeight = 2
+      //   this.capStyle = "#fff"
+      //   this.meterNum = 800 / 10 //count of the meters
+      //   this.capYPositionArray = [] ////store the vertical position of hte caps for the preivous frame
+      //   this.ctx = this.canvas.getContext("2d")
+      //   this.gradient = this.ctx.createLinearGradient(0, 0, 0, 300)
+      //   // 0f0绿，ff0红 f00黄
+      //   this.gradient.addColorStop(1, "#0f0")
+      //   this.gradient.addColorStop(0.5, "#ff0")
+      //   this.gradient.addColorStop(0, "#f00")
+      // },
+      // loadstart() {
+      //   let _this = this
+      //   function renderFrame() {
+      //     var array = new Uint8Array(_this.analyser.frequencyBinCount)
+      //     _this.analyser.getByteFrequencyData(array)
+      //     var step = Math.round(array.length / _this.meterNum) //sample limited data from the total array
+      //     _this.ctx.clearRect(0, 0, _this.cwidth, _this.cheight)
+      //     for (var i = 0; i < _this.meterNum; i++) {
+      //       var value = array[i * step]
+      //       if (_this.capYPositionArray.length < Math.round(_this.meterNum)) {
+      //         _this.capYPositionArray.push(value)
+      //       }
+      //       _this.ctx.fillStyle = _this.capStyle
+      //       //draw the cap, with transition effect
+      //       if (value < _this.capYPositionArray[i]) {
+      //         _this.ctx.fillRect(
+      //           i * 12,
+      //           _this.cheight - --_this.capYPositionArray[i],
+      //           _this.meterWidth,
+      //           _this.capHeight
+      //         )
+      //       } else {
+      //         _this.ctx.fillRect(
+      //           i * 12,
+      //           _this.cheight - value,
+      //           _this.meterWidth,
+      //           _this.capHeight
+      //         )
+      //         _this.capYPositionArray[i] = value
+      //       }
+      //       _this.ctx.fillStyle = _this.gradient //set the filllStyle to gradient for a better look
+      //       _this.ctx.fillRect(
+      //         i * 12 /*meterWidth+gap*/,
+      //         _this.cheight - value + _this.capHeight,
+      //         _this.meterWidth,
+      //         _this.cheight
+      //       ) //the meter
+      //     }
+      //     requestAnimationFrame(renderFrame)
+      //   }
+      //   renderFrame()
+      // }
     },
     watch: {
       currentSong(newSong, oldSong) {
@@ -643,76 +644,76 @@
 <style scoped lang="stylus" rel="stylesheet/stylus">
   @import "~common/stylus/variable"
   @import "~common/stylus/mixin"
-
+  @import "~common/stylus/animation"
   .player
     .normal-player
-      position: fixed
-      left: 0
-      right: 0
-      top: 0
-      bottom: 0
-      z-index: 150
-      background: $color-background
+      position fixed
+      left 0
+      right 0
+      top 0
+      bottom 0
+      z-index 150
+      background $color-background
       .background
-        position: absolute
-        left: 0
-        top: 0
-        width: 100%
-        height: 100%
-        z-index: -1
-        opacity: 0.6
-        filter: blur(20px)
+        position absolute
+        left 0
+        top 0
+        width 100%
+        height 100%
+        z-index -1
+        opacity 0.6
+        filter blur(20px)
       .top
-        position: relative
-        margin-bottom: 25px
+        position relative
+        margin-bottom 25px
         .back
           position absolute
-          top: 0
-          left: 6px
-          z-index: 50
+          top 0
+          left 6px
+          z-index 50
           .icon-back
-            display: block
-            padding: 9px
-            font-size: $font-size-large-x
-            color: $color-theme
-            transform: rotate(-90deg)
+            display block
+            padding 9px
+            font-size $font-size-large-x
+            color $color-theme
+            transform rotate(-90deg)
         .title
-          width: 70%
-          margin: 0 auto
-          line-height: 40px
-          text-align: center
+          width 70%
+          margin 0 auto
+          line-height 40px
+          text-align center
           no-wrap()
-          font-size: $font-size-large
-          color: $color-text
+          font-size $font-size-large
+          color $color-text
         .subtitle
-          line-height: 20px
-          text-align: center
-          font-size: $font-size-medium
-          color: $color-text
+          line-height 20px
+          text-align center
+          font-size $font-size-medium
+          color $color-text
       .middle
         display flex
         width 100%
         height calc(100% - 80px - 180px)
         margin-top 40px
-        white-space: nowrap
+        white-space nowrap
         justify-content center
         .middle-l
           flex 0 0 600px
-          vertical-align: top
+          vertical-align top
           .cd-wrapper
-            box-sizing: border-box
+            box-sizing border-box
             .cd
               width 400px
               height 400px
               margin 0 auto
-              border-radius: 50%
+              border-radius 50%
               .image
                 object-fit cover
                 width 100%
                 height 100%
-                box-sizing: border-box
-                border-radius: 50%
-                border: 10px solid rgba(255, 255, 255, 0.1)
+                box-sizing border-box
+                border-radius 50%
+                border 10px solid rgba(255, 255, 255, 0.1)
                 &.image-object-p-left
                   object-position left
                 &.image-object-p-right
@@ -722,169 +723,167 @@
                 &.image-object-p-bottom
                   object-position bottom
               .play
-                animation: rotate 20s linear infinite
+                animation rotate 20s linear infinite
           .playing-lyric-wrapper
-            width: 80%
-            margin: 30px auto 0 auto
-            overflow: hidden
-            text-align: center
+            width 80%
+            margin 30px auto 0 auto
+            overflow hidden
+            text-align center
             .playing-lyric
-              height: 20px
-              line-height: 20px
-              font-size: $font-size-medium
-              color: $color-text-l
+              height 20px
+              line-height 20px
+              font-size $font-size-medium
+              color $color-text-l
         .middle-r
           flex 0 0 600px
-          vertical-align: top
-          overflow: hidden
+          vertical-align top
+          overflow hidden
           .lyric-wrapper
-            margin: 0 auto
-            overflow: hidden
-            text-align: center
+            margin 0 auto
+            overflow hidden
+            text-align center
             .text
-              line-height: 32px
-              color: $color-text-l
-              font-size: $font-size-medium
+              line-height 32px
+              color $color-text-l
+              font-size $font-size-medium
+              transition all .6s ease-in-out
               &.current
-                color: $color-text
+                color $color-text
+                font-size 1.4em
+                text-shadow 0 0 5px #fff, 0 0 10px $color-team-sii, 0 0 15px $color-team-sii, 0 0 20px $color-team-sii, 0 0 35px $color-team-sii, 0 0 40px $color-team-sii, 0 0 50px $color-team-sii, 0 0 75px $color-team-sii
             .pure-music
-              padding-top: 50%
-              line-height: 32px
-              color: $color-text-l
-              font-size: $font-size-medium
+              padding-top 50%
+              line-height 32px
+              color $color-text-l
+              font-size $font-size-medium
       .bottom
-        position: absolute
-        bottom: 50px
-        width: 100%
+        position absolute
+        bottom 50px
+        width 100%
         .dot-wrapper
-          text-align: center
-          font-size: 0
+          text-align center
+          font-size 0
           .dot
-            display: inline-block
-            vertical-align: middle
-            margin: 0 4px
-            width: 8px
-            height: 8px
-            border-radius: 50%
-            background: $color-text-l
+            display inline-block
+            vertical-align middle
+            margin 0 4px
+            width 8px
+            height 8px
+            border-radius 50%
+            background $color-text-l
             &.active
-              width: 20px
-              border-radius: 5px
-              background: $color-text-ll
+              width 20px
+              border-radius 5px
+              background $color-text-ll
         .progress-wrapper
-          display: flex
-          align-items: center
-          width: 80%
-          margin: 0px auto
-          padding: 10px 0
+          display flex
+          align-items center
+          width 80%
+          margin 0px auto
+          padding 10px 0
           .time
-            color: $color-text
-            font-size: $font-size-small
-            flex: 0 0 30px
-            line-height: 30px
+            color $color-text
+            font-size $font-size-small
+            flex 0 0 30px
+            line-height 30px
             &.time-l
-              text-align: left
+              text-align left
             &.time-r
-              text-align: right
+              text-align right
           .progress-bar-wrapper
-            flex: 1
+            flex 1
           .volume
-            flex: 0 0 30px
-            line-height: 30px
+            flex 0 0 30px
+            line-height 30px
             &.volume-center
-              text-align:center
+              text-aligncenter
             .icon
-              flex: 1
-              color: $color-theme
+              flex 1
+              color $color-theme
         .operators
-          display: flex
-          align-items: center
+          display flex
+          align-items center
           .icon
-            flex: 1
-            color: $color-theme
+            cursor pointer
+            flex 1
+            color $color-theme
             &.disable
-              color: $color-theme-d
+              color $color-theme-d
             i
-              font-size: 30px
+              font-size 30px
           .i-left
-            text-align: right
+            text-align right
           .i-center
-            padding: 0 20px
-            text-align: center
+            padding 0 20px
+            text-align center
             i
-              font-size: 40px
+              font-size 40px
           .i-right
-            text-align: left
+            text-align left
           .icon-favorite
-            color: $color-sub-theme
+            color $color-sub-theme
       &.normal-enter-active, &.normal-leave-active
-        transition: all 0.4s
+        transition all 0.4s
         .top, .bottom
-          transition: all 0.4s cubic-bezier(0.86, 0.18, 0.82, 1.32)
+          transition all 0.4s cubic-bezier(0.86, 0.18, 0.82, 1.32)
       &.normal-enter, &.normal-leave-to
-        opacity: 0
+        opacity 0
         .top
-          transform: translate3d(0, -100px, 0)
+          transform translate3d(0, -100px, 0)
         .bottom
-          transform: translate3d(0, 100px, 0)
+          transform translate3d(0, 100px, 0)
     .mini-player
-      display: flex
-      align-items: center
-      position: fixed
-      left: 0
-      bottom: 0
-      z-index: 180
-      width: 100%
-      height: 60px
-      background: $color-highlight-background
+      display flex
+      align-items center
+      position fixed
+      left 0
+      bottom 0
+      z-index 180
+      width 100%
+      height 60px
+      background $color-highlight-background
       &.mini-enter-active, &.mini-leave-active
-        transition: all 0.4s
+        transition all 0.4s
       &.mini-enter, &.mini-leave-to
-        opacity: 0
+        opacity 0
       .icon
-        flex: 0 0 40px
-        height: 40px
-        padding: 0 10px 0 20px
+        flex 0 0 40px
+        height 40px
+        padding 0 10px 0 20px
         .imgWrapper
-          height: 100%
-          width: 100%
+          height 100%
+          width 100%
           img
-            border-radius: 50%
+            border-radius 50%
             &.play
-              animation: rotate 10s linear infinite
+              animation rotate 10s linear infinite
             &.pause
-              animation-play-state: paused
+              animation-play-state paused
       .text
-        display: flex
-        flex-direction: column
-        justify-content: center
-        flex: 1
-        line-height: 20px
-        overflow: hidden
+        display flex
+        flex-direction column
+        justify-content center
+        flex 1
+        line-height 20px
+        overflow hidden
         .name
-          margin-bottom: 2px
+          margin-bottom 2px
           no-wrap()
-          font-size: $font-size-medium
-          color: $color-text
+          font-size $font-size-medium
+          color $color-text
         .desc
           no-wrap()
-          font-size: $font-size-small
-          color: $color-text-d
+          font-size $font-size-small
+          color $color-text-d
       .control
-        flex: 0 0 30px
-        padding: 0 10px
+        flex 0 0 30px
+        padding 0 10px
         .icon-play-mini, .icon-pause-mini, .icon-playlist
-          font-size: 30px
-          color: $color-theme-d
+          font-size 30px
+          color $color-theme-d
         .icon-mini
-          font-size: 32px
-          position: absolute
-          left: 0
-          top: 0
-
-  @keyframes rotate
-    0%
-      transform: rotate(0)
-    100%
-      transform: rotate(360deg)
+          font-size 32px
+          position absolute
+          left 0
+          top 0
 </style>
