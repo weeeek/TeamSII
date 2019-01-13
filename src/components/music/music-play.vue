@@ -1,58 +1,109 @@
 <template>
-  <div class="play-box">
-    <!--歌曲列表-->
-    <div id="song-list">
-      <ol>
-        <li v-for="(item,index) in playlist" :key="index">
-          {{ index + 1 }}.{{ item.songname }}
-          <a v-if="false">
-            <jam-arrow-square-up />
-          </a>
-          <a v-if="false">
-            <jam-arrow-square-down />
-          </a>
-          <a @click="deleteOne(item)">
-            <jam-close-circle />
-          </a>
-        </li>
-      </ol>
-    </div>
-    <!--当前歌曲歌词-->
-    <div id="lyric-block" :style="`background-image:url('${albumImg}')`">
-      <div class="playing-lyric">{{playingLyric}}</div>
-    </div>
-    <!--当前歌曲分析-->
-    <canvas id="canvas" width="575" height="250"></canvas>
-    <!--歌曲播放-->
-    <div class="operators">
-      <div class="icon i-left" @click="changeMode">
-        <!--顺序-->
-        <jam-direction v-if="iconMode == 'sequence'"/>
-        <!--随机-->
-        <jam-directions v-if="iconMode == 'random'"/>
-        <!--单曲循环-->
-        <jam-repeat  v-if="iconMode == 'loop'"/>        
+  <div class="player" v-show="playlist.length>0">
+    <transition name="normal"
+                @enter="enter"
+                @after-enter="afterEnter"
+                @leave="leave"
+                @after-leave="afterLeave"
+    >
+      <div class="normal-player" v-show="fullScreen">
+        <div class="background">
+          <img width="100%" height="100%" :src="currentSong.image">
+        </div>
+        <div class="top">
+          <div class="back" @click="back">
+            <jam-chevron-circle-down />            
+          </div>
+          <h1 class="title" v-html="currentSong.name"></h1>
+          <h2 class="subtitle" v-html="currentSong.singer"></h2>
+        </div>
+        <div class="middle"
+             @touchstart.prevent="middleTouchStart"
+             @touchmove.prevent="middleTouchMove"
+             @touchend="middleTouchEnd"
+        >
+          <div class="middle-l" ref="middleL">
+            <div class="cd-wrapper" ref="cdWrapper">
+              <div class="cd" ref="imageWrapper">                
+                <img ref="image" :class="cdCls" class="image" :src="currentSong.image">
+              </div>
+            </div>
+            <!-- <div class="playing-lyric-wrapper">
+              <div class="playing-lyric">{{playingLyric}}</div>
+            </div> -->
+            <canvas ref="canvas" id="canvas" width="575" height="250"></canvas>
+          </div>
+          <scroll class="middle-r" ref="lyricList" :data="currentLyric && currentLyric.lines">
+            <div class="lyric-wrapper">
+              <div v-if="currentLyric">
+                <p ref="lyricLine" class="text" :class="{'current': currentLineNum ===index}" v-for="(line,index) in currentLyric.lines" :key="index">{{line.txt}}</p>
+              </div>
+              <div class="pure-music" v-show="isPureMusic">
+                <p>{{pureMusicLyric}}</p>
+              </div>
+            </div>
+          </scroll>
+        </div>
+        <div class="bottom">
+          <div class="dot-wrapper">
+            <span class="dot" :class="{'active':currentShow==='cd'}"></span>
+            <span class="dot" :class="{'active':currentShow==='lyric'}"></span>
+          </div>
+          <div class="progress-wrapper">
+            <span class="time time-l">{{format(currentTime)}}</span>
+            <div class="progress-bar-wrapper">
+              <progress-bar ref="progressBar" :percent="percent" @percentChange="onProgressBarChange"
+                            @percentChanging="onProgressBarChanging"></progress-bar>
+            </div>
+            <span class="time time-r">{{format(currentSong.duration)}}</span>
+          </div>
+          <div class="operators">
+            <div class="icon i-left" @click="changeMode">
+              <i :class="iconMode"></i>
+            </div>
+            <div class="icon i-left" :class="disableCls">
+              <i @click="prev" class="icon-prev"></i>
+            </div>
+            <div class="icon i-center" :class="disableCls">
+              <i class="needsclick" @click="togglePlaying" :class="playIcon"></i>
+            </div>
+            <div class="icon i-right" :class="disableCls">
+              <i @click="next" class="icon-next"></i>
+            </div>
+            <div class="icon i-right">
+              <i @click="toggleFavorite(currentSong)" class="icon" :class="favoriteIcon"></i>
+            </div>
+            <div class="icon i-right">
+              <i :class="volumeIcon"></i>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="icon i-left" :class="disableCls">
-        <jam-set-backward-circle  @click="prev"/>        
+    </transition>
+    <transition name="mini">
+      <div class="mini-player" v-show="!fullScreen" @click="open">
+        <div class="icon">
+          <div class="imgWrapper" ref="miniWrapper">
+            <img ref="miniImage" :class="cdCls" width="40" height="40" :src="currentSong.image">
+          </div>
+        </div>
+        <div class="text">
+          <h2 class="name" v-html="currentSong.name"></h2>
+          <p class="desc" v-html="currentSong.singer"></p>
+        </div>
+        <div class="control">
+          <progress-circle :radius="radius" :percent="percent">
+            <i @click.stop="togglePlaying" class="icon-mini" :class="miniIcon"></i>
+          </progress-circle>
+        </div>
+        <div class="control" @click.stop="showPlaylist">
+          <i class="icon-playlist"></i>
+        </div>
       </div>
-      <div class="icon i-center" :class="disableCls">
-        <!-- <i class="needsclick" @click="togglePlaying" :class="playIcon"></i> -->
-        <jam-play  @click="togglePlaying" v-if="playIcon"/>
-        <jam-pause  @click="togglePlaying"  v-if="!playIcon"/>
-      </div>
-      <div class="icon i-right" :class="disableCls">
-        <jam-set-forward-circle  @click="next"/>
-      </div>
-      <div class="icon i-right">
-        <i @click="toggleFavorite(currentSong)" class="icon" :class="favoriteIcon"></i>
-      </div>
-      <!-- <div class="icon i-right">
-        <i :class="volumeIcon"></i>
-      </div> -->
-    </div>
-    <audio ref="audio" @loadstart="loadstart" @playing="ready" @error="error" @timeupdate="updateTime" 
-      volume="0.3" @ended="end" @pause="paused"></audio>
+    </transition>
+    <!-- <playlist ref="playlist"></playlist> -->
+    <audio ref="audio" @playing="ready" @error="error" @timeupdate="updateTime"
+           @ended="end" @pause="paused" volume="0.3"></audio>
   </div>
 </template>
 
@@ -63,13 +114,10 @@
   import ProgressBar from 'base/progress-bar/progress-bar'
   import ProgressCircle from 'base/progress-circle/progress-circle'
   import { playMode } from 'common/js/config'
-  import { getLyric, getVKey, getUrl, getToken } from 'api/song'
-  import Song from 'common/js/song'
-  import { getUid } from 'common/js/uid'
-  import { ERR_OK } from 'api/config'
   import Lyric from 'lyric-parser'
   import Scroll from 'base/scroll/scroll'
   import { playerMixin } from 'common/js/mixin'
+  // import Playlist from 'components/playlist/playlist'
 
   const transform = prefixStyle('transform')
   const transitionDuration = prefixStyle('transitionDuration')
@@ -79,7 +127,7 @@
   export default {
     mixins: [playerMixin],
     data() {
-      return {
+      return {          
         ctx: null,
         analyser: null,
         audioSrc: null,
@@ -94,8 +142,7 @@
         meterNum: 800 / (10 + 2),
         capYPositionArray: [],
         gradient: null,
-        
-        albumImg: '',
+
         songReady: false,
         currentTime: 0,
         radius: 32,
@@ -104,27 +151,20 @@
         currentShow: 'cd',
         playingLyric: '',
         isPureMusic: false,
-        pureMusicLyric: ''
+        pureMusicLyric: '',
+        volume:50
       }
     },
-    
     computed: {
       cdCls() {
         return this.playing ? 'play' : ''
       },
       playIcon() {
-        return this.playing
+        return this.playing ? 'icon-pause' : 'icon-play'
       },
-      volumeIcon() {
-        // let audio = document.getElementsByTagName('audio')[0];
-        // if (audio.volume == 0) {
-        //   return 'volume-mute'
-        // }
-        // else if (audio.volume < 0.5) {
-        //   return 'volume-down'
-        // }
-        // else
-          return 'volume-up'
+      volumeIcon() {        
+        //return this.volume==0 ? 'icon-volume' : 'icon-play'
+        return 'icon-play'
       },
       miniIcon() {
         return this.playing ? 'icon-pause-mini' : 'icon-play-mini'
@@ -141,10 +181,7 @@
         'playing'
       ])
     },
-    mounted () {
-      this.analys()
-    },
-    created () {
+    created() {
       this.touch = {}
     },
     methods: {
@@ -264,7 +301,7 @@
         // 监听 playing 这个事件可以确保慢网速或者快速切换歌曲导致的 DOM Exception
         this.songReady = true
         this.canLyricPlay = true
-        // this.savePlayHistory(this.currentSong)
+        this.savePlayHistory(this.currentSong)
         // 如果歌曲的播放晚于歌词的出现，播放的时候需要同步歌词
         if (this.currentLyric && !this.isPureMusic) {
           this.currentLyric.seek(this.currentTime * 1000)
@@ -306,6 +343,10 @@
         }
       },
       getLyric() {
+        if(this.currentSong.notQQMusic){
+          this.isPureMusic = true
+          return
+        }
         this.currentSong.getLyric().then((lyric) => {
           if (this.currentSong.lyric !== lyric) {
             return
@@ -446,10 +487,8 @@
         setFullScreen: 'SET_FULL_SCREEN'
       }),
       ...mapActions([
-        // 'savePlayHistory',
-        'deleteSong',
-        'setCurrentUrl'
-      ]),      
+        'savePlayHistory'
+      ]),         
       analys() {
         window.AudioContext =
           window.AudioContext ||
@@ -469,7 +508,7 @@
         // frequencyBinCount tells you how many values you'll receive from the analyser
         this.frequencyData = new Uint8Array(this.analyser.frequencyBinCount)
         // we're ready to receive some data!
-        this.canvas = document.getElementById("canvas")
+        this.canvas = this.$refs.canvas
         this.cwidth = this.canvas.width
         this.cheight = this.canvas.height - 2
         this.meterWidth = 10 //width of the meters in the spectrum
@@ -526,57 +565,23 @@
           requestAnimationFrame(renderFrame)
         }
         renderFrame()
-      },      
-      deleteOne(item) {
-        if (item.deleting) {
-          return
-        }
-        item.deleting = true
-        this.deleteSong(item)
-        if (!this.playlist.length) {
-          this.hide()
-        }
-        setTimeout(() => {
-          item.deleting = false
-        }, 300)
-      },
-      hide () {
-
       }
     },
     watch: {
       currentSong(newSong, oldSong) {
-        if (!newSong.songid || !newSong.url || newSong.songid === oldSong.songid) {
-          if (!newSong.url) {
-            let filename = `C400${newSong.songmid}.m4a`
-            let guid = getUid()
-            this.$refs.audio.removeAttribute('crossOrigin');
-            getVKey(newSong.songmid, filename, guid).then((res) => {
-              if (res.code === ERR_OK) {
-                const vkey = res.data.items[0].vkey
-                const hostStr = 'http://dl.stream.qqmusic.qq.com'
-                this.setCurrentUrl(`${hostStr}/${filename}?vkey=${vkey}&guid=${guid}&uin=0&fromtag=66`)
-                this.$refs.audio.src = newSong.url
-                this.$refs.audio.play()
-              }
-            })
-          }
+        if (!newSong.id || !newSong.url || newSong.id === oldSong.id) {
           return
-        } else if (newSong.url) {
-          this.$refs.audio.crossOrigin = 'anonymous';
         }
         this.songReady = false
         this.canLyricPlay = false
-        // if (this.currentLyric) {
-        //   this.currentLyric.stop()
-        //   // 重置为null
-        //   this.currentLyric = null
-        //   this.currentTime = 0
-        //   this.playingLyric = ''
-        //   this.currentLineNum = 0
-        // }
-        this.albumImg = newSong.image || "/TeamSII/dist/static/images/flag.jpg"
-        // this.$refs.audio.crossOrigin = 'anonymous';
+        if (this.currentLyric) {
+          this.currentLyric.stop()
+          // 重置为null
+          this.currentLyric = null
+          this.currentTime = 0
+          this.playingLyric = ''
+          this.currentLineNum = 0
+        }
         this.$refs.audio.src = newSong.url
         this.$refs.audio.play()
         // 若歌曲 5s 未播放，则认为超时，修改状态确保可以切换歌曲。
@@ -584,7 +589,7 @@
         this.timer = setTimeout(() => {
           this.songReady = true
         }, 5000)
-        // this.getLyric()
+        this.getLyric()
       },
       playing(newPlaying) {
         if (!this.songReady) {
@@ -605,62 +610,276 @@
       fullScreen(newVal) {
         if (newVal) {
           setTimeout(() => {
-            if(this.$refs.lyricList){
-              this.$refs.lyricList.refresh()
-              this.$refs.progressBar.setProgressOffset(this.percent)
-            }
+            this.$refs.lyricList.refresh()
+            this.$refs.progressBar.setProgressOffset(this.percent)
           }, 20)
+        }
+      },
+      currentVolume(num){
+        if(num){
+          const audio = this.$refs.audio
+          audio.volume = num / 100;
         }
       }
     },
     components: {
       ProgressBar,
       ProgressCircle,
-      Scroll
+      Scroll,
+      // Playlist
     }
   }
 </script>
 
-<style lang="stylus" scoped  rel="stylesheet/stylus">
-.play-box
-  width 100%
-  height 100%
-  background #91ccea
-  
-  #song-list
-    height 150px
-    background #999
-    padding 4px 10px
-    ol
-      overflow-y auto
-      li
-        line-height 24px
-        margin 6px 0
-        a
-          cursor pointer
-          float right
-  canvas
-    width 100%
-    height 250px
-    filter blur(0px)
-    background #CCC
-  #lyric-block
-    filter blur(5px)
-    height calc(100% - 150px - 250px - 50px + 2px)    
-    background-image rgba(255,255,0,.6)
-    background-size cover
-    background-position center center
-    background-repeat no-repeat
-    animation filter-blur 5s linear infinite
-  .operators
-    margin-top -2px
-    width 100%
-    height 50px
-    background white
-  audio
-    &:not([controls])
-      display none !important
-  .disable
-    pointer-events none
-    cursor not-allowed
+<style scoped lang="stylus" rel="stylesheet/stylus">
+  @import "~common/stylus/variable"
+  @import "~common/stylus/mixin"
+
+  .player
+    .normal-player
+      position: fixed
+      left: 0
+      right: 0
+      top: 0
+      bottom: 0
+      z-index: 150
+      background: $color-background
+      .background
+        position: absolute
+        left: 0
+        top: 0
+        width: 100%
+        height: 100%
+        z-index: -1
+        opacity: 0.6
+        filter: blur(20px)
+      .top
+        position: relative
+        margin-bottom: 25px
+        .back
+          position absolute
+          top: 0
+          left: 6px
+          z-index: 50
+          .icon-back
+            display: block
+            padding: 9px
+            font-size: $font-size-large-x
+            color: $color-theme
+            transform: rotate(-90deg)
+        .title
+          width: 70%
+          margin: 0 auto
+          line-height: 40px
+          text-align: center
+          no-wrap()
+          font-size: $font-size-large
+          color: $color-text
+        .subtitle
+          line-height: 20px
+          text-align: center
+          font-size: $font-size-medium
+          color: $color-text
+      .middle
+        display flex
+        width 100%
+        height calc(100% - 80px - 180px)
+        margin-top 80px
+        white-space: nowrap
+        justify-content center
+        .middle-l
+          flex 0 0 600px
+          vertical-align: top
+          padding-top: 80px
+          .cd-wrapper
+            box-sizing: border-box
+            .cd
+              width 400px
+              height 400px
+              margin 0 auto
+              border-radius: 50%
+              .image
+                object-fit cover
+                width 100%
+                height 100%
+                box-sizing: border-box
+                border-radius: 50%
+                border: 10px solid rgba(255, 255, 255, 0.1)
+                &.image-object-p-left
+                  object-position left
+                &.image-object-p-right
+                  object-position right
+                &.image-object-p-top
+                  object-position top
+                &.image-object-p-bottom
+                  object-position bottom
+              .play
+                animation: rotate 20s linear infinite
+          .playing-lyric-wrapper
+            width: 80%
+            margin: 30px auto 0 auto
+            overflow: hidden
+            text-align: center
+            .playing-lyric
+              height: 20px
+              line-height: 20px
+              font-size: $font-size-medium
+              color: $color-text-l
+        .middle-r
+          flex 0 0 600px
+          vertical-align: top
+          overflow: hidden
+          .lyric-wrapper
+            margin: 0 auto
+            overflow: hidden
+            text-align: center
+            .text
+              line-height: 32px
+              color: $color-text-l
+              font-size: $font-size-medium
+              &.current
+                color: $color-text
+            .pure-music
+              padding-top: 50%
+              line-height: 32px
+              color: $color-text-l
+              font-size: $font-size-medium
+      .bottom
+        position: absolute
+        bottom: 50px
+        width: 100%
+        .dot-wrapper
+          text-align: center
+          font-size: 0
+          .dot
+            display: inline-block
+            vertical-align: middle
+            margin: 0 4px
+            width: 8px
+            height: 8px
+            border-radius: 50%
+            background: $color-text-l
+            &.active
+              width: 20px
+              border-radius: 5px
+              background: $color-text-ll
+        .progress-wrapper
+          display: flex
+          align-items: center
+          width: 80%
+          margin: 0px auto
+          padding: 10px 0
+          .time
+            color: $color-text
+            font-size: $font-size-small
+            flex: 0 0 30px
+            line-height: 30px
+            width: 30px
+            &.time-l
+              text-align: left
+            &.time-r
+              text-align: right
+          .progress-bar-wrapper
+            flex: 1
+          .volume
+            flex: 0 0 30px
+            line-height: 30px
+            width: 30px
+            &.volume-center
+              text-align:center
+            .icon
+              flex: 1
+              color: $color-theme
+        .operators
+          display: flex
+          align-items: center
+          .icon
+            flex: 1
+            color: $color-theme
+            &.disable
+              color: $color-theme-d
+            i
+              font-size: 30px
+          .i-left
+            text-align: right
+          .i-center
+            padding: 0 20px
+            text-align: center
+            i
+              font-size: 40px
+          .i-right
+            text-align: left
+          .icon-favorite
+            color: $color-sub-theme
+      &.normal-enter-active, &.normal-leave-active
+        transition: all 0.4s
+        .top, .bottom
+          transition: all 0.4s cubic-bezier(0.86, 0.18, 0.82, 1.32)
+      &.normal-enter, &.normal-leave-to
+        opacity: 0
+        .top
+          transform: translate3d(0, -100px, 0)
+        .bottom
+          transform: translate3d(0, 100px, 0)
+    .mini-player
+      display: flex
+      align-items: center
+      position: fixed
+      left: 0
+      bottom: 0
+      z-index: 180
+      width: 100%
+      height: 60px
+      background: $color-highlight-background
+      &.mini-enter-active, &.mini-leave-active
+        transition: all 0.4s
+      &.mini-enter, &.mini-leave-to
+        opacity: 0
+      .icon
+        flex: 0 0 40px
+        height: 40px
+        padding: 0 10px 0 20px
+        .imgWrapper
+          height: 100%
+          width: 100%
+          img
+            border-radius: 50%
+            &.play
+              animation: rotate 10s linear infinite
+            &.pause
+              animation-play-state: paused
+      .text
+        display: flex
+        flex-direction: column
+        justify-content: center
+        flex: 1
+        line-height: 20px
+        overflow: hidden
+        .name
+          margin-bottom: 2px
+          no-wrap()
+          font-size: $font-size-medium
+          color: $color-text
+        .desc
+          no-wrap()
+          font-size: $font-size-small
+          color: $color-text-d
+      .control
+        flex: 0 0 30px
+        width: 30px
+        padding: 0 10px
+        .icon-play-mini, .icon-pause-mini, .icon-playlist
+          font-size: 30px
+          color: $color-theme-d
+        .icon-mini
+          font-size: 32px
+          position: absolute
+          left: 0
+          top: 0
+
+  @keyframes rotate
+    0%
+      transform: rotate(0)
+    100%
+      transform: rotate(360deg)
 </style>

@@ -1,12 +1,13 @@
 <template>
   <div id="app">
-    <div class="music-play-box" :class="{'musicBoxShow':musicBoxShow}">
+    <!-- <div class="music-play-box" :class="{'musicBoxShow':musicBoxShow}">
       <a class="switch" href="javascript:void(0)" @click="musicBoxShow=!musicBoxShow" v-if="playlist.length > 0">
         <jam-arrow-square-right v-if="musicBoxShow"/>
         <jam-arrow-square-left v-if="!musicBoxShow"/>
       </a>
-      <music-player></music-player>
-    </div>
+      
+    </div> -->
+    <music-player></music-player>
     <div class="container">
       <global-header></global-header>
       <tab></tab>

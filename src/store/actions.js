@@ -1,12 +1,11 @@
 import * as types from './mutation-types'
 import {playMode} from 'common/js/config'
 import {shuffle} from 'common/js/util'
-// import {saveSearch, clearSearch, deleteSearch, savePlay, saveFavorite, deleteFavorite} from 'common/js/cache'
-// import {savePlay, saveFavorite, deleteFavorite} from 'common/js/cache'
+import {saveSearch, clearSearch, deleteSearch, savePlay, saveFavorite, deleteFavorite} from 'common/js/cache'
 
 function findIndex (list, song) {
   return list.findIndex((item) => {
-    return item.songid === song.songid
+    return item.id === song.id
   })
 }
 
@@ -34,23 +33,12 @@ export const randomPlay = function ({commit}, {list}) {
   commit(types.SET_PLAYING_STATE, true)
 }
 
-export const setCurrentUrl = function ({commit, state}, url) {
-  state.playlist[state.currentIndex].url = url
-  commit(types.SET_PLAYLIST, state.playlist)
-  commit(types.SET_CURRENT_INDEX, state.currentIndex)
-  commit(types.SET_PLAYING_STATE, true)
-}
-
 export const insertSong = function ({commit, state}, song) {
-  // 复制播放列表数组
   let playlist = state.playlist.slice()
-  // 复制顺序列表数组
   let sequenceList = state.sequenceList.slice()
-  // 当前播放序号
   let currentIndex = state.currentIndex
   // 记录当前歌曲
   let currentSong = playlist[currentIndex]
-
   // 查找当前列表中是否有待插入的歌曲并返回其索引
   let fpIndex = findIndex(playlist, song)
   // 因为是插入歌曲，所以索引+1
@@ -85,7 +73,8 @@ export const insertSong = function ({commit, state}, song) {
   commit(types.SET_PLAYLIST, playlist)
   commit(types.SET_SEQUENCE_LIST, sequenceList)
   commit(types.SET_CURRENT_INDEX, currentIndex)
-  commit(types.SET_FULL_SCREEN, true)
+  // 播放不全屏
+  commit(types.SET_FULL_SCREEN, false)
   commit(types.SET_PLAYING_STATE, true)
 }
 
@@ -131,20 +120,14 @@ export const deleteSongList = function ({commit}) {
   commit(types.SET_PLAYING_STATE, false)
 }
 
-// export const savePlayHistory = function ({commit}, song) {
-//   if (song !== undefined) {
-//     commit(types.SET_PLAY_HISTORY, savePlay(song))
-//   }
-// }
+export const savePlayHistory = function ({commit}, song) {
+  commit(types.SET_PLAY_HISTORY, savePlay(song))
+}
 
-// export const saveFavoriteList = function ({commit}, song) {
-//   if (song !== undefined) {
-//     commit(types.SET_FAVORITE_LIST, saveFavorite(song))
-//   }
-// }
+export const saveFavoriteList = function ({commit}, song) {
+  commit(types.SET_FAVORITE_LIST, saveFavorite(song))
+}
 
-// export const deleteFavoriteList = function ({commit}, song) {
-//   if (song !== undefined) {
-//     commit(types.SET_FAVORITE_LIST, deleteFavorite(song))
-//   }
-// }
+export const deleteFavoriteList = function ({commit}, song) {
+  commit(types.SET_FAVORITE_LIST, deleteFavorite(song))
+}

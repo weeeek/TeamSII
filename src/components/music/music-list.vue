@@ -1,5 +1,5 @@
 <template>
-  <div id="music-container">
+  <div id="music-container" :class="{'hasPlayer': this.playlist.length > 0}">
     <div class="music-block" v-for="item in qqMusicList" :key="item.typeName">      
       <div class="music-type">{{ item.typeName }}</div>
       <div class="music-group" v-for="g in item.group" :key="g.title">
@@ -16,6 +16,7 @@
 import { qqMusicConfig } from 'api/musicData'
 import { mapMutations, mapActions, mapGetters } from 'vuex'
 import SongList from 'components/music/song-list'
+import { createSong } from 'common/js/song'
 
 export default {
   name: `MusicList`,
@@ -24,11 +25,32 @@ export default {
   },
   data () {
     return {
-      qqMusicList: qqMusicConfig.list
+      qqMusicList: []
     }
   },
+  created () {
+    this.qqMusicList = this._normalizaSongs(qqMusicConfig.list)
+  },
+  computed: {
+    ...mapGetters([
+      'playlist'
+    ])
+  },
   methods: {
+    _normalizaSongs (list) {
+      list.forEach((l)=>{
+        l.group.forEach((g)=>{
+          g.songs.forEach((s)=>{
+            let song = createSong(s)
+            s = Object.assign(s,song)
+          })
+        })
+      })
+      return list
+    },
     selectSong(song) {
+      // this.insertSong(new Song(song))
+      console.log(song)
       this.insertSong(song)
     },
     //在歌单里的，选择之，播放。不在，加入歌单，播放
@@ -44,6 +66,8 @@ export default {
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
 #music-container
+  &.hasPlayer
+    margin-bottom 60px
   width: 100%
   height: 100%
   .music-block
