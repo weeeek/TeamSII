@@ -6,7 +6,7 @@ import { Base64 } from 'js-base64'
 let urlMap = {}
 
 export default class Song {
-  constructor ({id, mid, singer, name, album, duration, image, originUrl}) {
+  constructor ({id, mid, singer, name, album, duration, image, url}) {
     this.id = id
     this.mid = mid
     this.singer = singer
@@ -18,8 +18,8 @@ export default class Song {
     // 确保一首歌曲的 id 只对应一个 url
     if (urlMap[this.id]) {
       this.url = urlMap[this.id]
-    } else if (originUrl) {
-      urlMap[this.id] = originUrl
+    } else if (url) {
+      urlMap[this.id] = url
       this.url = urlMap[this.id]
     } else {
       this._genUrl()
@@ -58,6 +58,9 @@ export default class Song {
 }
 
 export function createSong (musicData) {
+  // if (musicData.notQQMusic) {
+  //   debugger
+  // }
   return new Song({id: musicData.songid,
     mid: musicData.songmid,
     singer: filterSinger(musicData.singer),
@@ -65,7 +68,7 @@ export function createSong (musicData) {
     album: musicData.albumname || 'SNH48 Team SII',
     duration: musicData.interval || 200,
     image: musicData.image || (musicData.albummid ? `https://y.gtimg.cn/music/photo_new/T002R300x300M000${musicData.albummid}.jpg?max_age=2592000` : `/TeamSII/dist/static/images/flag.jpg`),
-    originUrl: musicData.url
+    url: musicData.url
   })
 }
 

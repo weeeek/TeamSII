@@ -65,7 +65,9 @@
               <i @click="prev" class="icon-prev"></i>
             </div>
             <div class="icon i-center" :class="disableCls">
-              <i class="needsclick" @click="togglePlaying" :class="playIcon"></i>
+              <jam-play v-if="playIcon"  @click="togglePlaying"/>
+              <jam-pause v-if="!playIcon"  @click="togglePlaying"/>
+              <!-- <i class="needsclick" @click="togglePlaying" :class="playIcon"></i> -->
             </div>
             <div class="icon i-right" :class="disableCls">
               <i @click="next" class="icon-next"></i>
@@ -73,9 +75,9 @@
             <div class="icon i-right">
               <i @click="toggleFavorite(currentSong)" class="icon" :class="favoriteIcon"></i>
             </div>
-            <div class="icon i-right">
+            <!-- <div class="icon i-right">
               <i :class="volumeIcon"></i>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -97,13 +99,13 @@
           </progress-circle>
         </div>
         <div class="control" @click.stop="showPlaylist">
-          <i class="icon-playlist"></i>
+          <jam-unordered-list />
         </div>
       </div>
     </transition>
-    <!-- <playlist ref="playlist"></playlist> -->
-    <audio ref="audio" @playing="ready" @error="error" @timeupdate="updateTime"
-           @ended="end" @pause="paused" volume="0.3"></audio>
+    <playlist ref="playlist"></playlist>           
+    <audio ref="audio" @loadstart="loadstart" @playing="ready" @error="error" @timeupdate="updateTime" 
+      volume="0.3" @ended="end" @pause="paused"></audio>
   </div>
 </template>
 
@@ -117,7 +119,7 @@
   import Lyric from 'lyric-parser'
   import Scroll from 'base/scroll/scroll'
   import { playerMixin } from 'common/js/mixin'
-  // import Playlist from 'components/playlist/playlist'
+  import Playlist from 'components/music/playlist'
 
   const transform = prefixStyle('transform')
   const transitionDuration = prefixStyle('transitionDuration')
@@ -160,7 +162,8 @@
         return this.playing ? 'play' : ''
       },
       playIcon() {
-        return this.playing ? 'icon-pause' : 'icon-play'
+        return this.playing
+        // return this.playing ? 'icon-pause' : 'icon-play'
       },
       volumeIcon() {        
         //return this.volume==0 ? 'icon-volume' : 'icon-play'
@@ -183,6 +186,10 @@
     },
     created() {
       this.touch = {}
+    },
+    mounted () {
+      this.$refs.audio.volume = 0.3
+      // this.analys()
     },
     methods: {
       back() {
@@ -494,11 +501,13 @@
           window.AudioContext ||
           window.webkitAudioContext ||
           window.mozAudioContext
+        
+        debugger
         this.ctx = new AudioContext()
         this.analyser = this.ctx.createAnalyser()
         //this.audio = document.getElementById("audio")
         this.audio = this.$refs.audio
-        this.audio.volume = 0.3
+        // this.audio.volume = 0.3
         this.audioSrc = this.ctx.createMediaElementSource(this.audio)
         // we have to connect the MediaElementSource with the analyser
         this.audioSrc.connect(this.analyser)
@@ -626,7 +635,7 @@
       ProgressBar,
       ProgressCircle,
       Scroll,
-      // Playlist
+      Playlist
     }
   }
 </script>
@@ -684,13 +693,12 @@
         display flex
         width 100%
         height calc(100% - 80px - 180px)
-        margin-top 80px
+        margin-top 40px
         white-space: nowrap
         justify-content center
         .middle-l
           flex 0 0 600px
           vertical-align: top
-          padding-top: 80px
           .cd-wrapper
             box-sizing: border-box
             .cd
@@ -774,7 +782,6 @@
             font-size: $font-size-small
             flex: 0 0 30px
             line-height: 30px
-            width: 30px
             &.time-l
               text-align: left
             &.time-r
@@ -784,7 +791,6 @@
           .volume
             flex: 0 0 30px
             line-height: 30px
-            width: 30px
             &.volume-center
               text-align:center
             .icon
@@ -866,7 +872,6 @@
           color: $color-text-d
       .control
         flex: 0 0 30px
-        width: 30px
         padding: 0 10px
         .icon-play-mini, .icon-pause-mini, .icon-playlist
           font-size: 30px

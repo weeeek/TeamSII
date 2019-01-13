@@ -41,16 +41,15 @@ export default {
       list.forEach((l)=>{
         l.group.forEach((g)=>{
           g.songs.forEach((s)=>{
-            let song = createSong(s)
-            s = Object.assign(s,song)
+            let song = createSong(s) 
+            let newS = Object.assign(s, song)
+            s = newS
           })
         })
       })
       return list
     },
     selectSong(song) {
-      // this.insertSong(new Song(song))
-      console.log(song)
       this.insertSong(song)
     },
     //在歌单里的，选择之，播放。不在，加入歌单，播放
