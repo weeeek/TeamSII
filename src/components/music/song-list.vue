@@ -8,7 +8,7 @@
         <div class="content">
           <a class="name text-ellipsis" target="_blank" :href="`https://y.qq.com/n/yqq/song/${song.mid}.html`">{{song.name}}</a>
           <a class="play" href="javascript:void(0)" @click="selectItem(song, index)">
-            <jam-play />
+            <jam-play :fillColor="'#87cefa'" />
           </a>
         </div>
       </li>

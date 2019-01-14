@@ -12,7 +12,7 @@
         </div>
         <div class="top">
           <div class="back" @click="back">
-            <jam-chevron-circle-down />            
+            <jam-chevron-circle-down :fillColor="fillColor"/>
           </div>
           <h1 class="title" v-html="currentSong.name"></h1>
           <h2 class="subtitle" v-html="currentSong.singer"></h2>
@@ -63,15 +63,15 @@
               <i :class="iconMode"></i>
             </div>
             <div class="icon i-left" :class="disableCls">
-              <jam-set-backward  @click="prev"/>
+              <jam-set-backward-circle :fillColor="fillColor" @click="prev"/>
             </div>
             <div class="icon i-center" :class="disableCls">
-              <jam-play v-if="playIcon"  @click="togglePlaying"/>
-              <jam-pause v-if="!playIcon"  @click="togglePlaying"/>
+              <jam-play v-if="!playIcon" :fillColor="fillColor" @click="togglePlaying"/>
+              <jam-pause v-if="playIcon" :fillColor="fillColor" @click="togglePlaying"/>
               <!-- <i class="needsclick" @click="togglePlaying" :class="playIcon"></i> -->
             </div>
             <div class="icon i-right" :class="disableCls">
-              <jam-set-forward @click="next"/>
+              <jam-set-forward-circle @click="next" :fillColor="fillColor"/>
             </div>
             <div class="icon i-right">
               <i @click="toggleFavorite(currentSong)" class="icon" :class="favoriteIcon"></i>
@@ -96,11 +96,15 @@
         </div>
         <div class="control">
           <progress-circle :radius="radius" :percent="percent">
-            <i @click.stop="togglePlaying" class="icon-mini" :class="miniIcon"></i>
+            <!-- <i @click.stop="togglePlaying" class="icon-mini" :class="miniIcon"></i> -->
+            <div class="icon-mini">
+              <jam-play :fillColor="fillColor" v-if="!miniIcon" @click.stop="togglePlaying"/>
+              <jam-pause :fillColor="fillColor" v-if="miniIcon" @click.stop="togglePlaying"/>
+            </div>
           </progress-circle>
         </div>
         <div class="control" @click.stop="showPlaylist">
-          <jam-unordered-list />
+          <jam-unordered-list :fillColor="fillColor" />
         </div>
       </div>
     </transition>
@@ -132,7 +136,9 @@
   export default {
     mixins: [playerMixin],
     data() {
-      return {          
+      return {
+        fillColor: '#87cefa',
+
         ctx: null,
         analyser: null,
         audioSrc: null,
@@ -169,11 +175,12 @@
         // return this.playing ? 'icon-pause' : 'icon-play'
       },
       volumeIcon() {        
-        //return this.volume==0 ? 'icon-volume' : 'icon-play'
+        // return this.volume==0 ? 'icon-volume' : 'icon-play'
         return 'icon-play'
       },
       miniIcon() {
-        return this.playing ? 'icon-pause-mini' : 'icon-play-mini'
+        // return this.playing ? 'icon-pause-mini' : 'icon-play-mini'
+        return this.playing
       },
       disableCls() {
         return this.songReady ? '' : 'disable'
@@ -668,8 +675,8 @@
         margin-bottom 25px
         .back
           position absolute
-          top 0
-          left 6px
+          top 1em
+          left 1em
           z-index 50
           .icon-back
             display block
@@ -703,8 +710,10 @@
           .cd-wrapper
             box-sizing border-box
             .cd
-              width 400px
-              height 400px
+              // width 400px
+              // height 400px
+              width 600px
+              height 600px
               margin 0 auto
               border-radius 50%
               .image
@@ -742,6 +751,7 @@
             margin 0 auto
             overflow hidden
             text-align center
+            padding 50px 0
             .text
               line-height 32px
               color $color-text-l
@@ -884,6 +894,6 @@
         .icon-mini
           font-size 32px
           position absolute
-          left 0
-          top 0
+          left 4px
+          top -1px
 </style>

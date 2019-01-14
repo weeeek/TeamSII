@@ -9,7 +9,8 @@ import VueLazyload from 'vue-lazyload'
 import VueHighcharts from 'vue-highcharts'
 import Highcharts from 'highcharts'
 import VueCollapse from 'vue2-collapse'
-import VueJamIcons from 'vue-jam-icons'
+// import VueJamIcons from 'vue-jam-icons'
+import VueJamIcons from 'common/jam-icons/index'
 
 // 全局初始化
 import store from './store'
