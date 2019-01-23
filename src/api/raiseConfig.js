@@ -4,6 +4,11 @@ export const raiseConfig = [
     id: '1485197',
     line: 1,
     enabled: true
+  }, {
+    name: '陈俊羽',
+    id: '1504145',
+    line: 9,
+    enabled: true
   },
   {
     name: '陈思',
@@ -130,6 +135,11 @@ export const raiseConfig = [
     id: '1105967',
     line: 2,
     enabled: true
+  }, {
+    name: '杨令仪',
+    id: '1676139',
+    line: 9,
+    enabled: true
   },
   {
     name: '袁丹妮',
@@ -148,6 +158,11 @@ export const raiseConfig = [
     id: '1157969',
     line: 1,
     enabled: true
+  }, {
+    name: '朱小丹',
+    id: '1796555',
+    line: 9,
+    enabled: true
   },
   {
     name: '赵晔',
@@ -159,6 +174,6 @@ export const raiseConfig = [
     name: 'TeamSII',
     id: '2112648',
     line: 0,
-    enabled: new Date().getMonth() > 7
+    enabled: new Date() > new Date('2019-07-27') && new Date() < new Date('2020-01-11')
   }
 ]

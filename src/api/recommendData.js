@@ -1,6 +1,20 @@
 export const recommendConfig = {
   list: [
     {
+      type: '舞台',
+      list: [{
+        title: '第五届金曲大赏演唱会',
+        from: 'B',
+        av: '41180148',
+        img: 'https://i2.hdslb.com/bfs/archive/8a83924c0e59a44272e6a7191ad1a9a2bbc9f2eb.jpg_380x240.jpg'
+      }, {
+        title: '第五届总决选演唱会',
+        from: 'B',
+        av: '27962731',
+        img: 'https://i0.hdslb.com/bfs/archive/a8a130ab80d8cc01eaee0303fdf02928d2eaef4b.jpg_380x240.jpg'
+      }]
+    },
+    {
       type: 'MV',
       list: [{
         title: '我的舞台',
@@ -21,6 +35,16 @@ export const recommendConfig = {
     }, {
       type: '公演',
       list: [{
+        title: '小分队广州巡演',
+        from: 'B',
+        av: '40987947',
+        img: 'https://i2.hdslb.com/bfs/archive/b8ad38f43d0fb72fa6f0cce87f5302cfaf1bc7c1.jpg_380x240.jpg'
+      }, {
+        title: 'S队出道六周年特别公演',
+        from: 'B',
+        av: '40341728',
+        img: 'https://i1.hdslb.com/bfs/archive/10b231f5be69b941f6de44d0d53e106943e3cc1c.jpg_380x240.jpg'
+      }, {
         title: '《重生计划》首演',
         from: 'B',
         av: '36605536',

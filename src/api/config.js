@@ -17,7 +17,8 @@ export const performanceConfig = {
   url: 'http://www.snh48.com/ticketsinfo.php?act=choose'
 }
 
-export const modianApi = 'https://mapi.modian.com/v41/user/build_product_list'
+// export const modianApi = 'https://mapi.modian.com/v41/user/build_product_list'
+export const modianApi = 'https://zhongchou.modian.com/realtime/get_simple_product'
 export const yahhoapisBase = 'https://query.yahooapis.com/v1/public/yql'
 export const yahhoapisFormate = 'json'
 

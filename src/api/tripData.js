@@ -5,6 +5,12 @@ export const tripData = [{
   },
   items: [{
     nameMonth: '2月3日',
+    title: '2019重庆卫视春节联欢晚会',
+    description: '出席成员：SNH48 7senses',
+    typeClass: 'dot-green',
+    url: ''
+  }, {
+    nameMonth: '2月3日',
     title: '2019安徽卫视春节联欢晚会',
     description: '出席成员：SNH48 7senses',
     typeClass: 'dot-green',
@@ -12,21 +18,21 @@ export const tripData = [{
   }, {
     nameMonth: '1月19日 17:30',
     title: 'SNH48 GROUP 第五届年度金曲大赏演唱会',
-    description: '',
+    description: '陈思 陈观慧 《梦中的婚礼》,许佳琪 《Don\'t Touch》, 孔肖吟 孙芮 《玛丽亚》,Monster 《孙芮》,蒋芸 《女王殿下》,冯晓菲 《黑夜女神》,莫寒 《荣誉勋章》,钱蓓婷 孔肖吟 《My Boy》,Team SII 《初日》,钱蓓婷 袁雨桢 张怀瑾《巧克力之吻》,张语格 孔肖吟 《9 to 9》,戴萌 《钢铁之翼》,吴哲晗 许佳琪《SPY》,戴萌 莫寒 《就差一点点》'.split(',').reverse().join('<br>'),
     typeClass: 'dot-black',
-    url: ''
+    url: 'https://www.bilibili.com/av41180148'
   }, {
     nameMonth: '1月13日 19:00',
     title: 'SNH48 金曲大赏小组合《Just Dance》剧场公演',
-    description: '出席成员：徐子轩，吴哲晗',
+    description: '出席成员：徐子轩（因病未出席），吴哲晗，袁雨桢',
     typeClass: 'dot-blue',
-    url: ''
+    url: 'https://www.bilibili.com/video/av40672345'
   }, {
     nameMonth: '1月9日 19:30',
     title: 'SNH48 一期生 出道6周年 公演',
     description: '出席成员：陈观慧，陈思，吴哲晗，许佳琪，袁雨桢，温晶婕，蒋芸，孙芮，徐晨辰，孔肖吟，莫寒，钱蓓婷，戴萌，袁丹妮，邵雪聪，刘增艳，李宇琪',
     typeClass: 'dot-blue',
-    url: ''
+    url: 'https://www.bilibili.com/video/av40341728'
   }, {
     nameMonth: '1月6日 19:30',
     title: '《重生计划》第九场 刘增艳生日公演',

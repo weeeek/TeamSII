@@ -35,7 +35,8 @@
 <script type="text/ecmascript-6">
 import {modianApi} from 'api/config'
 import {raiseConfig} from 'api/raiseConfig'
-import jQuery from 'jquery'
+// import jQuery from 'jquery'
+import jsonp from 'common/js/jsonp'
 import progressbar from 'components/plugin/progressbar'
 import blockcheck from 'components/plugin/blockCheck'
 import switcher from 'components/plugin/switcher'
@@ -193,13 +194,17 @@ export default {
     getModianData (_this,id) {
       if(_this.modianDatas.filter((x)=>{return x.user_id == id}).length > 0)
         return
-      jQuery.post(`${modianApi}`, { to_user_id: id }, function (response) {
-                   let json = JSON.parse(response)
-                   //所有项目
-                   let data = JSON.parse(json.data)   
-                   //最新项目
-                   _this.modianDatas.push(data[0]);
-                  })
+      
+      jsonp(modianApi,{ids: id},{}).then((res)=>{
+        console.log(res)
+      })
+      // jQuery.post(`${modianApi}`, { to_user_id: id }, function (response) {
+      //              let json = JSON.parse(response)
+      //              //所有项目
+      //              let data = JSON.parse(json.data)   
+      //              //最新项目
+      //              _this.modianDatas.push(data[0]);
+      //             })
     }
   },
   computed: {

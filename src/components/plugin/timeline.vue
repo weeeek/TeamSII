@@ -99,6 +99,7 @@ export default {
       .description-item
         font-weight 100
         margin 0
+        line-height 1.4em
       .dot
         display block
         position absolute

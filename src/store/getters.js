@@ -29,7 +29,9 @@ export const disc = state => state.disc
 
 export const playHistory = (state) => {
   return state.playHistory.map((song) => {
-    return new Song(song)
+    if (song) {
+      return new Song(song)
+    }
   })
 }
 

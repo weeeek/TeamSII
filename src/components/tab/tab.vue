@@ -1,20 +1,20 @@
 <template>
   <div class="tab">
-    <keep-alive>
+    <!-- <keep-alive>
       <router-link tag="div" class="tab-item" to="/dynamic">
         <span class="tab-link">动态</span>
       </router-link>
-    </keep-alive>
+    </keep-alive> -->
     <keep-alive>
       <router-link tag="div" class="tab-item" to="/recommend">
         <span class="tab-link">推荐</span>
       </router-link>
     </keep-alive>
-    <keep-alive>
+    <!-- <keep-alive>
       <router-link tag="div" class="tab-item" to="/video">
         <span class="tab-link">视频</span>
       </router-link>
-    </keep-alive>
+    </keep-alive> -->
     <keep-alive>
       <router-link tag="div" class="tab-item" to="/article">
         <span class="tab-link">文章</span>
