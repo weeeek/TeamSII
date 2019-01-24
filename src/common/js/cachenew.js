@@ -93,6 +93,9 @@ export function loadFavorite () {
 }
 
 function compare (song, item) {
+  if (item == null) {
+    return true
+  }
   return song.id === item.id || song.songid === item.songid || song.songmid === item.songmid
 }
 

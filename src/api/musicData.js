@@ -121,96 +121,112 @@ export const qqMusicConfig = {
       title: '第48区',
       songs: [
         {
+          iamge: 'https://newsimg.48.cn/2017/0701/20170701014656607.jpg',
           'id': 202980878,
           'mid': '000ILOcU0wQ3L6',
           'name': '第48区',
           interval: 233.755283
         },
         {
+          image: 'https://newsimg.48.cn/2017/0701/20170701014727556.jpg',
           'id': 202980883,
           'mid': '0028Xm6D2K9P3c',
           'name': '破茧',
           interval: 244.018503
         },
         {
+          image: 'https://newsimg.48.cn/2017/0701/20170701014742843.jpg',
           'id': 202980872,
           'mid': '001ZPhUY4BoFpf',
           'name': 'Mute',
           interval: 266.05424
         },
         {
+          image: 'https://newsimg.48.cn/2017/0701/20170701014754930.jpg',
           'id': 202980879,
           'mid': '004TTcdR1mi7T5',
           'name': 'Drop It',
           interval: 221.611247
         },
         {
-          'id': 202980871,
-          'mid': '000iOowO2M7lMs',
-          'name': 'Go Away',
-          interval: 202.663764
-        },
-        {
-          'id': 202980874,
-          'mid': '000bEhDG1mNIrw',
-          'name': 'Good Time',
-          interval: 199.157551
-        },
-        {
-          'id': 202980885,
-          'mid': '002ynlIQ2yLRto',
-          'name': '爱未央',
-          interval: 221.541587
-        },
-        {
-          'id': 202980881,
-          'mid': '003bKFCi06BvVs',
-          'name': '灵魂使者',
-          interval: 240.140771
-        },
-        {
+          image: 'https://newsimg.48.cn/2017/0701/20170701014806186.jpg',
           'id': 202980877,
           'mid': '002RMxMo1npbfE',
           'name': 'Mad World',
           interval: 240.39619
         },
         {
+          image: 'https://newsimg.48.cn/2017/0701/20170701014827984.jpg',
+          'id': 202980874,
+          'mid': '000bEhDG1mNIrw',
+          'name': 'Good Time',
+          interval: 199.157551
+        },
+        {
+          image: 'https://newsimg.48.cn/2017/0701/20170701014841934.jpg',
+          'id': 202980885,
+          'mid': '002ynlIQ2yLRto',
+          'name': '爱未央',
+          interval: 221.541587
+        },
+        {
+          image: 'https://newsimg.48.cn/2017/0701/20170701014854292.jpg',
+          'id': 202980871,
+          'mid': '000iOowO2M7lMs',
+          'name': 'Go Away',
+          interval: 202.663764
+        },
+        {
+          image: 'https://newsimg.48.cn/2017/0701/20170701014905715.jpg',
+          'id': 202980881,
+          'mid': '003bKFCi06BvVs',
+          'name': '灵魂使者',
+          interval: 240.140771
+        },
+        {
+          image: 'https://newsimg.48.cn/2017/0701/20170701014944421.jpg',
           'id': 202980882,
           'mid': '004eD5R42tqtJg',
           'name': '寒夜',
           interval: 281.70449
         },
         {
+          image: 'https://newsimg.48.cn/2017/0701/20170701015000824.jpg',
           'id': 202980876,
           'mid': '0029YGo60in7av',
           'name': '幻',
           interval: 185.643537
         },
         {
+          image: 'https://newsimg.48.cn/2017/0701/20170701015022607.jpg',
           'id': 202980873,
           'mid': '000GISZh4YughG',
           'name': '冒险乐园',
           interval: 261.08517
         },
         {
+          image: 'https://newsimg.48.cn/2017/0701/20170701014643825.jpg',
           'id': 202980875,
           'mid': '002k9PoN41Fo6u',
           'name': '废墟纪元',
           interval: 340.241995
         },
         {
+          image: 'https://i0.hdslb.com/bfs/archive/8541cf8f63c5f5d021ec4a174c4e0b1037ebf93b.jpg_960x600.jpg',
           'id': 202980884,
           'mid': '002EdyP32hlElu',
           'name': '战歌',
           interval: 256
         },
         {
+          image: 'https://newsimg.48.cn/2017/0701/20170701015047247.jpg',
           'id': 202980880,
           'mid': '003uEEzk2HrtyA',
           'name': '我的存在',
           interval: 275.736961
         },
         {
+          image: 'https://newsimg.48.cn/2017/0701/20170701015056575.jpg',
           'id': 202980870,
           'mid': '000SdFTF2SCXVc',
           'name': '无尽的世界',
@@ -222,54 +238,63 @@ export const qqMusicConfig = {
       enabled: true,
       songs: [
         {
+          image: 'https://newsimg.48.cn/2016/0521/20160521010418333.jpg',
           'id': 215745648,
           'mid': '002YLCJ70c8EDg',
           'name': '心的旅程',
           interval: 208.863492
         },
         {
+          image: 'https://newsimg.48.cn/2016/0521/20160521010426138.jpg',
           'id': 215745654,
           'mid': '000wENiD3cNfHl',
           'name': '时差密码',
           interval: 274.181224
         },
         {
+          image: 'https://newsimg.48.cn/2016/0521/20160521010554238.jpg',
           'id': 215745652,
           'mid': '00311OSe22IEEM',
           'name': '小宇宙',
           interval: 240.140771
         },
         {
+          image: 'https://newsimg.48.cn/2016/0521/20160521010604999.jpg',
           'id': 215745649,
           'mid': '000uSEhd0qlUgC',
           'name': '蒙娜丽莎没有自拍照',
           interval: 232.896145
         },
         {
+          image: 'https://newsimg.48.cn/2016/0521/20160521010613800.jpg',
           'id': 215745655,
           'mid': '000GttDR46ZqLq',
           'name': '好友创可贴',
           interval: 213.832562
         },
         {
-          'id': 215745650,
-          'mid': '000ml6DZ2jNP38',
-          'name': '下一站是你',
-          interval: 196.138957
-        },
-        {
+          image: 'https://newsimg.48.cn/2016/0521/20160521010621200.jpg',
           'id': 215745656,
           'mid': '000IOlxI35AORP',
           'name': '地平线',
           interval: 209.118912
         },
         {
+          image: 'https://newsimg.48.cn/2016/0521/20160521010630114.jpg',
+          'id': 215745650,
+          'mid': '000ml6DZ2jNP38',
+          'name': '下一站是你',
+          interval: 196.138957
+        },
+        {
+          image: 'https://newsimg.48.cn/2016/0521/20160521010638520.jpg',
           'id': 215745653,
           'mid': '001B857f4YZle8',
           'name': '新世界',
           interval: 201.781406
         },
         {
+          image: 'https://newsimg.48.cn/2016/0521/20160521010648982.jpg',
           'id': 215745651,
           'mid': '002xtBBA1vhuzA',
           'name': '降落伞',
@@ -288,6 +313,7 @@ export const qqMusicConfig = {
           interval: 273.902585
         },
         {
+          image: 'https://newsimg.48.cn/2016/0521/20160521010715570.jpg',
           'id': 215867937,
           'mid': '003G2ySQ1zrl78',
           'name': '纽约梦',
@@ -300,18 +326,21 @@ export const qqMusicConfig = {
           interval: 218.778413
         },
         {
+          image: 'https://newsimg.48.cn/2016/0521/20160521010731889.jpg',
           'id': 215867936,
           'mid': '004MHdRt2xw3CP',
           'name': '潮流冠军',
           interval: 203.290703
         },
         {
+          image: 'https://newsimg.48.cn/2016/0521/20160521010743212.jpg',
           'id': 215867944,
           'mid': '004MpiFS4W6mNL',
           'name': '青春号角',
           interval: 226.626757
         },
         {
+          iamge: 'https://newsimg.48.cn/2018/0208/20180208051823222.jpg',
           'id': 215867939,
           'mid': '001si8JG2QJ7Un',
           'name': '我的舞台',

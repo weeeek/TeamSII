@@ -1,38 +1,6 @@
 export const recommendConfig = {
   list: [
     {
-      type: '舞台',
-      list: [{
-        title: '第五届金曲大赏演唱会',
-        from: 'B',
-        av: '41180148',
-        img: 'https://i2.hdslb.com/bfs/archive/8a83924c0e59a44272e6a7191ad1a9a2bbc9f2eb.jpg_380x240.jpg'
-      }, {
-        title: '第五届总决选演唱会',
-        from: 'B',
-        av: '27962731',
-        img: 'https://i0.hdslb.com/bfs/archive/a8a130ab80d8cc01eaee0303fdf02928d2eaef4b.jpg_380x240.jpg'
-      }]
-    },
-    {
-      type: 'MV',
-      list: [{
-        title: '我的舞台',
-        from: 'B',
-        av: '17156101',
-        img: 'https://i2.hdslb.com/bfs/archive/703e653456ad9ea0cbd8a46bcaab3a2c9468bbf7.jpg_380x240.jpg'
-      }, {
-        title: '潮流冠军',
-        from: 'B',
-        av: '5583819',
-        img: '//i0.hdslb.com/bfs/archive/894c2fc64fcf0d86e44a215152c12c7677931ab1.jpg_380x240.jpg'
-      }, {
-        title: '生命之风',
-        from: 'B',
-        av: '3060321',
-        img: 'https://i0.hdslb.com/bfs/archive/cf8bf6d907b43f1389c797375ece252648dfc1a6.jpg_380x240.jpg'
-      }]
-    }, {
       type: '公演',
       list: [{
         title: '小分队广州巡演',
@@ -121,6 +89,38 @@ export const recommendConfig = {
         from: 'L',
         url: 'https://so.tv.sohu.com/mts?box=1&wd=%E8%B4%B4%E8%BA%AB%E6%A0%A1%E8%8A%B1',
         img: 'http://itedou.com/Public/kindeditor/attached/image/20171013/20171013144953_63689.png'
+      }]
+    }, {
+      type: '舞台',
+      list: [{
+        title: '第五届金曲大赏演唱会',
+        from: 'B',
+        av: '41180148',
+        img: 'https://i2.hdslb.com/bfs/archive/8a83924c0e59a44272e6a7191ad1a9a2bbc9f2eb.jpg_380x240.jpg'
+      }, {
+        title: '第五届总决选演唱会',
+        from: 'B',
+        av: '27962731',
+        img: 'https://i0.hdslb.com/bfs/archive/a8a130ab80d8cc01eaee0303fdf02928d2eaef4b.jpg_380x240.jpg'
+      }]
+    },
+    {
+      type: 'MV',
+      list: [{
+        title: '我的舞台',
+        from: 'B',
+        av: '17156101',
+        img: 'https://i2.hdslb.com/bfs/archive/703e653456ad9ea0cbd8a46bcaab3a2c9468bbf7.jpg_380x240.jpg'
+      }, {
+        title: '潮流冠军',
+        from: 'B',
+        av: '5583819',
+        img: '//i0.hdslb.com/bfs/archive/894c2fc64fcf0d86e44a215152c12c7677931ab1.jpg_380x240.jpg'
+      }, {
+        title: '生命之风',
+        from: 'B',
+        av: '3060321',
+        img: 'https://i0.hdslb.com/bfs/archive/cf8bf6d907b43f1389c797375ece252648dfc1a6.jpg_380x240.jpg'
       }]
     }, {
       type: '鬼畜',

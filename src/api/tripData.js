@@ -18,7 +18,7 @@ export const tripData = [{
   }, {
     nameMonth: '1月19日 17:30',
     title: 'SNH48 GROUP 第五届年度金曲大赏演唱会',
-    description: '陈思 陈观慧 《梦中的婚礼》,许佳琪 《Don\'t Touch》, 孔肖吟 孙芮 《玛丽亚》,Monster 《孙芮》,蒋芸 《女王殿下》,冯晓菲 《黑夜女神》,莫寒 《荣誉勋章》,钱蓓婷 孔肖吟 《My Boy》,Team SII 《初日》,钱蓓婷 袁雨桢 张怀瑾《巧克力之吻》,张语格 孔肖吟 《9 to 9》,戴萌 《钢铁之翼》,吴哲晗 许佳琪《SPY》,戴萌 莫寒 《就差一点点》'.split(',').reverse().join('<br>'),
+    description: '陈思 陈观慧 《梦中的婚礼》,许佳琪 《Don\'t Touch》, 孔肖吟 孙芮 《玛丽亚》,孙芮 《Monster》,蒋芸 《女王殿下》,冯晓菲 《黑夜女神》,莫寒 《荣誉勋章》,钱蓓婷 孔肖吟 《My Boy》,Team SII 《初日》,钱蓓婷 袁雨桢 张怀瑾《巧克力之吻》,张语格 孔肖吟 《9 to 9》,戴萌 《钢铁之翼》,吴哲晗 许佳琪《SPY》,戴萌 莫寒 《就差一点点》'.split(',').reverse().join('<br>'),
     typeClass: 'dot-black',
     url: 'https://www.bilibili.com/av41180148'
   }, {
@@ -71,6 +71,12 @@ export const tripData = [{
       description: '出镜成员：莫寒，许佳琪，戴萌，钱蓓婷，吴哲晗，孙芮，徐子轩，刘增艳，袁雨桢，陈观慧，徐晨辰，邵雪聪，吕一',
       typeClass: 'dot-green',
       url: 'https://www.bilibili.com/video/av39562961'
+    }, {
+      nameMonth: '12月28日',
+      title: '《天翼大来宾》',
+      description: '徐子轩 吴哲晗 张语格',
+      typeClass: 'got-green',
+      url: 'https://www.bilibili.com/video/av39292190'
     },
     {
       nameMonth: '12月28日 19:30',
