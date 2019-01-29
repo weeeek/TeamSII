@@ -18,7 +18,8 @@ export const performanceConfig = {
 }
 
 // export const modianApi = 'https://mapi.modian.com/v41/user/build_product_list'
-export const modianApi = 'https://zhongchou.modian.com/realtime/get_simple_product'
+export const modianApi = 'http://193.112.9.197:8080/modian/user/build_product_list'
+
 export const yahhoapisBase = 'https://query.yahooapis.com/v1/public/yql'
 export const yahhoapisFormate = 'json'
 
