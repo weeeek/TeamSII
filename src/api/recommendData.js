@@ -298,6 +298,11 @@ export const recommendConfig = {
         from: 'B',
         av: 'av38906005',
         img: 'http:////i2.hdslb.com/bfs/archive/e08d35bffd9bcd34ff4fd9e6cabc73ae1b7bc3a9.jpg_380x240.jpg'
+      }, {
+        title: '2019年TeamSII经典公演cut嗨翻除夕夜！',
+        from: 'B',
+        url: '42678982',
+        img: 'https//i1.hdslb.com/bfs/archive/c0aa89ab2aa46584f86e5fec37f71adad8f7b780.png_380x240.png'
       }]
     }
   ]

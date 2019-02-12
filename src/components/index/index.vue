@@ -5,13 +5,28 @@
       <div class="slogan">{{ slogan }}</div>
     </div>
     <div class="block">
-
+      <div class="members">
+        <div class="member" v-for="m in memberDataList" :key="m.name">
+          <div class="photo" :style="`background-image:url(${m.photo})`">
+            <div class="cover"></div>
+          </div>
+          <div class="name">{{m.name}}</div>
+          <div class="accounts">
+            <a :href="m.weibo" target="_blank" class="favicon favicon-weibo" :class="{'disable':!m.weibo}"></a>
+            <a :href="m.bilibili" target="_blank" class="favicon favicon-bilibili" :class="{'disable':!m.bilibili}"></a>
+            <a :href="m.douyin" target="_blank" class="favicon favicon-douyin" :class="{'disable':!m.douyin}"></a>
+            <a :href="m.changba" target="_blank" class="favicon favicon-changba" :class="{'disable':!m.changba}"></a>
+            <a :href="m.miaopai" target="_blank" class="favicon favicon-miaopai" :class="{'disable':!m.miaopai}"></a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
   import WordCloud from 'components/plugin/highchart-wordcloud'
+  import {memberData} from 'api/memberData'
 
   export default {
     name: 'Index',
@@ -37,7 +52,8 @@
           tooltip: {
             enabled: false
           }
-        }
+        },
+        memberDataList: memberData
       }
     },
     methods: {
@@ -63,6 +79,24 @@
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
+.favicon
+  background-repeat no-repeat
+  background-position center center
+  background-size cover
+  &.disable
+    filter grayscale(1)
+    cursor not-allowed
+    pointer-events none
+.favicon-weibo
+  background-image url('https://weibo.com/favicon.ico')
+.favicon-bilibili
+  background-image url('https://www.bilibili.com/favicon.ico')
+.favicon-douyin
+  background-image url('https://www.douyin.com/favicon.ico')
+.favicon-changba
+  background-image url('http://changba.com/favicon.ico')
+.favicon-miaopai
+  background-image url('https://www.miaopai.com/favicon.ico')
 
 #wordcloud-container
   height 400px
@@ -75,4 +109,77 @@
   color #87cefa
   font-family sans-serif
   font-weight 600
+
+.members
+  display flex
+  flex-wrap wrap
+  justify-content space-between
+  align-content space-between
+  .member
+    .name
+      text-align center
+    .photo
+      height 160px
+      background-repeat no-repeat
+      background-position center center
+      background-size contain 
+      .cover        
+        background-image url('http://www.snh48.com/images/member/zx5_def_s.png')
+        background-repeat no-repeat
+        background-position center center
+        background-size contain 
+        width 100%
+        height 100%
+    .accounts
+      width 60%
+      margin 0 auto
+      display flex
+      justify-content space-around
+      .favicon
+        flex-grow 0
+        flex-shrink 1
+@media screen and (min-width 1366px)
+  .favicon
+    width 16px
+    height 16px
+  .members
+    .member
+      flex 0 0 20%
+      margin-bottom 20px
+    .name
+      font-size 24px
+      margin 10px auto
+@media screen and (max-width 1366px)
+  .favicon
+    width 16px
+    height 16px
+  .members
+    .name
+      font-size 20px
+      margin 8px auto
+    .member
+      flex 0 0 25%      
+      margin-bottom 15px
+@media screen and (max-width 700px)
+  .favicon
+    width 16px
+    height 16px
+  .members
+    .name
+      font-size 16px
+      margin 6px auto
+    .member
+      flex 0 0 33%      
+      margin-bottom 10px
+@media screen and (max-width 540px)
+  .favicon
+    width 16px
+    height 16px
+  .members
+    .name
+      font-size 12px
+      margin 4px auto
+    .member
+      flex 0 0 50%
+      margin-bottom 5px
 </style>

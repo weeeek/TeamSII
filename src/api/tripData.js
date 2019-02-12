@@ -4,17 +4,29 @@ export const tripData = [{
     to: '2019'
   },
   items: [{
-    nameMonth: '2月3日',
-    title: '2019重庆卫视春节联欢晚会',
-    description: '出席成员：SNH48 7senses',
-    typeClass: 'dot-green',
+    nameMonth: '2月23日 14:00',
+    title: '《重生计划》第11场',
+    description: '出席成员：',
+    typeClass: 'dot-blue',
     url: ''
   }, {
-    nameMonth: '2月3日',
-    title: '2019安徽卫视春节联欢晚会',
-    description: '出席成员：SNH48 7senses',
-    typeClass: 'dot-green',
+    nameMonth: '2月15日 19:30',
+    title: '《重生计划》第十场',
+    description: '出席成员：',
+    typeClass: 'dot-blue',
     url: ''
+  }, {
+    nameMonth: '2月2日',
+    title: '2019重庆卫视春节联欢晚会',
+    description: 'SNH48 7senses 《China town》',
+    typeClass: 'dot-green',
+    url: 'https://www.bilibili.com/video/av42473149'
+  }, {
+    nameMonth: '2月2日',
+    title: '2019安徽卫视春节联欢晚会',
+    description: '出席成员：SNH48 7senses、BlueV',
+    typeClass: 'dot-green',
+    url: 'https://www.bilibili.com/video/av42470136'
   }, {
     nameMonth: '1月19日 17:30',
     title: 'SNH48 GROUP 第五届年度金曲大赏演唱会',

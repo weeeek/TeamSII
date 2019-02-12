@@ -6,7 +6,7 @@
     <div class="header-container">
       <div class="header-control">
         <h1 class="title">{{ title }}</h1>
-        <a href="https://weibo.com/p/100808ece29cf744f4d14b450f0c12999e767b/super_index" target="_blank" class="button blue brackets" title="功能完善中...">超话</a>
+        <a href="https://weibo.com/p/100808ece29cf744f4d14b450f0c12999e767b/super_index" target="_blank" class="button blue brackets" title="微博：SNH48 Team SII 超级话题">超话</a>
         <!-- <button class="button green skew" title="功能完善中...">签到</button> -->
       </div>
     </div>
@@ -78,6 +78,10 @@
         h1
           margin 4px 0
           font-size 16px
+        a
+          margin 0
+          padding 0 0.3em
+          line-height 25px
         button
           font-size 12px
           line-height 12px

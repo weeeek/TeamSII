@@ -1,3 +1,4 @@
+/* 各应援会摩点相关数据 */
 export const raiseConfig = [
   {
     name: '陈观慧',

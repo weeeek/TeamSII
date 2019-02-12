@@ -70,6 +70,9 @@ export default {
     let _this = this;
     // 1、创建访问数据库的对象
     // 2、使用事务处理
+    if(!openDatabase){
+      alert("websql并未列入html标准中，只有chrome、Safari等部分webkit浏览器支持，其他浏览器均不支持。请使用chrome浏览此页。")
+    }
     var db = openDatabase("TeamSII", "", "Team SII Database", 1024 * 100);
     /*
         openDatabase(),作用打开数据，如果数据库不存在，则会创建一个新的数据库。
