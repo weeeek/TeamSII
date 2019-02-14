@@ -10,6 +10,7 @@ import Music from '@/components/music/music-list'
 import Recommend from '@/components/recommend/recommend-list'
 import Search from '@/components/search/search'
 import Dynamic from '@/components/dynamic/dynamic-list'
+import Live from '@/components/live/live'
 
 Vue.use(Router)
 
@@ -77,6 +78,14 @@ export default new Router({
       path: '/music',
       name: 'music',
       component: Music,
+      meta: {
+        keepAlive: true
+      }
+    },
+    {
+      path: '/live',
+      name: 'live',
+      component: Live,
       meta: {
         keepAlive: true
       }

@@ -6,7 +6,12 @@ export const memberData = [{
   bilibili: 'https://www.bilibili.com/video/av13654626',
   douyin: '',
   changba: 'http://changba.com/u/150709347',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 3,
+  modian: {
+    enabled: true,
+    id: '1485197'
+  }
 }, {
   name: '陈俊羽',
   photo: 'http://www.snh48.com/images/member/mp_10206.jpg',
@@ -14,7 +19,12 @@ export const memberData = [{
   bilibili: '',
   douyin: '',
   changba: '',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 679448,
+  modian: {
+    enabled: true,
+    id: '1504145'
+  }
 }, {
   name: '陈思',
   photo: 'http://www.snh48.com/images/member/mp_10002.jpg',
@@ -22,7 +32,12 @@ export const memberData = [{
   bilibili: '',
   douyin: '',
   changba: '',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 37,
+  modian: {
+    enabled: true,
+    id: '988407'
+  }
 }, {
   name: '戴萌',
   photo: 'http://www.snh48.com/images/member/mp_10003.jpg',
@@ -30,7 +45,12 @@ export const memberData = [{
   bilibili: '',
   douyin: '',
   changba: '',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 38,
+  modian: {
+    enabled: true,
+    id: '991407'
+  }
 }, {
   name: '蒋芸',
   photo: 'http://www.snh48.com/images/member/mp_10004.jpg',
@@ -38,7 +58,12 @@ export const memberData = [{
   bilibili: 'https://space.bilibili.com/114866/',
   douyin: '',
   changba: 'http://changba.com/u/46716517',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 17,
+  modian: {
+    enabled: true,
+    id: '2620358'
+  }
 }, {
   name: '孔肖吟',
   photo: 'http://www.snh48.com/images/member/mp_10005.jpg',
@@ -46,7 +71,12 @@ export const memberData = [{
   bilibili: '',
   douyin: '',
   changba: '',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 19,
+  modian: {
+    enabled: true,
+    id: '986515'
+  }
 }, {
   name: '李宇琪',
   photo: 'http://www.snh48.com/images/member/mp_10006.jpg',
@@ -54,7 +84,12 @@ export const memberData = [{
   bilibili: 'https://space.bilibili.com/3882983/',
   douyin: '',
   changba: '',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 20,
+  modian: {
+    enabled: true,
+    id: '1186273'
+  }
 }, {
   name: '刘增艳',
   photo: 'http://www.snh48.com/images/member/mp_10125.jpg',
@@ -62,7 +97,12 @@ export const memberData = [{
   bilibili: 'https://space.bilibili.com/472626/',
   douyin: '',
   changba: '',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 63566,
+  modian: {
+    enabled: true,
+    id: '1171801'
+  }
 }, {
   name: '莫寒',
   photo: 'http://www.snh48.com/images/member/mp_10007.jpg',
@@ -70,7 +110,12 @@ export const memberData = [{
   bilibili: 'https://space.bilibili.com/323856/',
   douyin: '',
   changba: '',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 35,
+  modian: {
+    enabled: true,
+    id: '990040'
+  }
 }, {
   name: '钱蓓婷',
   photo: 'http://www.snh48.com/images/member/mp_10008.jpg',
@@ -78,7 +123,12 @@ export const memberData = [{
   bilibili: 'https://space.bilibili.com/22062404/',
   douyin: '572856432',
   changba: '',
-  miaopai: 'https://www.miaopai.com/u/paike_f77xpyubxr'
+  miaopai: 'https://www.miaopai.com/u/paike_f77xpyubxr',
+  pocket48: 36,
+  modian: {
+    enabled: true,
+    id: '1081356'
+  }
 }, {
   name: '邱欣怡',
   photo: 'http://www.snh48.com/images/member/mp_10009.jpg',
@@ -86,7 +136,12 @@ export const memberData = [{
   bilibili: '',
   douyin: '',
   changba: '',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 40,
+  modian: {
+    enabled: true,
+    id: '1078296'
+  }
 }, {
   name: '孙芮',
   photo: 'http://www.snh48.com/images/member/mp_10010.jpg',
@@ -94,7 +149,12 @@ export const memberData = [{
   bilibili: 'https://space.bilibili.com/11777755/',
   douyin: '',
   changba: '',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 8,
+  modian: {
+    enabled: true,
+    id: '1086367'
+  }
 }, {
   name: '邵雪聪',
   photo: 'http://www.snh48.com/images/member/mp_10086.jpg',
@@ -102,7 +162,12 @@ export const memberData = [{
   bilibili: 'https://space.bilibili.com/18736885/',
   douyin: '',
   changba: '',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 6737,
+  modian: {
+    enabled: true,
+    id: '987799'
+  }
 }, {
   name: '温晶婕',
   photo: 'http://www.snh48.com/images/member/mp_10012.jpg',
@@ -110,7 +175,12 @@ export const memberData = [{
   bilibili: '',
   douyin: '',
   changba: '',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 11,
+  modian: {
+    enabled: true,
+    id: '1085711'
+  }
 }, {
   name: '吴哲晗',
   photo: 'http://www.snh48.com/images/member/mp_10013.jpg',
@@ -118,7 +188,12 @@ export const memberData = [{
   bilibili: 'https://space.bilibili.com/299303884/',
   douyin: '',
   changeba: 'http://changba.com/u/119484593',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 39,
+  modian: {
+    enabled: true,
+    id: '1073349'
+  }
 }, {
   name: '徐晨辰',
   photo: 'http://www.snh48.com/images/member/mp_10014.jpg',
@@ -126,7 +201,12 @@ export const memberData = [{
   bilibili: '',
   douyin: '',
   changba: 'http://changba.com/u/99463480',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 18,
+  modian: {
+    enabled: true,
+    id: '1079154'
+  }
 }, {
   name: '许佳琪',
   photo: 'http://www.snh48.com/images/member/mp_10015.jpg',
@@ -134,7 +214,12 @@ export const memberData = [{
   bilibili: 'https://space.bilibili.com/18873979/',
   douyin: '',
   changba: '',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 21,
+  modian: {
+    enabled: true,
+    id: '1067442'
+  }
 }, {
   name: '徐伊人',
   photo: 'http://www.snh48.com/images/member/mp_10069.jpg',
@@ -142,7 +227,12 @@ export const memberData = [{
   bilibili: 'https://space.bilibili.com/14801692/',
   douyin: '',
   changba: '',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 43,
+  modian: {
+    enabled: true,
+    id: '1189199'
+  }
 }, {
   name: '徐子轩',
   photo: 'http://www.snh48.com/images/member/mp_10016.jpg',
@@ -150,7 +240,12 @@ export const memberData = [{
   bilibili: 'https://space.bilibili.com/1846928/',
   douyin: '',
   changba: '',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 14,
+  modian: {
+    enabled: true,
+    id: '1105967'
+  }
 }, {
   name: '袁丹妮',
   photo: 'http://www.snh48.com/images/member/mp_10073.jpg',
@@ -158,7 +253,12 @@ export const memberData = [{
   bilibili: '',
   douyin: '',
   changba: '',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 67,
+  modian: {
+    enabled: true,
+    id: '1156063'
+  }
 }, {
   name: '杨令仪',
   photo: 'http://www.snh48.com/images/member/mp_10193.jpg',
@@ -166,7 +266,12 @@ export const memberData = [{
   bilibili: '',
   douyin: '',
   changba: '',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 677401,
+  modian: {
+    enabled: true,
+    id: '1676139'
+  }
 }, {
   name: '袁雨桢',
   photo: 'http://www.snh48.com/images/member/mp_10017.jpg',
@@ -174,7 +279,12 @@ export const memberData = [{
   bilibili: 'https://space.bilibili.com/213790489/',
   douyin: '',
   changba: 'http://changba.com/u/58705105',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 5,
+  modian: {
+    enabled: true,
+    id: '1095343'
+  }
 }, {
   name: '朱小丹',
   photo: 'http://www.snh48.com/images/member/mp_10197.jpg',
@@ -182,7 +292,12 @@ export const memberData = [{
   bilibili: '',
   douyin: '',
   changba: '',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 677405,
+  modian: {
+    enabled: true,
+    id: '1796555'
+  }
 }, {
   name: '张语格',
   photo: 'http://www.snh48.com/images/member/mp_10019.jpg',
@@ -190,7 +305,12 @@ export const memberData = [{
   bilibili: '',
   douyin: '',
   changba: '',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 1,
+  modian: {
+    enabled: true,
+    id: '1157969'
+  }
 }, {
   name: '赵晔',
   photo: 'http://www.snh48.com/images/member/mp_10077.jpg',
@@ -198,5 +318,36 @@ export const memberData = [{
   bilibili: 'https://space.bilibili.com/2310475/',
   douyin: '',
   changba: '',
-  miaopai: ''
+  miaopai: '',
+  pocket48: 6429,
+  modian: {
+    enabled: true,
+    id: '1093167'
+  }
+}, {
+  name: '吕一',
+  photo: 'http://www.snh48.com/images/member/mp_10153.jpg',
+  weibo: 'http://weibo.com/u/6021143413',
+  bilibili: 'https://space.bilibili.com/11399736',
+  douyin: '',
+  changba: '',
+  miaopai: '',
+  pocket48: 399631,
+  modian: {
+    enabled: true,
+    id: '1082202'
+  }
+}, {
+  name: '冯晓菲',
+  photo: 'http://www.snh48.com/images/member/mp_10082.jpg',
+  weibo: 'https://weibo.com/u/5461287018',
+  bilibili: '',
+  douyin: '',
+  changba: '',
+  miaopai: '',
+  pocket48: 6432,
+  modian: {
+    enabled: true,
+    id: '1170704'
+  }
 }]

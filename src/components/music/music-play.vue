@@ -36,7 +36,7 @@
           <scroll class="middle-r" ref="lyricList" :data="currentLyric && currentLyric.lines">
             <div class="lyric-wrapper">
               <div v-if="currentLyric">
-                <p ref="lyricLine" class="text" :class="{'current': currentLineNum ===index}" v-for="(line,index) in currentLyric.lines" :key="index">{{line.txt}}</p>
+                <p ref="lyricLine" class="text" :class="{'current': currentLineNum ===index}" v-for="(line,index) in currentLyric.lines" :key="index" v-html="line.txt"></p>
               </div>
               <div class="pure-music" v-show="isPureMusic">
                 <p>{{pureMusicLyric}}</p>
@@ -700,20 +700,15 @@
       .middle
         display flex
         width 100%
-        height calc(100% - 80px - 180px)
-        margin-top 40px
+        height calc(100% - 80px - 180px)        
         white-space nowrap
         justify-content center
         .middle-l
-          flex 0 0 600px
+          padding-top 50px
           vertical-align top
           .cd-wrapper
             box-sizing border-box
             .cd
-              // width 400px
-              // height 400px
-              width 600px
-              height 600px
               margin 0 auto
               border-radius 50%
               .image
@@ -744,7 +739,6 @@
               font-size $font-size-medium
               color $color-text-l
         .middle-r
-          flex 0 0 600px
           vertical-align top
           overflow hidden
           .lyric-wrapper
@@ -896,4 +890,34 @@
           position absolute
           left 4px
           top -1px
+@media screen and (min-width 1200px)
+  .middle-l
+    flex 0 0 50%
+    .cd-wrapper
+      .cd        
+        width 600px
+        height 600px
+  .middle-r
+    flex 0 0 50%
+@media screen and (max-width 1200px) and (min-width 1000px)
+  .middle-l
+    flex 0 0 50%
+    .cd-wrapper
+      .cd        
+        width 500px
+        height 500px
+  .middle-r
+    flex 0 0 50%
+    
+@media screen and (max-width 1000px)
+  .middle
+    flex-direction column
+    .middle-l
+      flex 0 0 400px
+      .cd-wrapper
+        .cd        
+          width 400px
+          height 400px
+    .middle-r
+      flex 0 0 50%
 </style>

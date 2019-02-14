@@ -5,8 +5,8 @@ import { getUid } from 'common/js/uid'
 
 const debug = process.env.NODE_ENV !== 'production'
 
-export function getLyric (mid) {
-  const url = debug ? '/api/lyric' : 'https://ustbhuangyi.com/music/api/lyric'
+export function getLyric (mid, fn) {
+  const url = debug ? '/api/lyric' : 'http://ustbhuangyi.com/music/api/lyric'
 
   const data = Object.assign({}, commonParams, {
     songmid: mid,
@@ -15,10 +15,14 @@ export function getLyric (mid) {
     needNewCode: 0,
     categoryId: 10000000,
     pcachetime: +new Date(),
-    format: 'json'
+    format: 'jsonp'
   })
 
   return axios.get(url, {
+    headers: {
+      referer: 'https://c.y.qq.com/',
+      host: 'c.y.qq.com'
+    },
     params: data
   }).then((res) => {
     return Promise.resolve(res.data)

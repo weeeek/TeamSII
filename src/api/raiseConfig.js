@@ -170,11 +170,5 @@ export const raiseConfig = [
     id: '1093167',
     line: 3,
     enabled: true
-  },
-  {
-    name: 'TeamSII',
-    id: '2112648',
-    line: 0,
-    enabled: new Date() > new Date('2019-07-27') && new Date() < new Date('2020-01-11')
   }
 ]

@@ -35,6 +35,11 @@
         <span class="tab-link">行程</span>
       </router-link>
     </keep-alive>
+    <!-- <keep-alive>
+      <router-link tag="div" class="tab-item" to="/live">
+        <span class="tab-link">直播</span>
+      </router-link>
+    </keep-alive> -->
     <keep-alive>
       <router-link tag="div" class="tab-item" to="/raise">
         <span class="tab-link">集资</span>
