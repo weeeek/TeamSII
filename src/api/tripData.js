@@ -12,9 +12,9 @@ export const tripData = [{
   }, {
     nameMonth: '2月15日 19:30',
     title: '《重生计划》第十场',
-    description: '出席成员：',
+    description: '出席成员：陈俊羽，朱小丹，陈观慧，戴萌，莫寒，钱蓓婷，张语格，李宇琪，吴哲晗，许佳琪，徐晨辰，蒋芸，孙芮，温晶婕，邵雪聪，袁丹妮，刘增艳',
     typeClass: 'dot-blue',
-    url: ''
+    url: 'https://www.bilibili.com/video/av43695452'
   }, {
     nameMonth: '2月2日',
     title: '2019重庆卫视春节联欢晚会',

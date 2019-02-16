@@ -29,7 +29,7 @@ export const memberData = [{
   name: '陈思',
   photo: 'http://www.snh48.com/images/member/mp_10002.jpg',
   weibo: 'http://weibo.com/u/3050742117',
-  bilibili: '',
+  bilibili: 'https://space.bilibili.com/19383319/',
   douyin: '',
   changba: '',
   miaopai: '',

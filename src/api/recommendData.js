@@ -13,9 +13,9 @@ export const recommendConfig = {
         av: '40341728',
         img: 'https://i1.hdslb.com/bfs/archive/10b231f5be69b941f6de44d0d53e106943e3cc1c.jpg_380x240.jpg'
       }, {
-        title: '《重生计划》首演',
+        title: '《重生计划》第四场',
         from: 'B',
-        av: '36605536',
+        av: '38690294',
         img: 'https://i0.hdslb.com/bfs/archive/42eaf0927d475a6e3cef17808dc196bcb01f775d.png_380x240.png'
       }, {
         title: 'SNH48出道4周年纪念公演',

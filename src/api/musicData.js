@@ -351,7 +351,13 @@ export const qqMusicConfig = {
       title: '让梦想闪耀',
       enabled: false,
       albumids: [''],
-      songs: []
+      songs: [{
+        image: '//www.snh48.com/images/show/sy_logo.jpg',
+        id: 102875263,
+        mid: '002AjuQF3ixG8b',
+        name: '让梦想闪耀',
+        interval: 295
+      }]
     }, {
       title: '勇气重生',
       enabled: false,
@@ -366,12 +372,24 @@ export const qqMusicConfig = {
       title: '永恒之光',
       enabled: false,
       albumids: [''],
-      songs: []
+      songs: [{
+        image: '//www.snh48.com/images/show/ts_logo.jpg',
+        id: 5205169,
+        mid: '001Fsjec2lCO5m',
+        name: '永恒之光',
+        interval: 362
+      }]
     }, {
       title: '最后的钟声响起',
       enabled: false,
       albumids: [''],
-      songs: []
+      songs: [{
+        image: '//www.snh48.com/images/show/zs_logo_n.jpg',
+        id: 102328672,
+        mid: '000bbjnr00GNSi',
+        name: '最后的钟声响起',
+        interval: 226
+      }]
     }]
   }, {
     typeName: '演唱会live',
