@@ -10,6 +10,12 @@ export const tripData = [{
     typeClass: 'dot-blue',
     url: ''
   }, {
+    nameMonth: '2月19日',
+    title: '安徽卫视元宵晚会 《请回答》',
+    description: 'SNH48 BlueV',
+    typeClass: 'dot-Green',
+    url: ''
+  }, {
     nameMonth: '2月15日 19:30',
     title: '《重生计划》第十场',
     description: '出席成员：陈俊羽，朱小丹，陈观慧，戴萌，莫寒，钱蓓婷，张语格，李宇琪，吴哲晗，许佳琪，徐晨辰，蒋芸，孙芮，温晶婕，邵雪聪，袁丹妮，刘增艳',

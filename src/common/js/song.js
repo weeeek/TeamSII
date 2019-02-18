@@ -66,7 +66,7 @@ export function createSong (musicData) {
     name: musicData.name,
     album: musicData.albumname || 'SNH48 Team SII',
     duration: musicData.interval || 200,
-    image: musicData.image || (musicData.albummid ? `https://y.gtimg.cn/music/photo_new/T002R300x300M000${musicData.albummid}.jpg?max_age=2592000` : `https://weeeek.github.io/TeamSII/dist/static/images/flag.jpg`),
+    image: musicData.image || (musicData.albummid ? { url: `https://y.gtimg.cn/music/photo_new/T002R300x300M000${musicData.albummid}.jpg?max_age=2592000`, left: '50%', right: '50%' } : { url: `https://weeeek.github.io/TeamSII/dist/static/images/flag.jpg`, left: '50%', right: '50%' }),
     url: musicData.url
   })
 }
