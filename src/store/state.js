@@ -11,7 +11,7 @@ const state = {
   // 全屏
   fullScreen: false,
   // 音量
-  volume: 50,
+  volume: 0.5,
   // 播放列表
   playlist: [],
   // 顺序列表

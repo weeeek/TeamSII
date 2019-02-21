@@ -82,8 +82,8 @@
     box-shadow 0 1px 1px rgba(0,0,0,0.15)
     background-color #FFF
     display flex
-    height 20px
-    line-height 20px
+    height 22px
+    line-height 22px
     font-size $font-size-medium4
     flex-direction row
     .tab-item

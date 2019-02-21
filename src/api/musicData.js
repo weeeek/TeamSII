@@ -581,7 +581,7 @@ export const qqMusicConfig = {
         interval: 269
       }, {
         image: { url: 'https://gss3.bdstatic.com/-Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=39f9969a15dfa9ece9235e4503b99c66/cf1b9d16fdfaaf5138f47539885494eef01f7a25.jpg', left: '50%', right: '50%' },
-        id: 4995579,
+        id: 4995578,
         mid: '0028xylO1xarrC',
         name: '石头剪刀布（伴奏）',
         interval: 259

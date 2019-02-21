@@ -4,6 +4,18 @@ export const tripData = [{
     to: '2019'
   },
   items: [{
+    nameMonth: '3月3日 14:00',
+    title: '《重生计划》第13场，陈观慧生日公演',
+    description: '出席成员：陈观慧',
+    typeClass: 'dot-blue',
+    url: ''
+  }, {
+    nameMonth: '3月2日 14:00',
+    title: '《重生计划》第12场',
+    description: '出席成员：',
+    typeClass: 'dot-blue',
+    url: ''
+  }, {
     nameMonth: '2月23日 14:00',
     title: '《重生计划》第11场',
     description: '出席成员：',
@@ -11,10 +23,10 @@ export const tripData = [{
     url: ''
   }, {
     nameMonth: '2月19日',
-    title: '安徽卫视元宵晚会 《请回答》',
-    description: 'SNH48 BlueV',
+    title: '安徽卫视元宵晚会',
+    description: '7SENSES 《China Town 唐人街》，BlueV 《Be My Love 请回答》',
     typeClass: 'dot-Green',
-    url: ''
+    url: 'https://www.bilibili.com/video/av44113215'
   }, {
     nameMonth: '2月15日 19:30',
     title: '《重生计划》第十场',

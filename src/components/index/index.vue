@@ -105,7 +105,6 @@
 
 .slogan
   text-align center
-  font-size 25px
   color #87cefa
   font-family sans-serif
   font-weight 600
@@ -131,7 +130,6 @@
         width 100%
         height 100%
     .accounts
-      width 60%
       margin 0 auto
       display flex
       justify-content space-around
@@ -139,6 +137,8 @@
         flex-grow 0
         flex-shrink 1
 @media screen and (min-width 1366px)
+  .slogan  
+    font-size 24px
   .favicon
     width 16px
     height 16px
@@ -149,7 +149,11 @@
     .name
       font-size 24px
       margin 10px auto
+    .accounts
+      width 60%
 @media screen and (max-width 1366px)
+  .slogan  
+    font-size 20px
   .favicon
     width 16px
     height 16px
@@ -160,7 +164,11 @@
     .member
       flex 0 0 25%      
       margin-bottom 15px
+    .accounts
+      width 65%
 @media screen and (max-width 700px)
+  .slogan  
+    font-size 16px
   .favicon
     width 16px
     height 16px
@@ -171,7 +179,11 @@
     .member
       flex 0 0 33%      
       margin-bottom 10px
+    .accounts
+      width 70%
 @media screen and (max-width 540px)
+  .slogan  
+    font-size 12px
   .favicon
     width 16px
     height 16px
@@ -182,4 +194,6 @@
     .member
       flex 0 0 50%
       margin-bottom 5px
+    .accounts
+      width 75%
 </style>

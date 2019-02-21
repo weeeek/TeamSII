@@ -109,8 +109,7 @@
       </div>
     </transition>
     <playlist ref="playlist"></playlist>
-    <audio ref="audio" @playing="ready" @error="error" @timeupdate="updateTime" 
-      volume="0.3" @ended="end" @pause="paused"></audio>
+    <audio ref="audio" @playing="ready" @error="error" @timeupdate="updateTime" @ended="end" @pause="paused"></audio>
     <!-- <audio ref="audio" @loadstart="loadstart" @playing="ready" @error="error" @timeupdate="updateTime" 
       volume="0.3" @ended="end" @pause="paused"></audio> -->
   </div>
@@ -162,8 +161,7 @@
         currentShow: 'cd',
         playingLyric: '',
         isPureMusic: false,
-        pureMusicLyric: '',
-        volume:50
+        pureMusicLyric: ''
       }
     },
     computed: {
@@ -189,6 +187,7 @@
         return this.currentTime / this.currentSong.duration
       },
       ...mapGetters([
+        'volume',
         'currentIndex',
         'fullScreen',
         'playing'
@@ -198,7 +197,7 @@
       this.touch = {}
     },
     mounted () {
-      this.$refs.audio.volume = 0.3
+      this.$refs.audio.volume = this.volume
       // this.analys()
     },
     methods: {
