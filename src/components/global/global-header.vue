@@ -34,8 +34,7 @@
       background-color white
     .logo
       position absolute
-      // background-image url('common/image/flag.jpg')
-      background-image url('/TeamSII/dist/static/images/flag.jpg')    
+      background-image url('~common/image/flag.jpg')
   @media screen and (min-width 1366px)
     .global-header
       height 220px
