@@ -616,13 +616,13 @@ export const qqMusicConfig = {
         image: { url: '//newsimg.snh48.com/2013/0503/20130503101242672.jpg', left: '50%', right: '50%' },
         id: 4993508,
         mid: '001U9MfJ2Iq1e2',
-        name: '激流之战',
+        name: '激流之战（伴奏）',
         interval: 288
       }, {
         image: { url: '//img3.a0bi.com/upload/ttq/20160627/1467002775843.jpg', left: '50%', right: '50%' },
         id: 4993507,
         mid: '002cRUUA3faf3x',
-        name: '化作樱花树',
+        name: '化作樱花树（伴奏）',
         interval: 332
       }]
     }]

@@ -46,7 +46,10 @@ export default {
   @import '~common/stylus/animation'
 
   #app
+    margin-right calc(100% - 100vw)
     background-image url('common/image/bg.jpg')
+    .container
+      height 100%
   @media screen and (min-width 1366px)
     #app
       height 100%      

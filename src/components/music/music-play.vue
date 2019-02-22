@@ -8,7 +8,7 @@
     >
       <div class="normal-player" v-show="fullScreen">
         <div class="background">
-          <img width="100%" height="100%" :src="currentSong.image.url">
+          <img width="100%" height="100%" v-if="currentSong" :src="currentSong.image.url">
         </div>
         <div class="top">
           <div class="back" @click="back">
@@ -25,7 +25,7 @@
           <div class="middle-l" ref="middleL">
             <div class="cd-wrapper" ref="cdWrapper">
               <div class="cd" ref="imageWrapper">                
-                <img ref="image" :class="cdCls" class="image" :src="currentSong.image.url" :style="`object-position:${currentSong.image.left} ${currentSong.image.right}`"/>
+                <img ref="image" :class="cdCls" class="image" v-if="currentSong" :src="currentSong.image.url" :style="`object-position:${currentSong.image.left} ${currentSong.image.right}`"/>
               </div>
             </div>
             <!-- <div class="playing-lyric-wrapper">
@@ -81,7 +81,7 @@
       <div class="mini-player" v-show="!fullScreen" @click="open">
         <div class="icon">
           <div class="imgWrapper" ref="miniWrapper">
-            <img ref="miniImage" :class="cdCls" width="40" height="40" :src="currentSong.image.url" :style="`object-position:${currentSong.image.left} ${currentSong.image.right}`"/>
+            <img ref="miniImage" :class="cdCls" width="40" height="40" v-if="currentSong" :src="currentSong.image.url" :style="`object-position:${currentSong.image.left} ${currentSong.image.right}`"/>
           </div>
         </div>
         <div class="text">
@@ -575,7 +575,7 @@
     },
     watch: {
       currentSong(newSong, oldSong) {
-        if (!newSong.id || !newSong.url || newSong.id === oldSong.id || !this.$refs.audio) {
+        if (!newSong || !newSong.id || !newSong.url || newSong.id === oldSong.id || !this.$refs.audio) {
           return
         }
         this.songReady = false
@@ -588,7 +588,7 @@
           this.playingLyric = ''
           this.currentLineNum = 0
         }
-        this.$refs.audio.src = newSong ? newSong.url : ''
+        this.$refs.audio.src = newSong.url
         this.$refs.audio.play()
         // 若歌曲 5s 未播放，则认为超时，修改状态确保可以切换歌曲。
         clearTimeout(this.timer)
@@ -701,7 +701,6 @@
               margin 0 auto
               border-radius 50%
               .image
-                object-fit cover
                 width 100%
                 height 100%
                 box-sizing border-box
@@ -887,6 +886,8 @@
       .cd        
         width 600px
         height 600px
+        .image          
+          object-fit contain
   .middle-r
     flex 0 0 50%
 @media screen and (max-width 1200px) and (min-width 1000px)
@@ -896,6 +897,8 @@
       .cd        
         width 500px
         height 500px
+        .image          
+          object-fit cover
   .middle-r
     flex 0 0 50%
     
