@@ -11,7 +11,7 @@ import Recommend from '@/components/recommend/recommend-list'
 import Search from '@/components/search/search'
 import Dynamic from '@/components/dynamic/dynamic-list'
 import Live from '@/components/live/live'
-// import EmojiFight from '@/components/game/emoji-fight'
+import EmojiFight from '@/components/game/emoji-fight'
 
 Vue.use(Router)
 
@@ -101,13 +101,13 @@ export default new Router({
       meta: {
         keepAlive: true
       }
+    },
+    {
+      path: '/emojifight',
+      component: EmojiFight,
+      meta: {
+        keepAlive: true
+      }
     }
-    // {
-    //   path: '/emojifight',
-    //   component: EmojiFight,
-    //   meta: {
-    //     keepAlive: true
-    //   }
-    // }
   ]
 })

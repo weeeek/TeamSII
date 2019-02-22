@@ -45,10 +45,6 @@
           </scroll>
         </div>
         <div class="bottom">
-          <!-- <div class="dot-wrapper">
-            <span class="dot" :class="{'active':currentShow==='cd'}"></span>
-            <span class="dot" :class="{'active':currentShow==='lyric'}"></span>
-          </div> -->
           <div class="progress-wrapper">
             <span class="time time-l">{{format(currentTime)}}</span>
             <div class="progress-bar-wrapper">
@@ -59,7 +55,6 @@
           </div>
           <div class="operators">
             <div class="icon i-left" @click="changeMode">
-              <!-- <jam-repeat v-if="iconMode === ''"> -->
               <i :class="iconMode"></i>
             </div>
             <div class="icon i-left" :class="disableCls">
@@ -67,8 +62,7 @@
             </div>
             <div class="icon i-center" :class="disableCls">
               <jam-play v-if="!playIcon" :fillColor="fillColor" @click="togglePlaying"/>
-              <jam-pause v-if="playIcon" :fillColor="fillColor" @click="togglePlaying"/>
-              <!-- <i class="needsclick" @click="togglePlaying" :class="playIcon"></i> -->
+              <jam-pause v-if="playIcon" :fillColor="fillColor" @click="togglePlaying"/>              
             </div>
             <div class="icon i-right" :class="disableCls">
               <jam-set-forward-circle @click="next" :fillColor="fillColor"/>
@@ -96,7 +90,6 @@
         </div>
         <div class="control">
           <progress-circle :radius="radius" :percent="percent">
-            <!-- <i @click.stop="togglePlaying" class="icon-mini" :class="miniIcon"></i> -->
             <div class="icon-mini">
               <jam-play :fillColor="fillColor" v-if="!miniIcon" @click.stop="togglePlaying"/>
               <jam-pause :fillColor="fillColor" v-if="miniIcon" @click.stop="togglePlaying"/>
@@ -109,9 +102,7 @@
       </div>
     </transition>
     <playlist ref="playlist"></playlist>
-    <audio ref="audio" @playing="ready" @error="error" @timeupdate="updateTime" @ended="end" @pause="paused"></audio>
-    <!-- <audio ref="audio" @loadstart="loadstart" @playing="ready" @error="error" @timeupdate="updateTime" 
-      volume="0.3" @ended="end" @pause="paused"></audio> -->
+    <audio ref="audio" @playing="ready" @error="error" @timeupdate="updateTime" @ended="end" @pause="paused" :volume="this.volume"></audio>
   </div>
 </template>
 
@@ -196,8 +187,7 @@
     created() {
       this.touch = {}
     },
-    mounted () {
-      this.$refs.audio.volume = this.volume
+    mounted () {      
       // this.analys()
     },
     methods: {
@@ -585,7 +575,7 @@
     },
     watch: {
       currentSong(newSong, oldSong) {
-        if (!newSong.id || !newSong.url || newSong.id === oldSong.id) {
+        if (!newSong.id || !newSong.url || newSong.id === oldSong.id || !this.$refs.audio) {
           return
         }
         this.songReady = false
@@ -598,7 +588,7 @@
           this.playingLyric = ''
           this.currentLineNum = 0
         }
-        this.$refs.audio.src = newSong.url
+        this.$refs.audio.src = newSong ? newSong.url : ''
         this.$refs.audio.play()
         // 若歌曲 5s 未播放，则认为超时，修改状态确保可以切换歌曲。
         clearTimeout(this.timer)
