@@ -5,22 +5,40 @@ export const tripData = [{
   },
   items: [{
     nameMonth: '3月3日 14:00',
-    title: '《重生计划》第13场，陈观慧生日公演',
-    description: '出席成员：陈观慧',
+    title: '《重生计划》第15场，“女团大战”对阵抽选',
+    description: '出席成员：',
     typeClass: 'dot-blue',
     url: ''
+  },{
+    nameMonth: '3月7日 19:30',
+    title: '《重生计划》第14场',
+    description: '出席成员：',
+    typeClass: 'dot-blue',
+    url: ''
+  },{
+    nameMonth: '3月3日 14:00',
+    title: '《重生计划》第13场，陈观慧生日公演',
+    description: '出席成员：陈观慧，陈思，陈俊羽，戴萌，蒋芸，莫寒，钱蓓婷，徐晨辰，许佳琪，吴哲晗，孙芮，孔肖吟，温晶婕，刘增艳，袁丹妮，李宇琪，张语格',
+    typeClass: 'dot-blue',
+    url: 'https://www.bilibili.com/video/av45245189'
   }, {
     nameMonth: '3月2日 14:00',
     title: '《重生计划》第12场',
-    description: '出席成员：',
+    description: '出席成员：陈观慧，陈思，陈俊羽，戴萌，蒋芸，莫寒，钱蓓婷，徐晨辰，许佳琪，吴哲晗，孙芮，孔肖吟，温晶婕，刘增艳，袁丹妮，李宇琪，张语格,安可曲：《第一只兔子》',
     typeClass: 'dot-blue',
-    url: ''
+    url: 'https://www.bilibili.com/video/av45128605'
+  },{
+    nameMonth: '2月27日',
+    title: '7SENSES 韩国 Champion Show',
+    description: '走出国门，首次登上韩国打榜舞台',
+    typeClass: 'dot-green',
+    url: 'https://www.bilibili.com/video/av44852049'
   }, {
     nameMonth: '2月23日 14:00',
     title: '《重生计划》第11场',
-    description: '出席成员：',
+    description: '出席成员：陈观慧，陈思，陈俊羽，蒋芸，莫寒，袁丹妮，吴哲晗，温晶婕，刘增艳，钱蓓婷，李宇琪，朱小丹，孙芮,安可曲：《机尾云》',
     typeClass: 'dot-blue',
-    url: ''
+    url: 'https://www.bilibili.com/video/av44480456'
   }, {
     nameMonth: '2月19日',
     title: '安徽卫视元宵晚会',
