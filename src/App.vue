@@ -47,6 +47,7 @@ export default {
 
   #app
     margin-right calc(100% - 100vw)
+    width 100%
     background-image url('common/image/bg.jpg')
     .container
       height 100%

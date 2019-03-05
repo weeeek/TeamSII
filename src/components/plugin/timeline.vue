@@ -1,11 +1,11 @@
 <template>
   <section class="timeline">
-    <div class="wrapper-timeline" v-if="hasItems">
+    <div class="wrapper-timeline" v-if="queryTimelineItems.length > 0">
       <div
         class="wrapper-item"
-        v-for="(timelineContent, timelineIndex) in timelineItems"
+        v-for="(timelineContent, timelineIndex) in queryTimelineItems"
         :key="timelineIndex">
-        <div class="section-year">
+        <div class="section-year" v-if="timelineContent.items.length > 0">
           <p class="year">
             {{ timelineContent.year.to }}
           </p>
@@ -13,7 +13,7 @@
             {{ timelineContent.year.from }}
           </p>
         </div>
-        <section class="timeline-items">
+        <section class="timeline-items" v-if="timelineContent.items.length > 0">
           <a :href="getUrl(item.url)" target="_blank"
             class="item"
             v-for="(item, index) in timelineContent.items"
@@ -40,6 +40,15 @@ export default {
     },
     messageWhenNoItems: {
       type: String
+    },
+    query: {
+      type: String,
+      default: ''
+    }
+  },
+  data () {
+    return {
+      
     }
   },
   methods: {
@@ -51,9 +60,45 @@ export default {
       }
     }
   },
+  mounted () {
+
+  },
   computed: {
-    hasItems () {
-      return !!this.timelineItems.length
+    queryTimelineItems () {
+      console.log('origin', this.timelineItems[0].items)
+      let data = []
+      if (this.query) {
+        //关键字分割的关键字数组
+        let queryArr = this.query.trim().split(' ')
+        this.timelineItems.map((x, xindex)=>{
+          data.push({
+            year: x.year,
+            items: []
+          })
+          x.items.map((y)=>{
+            let index = 0
+            while (index < queryArr.length){
+              if (y.title.includes(queryArr[index]) || y.description.includes(queryArr[index])){
+                y.title = y.title.replace(queryArr[index], '<span class="keywords">' + queryArr[index] + '</span>')
+                y.description = y.description.replace(queryArr[index], '<span class="keywords">' + queryArr[index] + '</span>')
+                data[xindex].items.push(y)   
+              }
+              ++index
+            }
+          })
+        })
+      }
+      else{
+        data = this.timelineItems
+      }
+      console.log('timelineItems', this.timelineItems[0].items)
+      console.log('data', data[0].items)
+      return data
+    }
+  },
+  watch: {
+    query (oldValue, newValue) {
+      
     }
   }
 }
@@ -95,11 +140,15 @@ export default {
         margin 0
         padding 5px 0
         font-size 16px
-        font-weight 500
+        font-weight 800        
+        .keywords
+          background-color $color-team-sii
       .description-item
         font-weight 100
         margin 0
         line-height 1.4em
+        .keywords
+          background-color $color-team-sii
       .dot
         display block
         position absolute
