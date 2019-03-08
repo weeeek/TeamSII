@@ -68,7 +68,7 @@
       margin: 0 5px
       line-height: 18px
       background: $color-bg
-      color: $color-text-ddd
+      color: $color-black-dd
       font-size: $font-size-medium
       outline: 0
       &::placeholder

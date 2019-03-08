@@ -21,7 +21,7 @@
             <span class="dot" :class="item.typeClass"></span>
             <h3 class="month-item">{{ item.nameMonth }}</h3>
             <h4 class="title-item" v-html="item.title"></h4>
-            <p class="description-item" v-html="item.description"></p>
+            <p class="description-item" v-html="splitDescription(item.description)"></p>
           </a>
         </section>
       </div>
@@ -58,14 +58,16 @@ export default {
       } else {
         return url
       }
-    }
+    },
+    splitDescription (str) {
+      return str.split(',').reverse().join('<br>')
+    },
   },
   mounted () {
 
   },
   computed: {
     queryTimelineItems () {
-      console.log('origin', this.timelineItems[0].items)
       let data = []
       if (this.query) {
         //关键字分割的关键字数组
@@ -79,9 +81,10 @@ export default {
             let index = 0
             while (index < queryArr.length){
               if (y.title.includes(queryArr[index]) || y.description.includes(queryArr[index])){
-                y.title = y.title.replace(queryArr[index], '<span class="keywords">' + queryArr[index] + '</span>')
-                y.description = y.description.replace(queryArr[index], '<span class="keywords">' + queryArr[index] + '</span>')
-                data[xindex].items.push(y)   
+                let target = Object.assign({}, y)
+                target.title = target.title.replace(queryArr[index], '<span class="keywords">' + queryArr[index] + '</span>')
+                target.description = target.description.replace(queryArr[index], '<span class="keywords">' + queryArr[index] + '</span>')
+                data[xindex].items.push(target)   
               }
               ++index
             }
@@ -91,8 +94,6 @@ export default {
       else{
         data = this.timelineItems
       }
-      console.log('timelineItems', this.timelineItems[0].items)
-      console.log('data', data[0].items)
       return data
     }
   },
@@ -140,15 +141,11 @@ export default {
         margin 0
         padding 5px 0
         font-size 16px
-        font-weight 800        
-        .keywords
-          background-color $color-team-sii
+        font-weight 800
       .description-item
         font-weight 100
         margin 0
         line-height 1.4em
-        .keywords
-          background-color $color-team-sii
       .dot
         display block
         position absolute

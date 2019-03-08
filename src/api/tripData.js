@@ -8,19 +8,19 @@ export const tripData = [{
     title: '《重生计划》第16场，李宇琪生日公演',
     description: '出席成员：李宇琪',
     typeClass: 'dot-blue',
-    url: ''
+    url: 'http://www.snh48.com/ticket.php'
   }, {
     nameMonth: '3月9日 14:00',
     title: '《重生计划》第15场，“女团大战”对阵抽选',
     description: '出席成员：',
     typeClass: 'dot-blue',
-    url: ''
+    url: 'http://www.snh48.com/ticket.php'
   }, {
     nameMonth: '3月7日 19:30',
     title: '《重生计划》第14场',
-    description: '出席成员：',
+    description: '出席成员：陈观慧，陈俊羽，陈思，戴萌，蒋芸，孔肖吟，李宇琪，刘增艳，莫寒，钱蓓婷，孙芮，邵雪聪，温晶婕，吴哲晗，徐晨辰，许佳琪，袁丹妮，张语格,安可曲：《女王殿下（Lay Down）》',
     typeClass: 'dot-blue',
-    url: ''
+    url: 'https://www.bilibili.com/video/av45618800'
   }, {
     nameMonth: '3月3日 14:00',
     title: '《重生计划》第13场，陈观慧生日公演',
@@ -30,7 +30,7 @@ export const tripData = [{
   }, {
     nameMonth: '3月2日 14:00',
     title: '《重生计划》第12场',
-    description: '出席成员：陈观慧，陈思，陈俊羽，戴萌，蒋芸，莫寒，钱蓓婷，徐晨辰，许佳琪，吴哲晗，孙芮，孔肖吟，温晶婕，刘增艳，袁丹妮，李宇琪，张语格,安可曲：《第一只兔子》'.split(',').reverse().join('<br>'),
+    description: '出席成员：陈观慧，陈思，陈俊羽，戴萌，蒋芸，莫寒，钱蓓婷，徐晨辰，许佳琪，吴哲晗，孙芮，孔肖吟，温晶婕，刘增艳，袁丹妮，李宇琪，张语格,安可曲：《第一只兔子》',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av45128605'
   }, {
@@ -42,7 +42,7 @@ export const tripData = [{
   }, {
     nameMonth: '2月23日 14:00',
     title: '《重生计划》第11场',
-    description: '出席成员：陈观慧，陈思，陈俊羽，蒋芸，莫寒，袁丹妮，吴哲晗，温晶婕，刘增艳，钱蓓婷，李宇琪，朱小丹，孙芮,安可曲：《机尾云》'.split(',').reverse().join('<br>'),
+    description: '出席成员：陈观慧，陈思，陈俊羽，蒋芸，莫寒，袁丹妮，吴哲晗，温晶婕，刘增艳，钱蓓婷，李宇琪，朱小丹，孙芮,安可曲：《机尾云》',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av44480456'
   }, {
@@ -72,7 +72,7 @@ export const tripData = [{
   }, {
     nameMonth: '1月19日 17:30',
     title: 'SNH48 GROUP 第五届年度金曲大赏演唱会',
-    description: '陈思 陈观慧 《梦中的婚礼》,许佳琪 《Don\'t Touch》, 孔肖吟 孙芮 《玛丽亚》,孙芮 《Monster》,蒋芸 《女王殿下》,冯晓菲 《黑夜女神》,莫寒 《荣誉勋章》,钱蓓婷 孔肖吟 《My Boy》,Team SII 《初日》,钱蓓婷 袁雨桢 张怀瑾《巧克力之吻》,张语格 孔肖吟 《9 to 9》,戴萌 《钢铁之翼》,吴哲晗 许佳琪《SPY》,戴萌 莫寒 《就差一点点》'.split(',').reverse().join('<br>'),
+    description: '陈思 陈观慧 《梦中的婚礼》,许佳琪 《Don\'t Touch》, 孔肖吟 孙芮 《玛丽亚》,孙芮 《Monster》,蒋芸 《女王殿下》,冯晓菲 《黑夜女神》,莫寒 《荣誉勋章》,钱蓓婷 孔肖吟 《My Boy》,Team SII 《初日》,钱蓓婷 袁雨桢 张怀瑾《巧克力之吻》,张语格 孔肖吟 《9 to 9》,戴萌 《钢铁之翼》,吴哲晗 许佳琪《SPY》,戴萌 莫寒 《就差一点点》',
     typeClass: 'dot-black',
     url: 'https://www.bilibili.com/av41180148'
   }, {
