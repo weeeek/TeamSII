@@ -10,11 +10,11 @@ export const tripData = [{
     typeClass: 'dot-blue',
     url: 'http://www.snh48.com/ticket.php'
   }, {
-    nameMonth: '3月9日 14:00',
-    title: '《重生计划》第15场，“女团大战”对阵抽选',
-    description: '出席成员：',
+    nameMonth: '3月9日 19:00',
+    title: '《重生计划》第15场，陈思生日公演，“女团大战”对阵抽选',
+    description: '出席成员：陈观慧，陈俊羽，陈思，戴萌，蒋芸，孔肖吟，李宇琪，刘增艳，莫寒，钱蓓婷，孙芮，邵雪聪，温晶婕，吴哲晗，徐晨辰，许佳琪，袁丹妮，朱小丹，张语格,对阵抽选结果：紫色（对阵Team NIII）',
     typeClass: 'dot-blue',
-    url: 'http://www.snh48.com/ticket.php'
+    url: 'https://www.bilibili.com/video/av45820127'
   }, {
     nameMonth: '3月7日 19:30',
     title: '《重生计划》第14场',

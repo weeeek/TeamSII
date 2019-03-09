@@ -89,6 +89,11 @@ export const recommendConfig = {
         from: 'L',
         url: '//so.tv.sohu.com/mts?box=1&wd=%E8%B4%B4%E8%BA%AB%E6%A0%A1%E8%8A%B1',
         img: '//itedou.com/Public/kindeditor/attached/image/20171013/20171013144953_63689.png'
+      }, {
+        title: '萌妹特攻队',
+        from: 'I',
+        url: 'v_19rqu4gll0',
+        img: '//www.studio48.cn/Uploads/2019-02-26/5c74bfb7037b9.jpg'
       }]
     }, {
       type: '舞台',

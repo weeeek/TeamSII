@@ -7,8 +7,11 @@
         </div>
         <div class="content">
           <a class="name text-ellipsis" target="_blank" :href="`https://y.qq.com/n/yqq/song/${song.mid}.html`">{{song.name}}</a>
-          <a class="play" href="javascript:void(0)" @click="selectItem(song, index)">
+          <a class="icon" href="javascript:void(0)" @click="selectItem(song, index)">
             <jam-play :fillColor="'#87cefa'" />
+          </a>
+          <a class="icon" :href="p.url" v-for="p in song.play" target="_blank" :title="`${p.type}演奏`" :key="p.url">
+            <jam-music-f :fillColor="'#87cefa'" />
           </a>
         </div>
       </li>
@@ -27,6 +30,14 @@
     methods: {
       selectItem (item, index) {
         this.$emit('select', item, index)
+      },
+      getTypeString (str) {
+        switch (str) {
+          case 'piano':
+            return '钢琴'
+          case 'guita':
+            return '吉他'
+        }
       }
     }
   }
@@ -66,7 +77,7 @@
           height 32px
           line-height 32px
           margin-right 1em
-        .play
+        .icon
           margin 4px 0
           height 24px
         .desc

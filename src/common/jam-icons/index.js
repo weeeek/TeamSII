@@ -7,6 +7,7 @@ import SetForwardCircle from 'common/jam-icons/set-forward-circle.vue'
 import UnorderedList from 'common/jam-icons/unordered-list.vue'
 import Delete from 'common/jam-icons/delete.vue'
 import Search from 'common/jam-icons/search.vue'
+import MusicF from 'common/jam-icons/music-f.vue'
 
 export default {
   install: function (Vue) {
@@ -19,5 +20,6 @@ export default {
     Vue.component('jam-unordered-list', UnorderedList)
     Vue.component('jam-delete', Delete)
     Vue.component('jam-search', Search)
+    Vue.component('jam-music-f', MusicF)
   }
 }
