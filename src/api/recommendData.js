@@ -88,22 +88,22 @@ export const recommendConfig = {
         title: '贴身校花',
         from: 'L',
         url: '//so.tv.sohu.com/mts?box=1&wd=%E8%B4%B4%E8%BA%AB%E6%A0%A1%E8%8A%B1',
-        img: '//itedou.com/Public/kindeditor/attached/image/20171013/20171013144953_63689.png'
+        img: 'http://itedou.com/Public/kindeditor/attached/image/20171013/20171013144953_63689.png'
       }, {
         title: '萌妹特攻队',
         from: 'I',
         url: 'v_19rqu4gll0',
-        img: '//www.studio48.cn/Uploads/2019-02-26/5c74bfb7037b9.jpg'
+        img: 'http://www.studio48.cn/Uploads/2019-02-26/5c74bfb7037b9.jpg'
       }, {
         title: '十全九美之真爱无双',
         from: 'I',
         url: 'v_19rranft0c',
-        img: '//www.studio48.cn/Uploads/2017-06-12/593e1f2cee0eb.jpg'
+        img: 'http://www.studio48.cn/Uploads/2017-06-12/593e1f2cee0eb.jpg'
       }, {
         title: '恋爱脱线时',
         from: 'Q',
         url: 'sdp001job770w57',
-        img: '//77fkxu.com1.z0.glb.clouddn.com/20170801/1501584082_80196.jpg'
+        img: 'http://77fkxu.com1.z0.glb.clouddn.com/20170801/1501584082_80196.jpg'
       }, {
         title: '芸汐传',
         from: 'I',
