@@ -4,6 +4,12 @@ export const tripData = [{
     to: '2019'
   },
   items: [{
+    nameMonth: '3月21日 19:00',
+    title: '《重生计划》第17场',
+    description: '出席成员：',
+    typeClass: 'dot-blue',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
     nameMonth: '3月17日 14:00',
     title: '《重生计划》第16场，李宇琪生日公演',
     description: '出席成员：李宇琪',

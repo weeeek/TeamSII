@@ -28,7 +28,7 @@ export default {
         case `B`:
           return `https://www.bilibili.com/video/av${videoinfo.av}`
         case `Q`:
-          return `http://v.qq.com`
+          return `https://v.qq.com/detail/s/${videoinfo.url}.html`
         case `S`:
           return `https://tv.sohu.com/v/`
         case `I`:

@@ -94,6 +94,21 @@ export const recommendConfig = {
         from: 'I',
         url: 'v_19rqu4gll0',
         img: '//www.studio48.cn/Uploads/2019-02-26/5c74bfb7037b9.jpg'
+      }, {
+        title: '十全九美之真爱无双',
+        from: 'I',
+        url: 'v_19rranft0c',
+        img: '//www.studio48.cn/Uploads/2017-06-12/593e1f2cee0eb.jpg'
+      }, {
+        title: '恋爱脱线时',
+        from: 'Q',
+        url: 'sdp001job770w57',
+        img: '//77fkxu.com1.z0.glb.clouddn.com/20170801/1501584082_80196.jpg'
+      }, {
+        title: '芸汐传',
+        from: 'I',
+        url: 'v_19rr0x6mik',
+        img: `~common/image/yunxizhuan.jpg`
       }]
     }, {
       type: '舞台',
