@@ -108,7 +108,7 @@ export const recommendConfig = {
         title: '芸汐传',
         from: 'I',
         url: 'v_19rr0x6mik',
-        img: `~common/image/yunxizhuan.jpg`
+        img: `//raw.githubusercontent.com/weeeek/TeamSII/master/src/common/image/yunxizhuan.jpg`
       }]
     }, {
       type: '舞台',
