@@ -45,6 +45,11 @@
         <span class="tab-link">集资</span>
       </router-link>
     </keep-alive>
+    <keep-alive>
+      <router-link tag="div" class="tab-item" to="/entertainment">
+        <span class="tab-link">赛事</span>
+      </router-link>
+    </keep-alive>
   </div>
 </template>
 
