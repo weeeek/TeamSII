@@ -1,12 +1,14 @@
 <template>
     <div class="block">
-      <p-k :data="burningDatas"></p-k>
+      <div class="group">
+        <p-k class="pk-group" :data="d" v-for="d in burningGroups" :key="d.group"></p-k>
+      </div>
     </div>
 </template>
 
 <script type="text/ecmascript-6">
-  import {burningData} from 'api/burningData'
-  import PK from 'components/plugin/pk'
+  import {burningGroup} from 'api/burningData'
+  import PK from 'components/plugin/pk2'
   
 
   export default {
@@ -17,15 +19,20 @@
     data () {
       return {
         title: '燃烧吧团魂',
-        burningDatas: burningData
+        burningGroups: burningGroup
       }
     }
   }
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
-  @import '~common/stylus/variable'
-  .team
-    width 200px
+  // @import '~common/stylus/variable'
+  // .team
+  //   width 200px
+  //   display flex
+  .group
     display flex
+    justify-content space-between
+    .pk-group
+      flex 0 0 18%
 </style>

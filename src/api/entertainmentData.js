@@ -12,7 +12,7 @@ export const entertainmentConfig = {
       img: 'http://wx4.sinaimg.cn/large/a04b2a1dgy1g11c7gbbprj20dw0dw0x5.jpg'
     }, {
       name: '国民美少女',
-      url: 'https://live.bilibili.com/1520214',
+      url: 'https://www.bilibili.com/video/av4227744',
       img: 'https://newsimg.48.cn/2016/0110/20160110103220972.png'
     }, {
       name: 'SNH48 第一届 偶像运动会',

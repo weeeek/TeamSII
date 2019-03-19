@@ -4,6 +4,18 @@ export const tripData = [{
     to: '2019'
   },
   items: [{
+    nameMonth: '3月30日 14:00',
+    title: '《重生计划》第18场',
+    description: '出席成员：',
+    typeClass: 'dot-blue',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
+    nameMonth: '3月24日',
+    title: '排球超级联赛全明星赛',
+    description: '莫寒，吴哲晗，孙芮，刘增艳，李宇琪，蒋芸，陈观慧，邵雪聪',
+    typeClass: 'dot-green',
+    url: ''
+  }, {
     nameMonth: '3月21日 19:00',
     title: '《重生计划》第17场',
     description: '出席成员：',
@@ -12,9 +24,9 @@ export const tripData = [{
   }, {
     nameMonth: '3月17日 14:00',
     title: '《重生计划》第16场，李宇琪生日公演',
-    description: '出席成员：李宇琪',
+    description: '出席成员：李宇琪，陈观慧，陈思，戴萌，蒋芸，孔肖吟，刘增艳，莫寒，孙芮，邵雪聪，温晶婕，吴哲晗，徐晨辰，许佳琪，袁丹妮，袁雨桢，朱小丹，张语格，以及出现在生祝弹幕的徐子轩和歌词里的钱蓓婷',
     typeClass: 'dot-blue',
-    url: 'http://www.snh48.com/ticket.php'
+    url: 'https://www.bilibili.com/video/av46568906'
   }, {
     nameMonth: '3月9日 19:00',
     title: '《重生计划》第15场，陈思生日公演，“女团大战”对阵抽选',

@@ -48,7 +48,7 @@ export default {
   #app
     margin-right calc(100% - 100vw)
     width 100%
-    background-image url('common/image/bg.jpg')
+    background-image url('/dist/static/images/bg.jpg')
     .container
       height 100%
   @media screen and (min-width 1366px)

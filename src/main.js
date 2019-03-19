@@ -11,6 +11,7 @@ import Highcharts from 'highcharts'
 import VueCollapse from 'vue2-collapse'
 // import VueJamIcons from 'vue-jam-icons'
 import VueJamIcons from 'common/jam-icons/index'
+import AnimateNumber from 'vue-animate-number'
 
 // 全局初始化
 import store from './store'
@@ -22,6 +23,7 @@ import store from './store'
 fastclick.attach(document.body)
 
 Vue.use(VueJamIcons)
+Vue.use(AnimateNumber)
 Vue.use(VueCollapse)
 Vue.use(VueHighcharts, { Highcharts })
 Vue.use(VueLazyload, {
