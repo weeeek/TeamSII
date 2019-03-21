@@ -138,6 +138,7 @@ export const recommendConfig = {
       }]
     }, {
       type: 'MV',
+      url: 'https://tieba.baidu.com/p/4813493970',
       list: [{
         title: '我的舞台',
         from: 'B',

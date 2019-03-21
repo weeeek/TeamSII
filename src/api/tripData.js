@@ -5,8 +5,8 @@ export const tripData = [{
   },
   items: [{
     nameMonth: '3月30日 14:00',
-    title: '《重生计划》第18场',
-    description: '出席成员：',
+    title: '《重生计划》第18场，蒋芸生日公演',
+    description: '出席成员：蒋芸',
     typeClass: 'dot-blue',
     url: 'http://www.snh48.com/ticket.php'
   }, {
@@ -21,6 +21,12 @@ export const tripData = [{
     description: '出席成员：',
     typeClass: 'dot-blue',
     url: 'http://www.snh48.com/ticket.php'
+  }, {
+    nameMonth: '3月17日',
+    title: 'SNH48 7SENSES Weekly China Now 中国女团来啦！',
+    description: '7SENSES 韩国 中华TV 综艺',
+    typeClass: 'dot-green',
+    url: 'https://www.bilibili.com/video/av46785127'
   }, {
     nameMonth: '3月17日 14:00',
     title: '《重生计划》第16场，李宇琪生日公演',

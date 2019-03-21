@@ -1,7 +1,7 @@
 <template>
   <div id="recommend-container">
     <div class="video-block"  v-for="item in videolist" :key="item.type">
-      <div class="video-type">{{ item.type }}</div>
+      <a class="video-type" :href="getUrl(item)" target="_blank">{{ item.type }}</a>
       <div class="video-list">
         <a target="_blank" :href="getVideoPlayUrl(v)" class="video-detail" v-for="v in item.list" :key="v.av">
           <div class="video-img">
@@ -36,6 +36,11 @@ export default {
         default:
           return videoinfo.url
       }
+    },
+    getUrl(obj){
+      if(obj.url)
+        return obj.url
+      return 'javascript:void(0)'
     }
   },
   data () {
