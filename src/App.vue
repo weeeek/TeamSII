@@ -9,6 +9,11 @@
       </keep-alive>
       <router-view v-if="!$route.meta.keepAlive"></router-view>
     </div>
+    <!-- <Live2d :modelData="mdata" :on-move="handleMove" :index="0"/> -->
+    <!-- modelData 属性为引入的模型文件路径，必须是在服务器上放置的文件。
+    on-move 属性为控制模型活动的重要入口函数，其返回一个live2dModel对象实例，用于实际控制模型活动
+    :width, :height  宽高，默认300
+    :index 多个live2d共存时必填属性，值为数字。默认值为0.。 -->
   </div>
 </template>
 
@@ -18,11 +23,13 @@ import GlobalHeader from 'components/global/global-header'
 import Tab from 'components/tab/tab'
 import MusicPlayer from 'components/music/music-play'
 
+
 export default {
   components: {
     GlobalHeader,
     Tab,
-    MusicPlayer
+    MusicPlayer,
+    //Live2d
   },
   computed: {
       ...mapGetters(['playlist'])
@@ -31,6 +38,50 @@ export default {
     return {
       musicBoxShow: false,
       currentMp3: '',
+      mdata: {
+        name: "Cat", // 模型名称
+        model: "api/hijiki/hijiki.moc", // 模型文件地址
+        textures: [
+          "api/hijiki/texture_00.png", // 材质素材地址
+        ]
+      }
+    }
+  },
+  methods: {
+    handleMove(liveModel){
+      liveModel.setParamFloat('PARAM_ANGLE_X',value);
+      /*
+      第一个参数: 为要控制的模型部件，名称与制作模型时命名的名称一致
+
+      扩展： 所以，如果你会制作live2d模型，你就可以自己命名这些名字，导出模型文件以后在这边调用就好了。
+
+      第二个参数: 是对应第一个参数所代表的部件的 值 。
+
+      这个值一般是0～1，-1～1，-30～30等等，可以自己试一下。其实就是头摆动的幅度啊，眨眼啊等等。
+
+      PARAM_ANGLE_X
+      PARAM_ANGLE_Y
+      PARAM_ANGLE_Z
+      PARAM_EYE_L_OPEN
+      PARAM_EYE_L_SMILE
+      PARAM_EYE_R_OPEN
+      PARAM_EYE_R_SMILE
+      PARAM_EYE_BALL_X
+      PARAM_EYE_BALL_Y
+      PARAM_BROW_L_Y
+      PARAM_BROW_R_Y
+      PARAM_BROW_L_X
+      PARAM_BROW_R_X
+      PARAM_BROW_L_ANGLE
+      PARAM_BROW_R_ANGLE
+      PARAM_MOUTH_FORM
+      PARAM_MOUTH_OPEN
+      PARAM_CHEEK
+      PARAM_BREATH
+      PARAM_HAIR_FRONT
+      PARAM_HAIR_SIDE
+      PARAM_HAIR_BACK
+      */
     }
   },
   created () {
