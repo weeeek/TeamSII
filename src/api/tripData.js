@@ -18,9 +18,9 @@ export const tripData = [{
   }, {
     nameMonth: '3月21日 19:00',
     title: '《重生计划》第17场',
-    description: '出席成员：',
+    description: 'MC1：最擅长的运动,MC2：有什么东西一直留着没舍得扔,MC3：控台随机放Unit曲，根据曲目人数抱在一起，输的人表演这首Unit,MC4：数数字，含有3和3的倍数做妖娆的动作,Lost：莫寒,Hode me tight：吴哲晗，孔肖吟,解语者：陈观慧，徐晨辰，李宇琪,最终回合：张语格，陈俊羽，陈思，蒋芸,无罪无我：温晶婕，莫寒，刘增艳,Somewhere：袁丹妮，戴萌，孙芮,安可曲《无尽的世界》',
     typeClass: 'dot-blue',
-    url: 'http://www.snh48.com/ticket.php'
+    url: 'https://www.bilibili.com/video/av46940507'
   }, {
     nameMonth: '3月17日',
     title: 'SNH48 7SENSES Weekly China Now 中国女团来啦！',
