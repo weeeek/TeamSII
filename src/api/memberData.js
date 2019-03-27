@@ -8,6 +8,7 @@ export const memberData = [{
   changba: 'http://changba.com/u/150709347',
   miaopai: '',
   pocket48: 3,
+  group: null,
   modian: {
     enabled: true,
     id: '1485197'
@@ -21,6 +22,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 679448,
+  group: null,
   modian: {
     enabled: true,
     id: '1504145'
@@ -34,6 +36,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 37,
+  group: null,
   modian: {
     enabled: true,
     id: '988407'
@@ -47,6 +50,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 38,
+  group: 'sense',
   modian: {
     enabled: true,
     id: '991407'
@@ -60,6 +64,7 @@ export const memberData = [{
   changba: 'http://changba.com/u/46716517',
   miaopai: '',
   pocket48: 17,
+  group: null,
   modian: {
     enabled: true,
     id: '2620358'
@@ -73,6 +78,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 19,
+  group: 'sense',
   modian: {
     enabled: true,
     id: '986515'
@@ -86,6 +92,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 20,
+  group: 'blueV',
   modian: {
     enabled: true,
     id: '1186273'
@@ -99,6 +106,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 63566,
+  group: null,
   modian: {
     enabled: true,
     id: '1171801'
@@ -112,6 +120,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 35,
+  group: 'blueV',
   modian: {
     enabled: true,
     id: '990040'
@@ -125,6 +134,7 @@ export const memberData = [{
   changba: '',
   miaopai: 'https://www.miaopai.com/u/paike_f77xpyubxr',
   pocket48: 36,
+  group: null,
   modian: {
     enabled: true,
     id: '1081356'
@@ -138,6 +148,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 40,
+  group: null,
   modian: {
     enabled: true,
     id: '1078296'
@@ -151,6 +162,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 8,
+  group: 'blueV',
   modian: {
     enabled: true,
     id: '1086367'
@@ -164,6 +176,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 6737,
+  group: null,
   modian: {
     enabled: true,
     id: '987799'
@@ -177,6 +190,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 11,
+  group: null,
   modian: {
     enabled: true,
     id: '1085711'
@@ -190,6 +204,7 @@ export const memberData = [{
   changeba: 'http://changba.com/u/119484593',
   miaopai: '',
   pocket48: 39,
+  group: 'new',
   modian: {
     enabled: true,
     id: '1073349'
@@ -203,6 +218,7 @@ export const memberData = [{
   changba: 'http://changba.com/u/99463480',
   miaopai: '',
   pocket48: 18,
+  group: null,
   modian: {
     enabled: true,
     id: '1079154'
@@ -216,6 +232,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 21,
+  group: 'sense',
   modian: {
     enabled: true,
     id: '1067442'
@@ -229,6 +246,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 43,
+  group: null,
   modian: {
     enabled: true,
     id: '1189199'
@@ -242,6 +260,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 14,
+  group: 'new',
   modian: {
     enabled: true,
     id: '1105967'
@@ -255,6 +274,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 67,
+  group: null,
   modian: {
     enabled: true,
     id: '1156063'
@@ -268,6 +288,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 677401,
+  group: null,
   modian: {
     enabled: true,
     id: '1676139'
@@ -281,6 +302,7 @@ export const memberData = [{
   changba: 'http://changba.com/u/58705105',
   miaopai: '',
   pocket48: 5,
+  group: null,
   modian: {
     enabled: true,
     id: '1095343'
@@ -294,6 +316,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 677405,
+  group: null,
   modian: {
     enabled: true,
     id: '1796555'
@@ -307,6 +330,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 1,
+  group: 'sense',
   modian: {
     enabled: true,
     id: '1157969'
@@ -320,6 +344,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 6429,
+  group: null,
   modian: {
     enabled: true,
     id: '1093167'
@@ -333,6 +358,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 399631,
+  group: null,
   modian: {
     enabled: true,
     id: '1082202'
@@ -346,6 +372,7 @@ export const memberData = [{
   changba: '',
   miaopai: '',
   pocket48: 6432,
+  group: null,
   modian: {
     enabled: true,
     id: '1170704'

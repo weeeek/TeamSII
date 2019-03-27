@@ -4,17 +4,35 @@ export const tripData = [{
     to: '2019'
   },
   items: [{
+    nameMonth: '4月7日 19:00',
+    title: '《重生计划》第19场，袁雨桢生日公演',
+    description: '出席成员：袁雨桢',
+    typeClass: 'dot-blue',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
+    nameMonth: '4月6日 19:00',
+    title: '7Sense出道二周年公演',
+    description: '出席成员：7Sense',
+    typeClass: 'dot-blue',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
     nameMonth: '3月30日 14:00',
     title: '《重生计划》第18场，蒋芸生日公演',
     description: '出席成员：蒋芸',
     typeClass: 'dot-blue',
     url: 'http://www.snh48.com/ticket.php'
   }, {
+    nameMonth: '3月25日',
+    title: '第26届 东方风云榜',
+    description: 'SNH48 7Senses',
+    typeClass: 'got-green',
+    url: 'https://www.bilibili.com/video/av47346556'
+  }, {
     nameMonth: '3月24日',
     title: '排球超级联赛全明星赛',
     description: '莫寒，吴哲晗，孙芮，刘增艳，李宇琪，蒋芸，陈观慧，邵雪聪',
     typeClass: 'dot-green',
-    url: ''
+    url: 'https://www.bilibili.com/video/av47254469'
   }, {
     nameMonth: '3月21日 19:00',
     title: '《重生计划》第17场',

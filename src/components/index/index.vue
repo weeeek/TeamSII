@@ -7,7 +7,8 @@
     <div class="block">
       <div class="members">
         <div class="member" v-for="m in memberDataList" :key="m.name">
-          <div class="photo" :style="`background-image:url(${m.photo})`">
+          <div class="photo" :style="`background-image:url(${m.photo})`">  
+            <div v-if="m.group" class="group name" :class="m.group"></div>          
             <div class="cover"></div>
           </div>
           <div class="name">{{m.name}}</div>
@@ -122,8 +123,27 @@
       height 160px
       background-repeat no-repeat
       background-position center center
-      background-size contain 
-      .cover        
+      background-size contain
+      position relative
+      .group
+        position absolute
+        left calc(50% + 37.5px)
+        top -12.5px
+        border-radius 50%
+        background-repeat no-repeat
+        background-position center center
+        background-size contain
+        display inline-block
+        width 40px
+        height 40px
+        box-shadow 0 0 3px #000
+      .sense
+        background-image url('~common/image/7sense.jpg')
+      .blueV
+        background-image url('~common/image/blueV.jpg')
+      .new
+        background-image url('~common/image/new.png')
+      .cover
         background-image url('http://www.snh48.com/images/member/zx5_def_s.png')
         background-repeat no-repeat
         background-position center center
@@ -146,7 +166,7 @@
   .members
     .member
       flex 0 0 20%
-      margin-bottom 20px
+      margin-bottom 25px
     .name
       font-size 24px
       margin 10px auto
@@ -164,7 +184,7 @@
       margin 8px auto
     .member
       flex 0 0 25%      
-      margin-bottom 15px
+      margin-bottom 20px
     .accounts
       width 65%
 @media screen and (max-width 700px)
@@ -179,7 +199,7 @@
       margin 6px auto
     .member
       flex 0 0 33%      
-      margin-bottom 10px
+      margin-bottom 15px
     .accounts
       width 70%
 @media screen and (max-width 540px)
@@ -194,7 +214,7 @@
       margin 4px auto
     .member
       flex 0 0 50%
-      margin-bottom 5px
+      margin-bottom 10px
     .accounts
       width 75%
 </style>

@@ -56,6 +56,11 @@ export const recommendConfig = {
         av: '3905126',
         img: '//i0.hdslb.com/bfs/archive/31f5c88d601c0514fa736764de9caaff327e0414.jpg_380x240.jpg'
       }, {
+        title: '公演Encore集锦',
+        from: 'B',
+        av: 'av47477726',
+        img: '//i2.hdslb.com/bfs/archive/eff5860fd2d047c032e3e9a410930056ba30d6b9.jpg_380x240.jpg'
+      }, {
         title: '心的旅程MC+生日表演环节',
         from: 'B',
         av: '10311516',
