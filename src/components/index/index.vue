@@ -150,11 +150,11 @@
         height 40px
         box-shadow 0 0 3px #000
       .sense
-        background-image url('~common/image/7sense.jpg')
+        background-image url('/TeamSII/dist/static/images/sense.jpg')
       .blueV
-        background-image url('~common/image/blueV.jpg')
+        background-image url('/TeamSII/dist/static/images/bluev.jpg')
       .new
-        background-image url('~common/image/new.png')
+        background-image url('/TeamSII/dist/static/images/new.png')
       .cover
         background-image url('http://www.snh48.com/images/member/zx5_def_s.png')
         background-repeat no-repeat

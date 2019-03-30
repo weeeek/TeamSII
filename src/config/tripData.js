@@ -18,9 +18,9 @@ export const tripData = [{
   }, {
     nameMonth: '3月30日 14:00',
     title: '《重生计划》第18场，蒋芸生日公演',
-    description: '出席成员：蒋芸',
+    description: '生日环节：,MC1：,MC3：,MC4：,Lost：莫寒,Hode me tight：吴哲晗，孔肖吟,解语者：陈观慧，徐晨辰，李宇琪,最终回合：张语格，陈俊羽，陈思，蒋芸,无罪无我：温晶婕，莫寒，刘增艳,Somewhere：袁丹妮，戴萌，孙芮,安可曲《无尽的世界》',
     typeClass: 'dot-blue',
-    url: 'http://www.snh48.com/ticket.php'
+    url: ''
   }, {
     nameMonth: '3月25日',
     title: '第26届 东方风云榜',

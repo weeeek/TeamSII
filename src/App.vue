@@ -9,12 +9,6 @@
       </keep-alive>
       <router-view v-if="!$route.meta.keepAlive"></router-view>
     </div>
-    <!-- <Live2d :modelData="mdata" :on-move="handleMove" :index="0"/> -->
-    <!-- modelData 属性为引入的模型文件路径，必须是在服务器上放置的文件。
-    on-move 属性为控制模型活动的重要入口函数，其返回一个live2dModel对象实例，用于实际控制模型活动
-    :width, :height  宽高，默认300
-    :index 多个live2d共存时必填属性，值为数字。默认值为0.。 -->
-
     <snh48-live2d v-show="showLive2d"></snh48-live2d>
   </div>
 </template>
@@ -42,14 +36,7 @@ export default {
   data () {
     return {
       musicBoxShow: false,
-      currentMp3: '',
-      mdata: {
-        name: "Cat", // 模型名称
-        model: "api/hijiki/hijiki.moc", // 模型文件地址
-        textures: [
-          "api/hijiki/texture_00.png", // 材质素材地址
-        ]
-      }
+      currentMp3: ''
     }
   },
   methods: {
@@ -104,7 +91,7 @@ export default {
   #app
     margin-right calc(100% - 100vw)
     width 100%
-    background-image url('/dist/static/images/bg.jpg')
+    background-image url('/TeamSII/dist/static/images/bg.jpg')
     .container
       height 100%
   @media screen and (min-width 1366px)
