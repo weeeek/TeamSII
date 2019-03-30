@@ -14,7 +14,7 @@
           </p>
         </div>
         <section class="timeline-items" v-if="timelineContent.items.length > 0">
-          <a :href="getUrl(item.url)" target="_blank"
+          <a :href="getUrl(item.url)" target="_blank" :title="item.summarize"
             class="item"
             v-for="(item, index) in timelineContent.items"
             :key="index">
@@ -132,6 +132,12 @@ export default {
         border-left 5px solid #ccd5db
         padding 20px 0 20px 15px
         position relative
+        &:hover
+          .dot
+            width 30px
+            height 30px
+            left -18px
+            top 18px
       .month-item
         margin 0
         text-transform uppercase
@@ -155,6 +161,7 @@ export default {
         background $color-team-sii
         left -10px
         top 26px
+        transition all ease-in-out 0.3s
       .dot-blue
         background $color-team-sii
       .dot-red

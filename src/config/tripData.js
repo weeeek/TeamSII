@@ -7,6 +7,7 @@ export const tripData = [{
     nameMonth: '4月7日 19:00',
     title: '《重生计划》第19场，袁雨桢生日公演',
     description: '出席成员：袁雨桢',
+    summarize: '',
     typeClass: 'dot-blue',
     url: 'http://www.snh48.com/ticket.php'
   }, {
@@ -14,131 +15,153 @@ export const tripData = [{
     title: '7Sense出道二周年公演',
     description: '出席成员：7Sense',
     typeClass: 'dot-blue',
+    summarize: '',
     url: 'http://www.snh48.com/ticket.php'
   }, {
     nameMonth: '3月30日 14:00',
     title: '《重生计划》第18场，蒋芸生日公演',
-    description: '生日环节：,MC1：,MC3：,MC4：,Lost：莫寒,Hode me tight：吴哲晗，孔肖吟,解语者：陈观慧，徐晨辰，李宇琪,最终回合：张语格，陈俊羽，陈思，蒋芸,无罪无我：温晶婕，莫寒，刘增艳,Somewhere：袁丹妮，戴萌，孙芮,安可曲《无尽的世界》',
+    description: '生日环节：田馥甄《无用》《那些你很冒险的梦》《你就不要想起我》《自己的房间》，古典舞《纸扇书生》,MC1：想对蒋芸说的话,MC3：成员大吐槽,MC4：看着成员眼睛，深情讲述如何相遇,Lost：莫寒,Hode me tight：温晶婕，孔肖吟,解语者：钱蓓婷，戴萌，徐晨辰,最终回合：孙芮，蒋芸，陈观慧，邵雪聪,无罪无我：莫寒，刘增艳，陈思,Somewhere：李宇琪，张语格，徐子轩,噩梦轮回：许佳琪',
+    summarize: '鹅芸商业互吹现场，小孔三行情书又一力作:芸芸众生，你我很配！\r\n莫寒回顾被骗自学call历程，络络回归三喜临门，坦诚点，说话的方式坦诚点。\r\n小戴评价白月光:别问，问就禁欲。\r\nmc惊喜悬念，增锅唱了哪首歌是允芸一期歌审的歌呢？\r\ntako上下其手，做允芸最可爱的狗腿！\r\n落枕佳琪，你，坚强！\r\n孙芮快速回顾在蒋芸手下的那几年，前辈好三个字可抵1000字检讨。\r\n梦中的婚礼被实名举报？教练与加戏粉丝共唱一曲。\r\n毛芸ttl，小艾温温恭祝允芸的毛线梦早日成真。\r\n素颜女神是冒冒最喜欢的大姐姐。\r\ncoco向毛毛发起battle，认证仙女也爱吃凉皮。\r\n生日环节:田馥甄翻唱专场，实力生唱solo《无用》《那些你很冒险的梦》《你就不要想起我》《自己的房间》古典舞《纸扇书生》英姿飒爽。\r\nmc2成员大吐槽，吐槽哪首歌好呢？扣分吗？不扣分啊！那我们就从第一首歌开始吐槽吧！\r\n掉色寒夜，假酒高脚杯，吉普赛水晶球，stf真成本控制鬼才。\r\n我们的增锅……凹了…甚至无法想象酒吧的高危桌子。\r\nmc3深情对望，互诉衷肠。尺度警告，贯穿始终。\r\n芸聪模范，尺度可以。\r\n三肖爆笑高能，到底是哭还是吐。\r\n玛利亚前车之鉴，三哥还是怕被举报。\r\n允芸对冒冒撒娇，冒冒被撩到脸红。\r\n三络油腻变幼稚，更有三钻姐妹连成排，友谊地久天长。',
     typeClass: 'dot-blue',
-    url: ''
+    url: 'https://www.bilibili.com/video/av47772372'
   }, {
     nameMonth: '3月25日',
     title: '第26届 东方风云榜',
     description: 'SNH48 7Senses',
+    summarize: '',
     typeClass: 'got-green',
     url: 'https://www.bilibili.com/video/av47346556'
   }, {
     nameMonth: '3月24日',
     title: '排球超级联赛全明星赛',
     description: '莫寒，吴哲晗，孙芮，刘增艳，李宇琪，蒋芸，陈观慧，邵雪聪',
+    summarize: '',
     typeClass: 'dot-green',
     url: 'https://www.bilibili.com/video/av47254469'
   }, {
     nameMonth: '3月21日 19:00',
     title: '《重生计划》第17场',
     description: 'MC1：最擅长的运动,MC2：有什么东西一直留着没舍得扔,MC3：控台随机放Unit曲，根据曲目人数抱在一起，输的人表演这首Unit,MC4：数数字，含有3和3的倍数做妖娆的动作,Lost：莫寒,Hode me tight：吴哲晗，孔肖吟,解语者：陈观慧，徐晨辰，李宇琪,最终回合：张语格，陈俊羽，陈思，蒋芸,无罪无我：温晶婕，莫寒，刘增艳,Somewhere：袁丹妮，戴萌，孙芮,安可曲《无尽的世界》',
+    summarize: '',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av46940507'
   }, {
     nameMonth: '3月17日',
     title: 'SNH48 7SENSES Weekly China Now 中国女团来啦！',
     description: '7SENSES 韩国 中华TV 综艺',
+    summarize: '',
     typeClass: 'dot-green',
     url: 'https://www.bilibili.com/video/av46785127'
   }, {
     nameMonth: '3月17日 14:00',
     title: '《重生计划》第16场，李宇琪生日公演',
     description: '出席成员：李宇琪，陈观慧，陈思，戴萌，蒋芸，孔肖吟，刘增艳，莫寒，孙芮，邵雪聪，温晶婕，吴哲晗，徐晨辰，许佳琪，袁丹妮，袁雨桢，朱小丹，张语格，以及出现在生祝弹幕的徐子轩和歌词里的钱蓓婷',
+    summarize: '',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av46568906'
   }, {
     nameMonth: '3月9日 19:00',
     title: '《重生计划》第15场，陈思生日公演，“女团大战”对阵抽选',
     description: '出席成员：陈观慧，陈俊羽，陈思，戴萌，蒋芸，孔肖吟，李宇琪，刘增艳，莫寒，钱蓓婷，孙芮，邵雪聪，温晶婕，吴哲晗，徐晨辰，许佳琪，袁丹妮，朱小丹，张语格,对阵抽选结果：紫色（对阵Team NIII）',
+    summarize: '',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av45820127'
   }, {
     nameMonth: '3月7日 19:30',
     title: '《重生计划》第14场',
     description: '出席成员：陈观慧，陈俊羽，陈思，戴萌，蒋芸，孔肖吟，李宇琪，刘增艳，莫寒，钱蓓婷，孙芮，邵雪聪，温晶婕，吴哲晗，徐晨辰，许佳琪，袁丹妮，张语格,安可曲：《女王殿下（Lay Down）》',
+    summarize: '',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av45618800'
   }, {
     nameMonth: '3月3日 14:00',
     title: '《重生计划》第13场，陈观慧生日公演',
     description: '出席成员：陈观慧，陈思，陈俊羽，戴萌，蒋芸，莫寒，钱蓓婷，徐晨辰，许佳琪，吴哲晗，孙芮，孔肖吟，温晶婕，刘增艳，袁丹妮，李宇琪，张语格',
+    summarize: '',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av45245189'
   }, {
     nameMonth: '3月2日 14:00',
     title: '《重生计划》第12场',
     description: '出席成员：陈观慧，陈思，陈俊羽，戴萌，蒋芸，莫寒，钱蓓婷，徐晨辰，许佳琪，吴哲晗，孙芮，孔肖吟，温晶婕，刘增艳，袁丹妮，李宇琪，张语格,安可曲：《第一只兔子》',
+    summarize: '',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av45128605'
   }, {
     nameMonth: '2月27日',
     title: '7SENSES 韩国 Champion Show',
     description: '走出国门，首次登上韩国打榜舞台',
+    summarize: '',
     typeClass: 'dot-green',
     url: 'https://www.bilibili.com/video/av44852049'
   }, {
     nameMonth: '2月23日 14:00',
     title: '《重生计划》第11场',
     description: '出席成员：陈观慧，陈思，陈俊羽，蒋芸，莫寒，袁丹妮，吴哲晗，温晶婕，刘增艳，钱蓓婷，李宇琪，朱小丹，孙芮,安可曲：《机尾云》',
+    summarize: '',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av44480456'
   }, {
     nameMonth: '2月19日',
     title: '安徽卫视元宵晚会',
     description: '7SENSES 《China Town 唐人街》，BlueV 《Be My Love 请回答》',
+    summarize: '',
     typeClass: 'dot-Green',
     url: 'https://www.bilibili.com/video/av44113215'
   }, {
     nameMonth: '2月15日 19:30',
     title: '《重生计划》第十场',
     description: '出席成员：陈俊羽，朱小丹，陈观慧，戴萌，莫寒，钱蓓婷，张语格，李宇琪，吴哲晗，许佳琪，徐晨辰，蒋芸，孙芮，温晶婕，邵雪聪，袁丹妮，刘增艳',
+    summarize: '',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av43695452'
   }, {
     nameMonth: '2月2日',
     title: '2019重庆卫视春节联欢晚会',
     description: 'SNH48 7senses 《China town》',
+    summarize: '',
     typeClass: 'dot-green',
     url: 'https://www.bilibili.com/video/av42473149'
   }, {
     nameMonth: '2月2日',
     title: '2019安徽卫视春节联欢晚会',
     description: '出席成员：SNH48 7senses、BlueV',
+    summarize: '',
     typeClass: 'dot-green',
     url: 'https://www.bilibili.com/video/av42470136'
   }, {
     nameMonth: '1月19日 17:30',
     title: 'SNH48 GROUP 第五届年度金曲大赏演唱会',
     description: '陈思 陈观慧 《梦中的婚礼》,许佳琪 《Don\'t Touch》, 孔肖吟 孙芮 《玛丽亚》,孙芮 《Monster》,蒋芸 《女王殿下》,冯晓菲 《黑夜女神》,莫寒 《荣誉勋章》,钱蓓婷 孔肖吟 《My Boy》,Team SII 《初日》,钱蓓婷 袁雨桢 张怀瑾《巧克力之吻》,张语格 孔肖吟 《9 to 9》,戴萌 《钢铁之翼》,吴哲晗 许佳琪《SPY》,戴萌 莫寒 《就差一点点》',
+    summarize: '',
     typeClass: 'dot-black',
     url: 'https://www.bilibili.com/av41180148'
   }, {
     nameMonth: '1月13日 19:00',
     title: 'SNH48 金曲大赏小组合《Just Dance》剧场公演',
     description: '出席成员：徐子轩（因病未出席），吴哲晗，袁雨桢',
+    summarize: '',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av40672345'
   }, {
     nameMonth: '1月9日 19:30',
     title: 'SNH48 一期生 出道6周年 公演',
     description: '出席成员：陈观慧，陈思，吴哲晗，许佳琪，袁雨桢，温晶婕，蒋芸，孙芮，徐晨辰，孔肖吟，莫寒，钱蓓婷，戴萌，袁丹妮，邵雪聪，刘增艳，李宇琪',
+    summarize: '',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av40341728'
   }, {
     nameMonth: '1月6日 19:30',
     title: '《重生计划》第九场 刘增艳生日公演',
     description: '出席成员：陈观慧，陈思，吴哲晗，许佳琪，袁雨桢，温晶婕，蒋芸，孙芮，徐晨辰，孔肖吟，莫寒，钱蓓婷，戴萌，袁丹妮，邵雪聪，刘增艳，李宇琪，张语格',
+    summarize: '',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av40108380'
   }, {
     nameMonth: '1月6日',
     title: '芒果TV《综艺吃瓜社》',
     description: '李宇琪 莫寒 孙芮 孔肖吟 许佳琪 徐子轩 李艺彤 赵粤 万丽娜 易嘉爱 张怡 张昕',
+    summarize: '',
     typeClass: 'dot-green',
     url: 'https://www.bilibili.com/video/av40105733'
   }, {
