@@ -7,7 +7,7 @@
 </template>
 
 <script type="text/ecmascript-6">
-  import {burningGroup} from 'api/burningData'
+  import {burningGroup} from 'config/burningData'
   import PK from 'components/plugin/pk2'
   
 

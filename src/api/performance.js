@@ -1,5 +1,5 @@
 import getJson from 'common/js/yahooapis'
-import {performanceConfig} from 'api/config'
+import {performanceConfig} from 'config/common'
 
 export function getPerformance (fn) {
   const url = performanceConfig.url

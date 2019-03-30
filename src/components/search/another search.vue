@@ -9,7 +9,7 @@
           <div class="hot-key">
             <h1 class="title">热门搜索</h1>
             <ul>
-              <li @click="addQuery(item.k)" class="item" v-for="item in hotKey">
+              <li @click="addQuery(item.k)" class="item" v-for="item in hotKey" :key="item.k">
                 <span>{{item.k}}</span>
               </li>
             </ul>
@@ -41,7 +41,7 @@
   import Confirm from 'base/confirm/confirm'
   import Suggest from 'components/suggest/suggest'
   import {getHotKey} from 'api/search'
-  import {ERR_OK} from 'api/config'
+  import {ERR_OK} from 'config/common'
   import {playlistMixin, searchMixin} from 'common/js/mixin'
   import {mapActions} from 'vuex'
 

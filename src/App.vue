@@ -14,6 +14,8 @@
     on-move 属性为控制模型活动的重要入口函数，其返回一个live2dModel对象实例，用于实际控制模型活动
     :width, :height  宽高，默认300
     :index 多个live2d共存时必填属性，值为数字。默认值为0.。 -->
+
+    <snh48-live2d v-show="showLive2d"></snh48-live2d>
   </div>
 </template>
 
@@ -22,17 +24,20 @@ import { mapGetters } from "vuex";
 import GlobalHeader from 'components/global/global-header'
 import Tab from 'components/tab/tab'
 import MusicPlayer from 'components/music/music-play'
-
+import Snh48Live2d from 'components/global/snh48-live2d'
 
 export default {
   components: {
     GlobalHeader,
     Tab,
     MusicPlayer,
-    //Live2d
+    Snh48Live2d
   },
   computed: {
-      ...mapGetters(['playlist'])
+    ...mapGetters(['playlist']),
+    showLive2d () {
+      return window.innerWidth > 1800
+    }
   },
   data () {
     return {

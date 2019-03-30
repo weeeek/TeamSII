@@ -1,6 +1,6 @@
 import { getLyric, getVKey } from 'api/song'
 import { getUid } from './uid'
-import { ERR_OK } from 'api/config'
+import { ERR_OK } from 'config/common'
 import { Base64 } from 'js-base64'
 
 let urlMap = {}

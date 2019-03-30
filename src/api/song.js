@@ -1,4 +1,4 @@
-import { commonParams, options } from './config'
+import { commonParams, options } from 'config/common'
 import axios from 'axios'
 import jsonp from 'common/js/jsonp'
 import { getUid } from 'common/js/uid'

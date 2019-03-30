@@ -13,7 +13,7 @@
 </template>
 
 <script type="text/ecmascript-6">
-import { qqMusicConfig } from 'api/musicData'
+import { qqMusicConfig } from 'config/musicData'
 import { mapMutations, mapActions, mapGetters } from 'vuex'
 import SongList from 'components/music/song-list'
 import { createSong } from 'common/js/song'

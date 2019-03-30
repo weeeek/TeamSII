@@ -12,7 +12,7 @@
 </template>
 
 <script type="text/ecmascript-6">  
-  import {entertainmentConfig} from 'api/entertainmentData'
+  import {entertainmentConfig} from 'config/entertainmentData'
   import PK from 'components/plugin/pk'
 
   export default {

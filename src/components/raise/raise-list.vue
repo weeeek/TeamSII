@@ -35,8 +35,8 @@
 </template>
 
 <script type="text/ecmascript-6">
-import {modianApi} from 'api/config'
-import {memberData} from 'api/memberData'
+import {modianApi} from 'config/common'
+import {memberData} from 'config/memberData'
 import jQuery from 'jquery'
 import progressbar from 'components/plugin/progressbar'
 import blockcheck from 'components/plugin/blockCheck'

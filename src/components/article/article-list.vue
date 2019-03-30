@@ -23,7 +23,7 @@
 </template>
 
 <script type="text/ecmascript-6">
-import {articleDatas} from 'api/articleData'
+import {articleDatas} from 'config/articleData'
 
 export default {
   name: 'VideoList',

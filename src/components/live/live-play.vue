@@ -5,7 +5,7 @@
 </template>
 
 <script type="text/ecmascript-6">
-  import {memberData} from 'api/memberData'
+  import {memberData} from 'config/memberData'
 
   export default {
     name: 'Live',

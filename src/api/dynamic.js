@@ -1,5 +1,5 @@
 import getJson from 'common/js/yahooapis'
-import {bilibiliConfig} from 'api/config'
+import {bilibiliConfig} from 'config/common'
 
 export function getDynamic (fn) {
   const url = 'https://api.vc.bilibili.com/dynamic_svr/v1/dynamic_svr/space_history'

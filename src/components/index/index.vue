@@ -8,16 +8,17 @@
       <div class="members">
         <div class="member" v-for="m in memberDataList" :key="m.name">
           <div class="photo" :style="`background-image:url(${m.photo})`">  
-            <div v-if="m.group" class="group name" :class="m.group"></div>          
+            <a v-if="m.group" class="group name" :class="m.group" target="_blank" :href="getGroupWeibo(m.group)"></a>
             <div class="cover"></div>
           </div>
           <div class="name">{{m.name}}</div>
           <div class="accounts">
-            <a :href="m.weibo" target="_blank" class="favicon favicon-weibo" :class="{'disable':!m.weibo}"></a>
-            <a :href="m.bilibili" target="_blank" class="favicon favicon-bilibili" :class="{'disable':!m.bilibili}"></a>
-            <a :href="m.douyin" target="_blank" class="favicon favicon-douyin" :class="{'disable':!m.douyin}"></a>
-            <a :href="m.changba" target="_blank" class="favicon favicon-changba" :class="{'disable':!m.changba}"></a>
-            <a :href="m.miaopai" target="_blank" class="favicon favicon-miaopai" :class="{'disable':!m.miaopai}"></a>
+            <a :href="m.weibo" :title="`微博-${m.name}`" target="_blank" class="favicon favicon-weibo" v-if="m.weibo"></a>
+            <a :href="m.bilibili" :title="`B站-${m.name}`" target="_blank" class="favicon favicon-bilibili" v-if="m.bilibili"></a>
+            <a :href="m.douyin" :title="`抖音-${m.name}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a>
+            <a :href="m.changba" :title="`唱吧-${m.name}`" target="_blank" class="favicon favicon-changba" v-if="m.changba"></a>
+            <a :href="m.miaopai" :title="`秒拍-${m.name}`" target="_blank" class="favicon favicon-miaopai" v-if="m.miaopai"></a>
+            <a :href="m.weibomusic" :title="`微博音乐-${m.name}`" target="_blank" class="favicon favicon-music-weibo" v-if="m.weibomusic"></a>
           </div>
         </div>
       </div>
@@ -27,7 +28,7 @@
 
 <script type="text/ecmascript-6">
   import WordCloud from 'components/plugin/highchart-wordcloud'
-  import {memberData} from 'api/memberData'
+  import {memberData} from 'config/memberData'
 
   export default {
     name: 'Index',
@@ -75,6 +76,16 @@
           }
           return arr
         }, [])
+      },
+      getGroupWeibo (group) {
+        switch(group){
+          case 'sense':
+            return 'https://weibo.com/u/5901077408'
+          case 'blueV':
+            return 'https://weibo.com/u/6386595576'
+          case 'new':
+            return 'javascript:void(0)'
+        }
       }
     }
   }
@@ -99,7 +110,8 @@
   background-image url('http://changba.com/favicon.ico')
 .favicon-miaopai
   background-image url('https://www.miaopai.com/favicon.ico')
-
+.favicon-music-weibo
+  background-image url('https://image2.sina.com.cn/music/web/logo/weibo2012/logo_16.ico')
 #wordcloud-container
   height 400px
   width 100%

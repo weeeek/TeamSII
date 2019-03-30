@@ -10,7 +10,7 @@
 <script type="text/ecmascript-6">
 import Timeline from 'components/plugin/timeline'
 import TripSearch from 'components/trip/trip-search'
-import {tripData} from 'api/tripData'
+import {tripData} from 'config/tripData'
 import {searchMixin} from 'common/js/mixin'
 
 export default {

@@ -1,6 +1,6 @@
 import jsonp from 'common/js/jsonp'
 // import getJson from 'common/js/yahooapis'
-import {commonParams, options} from './config'
+import {commonParams, options} from 'config/common'
 
 export function getHotKey () {
   const url = 'https://c.y.qq.com/splcloud/fcgi-bin/gethotkey.fcg'
