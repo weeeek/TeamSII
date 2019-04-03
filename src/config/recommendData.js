@@ -70,6 +70,11 @@ export const recommendConfig = {
         from: 'B',
         av: '16966158',
         img: '//i0.hdslb.com/bfs/archive/824b94d586fca0600f9c6eb15946c5b04a94dbd6.jpg_380x240.jpg'
+      }, {
+        title: '2019年生日特殊表演合集',
+        from: 'B',
+        av: '46913266',
+        img: '//i2.hdslb.com/bfs/archive/fb007d8fe39618fc2a6838baeaaf450b7c673a7b.jpg_380x240.jpg'
       }]
     },
     {
