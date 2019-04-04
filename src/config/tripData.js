@@ -18,6 +18,13 @@ export const tripData = [{
     summarize: '',
     url: 'http://www.snh48.com/ticket.php'
   }, {
+    nameMonth: '4月3日',
+    title: '海信手机爸爸的外务',
+    description: '峨眉山跳《神魂颠倒》',
+    summarize: '',
+    typeClass: 'dot-green',
+    url: 'javascript:void(0)'
+  }, {
     nameMonth: '3月30日 14:00',
     title: '《重生计划》第18场，蒋芸生日公演',
     description: '生日环节：田馥甄《无用》《那些你很冒险的梦》《你就不要想起我》《自己的房间》，古典舞《纸扇书生》,MC1：想对蒋芸说的话,MC3：成员大吐槽,MC4：看着成员眼睛，深情讲述如何相遇,Lost：莫寒,Hode me tight：温晶婕，孔肖吟,解语者：钱蓓婷，戴萌，徐晨辰,最终回合：孙芮，蒋芸，陈观慧，邵雪聪,无罪无我：莫寒，刘增艳，陈思,Somewhere：李宇琪，张语格，徐子轩,噩梦轮回：许佳琪',
@@ -332,7 +339,7 @@ export const tripData = [{
 }, {
   year: {
     from: '2017',
-    to: '2017'    
+    to: '2017'
   },
   items: [{
     nameMonth: '6月30日 19:00',
@@ -347,11 +354,12 @@ export const tripData = [{
     from: '2016',
     to: '2016'
   },
-  items: [{
+  items: [
+    {
       nameMonth: '5月20日 19:00',
       title: '原创公演《心的旅程》第1场',
       description: '出席成员：陈观慧、陈思、成珏、戴萌、冯晓菲、蒋芸、孔肖吟、李宇琪、刘力玮、莫寒、钱蓓婷、沈之琳、吴哲晗、徐晨辰、徐子轩、许佳琪、袁丹妮、袁雨桢',
-      summarize: '0，马上出发\r\n（作词、作曲、编曲：上海星四芭）\r\n1，心的旅程\r\n（作词、作曲：浅紫；编曲：谢维）\r\n2，时差密码\r\n（作词：小7；作曲、编曲：ASPJ）\r\n3，小宇宙\r\n（作词：浅紫；作曲、编曲：鸭毛）\r\n4，蒙娜丽莎没有自拍照\r\n（作词：浅紫；作曲：姜帆；编曲：谢维）\r\n5，好友创口贴\r\n（作词、作曲：鸭毛；编曲：戴浪）\r\n6，地平线\r\n（作词：浅紫；作曲：林从胤；编曲：刘兴华\杨任衔）\r\n7，下一站是你\r\n（作词：浅紫；作曲：林从胤；编曲：谢维）\r\n8，新世界\r\n（作词：小7；作曲：鸭毛；编曲：郭伟聪）\r\n9，降落伞\r\n（作词：浅紫；作曲：姜帆；编曲：谢维）\r\n10，狂欢亚马逊\r\n（作词、作曲：鸭毛；编曲：刘兴华\杨任衔）\r\n11，罗马假日\r\n（作词：小7；作曲、编曲：ASPJ）\r\n12，纽约梦\r\n（作词：张欣瑜；作曲：林从胤；编曲：林祐睿\杨任衔）\r\n13，月光下\r\n（作词：周富坚\浅紫；作曲：周富坚；编曲：鸭毛）\r\n14，潮流冠军\r\n（作词：芮英杰\浅紫；作曲：芮英杰；编曲：刘衍霖）\r\n15，青春号角\r\n（作词：陈立志；作曲：姜帆；编曲：谢维）\r\n16，我的舞台\r\n（作词: 甘世佳 作曲、编曲：ASPJ）',
+      summarize: '0，马上出发\r\n（作词、作曲、编曲：上海星四芭）\r\n1，心的旅程\r\n（作词、作曲：浅紫；编曲：谢维）\r\n2，时差密码\r\n（作词：小7；作曲、编曲：ASPJ）\r\n3，小宇宙\r\n（作词：浅紫；作曲、编曲：鸭毛）\r\n4，蒙娜丽莎没有自拍照\r\n（作词：浅紫；作曲：姜帆；编曲：谢维）\r\n5，好友创口贴\r\n（作词、作曲：鸭毛；编曲：戴浪）\r\n6，地平线\r\n（作词：浅紫；作曲：林从胤；编曲：刘兴华/杨任衔）\r\n7，下一站是你\r\n（作词：浅紫；作曲：林从胤；编曲：谢维）\r\n8，新世界\r\n（作词：小7；作曲：鸭毛；编曲：郭伟聪）\r\n9，降落伞\r\n（作词：浅紫；作曲：姜帆；编曲：谢维）\r\n10，狂欢亚马逊\r\n（作词、作曲：鸭毛；编曲：刘兴华/杨任衔）\r\n11，罗马假日\r\n（作词：小7；作曲、编曲：ASPJ）\r\n12，纽约梦\r\n（作词：张欣瑜；作曲：林从胤；编曲：林祐睿/杨任衔）\r\n13，月光下\r\n（作词：周富坚/浅紫；作曲：周富坚；编曲：鸭毛）\r\n14，潮流冠军\r\n（作词：芮英杰/浅紫；作曲：芮英杰；编曲：刘衍霖）\r\n15，青春号角\r\n（作词：陈立志；作曲：姜帆；编曲：谢维）\r\n16，我的舞台\r\n（作词: 甘世佳 作曲、编曲：ASPJ）',
       typeClass: 'dot-blue',
       url: 'https://space.bilibili.com/12444300/channel/detail?cid=939'
     }, {
@@ -412,49 +420,48 @@ export const tripData = [{
       typeClass: 'dot-blue',
       url: ''
     }]
-  }, {
-    year: {
-      from: '2014',
-      to: '2014'
-    },
-    items: [
-      {
-        nameMonth: '11月07日 19:00',
-        title: '《勇气重生》第1场',
-        description: '出席成员：陈观慧 陈思 戴萌 宫小荷 孔肖吟 李宇琪 莫寒 钱蓓婷 邱欣怡 孙芮 温晶婕 吴哲晗 徐晨辰 许佳琪 袁丹妮 袁雨桢 张语格 赵嘉敏 赵晔 曾琳瑜',
-        summarize: '数据来源：http://wiki.akbfun48.com/index.php?title=SNH48_Team_SII剧场公演合集',
-        typeClass: 'dot-blue',
-        url: 'https://www.bilibili.com/video/av24564409'
-      }, {
-        nameMonth: '5月30日 19:00',
-        title: '《不眠之夜》第1场',
-        description: '出席成员：陈观慧 陈思 戴萌 蒋芸 孔肖吟 李宇琪 莫寒 钱蓓婷 邱欣怡 温晶婕 吴哲晗 徐晨辰 徐子轩 许佳琪 张语格 赵嘉敏',
-        summarize: '数据来源：http://wiki.akbfun48.com/index.php?title=SNH48_Team_SII剧场公演合集',
-        typeClass: 'dot-blue',
-        url: 'https://www.bilibili.com/video/av10673458'
-      }
-    ]
-  }, {
-    year: {
-      from: '2013',
-      to: '2013'
-    },
-    items: [
-      {
-        nameMonth: '12月27日 19:00',
-        title: '《永恒之光》第1场',
-        description: '出席成员：陈观慧、陈思、戴萌、孔肖吟、李宇琪、莫寒、钱蓓婷、邱欣怡、吴哲晗、徐晨辰、许佳琪、赵嘉敏、张语格、孙芮、温晶婕、蒋芸、袁雨桢、徐子轩',
-        summarize: '数据来源：http://wiki.akbfun48.com/index.php?title=SNH48_Team_SII剧场公演合集',
-        typeClass: 'dot-blue',
-        url: 'https://www.bilibili.com/video/av31907756'
-      }, {
-        nameMonth: '8月30日 19:00',
-        title: '《最后的钟声响起》第1场，剧场开业首演',
-        description: '出席成员：陈观慧、陈思、戴萌、丁紫妍、董芷依、孔肖吟、李宇琪、莫寒、钱蓓婷、邱欣怡、吴哲晗、徐晨辰、许佳琪、赵嘉敏、张语格',
-        summarize: '数据来源：http://wiki.akbfun48.com/index.php?title=SNH48_Team_SII剧场公演合集',
-        typeClass: 'dot-blue',
-        url: 'https://www.bilibili.com/video/av10673458'
-      }
-    ]
-  }
-]
+}, {
+  year: {
+    from: '2014',
+    to: '2014'
+  },
+  items: [
+    {
+      nameMonth: '11月07日 19:00',
+      title: '《勇气重生》第1场',
+      description: '出席成员：陈观慧 陈思 戴萌 宫小荷 孔肖吟 李宇琪 莫寒 钱蓓婷 邱欣怡 孙芮 温晶婕 吴哲晗 徐晨辰 许佳琪 袁丹妮 袁雨桢 张语格 赵嘉敏 赵晔 曾琳瑜',
+      summarize: '数据来源：http://wiki.akbfun48.com/index.php?title=SNH48_Team_SII剧场公演合集',
+      typeClass: 'dot-blue',
+      url: 'https://www.bilibili.com/video/av24564409'
+    }, {
+      nameMonth: '5月30日 19:00',
+      title: '《不眠之夜》第1场',
+      description: '出席成员：陈观慧 陈思 戴萌 蒋芸 孔肖吟 李宇琪 莫寒 钱蓓婷 邱欣怡 温晶婕 吴哲晗 徐晨辰 徐子轩 许佳琪 张语格 赵嘉敏',
+      summarize: '数据来源：http://wiki.akbfun48.com/index.php?title=SNH48_Team_SII剧场公演合集',
+      typeClass: 'dot-blue',
+      url: 'https://www.bilibili.com/video/av10673458'
+    }
+  ]
+}, {
+  year: {
+    from: '2013',
+    to: '2013'
+  },
+  items: [
+    {
+      nameMonth: '12月27日 19:00',
+      title: '《永恒之光》第1场',
+      description: '出席成员：陈观慧、陈思、戴萌、孔肖吟、李宇琪、莫寒、钱蓓婷、邱欣怡、吴哲晗、徐晨辰、许佳琪、赵嘉敏、张语格、孙芮、温晶婕、蒋芸、袁雨桢、徐子轩',
+      summarize: '数据来源：http://wiki.akbfun48.com/index.php?title=SNH48_Team_SII剧场公演合集',
+      typeClass: 'dot-blue',
+      url: 'https://www.bilibili.com/video/av31907756'
+    }, {
+      nameMonth: '8月30日 19:00',
+      title: '《最后的钟声响起》第1场，剧场开业首演',
+      description: '出席成员：陈观慧、陈思、戴萌、丁紫妍、董芷依、孔肖吟、李宇琪、莫寒、钱蓓婷、邱欣怡、吴哲晗、徐晨辰、许佳琪、赵嘉敏、张语格',
+      summarize: '数据来源：http://wiki.akbfun48.com/index.php?title=SNH48_Team_SII剧场公演合集',
+      typeClass: 'dot-blue',
+      url: 'https://www.bilibili.com/video/av10673458'
+    }
+  ]
+}]

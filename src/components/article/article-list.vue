@@ -26,7 +26,7 @@
 import {articleDatas} from 'config/articleData'
 
 export default {
-  name: 'VideoList',
+  name: 'ArticleList',
   data () {
     return {
       articleDatas: articleDatas

@@ -28,7 +28,7 @@ export const articleDatas = [{
     url: 'http://t.cn/E4z4Ylq'
   }, {
     chapter: 6,
-    title: '迷失',
+    title: '宿命',
     url: 'http://t.cn/E4ANOau'
   }, {
     chapter: 7,
@@ -66,6 +66,74 @@ export const articleDatas = [{
     chapter: 15,
     title: '回溯',
     url: 'http://t.cn/E4p5C3o'
+  }, {
+    chapter: 16,
+    title: '黑白对战（一）',
+    url: 'http://t.cn/EfXBYjh'
+  }, {
+    chapter: 17,
+    title: '黑白对战（二）',
+    url: 'http://t.cn/Efpfas1'
+  }, {
+    chapter: 18,
+    title: '黑白对战（三）',
+    url: 'http://t.cn/EfQUYlr'
+  }, {
+    chapter: 19,
+    title: '黑白对战（四）',
+    url: 'http://t.cn/Ef1PDsT'
+  }, {
+    chapter: 20,
+    title: '黑白对战（五）',
+    url: 'http://t.cn/EfFmK8c'
+  }, {
+    chapter: 21,
+    title: '黑白对战（六）',
+    url: 'http://t.cn/EIA5z2s'
+  }, {
+    chapter: 22,
+    title: '黑白对战（七）',
+    url: 'http://t.cn/EIqnI9Y'
+  }, {
+    chapter: 23,
+    title: '黑白对战（八）',
+    url: 'http://t.cn/EIxxfBR'
+  }, {
+    chapter: 24,
+    title: '黑白对战（九）',
+    url: 'http://t.cn/EIKlva8'
+  }, {
+    chapter: 25,
+    title: '黑白对战（十）',
+    url: 'http://t.cn/EIj7l4Y'
+  }, {
+    chapter: 26,
+    title: '黑白对战（十一）',
+    url: 'http://t.cn/EIm7qDU'
+  }, {
+    chapter: 27,
+    title: '黑白对战（十二）',
+    url: 'http://t.cn/EIeRr4X'
+  }, {
+    chapter: 28,
+    title: '黑白对战（十三）',
+    url: 'http://t.cn/EMz9Wq5'
+  }, {
+    chapter: 29,
+    title: '黑白对战（十四）',
+    url: 'http://t.cn/EM43CLG'
+  }, {
+    chapter: 30,
+    title: '黑白对战（十五）',
+    url: 'http://t.cn/EMfy5DB'
+  }, {
+    chapter: 31,
+    title: '黑白对战（十六）',
+    url: 'http://t.cn/EMaxzuE'
+  }, {
+    chapter: 32,
+    title: '致一年后的我们',
+    url: 'http://t.cn/EMOUgQu'
   }]
 }, {
   member: true,
