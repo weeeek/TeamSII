@@ -1,7 +1,7 @@
 <template>
     <div class="pk-container">
       <div class="pk-team">
-        <div class="team" :class="data.color">{{winTeamName(data)}}</div>      
+        <div class="team" :style="`background-image:url(${data.bg})`"></div>
       </div>
       <div class="line-vertical-normal" v-if="data.team.length > 0">
           <div class="line-pk-mid-left" :class="this.winTeamColor(data)"></div>
@@ -61,7 +61,7 @@
     display flex
     flex-direction column
     .pk-team
-      flex 0 0 200px
+      flex 0 0 140px
       display flex 
       flex-direction row
       justify-content center
@@ -70,7 +70,10 @@
         border-style solid
         border-color $color-black-d
         flex 0 0 100px
-        height 200px
+        height 140px
+        background-repeat no-repeat
+        background-size cover
+        background-position center center
     .line-vertical-normal
       flex 0 0 20px
       display flex

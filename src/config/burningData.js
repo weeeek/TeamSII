@@ -5,6 +5,7 @@ export const burningData = {
     name: '',
     color: '',
     win: false,
+    bg: '',
     left: {
       name: '',
       color: '',
@@ -24,6 +25,7 @@ export const burningData = {
       name: '',
       color: '',
       win: false,
+      bg: 'https://wx4.sinaimg.cn/mw1024/a04b2a1dgy1g1qfingowbj20u016f7wt.jpg',
       left: {
         name: 'Team HII',
         color: 'team-h2',
@@ -40,6 +42,7 @@ export const burningData = {
     name: '',
     color: '',
     win: false,
+    bg: '',
     left: {
       name: '',
       color: '',
@@ -76,58 +79,7 @@ export const burningData = {
 export const burningGroup = [{
   group: 1,
   winner: null,
-  team: [{
-    name: 'Team J',
-    color: 'team-j',
-    vote: 0,
-    solo: [],
-    double: [],
-    multy: [],
-    team: [],
-    chorus: [],
-    battle: [],
-    win: false
-  }, {
-    name: 'Team G',
-    color: 'team-g',
-    vote: 0,
-    solo: [],
-    double: [],
-    multy: [],
-    team: [],
-    chorus: [],
-    battle: [],
-    win: false
-  }]
-}, {
-  group: 2,
-  winner: null,
-  team: [{
-    name: 'Team NIII',
-    color: 'team-n3',
-    vote: 0,
-    solo: [],
-    double: [],
-    multy: [],
-    team: [],
-    chorus: [],
-    battle: [],
-    win: false
-  }, {
-    name: 'Team SII',
-    color: 'team-s2',
-    vote: 0,
-    solo: ['噩梦轮回'],
-    double: ['Mad World'],
-    multy: ['Somewhere'],
-    team: ['战歌'],
-    chorus: ['追光者'],
-    battle: ['激流之战'],
-    win: true
-  }]
-}, {
-  group: 3,
-  winner: null,
+  bg: 'https://wx4.sinaimg.cn/mw1024/a04b2a1dgy1g1qfingowbj20u016f7wt.jpg',
   team: [{
     name: 'Team H',
     color: 'team-h2',
@@ -152,8 +104,69 @@ export const burningGroup = [{
     win: false
   }]
 }, {
+  group: 2,
+  winner: null,
+  bg: '',
+  team: [{
+    name: 'Team J',
+    color: 'team-j',
+    vote: 0,
+    solo: [],
+    double: [],
+    multy: [],
+    team: [],
+    chorus: [],
+    battle: [],
+    win: false
+  }, {
+    name: 'Team G',
+    color: 'team-g',
+    vote: 0,
+    solo: [],
+    double: [],
+    multy: [],
+    team: [],
+    chorus: [],
+    battle: [],
+    win: false
+  }]
+}, {
+  group: 3,
+  winner: null,
+  bg: '',
+  team: [{
+    name: 'Team NIII',
+    color: 'team-n3',
+    vote: 0,
+    solo: [],
+    double: [],
+    multy: [],
+    team: [],
+    chorus: [],
+    battle: [],
+    win: false
+  }, {
+    name: 'Team SII',
+    color: 'team-s2',
+    vote: 0,
+    // solo: ['噩梦轮回'],
+    // double: ['Mad World'],
+    // multy: ['Somewhere'],
+    // team: ['战歌'],
+    // chorus: ['追光者'],
+    // battle: ['激流之战'],
+    solo: [],
+    double: [],
+    multy: [],
+    team: [],
+    chorus: [],
+    battle: [],
+    win: true
+  }]
+}, {
   group: 4,
   winner: null,
+  bg: '',
   team: [{
     name: 'Team E',
     color: 'team-e',
@@ -180,6 +193,7 @@ export const burningGroup = [{
 }, {
   group: 5,
   winner: null,
+  bg: '',
   team: [{
     name: 'Team z',
     color: 'team-z',
