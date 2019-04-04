@@ -23,7 +23,7 @@ export const tripData = [{
     description: '峨眉山跳《神魂颠倒》',
     summarize: '',
     typeClass: 'dot-green',
-    url: 'javascript:void(0)'
+    url: 'https://www.bilibili.com/video/av48229723'
   }, {
     nameMonth: '3月30日 14:00',
     title: '《重生计划》第18场，蒋芸生日公演',
