@@ -4,26 +4,33 @@ export const tripData = [{
     to: '2019'
   },
   items: [{
+    nameMonth: '4月13日',
+    title: 'SNH48 Group第二届偶像运动会',
+    description: '',
+    summarize: '',
+    typeClass: 'dot-green',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
     nameMonth: '4月7日 19:00',
     title: '《重生计划》第19场，袁雨桢生日公演',
-    description: '出席成员：袁雨桢',
-    summarize: '',
+    description: '生日环节：林宥嘉《残酷月光》，A-Lin《有一种悲伤》，CLC《NO》,MC1：祝袁雨桢生日快乐,MC3：,MC4：,Lost：莫寒,Hode me tight：戴萌，孔肖吟,解语者：孙芮，李宇琪，袁雨桢,最终回合：张语格，蒋芸，徐晨辰，邵雪聪,无罪无我：莫寒，刘增艳，陈思,Somewhere：吴哲晗，袁丹妮，徐子轩',
+    summarize: 'MC1：\r\n艾斯兔“孔诗圣”再上线：原来，雨天的时候，真的会想起你。勇敢的兔子决定向“诗圣”发起挑战：原来，与你相遇，真的是种幸运呢！那个。。。请问，什么是押韵呢？\r\n老父亲对儿子的第一印象竟然如此糟糕？余震抱Duang≈“猪八戒抱媳妇”？互相依偎取暖的“峨眉山鹌鹑双侠”为何不敢和增锅合影？最初的安静美少女又是因何成为现今无处不在的聒噪“猛男”？详情请见大家对俊俊的生日祝福。\r\nUNIT：\r\n博士，请问你掉的是这只可爱的猫系机器人吗？俊宝占卜再营业，双枪增锅可还行？今天依旧是接不到硬币的兔子呢。话说，那些赌跳舞时硬币掉了的，你们是魔鬼吗？！\r\n生日环节：\r\n4位白衣天使的月光，即使再残酷也心甘情愿。是你义无反顾，让爱成为，我身上的光芒。成为彼此的路，多向往。怎会失去方向？又岂会有悲伤？\r\n吹爆我SII的歌姬！歌姬的舞蹈会差么？答案是——当然不会！我SII的小偶像就是这样唱跳俱佳！就是这么优秀！\r\nMC3：\r\n世间最可爱的莫兔兔，宛如。。。生命个体？？？集万千优点于一身的小孔是喝着露水长大的？那是蚊子！像清风一样？那是纸巾！传奇Rapper在线为腿长超越夸父的孙漂亮作诗。年龄是个什么东西？三哥现场震惊。TAKO的美不敢夸，月底了，注意尺度啊！\r\nMC4：\r\n这是艺术！哪都不用遮！增锅灵魂拷问，我们模仿这个也算艺术么？水星最适合你，为啥啊？你猜~小猪佩奇全家福，哲哥哥“哼哼”最精髓。\r\n五年时间，小孩长成大人模样。生诞快乐俊宝。前路遥远，我们依旧在，伴你一起拥有想要的未来的。\r\n“科举”加油！金榜题名！',
     typeClass: 'dot-blue',
-    url: 'http://www.snh48.com/ticket.php'
+    url: 'https://www.bilibili.com/video/av48647147'
   }, {
     nameMonth: '4月6日 19:00',
     title: '7Sense出道二周年公演',
-    description: '出席成员：7Sense',
+    description: '《7 O\'Clock》《Moonlight》,二周年感言,游戏（臂力王，劈腿王，反应王，眼距王，快嘴王）,综艺回顾,《7 Rings》《Fire touch》《Yeah》《春の海》《Grazy in love》《Personal》《Sorry not sorry》,《7Senses》,《二周年VCR》,《OMG》,各方Staff&粉丝&父母祝福,《Girl Crush》《Swan》韩文版',
     typeClass: 'dot-blue',
     summarize: '',
-    url: 'http://www.snh48.com/ticket.php'
+    url: 'https://www.bilibili.com/video/av48523521'
   }, {
     nameMonth: '4月3日',
     title: '海信手机爸爸的外务',
-    description: '峨眉山跳《神魂颠倒》',
+    description: '峨眉山跳《初日》《青春的约定》《神魂颠倒》《我的舞台》',
     summarize: '',
     typeClass: 'dot-green',
-    url: 'https://www.bilibili.com/video/av48229723'
+    url: 'https://www.bilibili.com/video/av48402632'
   }, {
     nameMonth: '3月30日 14:00',
     title: '《重生计划》第18场，蒋芸生日公演',
@@ -348,6 +355,13 @@ export const tripData = [{
     summarize: '1，第48区\r\n（作词：天乐；作曲、编曲：都智文）\r\n2，破茧\r\n（作词：谢梦琼；作曲：姜帆；编曲：郭伟聪）\r\n3，MUTE\r\n（作词：谢梦琼；作曲：姜帆；编曲：郭伟聪）\r\n4，DROP IT\r\n（作词、作曲：周富坚；编曲：谢维）\r\n5，MAD WORLD\r\n（作词：天乐；作曲、编曲：都智文）\r\n6，GOOD TIME\r\n（作词：谢梦琼；作曲：鸭毛；编曲：郭伟聪）\r\n7，爱未央\r\n（作词：傅锦川；作曲：张宴箐；编曲：谢维）\r\n8，GO AWAY\r\n（作词：李伟杰；作曲：张宴菁；编曲：郭伟聪）\r\n9，灵魂使者\r\n（作词、作曲：鸭毛；编曲：谢维）\r\n10，寒夜\r\n（作词：谢梦琼；作曲：姜帆；编曲：谢维）\r\n11，幻\r\n（作词：林霞；作曲：姜帆；编曲：谢维）\r\n12，冒险乐园\r\n（作词：谢梦琼；作曲：鸭毛；编曲：生命树-小王子）\r\n13，废墟纪元\r\n（作词：傅锦川；作曲：张宴箐；编曲：彼得潘/许晋嘉）\r\n14，战歌\r\n（作词：谢梦琼；作曲：鸭毛；编曲：郭伟聪）\r\n15，我的存在\r\n（作词：谢梦琼；作曲：鸭毛；编曲：）\r\n16，无尽的世界\r\n（作词：谢梦琼/鸭毛；作曲：鸭毛；编曲：郭伟聪）',
     typeClass: 'dot-blue',
     url: 'https://space.bilibili.com/12444300/channel/detail?cid=17735'
+  }, {
+    name: '1月12日',
+    title: '《大家好 我们是SNH48》 SNH48 出道4周年 纪念公演',
+    description: '《猛犸》《最后的钟声响起》《梅洛斯之路》《爱的洄游鱼》,MC1：出道4年到现在的感受,《爱恨的泪》《再爱一回》《初恋小盗》《夜蝶》《流着泪微笑》,MC2：与一期生前辈们的点点滴滴,《激流之战》《开拓者》《钻石呐喊》,MC3：与SNH48是怎样结缘的,《一心向前》《机尾云》,MC4,：提问环节：（Q1）2017最心酸的事（Q2）4年来对哪个成员的感情日常变质（Q3）出道四周年了最喜欢哪一套公演,《So long》+分团祝福,王子杰殿下特别曲目《你知道我在推你吗》,《支柱》',
+    summarize: 'SNH48\r\n满满的，都是回忆；\r\n满满的，都是欢笑；\r\n满满的，都是泪水……\r\n4年后，重新站在这个舞台。\r\n千言万语，已不知从何说起。\r\n这一刻，只愿任性地让泪水肆意模糊视线……\r\n四周年纪念公演……\r\n2017年1月12日……\r\n铭记',
+    typeClass: 'dot-blue',
+    url: 'https://www.bilibili.com/video/av9021764'
   }]
 }, {
   year: {
