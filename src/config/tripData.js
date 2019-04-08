@@ -53,6 +53,13 @@ export const tripData = [{
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av47772372'
   }, {
+    nameMonth: '3月27日',
+    title: '莫寒的8个梦',
+    description: '',
+    summarize: '新浪微博独播#明星制片人微计划#',
+    typeClass: 'got-red',
+    url: 'https://www.bilibili.com/video/av48712575'
+  }, {
     nameMonth: '3月25日',
     title: '第26届 东方风云榜',
     description: 'SNH48 7Senses',
@@ -348,6 +355,12 @@ export const tripData = [{
       description: '出席成员：孙芮，李宇琪',
       typeClass: 'dot-green',
       url: 'https://v.qq.com/x/cover/syf5vvuk9e5jup2/v00286kb0w7.html'
+    }, {
+      nameMonth: '6月10日',
+      title: '梦想演播厅',
+      description: '第一期：徐晨辰、孔肖吟《戒烟》,第二期：《》,第三期：《》,第四期：《》,第五期：《》',
+      typeClass: 'dot-green',
+      url: 'http://www.iqiyi.com/a_19rrgxbl71.html'
     }, {
       nameMonth: '5月1日 14:00',
       title: '《美丽48区》',

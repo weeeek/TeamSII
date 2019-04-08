@@ -242,6 +242,14 @@ export const recommendConfig = {
         img: '//i0.hdslb.com/bfs/archive/bd17f5ae84e7e0925c4f42b7acb16971b7a9a9d3.jpg_380x240.jpg'
       }]
     }, {
+      type: '官方制作',
+      list: [{
+        title: '莫寒的八个梦',
+        from: 'B',
+        av: '48712575',
+        img: '//i0.hdslb.com/bfs/archive/a06e54cb73664f55c9170e86434fecdd920ba70e.png_380x240.png'
+      }]
+    }, {
       type: '治愈',
       list: [{
         title: '说了多少次，不要让爸爸带孩子',

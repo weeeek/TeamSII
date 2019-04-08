@@ -15,7 +15,8 @@
           <div class="accounts">
             <a :href="m.weibo" :title="`微博-${m.name}`" target="_blank" class="favicon favicon-weibo" v-if="m.weibo"></a>
             <a :href="m.bilibili" :title="`B站-${m.name}`" target="_blank" class="favicon favicon-bilibili" v-if="m.bilibili"></a>
-            <a :href="m.douyin" :title="`抖音-${m.name}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a>
+            <!-- <a href="javascript:void(0)" :data-clipboard-text="m.douyin" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a> -->
+            <a href="javascript:void(0)" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a>
             <a :href="m.changba" :title="`唱吧-${m.name}`" target="_blank" class="favicon favicon-changba" v-if="m.changba"></a>
             <a :href="m.miaopai" :title="`秒拍-${m.name}`" target="_blank" class="favicon favicon-miaopai" v-if="m.miaopai"></a>
             <a :href="m.weibomusic" :title="`微博音乐-${m.name}`" target="_blank" class="favicon favicon-music-weibo" v-if="m.weibomusic"></a>
@@ -29,6 +30,7 @@
 <script type="text/ecmascript-6">
   import WordCloud from 'components/plugin/highchart-wordcloud'
   import {memberData} from 'config/memberData'
+  // import Clipboard from 'clipboard'
 
   export default {
     name: 'Index',
@@ -58,6 +60,9 @@
         },
         memberDataList: memberData
       }
+    },
+    mounted () {
+      // const clipboard = new Clipboard('.favicon-douyin')
     },
     methods: {
       initData (text) {
