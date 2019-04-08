@@ -4,7 +4,14 @@ export const tripData = [{
     to: '2019'
   },
   items: [{
-    nameMonth: '4月21日 19:00',
+    nameMonth: '5月18日',
+    title: '"燃烧吧！团魂" Team SII 对阵 Team NIII，深圳',
+    description: '',
+    summarize: '',
+    typeClass: 'dot-blue',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
+    nameMonth: '4月21日 14:00',
     title: '《重生计划》第20场，莫寒生日公演',
     description: '',
     summarize: '',

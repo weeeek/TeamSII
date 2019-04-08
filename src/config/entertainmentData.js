@@ -9,7 +9,7 @@ export const entertainmentConfig = {
     {
       name: 'SNH48 Group 第二届 偶像运动会',
       url: 'javascript:void(0)',
-      img: 'http://wx4.sinaimg.cn/large/a04b2a1dgy1g11c7gbbprj20dw0dw0x5.jpg'
+      img: 'http://wx1.sinaimg.cn/large/a04b2a1dly1g1qcs47oyoj20u01hcu0n.jpg'
     }, {
       name: '国民美少女',
       url: 'https://www.bilibili.com/video/av4227744',
