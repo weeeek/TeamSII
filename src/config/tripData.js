@@ -12,7 +12,14 @@ export const tripData = [{
     url: 'http://www.snh48.com/ticket.php'
   }, {
     nameMonth: '4月21日 14:00',
-    title: '《重生计划》第20场，莫寒生日公演',
+    title: '《重生计划》第21场，莫寒生日公演',
+    description: '',
+    summarize: '',
+    typeClass: 'dot-blue',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
+    nameMonth: '4月18日 19:30',
+    title: '《重生计划》第20场',
     description: '',
     summarize: '',
     typeClass: 'dot-blue',
@@ -358,7 +365,7 @@ export const tripData = [{
     }, {
       nameMonth: '6月10日',
       title: '梦想演播厅',
-      description: '第一期：徐晨辰、孔肖吟《戒烟》,第二期：《》,第三期：《》,第四期：《》,第五期：《》',
+      description: '20180610第一期：徐晨辰、孔肖吟《戒烟》,20180617第二期：徐子轩、吴哲晗《Don\'t Touch》，钱蓓婷、徐晨辰、成珏《双生花》，刘增艳《虫之诗》,20180624第三期：吴哲晗、徐子轩《女王殿下》，袁雨桢、袁丹妮《花儿为什么这样红》，陈观慧、陈思《天使的圈套》,20180701第四期：莫寒《幻梦》，吕一、蒋芸《雨声残响》,20180708第五期：许佳琪、戴萌《易燃易爆炸》，李宇琪、汪佳翎，谢天依《刀马旦》，张语格《寒夜》《红豆》,20180715第六期：孙芮、温晶婕《Havana》，冯晓菲、曾艾佳《Secret》，蒋芸《桃夭》，戴萌、许佳琪、张昕《骑士精神》',
       typeClass: 'dot-green',
       url: 'http://www.iqiyi.com/a_19rrgxbl71.html'
     }, {
@@ -383,9 +390,9 @@ export const tripData = [{
     typeClass: 'dot-blue',
     url: 'https://space.bilibili.com/12444300/channel/detail?cid=17735'
   }, {
-    name: '1月12日',
+    nameMonth: '1月12日',
     title: '《大家好 我们是SNH48》 SNH48 出道4周年 纪念公演',
-    description: '《猛犸》《最后的钟声响起》《梅洛斯之路》《爱的洄游鱼》,MC1：出道4年到现在的感受,《爱恨的泪》《再爱一回》《初恋小盗》《夜蝶》《流着泪微笑》,MC2：与一期生前辈们的点点滴滴,《激流之战》《开拓者》《钻石呐喊》,MC3：与SNH48是怎样结缘的,《一心向前》《机尾云》,MC4,：提问环节：（Q1）2017最心酸的事（Q2）4年来对哪个成员的感情日常变质（Q3）出道四周年了最喜欢哪一套公演,《So long》+分团祝福,王子杰殿下特别曲目《你知道我在推你吗》,《支柱》',
+    description: '《猛犸》《最后的钟声响起》《梅洛斯之路》《爱的洄游鱼》,MC1：出道4年到现在的感受,《爱恨的泪》《再爱一回》《初恋小盗》《夜蝶》《流着泪微笑》,MC2：与一期生前辈们的点点滴滴,《激流之战》《开拓者》《钻石呐喊》,MC3：与SNH48是怎样结缘的,《一心向前》《机尾云》,MC4提问环节：（Q1）2017最心酸的事（Q2）4年来对哪个成员的感情日常变质（Q3）出道四周年了最喜欢哪一套公演,《So long》+分团祝福,王子杰殿下特别曲目《你知道我在推你吗》,《支柱》',
     summarize: 'SNH48\r\n满满的，都是回忆；\r\n满满的，都是欢笑；\r\n满满的，都是泪水……\r\n4年后，重新站在这个舞台。\r\n千言万语，已不知从何说起。\r\n这一刻，只愿任性地让泪水肆意模糊视线……\r\n四周年纪念公演……\r\n2017年1月12日……\r\n铭记',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av9021764'
@@ -468,7 +475,7 @@ export const tripData = [{
   },
   items: [
     {
-      nameMonth: '11月07日 19:00',
+      nameMonth: '11月7日 19:00',
       title: '《勇气重生》第1场',
       description: '出席成员：陈观慧 陈思 戴萌 宫小荷 孔肖吟 李宇琪 莫寒 钱蓓婷 邱欣怡 孙芮 温晶婕 吴哲晗 徐晨辰 许佳琪 袁丹妮 袁雨桢 张语格 赵嘉敏 赵晔 曾琳瑜',
       summarize: '数据来源：http://wiki.akbfun48.com/index.php?title=SNH48_Team_SII剧场公演合集',

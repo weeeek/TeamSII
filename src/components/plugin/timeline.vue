@@ -60,7 +60,7 @@ export default {
       }
     },
     splitDescription (str) {
-      return str.split(',').reverse().join('<br>')
+      return str.split(',').join('<br>')
     },
   },
   mounted () {

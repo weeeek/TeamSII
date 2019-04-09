@@ -12,7 +12,7 @@
             </button>
           </div>
           <div class="members" v-show="show">            
-            <div class="member" v-for="(m, index) in YYHList" :key="m.id" v-on:click="exchange(m)" :title="m.checked">
+            <div class="member" v-for="(m, index) in YYHList" :key="m.id" v-on:click="exchange(m)">
               <blockcheck :class="`.member${index}`" :id="m.id" :text="m.name" :status.sync="m.checked"></blockcheck>
             </div>
           </div>
