@@ -375,6 +375,13 @@ export const tripData = [{
       summarize: '1，S Zone\r\n2，I Hate You\r\n3，破茧\r\n（作词：谢梦琼；作曲：姜帆；编曲：郭伟聪）\r\n4，MUTE\r\n（作词：谢梦琼；作曲：姜帆；编曲：郭伟聪）\r\n5，第48区\r\n（作词：天乐；作曲、编曲：都智文）\r\n6，天使的圈套\r\n7，High Light\r\n8，完美犯罪\r\n9，爱未央\r\n（作词：傅锦川；作曲：张宴箐；编曲：谢维）\r\n10，黑夜女神\r\n11，关不掉\r\n12，幻\r\n（作词：林霞；作曲：姜帆；编曲：谢维）\r\n13，冒险乐园\r\n（作词：谢梦琼；作曲：鸭毛；编曲：生命树-小王子）\r\n14，废墟纪元\r\n（作词：傅锦川；作曲：张宴箐；编曲：彼得潘/许晋嘉）\r\n15，战歌\r\n（作词：谢梦琼；作曲：鸭毛；编曲：郭伟聪）\r\n16，第48区\r\n（作词：天乐；作曲、编曲：都智文）\r\n17，美丽世界',
       typeClass: 'dot-blue',
       url: 'https://www.bilibili.com/video/av22840343'
+    }, {
+      nameMonth: '4月7日',
+      title: 'SNH48 Group 第一届偶像运动会',
+      description: 'Team SII 5金1铜 获得团体总冠军,长绳：TeamSII 金牌,跳高：许佳琪 金牌，徐伊人 铜牌,拔河：Team SII 金牌,小自行车接力：袁雨桢、袁丹妮 金牌,7人6足：Team SII 金牌,25*8折返跑 Team SII 铜牌',
+      summarize: '在上海宝钢体育中心举办的第一届SNH48首届偶像运动会上，艾斯兔成员齐心协力，众志成城，夺得了集体长绳，跳高，小自行车接力赛，集体竞走，拔河五个项目的冠军以及团队冠军。',
+      typeClass: 'dot-green',
+      url: 'https://www.bilibili.com/video/av21789837'
     }
   ]
 }, {
