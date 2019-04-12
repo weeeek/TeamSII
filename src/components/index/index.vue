@@ -5,8 +5,63 @@
       <div class="slogan">{{ slogan }}</div>
     </div>
     <div class="block">
+      <h2 v-show="false">每当世界在变幻，这舞台就是你旅程的港湾</h2>
       <div class="members">
         <div class="member" v-for="m in memberDataList" :key="m.name">
+          <div class="photo" :style="`background-image:url(${m.photo})`">  
+            <a v-if="m.group" class="group name" :class="m.group" target="_blank" :href="getGroupWeibo(m.group)"></a>
+            <div class="cover"></div>
+          </div>
+          <div class="name">{{m.name}}</div>
+          <div class="accounts">
+            <a :href="m.weibo" :title="`微博-${m.name}`" target="_blank" class="favicon favicon-weibo" v-if="m.weibo"></a>
+            <a :href="m.bilibili" :title="`B站-${m.name}`" target="_blank" class="favicon favicon-bilibili" v-if="m.bilibili"></a>
+            <!-- <a href="javascript:void(0)" :data-clipboard-text="m.douyin" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a> -->
+            <a href="javascript:void(0)" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a>
+            <a :href="m.changba" :title="`唱吧-${m.name}`" target="_blank" class="favicon favicon-changba" v-if="m.changba"></a>
+            <a :href="m.miaopai" :title="`秒拍-${m.name}`" target="_blank" class="favicon favicon-miaopai" v-if="m.miaopai"></a>
+            <a :href="m.weibomusic" :title="`微博音乐-${m.name}`" target="_blank" class="favicon favicon-music-weibo" v-if="m.weibomusic"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="block" v-show="false">
+      <h2>沿途是否记得，一起欢笑泪水的伙伴</h2>
+      <div class="members">
+        <div class="member" v-for="m in pet48DataList" :key="m.name">
+          <div class="photo" :style="`background-image:url(${m.photo})`">  
+            <a v-if="m.group" class="group name" :class="m.group" target="_blank" :href="getGroupWeibo(m.group)"></a>
+            <div class="cover"></div>
+          </div>
+          <div class="name">{{m.master}} - {{m.name}}</div>
+        </div>
+      </div>
+    </div>    
+    <div class="block" v-show="false">
+      <h2>回忆还感动吗，梦是否已在青空上盛开</h2>
+      <div class="members">
+        <div class="member" v-for="m in otherTeamMemberData" :key="m.name">
+          <div class="photo" :style="`background-image:url(${m.photo})`">  
+            <a v-if="m.group" class="group name" :class="m.group" target="_blank" :href="getGroupWeibo(m.group)"></a>
+            <div class="cover"></div>
+          </div>
+          <div class="name">{{m.name}}</div>
+          <div class="accounts">
+            <a :href="m.weibo" :title="`微博-${m.name}`" target="_blank" class="favicon favicon-weibo" v-if="m.weibo"></a>
+            <a :href="m.bilibili" :title="`B站-${m.name}`" target="_blank" class="favicon favicon-bilibili" v-if="m.bilibili"></a>
+            <!-- <a href="javascript:void(0)" :data-clipboard-text="m.douyin" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a> -->
+            <a href="javascript:void(0)" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a>
+            <a :href="m.changba" :title="`唱吧-${m.name}`" target="_blank" class="favicon favicon-changba" v-if="m.changba"></a>
+            <a :href="m.miaopai" :title="`秒拍-${m.name}`" target="_blank" class="favicon favicon-miaopai" v-if="m.miaopai"></a>
+            <a :href="m.weibomusic" :title="`微博音乐-${m.name}`" target="_blank" class="favicon favicon-music-weibo" v-if="m.weibomusic"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="block" v-show="false">
+      <h2>十年后再回首，我们初心不改</h2>
+      <div class="members">
+        <div class="member" v-for="m in exitMemberData" :key="m.name">
           <div class="photo" :style="`background-image:url(${m.photo})`">  
             <a v-if="m.group" class="group name" :class="m.group" target="_blank" :href="getGroupWeibo(m.group)"></a>
             <div class="cover"></div>
@@ -29,7 +84,7 @@
 
 <script type="text/ecmascript-6">
   import WordCloud from 'components/plugin/highchart-wordcloud'
-  import {memberData} from 'config/memberData'
+  import {memberData, pet48Data, exitMemberData, otherTeamMemberData} from 'config/memberData'
   // import Clipboard from 'clipboard'
 
   export default {
@@ -58,7 +113,10 @@
             enabled: false
           }
         },
-        memberDataList: memberData
+        memberDataList: memberData,
+        pet48DataList: pet48Data,
+        exitMemberDataList: exitMemberData,
+        otherTeamMemberData: otherTeamMemberData
       }
     },
     mounted () {
@@ -128,110 +186,126 @@
   font-family sans-serif
   font-weight 600
 
-.members
-  display flex
-  flex-wrap wrap
-  justify-content space-between
-  align-content space-between
-  .member
-    .name
-      text-align center
-    .photo
-      height 160px
-      background-repeat no-repeat
-      background-position center center
-      background-size contain
-      position relative
-      .group
-        position absolute
-        left calc(50% + 37.5px)
-        top -12.5px
-        border-radius 50%
+.block
+  h2
+    text-align center
+  .members
+    display flex
+    flex-wrap wrap
+    justify-content space-between
+    align-content space-between
+    .member
+      .name
+        text-align center
+      .photo
+        height 160px
         background-repeat no-repeat
         background-position center center
         background-size contain
-        display inline-block
-        width 40px
-        height 40px
-        box-shadow 0 0 3px #000
-      .sense
-        background-image url('/TeamSII/dist/static/images/sense.jpg')
-      .blueV
-        background-image url('/TeamSII/dist/static/images/bluev.jpg')
-      .new
-        background-image url('/TeamSII/dist/static/images/new.png')
-      .cover
-        background-image url('http://www.snh48.com/images/member/zx5_def_s.png')
-        background-repeat no-repeat
-        background-position center center
-        background-size contain 
-        width 100%
-        height 100%
-    .accounts
-      margin 0 auto
-      display flex
-      justify-content space-around
-      .favicon
-        flex-grow 0
-        flex-shrink 1
+        position relative
+        .group
+          position absolute
+          left calc(50% + 37.5px)
+          top -12.5px
+          border-radius 50%
+          background-repeat no-repeat
+          background-position center center
+          background-size contain
+          display inline-block
+          width 40px
+          height 40px
+          box-shadow 0 0 3px #000
+        .sense
+          background-image url('/TeamSII/dist/static/images/sense.jpg')
+        .blueV
+          background-image url('/TeamSII/dist/static/images/bluev.jpg')
+        .new
+          background-image url('/TeamSII/dist/static/images/new.png')
+        .cover
+          background-image url('http://www.snh48.com/images/member/zx5_def_s.png')
+          background-repeat no-repeat
+          background-position center center
+          background-size contain 
+          width 100%
+          height 100%
+      .accounts
+        margin 0 auto
+        display flex
+        justify-content space-around
+        .favicon
+          flex-grow 0
+          flex-shrink 1
 @media screen and (min-width 1366px)
   .slogan  
     font-size 24px
   .favicon
     width 16px
     height 16px
-  .members
-    .member
-      flex 0 0 20%
-      margin-bottom 25px
-    .name
-      font-size 24px
-      margin 10px auto
-    .accounts
-      width 60%
+  .block
+    h2
+      margin 0 0 16px 0
+    .members
+      .member
+        flex 0 0 20%
+        margin-bottom 25px
+      .name
+        font-size 24px
+        margin 10px auto
+      .accounts
+        width 60%
 @media screen and (max-width 1366px)
   .slogan  
     font-size 20px
   .favicon
     width 16px
-    height 16px
-  .members
-    .name
-      font-size 20px
-      margin 8px auto
-    .member
-      flex 0 0 25%      
-      margin-bottom 20px
-    .accounts
-      width 65%
+    height 16px  
+  .block
+    h2
+      margin 0 0 12px 0
+    .members
+      .name
+        font-size 20px
+        margin 8px auto
+      .member
+        flex 0 0 25%      
+        margin-bottom 20px
+      .accounts
+        width 65%
 @media screen and (max-width 700px)
   .slogan  
     font-size 16px
   .favicon
     width 16px
     height 16px
-  .members
-    .name
-      font-size 16px
-      margin 6px auto
-    .member
-      flex 0 0 33%      
-      margin-bottom 15px
-    .accounts
-      width 70%
+    
+  .block
+    h2
+      margin 0 0 8px 0
+    .members
+      .name
+        font-size 16px
+        margin 6px auto
+      .member
+        flex 0 0 33%      
+        margin-bottom 15px
+      .accounts
+        width 70%
 @media screen and (max-width 540px)
   .slogan  
     font-size 12px
   .favicon
     width 16px
-    height 16px
-  .members
-    .name
-      font-size 12px
-      margin 4px auto
-    .member
-      flex 0 0 50%
-      margin-bottom 10px
-    .accounts
-      width 75%
+    height 16px    
+  .block
+    h2
+      margin 0 0 4px 0
+    .members
+      .name
+        font-size 12px
+        margin 4px auto
+      .member
+        flex 0 0 50%
+        margin-bottom 10px
+      .accounts
+        width 75%
 </style>

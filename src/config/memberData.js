@@ -239,20 +239,6 @@ export const memberData = [{
     id: '1067442'
   }
 }, {
-  name: '徐伊人',
-  photo: 'http://www.snh48.com/images/member/mp_10069.jpg',
-  weibo: 'https://weibo.com/u/5228057280',
-  bilibili: 'https://space.bilibili.com/14801692/',
-  douyin: '163927666',
-  changba: null,
-  miaopai: null,
-  pocket48: 43,
-  group: null,
-  modian: {
-    enabled: true,
-    id: '1189199'
-  }
-}, {
   name: '徐子轩',
   photo: 'http://www.snh48.com/images/member/mp_10016.jpg',
   weibo: 'https://weibo.com/u/3675905275',
@@ -279,20 +265,6 @@ export const memberData = [{
   modian: {
     enabled: true,
     id: '1156063'
-  }
-}, {
-  name: '杨令仪',
-  photo: 'http://www.snh48.com/images/member/mp_10193.jpg',
-  weibo: 'https://weibo.com/u/6502566940',
-  bilibili: null,
-  douyin: null,
-  changba: null,
-  miaopai: null,
-  pocket48: 677401,
-  group: null,
-  modian: {
-    enabled: true,
-    id: '1676139'
   }
 }, {
   name: '袁雨桢',
@@ -336,60 +308,252 @@ export const memberData = [{
     enabled: true,
     id: '1157969'
   }
-}, {
-  name: '成珏',
-  photo: 'https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=e8f928875582b2b7b392319650c4a08a/dcc451da81cb39dbff40d7d5dc160924aa1830b4.jpg',
-  weibo: 'https://weibo.com/u/5861419679',
-  bilibili: '',
-  douyin: 'CJ_0103',
-  changeba: null,
-  miaopai: null,
-  pocket48: null,
-  group: null,
-  modian: {
-    enabled: false,
-    id: '1604111'
-  }
-}, {
-  name: '赵晔',
-  photo: 'http://www.snh48.com/images/member/mp_10077.jpg',
-  weibo: 'https://weibo.com/u/5221220112',
-  bilibili: 'https://space.bilibili.com/2310475/',
-  douyin: 'Yukino828',
-  changba: null,
-  miaopai: null,
-  pocket48: 6429,
-  group: null,
-  modian: {
-    enabled: false,
-    id: '1093167'
-  }
-}, {
-  name: '吕一',
-  photo: 'http://www.snh48.com/images/member/mp_10153.jpg',
-  weibo: 'http://weibo.com/u/6021143413',
-  bilibili: 'https://space.bilibili.com/11399736',
-  douyin: 'Kokoi_',
-  changba: null,
-  miaopai: null,
-  pocket48: 399631,
-  group: 'blueV',
-  modian: {
-    enabled: true,
-    id: '1082202'
-  }
-}, {
-  name: '冯晓菲',
-  photo: 'http://www.snh48.com/images/member/mp_10082.jpg',
-  weibo: 'https://weibo.com/u/5461287018',
-  bilibili: null,
-  douyin: '384991613',
-  changba: null,
-  miaopai: null,
-  pocket48: 6432,
-  group: null,
-  modian: {
-    enabled: true,
-    id: '1170704'
-  }
 }]
+
+export const pet48Data = [
+  {
+    name: 'Duang Daung',
+    photo: '',
+    master: '孙芮'
+  },
+  {
+    name: '胖胖',
+    photo: '',
+    master: '钱蓓婷'
+  },
+  {
+    name: 'Q米',
+    photo: '',
+    master: '许佳琪'
+  },
+  {
+    name: '安娜',
+    photo: '',
+    master: '戴萌'
+  },
+  {
+    name: '憨憨',
+    photo: '',
+    master: '袁雨桢'
+  }
+]
+
+export const otherTeamMemberData = [
+  {
+    name: '吕一',
+    photo: 'http://www.snh48.com/images/member/mp_10153.jpg',
+    weibo: 'http://weibo.com/u/6021143413',
+    bilibili: 'https://space.bilibili.com/11399736',
+    douyin: 'Kokoi_',
+    changba: null,
+    miaopai: null,
+    pocket48: 399631,
+    group: 'blueV',
+    modian: {
+      enabled: true,
+      id: '1082202'
+    }
+  }, {
+    name: '冯晓菲',
+    photo: 'http://www.snh48.com/images/member/mp_10082.jpg',
+    weibo: 'https://weibo.com/u/5461287018',
+    bilibili: null,
+    douyin: '384991613',
+    changba: null,
+    miaopai: null,
+    pocket48: 6432,
+    group: null,
+    modian: {
+      enabled: true,
+      id: '1170704'
+    }
+  }
+]
+
+export const exitMemberData = [
+  {
+    name: '赵韩倩',
+    photo: '',
+    weibo: '',
+    bilibili: '',
+    douyin: '',
+    changeba: null,
+    miaopai: null,
+    pocket48: null,
+    group: null,
+    modian: {
+      enabled: false,
+      id: ''
+    }
+  },
+  {
+    name: '沈之琳',
+    photo: '',
+    weibo: '',
+    bilibili: '',
+    douyin: '',
+    changeba: null,
+    miaopai: null,
+    pocket48: null,
+    group: null,
+    modian: {
+      enabled: false,
+      id: ''
+    }
+  },
+  {
+    name: '成珏',
+    photo: 'https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=e8f928875582b2b7b392319650c4a08a/dcc451da81cb39dbff40d7d5dc160924aa1830b4.jpg',
+    weibo: 'https://weibo.com/u/5861419679',
+    bilibili: '',
+    douyin: 'CJ_0103',
+    changeba: null,
+    miaopai: null,
+    pocket48: null,
+    group: null,
+    modian: {
+      enabled: false,
+      id: '1604111'
+    }
+  }, {
+    name: '赵晔',
+    photo: 'http://www.snh48.com/images/member/mp_10077.jpg',
+    weibo: 'https://weibo.com/u/5221220112',
+    bilibili: 'https://space.bilibili.com/2310475/',
+    douyin: 'Yukino828',
+    changba: null,
+    miaopai: null,
+    pocket48: 6429,
+    group: null,
+    modian: {
+      enabled: false,
+      id: '1093167'
+    }
+  }, {
+    name: '杨令仪',
+    photo: 'http://www.snh48.com/images/member/mp_10193.jpg',
+    weibo: 'https://weibo.com/u/6502566940',
+    bilibili: null,
+    douyin: null,
+    changba: null,
+    miaopai: null,
+    pocket48: 677401,
+    group: null,
+    modian: {
+      enabled: false,
+      id: '1676139'
+    }
+  }, {
+    name: '徐伊人',
+    photo: 'http://www.snh48.com/images/member/mp_10069.jpg',
+    weibo: 'https://weibo.com/u/5228057280',
+    bilibili: 'https://space.bilibili.com/14801692/',
+    douyin: '163927666',
+    changba: null,
+    miaopai: null,
+    pocket48: 43,
+    group: null,
+    modian: {
+      enabled: false,
+      id: '1189199'
+    }
+  }, {
+    name: '刘力玮',
+    photo: '',
+    weibo: '',
+    bilibili: null,
+    douyin: null,
+    changba: null,
+    miaopai: null,
+    pocket48: null,
+    group: null,
+    modian: {
+      enabled: false,
+      id: ''
+    }
+  }, {
+    name: '申月娇',
+    photo: '',
+    weibo: '',
+    bilibili: null,
+    douyin: null,
+    changba: null,
+    miaopai: null,
+    pocket48: null,
+    group: null,
+    modian: {
+      enabled: false,
+      id: ''
+    }
+  }, {
+    name: '徐佳丽',
+    photo: '',
+    weibo: '',
+    bilibili: null,
+    douyin: null,
+    changba: null,
+    miaopai: null,
+    pocket48: null,
+    group: null,
+    modian: {
+      enabled: false,
+      id: ''
+    }
+  }, {
+    name: '曾琳瑜',
+    photo: '',
+    weibo: '',
+    bilibili: null,
+    douyin: null,
+    changba: null,
+    miaopai: null,
+    pocket48: null,
+    group: null,
+    modian: {
+      enabled: false,
+      id: ''
+    }
+  }, {
+    name: '汤敏',
+    photo: '',
+    weibo: '',
+    bilibili: null,
+    douyin: null,
+    changba: null,
+    miaopai: null,
+    pocket48: null,
+    group: null,
+    modian: {
+      enabled: false,
+      id: ''
+    }
+  }, {
+    name: '董芷依',
+    photo: '',
+    weibo: '',
+    bilibili: null,
+    douyin: null,
+    changba: null,
+    miaopai: null,
+    pocket48: null,
+    group: null,
+    modian: {
+      enabled: false,
+      id: ''
+    }
+  }, {
+    name: '赵嘉敏',
+    photo: '',
+    weibo: '',
+    bilibili: null,
+    douyin: null,
+    changba: null,
+    miaopai: null,
+    pocket48: null,
+    group: null,
+    modian: {
+      enabled: false,
+      id: ''
+    }
+  }
+]

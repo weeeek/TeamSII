@@ -106,7 +106,7 @@ export const burningGroup = [{
 }, {
   group: 2,
   winner: null,
-  bg: '',
+  bg: 'https://wx4.sinaimg.cn/mw1024/6f4898e1gy1g1xn0ta5xjj20u016fe88.jpg',
   team: [{
     name: 'Team J',
     color: 'team-j',
