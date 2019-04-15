@@ -26,11 +26,11 @@ export const tripData = [{
     url: 'http://www.snh48.com/ticket.php'
   }, {
     nameMonth: '4月13日',
-    title: 'SNH48 Group第二届偶像运动会',
-    description: '',
-    summarize: '',
-    typeClass: 'dot-green',
-    url: 'http://www.snh48.com/ticket.php'
+    title: 'SNH48 Group 第二届偶像运动会',
+    description: '主持人：莫寒,内场记者：钱蓓婷、孔肖吟、袁雨桢,花式投篮接力：戴萌、李宇琪、刘增艳、吴哲晗,25*8折返跑：戴萌、吴哲晗、许佳琪、张语格,三项全能（踢毽子，跳绳，呼啦圈）：温晶婕 铜牌,气球大乱斗：陈思,跳高：张语格,射箭：袁丹妮 银牌,拔河：Team SII 金牌',
+    summarize: '恭喜TeamSII成功卫冕拔河冠军',
+    typeClass: 'dot-black',
+    url: 'https://www.bilibili.com/video/av49191421'
   }, {
     nameMonth: '4月7日 19:00',
     title: '《重生计划》第19场，袁雨桢生日公演',
@@ -366,7 +366,7 @@ export const tripData = [{
       nameMonth: '6月10日',
       title: '梦想演播厅',
       description: '20180610第一期：徐晨辰、孔肖吟《戒烟》,20180617第二期：徐子轩、吴哲晗《Don\'t Touch》，钱蓓婷、徐晨辰、成珏《双生花》，刘增艳《虫之诗》,20180624第三期：吴哲晗、徐子轩《女王殿下》，袁雨桢、袁丹妮《花儿为什么这样红》，陈观慧、陈思《天使的圈套》,20180701第四期：莫寒《幻梦》，吕一、蒋芸《雨声残响》,20180708第五期：许佳琪、戴萌《易燃易爆炸》，李宇琪、汪佳翎，谢天依《刀马旦》，张语格《寒夜》《红豆》,20180715第六期：孙芮、温晶婕《Havana》，冯晓菲、曾艾佳《Secret》，蒋芸《桃夭》，戴萌、许佳琪、张昕《骑士精神》',
-      typeClass: 'dot-green',
+      typeClass: 'dot-black',
       url: 'http://www.iqiyi.com/a_19rrgxbl71.html'
     }, {
       nameMonth: '5月1日 14:00',
@@ -380,7 +380,7 @@ export const tripData = [{
       title: 'SNH48 Group 第一届偶像运动会',
       description: 'Team SII 5金2铜 获得团体总冠军,解说：莫寒,长绳：孙芮、许佳琪、李宇琪、袁丹妮、陈思、刘增艳、戴萌、徐晨辰、徐子轩 金牌,跳高：许佳琪 金牌，徐伊人 铜牌,拔河：刘增艳、吴哲晗、陈思、张语格、陈观慧、徐伊人、孙芮、袁雨桢、李宇琪、戴萌、以及某260斤的聚聚 金牌,小自行车接力：袁雨桢、袁丹妮 金牌,7人6足：徐子轩、陈思、戴萌、许佳琪、吕一、蒋芸、钱蓓婷 金牌,25*8折返跑 戴萌、吴哲晗、徐伊人 铜牌',
       summarize: '在上海宝钢体育中心举办的第一届SNH48首届偶像运动会上，艾斯兔成员齐心协力，众志成城，夺得了集体长绳，跳高，小自行车接力赛，集体竞走，拔河五个项目的冠军以及团队冠军。',
-      typeClass: 'dot-green',
+      typeClass: 'dot-black',
       url: 'https://www.bilibili.com/video/av21789837'
     }
   ]
@@ -443,7 +443,7 @@ export const tripData = [{
       title: '《国民美少女》，一场爱意满满的青春之战',
       description: '简称“国美”，特邀嘉宾：费玉清，叫兽易小星,出场：张语格，莫寒，许佳琪，吴哲晗，戴萌，蒋芸，李宇琪，沈之琳，袁雨桢，钱蓓婷，孔肖吟，孙芮，陈思，陈观慧,分入国美S队：宋昕冉，张菡筱，陈音，汪佳翎，邵雪聪，谢天依',
       summarize: '优酷全集观看：http://list.youku.com/show/id_ze7bf3156ab0211e5a080.html?tpa=dW5pb25faWQ9MTAzNzUzXzEwMDAwMV8wMV8wMQ&refer=baiduald1705',
-      typeClass: 'dot-green',
+      typeClass: 'dot-black',
       url: 'https://www.bilibili.com/video/av4227744'
     }
   ]

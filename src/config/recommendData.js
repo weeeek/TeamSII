@@ -166,10 +166,34 @@ export const recommendConfig = {
     }, {
       type: '综艺',
       list: [{
+        title: '第二届SNH48偶像运动会',
+        from: 'B',
+        av: '49191421',
+        img: '//i1.hdslb.com/bfs/archive/b2eedfe1db2ddcfef4c033855a67c6f27e29d4ae.jpg_380x240.jpg',
+        position: 'center center'
+      }, {
+        title: 'NHK综合《もう1人の私に会いたい！（想见另一个我！）》',
+        from: 'B',
+        av: '39290717',
+        img: '//i1.hdslb.com/bfs/archive/1863d1c8ae3157eabe14004c2b747a2282a1fb48.jpg_380x240.jpg',
+        position: 'center center'
+      }, {
+        title: '梦想演播厅',
+        from: 'I',
+        url: 'a_19rrgxbl71',
+        img: '//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180703/e0852181324340409af34d7bb3de6f9e.jpg',
+        position: 'center center'
+      }, {
         title: '第一届SNH48偶像运动会',
         from: 'B',
         av: '21789837',
         img: '//i1.hdslb.com/bfs/archive/199b2bad69f6ec493abace2c69bc0958f24c489c.png_380x240.png',
+        position: 'center center'
+      }, {
+        title: '国民美少女',
+        from: 'B',
+        url: '4227744',
+        img: '//i0.hdslb.com/bfs/archive/afdcf9d24a4c36d493228718dbf4ec2a7e693771.jpg_380x240.jpg',
         position: 'center center'
       }]
     }, {
@@ -377,6 +401,18 @@ export const recommendConfig = {
         from: 'B',
         av: '7053703',
         img: '//i1.hdslb.com/bfs/archive/bfd7a5441cfc66177bcae7bbc038c1d2b60c25b4.jpg_380x240.jpg',
+        position: 'center center'
+      }, {
+        title: '日本小提琴手Ayasa绚沙-《预言》',
+        from: 'B',
+        av: '48977779',
+        img: '//i0.hdslb.com/bfs/archive/e86d730b0e4afc51078eab019137072f367b2c20.jpg_380x240.jpg',
+        position: 'center center'
+      }, {
+        title: '白堕=《预言》',
+        from: 'B',
+        av: '45086106',
+        img: '//i0.hdslb.com/bfs/archive/4fe75a174e0a8606229b30fcb2116b5e4e08f2df.jpg_380x240.jpg',
         position: 'center center'
       }]
     }, {
