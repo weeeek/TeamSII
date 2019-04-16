@@ -11,6 +11,13 @@ export const tripData = [{
     typeClass: 'dot-blue',
     url: 'http://www.snh48.com/ticket.php'
   }, {
+    nameMonth: '4月26日 19:30',
+    title: '《重生计划》第22场',
+    description: '',
+    summarize: '',
+    typeClass: 'dot-blue',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
     nameMonth: '4月21日 14:00',
     title: '《重生计划》第21场，莫寒生日公演',
     description: '',
