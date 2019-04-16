@@ -41,7 +41,7 @@ export const tripData = [{
   }, {
     nameMonth: '4月6日 19:00',
     title: '7Sense出道二周年公演',
-    description: '《7 O\'Clock》《Moonlight》,二周年感言,游戏（臂力王，劈腿王，反应王，眼距王，快嘴王）,综艺回顾,《7 Rings》《Fire touch》《Yeah》《春の海》《Grazy in love》《Personal》《Sorry not sorry》,《7Senses》,《二周年VCR》,《OMG》,各方Staff&粉丝&父母祝福,《Girl Crush》《Swan》韩文版',
+    description: '《7 O\'Clock》《Moonlight》,二周年感言,游戏（臂力王，劈腿王，反应王，眼距王，快嘴王）,综艺回顾,《7 Rings》《Fire touch》《Yeah》《春の海》《Grazy in love》《Personal》《Sorry not sorry》,《7Senses》,二周年VCR,《OMG》,各方Staff&粉丝&父母祝福,《Girl Crush》《Swan》韩文版',
     typeClass: 'dot-blue',
     summarize: '',
     url: 'https://www.bilibili.com/video/av48523521'
