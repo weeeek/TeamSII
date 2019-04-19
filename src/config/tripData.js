@@ -404,6 +404,20 @@ export const tripData = [{
     typeClass: 'dot-blue',
     url: 'https://space.bilibili.com/12444300/channel/detail?cid=17735'
   }, {
+    nameMonth: '3月14日',
+    title: '《好友创可贴》MV',
+    description: 'Team SII 白色情人节礼物',
+    summarize: '《好友创可贴》是来自SNH48 S队《心的旅程》公演的unit曲\r\n值此白色情人节之际，SNH48音乐团队特别改编该曲为抒情欢快的R&B版本，配合原本就很甜蜜温馨的歌词，赋予与原曲不一样的意义。',
+    typeClass: 'dot-black',
+    url: 'https://www.bilibili.com/video/av9156071'
+  }, {
+    nameMonth: '3月11日',
+    title: 'SNH48 白色情人节特别公演',
+    description: '人鱼：冯晓菲,姗姗来迟的你：李宇琪，徐晨辰,游戏环节：冯晓菲，戴萌，许佳琪,许佳琪：我的好兄弟,MC1：戴萌，徐晨辰，冯晓菲,青春的约定、神魂颠倒：冯晓菲，徐晨辰,梦想岛、告白趁现在,特别MV：《好友创可贴》',
+    summarize: '',
+    typeClass: 'dot-blue',
+    url: 'https://www.bilibili.com/video/av9094093'
+  }, {
     nameMonth: '1月12日',
     title: '《大家好 我们是SNH48》 SNH48 出道4周年 纪念公演',
     description: '《猛犸》《最后的钟声响起》《梅洛斯之路》《爱的洄游鱼》,MC1：出道4年到现在的感受,《爱恨的泪》《再爱一回》《初恋小盗》《夜蝶》《流着泪微笑》,MC2：与一期生前辈们的点点滴滴,《激流之战》《开拓者》《钻石呐喊》,MC3：与SNH48是怎样结缘的,《一心向前》《机尾云》,MC4提问环节：（Q1）2017最心酸的事（Q2）4年来对哪个成员的感情日常变质（Q3）出道四周年了最喜欢哪一套公演,《So long》+分团祝福,王子杰殿下特别曲目《你知道我在推你吗》,《支柱》',

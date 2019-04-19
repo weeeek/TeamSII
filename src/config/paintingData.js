@@ -130,6 +130,10 @@ export const paintingConfig = {
       author: '',
       url: './static/painting/张语格蒋芸爱未央.jpg',
       weibo: ''
+    }, {
+      author: '不普通的竹子',
+      url: 'http://wx4.sinaimg.cn/large/006rzpDFgy1g275p4y892j315o1qiwxy.jpg',
+      weibo: 'https://weibo.com/u/5904198103'
     }
   ]
 }
