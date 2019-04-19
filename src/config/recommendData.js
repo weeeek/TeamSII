@@ -307,6 +307,12 @@ export const recommendConfig = {
         av: '4886380',
         img: '//i0.hdslb.com/bfs/archive/bd17f5ae84e7e0925c4f42b7acb16971b7a9a9d3.jpg_380x240.jpg',
         position: 'center center'
+      }, {
+        title: '勇气重生419 旷世之战',
+        from: 'W',
+        url: 'https://weibo.com/p/1001593834119208498574',
+        img: '//i2.hdslb.com/bfs/archive/ab049aacfdb53595134d862598a4e03058c90f4d.jpg_380x240.jpg',
+        position: 'center center'
       }]
     }, {
       type: '官方制作',
@@ -348,6 +354,12 @@ export const recommendConfig = {
         from: 'B',
         av: '29942903',
         img: '//i2.hdslb.com/bfs/archive/e6dee10f44d857b4ef2dd7cb99b6f4db32895067.jpg_380x240.jpg',
+        position: 'center center'
+      }, {
+        title: '【孙芮解说】第二届偶像运动会',
+        from: 'B',
+        av: '49601325',
+        img: '//i0.hdslb.com/bfs/archive/a0cc6cd7ea5dbbc8d24b77711d9ebc5b94535041.jpg_380x240.jpg',
         position: 'center center'
       }]
     }, {
