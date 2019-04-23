@@ -143,7 +143,7 @@ export const memberData = [{
   name: '邱欣怡',
   photo: 'http://www.snh48.com/images/member/mp_10009.jpg',
   weibo: 'https://weibo.com/u/3062769307',
-  bilibili: null,
+  bilibili: 'https://space.bilibili.com/144873060',
   douyin: '62534021',
   changba: null,
   miaopai: null,
@@ -387,6 +387,21 @@ export const exitMemberData = [
     }
   },
   {
+    name: '潘燕琦',
+    photo: '',
+    weibo: '',
+    bilibili: '',
+    douyin: '',
+    changeba: null,
+    miaopai: null,
+    pocket48: null,
+    group: null,
+    modian: {
+      enabled: false,
+      id: ''
+    }
+  },
+  {
     name: '沈之琳',
     photo: '',
     weibo: '',
@@ -500,10 +515,38 @@ export const exitMemberData = [
       id: ''
     }
   }, {
+    name: '宫小荷',
+    photo: '',
+    weibo: '',
+    bilibili: 'https://space.bilibili.com/146943307/',
+    douyin: null,
+    changba: null,
+    miaopai: null,
+    pocket48: null,
+    group: null,
+    modian: {
+      enabled: false,
+      id: ''
+    }
+  }, {
     name: '曾琳瑜',
     photo: '',
     weibo: '',
     bilibili: null,
+    douyin: null,
+    changba: null,
+    miaopai: null,
+    pocket48: null,
+    group: null,
+    modian: {
+      enabled: false,
+      id: ''
+    }
+  }, {
+    name: '顾香君',
+    photo: '',
+    weibo: '',
+    bilibili: 'https://space.bilibili.com/10414152/',
     douyin: null,
     changba: null,
     miaopai: null,

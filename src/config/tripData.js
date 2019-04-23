@@ -11,6 +11,13 @@ export const tripData = [{
     typeClass: 'dot-blue',
     url: 'http://www.snh48.com/ticket.php'
   }, {
+    nameMonth: '5月3日 19:00',
+    title: '《重生计划》第23场',
+    description: '无罪无我：陈观慧',
+    summarize: '',
+    typeClass: 'dot-blue',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
     nameMonth: '4月26日 19:30',
     title: '《重生计划》第22场',
     description: '',

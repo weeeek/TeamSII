@@ -110,8 +110,13 @@ export const qqMusicConfig = {
           name: '预言',
           interval: 281,
           play: [{
+            player: '白堕',
             type: 'piano',
             url: 'https://www.bilibili.com/video/av45086106'
+          }, {
+            player: 'Ayasa（岛村绚莎）',
+            type: 'violin',
+            url: 'https://www.bilibili.com/video/av48977779'
           }]
         },
         {
@@ -120,7 +125,8 @@ export const qqMusicConfig = {
           mid: '004C5gcy1zL0Bn',
           name: '彼岸花',
           interval: 301,
-          play: []
+          play: [],
+          opern: 'http://www.tan8.com/yuepu-63782.html'
         },
         {
           image: { url: 'http://www.snh48.com/event/s258/img/48.jpg', left: '50%', right: '50%' },
@@ -149,6 +155,7 @@ export const qqMusicConfig = {
           name: '第48区',
           interval: 234,
           play: [{
+            player: '最爱吃的熊孩子',
             type: 'piano',
             url: 'https://www.bilibili.com/video/av19368822'
           }]
@@ -248,9 +255,11 @@ export const qqMusicConfig = {
           name: '废墟纪元',
           interval: 340,
           play: [{
+            player: '白堕',
             type: 'piano',
             url: 'https://www.bilibili.com/video/av25149573'
           }, {
+            player: '最爱吃的熊孩子',
             type: 'piano',
             url: 'https://www.bilibili.com/video/av18326666'
           }]
@@ -262,6 +271,7 @@ export const qqMusicConfig = {
           name: '战歌',
           interval: 256,
           play: [{
+            player: '最爱吃的熊孩子',
             type: 'piano',
             url: 'https://www.bilibili.com/video/av15296119'
           }]
@@ -281,6 +291,7 @@ export const qqMusicConfig = {
           name: '无尽的世界',
           interval: 263,
           play: [{
+            player: '最爱吃的熊孩子',
             type: 'piano',
             url: 'https://www.bilibili.com/video/av20144103'
           }]
@@ -297,6 +308,7 @@ export const qqMusicConfig = {
           name: '心的旅程',
           interval: 209,
           play: [{
+            player: '最爱吃的熊孩子',
             type: 'piano',
             url: 'https://www.bilibili.com/video/av19845404'
           }]
@@ -332,6 +344,7 @@ export const qqMusicConfig = {
           name: '好友创可贴',
           interval: 214,
           play: [{
+            player: '最爱吃的熊孩子',
             type: 'piano',
             url: 'https://www.bilibili.com/video/av14733383'
           }]
@@ -359,6 +372,7 @@ export const qqMusicConfig = {
           name: '新世界',
           interval: 208,
           play: [{
+            player: '最爱吃的熊孩子',
             type: 'piano',
             url: 'https://www.bilibili.com/video/av19845513'
           }]
@@ -370,6 +384,7 @@ export const qqMusicConfig = {
           name: '降落伞',
           interval: 246,
           play: [{
+            player: '最爱吃的熊孩子',
             type: 'piano',
             url: 'https://www.bilibili.com/video/av14779285'
           }]
@@ -426,9 +441,11 @@ export const qqMusicConfig = {
           name: '我的舞台',
           interval: 275,
           play: [{
+            player: '最爱吃的熊孩子',
             type: 'piano',
             url: 'https://www.bilibili.com/video/av17078898'
-          }]
+          }],
+          opern: 'http://www.tan8.com/yuepu-55390.html'
         }
       ]
     }, {

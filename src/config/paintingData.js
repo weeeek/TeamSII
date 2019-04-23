@@ -134,6 +134,14 @@ export const paintingConfig = {
       author: '不普通的竹子',
       url: 'http://wx4.sinaimg.cn/large/006rzpDFgy1g275p4y892j315o1qiwxy.jpg',
       weibo: 'https://weibo.com/u/5904198103'
+    }, {
+      author: '不普通的竹子',
+      url: 'http://wx2.sinaimg.cn/large/006rzpDFgy1g2alu5oio2j30nr16uq7x.jpg',
+      weibo: 'https://weibo.com/u/5904198103'
+    }, {
+      author: '不普通的竹子',
+      url: 'http://wx2.sinaimg.cn/large/006rzpDFgy1g2alu5bewsj30rs11ojwi.jpg',
+      weibo: 'https://weibo.com/u/5904198103'
     }
   ]
 }

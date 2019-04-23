@@ -326,6 +326,18 @@ export const recommendConfig = {
     }, {
       type: '治愈',
       list: [{
+        title: '孙老师犀利点评第一届偶像运动会',
+        from: 'B',
+        av: '21980133',
+        img: '//i2.hdslb.com/bfs/archive/65d36a9d00eacb8b403d71693836f578274877db.jpg_380x240.jpg',
+        position: 'cneter center'
+      }, {
+        title: '【孙芮解说】第二届偶像运动会',
+        from: 'B',
+        av: '49601325',
+        img: '//i0.hdslb.com/bfs/archive/a0cc6cd7ea5dbbc8d24b77711d9ebc5b94535041.jpg_380x240.jpg',
+        position: 'center center'
+      }, {
         title: '说了多少次，不要让爸爸带孩子',
         from: 'B',
         av: '14684523',
@@ -344,22 +356,16 @@ export const recommendConfig = {
         img: '//i1.hdslb.com/bfs/archive/a87a1e503a3504022dc2591f21884eacb1d92b9e.jpg_380x240.jpg',
         position: 'center center'
       }, {
-        title: '孙老师犀利点评第一届偶像运动会',
-        from: 'B',
-        av: '21980133',
-        img: '//i2.hdslb.com/bfs/archive/65d36a9d00eacb8b403d71693836f578274877db.jpg_380x240.jpg',
-        position: 'cneter center'
-      }, {
         title: '年上夫人攻略年下夫君的33种方式',
         from: 'B',
         av: '29942903',
         img: '//i2.hdslb.com/bfs/archive/e6dee10f44d857b4ef2dd7cb99b6f4db32895067.jpg_380x240.jpg',
         position: 'center center'
       }, {
-        title: '【孙芮解说】第二届偶像运动会',
+        title: '绝地求生-伏地莫',
         from: 'B',
-        av: '49601325',
-        img: '//i0.hdslb.com/bfs/archive/a0cc6cd7ea5dbbc8d24b77711d9ebc5b94535041.jpg_380x240.jpg',
+        av: '12845108',
+        img: '//i0.hdslb.com/bfs/archive/739eaad6158e4c31bab9356383096de5218a1617.jpg_380x240.jpg',
         position: 'center center'
       }]
     }, {

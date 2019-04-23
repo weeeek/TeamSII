@@ -10,7 +10,10 @@
           <a class="icon" href="javascript:void(0)" @click="selectItem(song, index)">
             <jam-play :fillColor="'#87cefa'" />
           </a>
-          <a class="icon" :href="p.url" v-for="p in song.play" target="_blank" :title="`${p.type}演奏`" :key="p.url">
+          <a class="icon" :href="p.url" v-for="p in song.play" target="_blank" :title="`${p.player}-${getTypeString(p.type)}演奏`" :key="p.url">            
+            <span :class="p.type"></span>
+          </a>
+          <a class="icon" :href="song.opern" v-if="song.opern" target="_blank" :title="`${song.name}-曲谱`">
             <jam-music-f :fillColor="'#87cefa'" />
           </a>
         </div>
@@ -37,6 +40,8 @@
             return '钢琴'
           case 'guita':
             return '吉他'
+          case 'violin':
+            return '小提琴'
         }
       }
     }
@@ -45,6 +50,66 @@
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
   @import "~common/stylus/variable"
+
+  .piano
+    margin-right 5px
+    margin-bottom -1px
+    width 1.5em
+    height 1.25em
+    vertical-align bottom
+    background white
+    border 2px solid $color-team-sii
+    position relative
+    display inline-block
+    &:before, &:after
+      content ' '
+      display block
+      position absolute
+      top 0
+      width 0.3em
+      height 0.7em
+      background #000
+    &:before
+      left 15%
+    &:after
+      left 60%
+
+  .guita
+    display inline-block
+  .violin
+    margin-right 5px
+    display inline-block
+    border-radius 2em
+    border-color $color-team-sii $color-team-sii transparent $color-team-sii
+    border-style solid solid none solid
+    border-width .45em .45em 0 .45em
+    position relative
+    height 0.9em 
+    width 1em
+    &:before
+      content ''
+      display block
+      position absolute
+      bottom -6px
+      left calc(0% - 0.55em)
+      width .3em
+      height .5em
+      border-radius 2em
+      border-color transparent $color-team-sii $color-team-sii $color-team-sii
+      border-style none solid solid solid
+      border-width 0 .45em .45em .45em
+    &:after
+      content ''
+      background $color-team-sii
+      width 1px
+      height 18px
+      border-color transparent #000
+      border-style none solid
+      border-width 0 1px
+      position absolute
+      top -1em
+      left -.5px
+
 
   .song-list
     ul
