@@ -373,7 +373,7 @@ export const otherTeamMemberData = [
 export const exitMemberData = [
   {
     name: '赵韩倩',
-    photo: '',
+    photo: 'http://www.snh48.com/images/member/zp_10155.jpg',
     weibo: '',
     bilibili: '',
     douyin: '',
@@ -388,7 +388,7 @@ export const exitMemberData = [
   },
   {
     name: '潘燕琦',
-    photo: '',
+    photo: 'http://www.snh48.com/images/member/zp_10154.jpg',
     weibo: '',
     bilibili: '',
     douyin: '',
@@ -403,7 +403,7 @@ export const exitMemberData = [
   },
   {
     name: '沈之琳',
-    photo: '',
+    photo: 'http://www.snh48.com/images/member/zp_10011.jpg',
     weibo: '',
     bilibili: '',
     douyin: '',
@@ -559,7 +559,7 @@ export const exitMemberData = [
   }, {
     name: '汤敏',
     photo: '',
-    weibo: '',
+    weibo: 'https://weibo.com/iamtangmin',
     bilibili: null,
     douyin: null,
     changba: null,
@@ -573,7 +573,7 @@ export const exitMemberData = [
   }, {
     name: '董芷依',
     photo: '',
-    weibo: '',
+    weibo: 'https://weibo.com/dzy820',
     bilibili: null,
     douyin: null,
     changba: null,
@@ -587,7 +587,7 @@ export const exitMemberData = [
   }, {
     name: '赵嘉敏',
     photo: '',
-    weibo: '',
+    weibo: 'https://weibo.com/u/5987057408',
     bilibili: null,
     douyin: null,
     changba: null,

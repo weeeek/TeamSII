@@ -42,6 +42,8 @@
             return '吉他'
           case 'violin':
             return '小提琴'
+          case 'erhu':
+            return '二胡'
         }
       }
     }
@@ -74,8 +76,35 @@
     &:after
       left 60%
 
-  .guita
+  .erhu
     display inline-block
+    width 1em
+    height 1.5em
+    border-top-right-radius 3px
+    border-color transparent $color-team-sii transparent transparent
+    border-style none solid none none
+    border-width 0 2px 0 0
+    box-shadow 1px 0 0 #000
+    position relative
+    left -0.5em
+    &:before
+      content ''
+      position absolute
+      width 0.8em
+      height 0.35em
+      bottom 0
+      left 0.55em
+      background $color-team-sii
+    &:after
+      content ''
+      position absolute
+      width 0.6em
+      height 0.1em
+      top 0.35em
+      left 0.65em
+      border-color #000 transparent
+      border-style solid none
+      border-width 1px 0
   .violin
     margin-right 5px
     display inline-block

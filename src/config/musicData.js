@@ -83,6 +83,7 @@ export const qqMusicConfig = {
           name: 'Somewhere',
           interval: 272,
           play: [{
+            player: '白堕',
             type: 'piano',
             url: 'https://www.bilibili.com/video/av37700345'
           }]
@@ -117,6 +118,10 @@ export const qqMusicConfig = {
             player: 'Ayasa（岛村绚莎）',
             type: 'violin',
             url: 'https://www.bilibili.com/video/av48977779'
+          }, {
+            player: '弦昱兮',
+            type: 'erhu',
+            url: 'https://www.bilibili.com/video/av49968605'
           }]
         },
         {
