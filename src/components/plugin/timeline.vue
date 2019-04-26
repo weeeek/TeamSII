@@ -69,27 +69,62 @@ export default {
   computed: {
     queryTimelineItems () {
       let data = []
+      let queryArr = [];
       if (this.query) {
-        //关键字分割的关键字数组
-        let queryArr = this.query.trim().split(' ')
-        this.timelineItems.map((x, xindex)=>{
-          data.push({
-            year: x.year,
-            items: []
-          })
-          x.items.map((y)=>{
-            let index = 0
-            while (index < queryArr.length){
-              if (y.title.includes(queryArr[index]) || y.description.includes(queryArr[index])){
-                let target = Object.assign({}, y)
-                target.title = target.title.replace(queryArr[index], '<span class="keywords">' + queryArr[index] + '</span>')
-                target.description = target.description.replace(queryArr[index], '<span class="keywords">' + queryArr[index] + '</span>')
-                data[xindex].items.push(target)   
+        //同时包含
+        if(this.query.includes("+")){
+          queryArr = this.query.trim().split('+')
+          this.timelineItems.map((x, xindex)=>{
+            data.push({
+              year: x.year,
+              items: []
+            })
+            x.items.map((y)=>{
+              let index = 0
+              let allmatch = true
+              let target = Object.assign({}, y)      
+              while (index < queryArr.length && allmatch){
+                //匹配这一个关键词
+                if (y.title.includes(queryArr[index]) || y.description.includes(queryArr[index])){
+                  //替换文本
+                  target.title = target.title.replace(queryArr[index], '<span class="keywords">' + queryArr[index] + '</span>')
+                  target.description = target.description.replace(queryArr[index], '<span class="keywords">' + queryArr[index] + '</span>')
+                }
+                else{
+                  allmatch = false
+                }
+                ++index
               }
-              ++index
-            }
+              if(allmatch)
+                data[xindex].items.push(target)
+            })
           })
-        })
+        }
+        else{
+          //关键字分割的关键字数组
+          queryArr = this.query.trim().split(' ')
+          this.timelineItems.map((x, xindex)=>{
+            data.push({
+              year: x.year,
+              items: []
+            })
+            x.items.map((y)=>{
+              let index = 0
+              let target = Object.assign({}, y)
+              let match = false
+              while (index < queryArr.length){
+                if (y.title.includes(queryArr[index]) || y.description.includes(queryArr[index])){
+                  match = true
+                  target.title = target.title.replace(queryArr[index], '<span class="keywords">' + queryArr[index] + '</span>')
+                  target.description = target.description.replace(queryArr[index], '<span class="keywords">' + queryArr[index] + '</span>')
+                }
+                ++index
+              }
+              if(match)
+                data[xindex].items.push(target)
+            })
+          })
+        }        
       }
       else{
         data = this.timelineItems

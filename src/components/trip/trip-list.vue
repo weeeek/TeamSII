@@ -1,7 +1,7 @@
 <template>
   <div class="block">
     <div class="search">
-      <trip-search :placeholder="'搜索成员、关键字（用单英文空格分隔）'" @query="onQueryChange"></trip-search>
+      <trip-search :placeholder="'搜索成员、关键字（用单英文空格分隔），使用“+”同时查询关键字'" @query="onQueryChange"></trip-search>
     </div>
     <Timeline :timeline-items="timelineItems" :message-when-no-items="messageWhenNoItems" :query="query"/>
   </div>
