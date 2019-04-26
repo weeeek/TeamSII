@@ -20,7 +20,10 @@
     },
     methods: {
         CalcPath (url) {
-            return '/dist/static/emoji' + url
+            if(process.env.NODE_ENV !== 'production')            
+                return './static/emoji/' + url
+            else
+                return '/TeamSII/dist/static/emoji/' + url
         }
     }
   }
