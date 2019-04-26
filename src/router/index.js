@@ -14,6 +14,7 @@ import Live from '@/components/live/live'
 import Entertainment from '@/components/entertainment/entertainment-list'
 import Burning from '@/components/entertainment/burning'
 import EmojiFight from '@/components/game/emoji-fight'
+import Emoji from '@/components/emoji/emoji'
 
 Vue.use(Router)
 
@@ -114,6 +115,13 @@ export default new Router({
     {
       path: '/burning',
       component: Burning,
+      meta: {
+        keepAlive: true
+      }
+    },
+    {
+      path: '/emoji',
+      component: Emoji,
       meta: {
         keepAlive: true
       }

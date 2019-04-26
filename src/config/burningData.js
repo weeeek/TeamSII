@@ -133,6 +133,33 @@ export const burningGroup = [{
 }, {
   group: 3,
   winner: null,
+  bg: 'http://wx3.sinaimg.cn/large/6f4898e1gy1g2ev91jlgaj20u016f4qr.jpg',
+  team: [{
+    name: 'Team z',
+    color: 'team-z',
+    vote: 0,
+    solo: [],
+    double: [],
+    multy: [],
+    team: [],
+    chorus: [],
+    battle: [],
+    win: false
+  }, {
+    name: 'Team b',
+    color: 'team-b',
+    vote: 0,
+    solo: [],
+    double: [],
+    multy: [],
+    team: [],
+    chorus: [],
+    battle: [],
+    win: false
+  }]
+}, {
+  group: 4,
+  winner: null,
   bg: '',
   team: [{
     name: 'Team NIII',
@@ -164,7 +191,7 @@ export const burningGroup = [{
     win: true
   }]
 }, {
-  group: 4,
+  group: 5,
   winner: null,
   bg: '',
   team: [{
@@ -181,33 +208,6 @@ export const burningGroup = [{
   }, {
     name: 'Team NII',
     color: 'team-n2',
-    vote: 0,
-    solo: [],
-    double: [],
-    multy: [],
-    team: [],
-    chorus: [],
-    battle: [],
-    win: false
-  }]
-}, {
-  group: 5,
-  winner: null,
-  bg: '',
-  team: [{
-    name: 'Team z',
-    color: 'team-z',
-    vote: 0,
-    solo: [],
-    double: [],
-    multy: [],
-    team: [],
-    chorus: [],
-    battle: [],
-    win: false
-  }, {
-    name: 'Team b',
-    color: 'team-b',
     vote: 0,
     solo: [],
     double: [],

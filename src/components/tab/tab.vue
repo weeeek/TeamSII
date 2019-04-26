@@ -50,6 +50,11 @@
         <span class="tab-link">赛事</span>
       </router-link>
     </keep-alive>
+    <keep-alive>
+      <router-link tag="div" class="tab-item" to="/emoji">
+        <span class="tab-link">表情包</span>
+      </router-link>
+    </keep-alive>
   </div>
 </template>
 

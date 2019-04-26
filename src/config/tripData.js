@@ -4,13 +4,13 @@ export const tripData = [{
     to: '2019'
   },
   items: [{
-    nameMonth: '5月18日',
-    title: '"燃烧吧！团魂" Team SII 对阵 Team NIII，深圳',
-    description: '',
-    summarize: '',
-    typeClass: 'dot-blue',
-    url: 'http://www.snh48.com/ticket.php'
-  }, {
+  //   nameMonth: '6月18日',
+  //   title: '"燃烧吧！团魂" Team SII 对阵 Team NIII，深圳',
+  //   description: '',
+  //   summarize: '',
+  //   typeClass: 'dot-blue',
+  //   url: 'http://www.snh48.com/ticket.php'
+  // }, {
     nameMonth: '5月3日 19:00',
     title: '《重生计划》第23场',
     description: '无罪无我：陈观慧',
@@ -24,6 +24,13 @@ export const tripData = [{
     summarize: '',
     typeClass: 'dot-blue',
     url: 'http://www.snh48.com/ticket.php'
+  }, {
+    nameMonth: '4月24日',
+    title: 'SNH48 x PONY帆布品类日直播',
+    description: '莫寒 吴哲晗 孔肖吟 戴萌 钱蓓婷 孙芮',
+    summarize: '',
+    typeClass: 'dot-green',
+    url: 'https://www.bilibili.com/video/av50402910'
   }, {
     nameMonth: '4月21日 14:00',
     title: '《重生计划》第21场，莫寒生日公演，KTV主题《不是爱丽丝》',
@@ -452,6 +459,13 @@ export const tripData = [{
       summarize: '数据来源：http://wiki.akbfun48.com/index.php?title=SNH48_Team_SII剧场公演合集',
       typeClass: 'dot-blue',
       url: 'https://www.bilibili.com/video/av4654252'
+    }, {
+      nameMonth: '3月16日',
+      title: '《最后的钟声响起》宫泽佐江毕业特别公演',
+      description: '发表毕业感言,印手印,S队成员祝福,不在场成员视频祝福,粉丝祝福卡抽取,Sae前辈与SNH48纪录片,毕业摘公式照仪式,大合照',
+      summarize: '',
+      typeClass: 'dot-blue',
+      url: 'https://www.bilibili.com/video/av4113088'
     }, {
       nameMonth: '2月26日 19:00',
       title: '纪念公演《十八个闪耀瞬间》第1场',
