@@ -172,7 +172,7 @@ export const recommendConfig = {
         img: '//i1.hdslb.com/bfs/archive/b2eedfe1db2ddcfef4c033855a67c6f27e29d4ae.jpg_380x240.jpg',
         position: 'center center'
       }, {
-        title: '《もう1人の私に会いたい！》',
+        title: 'もう1人の私に会いたい！',
         from: 'B',
         av: '39290717',
         img: '//i1.hdslb.com/bfs/archive/1863d1c8ae3157eabe14004c2b747a2282a1fb48.jpg_380x240.jpg',
@@ -204,6 +204,12 @@ export const recommendConfig = {
         from: 'B',
         av: '17156101',
         img: '//i2.hdslb.com/bfs/archive/703e653456ad9ea0cbd8a46bcaab3a2c9468bbf7.jpg_380x240.jpg',
+        position: 'center center'
+      }, {
+        title: '好友创可贴',
+        from: 'B',
+        av: '9156071',
+        img: '//i1.hdslb.com/bfs/archive/d3db8c9ed1054add67618136017cdfa07bec7e98.jpg_380x240.jpg',
         position: 'center center'
       }, {
         title: '潮流冠军',
@@ -326,19 +332,19 @@ export const recommendConfig = {
     }, {
       type: '治愈',
       list: [{
-        title: '孙老师犀利点评第一届偶像运动会',
+        title: '孙老师点评第一届偶像运动会',
         from: 'B',
         av: '21980133',
         img: '//i2.hdslb.com/bfs/archive/65d36a9d00eacb8b403d71693836f578274877db.jpg_380x240.jpg',
         position: 'cneter center'
       }, {
-        title: '【孙芮解说】第二届偶像运动会',
+        title: '孙芮解说第二届偶像运动会',
         from: 'B',
         av: '49601325',
         img: '//i0.hdslb.com/bfs/archive/a0cc6cd7ea5dbbc8d24b77711d9ebc5b94535041.jpg_380x240.jpg',
         position: 'center center'
       }, {
-        title: '说了多少次，不要让爸爸带孩子',
+        title: '不要让爸爸带孩子',
         from: 'B',
         av: '14684523',
         img: '//i0.hdslb.com/bfs/archive/9af1bebe3aa84d6c42233d4b6824c58623d4c3ce.jpg_380x240.jpg',
@@ -356,7 +362,7 @@ export const recommendConfig = {
         img: '//i1.hdslb.com/bfs/archive/a87a1e503a3504022dc2591f21884eacb1d92b9e.jpg_380x240.jpg',
         position: 'center center'
       }, {
-        title: '年上夫人攻略年下夫君的33种方式',
+        title: '夫人攻略夫君的33种方式',
         from: 'B',
         av: '29942903',
         img: '//i2.hdslb.com/bfs/archive/e6dee10f44d857b4ef2dd7cb99b6f4db32895067.jpg_380x240.jpg',
@@ -433,13 +439,13 @@ export const recommendConfig = {
         img: '//i1.hdslb.com/bfs/archive/bfd7a5441cfc66177bcae7bbc038c1d2b60c25b4.jpg_380x240.jpg',
         position: 'center center'
       }, {
-        title: '日本小提琴手Ayasa绚沙-《预言》',
+        title: '小提琴：Ayasa-《预言》',
         from: 'B',
         av: '48977779',
         img: '//i0.hdslb.com/bfs/archive/e86d730b0e4afc51078eab019137072f367b2c20.jpg_380x240.jpg',
         position: 'center center'
       }, {
-        title: '白堕=《预言》',
+        title: '钢琴独奏：白堕-《预言》',
         from: 'B',
         av: '45086106',
         img: '//i0.hdslb.com/bfs/archive/4fe75a174e0a8606229b30fcb2116b5e4e08f2df.jpg_380x240.jpg',
@@ -504,13 +510,13 @@ export const recommendConfig = {
         img: '//i2.hdslb.com/bfs/archive/e08d35bffd9bcd34ff4fd9e6cabc73ae1b7bc3a9.jpg_380x240.jpg',
         position: 'center center'
       }, {
-        title: '2019年经典公演cut嗨翻除夕夜',
+        title: '2019经典cut嗨翻除夕夜',
         from: 'B',
         av: '42678982',
         img: '//i1.hdslb.com/bfs/archive/c0aa89ab2aa46584f86e5fec37f71adad8f7b780.png_380x240.png',
         position: 'center center'
       }, {
-        title: '会会带你闹元宵·元宵联欢会',
+        title: '会会带你闹元宵·元宵联欢',
         from: 'B',
         av: '44117041',
         img: '//i0.hdslb.com/bfs/archive/938b1ed8c6c6165c1264f9de1c4c8f48f5ab1351.png_380x240.png',

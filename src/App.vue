@@ -27,19 +27,36 @@ export default {
     MusicPlayer,
     Snh48Live2d
   },
-  computed: {
-    ...mapGetters(['playlist']),
-    showLive2d () {
-      return window.innerWidth > 1800
-    }
-  },
   data () {
     return {
       musicBoxShow: false,
-      currentMp3: ''
+      currentMp3: '',
+      innerWidth: window.innerWidth
+    }
+  },
+  mounted () {
+    const that = this
+    window.onresize = () => {
+      return (() => {
+        that.innerWidth = window.innerWidth
+      })()
+    }
+  },
+  watch: {
+    innerWidth (val) {
+      this.innerWidth = val
+    }
+  },  
+  computed: {
+    ...mapGetters(['playlist']),
+    showLive2d () {      
+      return this.innerWidth > 1800
     }
   },
   methods: {
+    showLive2d () {
+      return window.innerWidth > 1800
+    },
     handleMove(liveModel){
       liveModel.setParamFloat('PARAM_ANGLE_X',value);
       /*
