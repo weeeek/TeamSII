@@ -450,6 +450,12 @@ export const recommendConfig = {
         av: '45086106',
         img: '//i0.hdslb.com/bfs/archive/4fe75a174e0a8606229b30fcb2116b5e4e08f2df.jpg_380x240.jpg',
         position: 'center center'
+      }, {
+        title: '二胡：弦昱兮-《神魂颠倒》',
+        from: 'B',
+        av: '50863523',
+        img: '//i2.hdslb.com/bfs/archive/35f06d961977168a98ac65f0d7edb008a5a49776.jpg_380x240.jpg',
+        position: 'center center'
       }]
     }, {
       type: '无声的呐喊',

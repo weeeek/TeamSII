@@ -4,13 +4,20 @@ export const tripData = [{
     to: '2019'
   },
   items: [{
-  //   nameMonth: '6月18日',
-  //   title: '"燃烧吧！团魂" Team SII 对阵 Team NIII，深圳',
-  //   description: '',
+  //   nameMonth: '6月2日',
+  //   title: '"燃烧吧！团魂" Team SII 对阵 Team NIII，深圳蛇口风华大剧院（深圳市南山区蛇口公园路49号）',
+  //   description: '陈思、戴萌、蒋芸、孔肖吟、李宇琪、刘增艳、莫寒、钱蓓婷、孙芮、温晶婕、吴哲晗、徐晨辰、许佳琪、徐子轩、袁雨桢、张语格',
   //   summarize: '',
   //   typeClass: 'dot-blue',
   //   url: 'http://www.snh48.com/ticket.php'
   // }, {
+    nameMonth: '5月11日 14:00',
+    title: '《重生计划》第24场',
+    description: '',
+    summarize: '',
+    typeClass: 'dot-blue',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
     nameMonth: '5月3日 19:00',
     title: '《重生计划》第23场',
     description: '无罪无我：陈观慧',
