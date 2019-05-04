@@ -149,16 +149,13 @@ export default {
     position relative
   .wrapper-item
     display grid
-    grid-template-columns 100px 1fr
     margin-bottom 20px
     .section-year
       display flex
       flex-direction column
       justify-content space-between
       align-items flex-end
-      padding 15px
       font-weight bold
-      font-size 20px
       .year
         margin 0
     .timeline-items
@@ -176,12 +173,8 @@ export default {
       .month-item
         margin 0
         text-transform uppercase
-        font-size 18px
-        letter-spacing 2px
       .title-item
         margin 0
-        padding 5px 0
-        font-size 16px
         font-weight 800
       .description-item
         font-weight 100
@@ -211,4 +204,35 @@ export default {
         background #006ab7
       .dot-black
         background #000000
+        
+@media screen and (min-width 1366px)
+  .wrapper-item
+    grid-template-columns 100px 1fr
+    .section-year
+      margin 20px auto
+      font-size 20px  
+    .timeline-items    
+      .month-item
+        font-size 18px
+        letter-spacing 2px
+      .title-item
+        padding 5px 0
+        font-size 16px
+      .description-item
+        font-size 14px
+@media screen and (max-width 1366px)
+  .wrapper-item
+    grid-template-columns 80px 1fr
+    .section-year
+      margin 20px auto
+      font-size 20px  
+    .timeline-items    
+      .month-item
+        font-size 14px
+        letter-spacing 1px
+      .title-item
+        padding 5px 0
+        font-size 14px
+      .description-item
+        font-size 12px
 </style>

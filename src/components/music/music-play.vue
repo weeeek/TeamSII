@@ -25,7 +25,7 @@
           <div class="middle-l" ref="middleL">
             <div class="cd-wrapper" ref="cdWrapper">
               <div class="cd" ref="imageWrapper">                
-                <img ref="image" :class="cdCls" class="image" v-if="currentSong" :src="currentSong.image.url" :style="`object-position:${currentSong.image.left} ${currentSong.image.right}`"/>
+                <img ref="image" :class="cdCls" class="image" v-if="currentSong" :src="currentSong.image.url" :style="`object-position:${currentSong.image.left} ${currentSong.image.right};object-fit:${currentSong.image.objectfit}`"/>
               </div>
             </div>
             <!-- <div class="playing-lyric-wrapper">
@@ -847,7 +847,6 @@
           width 100%
           img
             border-radius 50%
-            object-fit cover
             &.play
               animation rotate 10s linear infinite
             &.pause
@@ -886,8 +885,6 @@
       .cd        
         width 600px
         height 600px
-        .image          
-          object-fit contain
   .middle-r
     flex 0 0 50%
 @media screen and (max-width 1200px) and (min-width 1000px)
@@ -897,8 +894,6 @@
       .cd        
         width 500px
         height 500px
-        .image          
-          object-fit cover
   .middle-r
     flex 0 0 50%
     
