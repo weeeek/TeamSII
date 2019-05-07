@@ -1,81 +1,3 @@
-export const burningData = {
-  name: '',
-  color: '',
-  left: {
-    name: '',
-    color: '',
-    win: false,
-    bg: '',
-    left: {
-      name: '',
-      color: '',
-      win: false,
-      left: {
-        name: 'Team SII',
-        color: 'team-s2',
-        win: false
-      },
-      right: {
-        name: 'Team NIII',
-        color: 'team-n3',
-        win: false
-      }
-    },
-    right: {
-      name: '',
-      color: '',
-      win: false,
-      bg: 'https://wx4.sinaimg.cn/mw1024/a04b2a1dgy1g1qfingowbj20u016f7wt.jpg',
-      left: {
-        name: 'Team HII',
-        color: 'team-h2',
-        win: false
-      },
-      right: {
-        name: 'Team X',
-        color: 'team-x',
-        win: false
-      }
-    }
-  },
-  right: {
-    name: '',
-    color: '',
-    win: false,
-    bg: '',
-    left: {
-      name: '',
-      color: '',
-      win: false,
-      left: {
-        name: 'Team B',
-        color: 'team-b',
-        win: false
-      },
-      right: {
-        name: 'Team Z',
-        color: 'team-z',
-        win: false
-      }
-    },
-    right: {
-      name: '',
-      color: '',
-      win: false,
-      left: {
-        name: 'Team E',
-        color: 'team-e',
-        win: false
-      },
-      right: {
-        name: 'Team NII',
-        color: 'team-n2',
-        win: false
-      }
-    }
-  }
-}
-
 export const burningGroup = [{
   group: 1,
   winner: null,
@@ -84,24 +6,28 @@ export const burningGroup = [{
     name: 'Team H',
     color: 'team-h2',
     vote: 0,
-    solo: [],
-    double: [],
-    multy: [],
-    team: [],
-    chorus: [],
-    battle: [],
+    solo: ['噩梦轮回'],
+    double: ['不安星'],
+    multy: ['再见制服'],
+    team: ['H Zone', '计划崩坏'],
+    chorus: ['Honor'],
+    battle: ['悬铃木', ''],
+    street: [''],
+    acg: [],
     win: false
   }, {
     name: 'Team X',
     color: 'team-x',
     vote: 0,
-    solo: [],
-    double: [],
-    multy: [],
-    team: [],
-    chorus: [],
-    battle: [],
-    win: false
+    solo: ['青春的花瓣'],
+    double: ['夜蝶'],
+    multy: ['对峙'],
+    team: ['新航路', '梦想的旗帜'],
+    chorus: ['Star River'],
+    battle: ['', 'X Dream'],
+    street: [],
+    acg: ['桃源恋歌'],
+    win: true
   }]
 }, {
   group: 2,

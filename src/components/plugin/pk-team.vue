@@ -50,7 +50,10 @@
 <style scoped lang="stylus" rel="stylesheet/stylus">
   .team-detail
     display block
-    text-align left
+    text-align left    
     div
       display block
+      &:not(first-child)
+      &:not(last-child)      
+        border-top 1px solid #ccc        
 </style>
