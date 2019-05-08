@@ -9,12 +9,7 @@
           :animate-end="animateEnd()">
         </animate-number>
       </div>
-      <div>{{team.solo.join(',')}}</div>
-      <div>{{team.double.join(',')}}</div>
-      <div>{{team.multy.join(',')}}</div>
-      <div>{{team.team.join(',')}}</div>
-      <div>{{team.chorus.join(',')}}</div>
-      <div>{{team.battle.join(',')}}</div>
+      <div class="flag" :class="team.win?'win':'lose'" :style="`background-image:url('${team.image}')`"></div>
     </div>
 </template>
 
@@ -51,9 +46,10 @@
   .team-detail
     display block
     text-align left    
-    div
-      display block
-      &:not(first-child)
-      &:not(last-child)      
-        border-top 1px solid #ccc        
+    .flag
+      width 100%
+      height 70px
+      background-position center center
+      background-repeat no-repeat
+      background-size cover
 </style>

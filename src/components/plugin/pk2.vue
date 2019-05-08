@@ -1,27 +1,27 @@
 <template>
-    <div class="pk-container">
+    <a class="pk-container" target="_blank" :href="data.url">
       <div class="pk-team">
         <div class="team" :style="`background-image:url(${data.bg})`"></div>
       </div>
       <div class="line-vertical-normal" v-if="data.team.length > 0">
-          <div class="line-pk-mid-left" :class="this.winTeamColor(data)"></div>
-          <div class="line-pk-mid-right" :class="this.winTeamColor(data)"></div>
+          <div class="line-pk-mid-left" :class="this.winTeamColor(data,0)"></div>
+          <div class="line-pk-mid-right" :class="this.winTeamColor(data,1)"></div>
       </div>
       <div class="line-horizontal-normal" v-if="data.team.length > 0">
-          <div class="line-pk-empty-left" :class="this.winTeamColor(data)"></div>
-          <div class="line-pk-left" :class="this.winTeamColor(data)"></div>
-          <div class="line-pk-right" :class="this.winTeamColor(data)"></div>
-          <div class="line-pk-empty-right" :class="this.winTeamColor(data)"></div>
+          <div class="line-pk-empty-left" :class="this.winTeamColor(data,0)"></div>
+          <div class="line-pk-left" :class="this.winTeamColor(data,0)"></div>
+          <div class="line-pk-right" :class="this.winTeamColor(data,1)"></div>
+          <div class="line-pk-empty-right" :class="this.winTeamColor(data,1)"></div>
       </div>
       <div class="pk-sub" v-if="data.team.length > 0">
         <div class="p-k">
-          <team class="team" :class="data.team[0].color" :data="data.team[0]"></team>          
+          <team class="team" :class="data.team[0].color+(data.team[0].win?' win':' lose')" :data="data.team[0]"></team>          
         </div>
         <div class="p-k">
-          <team class="team" :class="data.team[1].color" :data="data.team[1]"></team>          
+          <team class="team" :class="data.team[1].color+(data.team[1].win?' win':' lose')" :data="data.team[1]"></team>          
         </div>
       </div>
-    </div>
+    </a>
 </template>
 
 <script type="text/ecmascript-6">
@@ -42,8 +42,8 @@
       }
     },
     methods: {
-      winTeamColor (data) {
-        if(data.winner)
+      winTeamColor (data,index) {
+        if(data.winner == index)
           return data.team[data.winner].color
       },
       winTeamName (data) {
@@ -56,7 +56,9 @@
 
 <style scoped lang="stylus" rel="stylesheet/stylus">  
   @import '~common/stylus/variable'
+  @import '~common/stylus/animation'
   @import '~common/stylus/snh48team'
+  
   .pk-container
     display flex
     flex-direction column
@@ -116,5 +118,8 @@
           border-style solid
           border-color $color-black-d
           flex 0 0 100px
-          height 200px
+          height 80px            
+        .lose
+          filter grayscale(100%)
+          animation filter-gray 3s ease-in-out
 </style>
