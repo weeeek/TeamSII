@@ -7,7 +7,10 @@ export const memberData = [{
   douyin: '602985242',
   changba: 'http://changba.com/u/150709347',
   miaopai: null,
-  pocket48: 3,
+  pocket48: {
+    id: 3,
+    roomId: 67217593
+  },
   group: null,
   modian: {
     enabled: true,
@@ -21,7 +24,10 @@ export const memberData = [{
   douyin: '614700897',
   changba: null,
   miaopai: null,
-  pocket48: 679448,
+  pocket48: {
+    id: 679448,
+    roomId: 67293986
+  },
   group: null,
   modian: {
     enabled: true,
@@ -35,7 +41,10 @@ export const memberData = [{
   douyin: '665951014',
   changba: null,
   miaopai: null,
-  pocket48: 37,
+  pocket48: {
+    id: 37,
+    roomId: 67284428
+  },
   group: null,
   modian: {
     enabled: true,
@@ -49,7 +58,10 @@ export const memberData = [{
   douyin: 'diamooond28',
   changba: null,
   miaopai: null,
-  pocket48: 38,
+  pocket48: {
+    id: 38,
+    roomId: 67199568
+  },
   group: 'sense',
   modian: {
     enabled: true,
@@ -63,7 +75,10 @@ export const memberData = [{
   douyin: 'JiangYun327',
   changba: 'http://changba.com/u/46716517',
   miaopai: null,
-  pocket48: 17,
+  pocket48: {
+    id: 17,
+    roomId: 67256337
+  },
   group: null,
   modian: {
     enabled: true,
@@ -77,7 +92,10 @@ export const memberData = [{
   douyin: '371432782',
   changba: null,
   miaopai: null,
-  pocket48: 19,
+  pocket48: {
+    id: 19,
+    roomId: 67333101
+  },
   group: 'sense',
   modian: {
     enabled: true,
@@ -91,7 +109,10 @@ export const memberData = [{
   douyin: '28221702',
   changba: null,
   miaopai: null,
-  pocket48: 20,
+  pocket48: {
+    id: 20,
+    roomId: 67303256
+  },
   group: 'blueV',
   modian: {
     enabled: true,
@@ -105,7 +126,10 @@ export const memberData = [{
   douyin: '869971950',
   changba: null,
   miaopai: null,
-  pocket48: 63566,
+  pocket48: {
+    id: 63566,
+    roomId: 67322491
+  },
   group: null,
   modian: {
     enabled: true,
@@ -119,7 +143,10 @@ export const memberData = [{
   douyin: '708165492',
   changba: null,
   miaopai: null,
-  pocket48: 35,
+  pocket48: {
+    id: 35,
+    roomId: 67313807
+  },
   group: 'blueV',
   modian: {
     enabled: true,
@@ -133,7 +160,10 @@ export const memberData = [{
   douyin: '572856432',
   changba: null,
   miaopai: 'https://www.miaopai.com/u/paike_f77xpyubxr',
-  pocket48: 36,
+  pocket48: {
+    id: 36,
+    roomId: 67275458
+  },
   group: null,
   modian: {
     enabled: true,
@@ -147,7 +177,10 @@ export const memberData = [{
   douyin: '62534021',
   changba: null,
   miaopai: null,
-  pocket48: 40,
+  pocket48: {
+    id: 40,
+    roomId: 67352247
+  },
   group: null,
   modian: {
     enabled: true,
@@ -161,7 +194,10 @@ export const memberData = [{
   douyin: 'srsrsr333333srsr',
   changba: null,
   miaopai: null,
-  pocket48: 8,
+  pocket48: {
+    id: 8,
+    roomId: 67322480
+  },
   group: 'blueV',
   modian: {
     enabled: true,
@@ -175,7 +211,10 @@ export const memberData = [{
   douyin: '1050881824',
   changba: null,
   miaopai: null,
-  pocket48: 6737,
+  pocket48: {
+    id: 6737,
+    roomId: 67275431
+  },
   group: null,
   modian: {
     enabled: true,
@@ -189,7 +228,10 @@ export const memberData = [{
   douyin: null,
   changba: null,
   miaopai: null,
-  pocket48: 11,
+  pocket48: {
+    id: 11,
+    roomId: 67246085
+  },
   group: null,
   modian: {
     enabled: true,
@@ -203,7 +245,10 @@ export const memberData = [{
   douyin: '570521305',
   changeba: 'http://changba.com/u/119484593',
   miaopai: null,
-  pocket48: 39,
+  pocket48: {
+    id: 39,
+    roomId: 67217571
+  },
   group: 'new',
   modian: {
     enabled: true,
@@ -218,7 +263,10 @@ export const memberData = [{
   changba: 'http://changba.com/u/99463480',
   weibomusic: 'http://music.weibo.com/t/s/3050758665.html',
   miaopai: null,
-  pocket48: 18,
+  pocket48: {
+    id: 18,
+    roomId: 67284386
+  },
   group: null,
   modian: {
     enabled: true,
@@ -232,7 +280,10 @@ export const memberData = [{
   douyin: 'hellokiki77',
   changba: null,
   miaopai: null,
-  pocket48: 21,
+  pocket48: {
+    id: 21,
+    roomId: 67217577
+  },
   group: 'sense',
   modian: {
     enabled: true,
@@ -246,7 +297,10 @@ export const memberData = [{
   douyin: '660925792',
   changba: null,
   miaopai: null,
-  pocket48: 14,
+  pocket48: {
+    id: 14,
+    roomId: 67313790
+  },
   group: 'new',
   modian: {
     enabled: true,
@@ -260,7 +314,10 @@ export const memberData = [{
   douyin: 'yuandanni',
   changba: null,
   miaopai: null,
-  pocket48: 67,
+  pocket48: {
+    id: 67,
+    roomId: 67352249
+  },
   group: null,
   modian: {
     enabled: true,
@@ -274,7 +331,10 @@ export const memberData = [{
   douyin: '576412860',
   changba: 'http://changba.com/u/58705105',
   miaopai: null,
-  pocket48: 5,
+  pocket48: {
+    id: 5,
+    roomId: 67265391
+  },
   group: null,
   modian: {
     enabled: true,
@@ -288,7 +348,10 @@ export const memberData = [{
   douyin: '4746929',
   changba: null,
   miaopai: null,
-  pocket48: 677405,
+  pocket48: {
+    id: 677405,
+    roomId: 67284483
+  },
   group: null,
   modian: {
     enabled: true,
@@ -302,7 +365,10 @@ export const memberData = [{
   douyin: '368860177',
   changba: null,
   miaopai: null,
-  pocket48: 1,
+  pocket48: {
+    id: 1,
+    roomId: 67313770
+  },
   group: 'sense',
   modian: {
     enabled: true,
@@ -347,7 +413,10 @@ export const otherTeamMemberData = [
     douyin: 'Kokoi_',
     changba: null,
     miaopai: null,
-    pocket48: 399631,
+    pocket48: {
+      id: 399631,
+      roomId: 67265389
+    },
     group: 'blueV',
     modian: {
       enabled: true,
@@ -361,7 +430,10 @@ export const otherTeamMemberData = [
     douyin: '384991613',
     changba: null,
     miaopai: null,
-    pocket48: 6432,
+    pocket48: {
+      id: 6432,
+      roomId: 67246079
+    },
     group: null,
     modian: {
       enabled: true,

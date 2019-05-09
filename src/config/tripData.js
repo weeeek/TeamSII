@@ -4,13 +4,13 @@ export const tripData = [{
     to: '2019'
   },
   items: [{
-  //   nameMonth: '6月2日',
-  //   title: '"燃烧吧！团魂" Team SII 对阵 Team NIII，深圳蛇口风华大剧院（深圳市南山区蛇口公园路49号）',
-  //   description: '陈思、戴萌、蒋芸、孔肖吟、李宇琪、刘增艳、莫寒、钱蓓婷、孙芮、温晶婕、吴哲晗、徐晨辰、许佳琪、徐子轩、袁雨桢、张语格',
-  //   summarize: '',
-  //   typeClass: 'dot-blue',
-  //   url: 'http://www.snh48.com/ticket.php'
-  // }, {
+    nameMonth: '6月1日 19:30',
+    title: '"燃烧吧！团魂" Team SII 对阵 Team NIII，深圳蛇口风华大剧院（深圳市南山区蛇口公园路49号）',
+    description: '陈思、戴萌、蒋芸、孔肖吟、李宇琪、刘增艳、莫寒、钱蓓婷、孙芮、温晶婕、吴哲晗、徐晨辰、许佳琪、徐子轩、袁雨桢、张语格',
+    summarize: '',
+    typeClass: 'dot-blue',
+    url: 'https://detail.damai.cn/item.htm?spm=a2oeg.search_category.0.0.16d620f5UWrKP6&id=593994970703&clicktitle=SNH48GROUPX%E5%92%AA%E5%92%95%E9%9F%B3%E4%B9%90%E7%87%83%E7%83%A7%E5%90%A7%E5%9B%A2%E9%AD%82%E5%9B%A2%E9%98%9F%E7%8E%B0%E5%9C%BA%E7%BB%BC%E8%89%BA%E7%A7%80-%E6%B7%B1%E5%9C%B3%E7%AB%99'
+  }, {
     nameMonth: '5月19日 14:00',
     title: '《重生计划》第26场，徐子轩《“幸福”的懒惰-贝利亚》生日公演',
     description: '',
