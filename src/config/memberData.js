@@ -378,28 +378,28 @@ export const memberData = [{
 
 export const pet48Data = [
   {
-    name: 'Duang Daung',
-    photo: '',
+    name: 'DuangDuang',
+    photo: 'dab1e49bly1fooy2dnfonj22c02c0kjm',
     master: '孙芮'
   },
   {
     name: '胖胖',
-    photo: '',
+    photo: 'b61bc245gy1ffbk5ikfctj20qo0xcdle',
     master: '钱蓓婷'
   },
   {
     name: 'Q米',
-    photo: '',
+    photo: 'b5d68da5gy1fwibj0lh2jj22c02c07wo',
     master: '许佳琪'
   },
   {
     name: '安娜',
-    photo: '',
+    photo: 'b5d6209fly1g07kyple13j21o01o0b29',
     master: '戴萌'
   },
   {
     name: '憨憨',
-    photo: '',
+    photo: 'ddc77b9fgy1fquupuy183j22c0340e81',
     master: '袁雨桢'
   }
 ]

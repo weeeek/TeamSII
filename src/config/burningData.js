@@ -2,7 +2,7 @@ export const burningGroup = [{
   url: 'https://www.bilibili.com/video/av51491572',
   group: 1,
   winner: 1,
-  bg: 'https://wx4.sinaimg.cn/mw1024/a04b2a1dgy1g1qfingowbj20u016f7wt.jpg',
+  bg: 'https://wx4.sinaimg.cn/large/a04b2a1dgy1g1qfingowbj20u016f7wt.jpg',
   team: [{
     name: 'Team H',
     color: 'team-h2',
@@ -20,7 +20,7 @@ export const burningGroup = [{
   url: '',
   group: 2,
   winner: null,
-  bg: 'https://wx4.sinaimg.cn/mw1024/6f4898e1gy1g1xn0ta5xjj20u016fe88.jpg',
+  bg: 'https://wx4.sinaimg.cn/large/6f4898e1gy1g1xn0ta5xjj20u016fe88.jpg',
   team: [{
     name: 'Team J',
     color: 'team-j',
@@ -56,7 +56,7 @@ export const burningGroup = [{
   url: '',
   group: 4,
   winner: null,
-  bg: '',
+  bg: 'http://wx3.sinaimg.cn/large/6f4898e1ly1g2u1ac80afj20u016f7wj.jpg',
   team: [{
     name: 'Team NIII',
     color: 'team-n3',

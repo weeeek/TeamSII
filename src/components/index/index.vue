@@ -25,11 +25,11 @@
         </div>
       </div>
     </div>
-    <div class="block" v-show="false">
+    <div class="block">
       <h2>沿途是否记得，一起欢笑泪水的伙伴</h2>
       <div class="members">
         <div class="member" v-for="m in pet48DataList" :key="m.name">
-          <div class="photo" :style="`background-image:url(${m.photo})`">  
+          <div class="photo" :style="`background-image:url('./static/pet48/${m.name}.jpg')`">  
             <a v-if="m.group" class="group name" :class="m.group" target="_blank" :href="getGroupWeibo(m.group)"></a>
             <div class="cover"></div>
           </div>
@@ -37,7 +37,7 @@
         </div>
       </div>
     </div>    
-    <div class="block" v-show="false">
+    <div class="block" v-if="false">
       <h2>回忆还感动吗，梦是否已在青空上盛开</h2>
       <div class="members">
         <div class="member" v-for="m in otherTeamMemberData" :key="m.name">
@@ -58,7 +58,7 @@
         </div>
       </div>
     </div>
-    <div class="block" v-show="false">
+    <div class="block" v-if="false">
       <h2>十年后再回首，我们初心不改</h2>
       <div class="members">
         <div class="member" v-for="m in exitMemberData" :key="m.name">
