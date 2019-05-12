@@ -4,6 +4,13 @@ export const tripData = [{
     to: '2019'
   },
   items: [{
+    nameMonth: '6月2日',
+    title: '《重生计划》第27场，GNZ48星梦剧院巡演',
+    description: '',
+    summarize: '',
+    typeClass: 'dot-blue',
+    url: 'http://www.gnz48.com/ticket/ticket.php'
+  }, {
     nameMonth: '6月1日 19:30',
     title: '"燃烧吧！团魂" Team SII 对阵 Team NIII，深圳蛇口风华大剧院（深圳市南山区蛇口公园路49号）',
     description: '陈思、戴萌、蒋芸、孔肖吟、李宇琪、刘增艳、莫寒、钱蓓婷、孙芮、温晶婕、吴哲晗、徐晨辰、许佳琪、徐子轩、袁雨桢、张语格',
@@ -26,11 +33,11 @@ export const tripData = [{
     url: 'http://www.snh48.com/ticket.php'
   }, {
     nameMonth: '5月11日 14:00',
-    title: '《重生计划》第24场',
-    description: '',
+    title: '《重生计划》第24场，李宇琪第350场',
+    description: 'MC1：印象中年代最久远的电视剧,Lost：徐晨辰,Hold me tight：莫寒，刘增艳,解语者：孔肖吟，李宇琪，袁丹妮,最终回合：吴哲晗，蒋芸，邵雪聪，陈俊羽,无罪无我：戴萌，陈思，刘增艳,somewhere：莫寒，孙芮，徐子轩,噩梦轮回：戴萌,MC2：买的最失败的东西,MC3：每个人写真心话或大冒险，打乱后抽选并各自完成内容,MC4:游戏-你有我没有,安可曲《我的舞台》',
     summarize: '',
     typeClass: 'dot-blue',
-    url: 'http://www.snh48.com/ticket.php'
+    url: 'https://www.bilibili.com/video/av52140136'
   }, {
     nameMonth: '5月3日 19:00',
     title: '《重生计划》第23场',
@@ -210,7 +217,7 @@ export const tripData = [{
     nameMonth: '2月15日 19:30',
     title: '《重生计划》第十场',
     description: '出席成员：陈俊羽，朱小丹，陈观慧，戴萌，莫寒，钱蓓婷，张语格，李宇琪，吴哲晗，许佳琪，徐晨辰，蒋芸，孙芮，温晶婕，邵雪聪，袁丹妮，刘增艳',
-    summarize: '',
+    summarize: '离婚协议书',
     typeClass: 'dot-blue',
     url: 'https://www.bilibili.com/video/av43695452'
   }, {
@@ -373,6 +380,7 @@ export const tripData = [{
       nameMonth: '11月30日 19:30',
       title: '《重生计划》第四场',
       description: '出席成员：陈思，陈观慧，戴萌，莫寒，李宇琪，孔肖吟，吴哲晗，徐子轩，袁雨桢，蒋芸，袁丹妮，徐伊人，邵雪聪，钱蓓婷，张语格，刘增艳，温晶婕，孙芮，徐晨辰',
+      summarize: '撕纸',
       typeClass: 'dot-blue',
       url: 'https://www.bilibili.com/video/av37107074'
     }, {

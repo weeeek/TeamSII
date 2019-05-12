@@ -17,16 +17,16 @@ export const burningGroup = [{
     win: true
   }]
 }, {
-  url: '',
+  url: 'https://www.bilibili.com/video/av52199240',
   group: 2,
-  winner: null,
+  winner: 1,
   bg: 'https://wx4.sinaimg.cn/large/6f4898e1gy1g1xn0ta5xjj20u016fe88.jpg',
   team: [{
     name: 'Team J',
     color: 'team-j',
     image: 'https://content.nf.migu.cn/soe/uniaccess?fileID=22oXC7GN0oNV0001Cp000',
     vote: 0,
-    win: true
+    win: false
   }, {
     name: 'Team G',
     color: 'team-g',
