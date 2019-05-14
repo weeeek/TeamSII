@@ -14,8 +14,8 @@
           </div>
           <div class="name">{{m.name}}</div>
           <div class="accounts">
-            <a :href="m.weibo" :title="`微博-${m.name}`" target="_blank" class="favicon favicon-weibo" v-if="m.weibo"></a>
-            <a :href="m.bilibili" :title="`B站-${m.name}`" target="_blank" class="favicon favicon-bilibili" v-if="m.bilibili"></a>
+            <a :href="`https://weibo.com/u/${m.weibo}`" :title="`微博-${m.name}`" target="_blank" class="favicon favicon-weibo" v-if="m.weibo"></a>
+            <a :href="`https://space.bilibili.com/${m.bilibili}`" :title="`B站-${m.name}`" target="_blank" class="favicon favicon-bilibili" v-if="m.bilibili"></a>
             <!-- <a href="javascript:void(0)" :data-clipboard-text="m.douyin" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a> -->
             <a href="javascript:void(0)" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a>
             <a :href="m.changba" :title="`唱吧-${m.name}`" target="_blank" class="favicon favicon-changba" v-if="m.changba"></a>

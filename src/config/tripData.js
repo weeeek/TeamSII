@@ -18,6 +18,20 @@ export const tripData = [{
     type: 'blue',
     url: 'https://detail.damai.cn/item.htm?spm=a2oeg.search_category.0.0.16d620f5UWrKP6&id=593994970703&clicktitle=SNH48GROUPX%E5%92%AA%E5%92%95%E9%9F%B3%E4%B9%90%E7%87%83%E7%83%A7%E5%90%A7%E5%9B%A2%E9%AD%82%E5%9B%A2%E9%98%9F%E7%8E%B0%E5%9C%BA%E7%BB%BC%E8%89%BA%E7%A7%80-%E6%B7%B1%E5%9C%B3%E7%AB%99'
   }, {
+    nameMonth: '5月24日 19:30',
+    title: '《重生计划》第28场',
+    description: '',
+    summarize: '',
+    type: 'blue',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
+    nameMonth: '5月22日 19:30',
+    title: '《重生计划》第27场',
+    description: '',
+    summarize: '',
+    type: 'blue',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
     nameMonth: '5月19日 14:00',
     title: '《重生计划》第26场，徐子轩《“幸福”的懒惰-贝利亚》生日公演',
     description: '',
@@ -52,13 +66,6 @@ export const tripData = [{
     summarize: '',
     type: 'blue',
     url: 'https://www.bilibili.com/video/av52140136'
-  }, {
-    nameMonth: '5月3日 19:00',
-    title: '《重生计划》第23场',
-    description: '',
-    summarize: '',
-    type: 'blue',
-    url: 'http://www.snh48.com/ticket.php'
   }, {
     nameMonth: '5月3日 19:00',
     title: '《重生计划》第23场，陈观慧第350场，吴哲晗第300场，三C冰雪噩梦轮回',
@@ -229,7 +236,7 @@ export const tripData = [{
     url: 'https://www.bilibili.com/video/av44113215'
   }, {
     nameMonth: '2月15日 19:30',
-    title: '《重生计划》第十场',
+    title: '《重生计划》第10场',
     description: '出席成员：陈俊羽，朱小丹，陈观慧，戴萌，莫寒，钱蓓婷，张语格，李宇琪，吴哲晗，许佳琪，徐晨辰，蒋芸，孙芮，温晶婕，邵雪聪，袁丹妮，刘增艳',
     summarize: '离婚协议书',
     type: 'blue',
@@ -271,7 +278,7 @@ export const tripData = [{
     url: 'https://www.bilibili.com/video/av40341728'
   }, {
     nameMonth: '1月6日 19:30',
-    title: '《重生计划》第九场 刘增艳生日公演',
+    title: '《重生计划》第9场 刘增艳生日公演',
     description: '出席成员：陈观慧，陈思，吴哲晗，许佳琪，袁雨桢，温晶婕，蒋芸，孙芮，徐晨辰，孔肖吟，莫寒，钱蓓婷，戴萌，袁丹妮，邵雪聪，刘增艳，李宇琪，张语格',
     summarize: '',
     type: 'blue',
@@ -332,7 +339,7 @@ export const tripData = [{
     },
     {
       nameMonth: '12月28日 19:30',
-      title: '《重生计划》第八场',
+      title: '《重生计划》第8场',
       description: '出席成员：陈观慧，吴哲晗，徐子轩，许佳琪，袁雨桢，温晶婕，蒋芸，孙芮，徐晨辰，孔肖吟，莫寒，钱蓓婷，戴萌，徐伊人，袁丹妮，邵雪聪，刘增艳，张语格',
       type: 'blue',
       url: 'https://www.bilibili.com/video/av39250599'
@@ -344,13 +351,13 @@ export const tripData = [{
       url: 'https://www.bilibili.com/video/av39148816'
     }, {
       nameMonth: '12月22日 19:00',
-      title: '《重生计划》第七场 吴哲晗、徐子轩小组合拉票公演',
+      title: '《重生计划》第7场 吴哲晗、徐子轩小组合拉票公演',
       description: '出席成员：吴哲晗，徐子轩，许佳琪，袁雨桢，温晶婕，蒋芸，孙芮，徐晨辰，孔肖吟，莫寒，钱蓓婷，戴萌，徐伊人，袁丹妮，邵雪聪，刘增艳',
       type: 'blue',
       url: 'https://www.bilibili.com/video/av38782017'
     }, {
       nameMonth: '12月21日 19:30',
-      title: '《重生计划》第六场，袁雨桢小组合拉票公演，许佳琪噩梦轮回首演',
+      title: '《重生计划》第6场，袁雨桢小组合拉票公演，许佳琪噩梦轮回首演',
       description: '出席成员：许佳琪，袁雨桢，温晶婕，蒋芸，徐晨辰，孔肖吟，孙芮，莫寒，钱蓓婷，戴萌，徐伊人，袁丹妮，邵雪聪，刘增艳',
       type: 'blue',
       url: 'https://www.bilibili.com/video/av38690294'
@@ -368,7 +375,7 @@ export const tripData = [{
       url: 'https://www.bilibili.com/video/av38329892'
     }, {
       nameMonth: '12月13日 19:30',
-      title: '《重生计划》第五场',
+      title: '《重生计划》第5场',
       description: '出席成员：陈思，陈观慧，戴萌，莫寒，孔肖吟，吴哲晗，徐子轩，袁雨桢，蒋芸，袁丹妮，徐伊人，邵雪聪，钱蓓婷，张语格，刘增艳，温晶婕，孙芮，徐晨辰',
       type: 'blue',
       url: 'https://www.bilibili.com/video/av38093762'
@@ -392,26 +399,26 @@ export const tripData = [{
       url: 'https://www.bilibili.com/video/av37815149'
     }, {
       nameMonth: '11月30日 19:30',
-      title: '《重生计划》第四场',
+      title: '《重生计划》第4场',
       description: '出席成员：陈思，陈观慧，戴萌，莫寒，李宇琪，孔肖吟，吴哲晗，徐子轩，袁雨桢，蒋芸，袁丹妮，徐伊人，邵雪聪，钱蓓婷，张语格，刘增艳，温晶婕，孙芮，徐晨辰',
       summarize: '撕纸',
       type: 'blue',
       url: 'https://www.bilibili.com/video/av37107074'
     }, {
       nameMonth: '11月25日 19:00',
-      title: '《重生计划》首演第三场',
+      title: '《重生计划》首演第3场',
       description: '出席成员：陈思，陈观慧，戴萌，莫寒，李宇琪，孔肖吟，吴哲晗，徐子轩，袁雨桢，蒋芸，袁丹妮，徐伊人，邵雪聪，钱蓓婷，张语格，刘增艳，温晶婕，孙芮，徐晨辰',
       type: 'blue',
       url: 'https://www.bilibili.com/video/av36769190'
     }, {
       nameMonth: '11月24日 19:00',
-      title: '《重生计划》首演第二场',
+      title: '《重生计划》首演第2场',
       description: '出席成员：陈思，陈观慧，戴萌，莫寒，李宇琪，孔肖吟，吴哲晗，徐子轩，袁雨桢，蒋芸，袁丹妮，徐伊人，邵雪聪，钱蓓婷，张语格，刘增艳，温晶婕，孙芮',
       type: 'blue',
       url: 'https://www.bilibili.com/video/av36683092'
     }, {
       nameMonth: '11月23日 19:30',
-      title: '《重生计划》首演',
+      title: '《重生计划》首演第1场',
       description: '出席成员：陈思，陈观慧，戴萌，莫寒，李宇琪，孔肖吟，吴哲晗，徐子轩，袁雨桢，蒋芸，袁丹妮，徐伊人，邵雪聪，钱蓓婷，张语格，刘增艳，温晶婕，孙芮',
       type: 'blue',
       url: 'https://www.bilibili.com/video/av36605536'

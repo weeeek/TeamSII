@@ -345,8 +345,8 @@ export default {
         margin-top 10px
       .project-info
         width 100%
-        height 300px
-        line-height 300px
+        height 270px
+        line-height 270px
         margin-bottom 10px
           
 @media screen and (max-width 1024px)  and (min-width 600px) 
@@ -364,8 +364,8 @@ export default {
         margin-top 10px
       .project-info
         width 100%
-        height 300px
-        line-height 300px
+        height 270px
+        line-height 270px
         margin-bottom 10px
 
 @media screen and (max-width 600px) 
@@ -383,7 +383,7 @@ export default {
         margin-top 10px
       .project-info
         width 100%
-        height 300px
-        line-height 300px
+        height 270px
+        line-height 270px
         margin-bottom 10px
 </style>
