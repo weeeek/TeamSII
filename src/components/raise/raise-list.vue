@@ -19,11 +19,11 @@
         </div>
     </div>
     <div class="project-wrap">
-      <a :class="`project-item member${index}`" v-for="(obj, index) in raiseFilter" :key="obj.id" target="_blank" :href="`https://zhongchou.modian.com/item/${obj.id}.html`">
-        <div class="project-info" :style="`background-image:url(${obj.logo_4x3})`">                        
+      <a :class="`project-item member${index}`" v-for="(obj, index) in raiseFilter" :key="obj.id" target="_blank" :href="obj.href">
+        <div class="project-info" :style="`background-image:url(${obj.img})`">                        
             <h3 class="project-title text-ellipsis">{{obj.name}}</h3>                        
         </div>                        
-        <progressbar :value="getProgress(obj.progress)" :type="getProgressType(obj.value)"></progressbar>
+        <progressbar :value="getProgress(obj.progress)" :type="getProgressType(obj.progress)"></progressbar>
         <!-- <p class="project-progress">{{ obj.backer_money }}/{{ obj.install_money_fmt }}</p> -->
         <p class="project-progress">
           <span v-if="obj.backer_money">￥{{ obj.backer_money }}</span>
@@ -161,7 +161,7 @@ export default {
                   enabled: enabled,
                   checked: checked
                 })
-                _this.getModianData(_this,id)
+                _this.getModianData(_this, id, name)
               }
             },
             function(tx, erro) {
@@ -179,7 +179,7 @@ export default {
         tx.executeSql("UPDATE YYHList SET checked=? WHERE id=?", [m.checked,m.id], function(tx, rs) {
               if(m.checked && !m.got){
                   m.got = true
-                  _this.getModianData(_this,m.id)
+                  _this.getModianData(_this, m.id, m.name)
                 }
             })
           },
@@ -191,27 +191,67 @@ export default {
     initModianDatas (_this) {
       _this.YYHList.filter((x)=>{return x.enabled})
                .map((y)=>{
-                  Object.assign(y,{got:y.checked})
+                  Object.assign(y, {got:y.checked})
                   if(y.got)
-                    _this.getModianData(_this,y.id)
+                    _this.getModianData(_this, y.id, y.name)
                   
       })
     },
-    getModianData (_this,id) {
+    getModianData (_this, id, name) {
       if(_this.modianDatas.filter((x)=>{return x.user_id == id}).length > 0)
         return
-      jQuery.post(`${modianApi}`, { to_user_id: id }, function (response) {
-                   let json = JSON.parse(response)
-                   //所有项目
-                   let data = JSON.parse(json.data)
-                   //最新项目
-                   //_this.modianDatas.push(data[0]);
-                   data.filter((m)=>{
-                     return m.status === "众筹中"
-                   }).forEach(element => {
-                     _this.modianDatas.push(element)
-                   });
-                  })
+      // jQuery.post(`${modianApi}`, { to_user_id: id }, function (response) {
+      //              let json = JSON.parse(response)
+      //              //所有项目
+      //              let data = JSON.parse(json.data)
+      //              //最新项目
+      //              //_this.modianDatas.push(data[0]);
+      //              data.filter((m)=>{
+      //                return m.status === "众筹中"
+      //              }).forEach(element => {
+      //                _this.modianDatas.push(element)
+      //              });
+      //             })
+      jQuery.ajax({
+        url: modianApi,
+        type: 'POST',
+        data: {
+            page: 1,
+            page_size: 5,
+            user_id: id
+        },
+        dataType: 'json',
+        success: function (res) {
+            switch (res.status) {
+                case '1':
+                case 1: //有数据
+                    var el = jQuery( '<div></div>' );
+                    el.html(res.data.html);
+                    //所有项目
+                    let list = jQuery('li:eq(0)', el) // All the anchor elements
+                    let money = list.find('.pro_status').text()
+                    let progress = list.find('.pro_type').text()
+                    if(progress.includes('预约'))
+                      progress = 0
+
+                    _this.modianDatas.push({
+                      user_id: id,
+                      href: list.find('a:eq(0)').attr('href'),
+                      name: list.find('.pro_name').text(),
+                      progress:  Number.parseFloat(progress.substr(3)),
+                      img: list.find('img').attr('src'),
+                      backer_money: Number.parseFloat(money.substr(4))
+                    })
+                    break;
+                case - 1: //没有数据
+                default:
+                    break;
+            }
+        },
+        error: function (error) {
+            console.log(error);
+        }
+      })
     }
   },
   computed: {
@@ -292,25 +332,6 @@ export default {
   .member
     margin-right 1em
   .project-wrap
-    -moz-column-count 4
-    -webkit-column-count 4
-    column-count 4
-    -moz-column-gap 1em
-    -webkit-column-gap 1em
-    column-gap 1em
-    .project-item
-      padding 1em
-      margin 0 0 15px 0
-      .project-progress
-        margin-top 10px
-      .project-info
-        width 100%
-        height 190px
-        line-height 190px
-        margin-bottom 10px
-          
-@media screen and (max-width 1024px)  and (min-width 600px) 
-  .project-wrap
     -moz-column-count 2
     -webkit-column-count 2
     column-count 2
@@ -324,8 +345,27 @@ export default {
         margin-top 10px
       .project-info
         width 100%
-        height 190px
-        line-height 190px
+        height 300px
+        line-height 300px
+        margin-bottom 10px
+          
+@media screen and (max-width 1024px)  and (min-width 600px) 
+  .project-wrap
+    -moz-column-count 1
+    -webkit-column-count 1
+    column-count 1
+    -moz-column-gap 1em
+    -webkit-column-gap 1em
+    column-gap 1em
+    .project-item
+      padding 1em
+      margin 0 0 15px 0
+      .project-progress
+        margin-top 10px
+      .project-info
+        width 100%
+        height 300px
+        line-height 300px
         margin-bottom 10px
 
 @media screen and (max-width 600px) 
@@ -343,7 +383,7 @@ export default {
         margin-top 10px
       .project-info
         width 100%
-        height 190px
-        line-height 190px
+        height 300px
+        line-height 300px
         margin-bottom 10px
 </style>

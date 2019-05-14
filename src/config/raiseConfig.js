@@ -75,7 +75,7 @@ export const raiseConfig = [
     name: '潘燕琦',
     id: '1535074',
     line: 7,
-    enabled: true
+    enabled: false
   },
   {
     name: '钱蓓婷',
@@ -129,7 +129,7 @@ export const raiseConfig = [
     name: '徐伊人',
     id: '1189199',
     line: 3,
-    enabled: true
+    enabled: false
   },
   {
     name: '徐子轩',
@@ -140,7 +140,7 @@ export const raiseConfig = [
     name: '杨令仪',
     id: '1676139',
     line: 9,
-    enabled: true
+    enabled: false
   },
   {
     name: '袁丹妮',
@@ -169,6 +169,6 @@ export const raiseConfig = [
     name: '赵晔',
     id: '1093167',
     line: 3,
-    enabled: true
+    enabled: false
   }
 ]
