@@ -1,8 +1,6 @@
 <template>
-    <a class="pk-container" target="_blank" :href="data.url">
-      <div class="pk-team">
-        <div class="team" :style="`background-image:url(${data.bg})`"></div>
-      </div>
+    <a class="pk-container" target="_blank" :href="data.url">      
+      <img class="pk-team" :src="`http://wx3.sinaimg.cn/large/${data.bg}.jpg`"/>      
       <div class="line-vertical-normal" v-if="data.team.length > 0">
           <div class="line-pk-mid-left" :class="this.winTeamColor(data,0)"></div>
           <div class="line-pk-mid-right" :class="this.winTeamColor(data,1)"></div>
@@ -63,19 +61,12 @@
     display flex
     flex-direction column
     .pk-team
-      flex 0 0 140px
-      display flex 
-      flex-direction row
-      justify-content center
-      .team
-        border-width 2px
-        border-style solid
-        border-color $color-black-d
-        flex 0 0 100px
-        height 140px
-        background-repeat no-repeat
-        background-size cover
-        background-position center center
+      object-position center center
+      object-fit cover
+      width 100%
+      border-width 2px
+      border-style solid
+      border-color $color-black-d
     .line-vertical-normal
       flex 0 0 20px
       display flex

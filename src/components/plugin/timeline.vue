@@ -18,7 +18,7 @@
             class="item"
             v-for="(item, index) in timelineContent.items"
             :key="index">
-            <span class="dot" :class="getClass(item.typeClass)"></span>
+            <span class="dot" :class="getClass(item.type)"></span>
             <h3 class="month-item">{{ item.nameMonth }}</h3>
             <h4 class="title-item" v-html="item.title"></h4>
             <p class="description-item" v-html="splitDescription(item.description)"></p>

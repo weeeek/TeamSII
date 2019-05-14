@@ -9,7 +9,7 @@
           :animate-end="animateEnd()">
         </animate-number>
       </div>
-      <div class="flag" :class="team.win?'win':'lose'" :style="`background-image:url('${team.image}')`"></div>
+      <div class="flag" :class="team.win?'win':'lose'" :style="`background-image:url('https://content.nf.migu.cn/soe/uniaccess?fileID=${team.image}')`"></div>
     </div>
 </template>
 
