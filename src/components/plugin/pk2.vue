@@ -1,6 +1,6 @@
 <template>
     <a class="pk-container" target="_blank" :href="data.url">      
-      <img class="pk-team" :src="`http://wx3.sinaimg.cn/large/${data.bg}.jpg`"/>      
+      <img class="pk-team" :src="`//wx3.sinaimg.cn/large/${data.bg}.jpg`"/>      
       <div class="line-vertical-normal" v-if="data.team.length > 0">
           <div class="line-pk-mid-left" :class="this.winTeamColor(data,0)"></div>
           <div class="line-pk-mid-right" :class="this.winTeamColor(data,1)"></div>

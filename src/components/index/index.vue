@@ -5,7 +5,7 @@
       <div class="slogan">{{ slogan }}</div>
     </div>
     <div class="block">
-      <h2 v-show="false">每当世界在变幻，这舞台就是你旅程的港湾</h2>
+      <h2>每当世界在变幻，这舞台就是你旅程的港湾</h2>
       <div class="members">
         <div class="member" v-for="m in memberDataList" :key="m.name">
           <div class="photo" :style="`background-image:url(${m.photo})`">  
@@ -14,8 +14,8 @@
           </div>
           <div class="name">{{m.name}}</div>
           <div class="accounts">
-            <a :href="`https://weibo.com/u/${m.weibo}`" :title="`微博-${m.name}`" target="_blank" class="favicon favicon-weibo" v-if="m.weibo"></a>
-            <a :href="`https://space.bilibili.com/${m.bilibili}`" :title="`B站-${m.name}`" target="_blank" class="favicon favicon-bilibili" v-if="m.bilibili"></a>
+            <a :href="`//weibo.com/${m.weibo}`" :title="`微博-${m.name}`" target="_blank" class="favicon favicon-weibo" v-if="m.weibo"></a>
+            <a :href="`//space.bilibili.com/${m.bilibili}`" :title="`B站-${m.name}`" target="_blank" class="favicon favicon-bilibili" v-if="m.bilibili"></a>
             <!-- <a href="javascript:void(0)" :data-clipboard-text="m.douyin" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a> -->
             <a href="javascript:void(0)" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a>
             <a :href="m.changba" :title="`唱吧-${m.name}`" target="_blank" class="favicon favicon-changba" v-if="m.changba"></a>
@@ -30,25 +30,24 @@
       <div class="members">
         <div class="member" v-for="m in pet48DataList" :key="m.name">
           <div class="photo" :style="`background-image:url('./static/pet48/${m.name}.jpg')`">  
-            <a v-if="m.group" class="group name" :class="m.group" target="_blank" :href="getGroupWeibo(m.group)"></a>
             <div class="cover"></div>
           </div>
           <div class="name">{{m.master}} - {{m.name}}</div>
         </div>
       </div>
     </div>    
-    <div class="block" v-if="false">
+    <div class="block">
       <h2>回忆还感动吗，梦是否已在青空上盛开</h2>
       <div class="members">
-        <div class="member" v-for="m in otherTeamMemberData" :key="m.name">
+        <div class="member" v-for="m in otherTeamMemberDataList" :key="m.name">
           <div class="photo" :style="`background-image:url(${m.photo})`">  
             <a v-if="m.group" class="group name" :class="m.group" target="_blank" :href="getGroupWeibo(m.group)"></a>
             <div class="cover"></div>
           </div>
           <div class="name">{{m.name}}</div>
           <div class="accounts">
-            <a :href="m.weibo" :title="`微博-${m.name}`" target="_blank" class="favicon favicon-weibo" v-if="m.weibo"></a>
-            <a :href="m.bilibili" :title="`B站-${m.name}`" target="_blank" class="favicon favicon-bilibili" v-if="m.bilibili"></a>
+            <a :href="`//weibo.com/${m.weibo}`" :title="`微博-${m.name}`" target="_blank" class="favicon favicon-weibo" v-if="m.weibo"></a>
+            <a :href="`//space.bilibili.com/${m.bilibili}`" :title="`B站-${m.name}`" target="_blank" class="favicon favicon-bilibili" v-if="m.bilibili"></a>
             <!-- <a href="javascript:void(0)" :data-clipboard-text="m.douyin" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a> -->
             <a href="javascript:void(0)" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a>
             <a :href="m.changba" :title="`唱吧-${m.name}`" target="_blank" class="favicon favicon-changba" v-if="m.changba"></a>
@@ -58,18 +57,18 @@
         </div>
       </div>
     </div>
-    <div class="block" v-if="false">
+    <div class="block">
       <h2>十年后再回首，我们初心不改</h2>
       <div class="members">
-        <div class="member" v-for="m in exitMemberData" :key="m.name">
+        <div class="member" v-for="m in exitMemberDataList" :key="m.name">
           <div class="photo" :style="`background-image:url(${m.photo})`">  
             <a v-if="m.group" class="group name" :class="m.group" target="_blank" :href="getGroupWeibo(m.group)"></a>
             <div class="cover"></div>
           </div>
           <div class="name">{{m.name}}</div>
           <div class="accounts">
-            <a :href="m.weibo" :title="`微博-${m.name}`" target="_blank" class="favicon favicon-weibo" v-if="m.weibo"></a>
-            <a :href="m.bilibili" :title="`B站-${m.name}`" target="_blank" class="favicon favicon-bilibili" v-if="m.bilibili"></a>
+            <a :href="`//weibo.com/${m.weibo}`" :title="`微博-${m.name}`" target="_blank" class="favicon favicon-weibo" v-if="m.weibo"></a>
+            <a :href="`//space.bilibili.com/${m.bilibili}`" :title="`B站-${m.name}`" target="_blank" class="favicon favicon-bilibili" v-if="m.bilibili"></a>
             <!-- <a href="javascript:void(0)" :data-clipboard-text="m.douyin" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a> -->
             <a href="javascript:void(0)" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a>
             <a :href="m.changba" :title="`唱吧-${m.name}`" target="_blank" class="favicon favicon-changba" v-if="m.changba"></a>
@@ -85,7 +84,6 @@
 <script type="text/ecmascript-6">
   import WordCloud from 'components/plugin/highchart-wordcloud'
   import {memberData, pet48Data, exitMemberData, otherTeamMemberData} from 'config/memberData'
-  // import Clipboard from 'clipboard'
 
   export default {
     name: 'Index',
@@ -116,11 +114,8 @@
         memberDataList: memberData,
         pet48DataList: pet48Data,
         exitMemberDataList: exitMemberData,
-        otherTeamMemberData: otherTeamMemberData
+        otherTeamMemberDataList: otherTeamMemberData
       }
-    },
-    mounted () {
-      // const clipboard = new Clipboard('.favicon-douyin')
     },
     methods: {
       initData (text) {
@@ -143,10 +138,12 @@
       getGroupWeibo (group) {
         switch(group){
           case 'sense':
-            return 'https://weibo.com/u/5901077408'
+            return '//weibo.com/u/5901077408'
           case 'blueV':
-            return 'https://weibo.com/u/6386595576'
+            return '//weibo.com/u/6386595576'
           case 'new':
+            return 'javascript:void(0)'
+          default:
             return 'javascript:void(0)'
         }
       }
@@ -164,17 +161,17 @@
     cursor not-allowed
     pointer-events none
 .favicon-weibo
-  background-image url('https://weibo.com/favicon.ico')
+  background-image url('//weibo.com/favicon.ico')
 .favicon-bilibili
-  background-image url('https://www.bilibili.com/favicon.ico')
+  background-image url('//www.bilibili.com/favicon.ico')
 .favicon-douyin
-  background-image url('https://www.douyin.com/favicon.ico')
+  background-image url('//www.douyin.com/favicon.ico')
 .favicon-changba
-  background-image url('http://changba.com/favicon.ico')
+  background-image url('//changba.com/favicon.ico')
 .favicon-miaopai
-  background-image url('https://www.miaopai.com/favicon.ico')
+  background-image url('//www.miaopai.com/favicon.ico')
 .favicon-music-weibo
-  background-image url('https://image2.sina.com.cn/music/web/logo/weibo2012/logo_16.ico')
+  background-image url('//image2.sina.com.cn/music/web/logo/weibo2012/logo_16.ico')
 #wordcloud-container
   height 400px
   width 100%
@@ -189,6 +186,8 @@
 .block
   h2
     text-align center
+    font-size 24px
+    font-family 'Lobster', serif
   .members
     display flex
     flex-wrap wrap

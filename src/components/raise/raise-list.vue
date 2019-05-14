@@ -327,10 +327,28 @@ export default {
         font-weight bolder
         color #FFF
         transition all .5s ease-in-out
-
 @media screen and (min-width 1024px)
   .member
     margin-right 1em
+  .project-wrap
+    -moz-column-count 4
+    -webkit-column-count 4
+    column-count 4
+    -moz-column-gap 1em
+    -webkit-column-gap 1em
+    column-gap 1em
+    .project-item
+      padding 1em
+      margin 0 0 15px 0
+      .project-progress
+        margin-top 10px
+      .project-info
+        width 100%
+        height 135px
+        line-height 135px
+        margin-bottom 10px
+          
+@media screen and (max-width 1024px)  and (min-width 768px) 
   .project-wrap
     -moz-column-count 2
     -webkit-column-count 2
@@ -345,30 +363,11 @@ export default {
         margin-top 10px
       .project-info
         width 100%
-        height 270px
-        line-height 270px
-        margin-bottom 10px
-          
-@media screen and (max-width 1024px)  and (min-width 600px) 
-  .project-wrap
-    -moz-column-count 1
-    -webkit-column-count 1
-    column-count 1
-    -moz-column-gap 1em
-    -webkit-column-gap 1em
-    column-gap 1em
-    .project-item
-      padding 1em
-      margin 0 0 15px 0
-      .project-progress
-        margin-top 10px
-      .project-info
-        width 100%
-        height 270px
-        line-height 270px
+        height 200px
+        line-height 200px
         margin-bottom 10px
 
-@media screen and (max-width 600px) 
+@media screen and (max-width 768px) 
   .project-wrap
     -moz-column-count 1
     -webkit-column-count 1
