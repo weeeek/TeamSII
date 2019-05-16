@@ -53,6 +53,12 @@ export const tripData = [{
     type: 'blue',
     url: 'http://www.snh48.com/ticket.php'
   }, {
+    nameMonth: '5月15日',
+    title: 'CCTV3 亚洲文化嘉年华',
+    description: '许佳琪，张语格，许杨玉琢',
+    type: 'green',
+    url: 'https://www.bilibili.com/video/av52576594'
+  }, {
     nameMonth: '5月11日 18:00',
     title: 'SNH48 哈啤&PONY 南京行',
     description: '戴萌，莫寒，孙芮，孔肖吟',
@@ -443,7 +449,7 @@ export const tripData = [{
     }, {
       nameMonth: '11月1日 19:00',
       title: '超新星运动会',
-      description: '出席成员：孙芮，李宇琪',
+      description: '出席成员：孙芮，李宇琪，李艺彤，段艺璇，刘姝贤，杨冰怡，郑丹妮，陈珂，张昕，赵粤',
       type: 'green',
       url: 'https://v.qq.com/x/cover/syf5vvuk9e5jup2/v00286kb0w7.html'
     }, {
