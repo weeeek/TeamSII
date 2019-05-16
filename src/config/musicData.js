@@ -10,7 +10,11 @@ export const qqMusicConfig = {
           mid: '0023ZLoy2Nsmon',
           name: '晨光',
           interval: 255,
-          play: []
+          play: [{
+            player: '最爱吃的熊孩子',
+            type: 'piano',
+            url: 'https://www.bilibili.com/video/av52527300'
+          }]
         },
         {
           image: { url: 'https://newsimg.48.cn/2018/1123/20181123112924402.jpg', left: '50%', right: '50%', objectfit: 'cover' },
@@ -610,6 +614,43 @@ export const qqMusicConfig = {
   }, {
     typeName: 'EP',
     group: [{
+      title: '一心向前',
+      songs: [{
+        image: {url: '//i0.hdslb.com/bfs/archive/c7795b8ffd3c41e295f414fa5e4bcb5e7cace555.jpg', left: '50%', right: '50%', objectfit: 'cover'},
+        id: 6588967,
+        mid: '000MdykV2k840l',
+        name: '遥远的彼岸（So long）',
+        interval: 365,
+        play: []
+      }, {
+        image: {url: '//i1.hdslb.com/bfs/archive/7e3bce2dc81dbd1345fcd6e66aae3aab1fb040ab.jpg', left: '50%', right: '50%', objectfit: 'cover'},
+        id: 6588968,
+        mid: '002EA2yF2ZoXmz',
+        name: '樱花书签',
+        interval: 242,
+        play: []
+      }, {
+        image: {url: '//i0.hdslb.com/bfs/archive/c17533550cded1e6af848f2f63a46468edc5f690.jpg', left: '50%', right: '50%', objectfit: 'cover'},
+        id: 6588969,
+        mid: '002Xdadq1rujSC',
+        name: '生命之风',
+        interval: 224,
+        play: []
+      }, {
+        id: 6588971,
+        mid: '000JFYbc12ebj6',
+        name: '剧场女神',
+        interval: 250,
+        play: []
+      }, {
+        image: {url: '//i0.hdslb.com/bfs/archive/1a37727c1d143863846e412dca7484daf32f5aa2.jpg', left: '50%', right: '50%', objectfit: 'cover'},
+        id: 6588972,
+        mid: '003re5S23BtFcp',
+        name: '开拓者',
+        interval: 242,
+        play: []
+      }]
+    }, {
       title: '心电感应',
       songs: [{
         image: {url: '//i2.hdslb.com/bfs/archive/aa3548784befcf93f9edd7ace4ff70651125df2a.jpg', left: '50%', right: '50%', objectfit: 'cover'},
