@@ -18,6 +18,10 @@ export const entertainmentConfig = {
       name: 'SNH48 第一届 偶像运动会',
       url: 'https://www.bilibili.com/video/av21789837',
       img: 'http://wx3.sinaimg.cn/large/a04b2a1dgy1g13ow99bfxj229h1ib4qq.jpg'
+    }, {
+      name: '超神偶像',
+      url: 'https://space.bilibili.com/1315101/video?keyword=超神偶像',
+      img: 'https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=58dfb7f6e8fe9925df01610255c135ba/1f178a82b9014a9094f5e98ea1773912b31bee3e.jpg'
     }
   ]
 }
