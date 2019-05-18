@@ -319,6 +319,12 @@ export const recommendConfig = {
         url: 'https://weibo.com/p/1001593834119208498574',
         img: '//i2.hdslb.com/bfs/archive/ab049aacfdb53595134d862598a4e03058c90f4d.jpg_380x240.jpg',
         position: 'center center'
+      }, {
+        title: '惩罚花',
+        from: 'B',
+        url: '52784193',
+        img: '//i2.hdslb.com/bfs/archive/d58c852609d001f141f9c2eb86a7a20c51ae25e1.jpg_380x240.jpg',
+        position: 'center center'
       }]
     }, {
       type: '官方制作',
