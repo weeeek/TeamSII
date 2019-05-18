@@ -6,6 +6,7 @@ export const memberData = [{
   bilibili: '192476819',
   douyin: '602985242',
   changba: 'http://changba.comu/150709347',
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 3,
@@ -23,6 +24,7 @@ export const memberData = [{
   bilibili: null,
   douyin: '614700897',
   changba: null,
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 679448,
@@ -40,6 +42,7 @@ export const memberData = [{
   bilibili: '19383319',
   douyin: '665951014',
   changba: null,
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 37,
@@ -57,6 +60,7 @@ export const memberData = [{
   bilibili: null,
   douyin: 'diamooond28',
   changba: null,
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 38,
@@ -74,6 +78,7 @@ export const memberData = [{
   bilibili: '114866',
   douyin: 'JiangYun327',
   changba: 'http://changba.comu/46716517',
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 17,
@@ -91,6 +96,7 @@ export const memberData = [{
   bilibili: null,
   douyin: '371432782',
   changba: null,
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 19,
@@ -108,6 +114,7 @@ export const memberData = [{
   bilibili: '3882983',
   douyin: '28221702',
   changba: null,
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 20,
@@ -125,6 +132,7 @@ export const memberData = [{
   bilibili: '472626',
   douyin: '869971950',
   changba: null,
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 63566,
@@ -142,6 +150,7 @@ export const memberData = [{
   bilibili: '323856',
   douyin: '708165492',
   changba: null,
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 35,
@@ -159,6 +168,7 @@ export const memberData = [{
   bilibili: '22062404',
   douyin: '572856432',
   changba: null,
+  derivant: {id: '', enabled: false},
   miaopai: 'https://www.miaopai.comu/paike_f77xpyubxr',
   pocket48: {
     id: 36,
@@ -176,6 +186,7 @@ export const memberData = [{
   bilibili: '144873060',
   douyin: '62534021',
   changba: null,
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 40,
@@ -193,6 +204,7 @@ export const memberData = [{
   bilibili: '11777755',
   douyin: 'srsrsr333333srsr',
   changba: null,
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 8,
@@ -210,6 +222,7 @@ export const memberData = [{
   bilibili: '18736885',
   douyin: '1050881824',
   changba: null,
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 6737,
@@ -227,6 +240,7 @@ export const memberData = [{
   bilibili: null,
   douyin: null,
   changba: null,
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 11,
@@ -243,7 +257,8 @@ export const memberData = [{
   weibo: 'u/3050731261',
   bilibili: '299303884',
   douyin: '570521305',
-  changeba: 'http://changba.comu/119484593',
+  changba: 'http://changba.comu/119484593',
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 39,
@@ -261,6 +276,7 @@ export const memberData = [{
   bilibili: null,
   douyin: '583908288',
   changba: 'http://changba.comu/99463480',
+  derivant: {id: '', enabled: false},
   weibomusic: 'http://music.weibo.com/t/s/3050758665.html',
   miaopai: null,
   pocket48: {
@@ -279,6 +295,7 @@ export const memberData = [{
   bilibili: '18873979',
   douyin: 'hellokiki77',
   changba: null,
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 21,
@@ -296,6 +313,7 @@ export const memberData = [{
   bilibili: '1846928',
   douyin: '660925792',
   changba: null,
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 14,
@@ -313,6 +331,7 @@ export const memberData = [{
   bilibili: null,
   douyin: 'yuandanni',
   changba: null,
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 67,
@@ -330,6 +349,7 @@ export const memberData = [{
   bilibili: '213790489',
   douyin: '576412860',
   changba: 'http://changba.comu/58705105',
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 5,
@@ -347,6 +367,7 @@ export const memberData = [{
   bilibili: null,
   douyin: '4746929',
   changba: null,
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 677405,
@@ -364,6 +385,7 @@ export const memberData = [{
   bilibili: '326347677',
   douyin: '368860177',
   changba: null,
+  derivant: {id: '', enabled: false},
   miaopai: null,
   pocket48: {
     id: 1,
@@ -409,6 +431,7 @@ export const otherTeamMemberData = [
     bilibili: '11399736',
     douyin: 'Kokoi_',
     changba: null,
+    derivant: {id: '', enabled: false},
     miaopai: null,
     pocket48: {
       id: 399631,
@@ -426,6 +449,7 @@ export const otherTeamMemberData = [
     bilibili: null,
     douyin: '384991613',
     changba: null,
+    derivant: {id: '', enabled: false},
     miaopai: null,
     pocket48: {
       id: 6432,
@@ -447,6 +471,7 @@ export const exitMemberData = [
     bilibili: null,
     douyin: null,
     changba: null,
+    derivant: {id: '', enabled: false},
     miaopai: null,
     pocket48: null,
     group: null,
@@ -461,6 +486,7 @@ export const exitMemberData = [
     bilibili: '10414152',
     douyin: null,
     changba: null,
+    derivant: {id: '', enabled: false},
     miaopai: null,
     pocket48: null,
     group: null,
@@ -475,6 +501,7 @@ export const exitMemberData = [
     bilibili: null,
     douyin: null,
     changba: null,
+    derivant: {id: '', enabled: false},
     miaopai: null,
     pocket48: null,
     group: null,
@@ -489,6 +516,7 @@ export const exitMemberData = [
     bilibili: null,
     douyin: null,
     changba: null,
+    derivant: {id: '', enabled: false},
     miaopai: null,
     pocket48: null,
     group: null,
@@ -502,7 +530,7 @@ export const exitMemberData = [
     weibo: 'u/6292981540',
     bilibili: '',
     douyin: '',
-    changeba: null,
+    changba: null,
     miaopai: null,
     pocket48: null,
     group: null,
@@ -516,7 +544,8 @@ export const exitMemberData = [
     weibo: '',
     bilibili: '',
     douyin: '',
-    changeba: null,
+    changba: null,
+    derivant: {id: '', enabled: false},
     miaopai: null,
     pocket48: null,
     group: null,
@@ -530,7 +559,8 @@ export const exitMemberData = [
     weibo: 'linaixin2007',
     bilibili: '',
     douyin: '',
-    changeba: null,
+    changba: null,
+    derivant: {id: '', enabled: false},
     miaopai: null,
     pocket48: null,
     group: null,
@@ -545,7 +575,8 @@ export const exitMemberData = [
     weibo: 'u/5861419679',
     bilibili: '',
     douyin: 'CJ_0103',
-    changeba: null,
+    changba: null,
+    derivant: {id: '', enabled: false},
     miaopai: null,
     pocket48: null,
     group: null,
@@ -560,6 +591,7 @@ export const exitMemberData = [
     bilibili: '2310475',
     douyin: 'Yukino828',
     changba: null,
+    derivant: {id: '', enabled: false},
     miaopai: null,
     pocket48: 6429,
     group: null,
@@ -574,6 +606,7 @@ export const exitMemberData = [
     bilibili: null,
     douyin: null,
     changba: null,
+    derivant: {id: '', enabled: false},
     miaopai: null,
     pocket48: 677401,
     group: null,
@@ -588,6 +621,7 @@ export const exitMemberData = [
     bilibili: '14801692',
     douyin: '163927666',
     changba: null,
+    derivant: {id: '', enabled: false},
     miaopai: null,
     pocket48: 43,
     group: null,
@@ -602,6 +636,7 @@ export const exitMemberData = [
     bilibili: null,
     douyin: null,
     changba: null,
+    derivant: {id: '', enabled: false},
     miaopai: null,
     pocket48: null,
     group: null,
@@ -611,11 +646,12 @@ export const exitMemberData = [
     }
   }, {
     name: '申月娇',
-    photo: '',
+    photo: 'https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=6e6894d513d5ad6eaaf963ecb9f05ee6/b7003af33a87e95089595c7d18385343fbf2b451.jpg',
     weibo: 'natsuki910',
     bilibili: null,
     douyin: null,
     changba: null,
+    derivant: {id: '', enabled: false},
     miaopai: null,
     pocket48: null,
     group: null,
@@ -630,6 +666,7 @@ export const exitMemberData = [
     bilibili: null,
     douyin: null,
     changba: null,
+    derivant: {id: '', enabled: false},
     miaopai: null,
     pocket48: null,
     group: null,
@@ -644,6 +681,7 @@ export const exitMemberData = [
     bilibili: '146943307',
     douyin: null,
     changba: null,
+    derivant: {id: '', enabled: false},
     miaopai: null,
     pocket48: null,
     group: null,
@@ -653,11 +691,12 @@ export const exitMemberData = [
     }
   }, {
     name: '曾琳瑜',
-    photo: '',
+    photo: 'https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=2bea0adad258ccbf1bbcb23c21e3db03/908fa0ec08fa513dbea3cfb63e6d55fbb2fbd949.jpg',
     weibo: '',
     bilibili: null,
     douyin: null,
     changba: null,
+    derivant: {id: '', enabled: false},
     miaopai: null,
     pocket48: null,
     group: null,

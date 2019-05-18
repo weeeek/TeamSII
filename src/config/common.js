@@ -20,6 +20,10 @@ export const performanceConfig = {
 // export const modianApi = 'https://mapi.modian.com/v45/user/build_product_list'
 export const modianApi = 'https://me.modian.com/ajax/create_pro_list'
 
+export function orimuseApi (id, pageSize, pageNo) {
+  return `http://www.orimuse.com/api/user/${id}/crowdfunding?pageSize=${pageSize}&pageNo=${pageNo}`
+}
+
 export const yahhoapisBase = 'https://query.yahooapis.com/v1/public/yql'
 export const yahhoapisFormate = 'json'
 

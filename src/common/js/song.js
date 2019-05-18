@@ -6,7 +6,7 @@ import { Base64 } from 'js-base64'
 let urlMap = {}
 
 export default class Song {
-  constructor ({id, mid, singer, name, album, duration, image, url, play}) {
+  constructor ({id, mid, singer, name, album, duration, image, url, play, opern}) {
     this.id = id
     this.mid = mid
     this.singer = singer
@@ -16,6 +16,7 @@ export default class Song {
     this.image = image
     this.filename = `C400${this.mid}.m4a`
     this.play = play
+    this.opern = opern
     // 确保一首歌曲的 id 只对应一个 url
     if (urlMap[this.id]) {
       this.url = urlMap[this.id]
@@ -69,7 +70,8 @@ export function createSong (musicData) {
     duration: musicData.interval || 200,
     image: musicData.image || (musicData.albummid ? { url: `https://y.gtimg.cn/music/photo_new/T002R300x300M000${musicData.albummid}.jpg?max_age=2592000`, left: '50%', right: '50%' } : { url: `https://weeeek.github.io/TeamSII/dist/static/images/flag.jpg`, left: '50%', right: '50%' }),
     url: musicData.url,
-    play: musicData.play
+    play: musicData.play,
+    opern: musicData.opern
   })
 }
 

@@ -51,6 +51,11 @@
       </router-link>
     </keep-alive>
     <keep-alive>
+      <router-link tag="div" class="tab-item" to="/derivant">
+        <span class="tab-link">周边</span>
+      </router-link>
+    </keep-alive>
+    <keep-alive>
       <router-link tag="div" class="tab-item" to="/entertainment">
         <span class="tab-link">赛事</span>
       </router-link>

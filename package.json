@@ -38,6 +38,7 @@
     "timeline-vuejs": "^0.2.2",
     "url-loader": "^0.5.8",
     "vue": "^2.5.5",
+    "vue-carousel": "^0.18.0",
     "vue-highcharts": "^0.0.10",
     "vue-jam-icons": "^1.0.1",
     "vue-lazyload": "^1.0.3",

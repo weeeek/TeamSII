@@ -129,12 +129,6 @@ export default {
     getProgress (value) {
         return Number.parseFloat(value)
     },
-    initProject (response) {
-      console.log('data',JSON.parse(response.data))
-    },
-    resetAllYYHList () {
-      this.YYHList = [];
-    },    
     addData (db, id, name, enabled, checked) {
     /*
       transaction()函数,用以处理事务：
@@ -232,8 +226,7 @@ export default {
                     let money = list.find('.pro_status').text()
                     let progress = list.find('.pro_type').text()
                     if(progress.includes('预约'))
-                      progress = 0
-
+                      progress = "进度：0"
                     _this.modianDatas.push({
                       user_id: id,
                       href: list.find('a:eq(0)').attr('href'),
@@ -268,121 +261,6 @@ export default {
 }
 </script>
 
-<style scoped lang="stylus" rel="stylesheet/stylus">
-.member
-  display inline-block
-  line-height 2.5em
-  &:first-child
-    display block
-  
-.project-filter
-  display flex
-  .member-all
-    padding 12px
-    flex-basis 5em
-    flex-grow 0
-    flex-shrink 0
-    display flex
-    flex-direction column
-    .member-switch
-      flex-basis 22px
-      flex-grow 0
-      flex-shrink 0
-    .icon-toggle
-      cursor pointer      
-      flex-basis 1em
-      flex-grow 0
-      flex-shrink 0
-      &:visited      
-      &:focus
-      &:active
-      &:hover
-        box-shadow none
-  .members
-    flex-grow 1
-.project-wrap
-  .project-item
-    -webkit-column-break-inside avoid
-    break-inside avoid
-    background #ffffff
-    box-shadow 2px 2px 2px rgba(0,0,0,.3)
-    width 100%
-    height 100%
-    display block
-    &:hover
-      box-shadow 2px 2px 6px rgba(0,0,0,.4)      
-      .project-info
-        .project-title
-          background-color rgba(0,0,0,.6)
-          opacity 1
-    .project-info
-      width 100%
-      background-size cover
-      background-position center center
-      background-repeat no-repeat
-      .project-title
-        opacity 0
-        vertical-align middle
-        text-align center
-        font-weight bolder
-        color #FFF
-        transition all .5s ease-in-out
-@media screen and (min-width 1024px)
-  .member
-    margin-right 1em
-  .project-wrap
-    -moz-column-count 4
-    -webkit-column-count 4
-    column-count 4
-    -moz-column-gap 1em
-    -webkit-column-gap 1em
-    column-gap 1em
-    .project-item
-      padding 1em
-      margin 0 0 15px 0
-      .project-progress
-        margin-top 10px
-      .project-info
-        width 100%
-        height 135px
-        line-height 135px
-        margin-bottom 10px
-          
-@media screen and (max-width 1024px)  and (min-width 768px) 
-  .project-wrap
-    -moz-column-count 2
-    -webkit-column-count 2
-    column-count 2
-    -moz-column-gap 1em
-    -webkit-column-gap 1em
-    column-gap 1em
-    .project-item
-      padding 1em
-      margin 0 0 15px 0
-      .project-progress
-        margin-top 10px
-      .project-info
-        width 100%
-        height 200px
-        line-height 200px
-        margin-bottom 10px
-
-@media screen and (max-width 768px) 
-  .project-wrap
-    -moz-column-count 1
-    -webkit-column-count 1
-    column-count 1
-    -moz-column-gap 1em
-    -webkit-column-gap 1em
-    column-gap 1em
-    .project-item
-      padding 1em
-      margin 0 0 15px 0
-      .project-progress
-        margin-top 10px
-      .project-info
-        width 100%
-        height 270px
-        line-height 270px
-        margin-bottom 10px
+<style scoped lang="stylus" rel="stylesheet/stylus">    
+  @import "~common/stylus/project"
 </style>

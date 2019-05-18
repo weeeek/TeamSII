@@ -44,6 +44,8 @@
             return '小提琴'
           case 'erhu':
             return '二胡'
+          case 'note':
+            return '曲谱'
         }
       }
     }
@@ -75,7 +77,23 @@
       left 15%
     &:after
       left 60%
-
+  .note
+    display inline-block
+    width 1em
+    height 1.5em
+    border-color transparent $color-team-sii transparent transparent
+    border-style none solid none none
+    border-width 0 2px 0 0
+    position relative
+    &:before
+      content ''
+      width 0.8em
+      height 0.35em
+      bottom 0
+      left 0.55em
+      background $color-team-sii
+      border-radius 0.05em
+      transform rotate(-15deg)      
   .erhu
     display inline-block
     width 1em
