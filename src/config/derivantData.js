@@ -11,7 +11,6 @@ export const derivantData = [
             'http://image.orimuse.com/design_info/1127125273175654400.png'
           ],
           'minPrice': 5900,
-          'name': 'SNH48-TEAMSII应援周边2019预售',
           'maxPrice': 36000,
           'goodsInfo': [
             {
@@ -21,7 +20,7 @@ export const derivantData = [
           ]
         },
         'selfLink': '//www.orimuse.com/cfd/12081',
-        'name': 'SNH48-TEAMSII应援会四周年周边',
+        'name': 'Team SII应援会四周年周边',
         'startTime': 1557460225000,
         'endTime': 1559700040000
       }

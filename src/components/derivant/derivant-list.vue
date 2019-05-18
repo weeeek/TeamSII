@@ -2,13 +2,16 @@
   <div>
     <div class="project-wrap">
       <div class="project-item" v-for="obj in derivantDataFilter" :key="obj.name">
-        <carousel v-for="d in obj.derivant" :key="d.name" :per-page="1" :navigate-to="obj.selfLink" :mouse-drag="false">
-        <slide v-for="img in d.product.imgs" :key="img" v-if="d.product">
-        <div class="project-info" :style="`background-image:url(${img})`">
-            <h3 class="project-title text-ellipsis">{{d.name}}</h3>
+        <div v-for="d in obj.derivant" :key="d.name">
+          <carousel :per-page="1" :navigate-to="d.selfLink" :mouse-drag="false" :paginationPadding="0" :paginationMargin="0" :autoplay="true" :adjustableHeight="true">
+            <slide v-for="img in d.product.imgs" :key="img" v-if="d.product">
+              <div class="project-info" :style="`background-image:url(${img})`">
+                <h3 class="project-title text-ellipsis">{{d.name}}</h3>
+              </div>
+            </slide>
+          </carousel>
+          <a class="text-center" :href="d.selfLink" target="_blank">购买</a>
         </div>
-        </slide>
-        </carousel>
       </div>
     </div>
   </div>
@@ -44,6 +47,21 @@ export default {
 
 <style scoped lang="stylus" rel="stylesheet/stylus">    
   @import "~common/stylus/project"
+
+
+  @media screen and (min-width 1024px)
+    .project-wrap
+      -moz-column-count 3
+      -webkit-column-count 3
+      column-count 3
+
   .project-wrap
     margin-top 15px
+    .project-item
+      .project-info
+        background-size contain    
+        width 100%
+        height 400px
+        line-height 400px
+        margin-bottom 10px
 </style>
