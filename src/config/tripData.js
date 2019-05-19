@@ -34,17 +34,17 @@ export const tripData = [{
   }, {
     nameMonth: '5月19日 14:00',
     title: '《重生计划》第26场，徐子轩《“幸福”的懒惰-贝利亚》生日公演',
-    description: '',
-    summarize: '',
+    description: '生日环节：《一只黑黑的妖怪住进了我家》，《生》，PV《词不达意》，《玛利亚》,MC1：抱徐子轩,Lost：莫寒,Hold me tight：戴萌，孔肖吟,解语者：钱蓓婷，李宇琪，朱小丹,最终回合：张语格，蒋芸，徐晨辰，陈思,无罪无我：莫寒，刘增艳，陈观慧,somewhere：吴哲晗，孙芮，徐子轩,噩梦轮回：许佳琪,MC3：写成员特点，被写人猜,MC4：正问反答,',
+    summarize: '孔肖吟最有劲的时候-喝点儿----by 孙芮\r\n毫无灵魂----by 许佳琪\r\n刘增艳遇见的第一个SII前辈是徐子轩\r\n社会但是不影响我拽----by 陈俊羽',
     type: 'blue',
-    url: 'http://www.snh48.com/ticket.php'
+    url: 'https://www.bilibili.com/video/av53007558'
   }, {
     nameMonth: '5月18日',
     title: '周浦花海 （上海市周邓公路4385号）',
     description: '莫寒，孙芮，蒋芸，刘增艳，徐晨辰，李宇琪',
-    summarize: '',
+    summarize: '冒险乐园，坐标',
     type: 'green',
-    url: 'http://www.zphuahai.com/index.aspx'
+    url: 'https://www.bilibili.com/video/av52912153'
   }, {
     nameMonth: '5月17日 19:30',
     title: '《重生计划》第25场',
