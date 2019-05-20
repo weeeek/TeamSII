@@ -1,6 +1,7 @@
 export const derivantData = [
   {
     name: 'Team SII',
+    id: 147429,
     derivant: [
       {
         'product': {
@@ -11,13 +12,7 @@ export const derivantData = [
             'http://image.orimuse.com/design_info/1127125273175654400.png'
           ],
           'minPrice': 5900,
-          'maxPrice': 36000,
-          'goodsInfo': [
-            {
-              'img': 'http://image.orimuse.com/design_info/1127062479885565952.jpg',
-              'name': '商品详情'
-            }
-          ]
+          'maxPrice': 36000
         },
         'selfLink': '//www.orimuse.com/cfd/12081',
         'name': 'Team SII应援会四周年周边',
@@ -90,7 +85,25 @@ export const derivantData = [
     derivant: []
   }, {
     name: '张语格',
-    derivant: []
+    id: 188462,
+    derivant: [
+      {
+        'product': {
+          'imgs': [
+            'http://image.orimuse.com/design_info/1130347012173070336.png',
+            'http://image.orimuse.com/design_info/1130347012357619712.png',
+            'http://image.orimuse.com/design_info/1130347012449894400.png',
+            'http://image.orimuse.com/design_info/1130347012529586176.png'
+          ],
+          'minPrice': 3800,
+          'maxPrice': 51100
+        },
+        'selfLink': '//www.orimuse.com/cfd/12101',
+        'name': 'SNH48-张语格应援团夏季应援物',
+        'startTime': 1558330637000,
+        'endTime': 1559663756000
+      }
+    ]
   }, {
     name: '吕一',
     derivant: []

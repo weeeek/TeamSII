@@ -3,13 +3,16 @@
     <div class="project-wrap">
       <div class="project-item" v-for="obj in derivantDataFilter" :key="obj.name">
         <div v-for="d in obj.derivant" :key="d.name">
-          <carousel :per-page="1" :navigate-to="d.selfLink" :mouse-drag="false" :paginationPadding="0" :paginationMargin="0" :autoplay="true" :adjustableHeight="true">
+          <carousel :per-page="1" :navigate-to="d.selfLink" :mouse-drag="false" :paginationPadding="0" :paginationMargin="0" :autoplay="true" :adjustableHeight="true" :loop="true">
             <slide v-for="img in d.product.imgs" :key="img" v-if="d.product">
               <div class="project-info" :style="`background-image:url(${img})`">
                 <h3 class="project-title text-ellipsis">{{d.name}}</h3>
               </div>
             </slide>
           </carousel>
+          <div class="text-center text-derivant">
+            ￥{{ toMoney(d.product.minPrice) }} - {{ toMoney(d.product.maxPrice) }}
+          </div>
           <a class="text-center" :href="d.selfLink" target="_blank">购买</a>
         </div>
       </div>
@@ -31,7 +34,11 @@ export default {
   },
   watch:{ },
   mounted () { },
-  methods: {},
+  methods: {
+    toMoney (value) {
+      return (value / 100).toFixed(2)
+    }
+  },
   computed: {
     derivantDataFilter: function () {
       return derivantData.filter((x)=>{
@@ -48,7 +55,10 @@ export default {
 <style scoped lang="stylus" rel="stylesheet/stylus">    
   @import "~common/stylus/project"
 
-
+  .text-derivant
+    margin 1em auto
+    color #FF5041
+    font-weight bolder
   @media screen and (min-width 1024px)
     .project-wrap
       -moz-column-count 3
