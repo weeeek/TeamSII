@@ -687,19 +687,95 @@ export const qqMusicConfig = {
     typeName: 'EP',
     group: [{
       title: '万圣节之夜',
-      songs: []
+      songs: [{
+        image: { url: '//y.gtimg.cn/music/photo_new/T002R300x300M000001Hj3pA0KVEMD.jpg', left: '50%', right: '50%', objectfit: 'cover' },
+        id: 104685864,
+        mid: '003tn4dl1bP3Re',
+        name: '万圣节之夜',
+        interval: 302,
+        play: [],
+        opern: 'http://www.everyonepiano.cn/Music-7170-%E3%83%8F%E3%83%AD%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%8A%E3%82%A4%E3%83%88-%E4%B8%87%E5%9C%A3%E8%8A%82%E4%B9%8B%E5%A4%9C--AKB48.html'
+      }, {
+        image: { url: '', left: '50%', right: '50%', objectfit: 'cover' },
+        id: 104780425,
+        mid: '0049CRd11eSMhs',
+        name: '青春的花瓣',
+        interval: 315,
+        play: [
+          {
+            player: 'someone',
+            type: 'piano',
+            url: 'https://www.bilibili.com/video/av7053703'
+          }
+        ],
+        opern: 'http://www.everyonepiano.cn/Music-7855-%E9%9D%92%E6%98%A5%E7%9A%84%E8%8A%B1%E7%93%A3-SNH48.html'
+      }]
     }, {
       title: '盛夏好声音',
-      songs: []
+      songs: [{
+        iamge: { url: '//y.gtimg.cn/music/photo_new/T002R300x300M0000019RI7T1XHO8U.jpg', left: '50%', right: '50%', objectfit: 'cover' },
+        id: 102385350,
+        mid: '002sTdXx0dJAfF',
+        name: '盛夏好声音',
+        interval: 274,
+        play: [
+          {
+            player: '',
+            type: 'piano',
+            url: 'http://www.acfun.cn/v/ac2385852'
+          }
+        ],
+        opern: 'http://www.tan8.com/yuepu-55344.html'
+      }]
     }, {
       title: '雨季之后',
-      songs: []
+      songs: [{
+        image: { url: '', left: '50%', right: '50%', objectfit: 'cover' },
+        id: 102337452,
+        mid: '002AWMqo4YaUe3',
+        name: '雨季之后',
+        interval: 206,
+        play: [],
+        opern: null
+      }]
     }, {
       title: '青春的约定',
-      songs: []
+      songs: [{
+        image: { url: '//y.gtimg.cn/music/photo_new/T002R300x300M0000001Lt8X2T63xb.jpg', left: '50%', right: '50%', objectfit: 'cover' },
+        id: 101822795,
+        mid: '003Ys3Wc1Fewb5',
+        name: '青春的约定',
+        interval: 299,
+        play: [],
+        opern: 'http://www.tan8.com/yuepu-55366.html'
+      }, {
+        image: null,
+        id: 101822798,
+        mid: '004Wh0i20hBzNp',
+        name: '梦之河',
+        interval: 272,
+        play: [],
+        opern: 'http://www.tan8.com/yuepu-55387.html'
+      }]
     }, {
       title: 'UZA',
-      songs: []
+      songs: [{
+        image: {url: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000003gjOrP0FLyAq.jpg', left: '50%', right: '50%', objectfit: 'cover'},
+        id: 7265274,
+        mid: '000VDXiv4gMaV7',
+        name: 'UZA',
+        interval: 276,
+        play: [],
+        opern: null
+      }, {
+        image: null,
+        id: 8145226,
+        mid: '000OSXRD1kUyOu',
+        name: '悬铃木',
+        interval: 276,
+        play: [],
+        opern: null
+      }]
     }, {
       title: '一心向前',
       songs: [{
@@ -776,7 +852,7 @@ export const qqMusicConfig = {
     }, {
       title: '爱的幸运曲奇',
       songs: [{
-        image: { url: '//y.gtimg.cn/music/photo_new/T002R300x300M000002vj8jl276mNh.jpg?max_age=2592000', left: '50%', right: '50%', objectfit: 'cover' },
+        image: { url: '//y.gtimg.cn/music/photo_new/T002R300x300M000002vj8jl276mNh.jpg', left: '50%', right: '50%', objectfit: 'cover' },
         id: 7239389,
         mid: '00153wSl23HGZ7',
         name: '爱的幸运曲奇',
@@ -815,7 +891,7 @@ export const qqMusicConfig = {
         play: [],
         opern: null
       }, {
-        image: { url: '//y.gtimg.cn/music/photo_new/T002R300x300M000002vj8jl276mNh.jpg?max_age=2592000', left: '50%', right: '50%', objectfit: 'cover' },
+        image: { url: '//y.gtimg.cn/music/photo_new/T002R300x300M000002vj8jl276mNh.jpg', left: '50%', right: '50%', objectfit: 'cover' },
         id: 7239448,
         mid: '000OGG8J2sjcpK',
         name: '爱的幸运曲奇（伴奏）',
