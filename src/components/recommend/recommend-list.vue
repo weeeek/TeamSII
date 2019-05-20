@@ -33,6 +33,8 @@ export default {
           return `https://tv.sohu.com/v/`
         case `I`:
           return `https://www.iqiyi.com/${videoinfo.url}.html`
+        case `W`:
+          return `https://weibo.com/p/${videoinfo.url}`
         default:
           return videoinfo.url
       }

@@ -334,7 +334,7 @@ export const qqMusicConfig = {
             type: 'piano',
             url: 'https://www.bilibili.com/video/av20144103'
           }],
-          opern: null
+          opern: 'http://www.tan8.com/yuepu-55388.html'
         }
       ]
     }, {
@@ -469,7 +469,7 @@ export const qqMusicConfig = {
           name: '月光下',
           interval: 219,
           play: [],
-          opern: null
+          opern: 'http://www.tan8.com/yuepu-55347.html'
         },
         {
           image: { url: 'https://newsimg.48.cn/2016/0521/20160521010731889.jpg', left: '50%', right: '50%', objectfit: 'cover' },
@@ -551,6 +551,15 @@ export const qqMusicConfig = {
         interval: 226,
         play: [],
         opern: null
+      }, {
+        image: { url: 'http://oss.tan8.com//yuepuku/110/55363/55363_prev.jpg?v=1503115201', left: '50%', right: '50%', objectfit: 'cover' },
+        id: 125380668,
+        lyric: '77u/W3RpOuaUr+afsV0NClthcjpTTkg0OF0NClthbDpdDQpbYnk6XQ0KW29mZnNldDowXQ0KWzAwOjI2LjE3XeesrOS4gOasoeingemdog0KWzAwOjI4Ljc2Xei/mOiusOW+l+aYr+WcqOWOu+W5tA0KWzAwOjMxLjI4XQ0KWzAwOjMxLjc5XeS4gOS4quS4queomuWrqeeahOiEuA0KWzAwOjM0LjIwXQ0KWzAwOjM0Ljc0XeadpeWIsOS4iua1t+i/meeJh+WkqQ0KWzAwOjM3LjM2XQ0KWzAwOjM4LjI4XeW5tOm+hOS4jeWQjA0KWzAwOjQwLjE1XQ0KWzAwOjQwLjc5XeWutuS5oemDveWQhOiHquS4jeWQjA0KWzAwOjQzLjI2XQ0KWzAwOjQzLjg0XeWNtOW6lOacieebuOWQjOeahOaipg0KWzAwOjQ2Ljg1XeS6jOWNgeWFreS6uuebuOmBh+S4rQ0KWzAwOjQ5Ljk3XemZjOeUn+eahOS6uue+pA0KWzAwOjUyLjgxXeS4jeefpeiwgeWPr+S7peiwiOW/gw0KWzAwOjU1Ljc0XeWtpOWNleeahOaEn+inieWwsei/meagtw0KWzAwOjU4LjQ3XeaMgee7reS6huWHoOWkqQ0KWzAxOjAwLjczXQ0KWzAxOjAyLjIwXeS7juacquaciei/h+eahA0KWzAxOjAzLjk4XQ0KWzAxOjA0LjgxXeiJsOi+m+aui+mFt+eahOiuree7gw0KWzAxOjA3LjMzXQ0KWzAxOjA3Ljg2XeS4gOi1t+e7j+i/h+S5i+WQjuaIkQ0KWzAxOjEwLjE2Xee7iOS6juWPkeeOsA0KWzAxOjEzLjA4XQ0KWzAxOjE2LjEwXeaXoOiuuuS9leaXtuS8meS8tOmDveS4gOebtA0KWzAxOjIwLjA2XeWcqOaIkeeahOi6q+i+uQ0KWzAxOjIyLjIwXeiuqeaIkee7iOS6juS4jeWGjQ0KWzAxOjI0LjM5XeaYr+WtpOWNleW9ouW9seeahOS4gOS4quS6ug0KWzAxOjI4LjEzXeWQjOatpeW5tui/mw0KWzAxOjMwLjI5XeS4gOi1t+WOu+WunueOsOmCo+S4quaipuaDsw0KWzAxOjMzLjk3XQ0KWzAxOjM0Ljg2XeWboOS4uuacieS9oOWcqOaIkei6q+i+uQ0KWzAxOjM5Ljc3XeiuqeaIkee7p+e7reWKquWKmw0KWzAxOjQyLjQ5XQ0KWzAxOjUzLjEyXeWJjei+iOeahOW6lOaPtA0KWzAxOjU1LjA4XQ0KWzAxOjU1Ljc0XeaEn+inieacquadpeabtOiAgOecvA0KWzAxOjU3LjkyXQ0KWzAxOjU4LjcyXeWwsei/meagt+aIkeS7rOWPmOaIkA0KWzAyOjAwLjk0XQ0KWzAyOjAxLjgyXeS6jOWNgeS6jOS6uueahOWbouS9kw0KWzAyOjA0LjMzXQ0KWzAyOjA1LjM4XeatjOivjeW+iOmavuiusA0KWzAyOjA3LjE0XQ0KWzAyOjA3LjkxXeiInui5iOS5n+W+iOS4jeeGn+aCiQ0KWzAyOjEwLjA3XQ0KWzAyOjEwLjg0XeaEn+inieW3sue7j+W+iOWKquWKmw0KWzAyOjEzLjY5XeeDpuaBvOWcqOinkuiQveWTreazow0KWzAyOjE1LjgyXQ0KWzAyOjE3LjQxXeS8pOeXm+eahOaKmOejqA0KWzAyOjE5Ljk2XeazquawtOWcqOW/g+S4rea1gei/hw0KWzAyOjIyLjA5XQ0KWzAyOjIyLjkxXeS4jeaDs+S4juWIq+S6uuivieivtOi/meaEn+iniQ0KWzAyOjI2LjQ0XeS5n+aciei/hw0KWzAyOjI3Ljg0XQ0KWzAyOjI5LjI0Xeabvue7j+aDs+aUvuW8gw0KWzAyOjMxLjgxXeS9huaYr+acieS9oOeahOm8k+WKsQ0KWzAyOjM0LjI1XQ0KWzAyOjM0LjgxXeS4jeaDs+i9u+aYk+WvueaipuaDsw0KWzAyOjM3LjIzXeivtOWvueS4jei1tw0KWzAyOjQwLjAzXQ0KWzAyOjQzLjEwXeaXoOiuuuS9leaXtuS8meS8tOmDveS4gOebtA0KWzAyOjQ3LjA3XeWcqOaIkeeahOi6q+i+uQ0KWzAyOjQ5LjEyXeWwseeul+S6ieWQteWPkeeUn+S5i+WQjuS9hui/mOaYr+eIseS9oOS4jeWPmA0KWzAyOjU1LjIwXeWcqOaIkeW/g+mHjA0KWzAyOjU2LjY3XQ0KWzAyOjU3LjMxXeWTreS4jueskemDveaYr+acgOe+juWbnuW/hg0KWzAzOjAwLjk3XQ0KWzAzOjAxLjg0XeW9vOatpOebuOS+nSDlv4PkuK3mnIDph43opoENClswMzowNi44OF3moqbmg7PnmoTnuqblrpoNClswMzoxMC4zMl0NClswMzo0OS41NF3ml6DorrrkvZXml7bkvJnkvLTpg73kuIDnm7QNClswMzo1Mi45OF3lnKjmiJHnmoTouqvovrkNClswMzo1NS4wNV3orqnmiJHnu4jkuo7kuI3lho3mmK/lraTljZXlvaLlvbHnmoTkuIDkuKrkuroNClswNDowMS4xN13lkIzmraXlubbov5sNClswNDowMi43OF0NClswNDowMy4zMl3kuIDotbfljrvlrp7njrDpgqPkuKrmoqbmg7MNClswNDowNi45MF0NClswNDowNy45NV3lm6DkuLrmnInkvaDlnKjmiJHouqvovrkNClswNDoxMi41NV3orqnmiJHnu6fnu63liqrlipsNClswNDoxNi41MV0NClswNDoyNS40M13ml6DorrrkvZXml7bkvJnkvLTpg73kuIDnm7QNClswNDoyOS4wM13lnKjmiJHnmoTouqvovrkNClswNDozMS4xOF3lsLHnrpfkuonlkLXlj5HnlJ/kuYvlkI7kvYbov5jmmK/niLHkvaDkuI3lj5gNClswNDozNy4yMF3lnKjmiJHlv4Pph4wNClswNDozOS4zM13lk63kuI7nrJHpg73mmK/mnIDnvo7lm57lv4YNClswNDo0My4zOV0NClswNDo0My45M13lvbzmraTnm7jkvp0g5b+D5Lit5pyA6YeN6KaBDQpbMDQ6NDkuMDRd5qKm5oOz55qE57qm5a6aDQpbMDQ6NTAuNzddDQo=',
+        mid: '003aO4wB4cD6w0',
+        name: '支柱',
+        interval: 324,
+        play: [],
+        opern: 'http://www.tan8.com/yuepu-55363.html'
       }]
     }]
   }, {
@@ -599,7 +608,7 @@ export const qqMusicConfig = {
           name: '初日',
           interval: 161,
           play: [],
-          opern: null
+          opern: 'http://www.everyonepiano.cn/Music-7839-%E5%88%9D%E6%97%A5-SNH48.html'
         }, {
           image: { url: 'https://i0.hdslb.com/bfs/archive/ece8dfcab089a5444499883a9da66af6fc3493aa.jpg_640x400.jpg', left: '50%', right: '50%', objectfit: 'cover' },
           id: 228053121,
@@ -677,6 +686,21 @@ export const qqMusicConfig = {
   }, {
     typeName: 'EP',
     group: [{
+      title: '万圣节之夜',
+      songs: []
+    }, {
+      title: '盛夏好声音',
+      songs: []
+    }, {
+      title: '雨季之后',
+      songs: []
+    }, {
+      title: '青春的约定',
+      songs: []
+    }, {
+      title: 'UZA',
+      songs: []
+    }, {
       title: '一心向前',
       songs: [{
         image: {url: '//i0.hdslb.com/bfs/archive/c7795b8ffd3c41e295f414fa5e4bcb5e7cace555.jpg', left: '50%', right: '50%', objectfit: 'cover'},
@@ -685,7 +709,7 @@ export const qqMusicConfig = {
         name: '遥远的彼岸（So long）',
         interval: 365,
         play: [],
-        opern: null
+        opern: 'http://www.everyonepiano.cn/Stave-3615.html'
       }, {
         image: {url: '//i1.hdslb.com/bfs/archive/7e3bce2dc81dbd1345fcd6e66aae3aab1fb040ab.jpg', left: '50%', right: '50%', objectfit: 'cover'},
         id: 6588968,
@@ -701,7 +725,7 @@ export const qqMusicConfig = {
         name: '生命之风',
         interval: 224,
         play: [],
-        opern: null
+        opern: 'http://www.tan8.com/yuepu-55389.html'
       }, {
         id: 6588971,
         mid: '000JFYbc12ebj6',

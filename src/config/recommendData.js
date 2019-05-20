@@ -195,10 +195,15 @@ export const recommendConfig = {
         url: '4227744',
         img: '//i0.hdslb.com/bfs/archive/afdcf9d24a4c36d493228718dbf4ec2a7e693771.jpg_380x240.jpg',
         position: 'center center'
+      }, {
+        title: '超神偶像',
+        from: '',
+        url: 'https://space.bilibili.com/12444300/favlist?fid=317111400',
+        img: '//i2.hdslb.com/bfs/archive/35afc6db5bdfb3e1a18fcbb8551002e37df2023d.jpg_380x240.jpg',
+        position: 'center center'
       }]
     }, {
       type: 'MV',
-      url: 'https://tieba.baidu.com/p/4813493970',
       list: [{
         title: '我的舞台',
         from: 'B',
@@ -316,7 +321,7 @@ export const recommendConfig = {
       }, {
         title: '勇气重生419 旷世之战',
         from: 'W',
-        url: 'https://weibo.com/p/1001593834119208498574',
+        url: '1001593834119208498574',
         img: '//i2.hdslb.com/bfs/archive/ab049aacfdb53595134d862598a4e03058c90f4d.jpg_380x240.jpg',
         position: 'center center'
       }, {
@@ -399,6 +404,30 @@ export const recommendConfig = {
         from: 'B',
         av: '16312639',
         img: '//i0.hdslb.com/bfs/archive/0e7f73682676849053a9b73f18a3f5ab946c93dd.jpg_380x240.jpg',
+        position: 'center center'
+      }, {
+        title: '少女天团',
+        from: 'B',
+        av: '28253602',
+        img: '//i0.hdslb.com/bfs/archive/4b2443ca6875f0c2cdd2f99e1f0652cae20c5e46.jpg_380x240.jpg',
+        position: 'center center'
+      }, {
+        title: '少女的巴别塔',
+        from: 'B',
+        av: '28258364',
+        img: '//i0.hdslb.com/bfs/archive/e031e8b5b514c634bc70b26bb0293cba4a0ab373.png_380x240.png',
+        position: 'center center'
+      }, {
+        title: '比翼齐飞',
+        from: 'B',
+        av: '28256435',
+        img: '//i2.hdslb.com/bfs/archive/60893b7610fb62f0b3aa25bd06090d5ae4018455.jpg_380x240.jpg',
+        position: 'center center'
+      }, {
+        title: '我心翱翔',
+        from: 'B',
+        av: '28257152',
+        img: '//i1.hdslb.com/bfs/archive/0a224a5f432a56625a84fb0696831ebbe7336148.jpg_380x240.jpg',
         position: 'center center'
       }]
     }, {
