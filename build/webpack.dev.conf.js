@@ -21,36 +21,18 @@ const devWebpackConfig = merge(baseWebpackConfig, {
       usePostCSS: true
     })
   },
-  // cheap-module-eval-source-map is faster for development
   devtool: config.dev.devtool,
-
-  // these devServer options should be customized in /config/index.js
   devServer: {
     before(app) {
-      app.get('/api/getDiscList', function (req, res) {
-        const url = 'https://c.y.qq.com/splcloud/fcgi-bin/fcg_get_diss_by_tag.fcg'
+      app.get('/api/orimuse', function(req, res){
+        const url = `http://www.orimuse.com/api/user/${req.id}/crowdfunding?pageSize=${req.pageSize}&pageNo=${req.pageNo}`
         axios.get(url, {
           headers: {
-            referer: 'https://c.y.qq.com/',
-            host: 'c.y.qq.com'
-          },
-          params: req.query
+            referer: 'http://www.orimuse.com',
+            host: 'www.orimuse.com'
+          }
         }).then((response) => {
-          res.json(response.data)
-        }).catch((e) => {
-          console.log(e)
-        })
-      })
-
-      app.get('/api/getCdInfo', function (req, res) {
-        const url = 'https://c.y.qq.com/qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg'
-        axios.get(url, {
-          headers: {
-            referer: 'https://c.y.qq.com/',
-            host: 'c.y.qq.com'
-          },
-          params: req.query
-        }).then((response) => {
+          debugger
           let ret = response.data
           if (typeof ret === 'string') {
             const reg = /^\w+\(({.+})\)$/
@@ -72,7 +54,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
           headers: {
             referer: 'https://c.y.qq.com/',
             host: 'c.y.qq.com'
-          },
+          },          
           params: req.query
         }).then((response) => {
           let ret = response.data
@@ -90,15 +72,9 @@ const devWebpackConfig = merge(baseWebpackConfig, {
       })
     },
     clientLogLevel: 'warning',
-    // historyApiFallback: {
-    //   rewrites: [{
-    //     from: /.*/,
-    //     to: path.posix.join(config.dev.assetsPublicPath, 'index.html')
-    //   }, ],
-    // },
     historyApiFallback: true,
     hot: true,
-    contentBase: false, // since we use CopyWebpackPlugin.
+    contentBase: false,
     compress: true,
     host: HOST || config.dev.host,
     port: PORT || config.dev.port,
@@ -111,7 +87,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
       false,
     publicPath: config.dev.assetsPublicPath,
     proxy: config.dev.proxyTable,
-    quiet: true, // necessary for FriendlyErrorsPlugin
+    quiet: true,
     watchOptions: {
       poll: config.dev.poll,
     }
@@ -121,16 +97,14 @@ const devWebpackConfig = merge(baseWebpackConfig, {
       'process.env': require('../config/dev.env')
     }),
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NamedModulesPlugin(), // HMR shows correct file names in console on update.
+    new webpack.NamedModulesPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
-    // https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: 'index.html',
       inject: true,
       favicon: './static/images/favicon.ico'
     }),
-    // copy custom static assets
     new CopyWebpackPlugin([{
       from: path.resolve(__dirname, '../static'),
       to: config.dev.assetsSubDirectory,
@@ -145,12 +119,8 @@ module.exports = new Promise((resolve, reject) => {
     if (err) {
       reject(err)
     } else {
-      // publish the new Port, necessary for e2e tests
       process.env.PORT = port
-      // add port to devServer config
       devWebpackConfig.devServer.port = port
-
-      // Add FriendlyErrorsPlugin
       devWebpackConfig.plugins.push(new FriendlyErrorsPlugin({
         compilationSuccessInfo: {
           messages: [`Your application is running here: http://${devWebpackConfig.devServer.host}:${port}`],
@@ -159,7 +129,6 @@ module.exports = new Promise((resolve, reject) => {
           utils.createNotifierCallback() :
           undefined
       }))
-
       resolve(devWebpackConfig)
     }
   })

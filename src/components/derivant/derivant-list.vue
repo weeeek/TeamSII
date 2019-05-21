@@ -13,7 +13,9 @@
           <div class="text-center text-derivant">
             ￥{{ toMoney(d.product.minPrice) }} - {{ toMoney(d.product.maxPrice) }}
           </div>
-          <a class="text-center" :href="d.selfLink" target="_blank">购买</a>
+          <div class="text-center ">
+            <a class="btn-orange" :href="d.selfLink" target="_blank">购买</a>
+          </div>
         </div>
       </div>
     </div>
