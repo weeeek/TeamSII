@@ -173,7 +173,7 @@ export const qqMusicConfig = {
       title: '第48区',
       songs: [
         {
-          iamge: { url: 'https://newsimg.48.cn/2017/0701/20170701014656607.jpg', left: '50%', right: '50%', objectfit: 'cover' },
+          image: { url: 'https://newsimg.48.cn/2017/0701/20170701014656607.jpg', left: '50%', right: '50%', objectfit: 'cover' },
           id: 202980878,
           mid: '000ILOcU0wQ3L6',
           name: '第48区',
@@ -490,7 +490,7 @@ export const qqMusicConfig = {
           opern: null
         },
         {
-          iamge: { url: 'https://newsimg.48.cn/2018/0208/20180208051823222.jpg', left: '50%', right: '50%', objectfit: 'cover' },
+          image: { url: 'https://newsimg.48.cn/2018/0208/20180208051823222.jpg', left: '50%', right: '50%', objectfit: 'cover' },
           id: 215867939,
           mid: '001si8JG2QJ7Un',
           name: '我的舞台',
@@ -713,7 +713,7 @@ export const qqMusicConfig = {
     }, {
       title: '盛夏好声音',
       songs: [{
-        iamge: { url: '//y.gtimg.cn/music/photo_new/T002R300x300M0000019RI7T1XHO8U.jpg', left: '50%', right: '50%', objectfit: 'cover' },
+        image: { url: '//y.gtimg.cn/music/photo_new/T002R300x300M0000019RI7T1XHO8U.jpg', left: '50%', right: '50%', objectfit: 'cover' },
         id: 102385350,
         mid: '002sTdXx0dJAfF',
         name: '盛夏好声音',

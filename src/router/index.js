@@ -9,7 +9,6 @@ import Raise from '@/components/raise/raise-list'
 import Music from '@/components/music/music-list'
 import Recommend from '@/components/recommend/recommend-list'
 import Search from '@/components/search/search'
-import Dynamic from '@/components/dynamic/dynamic-list'
 import Live from '@/components/live/live'
 import Entertainment from '@/components/entertainment/entertainment-list'
 import Burning from '@/components/entertainment/burning'
@@ -88,12 +87,6 @@ export default new Router({
     }, {
       path: '/search',
       component: Search
-    }, {
-      path: '/dynamic',
-      component: Dynamic,
-      meta: {
-        keepAlive: true
-      }
     }, {
       path: '/entertainment',
       component: Entertainment,
