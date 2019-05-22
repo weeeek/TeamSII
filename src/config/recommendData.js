@@ -196,10 +196,34 @@ export const recommendConfig = {
         img: '//i0.hdslb.com/bfs/archive/afdcf9d24a4c36d493228718dbf4ec2a7e693771.jpg_380x240.jpg',
         position: 'center center'
       }, {
+        title: '莫莫有闻第二季',
+        from: 'B',
+        url: '24941151',
+        img: '//i0.hdslb.com/bfs/archive/b9d62782887ecdc4629095d553af5b9d82c2ca53.png_380x240.png',
+        position: 'center center'
+      }, {
+        title: '莫莫有闻第一季',
+        from: 'B',
+        url: '21439860',
+        img: '//i1.hdslb.com/bfs/archive/afb5c5bfc8657e35e1ab58c713cb9ee957e604b0.png_380x240.png',
+        position: 'center center'
+      }, {
         title: '超神偶像',
         from: '',
         url: 'https://space.bilibili.com/12444300/favlist?fid=317111400',
         img: '//i2.hdslb.com/bfs/archive/35afc6db5bdfb3e1a18fcbb8551002e37df2023d.jpg_380x240.jpg',
+        position: 'center center'
+      }, {
+        title: '心的舞台',
+        from: 'B',
+        url: '16326382',
+        img: '//i2.hdslb.com/bfs/archive/3989dbf7ebc4101e303a7acd7403f6e8a0663571.jpg_380x240.jpg',
+        position: 'center center'
+      }, {
+        title: '穷途陌路',
+        from: 'B',
+        url: '14629561',
+        img: '//i0.hdslb.com/bfs/archive/a31f0220d7060c7cb481ed08c847d17716521ec0.png_380x240.png',
         position: 'center center'
       }]
     }, {
