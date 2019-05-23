@@ -37,7 +37,6 @@ export default {
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
 .v-collapse-toggler
-  padding 15px
   color #333
   background-color #f5f5f5
   border 1px solid #ddd
@@ -53,6 +52,8 @@ export default {
     float right
     &.member
       color #87cefa
+  li
+    list-style none    
 
 .v-collapse-content
   padding calc(2em - 26px) 15px
@@ -66,4 +67,42 @@ export default {
 
 .v-collapse-content-end
   display block
+
+  
+@media screen and (min-width 1024px)
+  .v-collapse-toggler
+    padding 15px
+    span
+      font-size 20px
+    .member
+      font-size 20px
+    a
+      font-size 18px
+    li
+      a
+        font-size 16px
+@media screen and (max-width 1024px and min-width 550px)
+  .v-collapse-toggler
+    padding 10px
+    span
+      font-size 18px
+    .member
+      font-size 18px
+    a
+      font-size 16px
+    li
+      a
+        font-size 14px
+@media screen and (max-width 550px)
+  .v-collapse-toggler
+    padding 5px
+    span
+      font-size 14px
+    .member
+      font-size 14px
+    a
+      font-size 12px
+    li
+      a
+        font-size 10px
 </style>

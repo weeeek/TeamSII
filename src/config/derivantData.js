@@ -31,7 +31,22 @@ export const derivantData = [
     derivant: []
   }, {
     name: '戴萌',
-    derivant: []
+    derivant: [{
+      'product': {
+        'imgs': [
+          'https://gd1.alicdn.com/imgextra/i1/651873409/O1CN014EjbWk1b3MidfSboP_!!651873409.jpg_400x400.jpg',
+          'https://gd2.alicdn.com/imgextra/i2/651873409/O1CN017Jgan11b3MibDbjGw_!!651873409.jpg_400x400.jpg',
+          'https://gd4.alicdn.com/imgextra/i4/651873409/O1CN014BD5NK1b3MifEZIrj_!!651873409.jpg_400x400.jpg',
+          'https://gd2.alicdn.com/imgextra/i2/651873409/O1CN01obZOJu1b3Midw74eS_!!651873409.jpg_400x400.jpg'
+        ],
+        'minPrice': 800,
+        'maxPrice': 88800
+      },
+      'selfLink': '//item.taobao.com/item.htm?id=594820360296',
+      'name': '戴萌应援会夏季周边',
+      'startTime': 1558627200000,
+      'endTime': 1560009600000
+    }]
   }, {
     name: '蒋芸',
     derivant: []
