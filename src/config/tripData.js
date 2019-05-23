@@ -37,7 +37,7 @@ export const tripData = [{
     description: 'MC1：最怕的经历,Lost：莫寒,Hold me tight：陈思，孔肖吟,解语者：钱蓓婷，张语格，朱小丹,最终回合：孙芮，蒋芸，徐晨辰，温晶婕,无罪无我：莫寒，刘增艳，陈俊羽,somewhere：蒋芸，孙芮，徐子轩,噩梦轮回：刘增艳,MC2：人生中最尴尬的事,MC3：报纸拔河,MC4：成语接龙,安可曲《好友创可贴（情人节版）》',
     summarize: '莫寒to钱蓓婷：总结下来你们都是傻的\r\n还好我变温柔了，不然这舞台上要少一个人\r\n友情好脆弱----by 徐子轩',
     type: 'blue',
-    url: 'https://www.bilibili.com/video/av53300280'
+    url: 'https://www.bilibili.com/video/av53307820'
   }, {
     nameMonth: '5月20日',
     title: '新西兰航空奇遇',

@@ -565,6 +565,13 @@ export const recommendConfig = {
         img: 'https://www.fxf48.com/game/fkk2048/img/11.png',
         size: 'contain',
         position: 'center center'
+      }, {
+        title: '飞机大战·消灭表情包',
+        from: 'G',
+        url: 'https://weeeek.github.io/EmojiFight/dist/index.html',
+        img: 'https://weeeek.github.io/EmojiFight/dist/src/img/logo.png',
+        size: 'contain',
+        position: 'center center'
       }]
     }, {
       type: '狂欢',
