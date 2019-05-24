@@ -27,24 +27,24 @@ export const tripData = [{
   }, {
     nameMonth: '5月24日 19:30',
     title: '《重生计划》第28场',
-    description: '',
-    summarize: '',
+    description: 'MC1：买过最贵且实用的东西,Lost：刘增艳,Hold me tight：陈思，孔肖吟,解语者：钱蓓婷，张语格，朱小丹,最终回合：徐子轩，蒋芸，徐晨辰，温晶婕,无罪无我：莫寒，刘增艳，陈俊羽,somewhere：莫寒，孙芮，袁丹妮,噩梦轮回：徐晨辰，刘增艳,MC2：小时候甚至心在还害怕的事,MC3：相亲时怎样把优点介绍给对方，让对方记住你,MC4：丢沙包，砸中受罚,安可曲《爱的幸运曲奇》',
+    summarize: '我给你那么多个眼神，你连个回眸都没给我 ---- by 孙芮\r\n你这么想败坏我的名声，你是想得到我么 ---- by 钱蓓婷',
     type: 'blue',
-    url: 'http://www.snh48.com/ticket.php'
+    url: 'https://www.bilibili.com/video/av53472822'
   }, {
     nameMonth: '5月22日 19:30',
     title: '《重生计划》第27场',
     description: 'MC1：最怕的经历,Lost：莫寒,Hold me tight：陈思，孔肖吟,解语者：钱蓓婷，张语格，朱小丹,最终回合：孙芮，蒋芸，徐晨辰，温晶婕,无罪无我：莫寒，刘增艳，陈俊羽,somewhere：蒋芸，孙芮，徐子轩,噩梦轮回：刘增艳,MC2：人生中最尴尬的事,MC3：报纸拔河,MC4：成语接龙,安可曲《好友创可贴（情人节版）》',
-    summarize: '莫寒to钱蓓婷：总结下来你们都是傻的\r\n还好我变温柔了，不然这舞台上要少一个人\r\n友情好脆弱----by 徐子轩',
+    summarize: '打底裤悬案\r\n莫寒to钱蓓婷：总结下来你们都是傻的\r\n还好我变温柔了，不然这舞台上要少一个人\r\n友情好脆弱----by 徐子轩',
     type: 'blue',
     url: 'https://www.bilibili.com/video/av53307820'
   }, {
     nameMonth: '5月20日',
-    title: '新西兰航空奇遇',
+    title: '新西兰航空奇遇（三傻大闹新西兰，酒店直播）',
     description: '许佳琪、戴萌、王诗蒙、青钰雯、陈美君',
-    summarize: '',
+    summarize: '新西兰酒店直播',
     type: 'green',
-    url: 'javascript:void(0)'
+    url: 'https://www.bilibili.com/video/av53326785'
   }, {
     nameMonth: '5月19日 14:00',
     title: '《重生计划》第26场，徐子轩《“幸福”的懒惰-贝利亚》生日公演',
@@ -62,7 +62,7 @@ export const tripData = [{
   }, {
     nameMonth: '5月17日 19:30',
     title: '《重生计划》第25场',
-    description: 'MC1：穿越到古代,Lost：莫寒,Hold me tight：徐晨辰，孙芮,解语者：钱蓓婷，孔肖吟，李宇琪,最终回合：张语格，蒋芸，陈俊羽，朱小丹,无罪无我：莫寒，陈思，刘增艳,somewhere：徐子轩，吴哲晗，袁丹妮,噩梦轮回：许佳琪,MC2：超前消费,MC3：自以为很酷其实很傻的事,MC4：食物名吵架先笑者被涂口红,安可曲《幻》',
+    description: 'MC1：穿越到古代,Lost：莫寒,Hold me tight：徐晨辰，孙芮,解语者：钱蓓婷，孔肖吟，李宇琪,最终回合：张语格，蒋芸，陈俊羽，朱小丹,无罪无我：莫寒，陈思，刘增艳,somewhere：吴哲晗，徐子轩，戴萌,噩梦轮回：许佳琪,MC2：超前消费,MC3：自以为很酷其实很傻的事,MC4：食物名吵架先笑者被涂口红,安可曲《幻》',
     summarize: '最拽公公孔肖吟，美妆博主钱蓓婷，\r\n吃播网红莫兔兔，卸妆产业许佳琪，\r\nC皇贵妃徐晨辰，大内侍卫陈田心，\r\n宫廷乐师徐子轩，最矮国师刘增艳，\r\n预测救国张语格，原始天神戴萌萌，\r\n想当皇上陈俊羽，玻璃防刺吴哲晗。\r\n吴皇带着团圆穿越防太子，三太子造反实锤（吾儿叛逆，伤透吾心）；\r\n全团最拽陈俊羽，消音姐也惹得起，大哥注意尺度，前辈要打人了（冒冒：前辈不敢打我）！ \r\n敢吃戴萌豆腐的小后辈，来自gay3的温柔注视（SNH48MC道路安全保障员提醒：我怀疑你们在开车，现在要征用你们的方向盘）',
     type: 'blue',
     url: 'https://www.bilibili.com/video/av52777620'
