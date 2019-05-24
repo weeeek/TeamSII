@@ -94,7 +94,7 @@ export default {
             _this.addData(db, _this.TeamSII.id, _this.TeamSII.name, _this.TeamSII.enabled, _this.TeamSII.checked)
             _this.YYHList=[]
             memberData.map((y)=>{
-                        //所有都勾上
+                        //勾上
                         Object.assign(y.modian, {checked:true})
                         //写入数据库，并初始化所有的集资信息
                         _this.addData(db, y.modian.id, y.name, y.modian.enabled, y.modian.checked)
@@ -106,7 +106,12 @@ export default {
               let item = rs.rows.item(i)
               item.checked = item.checked == "true"
               item.enabled = item.enabled == "true"
-              _this.YYHList.push(item)
+              if(item.id == 2112648){
+                if(!(new Date().getMonth() < 7 && new Date().getMonth() > 1))
+                  _this.YYHList.push(item)
+              }
+              else
+                _this.YYHList.push(item)
             }
             // 有一个checked的，all就勾上，这里操作all会被watch到
             // _this.all = _this.YYHList.filter((x)=>{return x.checked}).length > 0
@@ -148,14 +153,24 @@ export default {
         tx.executeSql("SELECT * FROM YYHList WHERE id=?", [id], function(tx, rs) {
           if(rs.rows.length < 1){
             tx.executeSql("INSERT INTO YYHList VALUES(?,?,?,?)", [id, name, enabled, checked], function(tx, rs) {
-              if(enabled){
-                _this.YYHList.push({
-                  name: name,
-                  id: id,
-                  enabled: enabled,
-                  checked: checked
-                })
-                _this.getModianData(_this, id, name)
+              if(enabled){                
+                if(id == 2112648){
+                  _this.YYHList.push({                      
+                    name: name,
+                    id: id,
+                    enabled: !(new Date().getMonth() < 7 && new Date().getMonth() > 1),
+                    checked: checked
+                  })
+                }
+                else{
+                  _this.YYHList.push({
+                    name: name,
+                    id: id,
+                    enabled: enabled,
+                    checked: checked
+                  })
+                  _this.getModianData(_this, id, name)
+                }
               }
             },
             function(tx, erro) {
@@ -206,6 +221,8 @@ export default {
       //                _this.modianDatas.push(element)
       //              });
       //             })
+
+
       jQuery.ajax({
         url: modianApi,
         type: 'POST',

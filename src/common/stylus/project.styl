@@ -2,8 +2,6 @@
 .member
   display inline-block
   line-height 2.5em
-  &:first-child
-    display block
   
 .project-filter
   display flex
@@ -79,6 +77,8 @@
         margin-bottom 10px
           
 @media screen and (max-width 1024px)  and (min-width 768px) 
+  .member
+    margin-right 0.67em
   .project-wrap
     -moz-column-count 2
     -webkit-column-count 2
@@ -98,6 +98,8 @@
         margin-bottom 10px
 
 @media screen and (max-width 768px) 
+  .member
+    margin-right 0.33em
   .project-wrap
     -moz-column-count 1
     -webkit-column-count 1
