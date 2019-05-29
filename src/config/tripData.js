@@ -4,6 +4,20 @@ export const tripData = [{
     to: '2019'
   },
   items: [{
+    nameMonth: '6月9日 14:00',
+    title: '《重生计划》第32场，温晶婕生日&拉票公演',
+    description: '',
+    summarize: '',
+    type: 'blue',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
+    nameMonth: '6月8日 14:00',
+    title: '《重生计划》第31场，陈思、蒋芸拉票公演',
+    description: '',
+    summarize: '',
+    type: 'blue',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
     nameMonth: '6月2日 19:00',
     title: '《重生计划》第30场，GNZ48星梦剧院巡演',
     description: '陈思、戴萌、蒋芸、孔肖吟、李宇琪、刘增艳、莫寒、钱蓓婷、孙芮、温晶婕、吴哲晗、徐晨辰、许佳琪、徐子轩、袁雨桢、张语格',
@@ -584,10 +598,10 @@ export const tripData = [{
       description: '出席成员：陈观慧、陈思、戴萌、蒋芸、孔肖吟、李宇琪、莫寒、钱蓓婷、沈之琳、孙芮、温晶婕、徐晨辰、徐子轩、许佳琪、袁雨桢、张语格、赵晔',
       summarize: '数据来源：http://wiki.akbfun48.com/index.php?title=SNH48_Team_SII剧场公演合集',
       type: 'blue',
-      url: 'https://www.bilibili.com/video/av4971953'
+      url: 'https://www.bilibili.com/video/av12365893'
     }, {
       nameMonth: '6月20日 14:00',
-      title: '《勇气重生》第48场，千秋乐',
+      title: '《勇气重生》第48场，千秋乐，徐晨辰生日公演',
       description: '出席成员：陈观慧 陈思 戴萌 蒋芸 孔肖吟 李宇琪 莫寒 钱蓓婷 邱欣怡 沈之琳 孙芮 徐晨辰 徐子轩 许佳琪 袁丹妮 袁雨桢 张语格 赵晔',
       summarize: '数据来源：http://wiki.akbfun48.com/index.php?title=SNH48_Team_SII剧场公演合集',
       type: 'blue',
@@ -596,9 +610,9 @@ export const tripData = [{
       nameMonth: '4月19日 19:00',
       title: '《勇气重生》第35场',
       description: '出席成员：陈观慧 陈思 戴萌 蒋芸 孔肖吟 李宇琪 莫寒 钱蓓婷 孙芮 温晶婕 徐晨辰 徐子轩 许佳琪 袁丹妮 袁雨桢 张语格 赵晔',
-      summarize: '数据来源：http://wiki.akbfun48.com/index.php?title=SNH48_Team_SII剧场公演合集',
+      summarize: '有人说这是一次低谷时期的情绪释放，一次欢笑和泪水杂糅的欢脱表演，把本来很普通的一场公演变得那么有意义。\r\n公演结束后，一场S队成员之间的旷世之战从22时53分开始，00:52分结束，历时1小时59分。\r\n参战人数近20人。规模之大，战况之惨烈，都堪称SNH48史上最经典的“战争”，被世人所铭记，史称“勇气重生419”',
       type: 'blue',
-      url: ''
+      url: 'https://www.bilibili.com/video/av4550993'
     }]
 }, {
   year: {
