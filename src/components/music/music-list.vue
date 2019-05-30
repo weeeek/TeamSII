@@ -118,6 +118,8 @@ export default {
     .music-block
       padding 10px 20px
       margin-top 15px
+      &:last-child
+        margin-bottom 15px
       .music-type
         font-size: 20px
         margin: 5px 0
@@ -140,12 +142,16 @@ export default {
     .music-block
       padding: 5px 10px 0 10px
       margin-top: 10px
+      &:last-child
+        margin-bottom 10px
       .music-type
         font-size: 16px
-        font-weight: bolder
         margin: 5px 0
       .music-list
         margin: 0 -10px
+        &:after
+          content " "
+          clear both
         .music-from
           text-indent: 2em
         .music-detail
@@ -155,4 +161,5 @@ export default {
             div
               width: 238px
               height: 150px
+
 </style>

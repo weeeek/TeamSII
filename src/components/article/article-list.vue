@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="article-container">
     <div class="block">欢迎投稿，投稿请<a class="link" href="https://weibo.com/u/5266139275">@SNH48 TeamSII应援会</a>，或者发布于<a class="link" target="_blank" href="https://weibo.com/p/100808ece29cf744f4d14b450f0c12999e767b/super_index">“SNH48 TeamSII”超级话题</a>
       文章打开后如遇错误码:100098，请先登录微博
     </div>
@@ -70,6 +70,8 @@ export default {
 
   
 @media screen and (min-width 1024px)
+  #article-container
+    padding-bottom 15px
   .v-collapse-toggler
     padding 15px
     span
@@ -82,6 +84,8 @@ export default {
       a
         font-size 16px
 @media screen and (max-width 1024px and min-width 550px)
+  #article-container
+    padding-bottom 10px
   .v-collapse-toggler
     padding 10px
     span
@@ -94,6 +98,8 @@ export default {
       a
         font-size 14px
 @media screen and (max-width 550px)
+  #article-container
+    padding-bottom 5px
   .v-collapse-toggler
     padding 5px
     span

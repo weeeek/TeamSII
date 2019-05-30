@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <music-player></music-player>
-    <div class="container">
+    <div class="container" :class="{'showMusicPlayer': this.playlist.length > 0}">
       <global-header></global-header>
       <tab></tab>
       <keep-alive>
@@ -110,7 +110,7 @@ export default {
     width 100%
     background-image url('/TeamSII/dist/static/images/bg.jpg')
     .container
-      height 100%
+      height auto
   @media screen and (min-width 1366px)
     #app
       height 100%      
@@ -123,6 +123,8 @@ export default {
       .container
         width 1336px
         margin 0 auto
+      .showMusicPlayer
+        margin-bottom 60px
   @media screen and (max-width 1366px)
     #app
       height 100%
@@ -136,4 +138,6 @@ export default {
         width 100%
         margin 0 auto
         padding 0 10px
+      .showMusicPlayer
+        margin-bottom 60px
 </style>

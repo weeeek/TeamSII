@@ -1,11 +1,6 @@
 <template>
   <div class="player" v-show="playlist.length>0">
-    <transition name="normal"
-                @enter="enter"
-                @after-enter="afterEnter"
-                @leave="leave"
-                @after-leave="afterLeave"
-    >
+    <transition name="normal" @enter="enter" @after-enter="afterEnter" @leave="leave" @after-leave="afterLeave">
       <div class="normal-player" v-show="fullScreen">
         <div class="background">
           <img width="100%" height="100%" v-if="currentSong" :src="currentSong.image.url">
@@ -17,11 +12,7 @@
           <h1 class="title" v-html="currentSong.name"></h1>
           <h2 class="subtitle" v-html="currentSong.singer"></h2>
         </div>
-        <div class="middle"
-             @touchstart.prevent="middleTouchStart"
-             @touchmove.prevent="middleTouchMove"
-             @touchend="middleTouchEnd"
-        >
+        <div class="middle" @touchstart.prevent="middleTouchStart" @touchmove.prevent="middleTouchMove" @touchend="middleTouchEnd">
           <div class="middle-l" ref="middleL">
             <div class="cd-wrapper" ref="cdWrapper">
               <div class="cd" ref="imageWrapper">                
@@ -36,7 +27,7 @@
           <scroll class="middle-r" ref="lyricList" :data="currentLyric && currentLyric.lines">
             <div class="lyric-wrapper">
               <div v-if="currentLyric">
-                <p ref="lyricLine" class="text" :class="{'current': currentLineNum ===index}" v-for="(line,index) in currentLyric.lines" :key="index" v-html="line.txt"></p>
+                <p ref="lyricLine" class="text" :class="{'current': currentLineNum === index}" v-for="(line,index) in currentLyric.lines" :key="index" v-html="line.txt"></p>
               </div>
               <div class="pure-music" v-show="isPureMusic">
                 <p>{{pureMusicLyric}}</p>
@@ -88,11 +79,13 @@
           <h2 class="name" v-html="currentSong.name"></h2>
           <p class="desc" v-html="currentSong.singer"></p>
         </div>
+        <div class="currentLyc" v-if="currentLyric" v-html="currentLyric.lines[currentLineNum].txt"></div>
+        <div class="currentLyc" v-if="!currentLyric"></div>
         <div class="control">
           <progress-circle :radius="radius" :percent="percent">
             <div class="icon-mini">
-              <jam-play :fillColor="fillColor" v-if="!miniIcon" @click.stop="togglePlaying"/>
-              <jam-pause :fillColor="fillColor" v-if="miniIcon" @click.stop="togglePlaying"/>
+              <jam-play :fillColor="fillColor" v-if="!miniIcon" @click="togglePlaying"/>
+              <jam-pause :fillColor="fillColor" v-if="miniIcon" @click="togglePlaying"/>
             </div>
           </progress-circle>
         </div>
@@ -102,7 +95,7 @@
       </div>
     </transition>
     <playlist ref="playlist"></playlist>
-    <audio ref="audio" @playing="ready" @error="error" @timeupdate="updateTime" @ended="end" @pause="paused" :volume="this.volume"></audio>
+    <audio ref="audio" @playing="ready" @error="error" @timeupdate="updateTime" @ended="end" @pause="paused" :volume="0.3"></audio>
   </div>
 </template>
 
@@ -152,7 +145,8 @@
         currentShow: 'cd',
         playingLyric: '',
         isPureMusic: false,
-        pureMusicLyric: ''
+        pureMusicLyric: '',
+        volume: 0.5
       }
     },
     computed: {
@@ -855,7 +849,7 @@
         display flex
         flex-direction column
         justify-content center
-        flex 1
+        flex 0 0 180px
         line-height 20px
         overflow hidden
         .name
@@ -867,6 +861,12 @@
           no-wrap()
           font-size $font-size-small
           color $color-text-d
+      .currentLyc
+        flex 1
+        line-height 60px
+        color $color-team-sii
+        font-size 24px
+        text-shadow 0 0 1px #fff, 0 0 2px $color-team-sii, 0 0 3px $color-team-sii, 0 0 4px $color-team-sii, 0 0 5px $color-team-sii
       .control
         flex 0 0 30px
         padding 0 10px

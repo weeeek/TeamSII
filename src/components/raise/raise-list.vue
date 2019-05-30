@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="raise-container">
     <div class="block">
         <div class="project-filter">
           <div class="member-all">
@@ -280,4 +280,12 @@ export default {
 
 <style scoped lang="stylus" rel="stylesheet/stylus">    
   @import "~common/stylus/project"
+    
+  @media screen and (min-width 1366px)
+    #raise-container
+      padding-bottom 15px
+        
+  @media screen and (max-width 1366px)
+    #raise-container
+      padding-bottom 10px
 </style>

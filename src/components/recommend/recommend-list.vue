@@ -5,7 +5,7 @@
       <div class="video-list">
         <a target="_blank" :href="getVideoPlayUrl(v)" class="video-detail" v-for="v in item.list" :key="v.av">
           <div class="video-img" :class="v.size">
-            <div :style="`background-image:url(${v.img});background-position:${v.position}`"></div>
+            <div :style="setStyle(v)"></div>
           </div>
           <h3 class="video-title text-ellipsis">{{ v.title }}</h3>
           <!-- <div class="video-info">{{ v.av }}</div> -->
@@ -20,6 +20,12 @@ import {recommendConfig} from 'config/recommendData'
 export default {
   name: `RecommendList`,
   methods: {
+    setStyle(v){
+      let str = `background-image:url(${v.img});`
+      if(v.position)
+        str += `background-position:${v.position}`
+      return str
+    },
     getVideoImage (videoinfo) {
       return videoinfo.img
     },
@@ -90,6 +96,8 @@ export default {
 @media screen and (min-width 1366px)
   #recommend-container
     .video-block
+      &:last-child
+        margin-bottom 15px
       padding 15px 15px 0 15px
       margin-top 15px
       .video-type
@@ -119,6 +127,8 @@ export default {
     .video-block
       padding 10px 10px 0 10px
       margin-top 10px
+      &:last-child
+        margin-bottom 10px
       .video-type
         font-size 12px
         margin 5px 0 0 5px

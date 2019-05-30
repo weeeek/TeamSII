@@ -96,7 +96,7 @@ export const qqMusicConfig = {
           name: 'Somewhere',
           interval: 272,
           play: [{
-            player: '白堕',
+            player: '白堕しょか',
             type: 'piano',
             url: 'https://www.bilibili.com/video/av37700345'
           }],
@@ -127,7 +127,7 @@ export const qqMusicConfig = {
           name: '预言',
           interval: 281,
           play: [{
-            player: '白堕',
+            player: '白堕しょか',
             type: 'piano',
             url: 'https://www.bilibili.com/video/av45086106'
           }, {
@@ -291,7 +291,7 @@ export const qqMusicConfig = {
           name: '废墟纪元',
           interval: 340,
           play: [{
-            player: '白堕',
+            player: '白堕しょか',
             type: 'piano',
             url: 'https://www.bilibili.com/video/av25149573'
           }, {
@@ -696,7 +696,7 @@ export const qqMusicConfig = {
         play: [],
         opern: 'http://www.everyonepiano.cn/Music-7170-%E3%83%8F%E3%83%AD%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%8A%E3%82%A4%E3%83%88-%E4%B8%87%E5%9C%A3%E8%8A%82%E4%B9%8B%E5%A4%9C--AKB48.html'
       }, {
-        image: { url: '', left: '50%', right: '50%', objectfit: 'cover' },
+        image: null,
         id: 104780425,
         mid: '0049CRd11eSMhs',
         name: '青春的花瓣',
@@ -730,7 +730,7 @@ export const qqMusicConfig = {
     }, {
       title: '雨季之后',
       songs: [{
-        image: { url: '', left: '50%', right: '50%', objectfit: 'cover' },
+        image: { url: 'http://www.snh48.com/images/zb/cd_fxrs_9.jpg', left: '50%', right: '50%', objectfit: 'cover' },
         id: 102337452,
         mid: '002AWMqo4YaUe3',
         name: '雨季之后',
@@ -1005,8 +1005,12 @@ export const qqMusicConfig = {
         mid: '002JtNR80pF1bz',
         name: '化作樱花树',
         interval: 324,
-        play: [],
-        opern: null
+        play: [{
+          player: '白堕しょか',
+          type: 'piano',
+          url: 'https://www.bilibili.com/video/av47714396'
+        }],
+        opern: 'http://www.tan8.com/yuepu-13897.html'
       }, {
         image: { url: '//y.gtimg.cn/music/photo_new/T002R300x300M000000Ic7kp46jL1n.jpg', left: '50%', right: '50%', objectfit: 'cover' },
         id: 4993509,

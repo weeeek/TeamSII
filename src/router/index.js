@@ -1,20 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from '@/components/index/index'
-import Video from '@/components/video/video-list'
-import Article from '@/components/article/article-list'
-import Painting from '@/components/painting/painting-list'
-import Trip from '@/components/trip/trip-list'
-import Raise from '@/components/raise/raise-list'
-import Music from '@/components/music/music-list'
-import Recommend from '@/components/recommend/recommend-list'
-import Search from '@/components/search/search'
-import Live from '@/components/live/live'
-import Entertainment from '@/components/entertainment/entertainment-list'
-import Burning from '@/components/entertainment/burning'
-import EmojiFight from '@/components/game/emoji-fight'
-import Emoji from '@/components/emoji/emoji'
-import Derivant from '@/components/derivant/derivant-list'
 
 Vue.use(Router)
 
@@ -23,97 +8,70 @@ export default new Router({
     {
       path: '/',
       name: 'index',
-      component: Index
-    }, {
-      path: '/Baidu/:keyword',
-      name: 'baidu',
-      component: Search
-    }, {
-      path: '/video/:page?/:display?',
-      name: 'video',
-      component: Video,
-      meta: {
-        keepAlive: true
-      }
+      component: (resolve) => require(['@/components/index/index'], resolve)
     }, {
       path: '/article',
       name: 'article',
-      component: Article,
+      component: (resolve) => require(['@/components/article/article-list'], resolve),
       meta: {
         keepAlive: true
       }
     }, {
       path: '/painting',
       name: 'painting',
-      component: Painting,
+      component: (resolve) => require(['@/components/painting/painting-list'], resolve),
       meta: {
         keepAlive: true
       }
     }, {
       path: '/trip',
       name: 'trip',
-      component: Trip,
+      component: (resolve) => require(['@/components/trip/trip-list'], resolve),
       meta: {
         keepAlive: true
       }
     }, {
       path: '/raise',
       name: 'raise',
-      component: Raise,
+      component: (resolve) => require(['@/components/raise/raise-list'], resolve),
       meta: {
         keepAlive: true
       }
     }, {
       path: '/recommend',
       name: 'recommend',
-      component: Recommend,
+      component: (resolve) => require(['@/components/recommend/recommend-list'], resolve),
       meta: {
         keepAlive: true
       }
     }, {
       path: '/music',
       name: 'music',
-      component: Music,
+      component: (resolve) => require(['@/components/music/music-list'], resolve),
       meta: {
         keepAlive: true
       }
-    }, {
-      path: '/live',
-      name: 'live',
-      component: Live,
-      meta: {
-        keepAlive: true
-      }
-    }, {
-      path: '/search',
-      component: Search
     }, {
       path: '/entertainment',
-      component: Entertainment,
+      component: (resolve) => require(['@/components/entertainment/entertainment-list'], resolve),
       meta: {
         keepAlive: true
       }
     }, {
       path: '/derivant',
-      component: Derivant,
+      component: (resolve) => require(['@/components/derivant/derivant-list'], resolve),
       meta: {
         keepAlive: true
       }
     }, {
       path: '/burning',
-      component: Burning,
+      component: (resolve) => require(['@/components/entertainment/burning'], resolve),
       meta: {
         keepAlive: true
       }
     }, {
       path: '/emoji',
-      component: Emoji,
-      meta: {
-        keepAlive: true
-      }
-    }, {
-      path: '/emojifight',
-      component: EmojiFight,
+      component: (resolve) => require(['@/components/emoji/emoji'], resolve),
       meta: {
         keepAlive: true
       }
