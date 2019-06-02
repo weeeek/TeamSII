@@ -20,24 +20,24 @@ export const tripData = [{
   }, {
     nameMonth: '6月2日 19:00',
     title: '《重生计划》第30场，GNZ48星梦剧院巡演',
-    description: '陈思、戴萌、蒋芸、孔肖吟、李宇琪、刘增艳、莫寒、钱蓓婷、孙芮、温晶婕、吴哲晗、徐晨辰、许佳琪、徐子轩、袁雨桢、张语格',
+    description: 'MC1：来广州之前没做，这次做了或想做的事,Lost：莫寒,Hold me tight：戴萌，孔肖吟,解语者：钱蓓婷，李宇琪，袁雨桢,最终回合：张语格，蒋芸，徐晨辰，温晶婕,无罪无我：莫寒，刘增艳，陈思,somewhere：吴哲晗，徐子轩，孙芮,噩梦轮回：许佳琪,MC2：让你强装镇定的事,MC3：用一个人的名字去形容一个人,MC4：忍俊不禁又可爱的傻事',
     summarize: '',
     type: 'blue',
-    url: 'http://www.gnz48.com/ticket/ticket.php'
+    url: 'https://www.bilibili.com/video/av54414193'
   }, {
     nameMonth: '6月1日 19:30',
     title: '"燃烧吧！团魂" Team SII 对阵 Team NIII，深圳蛇口风华大剧院（深圳市南山区蛇口公园路49号）',
-    description: '陈思、戴萌、蒋芸、孔肖吟、李宇琪、刘增艳、莫寒、钱蓓婷、孙芮、温晶婕、吴哲晗、徐晨辰、许佳琪、徐子轩、袁雨桢、张语格',
-    summarize: '',
+    description: '勇气重生,暹罗猫,无声的探戈,初恋你好,流着泪微笑,废墟纪元,7rings＋红衣女孩,I\'m high,开拓者,毒蜘蛛',
+    summarize: '陈思、戴萌、蒋芸、孔肖吟、李宇琪、刘增艳、莫寒、钱蓓婷、孙芮、温晶婕、吴哲晗、徐晨辰、许佳琪、徐子轩、袁雨桢、张语格',
     type: 'blue',
-    url: 'https://detail.damai.cn/item.htm?spm=a2oeg.search_category.0.0.16d620f5UWrKP6&id=593994970703&clicktitle=SNH48GROUPX%E5%92%AA%E5%92%95%E9%9F%B3%E4%B9%90%E7%87%83%E7%83%A7%E5%90%A7%E5%9B%A2%E9%AD%82%E5%9B%A2%E9%98%9F%E7%8E%B0%E5%9C%BA%E7%BB%BC%E8%89%BA%E7%A7%80-%E6%B7%B1%E5%9C%B3%E7%AB%99'
+    url: 'https://www.bilibili.com/video/av54293686'
   }, {
     nameMonth: '5月30日 19:30',
     title: '《重生计划》第29场，陈俊羽、袁丹妮拉票公演，刘增艳222场',
-    description: 'MC1：,Lost：莫寒,Hold me tight：戴萌，孔肖吟,解语者：钱蓓婷，李宇琪，袁雨桢,最终回合：张语格，蒋芸，徐晨辰，陈俊羽,无罪无我：莫寒，刘增艳，陈思,somewhere：吴哲晗，徐子轩，孙芮,噩梦轮回：许佳琪,MC3：丢手绢游戏,MC4：大象鼻子转游戏,',
+    description: 'MC1：被曲解的网络用语,Lost：莫寒,Hold me tight：戴萌，孔肖吟,解语者：钱蓓婷，李宇琪，袁雨桢,最终回合：张语格，蒋芸，徐晨辰，陈俊羽,无罪无我：莫寒，刘增艳，陈思,somewhere：吴哲晗，徐子轩，孙芮,噩梦轮回：许佳琪,MC2：旅途中最难忘的事,MC3：丢手绢游戏,MC4：大象鼻子转游戏,',
     summarize: '',
     type: 'blue',
-    url: 'http://www.snh48.com/ticket.php'
+    url: 'https://www.bilibili.com/video/av54092173'
   }, {
     nameMonth: '5月24日 19:30',
     title: '《重生计划》第28场',
