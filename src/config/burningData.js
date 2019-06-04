@@ -35,9 +35,9 @@ export const burningGroup = [{
     win: true
   }]
 }, {
-  url: '',
+  url: 'https://www.bilibili.com/video/av53586175',
   group: 3,
-  winner: null,
+  winner: 1,
   bg: '6f4898e1gy1g2ev91jlgaj20u016f4qr',
   team: [{
     name: 'Team z',
@@ -53,9 +53,9 @@ export const burningGroup = [{
     win: true
   }]
 }, {
-  url: '',
+  url: 'https://www.bilibili.com/video/av54293686',
   group: 4,
-  winner: null,
+  winner: 1,
   bg: '6f4898e1ly1g2u1ac80afj20u016f7wj',
   team: [{
     name: 'Team NIII',

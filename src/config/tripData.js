@@ -4,6 +4,20 @@ export const tripData = [{
     to: '2019'
   },
   items: [{
+    nameMonth: '6月16日 21:00',
+    title: '《新的旅程》总决选速报',
+    description: '',
+    summarize: '',
+    type: 'black',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
+    nameMonth: '6月13日 19:30',
+    title: '《重生计划》第33场，吴哲晗、徐子轩拉票公演',
+    description: '',
+    summarize: '',
+    type: 'blue',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
     nameMonth: '6月9日 14:00',
     title: '《重生计划》第32场，温晶婕生日&拉票公演',
     description: '',
