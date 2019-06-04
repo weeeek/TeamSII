@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div id="derivant-container">
     <div class="project-wrap">
       <div class="project-item" v-for="obj in derivantDataFilter" :key="obj.name">
         <div v-for="d in obj.derivant" :key="d.name">
-          <carousel :per-page="1" :navigate-to="d.selfLink" :mouse-drag="false" :paginationPadding="0" :paginationMargin="0" :autoplay="true" :adjustableHeight="true" :loop="true">
-            <slide v-for="img in d.product.imgs" :key="img" v-if="d.product">
+          <carousel :per-page="1" :navigate-to="d.selfLink" :mouse-drag="false" :paginationPadding="0" :paginationMargin="0" :autoplay="true" :adjustableHeight="true" :loop="true" v-if="d.product">
+            <slide v-for="img in d.product.imgs" :key="img">
               <div class="project-info" :style="`background-image:url(${img})`">
                 <h3 class="project-title text-ellipsis">{{d.name}}</h3>
               </div>
@@ -14,7 +14,7 @@
             ￥{{ toMoney(d.product.minPrice) }} - {{ toMoney(d.product.maxPrice) }}
           </div>
           <div class="text-center ">
-            <a class="btn-orange" :href="d.selfLink" target="_blank">购买</a>
+            <a class="btn btn-orange" :href="d.selfLink" target="_blank">购买</a>
           </div>
         </div>
       </div>
@@ -61,6 +61,15 @@ export default {
     margin 1em auto
     color #FF5041
     font-weight bolder
+
+  @media screen and (min-width 1366px)
+    #derivant-container
+      padding-bottom 15px
+ 
+  @media screen and (max-width 1366px)
+    #derivant-container
+      padding-bottom 10px
+
   @media screen and (min-width 1024px)
     .project-wrap
       -moz-column-count 3

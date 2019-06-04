@@ -49,7 +49,23 @@ export const derivantData = [
     }]
   }, {
     name: '蒋芸',
-    derivant: []
+    derivant: [{
+      'product': {
+        'imgs': [
+          'https://qimage.owhat.cn/prod/shop/cover/1559556913018.jpeg',
+          'https://qimage.owhat.cn/prod/shop/cover/1559557000311.jpg',
+          'https://qimage.owhat.cn/prod/shop/cover/1559557037004.jpg',
+          'https://qimage.owhat.cn/prod/shop/cover/1559557059813.jpg',
+          'https://qimage.owhat.cn/prod/shop/cover/1559557084157.jpg',
+          'https://qimage.owhat.cn/prod/shop/cover/1559564195093.jpg'
+        ],
+        'minPrice': 1500,
+        'maxPrice': 32700,
+        'name': '蒋芸应援会2019年夏季应援物预售',
+        'startTime': 1559555940000,
+        'endTime': 1560851940000
+      }
+    }]
   }, {
     name: '孔肖吟',
     derivant: []
