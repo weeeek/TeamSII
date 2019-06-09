@@ -1,8 +1,8 @@
-/* 各应援会摩点相关数据 */
+﻿/* 各应援会摩点相关数据 */
 export const raiseConfig = [
   {
     name: 'TeamSII',
-    id: '2112648',
+    id: '6334669',
     line: 1,
     enabled: true
   }, {
