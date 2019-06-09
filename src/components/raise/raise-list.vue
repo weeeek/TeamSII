@@ -55,12 +55,6 @@ export default {
       blossom:true,
       YYHList:[],
       modianDatas: [],
-      TeamSII: {
-        checked: true,
-        name: 'TeamSII',
-        id: '2112648',
-        enabled: true
-      }
     }
   },
   watch:{
@@ -91,7 +85,8 @@ export default {
           if(rs.rows.length <= memberData.length){
             // 数据库数据不对，重新加载数据库
             tx.executeSql("DELETE FROM YYHList")
-            _this.addData(db, _this.TeamSII.id, _this.TeamSII.name, _this.TeamSII.enabled, _this.TeamSII.checked)
+            //_this.addData(db, 2112648, "Team SII", true, true)
+            _this.addData(db, 6334669, "Team SII", true, true)
             _this.YYHList=[]
             memberData.map((y)=>{
                         //勾上
@@ -106,11 +101,11 @@ export default {
               let item = rs.rows.item(i)
               item.checked = item.checked == "true"
               item.enabled = item.enabled == "true"
-              if(item.id == 2112648){
-                if(!(new Date().getMonth() < 7 && new Date().getMonth() > 1))
-                  _this.YYHList.push(item)
-              }
-              else
+              // if(item.id == 2112648){
+              //   if(!(new Date().getMonth() < 7 && new Date().getMonth() > 1))
+              //     _this.YYHList.push(item)
+              // }
+              // else
                 _this.YYHList.push(item)
             }
             // 有一个checked的，all就勾上，这里操作all会被watch到
@@ -154,15 +149,15 @@ export default {
           if(rs.rows.length < 1){
             tx.executeSql("INSERT INTO YYHList VALUES(?,?,?,?)", [id, name, enabled, checked], function(tx, rs) {
               if(enabled){                
-                if(id == 2112648){
-                  _this.YYHList.push({                      
-                    name: name,
-                    id: id,
-                    enabled: !(new Date().getMonth() < 7 && new Date().getMonth() > 1),
-                    checked: checked
-                  })
-                }
-                else{
+                // if(id == 2112648){
+                //   _this.YYHList.push({                      
+                //     name: name,
+                //     id: id,
+                //     enabled: !(new Date().getMonth() < 7 && new Date().getMonth() > 1),
+                //     checked: checked
+                //   })
+                // }
+                // else{
                   _this.YYHList.push({
                     name: name,
                     id: id,
@@ -170,7 +165,7 @@ export default {
                     checked: checked
                   })
                   _this.getModianData(_this, id, name)
-                }
+                //}
               }
             },
             function(tx, erro) {
