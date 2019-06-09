@@ -119,6 +119,16 @@ export const recommendConfig = {
         from: 'I',
         url: 'v_19rr0x6mik',
         img: `//raw.githubusercontent.com/weeeek/TeamSII/master/src/common/image/yunxizhuan.jpg`
+      }, {
+        title: '芭啦啦小魔仙之魔箭公主',
+        from: 'Q',
+        url: 'c3jiqn1oso8knul',
+        img: '//puui.qpic.cn/vstill_spjz/0/00gxbyt15t1445292074.jpg/0'
+      }, {
+        title: '少女侦探社',
+        from: 'Q',
+        url: 'p8xujlwp7vgspwm',
+        img: '//puui.qpic.cn/qqvideo_ori/0/g0672daclao_228_128/0'
       }]
     }, {
       type: '舞台',

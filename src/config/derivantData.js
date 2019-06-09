@@ -68,7 +68,22 @@ export const derivantData = [
     }]
   }, {
     name: '孔肖吟',
-    derivant: []
+    derivant: [{
+      'product': {
+        'imgs': [
+          '//gd4.alicdn.com/imgextra/i1/174399314/O1CN01Qq1QZY2IfrTluObT3_!!174399314.jpg',
+          '//gd3.alicdn.com/imgextra/i3/174399314/O1CN01Sq3HIP2IfrToUIQcu_!!174399314.jpg',
+          '//gd2.alicdn.com/imgextra/i2/174399314/O1CN01zKZKez2IfrTluQ93u_!!174399314.jpg',
+          '//gd4.alicdn.com/imgextra/i4/174399314/O1CN01x3msTI2IfrTn53X5d_!!174399314.png',
+          '//gd2.alicdn.com/imgextra/i2/174399314/O1CN01GrHTor2IfrToRrv2p_!!174399314.jpg'
+        ],
+        'minPrice': 12800,
+        'maxPrice': 12800,
+        'name': '孔肖吟应援会2019年夏季应援服预售',
+        'startTime': 1558972800000,
+        'endTime': 1560096000000
+      }
+    }]
   }, {
     name: '李宇琪',
     derivant: []

@@ -9,7 +9,7 @@
       </keep-alive>
       <router-view v-if="!$route.meta.keepAlive"></router-view>
     </div>
-    <snh48-live2d v-show="showLive2d"></snh48-live2d>
+    <!-- <snh48-live2d v-show="showLive2d"></snh48-live2d> -->
   </div>
 </template>
 
@@ -25,7 +25,7 @@ export default {
     GlobalHeader,
     Tab,
     MusicPlayer,
-    Snh48Live2d
+    // Snh48Live2d
   },
   data () {
     return {

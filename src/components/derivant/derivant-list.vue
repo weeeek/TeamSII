@@ -44,9 +44,9 @@ export default {
   computed: {
     derivantDataFilter: function () {
       return derivantData.filter((x)=>{
-        if(x.derivant.length > 0){
-            console.log(x.derivant)
-            return x.derivant
+        if(x.derivant.length > 0){          
+          return x.derivant[0]
+          //return x.derivant[0] && new Date(x.derivant[0].endTime) > new Date()
         }
       })
     }

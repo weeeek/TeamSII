@@ -186,7 +186,6 @@
 .block
   h2
     text-align center
-    font-size 24px
     font-family 'Lobster', serif
   .members
     display flex
@@ -241,7 +240,8 @@
     width 16px
     height 16px
   .block
-    h2
+    h2    
+      font-size 24px
       margin 0 0 16px 0
     .members
       .member
@@ -260,6 +260,7 @@
     height 16px  
   .block
     h2
+      font-size 22px
       margin 0 0 12px 0
     .members
       .name
@@ -279,7 +280,8 @@
     
   .block
     h2
-      margin 0 0 8px 0
+      font-size 18px
+      margin 0 0 10px 0
     .members
       .name
         font-size 16px
@@ -296,8 +298,9 @@
     width 16px
     height 16px    
   .block
-    h2
-      margin 0 0 4px 0
+    h2    
+      font-size 14px
+      margin 0 0 8px 0
     .members
       .name
         font-size 12px

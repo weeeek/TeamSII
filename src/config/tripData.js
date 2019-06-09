@@ -20,17 +20,23 @@ export const tripData = [{
   }, {
     nameMonth: '6月9日 14:00',
     title: '《重生计划》第32场，温晶婕生日&拉票公演',
-    description: '',
+    description: '生日环节：《向日葵盛开的夏天》,拉票环节：《当冬夜渐暖》《红蔷薇白玫瑰》《My Happy Ending》,MC1：天道钟馗现场念诗，温晶婕生日快乐,Lost：莫寒,Hold me tight：蒋芸，刘增艳,解语者：钱蓓婷，孙芮，袁雨桢,最终回合：张语格，孔肖吟，邵雪聪，徐晨辰,无罪无我：莫寒，戴萌，陈思,somewhere：吴哲晗，徐子轩，李宇琪,噩梦轮回：许佳琪,MC3：动作接龙,MC4：划拳劈叉',
     summarize: '',
     type: 'blue',
-    url: 'http://www.snh48.com/ticket.php'
+    url: 'https://www.bilibili.com/video/av55087791'
   }, {
     nameMonth: '6月8日 14:00',
-    title: '《重生计划》第31场，陈思、蒋芸拉票公演',
-    description: '',
+    title: '《重生计划》第31场，陈思、蒋芸拉票公演，孔肖吟第350场',
+    description: '陈思拉票环节：《夜车》《我多喜欢你，你会知道》《ROUGH舞蹈》,蒋芸拉票环节：《奇妙能力歌》《小幸运》《缘起》,MC1：社交中有什么小细节你觉得很暖心,Lost：莫寒,Hold me tight：钱蓓婷，袁雨桢,解语者：戴萌，孔肖吟，李宇琪,最终回合：张语格，蒋芸，徐晨辰，温晶婕,无罪无我：莫寒，刘增艳，陈思,somewhere：许佳琪，徐子轩，孙芮,噩梦轮回：吴哲晗,MC2：想拥有的两种身份,MC3：方言乱斗',
     summarize: '',
     type: 'blue',
-    url: 'http://www.snh48.com/ticket.php'
+    url: 'https://www.bilibili.com/video/av54956294'
+  }, {
+    nameMonth: '6月7日',
+    title: '端午大作战',
+    description: '孙芮，徐子轩，刘增艳，杨冰怡，祁静，冉蔚',
+    type: 'black',
+    url: 'https://www.bilibili.com/video/av54893365'
   }, {
     nameMonth: '6月2日 19:00',
     title: '《重生计划》第30场，GNZ48星梦剧院巡演',
@@ -48,7 +54,7 @@ export const tripData = [{
   }, {
     nameMonth: '5月30日 19:30',
     title: '《重生计划》第29场，陈俊羽、袁丹妮拉票公演，刘增艳222场',
-    description: 'MC1：被曲解的网络用语,Lost：莫寒,Hold me tight：戴萌，孔肖吟,解语者：钱蓓婷，李宇琪，袁雨桢,最终回合：张语格，蒋芸，徐晨辰，陈俊羽,无罪无我：莫寒，刘增艳，陈思,somewhere：吴哲晗，徐子轩，孙芮,噩梦轮回：许佳琪,MC2：旅途中最难忘的事,MC3：丢手绢游戏,MC4：大象鼻子转游戏,',
+    description: '陈俊羽拉票：《We are the one》+宣言,袁丹妮拉票：《知否知否》《大鱼》,MC1：被曲解的网络用语,Lost：莫寒,Hold me tight：戴萌，孔肖吟,解语者：钱蓓婷，李宇琪，袁雨桢,最终回合：张语格，蒋芸，徐晨辰，陈俊羽,无罪无我：莫寒，刘增艳，陈思,somewhere：吴哲晗，徐子轩，孙芮,噩梦轮回：许佳琪,MC2：旅途中最难忘的事,MC3：丢手绢游戏,MC4：大象鼻子转游戏,',
     summarize: '',
     type: 'blue',
     url: 'https://www.bilibili.com/video/av54092173'
@@ -117,7 +123,7 @@ export const tripData = [{
   }, {
     nameMonth: '5月3日 19:00',
     title: '《重生计划》第23场，陈观慧第350场，吴哲晗第300场，三C冰雪噩梦轮回',
-    description: 'MC1：长辈口中没有科学依据的老话,Lost：莫寒,Hold me tight：孙芮，孔肖吟,解语者：戴萌，李宇琪，袁雨桢,最终回合：孔肖吟，陈思，蒋芸，陈俊羽,无罪无我：莫寒，陈观慧，刘增艳,somewhere:吴哲晗，徐子轩，袁丹妮,噩梦轮回:徐晨辰，孙芮,MC2：花过的的最冤枉的一笔钱,MC3：控台给字，成员抢唱,MC4：“王”字木头人游戏,安可曲《绿光》',
+    description: 'MC1：长辈口中没有科学依据的老话,Lost：莫寒,Hold me tight：孙芮，孔肖吟,解语者：戴萌，李宇琪，袁雨桢,最终回合：孔肖吟，陈思，蒋芸，陈俊羽,无罪无我：莫寒，陈观慧，刘增艳,somewhere：吴哲晗，徐子轩，袁丹妮,噩梦轮回：徐晨辰，孙芮,MC2：花过的的最冤枉的一笔钱,MC3：控台给字，成员抢唱,MC4：“王”字木头人游戏,安可曲《绿光》',
     summarize: '我们没有医疗保险，但我们有汗水梦想坚持！----徐子轩\r\n你们给我们投的每一笔钱都不冤枉，因为没有你们就没有我们，也没有他盘里的饺子----徐子轩\r\n你看这个饼它又大又圆，那个饼真好吃----陈俊羽',
     type: 'blue',
     url: 'http://www.bilibili.com/video/av51341482'

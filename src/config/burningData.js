@@ -44,7 +44,7 @@ export const burningGroup = [{
     color: 'team-z',
     image: '22oXC7GN0oz10001Sj000',
     vote: 0,
-    win: true
+    win: false
   }, {
     name: 'Team b',
     color: 'team-b',
@@ -62,7 +62,7 @@ export const burningGroup = [{
     color: 'team-n3',
     image: '22oXC7GN0nxf00016u000',
     vote: 0,
-    win: true
+    win: false
   }, {
     name: 'Team SII',
     color: 'team-s2',
@@ -71,16 +71,16 @@ export const burningGroup = [{
     win: true
   }]
 }, {
-  url: '',
+  url: 'https://www.bilibili.com/video/av55006416',
   group: 5,
-  winner: null,
+  winner: 1,
   bg: '6f4898e1ly1g2zmnyhz5qj20u016f7wj',
   team: [{
     name: 'Team E',
     color: 'team-e',
     image: '22oXC7GN0oNV0001Cn000',
     vote: 0,
-    win: true
+    win: false
   }, {
     name: 'Team NII',
     color: 'team-n2',
