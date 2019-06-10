@@ -129,6 +129,11 @@ export const recommendConfig = {
         from: 'Q',
         url: 'p8xujlwp7vgspwm',
         img: '//puui.qpic.cn/qqvideo_ori/0/g0672daclao_228_128/0'
+      }, {
+        title: '夜蝶',
+        from: 'I',
+        url: 'v_19rsjs0hyk',
+        img: 'http://wx2.sinaimg.cn/large/0076gXBegy1g3rn6uwifvj34mo2lskjq.jpg'
       }]
     }, {
       type: '舞台',
