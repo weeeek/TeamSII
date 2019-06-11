@@ -1,9 +1,23 @@
-export const tripData = [{
+﻿export const tripData = [{
   year: {
     from: '2019',
     to: '2019'
   },
   items: [{
+    nameMonth: '6月23日 14:00',
+    title: '《重生计划》第35场，朱小丹生日&拉票公演',
+    description: '',
+    summarize: '',
+    type: 'black',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
+    nameMonth: '6月22日 14:00',
+    title: '《重生计划》第34场，徐晨辰生日&拉票公演',
+    description: '',
+    summarize: '',
+    type: 'black',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
     nameMonth: '6月16日 21:00',
     title: '《新的旅程》总决选速报',
     description: '',
@@ -17,6 +31,12 @@ export const tripData = [{
     summarize: '',
     type: 'blue',
     url: 'http://www.snh48.com/ticket.php'
+  }, {
+    nameMonth: '6月11日',
+    title: '第25届上海电视节',
+    description: '《平行迷途》许佳琪，陆婷；《小夜曲》吴哲晗，张语格，黄婷婷，林思意，谢蕾蕾',
+    type: 'green',
+    url: 'https://www.bilibili.com/video/av55292167'
   }, {
     nameMonth: '6月9日 14:00',
     title: '《重生计划》第32场，温晶婕生日&拉票公演',
