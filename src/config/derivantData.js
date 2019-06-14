@@ -14,7 +14,7 @@ export const derivantData = [
           'minPrice': 5900,
           'maxPrice': 36000
         },
-        'selfLink': '//www.orimuse.com/cfd/12081',
+        'selfLink': 'http://www.orimuse.com/cfd/12081',
         'name': 'Team SII应援会四周年周边',
         'startTime': 1557460225000,
         'endTime': 1559700040000
@@ -101,7 +101,22 @@ export const derivantData = [
     derivant: []
   }, {
     name: '孙芮',
-    derivant: []
+    derivant: [{
+      product: {
+        imgs: [
+          'http://image.orimuse.com/design_info/1139092884557922304.png',
+          'http://image.orimuse.com/design_info/1139092884788609024.png',
+          'http://image.orimuse.com/design_info/1139092884906049536.png',
+          'http://image.orimuse.com/design_info/1139092885031878656.png'
+        ],
+        'selfLink': 'http://www.orimuse.com/cfd/12162',
+        'minPrice': 2000,
+        'maxPrice': 14900,
+        'name': '孙芮应援会2019年夏季应援周边预售',
+        'startTime': 1560355200000,
+        'endTime': 1561305600000
+      }
+    }]
   }, {
     name: '邵雪聪',
     derivant: []

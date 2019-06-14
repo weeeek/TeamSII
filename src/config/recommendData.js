@@ -1,4 +1,4 @@
-export const recommendConfig = {
+﻿export const recommendConfig = {
   list: [
     {
       type: '公演',
@@ -156,6 +156,11 @@ export const recommendConfig = {
     }, {
       type: '综艺',
       list: [{
+        title: '意想不到的假期',
+        from: 'I',
+        url: 'v_19rsjwaz28',
+        img: '//pic5.iqiyipic.com/image/20190528/59/8d/v_130155173_m_601_720_405.jpg'
+      }, {
         title: '第二届SNH48偶像运动会',
         from: 'B',
         av: '49191421',

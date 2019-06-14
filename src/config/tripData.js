@@ -27,10 +27,10 @@
   }, {
     nameMonth: '6月13日 19:30',
     title: '《重生计划》第33场，吴哲晗、徐子轩拉票公演',
-    description: '',
-    summarize: '',
+    description: '徐子轩拉票环节：《永无乡》《关不掉》,吴哲晗拉票环节：《不染》，电视剧《小夜曲》插曲,MC1：最害怕的游戏,Lost：莫寒,Hold me tight：戴萌，孙芮,解语者：钱蓓婷，袁雨桢，朱小丹,最终回合：李宇琪，孙芮，徐晨辰，邵雪聪,无罪无我（旗袍）：莫寒，刘增艳，温晶婕,somewhere：吴哲晗，徐子轩，袁丹妮,噩梦轮回：,MC2：发消息发错的经历,MC3：相反游戏,MC4：萝卜蹲游戏',
+    summarize: '她（朱小希）在密室逃脱还是个人，在鬼屋就是个猪 ---- by 徐子轩\r\n提升一下时尚品味也是你们的必修课 ---- 叶盛 to 邵雪聪\r\n你一旦赢了对面那个，你的智商将得到所有人的肯定 ---- 钱蓓婷 to 袁雨桢',
     type: 'blue',
-    url: 'http://www.snh48.com/ticket.php'
+    url: 'https://www.bilibili.com/video/av55510463'
   }, {
     nameMonth: '6月11日',
     title: '第25届上海电视节',
