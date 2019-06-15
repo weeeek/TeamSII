@@ -1,5 +1,10 @@
 <template>
     <div class="block">
+      <div class="block" style="text-align: center">
+        <a target="_blank" href="https://detail.damai.cn/item.htm?spm=a2oeg.search_category.0.0.1cb520f5PAoRMe&id=596486770102">
+          <img src="http://wx2.sinaimg.cn/large/6f4898e1gy1g40q1qejzqj20u016f7wh.jpg" style="object-fit: contain"/>
+        </a>
+      </div>
       <div class="group">
         <p-k class="pk-group" :data="d" v-for="d in burningGroups" :key="d.group"></p-k>
       </div>

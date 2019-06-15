@@ -3,13 +3,12 @@
     <div class="project-wrap">
       <div class="project-item" v-for="obj in derivantDataFilter" :key="obj.name">
         <div v-for="d in obj.derivant" :key="d.name">
-          <carousel :per-page="1" :navigate-to="d.selfLink" :mouse-drag="false" :paginationPadding="0" :paginationMargin="0" :autoplay="true" :adjustableHeight="true" :loop="true" v-if="d.product">
+          <carousel :per-page="1" :mouse-drag="false" :paginationPadding="0" :paginationMargin="0" :autoplay="true" :adjustableHeight="true" :loop="true" v-if="d.product">
             <slide v-for="img in d.product.imgs" :key="img">
-              <div class="project-info" :style="`background-image:url(${img})`">
-                <h3 class="project-title text-ellipsis">{{d.name}}</h3>
-              </div>
+              <div class="project-info" :style="`background-image:url(${img})`"></div>
             </slide>
-          </carousel>
+          </carousel>          
+          <h3 class="text-center project-title text-ellipsis">{{d.name}}</h3>
           <div class="text-center text-derivant">
             ￥{{ toMoney(d.product.minPrice) }} - {{ toMoney(d.product.maxPrice) }}
           </div>
@@ -61,6 +60,9 @@ export default {
     margin 1em auto
     color #FF5041
     font-weight bolder
+
+  .project-title
+    margin-top 15px
 
   @media screen and (min-width 1366px)
     #derivant-container

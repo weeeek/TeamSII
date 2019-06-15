@@ -76,7 +76,6 @@
     display flex
     height 40px
     line-height 40px
-    font-size $font-size-medium4
     flex-direction row
     .tab-item
       flex-grow 1
@@ -91,7 +90,8 @@
       .tab-link
         border-bottom 5px solid $color-team-sii
 
-@media screen and (max-width 1366px)
+        
+@media screen and (max-width 1366px) and (min-width 768px)
   .tab
     border-top 1px solid #f2f2f5
     box-shadow 0 1px 1px rgba(0,0,0,0.15)
@@ -99,7 +99,6 @@
     display flex
     height 22px
     line-height 22px
-    font-size $font-size-medium4
     flex-direction row
     .tab-item
       flex-grow 1
@@ -110,7 +109,30 @@
         cursor pointer
         font-weight bolder
         padding 0 6px 2px 6px
-        font-size 10px
+        font-size 16px
+    &.router-link-active
+      .tab-link
+        border-bottom 2px solid $color-team-sii
+
+@media screen and (max-width 768px)
+  .tab
+    border-top 1px solid #f2f2f5
+    box-shadow 0 1px 1px rgba(0,0,0,0.15)
+    background-color #FFF
+    display flex
+    height 22px
+    line-height 22px
+    flex-direction row
+    .tab-item
+      flex-grow 1
+      text-align center
+      text-decoration none
+      color #2c3e50
+      .tab-link
+        cursor pointer
+        font-weight bolder
+        padding 0 6px 2px 6px
+        font-size 12px
     &.router-link-active
       .tab-link
         border-bottom 2px solid $color-team-sii

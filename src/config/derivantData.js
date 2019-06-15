@@ -60,11 +60,12 @@ export const derivantData = [
           'https://qimage.owhat.cn/prod/shop/cover/1559564195093.jpg'
         ],
         'minPrice': 1500,
-        'maxPrice': 32700,
-        'name': '蒋芸应援会2019年夏季应援物预售',
-        'startTime': 1559555940000,
-        'endTime': 1560851940000
-      }
+        'maxPrice': 32700
+      },
+      'selfLink': 'https://m.owhat.cn/shop/shopdetail.html?id=62020&utm_source=owhat&utm_medium=copyurl',
+      'name': '蒋芸应援会2019年夏季应援物预售',
+      'startTime': 1559555940000,
+      'endTime': 1560851940000
     }]
   }, {
     name: '孔肖吟',
@@ -78,11 +79,12 @@ export const derivantData = [
           '//gd2.alicdn.com/imgextra/i2/174399314/O1CN01GrHTor2IfrToRrv2p_!!174399314.jpg'
         ],
         'minPrice': 12800,
-        'maxPrice': 12800,
-        'name': '孔肖吟应援会2019年夏季应援服预售',
-        'startTime': 1558972800000,
-        'endTime': 1560096000000
-      }
+        'maxPrice': 12800
+      },
+      'selfLink': 'https://item.taobao.com/item.htm?id=593420842051',
+      'name': '孔肖吟应援会2019年夏季应援服预售',
+      'startTime': 1558972800000,
+      'endTime': 1560096000000
     }]
   }, {
     name: '李宇琪',
@@ -109,13 +111,13 @@ export const derivantData = [
           'http://image.orimuse.com/design_info/1139092884906049536.png',
           'http://image.orimuse.com/design_info/1139092885031878656.png'
         ],
-        'selfLink': 'http://www.orimuse.com/cfd/12162',
         'minPrice': 2000,
         'maxPrice': 14900,
-        'name': '孙芮应援会2019年夏季应援周边预售',
-        'startTime': 1560355200000,
-        'endTime': 1561305600000
-      }
+      },      
+      'selfLink': 'http://www.orimuse.com/cfd/12162',
+      'name': '孙芮应援会2019年夏季应援周边预售',
+      'startTime': 1560355200000,
+      'endTime': 1561305600000
     }]
   }, {
     name: '邵雪聪',
@@ -174,7 +176,22 @@ export const derivantData = [
     derivant: []
   }, {
     name: '戴莫',
-    derivant: []
+    derivant: [{
+      product: {
+        imgs: [
+          'http://image.orimuse.com/design_info/1139452957280960512.png',
+          'http://image.orimuse.com/design_info/1139452957436149760.png',
+          'http://image.orimuse.com/design_info/1139452957553590272.png',
+          'http://image.orimuse.com/design_info/1139452957650059264.png'
+        ],        
+        'minPrice': 9800,
+        'maxPrice': 56700,
+      },
+      'selfLink': 'http://www.orimuse.com/cfd/12163',
+      'name': '戴莫应援会2019夏季应援服预售',
+      'startTime': 1560355200000,
+      'endTime': 1561305600000
+    }]
   }, {
     name: '七五',
     derivant: []
