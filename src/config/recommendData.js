@@ -517,6 +517,12 @@
         url: 'https://weeeek.github.io/EmojiFight/dist/index.html',
         img: 'https://weeeek.github.io/EmojiFight/dist/src/img/logo.png',
         size: 'contain'
+      }, {
+        title: '五子棋大战',
+        from: 'G',
+        url: 'https://weeeek.github.io/Skills/SIIGobang.html',
+        img: 'https://imgsa.baidu.com/baike/pic/item/dbb44aed2e738bd42f3eebfda88b87d6267ff9db.jpg',
+        size: 'contain'
       }]
     }, {
       type: '狂欢',

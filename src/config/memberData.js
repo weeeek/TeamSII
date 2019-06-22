@@ -398,6 +398,9 @@ export const pet48Data = [
   }, {
     name: '圆圆',
     master: '吴哲晗'
+  }, {
+    name: '乌冬',
+    master: '朱小希'
   }
 ]
 
