@@ -4,19 +4,51 @@
     to: '2019'
   },
   items: [{
-    nameMonth: '6月23日 14:00',
-    title: '《重生计划》第35场，朱小丹生日&拉票公演',
+    nameMonth: '7月7日 21:30',
+    title: '《新的旅程》总决选中报',
+    description: '',
+    summarize: '',
+    type: 'black',
+    url: ''
+  }, {
+    nameMonth: '7月5日 19:30',
+    title: '《重生计划》第36场，戴萌，孙芮拉票公演',
     description: '',
     summarize: '',
     type: 'blue',
     url: 'http://www.snh48.com/ticket.php'
   }, {
+    nameMonth: '6月30日 19:00',
+    title: '《燃烧吧！团魂》决战，上海宝钢体育馆',
+    description: '戴萌、蒋芸、孔肖吟、李宇琪、刘增艳、莫寒、钱蓓婷、孙芮、邵雪聪、温晶婕、吴哲晗、徐晨辰、许佳琪、徐子轩、袁雨桢、张语格',
+    type: 'blue',
+    url: 'https://detail.damai.cn/item.htm?spm=a2oeg.search_category.0.0.34af20f5QA5K4l&id=596486770102&clicktitle=SNH48%20GROUP%C3%97%E5%92%AA%E5%92%95%E9%9F%B3%E4%B9%90%E3%80%8A%E7%87%83%E7%83%A7%E5%90%A7!%E5%9B%A2%E9%AD%82%E3%80%8B%E5%A4%A7%E5%9E%8B%E5%9B%A2%E9%98%9F%E7%8E%B0%E5%9C%BA%E7%BB%BC%E8%89%BA%E7%A7%80%E4%B8%8A%E6%B5%B7%E7%AB%99'
+  }, {
+    nameMonth: '6月24日 19:00',
+    title: '《TV Station 48》第五期「密室逃脱」',
+    description: '徐子轩 戴萌 许佳琪 刘增艳 沈梦瑶 李星羽',
+    type: 'black',
+    url: ''
+  }, {
+    nameMonth: '6月23日 14:00',
+    title: '《重生计划》第35场，朱小丹生日&拉票公演',
+    description: '生日环节：《BBIBBI》《说爱你》,拉票环节：《Kill this love》《静悄悄》,MC1：祝朱小丹生日快乐,Lost：莫寒,Hold me tight：孔肖吟，陈思,解语者：钱蓓婷，蒋芸，朱小丹,最终回合：张语格，李宇琪，徐晨辰，陈俊羽,无罪无我（旗袍）：莫寒，刘增艳，温晶婕,somewhere：吴哲晗，孙芮，徐子轩,噩梦轮回：许佳琪,MC3：优点骂人,MC4：默契游戏',
+    summarize: '只有你学的鹅，我们都是学的你 ---- 张语格 to 孔肖吟\r\n咋的？你喜欢疼的？ ---- 温晶婕 to 孙芮',
+    type: 'blue',
+    url: 'https://www.bilibili.com/video/av56585802'
+  }, {
     nameMonth: '6月22日 14:00',
     title: '《重生计划》第34场，徐晨辰生日&拉票公演',
-    description: '生日环节：《你的甜蜜》《流着泪微笑》《心如止水》《昨日青空》,拉票环节：《辛德瑞拉》《漂洋过海来看你》《消愁》（清唱）,MC1：夸一夸大C,Lost：莫寒,Hold me tight：孔肖吟，许佳琪,解语者：钱蓓婷，李宇琪，邵雪聪,最终回合：张语格，孙芮，徐晨辰，蒋芸,无罪无我（旗袍）：莫寒，刘增艳，陈俊羽,somewhere：戴萌，徐子轩，温晶婕,噩梦轮回：陈思,MC3：眼色游戏,MC4：蒙眼锤',
+    description: '生日环节：《你的甜蜜》《流着泪微笑》《心如止水》《昨日青空》,拉票环节：《辛德瑞拉》《漂洋过海来看你》《消愁》（清唱）,MC1：夸一夸大C,Lost：莫寒,Hold me tight：孔肖吟，许佳琪,解语者：钱蓓婷，李宇琪，邵雪聪,最终回合：张语格，孙芮，徐晨辰，蒋芸,无罪无我（旗袍）：莫寒，刘增艳，陈俊羽,somewhere（旗袍）：戴萌，徐子轩，温晶婕,噩梦轮回：陈思,MC3：眼色游戏,MC4：蒙眼锤',
     summarize: '总结下来就是一个一波三折的故事 ---- by 温晶婕\r\n台下的笑声不会背叛我 ---- by 徐晨辰',
     type: 'blue',
     url: 'https://www.bilibili.com/video/av56451114'
+  }, {
+    nameMonth: '6月19日',
+    title: '我是大美人',
+    description: '钱蓓婷',
+    type: 'green',
+    url: 'https://www.bilibili.com/video/av56507542'
   }, {
     nameMonth: '6月18日 19:00',
     title: '《TV Station 48》第四期「少女偶像的推理事件簿」',
@@ -31,6 +63,13 @@
     summarize: '',
     type: 'black',
     url: 'https://www.bilibili.com/video/av55823420'
+  }, {
+    nameMonth: '6月16日',
+    title: '王雅君音乐分享会 王雅君 孔肖吟 范玮琪',
+    description: '《听你说》《不药而愈》《咆哮》《小酒窝》《长大以后的世界》《你是答案》',
+    summarize: '',
+    type: 'green',
+    url: 'https://www.bilibili.com/video/av56513734'
   }, {
     nameMonth: '6月13日 19:30',
     title: '《重生计划》第33场，吴哲晗、徐子轩拉票公演',
@@ -54,7 +93,7 @@
   }, {
     nameMonth: '6月8日 14:00',
     title: '《重生计划》第31场，陈思、蒋芸拉票公演，孔肖吟第350场',
-    description: '陈思拉票环节：《夜车》《我多喜欢你，你会知道》《ROUGH舞蹈》,蒋芸拉票环节：《奇妙能力歌》《小幸运》《缘起》,MC1：社交中有什么小细节你觉得很暖心,Lost：莫寒,Hold me tight：钱蓓婷，袁雨桢,解语者：戴萌，孔肖吟，李宇琪,最终回合：张语格，蒋芸，徐晨辰，温晶婕,无罪无我：莫寒，刘增艳，陈思,somewhere：许佳琪，徐子轩，孙芮,噩梦轮回：吴哲晗,MC2：想拥有的两种身份,MC3：方言乱斗',
+    description: '陈思拉票环节：《夜车》《我多喜欢你，你会知道》《ROUGH舞蹈》,蒋芸拉票环节：《奇妙能力歌》《小幸运》《缘起》,MC1：社交中有什么小细节你觉得很暖心,Lost：莫寒,Hold me tight：钱蓓婷，袁雨桢,解语者：戴萌，孔肖吟，李宇琪,最终回合（红）：张语格，蒋芸，徐晨辰，温晶婕,无罪无我：莫寒，刘增艳，陈思,somewhere：许佳琪，徐子轩，孙芮,噩梦轮回：吴哲晗,MC2：想拥有的两种身份,MC3：方言乱斗',
     summarize: '',
     type: 'blue',
     url: 'https://www.bilibili.com/video/av54956294'
@@ -144,7 +183,7 @@
     nameMonth: '5月11日 14:00',
     title: '《重生计划》第24场，李宇琪第350场',
     description: 'MC1：印象中年代最久远的电视剧,Lost：徐晨辰,Hold me tight：莫寒，刘增艳,解语者：孔肖吟，李宇琪，袁丹妮,最终回合：吴哲晗，蒋芸，邵雪聪，陈俊羽,无罪无我：戴萌，陈思，刘增艳,somewhere：莫寒，孙芮，徐子轩,噩梦轮回：戴萌,MC2：买的最失败的东西,MC3：每个人写真心话或大冒险，打乱后抽选并各自完成内容,MC4:游戏-你有我没有,安可曲《我的舞台》',
-    summarize: '',
+    summarize: '拆迁大户陈俊羽',
     type: 'blue',
     url: 'https://www.bilibili.com/video/av52140136'
   }, {

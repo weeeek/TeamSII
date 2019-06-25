@@ -118,8 +118,8 @@ export default {
               while (index < queryArr.length){
                 if (y.title.includes(queryArr[index]) || y.description.includes(queryArr[index])){
                   match = true
-                  target.title = target.title.replace(queryArr[index], '<span class="keywords">' + queryArr[index] + '</span>')
-                  target.description = target.description.replace(queryArr[index], '<span class="keywords">' + queryArr[index] + '</span>')
+                  target.title = target.title.replace(new RegExp(queryArr[index],"gm"), `<span class="keywords">${queryArr[index]}</span>`)
+                  target.description = target.description.replace(new RegExp(queryArr[index],"gm"), `<span class="keywords">${queryArr[index]}</span>`)
                 }
                 ++index
               }
