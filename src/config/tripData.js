@@ -18,7 +18,7 @@
     type: 'blue',
     url: 'http://www.snh48.com/ticket.php'
   }, {
-    nameMonth: '6月30日 19:00',
+    nameMonth: '6月29日 19:00',
     title: '《燃烧吧！团魂》决战，上海宝钢体育馆',
     description: '戴萌、蒋芸、孔肖吟、李宇琪、刘增艳、莫寒、钱蓓婷、孙芮、邵雪聪、温晶婕、吴哲晗、徐晨辰、许佳琪、徐子轩、袁雨桢、张语格',
     type: 'blue',
