@@ -20,9 +20,9 @@
   }, {
     nameMonth: '6月29日 19:00',
     title: '《燃烧吧！团魂》决战，上海宝钢体育馆',
-    description: '戴萌、蒋芸、孔肖吟、李宇琪、刘增艳、莫寒、钱蓓婷、孙芮、邵雪聪、温晶婕、吴哲晗、徐晨辰、许佳琪、徐子轩、袁雨桢、张语格',
+    description: '16人：猛犸，幻,Unit：不安星（莫寒，张语格）,MC1：想让另外两队请吃什么好吃的,Solo：缘尽世间（孔肖吟）,MC2：团魂对成员们带来的改变,宅舞：role playing game + 恋爱循环,街舞：love shot & earned it &跳舞街,MC3：如果你是策划，如何设计第二季的燃烧吧团魂',
     type: 'blue',
-    url: 'https://detail.damai.cn/item.htm?spm=a2oeg.search_category.0.0.34af20f5QA5K4l&id=596486770102&clicktitle=SNH48%20GROUP%C3%97%E5%92%AA%E5%92%95%E9%9F%B3%E4%B9%90%E3%80%8A%E7%87%83%E7%83%A7%E5%90%A7!%E5%9B%A2%E9%AD%82%E3%80%8B%E5%A4%A7%E5%9E%8B%E5%9B%A2%E9%98%9F%E7%8E%B0%E5%9C%BA%E7%BB%BC%E8%89%BA%E7%A7%80%E4%B8%8A%E6%B5%B7%E7%AB%99'
+    url: 'https://www.bilibili.com/video/av57291688'
   }, {
     nameMonth: '6月24日 19:00',
     title: '《TV Station 48》第五期「密室逃脱」',
