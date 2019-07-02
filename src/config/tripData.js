@@ -4,12 +4,19 @@
     to: '2019'
   },
   items: [{
+    nameMonth: '7月11日 19:30',
+    title: '《重生计划》第37场，张语格，莫寒，许佳琪，钱蓓婷，李宇琪拉票公演',
+    description: '',
+    summarize: '',
+    type: 'blue',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
     nameMonth: '7月7日 21:30',
     title: '《新的旅程》总决选中报',
     description: '',
     summarize: '',
     type: 'black',
-    url: ''
+    url: 'http://www.jzb48.com'
   }, {
     nameMonth: '7月5日 19:30',
     title: '《重生计划》第36场，戴萌，孙芮拉票公演',
@@ -28,7 +35,7 @@
     title: '《TV Station 48》第五期「密室逃脱」',
     description: '徐子轩 戴萌 许佳琪 刘增艳 沈梦瑶 李星羽',
     type: 'black',
-    url: ''
+    url: 'https://www.bilibili.com/video/av56746391'
   }, {
     nameMonth: '6月23日 14:00',
     title: '《重生计划》第35场，朱小丹生日&拉票公演',
@@ -37,12 +44,24 @@
     type: 'blue',
     url: 'https://www.bilibili.com/video/av56585802'
   }, {
+    nameMonth: '6月23日',
+    title: '《全民说电影》',
+    description: '曝女团不会刻意控制体型',
+    type: 'green',
+    url: 'https://www.iqiyi.com/v_19rs736wcs.html'
+  }, {
     nameMonth: '6月22日 14:00',
     title: '《重生计划》第34场，徐晨辰生日&拉票公演',
     description: '生日环节：《你的甜蜜》《流着泪微笑》《心如止水》《昨日青空》,拉票环节：《辛德瑞拉》《漂洋过海来看你》《消愁》（清唱）,MC1：夸一夸大C,Lost：莫寒,Hold me tight：孔肖吟，许佳琪,解语者：钱蓓婷，李宇琪，邵雪聪,最终回合：张语格，孙芮，徐晨辰，蒋芸,无罪无我（旗袍）：莫寒，刘增艳，陈俊羽,somewhere（旗袍）：戴萌，徐子轩，温晶婕,噩梦轮回：陈思,MC3：眼色游戏,MC4：蒙眼锤',
     summarize: '总结下来就是一个一波三折的故事 ---- by 温晶婕\r\n台下的笑声不会背叛我 ---- by 徐晨辰',
     type: 'blue',
     url: 'https://www.bilibili.com/video/av56451114'
+  }, {
+    nameMonth: '6月22日',
+    title: '《全民说电影》',
+    description: '钱蓓婷现炒火锅底料',
+    type: 'green',
+    url: 'https://www.iqiyi.com/v_19rs736yno.html'
   }, {
     nameMonth: '6月19日',
     title: '我是大美人',
