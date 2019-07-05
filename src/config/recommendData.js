@@ -404,6 +404,11 @@
         from: 'B',
         av: '28257152',
         img: '//i1.hdslb.com/bfs/archive/0a224a5f432a56625a84fb0696831ebbe7336148.jpg_380x240.jpg'
+      }, {
+        title: '第七个夏天',
+        from: 'B',
+        av: '57930462',
+        img: '//i1.hdslb.com/bfs/archive/81cc8e1ac72c8b9dcbb9e743ea67448552a872cc.jpg_380x240.jpg'
       }]
     }, {
       type: '金主爸爸的爱',

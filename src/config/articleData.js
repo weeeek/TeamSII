@@ -144,6 +144,51 @@ export const articleDatas = [{
 }, {
   member: false,
   finish: false,
+  name: '爱在校园',
+  author: {
+    name: 'Yours吟',
+    link: ''
+  },
+  articles: [{
+    chapter: 1,
+    title: '1',
+    url: 'https://www.bilibili.com/read/cv2898498'
+  }, {
+    chapter: 2,
+    title: '2',
+    url: 'https://www.bilibili.com/read/cv2912563'
+  }, {
+    chapter: 3,
+    title: '3',
+    url: 'https://www.bilibili.com/read/cv2929420'
+  }, {
+    chapter: 4,
+    title: '4',
+    url: 'https://www.bilibili.com/read/cv2935292'
+  }, {
+    chapter: 5,
+    title: '5',
+    url: 'https://www.bilibili.com/read/cv2949200'
+  }, {
+    chapter: 6,
+    title: '6',
+    url: 'https://www.bilibili.com/read/cv2961781'
+  }, {
+    chapter: 7,
+    title: '7',
+    url: 'https://www.bilibili.com/read/cv2974975'
+  }, {
+    chapter: 8,
+    title: '8',
+    url: 'https://www.bilibili.com/read/cv2982840'
+  }, {
+    chapter: 9,
+    title: '9',
+    url: 'https://www.bilibili.com/read/cv2994745'
+  }]
+}, {
+  member: false,
+  finish: true,
   name: '二十一',
   author: {
     name: '记忆里的三七',
@@ -173,6 +218,66 @@ export const articleDatas = [{
     chapter: 6,
     title: '⑥',
     url: 'https://www.bilibili.com/read/cv2732903'
+  }, {
+    chapter: 7,
+    title: '⑦',
+    url: 'https://www.bilibili.com/read/cv2744429'
+  }, {
+    chapter: 8,
+    title: '⑧',
+    url: 'https://www.bilibili.com/read/cv2756975'
+  }, {
+    chapter: 9,
+    title: '⑨',
+    url: 'https://www.bilibili.com/read/cv2762746'
+  }, {
+    chapter: 10,
+    title: '⑩',
+    url: 'https://www.bilibili.com/read/cv2773446'
+  }, {
+    chapter: 11,
+    title: '11',
+    url: 'https://www.bilibili.com/read/cv2784133'
+  }, {
+    chapter: 12,
+    title: '12',
+    url: 'https://www.bilibili.com/read/cv2796033'
+  }, {
+    chapter: 13,
+    title: '13',
+    url: 'https://www.bilibili.com/read/cv2802575'
+  }, {
+    chapter: 14,
+    title: '14',
+    url: 'https://www.bilibili.com/read/cv2813490'
+  }, {
+    chapter: 15,
+    title: '15',
+    url: 'https://www.bilibili.com/read/cv2825151'
+  }, {
+    chapter: 16,
+    title: '16',
+    url: 'https://www.bilibili.com/read/cv2839955'
+  }, {
+    chapter: 17,
+    title: '17',
+    url: 'https://www.bilibili.com/read/cv2845906'
+  }, {
+    chapter: 18,
+    title: '18',
+    url: 'https://www.bilibili.com/read/cv2857118'
+  }, {
+    chapter: 19,
+    title: '19',
+    url: 'https://www.bilibili.com/read/cv2868678'
+  }, {
+    chapter: 20,
+    title: '20',
+    url: 'https://www.bilibili.com/read/cv2881480'
+  }, {
+    chapter: 21,
+    title: '终章',
+    url: 'https://www.bilibili.com/read/cv2886883'
   }]
 }, {
   member: false,

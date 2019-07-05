@@ -1,6 +1,11 @@
-
+﻿
 export const paintingConfig = {
   list: [
+    {
+      author: '只是小白脸i',
+      url: 'https://photo.weibo.com/6243412382/wbphotos/large/mid/4388673619978960/pid/006OwILIly1g4ihae905uj35k05k0hea',
+      weibo: 'https://weibo.com/u/6243412382'
+    },
     {
       author: '',
       url: './static/painting/S早期一期生.jpg',

@@ -20,14 +20,21 @@
   }, {
     nameMonth: '7月5日 19:30',
     title: '《重生计划》第37场，戴萌，孙芮拉票公演',
+    description: '戴萌拉票：红玫瑰，已经12点，宣言，夜之终焉,孙芮拉票：最初的梦想，宣言,MC1：,Unit：Lost：莫寒,Hold me tight：刘增艳，孔肖吟,解语者：钱蓓婷，李宇琪，袁雨桢,最终回合：张语格，蒋芸，徐晨辰，朱小丹,无罪无我：莫寒，刘增艳，邵雪聪,somewhere：戴萌，孙芮，温晶婕,噩梦轮回：许佳琪,MC2：下半年（生）的愿望,MC3：技能Battle,MC4：斗鸡游戏',
+    summarize: '莫寒，你怎么总背锅 ---- 李宇琪 to 莫寒',
+    type: 'blue',
+    url: 'https://www.bilibili.com/video/av57996616'
+  }, {
+    nameMonth: '7月5日',
+    title: '“新的旅程”第六届偶像年度人气总决选专题片--《第七个夏天》',
     description: '',
     summarize: '',
-    type: 'blue',
-    url: 'http://www.snh48.com/ticket.php'
+    type: 'black',
+    url: 'https://www.bilibili.com/video/av57930462'
   }, {
     nameMonth: '7月3日 19:30',
     title: '《重生计划》第36场，袁雨桢，刘增艳拉票公演',
-    description: '袁雨桢拉票：心有独钟，怪美的,刘增艳拉票：拉票宣言，小太阳，少年他的奇幻漂流,MC1：你此生中过最大的奖,Unit：Lost：莫寒,Hold me tight：戴萌，孔肖吟,解语者：钱蓓婷，袁雨桢，朱小丹,最终回合：张语格，蒋芸，徐晨辰，邵雪聪,无罪无我（旗袍）：莫寒，刘增艳，温晶婕,somewhere：许佳琪，孙芮，李宇琪,噩梦轮回（婚纱）：温晶婕，许佳琪,MC2：最近让你有幸福感的事情,MC3：口红写一字点评,MC4：挠痒大对决',
+    description: '袁雨桢拉票：心有独钟，怪美的,刘增艳拉票：拉票宣言，小太阳，少年他的奇幻漂流,MC1：你此生中过最大的奖,Unit：Lost：莫寒,Hold me tight：戴萌，孔肖吟,解语者：钱蓓婷，袁雨桢，朱小丹,最终回合：张语格，蒋芸，徐晨辰，邵雪聪,无罪无我（水手服）：莫寒，刘增艳，温晶婕,somewhere：许佳琪，孙芮，李宇琪,噩梦轮回（婚纱）：温晶婕,MC2：最近让你有幸福感的事情,MC3：口红写一字点评,MC4：挠痒大对决',
     summarize: '如果你要流量，我给你们安排得明明白白 ---- by 刘增艳\r\n如果一个人，她执着，她坚持，就算她被埋在土里，我们管那个叫地下工作者。而一个地下工作者，往往是最勇敢的存在。 ---- by 刘增艳',
     type: 'blue',
     url: 'https://www.bilibili.com/video/av57751778'
