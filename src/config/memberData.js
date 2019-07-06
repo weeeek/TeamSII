@@ -1,4 +1,4 @@
-/* 各成员媒体号 */
+﻿/* 各成员媒体号 */
 export const memberData = [{
   name: '陈观慧',
   photo: 'http://www.snh48.com/images/member/mp_10001.jpg',
@@ -628,7 +628,7 @@ export const exitMemberData = [
     }
   }, {
     name: '徐佳丽',
-    photo: '',
+    photo: 'https://ww2.sinaimg.cn/mw1024/006ddOSEjw1f73zcke9u5j30qo0zk7wh.jpg',
     weibo: '',
     bilibili: null,
     douyin: null,
@@ -642,8 +642,8 @@ export const exitMemberData = [
     }
   }, {
     name: '宫小荷',
-    photo: '',
-    weibo: '',
+    photo: 'http://wx1.sinaimg.cn/mw690/6a33ab53ly8g1end1mjr7j20e80e8aas.jpg',
+    weibo: 'hehe12345',
     bilibili: '146943307',
     douyin: null,
     changba: null,

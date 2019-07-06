@@ -18,6 +18,11 @@
         av: '38690294',
         img: '//i0.hdslb.com/bfs/archive/42eaf0927d475a6e3cef17808dc196bcb01f775d.png_380x240.png'
       }, {
+        title: '《第48区》首演',
+        from: 'B',
+        av: '11761574',
+        img: '//i0.hdslb.com/bfs/archive/2121a1c8788e52957c34c77f0bec7b68f751c927.jpg_380x240.jpg'
+      }, {
         title: 'SNH48出道4周年纪念公演',
         from: 'B',
         av: '9021764',
@@ -28,10 +33,15 @@
         av: '11217618',
         img: '//i0.hdslb.com/bfs/archive/8c8723d691b890b7c457b5c9b3302922a0a3d379.jpg_380x240.jpg'
       }, {
-        title: '《第48区》首演',
+        title: '《心的旅程》成珏生日公演',
         from: 'B',
-        av: '11761574',
-        img: '//i0.hdslb.com/bfs/archive/2121a1c8788e52957c34c77f0bec7b68f751c927.jpg_380x240.jpg'
+        av: '8574742',
+        img: '//i1.hdslb.com/bfs/archive/d5f60af2ddb25329a496d74f3b150e8a763407ba.jpg_380x240.jpg'
+      }, {
+        title: '《心的旅程》首演',
+        from: 'B',
+        av: '4713886',
+        img: '//i2.hdslb.com/bfs/archive/1d039c3cce7f66d48ef326a70e85ab0e8b2c0faa.jpg_380x240.jpg'
       }, {
         title: '《十八个闪耀瞬间》千秋乐',
         from: 'B',
@@ -200,6 +210,16 @@
         from: '',
         url: 'https://space.bilibili.com/12444300/favlist?fid=317111400',
         img: '//i2.hdslb.com/bfs/archive/35afc6db5bdfb3e1a18fcbb8551002e37df2023d.jpg_380x240.jpg'
+      }, {
+        title: 'SNHello星萌学院',
+        from: '',
+        url: 'https://space.bilibili.com/12444300/favlist?fid=44572300&ftype=create',
+        img: '//photocdn.tv.sohu.com/img/20140707/vrsa_ver6938060_i99Fe_pic26.jpg'
+      }, {
+        title: 'SNHello星梦学院',
+        from: 'I',
+        url: 'm_217503614',
+        img: '//pic9.iqiyipic.com/image/20180423/fe/89/a_100142135_m_601_180_236.jpg'
       }, {
         title: '心的舞台',
         from: 'B',
