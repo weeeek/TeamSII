@@ -4,6 +4,20 @@
     to: '2019'
   },
   items: [{
+    nameMonth: '7月21日 19:00',
+    title: '《重生计划》第40场，孔肖吟《吟·夏日微醺》生日公演',
+    description: '',
+    summarize: '',
+    type: 'blue',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
+    nameMonth: '7月17日 19:30',
+    title: '《重生计划》第39场，陈观慧，邵雪聪拉票公演',
+    description: '',
+    summarize: '',
+    type: 'blue',
+    url: 'http://www.snh48.com/ticket.php'
+  }, {
     nameMonth: '7月11日 19:30',
     title: '《重生计划》第38场，张语格，莫寒，许佳琪，钱蓓婷，李宇琪拉票公演',
     description: '',
@@ -11,12 +25,19 @@
     type: 'blue',
     url: 'http://www.snh48.com/ticket.php'
   }, {
+    nameMonth: '7月8日',
+    title: '动感101 超无聊小锅 这个主持人中的奇葩！竟当众拆穿艺人改年龄',
+    description: '孔肖吟 钱蓓婷 许佳琪 张语格',
+    summarize: '今天这个雨是我心中落的泪 ---- by 许佳琪',
+    type: 'green',
+    url: 'https://www.bilibili.com/video/av58393711'
+  }, {
     nameMonth: '7月7日 21:30',
     title: '《新的旅程》总决选中报',
-    description: '',
+    description: '第2位　吴哲晗　367612票,第3位　张语格　336307票,第4位　莫寒　335182票,第7位　孔肖吟　291855票,第8位　许佳琪　265247.5票,第17位　冯晓菲　209854.5票,第19位　戴萌　206677,第20位　孙芮　193357.5,第30位　徐子轩　125931.5票,第31位　刘增艳　124569票',
     summarize: '',
     type: 'black',
-    url: 'http://www.jzb48.com'
+    url: 'https://www.bilibili.com/video/av58256552'
   }, {
     nameMonth: '7月5日 19:30',
     title: '《重生计划》第37场，戴萌，孙芮拉票公演',
@@ -54,7 +75,7 @@
     nameMonth: '6月23日 14:00',
     title: '《重生计划》第35场，朱小丹生日&拉票公演',
     description: '生日环节：BBIBBI，说爱你,拉票环节：Kill this love，静悄悄,MC1：祝朱小丹生日快乐,Lost：莫寒,Hold me tight：孔肖吟，陈思,解语者：钱蓓婷，蒋芸，朱小丹,最终回合：张语格，李宇琪，徐晨辰，陈俊羽,无罪无我（旗袍）：莫寒，刘增艳，温晶婕,somewhere：吴哲晗，孙芮，徐子轩,噩梦轮回：许佳琪,MC3：优点骂人,MC4：默契游戏',
-    summarize: '只有你学的鹅，我们都是学的你 ---- 张语格 to 孔肖吟\r\n咋的？你喜欢疼的？ ---- 温晶婕 to 孙芮',
+    summarize: '只有你学的鹅，我们都是学的你 ---- 张语格 to 孔肖吟\r\n咋的？你喜欢疼的？ ---- 温晶婕 to 孙芮\r\n我才整明白，她想要的是我的位置 ---- by 徐子轩',
     type: 'blue',
     url: 'https://www.bilibili.com/video/av56585802'
   }, {
@@ -749,7 +770,7 @@
     }, {
       nameMonth: '5月30日 19:00',
       title: '《不眠之夜》第1场',
-      description: '出席成员：陈观慧 陈思 戴萌 蒋芸 孔肖吟 李宇琪 莫寒 钱蓓婷 邱欣怡 温晶婕 吴哲晗 徐晨辰 徐子轩 许佳琪 张语格 赵嘉敏',
+      description: '出席成员：陈观慧 陈思 戴萌 蒋芸 孔肖吟 李宇琪 莫寒 钱蓓婷 邱欣怡 温晶婕 吴哲晗 徐晨辰 徐子轩 许佳��� 张语格 赵嘉敏',
       summarize: '数据来源：http://wiki.akbfun48.com/index.php?title=SNH48_Team_SII剧场公演合集',
       type: 'blue',
       url: 'https://www.bilibili.com/video/av10673458'
