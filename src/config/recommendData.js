@@ -223,12 +223,12 @@
       }, {
         title: '心的舞台',
         from: 'B',
-        url: '16326382',
+        av: '16326382',
         img: '//i2.hdslb.com/bfs/archive/3989dbf7ebc4101e303a7acd7403f6e8a0663571.jpg_380x240.jpg'
       }, {
         title: '穷途陌路',
         from: 'B',
-        url: '14629561',
+        av: '14629561',
         img: '//i0.hdslb.com/bfs/archive/a31f0220d7060c7cb481ed08c847d17716521ec0.png_380x240.png'
       }]
     }, {
