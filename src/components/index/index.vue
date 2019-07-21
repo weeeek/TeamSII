@@ -29,7 +29,7 @@
       <h2>沿途是否记得，一起欢笑泪水的伙伴</h2>
       <div class="members">
         <div class="member" v-for="m in pet48DataList" :key="m.name">
-          <div class="photo" :style="`background-image:url('./static/pet48/${m.name}.jpg')`">  
+          <div class="photo" :style="`background-image:url('${getPetPhoto(m)}')`">  
             <div class="cover"></div>
           </div>
           <div class="name">{{m.master}} - {{m.name}}</div>
@@ -146,6 +146,9 @@
           default:
             return 'javascript:void(0)'
         }
+      },
+      getPetPhoto(m){
+        return m.photo ? m.photo : `./static/pet48/${m.name}.jpg`
       }
     }
   }
@@ -214,11 +217,11 @@
           height 40px
           box-shadow 0 0 3px #000
         .sense
-          background-image url('/TeamSII/dist/static/images/sense.jpg')
+          background-image url('/static/images/sense.jpg')
         .blueV
-          background-image url('/TeamSII/dist/static/images/bluev.jpg')
+          background-image url('/static/images/bluev.jpg')
         .new
-          background-image url('/TeamSII/dist/static/images/new.png')
+          background-image url('/static/images/new.png')
         .cover
           background-image url('http://www.snh48.com/images/member/zx5_def_s.png')
           background-repeat no-repeat

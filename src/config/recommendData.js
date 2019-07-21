@@ -522,7 +522,7 @@
       list: [{
         title: 'SNH48Kill',
         from: 'G',
-        url: '//weeeek.github.io/SNH48Kill/',
+        url: 'http://47.97.248.244/SNH48Kill/index.html',
         img: '//camo.githubusercontent.com/3fe4a55c41d753a7a482e2e66ecfce244d78051c/68747470733a2f2f77656565656b2e6769746875622e696f2f534e4834384b696c6c2f696d6167652f73637265656e73686f742f73656c6563744d6f64652e6a7067'
       }, {
         title: '款款快跑',

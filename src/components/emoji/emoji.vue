@@ -29,7 +29,7 @@
             if(process.env.NODE_ENV !== 'production')            
                 return './static/emoji/' + url
             else
-                return '/TeamSII/dist/static/emoji/' + url
+                return '/static/emoji/' + url
         },
         loadMore () {
             if(this.alreadyCount > this.emojis.length)

@@ -1,21 +1,5 @@
-# team-s2-archives
+﻿#SNH48 Team S2 资源中心
 
-> [TeamSII信息中心](https://weeeek.github.io/TeamSII/dist/index.html)
+> [TeamSII资源中心阿里云服务器](http://47.97.248.244/TeamSII/index.html)
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-You'd better use cnpm instead
+## Vue2版本，诚招大佬继续开发维护

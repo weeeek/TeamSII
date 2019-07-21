@@ -86,6 +86,7 @@ export default {
             div              
               background-repeat no-repeat
               background-size cover
+              background-position center center
           .contain
             div
               background-size contain !important

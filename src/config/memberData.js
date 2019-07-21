@@ -388,7 +388,8 @@ export const pet48Data = [
     master: '许佳琪'
   }, {
     name: '安娜',
-    master: '戴萌'
+    master: '戴萌',
+    photo: 'https://wx3.sinaimg.cn/bmiddle/6ea3618ely1g51qmk88loj20qy133jtr.jpg'
   }, {
     name: '憨憨',
     master: '袁雨桢'

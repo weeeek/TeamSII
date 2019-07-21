@@ -1,4 +1,4 @@
-export const qqMusicConfig = {
+﻿export const qqMusicConfig = {
   list: [{
     typeName: '公演曲',
     group: [{
@@ -311,6 +311,10 @@ export const qqMusicConfig = {
             player: '最爱吃的熊孩子',
             type: 'piano',
             url: 'https://www.bilibili.com/video/av15296119'
+          }, {
+            player: '弦昱兮',
+            type: 'erhu',
+            url: 'https://www.bilibili.com/video/av59811356'
           }],
           opern: null
         },
