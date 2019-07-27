@@ -249,7 +249,7 @@ export const memberData = [{
     id: 39,
     roomId: 67217571
   },
-  group: 'new',
+  group: 'demoon',
   modian: {
     enabled: true,
     id: '1073349'
@@ -301,7 +301,7 @@ export const memberData = [{
     id: 14,
     roomId: 67313790
   },
-  group: 'new',
+  group: 'demoon',
   modian: {
     enabled: true,
     id: '1105967'
@@ -460,7 +460,7 @@ export const exitMemberData = [
     }
   }, {
     name: '顾香君',
-    photo: '//wx3.sinaimg.cn/middle/d419675dly1fszxb8tbwzj22kw3vc1l0.jpg',
+    photo: 'https://i1.hdslb.com/bfs/face/ba06a3e0f94a34e00a8aabb0bfc42cf57b32db57.jpg@160w_160h',
     weibo: 'u/3558434653',
     bilibili: '10414152',
     douyin: null,

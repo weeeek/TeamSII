@@ -148,6 +148,11 @@
     }, {
       type: '舞台',
       list: [{
+        title: '第六届总决选演唱会',
+        from: 'B',
+        av: '61024719',
+        img: '//i2.hdslb.com/bfs/archive/8eb8bf1da010cec62f5f544b86f0904c5c6613dd.jpg_380x240.jpg'
+      }, {
         title: '第五届金曲大赏演唱会',
         from: 'B',
         av: '41180148',

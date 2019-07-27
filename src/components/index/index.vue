@@ -141,8 +141,8 @@
             return '//weibo.com/u/5901077408'
           case 'blueV':
             return '//weibo.com/u/6386595576'
-          case 'new':
-            return 'javascript:void(0)'
+          case 'demoon':
+            return '//weibo.com/u/7188391261'
           default:
             return 'javascript:void(0)'
         }
@@ -220,6 +220,8 @@
           background-image url('/static/images/sense.jpg')
         .blueV
           background-image url('/static/images/bluev.jpg')
+        .demoon
+          background-image url('/static/images/demoon.jpg')
         .new
           background-image url('/static/images/new.png')
         .cover

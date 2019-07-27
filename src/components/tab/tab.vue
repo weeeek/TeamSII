@@ -97,8 +97,8 @@
     box-shadow 0 1px 1px rgba(0,0,0,0.15)
     background-color #FFF
     display flex
-    height 22px
-    line-height 22px
+    height 32px
+    line-height 32px
     flex-direction row
     .tab-item
       flex-grow 1
