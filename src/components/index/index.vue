@@ -83,7 +83,7 @@
 
 <script type="text/ecmascript-6">
   import WordCloud from 'components/plugin/highchart-wordcloud'
-  import {memberData, pet48Data, exitMemberData, otherTeamMemberData} from 'config/memberData'
+  import {getMemberData} from 'config/memberData'
 
   export default {
     name: 'Index',
@@ -111,11 +111,19 @@
             enabled: false
           }
         },
-        memberDataList: memberData,
-        pet48DataList: pet48Data,
-        exitMemberDataList: exitMemberData,
-        otherTeamMemberDataList: otherTeamMemberData
+        memberDataList: [],
+        pet48DataList: [],
+        exitMemberDataList: [],
+        otherTeamMemberDataList: []
       }
+    },
+    created () {
+      getMemberData().then((res) => {
+        this.memberDataList = res.memberData, 
+        this.pet48DataList = res.pet48Data, 
+        this.exitMemberDataList = res.exitMemberData, 
+        this.otherTeamMemberDataList = res.otherTeamMemberData
+      })
     },
     methods: {
       initData (text) {

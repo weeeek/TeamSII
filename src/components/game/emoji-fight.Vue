@@ -1,5 +1,5 @@
 <template>
-  <iframe class="block" src="https://weeeek.github.io/EmojiFight/index.html" />
+  <iframe class="block" src="https://weeeek.github.io/EmojiFight/dist/index.html" />
 </template>
 
 <script type="text/ecmascript-6">

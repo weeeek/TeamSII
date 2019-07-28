@@ -36,7 +36,7 @@
 
 <script type="text/ecmascript-6">
 import {modianApi} from 'config/common'
-import {memberData} from 'config/memberData'
+import {getMemberData} from 'config/memberData'
 import jQuery from 'jquery'
 import progressbar from 'components/plugin/progressbar'
 import blockcheck from 'components/plugin/blockCheck'
@@ -50,6 +50,7 @@ export default {
   },
   data () {
     return {
+      memberData: [],
       show:true,
       all:false,
       blossom:true,
@@ -65,6 +66,11 @@ export default {
           this.exchange(item)
         })
     }
+  },
+  created () {
+    getMemberData().then((res) => {
+      this.memberData = res.memberData
+    })
   },
   mounted () {
     let _this = this;
@@ -82,13 +88,13 @@ export default {
     db.transaction(function(tx) {
         tx.executeSql("CREATE TABLE IF NOT EXISTS YYHList(id TEXT,name TEXT,enabled BIT,checked BIT)", [])        
         tx.executeSql("SELECT * FROM YYHList", [], function(tx, rs) {
-          if(rs.rows.length <= memberData.length){
+          if(rs.rows.length <= _this.memberData.length){
             // 数据库数据不对，重新加载数据库
             tx.executeSql("DELETE FROM YYHList")
             //_this.addData(db, 2112648, "Team SII", true, true)
             _this.addData(db, 6334669, "Team SII", true, true)
             _this.YYHList=[]
-            memberData.map((y)=>{
+            _this.memberData.map((y)=>{
                         //勾上
                         Object.assign(y.modian, {checked:true})
                         //写入数据库，并初始化所有的集资信息

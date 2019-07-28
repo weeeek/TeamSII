@@ -13,16 +13,21 @@
 </template>
 
 <script type="ecmascript-6">
-  import {emojiConfig} from 'config/emojiData'
+  import {getEmojiData} from 'config/emojiData'
 
   export default {
     data () {
       return {
-        emojis: emojiConfig.list,
+        emojis: [],
         data: [],
         busy: false,
         alreadyCount: 0
       }
+    },
+    created () {
+      getEmojiData().then((res) => {
+        this.emojis = res
+      })
     },
     methods: {
         CalcPath (url) {

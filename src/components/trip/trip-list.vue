@@ -10,7 +10,7 @@
 <script type="text/ecmascript-6">
 import Timeline from 'components/plugin/timeline'
 import TripSearch from 'components/trip/trip-search'
-import {tripData} from 'config/tripData'
+import {getTripData} from 'config/tripData'
 import {searchMixin} from 'common/js/mixin'
 
 export default {
@@ -22,15 +22,17 @@ export default {
   data () {
     return {
       query: '',
-      messageWhenNoItems: 'There are not any items',
-      timelineItems: tripData
+      messageWhenNoItems: '加载中...',
+      timelineItems: []
     }
   },
   watch: {
     
   },
   created () {
-
+    getTripData().then((res) => { 
+      this.timelineItems =  res 
+    })
   },
   methods: {
 

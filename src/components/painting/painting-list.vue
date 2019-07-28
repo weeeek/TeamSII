@@ -11,16 +11,21 @@
 
 <script type="ecmascript-6">
   // import {formatDate} from 'common/js/date'
-  import {paintingConfig} from 'config/paintingData'
+  import {getPaintingData} from 'config/paintingData'
 
   export default {
     data () {
       return {
-        photos: paintingConfig.list,
+        photos: [],
         data: [],
         busy: false,
         alreadyCount: 0
       }
+    },
+    created () {
+      getPaintingData().then((res) => {
+        this.photos = res
+      })
     },
     methods: {
       getAuthor (author) {

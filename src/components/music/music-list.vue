@@ -13,7 +13,7 @@
 </template>
 
 <script type="text/ecmascript-6">
-import { qqMusicConfig } from 'config/musicData'
+import { getMusicData } from 'config/musicData'
 import { mapMutations, mapActions, mapGetters } from 'vuex'
 import SongList from 'components/music/song-list'
 import { createSong } from 'common/js/song'
@@ -29,7 +29,9 @@ export default {
     }
   },
   created () {
-    this.qqMusicList = this._normalizaSongs(qqMusicConfig.list)
+    getMusicData().then((res) => {
+      this.qqMusicList = this._normalizaSongs(res)
+    })
   },
   computed: {
     ...mapGetters([

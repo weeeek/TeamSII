@@ -95,7 +95,7 @@
       </div>
     </transition>
     <playlist ref="playlist"></playlist>
-    <audio ref="audio" @playing="ready" @error="error" @timeupdate="updateTime" @ended="end" @pause="paused" :volume="0.3"></audio>
+    <audio ref="audio" @playing="ready" @error="error" @timeupdate="updateTime" @ended="end" @pause="paused" volume="0.3"></audio>
   </div>
 </template>
 
@@ -145,8 +145,7 @@
         currentShow: 'cd',
         playingLyric: '',
         isPureMusic: false,
-        pureMusicLyric: '',
-        volume: 0.5
+        pureMusicLyric: ''
       }
     },
     computed: {
@@ -828,6 +827,9 @@
       width 100%
       height 60px
       background $color-highlight-background
+      .currentLyc
+        color white !important
+        text-shadow 0 0 5px #fff, 0 0 10px $color-team-sii, 0 0 15px $color-team-sii, 0 0 20px $color-team-sii, 0 0 35px $color-team-sii, 0 0 40px $color-team-sii, 0 0 50px $color-team-sii, 0 0 75px $color-team-sii !important
       &.mini-enter-active, &.mini-leave-active
         transition all 0.4s
       &.mini-enter, &.mini-leave-to

@@ -1,6 +1,6 @@
 <template>
   <div id="recommend-container">
-    <div class="video-block"  v-for="item in videolist" :key="item.type">
+    <div class="video-block"  v-for="item in dataList" :key="item.type">
       <a class="video-type " :href="getUrl(item)" target="_blank">{{ item.type }}</a>
       <div class="video-list">
         <a target="_blank" :href="getVideoPlayUrl(v)" class="video-detail" v-for="v in item.list" :key="v.av">
@@ -16,9 +16,14 @@
 </template>
 
 <script type="text/ecmascript-6">
-import {recommendConfig} from 'config/recommendData'
+import {getRecommendData} from 'config/recommendData'
 export default {
   name: `RecommendList`,
+  created () {
+    getRecommendData().then((res) => {
+      this.dataList = res
+    })
+  },
   methods: {
     setStyle(v){
       let str = `background-image:url(${v.img});`
@@ -53,7 +58,7 @@ export default {
   },
   data () {
     return {
-      videolist: recommendConfig.list
+      dataList: []
     }
   }
 }

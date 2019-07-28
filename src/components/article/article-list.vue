@@ -23,13 +23,18 @@
 </template>
 
 <script type="text/ecmascript-6">
-import {articleDatas} from 'config/articleData'
+import {getArticleData} from 'config/articleData'
 
 export default {
   name: 'ArticleList',
+  created() {
+    getArticleData().then((res) => {
+      this.articleDatas = res
+    })
+  },
   data () {
     return {
-      articleDatas: articleDatas
+      articleDatas: []
     }
   }
 }

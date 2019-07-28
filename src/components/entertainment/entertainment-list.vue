@@ -12,15 +12,20 @@
 </template>
 
 <script type="text/ecmascript-6">  
-  import {entertainmentConfig} from 'config/entertainmentData'
+  import {getEntertainmentData} from 'config/entertainmentData'
   import PK from 'components/plugin/pk'
 
   export default {
     name: 'Burning',
     data () {
       return {
-        entertainments: entertainmentConfig.list
+        entertainments: []
       }
+    },
+    created () {
+      getEntertainmentData().then((res) => {
+        this.entertainments = res
+      })
     }
   }
 </script>

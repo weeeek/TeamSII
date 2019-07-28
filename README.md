@@ -1,5 +1,7 @@
 ﻿#SNH48 Team S2 资源中心
 
-> [TeamSII资源中心阿里云服务器](http://47.97.248.244/TeamSII/index.html)
+> [TeamSII资源中心](http://47.97.248.244/TeamSII/index.html)
 
 ## Vue2版本，诚招大佬继续开发维护
+
+## 2019-07-29 重构部分代码，以Json维护数据，后续考虑使用轻量级的文件数据库来支持粉丝上传作品。

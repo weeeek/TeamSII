@@ -48,3 +48,5 @@ export const playMode = {
   sequence: 0,
   loop: false
 }
+
+export const server = 'http://47.97.248.244/json/'

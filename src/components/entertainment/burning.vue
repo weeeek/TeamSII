@@ -1,7 +1,7 @@
 <template>
     <div class="block">
       <div class="block" style="text-align: center">
-        <a target="_blank" href="https://detail.damai.cn/item.htm?spm=a2oeg.search_category.0.0.1cb520f5PAoRMe&id=596486770102">
+        <a target="_blank" href="https://www.bilibili.com/video/av57291688">
           <img src="http://wx2.sinaimg.cn/large/6f4898e1gy1g40q1qejzqj20u016f7wh.jpg" style="object-fit: contain"/>
         </a>
       </div>
@@ -12,19 +12,23 @@
 </template>
 
 <script type="text/ecmascript-6">
-  import {burningGroup} from 'config/burningData'
+  import {getBurningData} from 'config/burningData'
   import PK from 'components/plugin/pk2'
   
-
   export default {
-    name: 'Burning',
+    name: 'Burning',    
     components: {
       PK
+    },
+    created () {
+      getBurningData().then((res) => {
+        this.burningGroups = res
+      })
     },
     data () {
       return {
         title: '燃烧吧团魂',
-        burningGroups: burningGroup
+        burningGroups: []
       }
     }
   }

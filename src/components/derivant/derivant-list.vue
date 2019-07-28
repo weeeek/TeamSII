@@ -13,7 +13,8 @@
             ￥{{ toMoney(d.product.minPrice) }} - {{ toMoney(d.product.maxPrice) }}
           </div>
           <div class="text-center ">
-            <a class="btn btn-orange" :href="d.selfLink" target="_blank">购买</a>
+            <a class="btn btn-orange" :href="d.selfLink" target="_blank" v-if="!finish(d.endTime)">购买</a>
+            <a class="btn btn-gray" :disabled="finish(d.endTime)" v-if="finish(d.endTime)">已结束</a>
           </div>
         </div>
       </div>
@@ -22,7 +23,7 @@
 </template>
 
 <script type="text/ecmascript-6">
-import { derivantData } from 'config/derivantData'
+import { getDerivantData } from 'config/derivantData'
 import { Carousel, Slide } from 'vue-carousel'
 
 export default {
@@ -31,18 +32,25 @@ export default {
     Slide
   },
   data () {
-    return { }
+    return { derivantData:[] }
   },
   watch:{ },
-  mounted () { },
+  created () {
+    getDerivantData().then((res) => {
+      this.derivantData = res
+    })
+  },
   methods: {
+    finish(endTime){
+      return new Date(endTime) < new Date()
+    },
     toMoney (value) {
       return (value / 100).toFixed(2)
     }
   },
   computed: {
     derivantDataFilter: function () {
-      return derivantData.filter((x)=>{
+      return this.derivantData.filter((x)=>{
         if(x.derivant.length > 0){          
           return x.derivant[0]
           //return x.derivant[0] && new Date(x.derivant[0].endTime) > new Date()
