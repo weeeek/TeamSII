@@ -225,13 +225,13 @@
           height 40px
           box-shadow 0 0 3px #000
         .sense
-          background-image url('/static/images/sense.jpg')
+          background-image url('/TeamSII/static/images/sense.jpg')
         .blueV
-          background-image url('/static/images/bluev.jpg')
+          background-image url('/TeamSII/static/images/bluev.jpg')
         .demoon
-          background-image url('/static/images/demoon.jpg')
+          background-image url('/TeamSII/static/images/demoon.jpg')
         .new
-          background-image url('/static/images/new.png')
+          background-image url('/TeamSII/static/images/new.png')
         .cover
           background-image url('http://www.snh48.com/images/member/zx5_def_s.png')
           background-repeat no-repeat

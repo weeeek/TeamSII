@@ -35,14 +35,12 @@
         return weibo || 'javascript:void(0)'
       },
       loadMore () {
-        console.log(this.alreadyCount)
-        console.log(this.photos.length)
         if(this.alreadyCount > this.photos.length)
           return
         this.busy = true;
         setTimeout(() => {
           this.data = this.data.concat(this.photos.slice(this.alreadyCount, this.alreadyCount + 10))
-          this.busy = false;
+          this.busy = false
           this.alreadyCount += 10
         }, 1000);
       }
