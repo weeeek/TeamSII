@@ -2,7 +2,7 @@ import { server } from 'config/common'
 import axios from 'axios'
 
 export function getDerivantData () {
-  return axios.get(`${server}derivantData.json`).then((res) => {
+  return axios.get(`${server}derivantData.json?r=${Math.random() * 10000000000000000}`).then((res) => {
     return Promise.resolve(res.data)
   })
 }
