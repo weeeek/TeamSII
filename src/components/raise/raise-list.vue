@@ -31,6 +31,7 @@
         </p>
       </a>
     </div>
+    <img src="http://47.97.248.244/TeamSII/static/images/TeamSII小金库.jpg" alt="" style="margin: 15px auto 0 auto; display: inline-block; max-width: 650px"/>
   </div>
 </template>
 

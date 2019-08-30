@@ -271,6 +271,11 @@
   }, {
     "type": "鬼畜",
     "list": [{
+      "title": "Dance with 许佳琪",
+      "from": "B",
+      "av": "63782004",
+      "img": "//i2.hdslb.com/bfs/archive/88ec27fcbb7ef7cd6069f6106d913df71a6e2724.jpg_380x240.jpg"
+    }, {
       "title": "我饭的爱豆怎么这么社会",
       "from": "B",
       "av": "5841033",
@@ -353,6 +358,11 @@
       "from": "B",
       "url": "52784193",
       "img": "//i2.hdslb.com/bfs/archive/d58c852609d001f141f9c2eb86a7a20c51ae25e1.jpg_380x240.jpg"
+    }, {
+      "title": "【刘增艳】一首《过火》的传说",
+      "from": "B",
+      "img": "//i1.hdslb.com/bfs/archive/8b5dd982ce8e108515b8d1189ee54d064af89106.jpg_380x240.jpg",
+      "av": "21036842"
     }]
   }, {
     "type": "官方制作",
@@ -391,10 +401,20 @@
       "av": "6706750",
       "img": "//i2.hdslb.com/bfs/archive/d6c88288166533085e9d8a0f4bcdb60e459a6aad.jpg_380x240.jpg"
     }, {
+      "title": "爱的魔法",
+      "from": "B",
+      "av": "63266121",
+      "img": "//i1.hdslb.com/bfs/archive/0a12d7fbb182cf7a0b9c3b56f81ba53e0ae20bc1.jpg_380x240.jpg"
+    }, {
       "title": "98line的小幸运",
       "from": "B",
       "av": "5824552",
       "img": "//i1.hdslb.com/bfs/archive/a87a1e503a3504022dc2591f21884eacb1d92b9e.jpg_380x240.jpg"
+    }, {
+      "title": "铁锅炖龙",
+      "from": "B",
+      "av": "64227315",
+      "img": "//i2.hdslb.com/bfs/archive/0c7c79ba123f13a1cc70f2c60050bc4d5168d269.jpg_380x240.jpg"
     }, {
       "title": "夫人攻略夫君的33种方式",
       "from": "B",
@@ -488,7 +508,7 @@
       "title": "塞纳河的虚度日常",
       "from": "B",
       "url": "63277510",
-      "img": "//i0.hdslb.com/bfs/archive/fb524fdb21ec2ac08f636788bd1ac6426120a35d.jpg",
+      "img": "//i0.hdslb.com/bfs/archive/fb524fdb21ec2ac08f636788bd1ac6426120a35d.jpg"
     }]
   }, {
     "type": "演奏",

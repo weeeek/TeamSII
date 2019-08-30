@@ -308,24 +308,6 @@
       }
     },
     {
-      "name": "徐子轩",
-      "photo": "http://www.snh48.com/images/member/mp_10016.jpg",
-      "weibo": "u/3675905275",
-      "bilibili": "1846928",
-      "douyin": "660925792",
-      "changba": null,
-      "miaopai": null,
-      "pocket48": {
-        "id": 14,
-        "roomId": 67313790
-      },
-      "group": "demoon",
-      "modian": {
-        "enabled": true,
-        "id": "1105967"
-      }
-    },
-    {
       "name": "袁丹妮",
       "photo": "http://www.snh48.com/images/member/mp_10073.jpg",
       "weibo": "u/5225886388",
@@ -359,24 +341,6 @@
       "modian": {
         "enabled": true,
         "id": "1095343"
-      }
-    },
-    {
-      "name": "朱小丹",
-      "photo": "http://www.snh48.com/images/member/mp_10197.jpg",
-      "weibo": "u/6502268109",
-      "bilibili": null,
-      "douyin": "4746929",
-      "changba": null,
-      "miaopai": null,
-      "pocket48": {
-        "id": 677405,
-        "roomId": 67284483
-      },
-      "group": null,
-      "modian": {
-        "enabled": true,
-        "id": "1796555"
       }
     },
     {
@@ -427,6 +391,10 @@
     {
       "name": "圆圆",
       "master": "吴哲晗"
+    },
+    {
+      "name": "蛋挞",
+      "master": "刘增艳"
     },
     {
       "name": "乌冬",
@@ -515,6 +483,24 @@
       "modian": {
         "enabled": false,
         "id": ""
+      }
+    },
+    {
+      "name": "徐子轩",
+      "photo": "http://www.snh48.com/images/member/mp_10016.jpg",
+      "weibo": "u/3675905275",
+      "bilibili": "1846928",
+      "douyin": "660925792",
+      "changba": null,
+      "miaopai": null,
+      "pocket48": {
+        "id": 14,
+        "roomId": 67313790
+      },
+      "group": "demoon",
+      "modian": {
+        "enabled": true,
+        "id": "1105967"
       }
     },
     {
@@ -620,6 +606,24 @@
       "modian": {
         "enabled": false,
         "id": "1676139"
+      }
+    },
+    {
+      "name": "朱小丹",
+      "photo": "http://www.snh48.com/images/member/mp_10197.jpg",
+      "weibo": "u/6502268109",
+      "bilibili": null,
+      "douyin": "4746929",
+      "changba": null,
+      "miaopai": null,
+      "pocket48": {
+        "id": 677405,
+        "roomId": 67284483
+      },
+      "group": null,
+      "modian": {
+        "enabled": false,
+        "id": "1796555"
       }
     },
     {
