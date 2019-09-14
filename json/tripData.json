@@ -4,7 +4,35 @@
     "to": "2019"
   },
   "items": [{
-    "nameMonth": "9月15日 14:00",
+    "nameMonth": "10月12日 18:00",
+    "title": "Tour In Tokyo SNH48 东京巡演，日本东京赤坂BLITZ",
+    "description": "",
+    "summarize": "",
+    "type": "green",
+    "url": "https://www.bilibili.com/video/av67185569"
+  }, {
+    "nameMonth": "10月6日",
+    "title": "《重生计划》第51场，钱蓓婷生日公演",
+    "description": "",
+    "summarize": "",
+    "type": "blue",
+    "url": "http://www.snh48.com/ticket.php"
+  }, {
+    "nameMonth": "9月20日 19:30",
+    "title": "《重生计划》第49场",
+    "description": "",
+    "summarize": "",
+    "type": "blue",
+    "url": "http://www.snh48.com/ticket.php"
+  }, {
+    "nameMonth": "9月19日 19:30",
+    "title": "《重生计划》第48场",
+    "description": "",
+    "summarize": "",
+    "type": "blue",
+    "url": "http://www.snh48.com/ticket.php"
+  }, {
+    "nameMonth": "9月15日 19:00",
     "title": "《重生计划》第47场，刘增艳生日公演",
     "description": "",
     "summarize": "",
@@ -18,27 +46,74 @@
     "type": "blue",
     "url": "http://www.snh48.com/ticket.php"
   }, {
+    "nameMonth": "9月14日 18:00",
+    "title": "星梦剧院六周年庆特别联合公演",
+    "description": "MC1：如果公演宇宙改编成电影，觉得自己的角色有什么必杀技,MC2：如果前后辈的身份交换会发生什么,十二期生陈雨孜，刘丽千加入",
+    "summarize": "陈俊羽 陈思 戴萌 蒋芸 孔肖吟 李宇琪 刘增艳 莫寒 钱蓓婷 孙芮 邵雪聪 温晶婕 吴哲晗 徐晨辰 袁丹妮 张语格 陈雨孜 刘丽千",
+    "type": "blue",
+    "url": "https://www.bilibili.com/video/av67766373"
+  }, {
+    "nameMonth": "9月12日",
+    "title": "天猫自制综艺每周大牌日《这个我可以》",
+    "description": "莫寒 孙芮",
+    "type": "green",
+    "url": "https://www.bilibili.com/video/av67495818"
+  }, {
+    "nameMonth": "9月8日",
+    "title": "江苏卫视聚划算99划算盛典 开场《Ready Go》",
+    "description": "莫寒 等",
+    "type": "green",
+    "url": "https://www.bilibili.com/video/av67093139"
+  }, {
     "nameMonth": "9月8日 14:00",
     "title": "《重生计划》第46场，吴哲晗《品·逐光哲学》生日公演",
-    "description": "",
-    "summarize": "",
+    "description": "生日环节：舞蹈solo，Señorita，三寸天堂，snapping,MC1：生日祝福,Lost：温晶婕,Hold me tight：刘增艳，李宇琪,解语者（笔记本电脑占卜师）：钱蓓婷，李宇琪，孙芮,最终回合：孙芮，蒋芸，徐晨辰，邵雪聪,无罪无我：温晶婕，陈思，陈俊羽,somewhere：吴哲晗，孙芮，刘增艳,噩梦轮回：李宇琪,MC3：如果西游记剧组来面,MC4：画成员肖像",
+    "summarize": "我第一次接触这么漂亮的女生 ---- 邵雪聪 to 吴哲晗\r\n你平时不照镜子的么 ---- 吴哲晗 to 邵雪聪",
     "type": "blue",
-    "url": "http://www.snh48.com/ticket.php"
+    "url": "https://www.bilibili.com/video/av67059735"
   }, {
     "nameMonth": "9月6日 19:30",
-    "title": "《重生计划》第45场",
-    "description": "",
-    "summarize": "",
+    "title": "《重生计划》第45场，开学公演",
+    "description": "MC1：学校有什么奇葩规定,Lost：温晶婕,Hold me tight：孙芮，钱蓓婷,解语者（笔记本电脑占卜师）：钱蓓婷，陈思，徐晨辰,最终回合：孙芮，陈俊羽，徐晨辰，邵雪聪,无罪无我：刘增艳，陈思，陈俊羽,somewhere：吴哲晗，孙芮，袁丹妮,噩梦轮回：温晶婕,MC2：家乡独有的店,MC3：猜成员游戏,MC4：魔音灌耳唱新歌,安可曲《神魂颠倒》",
+    "summarize": "JK风",
     "type": "blue",
-    "url": "http://www.snh48.com/ticket.php"
+    "url": "https://www.bilibili.com/video/av66844431"
+  }, {
+    "nameMonth": "9月5日",
+    "title": "德亚&SNH48联名款酸奶 第五届京东“奶思”节",
+    "description": "莫寒，吴哲晗，沈小爱，段艺璇，张怀瑾，刘胜男",
+    "summarize": "",
+    "type": "green",
+    "url": "https://www.bilibili.com/video/av66688384"
+  }, {
+    "nameMonth": "9月4日",
+    "title": "OWLIE X 7SENSES 特别企划！联名彩妆首发现场直播",
+    "description": "张语格，孔肖吟，许佳琪，戴萌",
+    "summarize": "",
+    "type": "green",
+    "url": "https://www.bilibili.com/video/av66650304"
   }, {
     "nameMonth": "8月31日 19:00",
     "title": "《重生计划》第44场",
-    "description": "",
-    "summarize": "",
+    "description": "MC1：打脸的事,Lost：吴哲晗,Hold me tight：吴哲晗，莫寒,解语者：钱蓓婷，李宇琪，袁雨桢,最终回合：孙芮，温晶婕，徐晨辰，邵雪聪,无罪无我（跆拳道服）：莫寒，刘增艳，陈俊羽,somewhere：蒋芸，孙芮，袁丹妮,噩梦轮回：刘增艳,MC2：赚钱和省钱哪个更重要,MC3：弹瓶盖,MC4：皮卡丘游戏,安可曲《绿光》",
+    "summarize": "小钱最重要",
     "type": "blue",
-    "url": "http://www.snh48.com/ticket.php"
+    "url": "https://www.bilibili.com/video/av66200752"
   }, {
+    "nameMonth": "8月23日",
+    "title": "2019 SORIBADA AWARDS颁奖典礼，新韩流海外艺人奖，《Bravery》",
+    "description": "钱蓓婷，刘增艳",
+    "summarize": "",
+    "type": "green",
+    "url": "https://www.bilibili.com/video/av64945535"
+  }, {
+    "nameMonth": "8月22日",
+    "title": "\"So Good\"首届草原Vlog达人节暨嗖谷传媒两周年盛典",
+    "description": "蒋芸，李宇琪",
+    "summarize": "",
+    "type": "green",
+    "url": "https://www.bilibili.com/video/av64945535"
+  }, { 
     "nameMonth": "8月16日 19:30",
     "title": "《重生计划》第43场，戴萌第350场",
     "description": "MC1：玩过的电子游戏,Lost：莫寒,Hold me tight：戴萌，孔肖吟,解语者：钱蓓婷，李宇琪，温晶婕,最终回合：张语格，蒋芸，徐晨辰，邵雪聪,无罪无我：莫寒，刘增艳，陈思,somewhere：吴哲晗，孙芮，袁丹妮,噩梦轮回（美癌金瓜）：许佳琪,MC2：受到惊吓的反应,MC3：混唱带偏battle,MC4：报纸站立,安可曲《神魂颠倒》",
@@ -661,6 +736,7 @@
     "nameMonth": "11月24日 19:00",
     "title": "《重生计划》首演第2场",
     "description": "出席成员：陈思，陈观慧，戴萌，莫寒，李宇琪，孔肖吟，吴哲晗，徐子轩，袁雨桢，蒋芸，袁丹妮，徐伊人，邵雪聪，钱蓓婷，张语格，刘增艳，温晶婕，孙芮",
+    "summarize": "来了老弟！来串腰子 ---- 孙芮",
     "type": "blue",
     "url": "https://www.bilibili.com/video/av36683092"
   }, {

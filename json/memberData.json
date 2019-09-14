@@ -55,6 +55,24 @@
       }
     },
     {
+      "name": "陈雨孜",
+      "photo": "http://www.snh48.com/images/member/mp_10221.jpg",
+      "weibo": "u/6613839986",
+      "bilibili": null,
+      "douyin": null,
+      "changba": null,
+      "miaopai": null,
+      "pocket48": {
+        "id": 0,
+        "roomId": 0
+      },
+      "group": null,
+      "modian": {
+        "enabled": true,
+        "id": "0"
+      }
+    },
+    {
       "name": "戴萌",
       "photo": "http://www.snh48.com/images/member/mp_10003.jpg",
       "weibo": "dddiamonddd",
@@ -124,6 +142,24 @@
       "modian": {
         "enabled": true,
         "id": "1186273"
+      }
+    },
+    {
+      "name": "刘丽千",
+      "photo": "http://www.snh48.com/images/member/mp_10222.jpg",
+      "weibo": "u/7303877489",
+      "bilibili": null,
+      "douyin": null,
+      "changba": null,
+      "miaopai": null,
+      "pocket48": {
+        "id": 0,
+        "roomId": 0
+      },
+      "group": null,
+      "modian": {
+        "enabled": true,
+        "id": "0"
       }
     },
     {
