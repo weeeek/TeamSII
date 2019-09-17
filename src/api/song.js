@@ -6,7 +6,8 @@ import { getUid } from 'common/js/uid'
 const debug = process.env.NODE_ENV !== 'production'
 
 export function getLyric (mid, fn) {
-  const url = debug ? '/api/lyric' : 'http://ustbhuangyi.com/music/api/lyric'
+  // const url = debug ? '/api/lyric' : 'http://ustbhuangyi.com/music/api/lyric'
+  const url = debug ? 'api/lyric' : 'http://47.97.248.244/WebProxy/api/lyric'
 
   const data = Object.assign({}, commonParams, {
     songmid: mid,

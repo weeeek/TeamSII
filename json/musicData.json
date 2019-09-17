@@ -996,6 +996,91 @@
 }, {
   "typeName": "EP",
   "group": [{
+    "title": "我们的旅程",
+    "songs": [{
+      "image": {
+        "url": "//i1.hdslb.com/bfs/archive/d9ce054fbcc8fd2899fd42266520695b95a69744.jpg",
+        "left":"50%",
+        "right":"50%",
+        "objectfit":"cover"
+      },
+      "id": 230260558,
+      "mid": "003CRGWa1cJpZ8",
+      "name": "巧克力之吻",
+      "interval": 281,
+      "play": [],
+      "opern": ""
+    }, {
+      "image": {
+        "url": "//i1.hdslb.com/bfs/archive/c5c09f702beb8b667c9ce59e0afbcdafcb07edf7.jpg",
+        "left":"50%",
+        "right":"50%",
+        "objectfit":"cover"
+      },
+      "id": 230260559,
+      "mid": "00228hv91K0b1u",
+      "name": "9 To 9",
+      "interval": 223,
+      "play": [],
+      "opern": ""
+    }, {
+      "image": {
+        "url": "//i0.hdslb.com/bfs/archive/d6b3373bc7c7095673f5b499bd11b3be0d2eaa8c.jpg",
+        "left":"50%",
+        "right":"50%",
+        "objectfit":"cover"
+      },
+      "id": 230260554,
+      "mid": "002YwDLW4IcQIQ",
+      "name": "钢铁之翼",
+      "interval": 217,
+      "play": [],
+      "opern": ""
+    }, {
+      "image": {
+        "url": "https://newsimg.48.cn/2019/0120/20190120121823407.jpg",
+        "left":"100%",
+        "right":"50%",
+        "objectfit":"cover"
+      },
+      "id": 230260546,
+      "mid": "0014cnuW48f0zm",
+      "name": "SPY",
+      "interval": 0,
+      "play": [],
+      "opern": ""
+    }, {
+      "image": {
+        "url": "https://newsimg.48.cn/2019/0120/20190120121745512.jpg",
+        "left":"50%",
+        "right":"50%",
+        "objectfit":"cover"
+      },
+      "id": 230260545,
+      "mid": "000dkw9i3XcBYZ",
+      "name": "就差一点点",
+      "interval": 297,
+      "play": [{
+        "player": "乖乖乖乖乖乖乖芊",
+        "type": "piano",
+        "url": "https://www.bilibili.com/video/av66038360"
+      }],
+      "opern": ""
+    }, {
+      "image": {
+        "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000004bwVH937nhQW_1.jpg",
+        "left":"50%",
+        "right":"50%",
+        "objectfit":"cover"
+      },
+      "id": 230260547,
+      "mid": "000VZlyC29IgGn",
+      "name": "心的旅程（纪念版）",
+      "interval": 257,
+      "play": [],
+      "opern": ""
+    }]
+  }, {
     "title": "万圣节之夜",
     "songs": [{
       "image": {
