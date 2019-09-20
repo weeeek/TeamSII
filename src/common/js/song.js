@@ -86,10 +86,10 @@ function filterSinger (singer) {
   if (!singer) {
     return 'SNH48'
   }
-  // singer.forEach((s) => {
-  //   ret.push(s.name)
-  // })
-  return ret.join('/')
+  singer.forEach((s) => {
+    ret.push(s)
+  })
+  return ret.join('，')
 }
 
 export function isValidMusic (musicData) {

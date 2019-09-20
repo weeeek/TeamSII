@@ -74,6 +74,7 @@
               "right": "50%",
               "objectfit": "cover"
             },
+	          "singer": ["莫寒"],
             "id": 222017395,
             "mid": "002oYhUp3dAnZq",
             "name": "Lost",
@@ -864,6 +865,7 @@
               "right": "50%",
               "objectfit": "cover"
             },
+	    "singer": ["戴萌","莫寒"],
             "id": 228053613,
             "mid": "003saTQe0SySHp",
             "name": "就差一点点",
@@ -878,6 +880,7 @@
               "right": "50%",
               "objectfit": "cover"
             },
+	    "singer": ["许佳琪","吴哲晗"],
             "id": 228053615,
             "mid": "0046Ddy10yAlYi",
             "name": "Spy",
@@ -892,6 +895,7 @@
               "right": "50%",
               "objectfit": "cover"
             },
+	    "singer": ["张语格","孔肖吟"],
             "id": 228053609,
             "mid": "002A5zvW1ct3wc",
             "name": "9 to 9",
@@ -906,6 +910,7 @@
               "right": "50%",
               "objectfit": "cover"
             },
+	    "singer": ["戴萌"],
             "id": 228053617,
             "mid": "000BOmdk1dEJQX",
             "name": "钢铁之翼",
@@ -920,6 +925,7 @@
               "right": "50%",
               "objectfit": "cover"
             },
+	    "singer": ["SNH48 Team SII"],
             "id": 228053123,
             "mid": "001JQ5Hy2DOlVn",
             "name": "初日",
@@ -1066,9 +1072,10 @@
               "right": "50%",
               "objectfit": "cover"
             },
+	    "singer": ["邱欣怡","吴哲晗"],
             "id": 102349985,
             "mid": "001vcVs71Bd3YC",
-            "name": "禁忌的爱（邱欣怡，吴哲晗）",
+            "name": "禁忌的爱",
             "interval": 191,
             "play": [],
             "opern": ""
@@ -1080,9 +1087,10 @@
               "right": "50%",
               "objectfit": "cover"
             },
+	    "singer": ["许佳琪","温晶婕","徐子轩"],
             "id": 102349988,
             "mid": "003UDC5W0M2dVP",
-            "name": "心型病毒（许佳琪，温晶婕，徐子轩）",
+            "name": "心型病毒",
             "interval": 157,
             "play": [],
             "opern": ""
@@ -1094,9 +1102,10 @@
               "right": "50%",
               "objectfit": "contain"
             },
+	    "singer": ["沈之琳"],
             "id": 102349991,
             "mid": "003fQLeS2jqpGs",
-            "name": "恋爱捉迷藏（沈之琳）",
+            "name": "恋爱捉迷藏",
             "interval": 206,
             "play": [{
               "type": "piano",

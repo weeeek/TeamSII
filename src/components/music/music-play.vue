@@ -631,255 +631,255 @@
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
-  @import "~common/stylus/variable"
-  @import "~common/stylus/mixin"
-  @import "~common/stylus/animation"
-  .player
-    .normal-player
-      position fixed
+@import "~common/stylus/variable"
+@import "~common/stylus/mixin"
+@import "~common/stylus/animation"
+.player
+  .normal-player
+    position fixed
+    left 0
+    right 0
+    top 0
+    bottom 0
+    z-index 150
+    background $color-background
+    .background
+      position absolute
       left 0
-      right 0
       top 0
-      bottom 0
-      z-index 150
-      background $color-background
-      .background
-        position absolute
-        left 0
-        top 0
-        width 100%
-        height 100%
-        z-index -1
-        opacity 0.6
-        filter blur(20px)
-      .top
-        position relative
-        margin-bottom 25px
-        .back
-          position absolute
-          top 1em
-          left 1em
-          z-index 50
-          .icon-back
-            display block
-            padding 9px
-            font-size $font-size-large-x
-            color $color-theme
-            transform rotate(-90deg)
-        .title
-          width 70%
-          margin 0 auto
-          line-height 40px
-          text-align center
-          no-wrap()
-          font-size $font-size-large
-          color $color-text
-        .subtitle
-          line-height 20px
-          text-align center
-          font-size $font-size-medium
-          color $color-text
-      .middle
-        display flex
-        width 100%
-        height calc(100% - 80px - 180px)        
-        white-space nowrap
-        justify-content center
-        .middle-l
-          padding-top 50px
-          vertical-align top
-          .cd-wrapper
-            box-sizing border-box
-            .cd
-              margin 0 auto
-              border-radius 50%
-              .image
-                width 100%
-                height 100%
-                box-sizing border-box
-                border-radius 50%
-                border 10px solid rgba(255, 255, 255, 0.1)
-                &.image-object-p-left
-                  object-position left
-                &.image-object-p-right
-                  object-position right
-                &.image-object-p-top
-                  object-position top
-                &.image-object-p-bottom
-                  object-position bottom
-              .play
-                animation rotate 20s linear infinite
-          .playing-lyric-wrapper
-            width 80%
-            margin 30px auto 0 auto
-            overflow hidden
-            text-align center
-            .playing-lyric
-              height 20px
-              line-height 20px
-              font-size $font-size-medium
-              color $color-text-l
-        .middle-r
-          vertical-align top
-          overflow hidden
-          .lyric-wrapper
-            margin 0 auto
-            overflow hidden
-            text-align center
-            padding 50px 30px
-            .text
-              line-height 32px
-              color $color-text-l
-              font-size $font-size-medium
-              transition all .6s ease-in-out
-              &.current
-                color $color-text
-                font-size 1.4em
-                text-shadow 0 0 5px #fff, 0 0 10px $color-team-sii, 0 0 15px $color-team-sii, 0 0 20px $color-team-sii, 0 0 35px $color-team-sii, 0 0 40px $color-team-sii, 0 0 50px $color-team-sii, 0 0 75px $color-team-sii
-            .pure-music
-              padding-top 50%
-              line-height 32px
-              color $color-text-l
-              font-size $font-size-medium
-      .bottom
-        position absolute
-        bottom 50px
-        width 100%
-        .dot-wrapper
-          text-align center
-          font-size 0
-          .dot
-            display inline-block
-            vertical-align middle
-            margin 0 4px
-            width 8px
-            height 8px
-            border-radius 50%
-            background $color-text-l
-            &.active
-              width 20px
-              border-radius 5px
-              background $color-text-ll
-        .progress-wrapper
-          display flex
-          align-items center
-          width 80%
-          margin 0px auto
-          padding 10px 0
-          .time
-            color $color-text
-            font-size $font-size-small
-            flex 0 0 30px
-            line-height 30px
-            &.time-l
-              text-align left
-            &.time-r
-              text-align right
-          .progress-bar-wrapper
-            flex 1
-          .volume
-            flex 0 0 30px
-            line-height 30px
-            &.volume-center
-              text-aligncenter
-            .icon
-              flex 1
-              color $color-theme
-        .operators
-          display flex
-          align-items center
-          .icon
-            cursor pointer
-            flex 1
-            color $color-theme
-            &.disable
-              color $color-theme-d
-            i
-              font-size 30px
-          .i-left
-            text-align right
-          .i-center
-            padding 0 20px
-            text-align center
-            i
-              font-size 40px
-          .i-right
-            text-align left
-          .icon-favorite
-            color $color-sub-theme
-      &.normal-enter-active, &.normal-leave-active
-        transition all 0.4s
-        .top, .bottom
-          transition all 0.4s cubic-bezier(0.86, 0.18, 0.82, 1.32)
-      &.normal-enter, &.normal-leave-to
-        opacity 0
-        .top
-          transform translate3d(0, -100px, 0)
-        .bottom
-          transform translate3d(0, 100px, 0)
-    .mini-player
-      display flex
-      align-items center
-      position fixed
-      left 0
-      bottom 0
-      z-index 180
       width 100%
-      height 60px
-      background $color-highlight-background
-      .currentLyc
-        color white !important
-        text-shadow 0 0 5px #fff, 0 0 10px $color-team-sii, 0 0 15px $color-team-sii, 0 0 20px $color-team-sii, 0 0 35px $color-team-sii, 0 0 40px $color-team-sii, 0 0 50px $color-team-sii, 0 0 75px $color-team-sii !important
-      &.mini-enter-active, &.mini-leave-active
-        transition all 0.4s
-      &.mini-enter, &.mini-leave-to
-        opacity 0
-      .icon
-        flex 0 0 40px
-        height 40px
-        padding 0 10px 0 20px
-        .imgWrapper
-          height 100%
-          width 100%
-          img
-            border-radius 50%
-            &.play
-              animation rotate 10s linear infinite
-            &.pause
-              animation-play-state paused
-      .text
-        display flex
-        flex-direction column
-        justify-content center
-        flex 0 0 180px
+      height 100%
+      z-index -1
+      opacity 0.6
+      filter blur(20px)
+    .top
+      position relative
+      margin-bottom 40px
+      .back
+        position absolute
+        top 1em
+        left 1em
+        z-index 50
+        .icon-back
+          display block
+          padding 9px
+          font-size $font-size-large-x
+          color $color-theme
+          transform rotate(-90deg)
+      .title
+        width 70%
+        margin 0 auto
+        line-height 40px
+        text-align center
+        no-wrap()
+        font-size $font-size-large
+        color $color-text
+      .subtitle
         line-height 20px
+        text-align center
+        font-size $font-size-medium
+        color $color-text
+    .middle
+      display flex
+      width 100%
+      height calc(100% - 80px - 180px)        
+      white-space nowrap
+      justify-content center
+      .middle-l
+        padding-top 50px
+        vertical-align top
+        .cd-wrapper
+          box-sizing border-box
+          .cd
+            margin 0 auto
+            border-radius 50%
+            .image
+              width 100%
+              height 100%
+              box-sizing border-box
+              border-radius 50%
+              border 10px solid rgba(255, 255, 255, 0.1)
+              &.image-object-p-left
+                object-position left
+              &.image-object-p-right
+                object-position right
+              &.image-object-p-top
+                object-position top
+              &.image-object-p-bottom
+                object-position bottom
+            .play
+              animation rotate 20s linear infinite
+        .playing-lyric-wrapper
+          width 80%
+          margin 30px auto 0 auto
+          overflow hidden
+          text-align center
+          .playing-lyric
+            height 20px
+            line-height 20px
+            font-size $font-size-medium
+            color $color-text-l
+      .middle-r
+        vertical-align top
         overflow hidden
-        .name
-          margin-bottom 2px
-          no-wrap()
-          font-size $font-size-medium
+        .lyric-wrapper
+          margin 0 auto
+          overflow hidden
+          text-align center
+          padding 50px 30px
+          .text
+            line-height 32px
+            color $color-text-l
+            font-size $font-size-medium
+            transition all .6s ease-in-out
+            &.current
+              color $color-text
+              font-size 1.4em
+              text-shadow 0 0 5px #fff, 0 0 10px $color-team-sii, 0 0 15px $color-team-sii, 0 0 20px $color-team-sii, 0 0 35px $color-team-sii, 0 0 40px $color-team-sii, 0 0 50px $color-team-sii, 0 0 75px $color-team-sii
+          .pure-music
+            padding-top 50%
+            line-height 32px
+            color $color-text-l
+            font-size $font-size-medium
+    .bottom
+      position absolute
+      bottom 50px
+      width 100%
+      .dot-wrapper
+        text-align center
+        font-size 0
+        .dot
+          display inline-block
+          vertical-align middle
+          margin 0 4px
+          width 8px
+          height 8px
+          border-radius 50%
+          background $color-text-l
+          &.active
+            width 20px
+            border-radius 5px
+            background $color-text-ll
+      .progress-wrapper
+        display flex
+        align-items center
+        width 80%
+        margin 0px auto
+        padding 10px 0
+        .time
           color $color-text
-        .desc
-          no-wrap()
           font-size $font-size-small
-          color $color-text-d
-      .currentLyc
-        flex 1
-        line-height 60px
-        color $color-team-sii
-        font-size 24px
-        text-shadow 0 0 1px #fff, 0 0 2px $color-team-sii, 0 0 3px $color-team-sii, 0 0 4px $color-team-sii, 0 0 5px $color-team-sii
-      .control
-        flex 0 0 30px
-        padding 0 10px
-        .icon-play-mini, .icon-pause-mini, .icon-playlist
-          font-size 30px
-          color $color-theme-d
-        .icon-mini
-          font-size 32px
-          position absolute
-          left 4px
-          top -1px
+          flex 0 0 30px
+          line-height 30px
+          &.time-l
+            text-align left
+          &.time-r
+            text-align right
+        .progress-bar-wrapper
+          flex 1
+        .volume
+          flex 0 0 30px
+          line-height 30px
+          &.volume-center
+            text-aligncenter
+          .icon
+            flex 1
+            color $color-theme
+      .operators
+        display flex
+        align-items center
+        .icon
+          cursor pointer
+          flex 1
+          color $color-theme
+          &.disable
+            color $color-theme-d
+          i
+            font-size 30px
+        .i-left
+          text-align right
+        .i-center
+          padding 0 20px
+          text-align center
+          i
+            font-size 40px
+        .i-right
+          text-align left
+        .icon-favorite
+          color $color-sub-theme
+    &.normal-enter-active, &.normal-leave-active
+      transition all 0.4s
+      .top, .bottom
+        transition all 0.4s cubic-bezier(0.86, 0.18, 0.82, 1.32)
+    &.normal-enter, &.normal-leave-to
+      opacity 0
+      .top
+        transform translate3d(0, -100px, 0)
+      .bottom
+        transform translate3d(0, 100px, 0)
+  .mini-player
+    display flex
+    align-items center
+    position fixed
+    left 0
+    bottom 0
+    z-index 180
+    width 100%
+    height 60px
+    background $color-highlight-background
+    .currentLyc
+      color white !important
+      text-shadow 0 0 5px #fff, 0 0 10px $color-team-sii, 0 0 15px $color-team-sii, 0 0 20px $color-team-sii, 0 0 35px $color-team-sii, 0 0 40px $color-team-sii, 0 0 50px $color-team-sii, 0 0 75px $color-team-sii !important
+    &.mini-enter-active, &.mini-leave-active
+      transition all 0.4s
+    &.mini-enter, &.mini-leave-to
+      opacity 0
+    .icon
+      flex 0 0 40px
+      height 40px
+      padding 0 10px 0 10px
+      .imgWrapper
+        height 100%
+        width 100%
+        img
+          border-radius 50%
+          &.play
+            animation rotate 10s linear infinite
+          &.pause
+            animation-play-state paused
+    .text
+      display flex
+      flex-direction column
+      justify-content center
+      flex 0 0 180px
+      line-height 20px
+      overflow hidden
+      .name
+        margin-bottom 2px
+        no-wrap()
+        font-size $font-size-medium
+        color $color-text
+      .desc
+        no-wrap()
+        font-size $font-size-small
+        color $color-text-d
+    .currentLyc
+      flex 1
+      line-height 60px
+      color $color-team-sii
+      font-size 24px
+      text-shadow 0 0 1px #fff, 0 0 2px $color-team-sii, 0 0 3px $color-team-sii, 0 0 4px $color-team-sii, 0 0 5px $color-team-sii
+    .control
+      flex 0 0 30px
+      padding 0 10px
+      .icon-play-mini, .icon-pause-mini, .icon-playlist
+        font-size 30px
+        color $color-theme-d
+      .icon-mini
+        font-size 32px
+        position absolute
+        left 4px
+        top -1px
 @media screen and (min-width 1200px)
   .middle-l
     flex 0 0 50%
@@ -900,14 +900,31 @@
     flex 0 0 50%
     
 @media screen and (max-width 1000px)
-  .middle
-    flex-direction column
-    .middle-l
-      flex 0 0 400px
-      .cd-wrapper
-        .cd        
-          width 400px
-          height 400px
-    .middle-r
-      flex 0 0 50%
+  .player
+    .normal-player
+      .middle
+        flex-direction column
+        .middle-l
+          flex 0 0 320px
+          .cd-wrapper
+            .cd
+              width 320px
+              height 320px
+        .middle-r
+          padding-top 10px
+          flex 0 0 280px
+          position relative
+          .lyric-wrapper
+            padding 30px 15px
+    .mini-player
+      .text
+        flex 0 0 70px
+        display none
+      .currentLyc
+        text-align center
+        overflow hidden
+        text-overflow ellipsis
+        white-space nowrap
+        padding 0 15px
+        font-size 20px
 </style>
