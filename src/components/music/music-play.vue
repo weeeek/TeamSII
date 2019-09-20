@@ -3,7 +3,7 @@
     <transition name="normal" @enter="enter" @after-enter="afterEnter" @leave="leave" @after-leave="afterLeave">
       <div class="normal-player" v-show="fullScreen">
         <div class="background">
-          <img width="100%" height="100%" v-if="currentSong" :src="currentSong.image.url">
+          <img width="100%" height="100%" v-if="currentSong && currentSong.image" :src="currentSong.image.url">
         </div>
         <div class="top">
           <div class="back" @click="back">
@@ -16,7 +16,7 @@
           <div class="middle-l" ref="middleL">
             <div class="cd-wrapper" ref="cdWrapper">
               <div class="cd" ref="imageWrapper">                
-                <img ref="image" :class="cdCls" class="image" v-if="currentSong" :src="currentSong.image.url" :style="`object-position:${currentSong.image.left} ${currentSong.image.right};object-fit:${currentSong.image.objectfit}`"/>
+                <img ref="image" :class="cdCls" class="image" v-if="currentSong && currentSong.image" :src="currentSong.image.url" :style="`object-position:${currentSong.image.left} ${currentSong.image.right};object-fit:${currentSong.image.objectfit}`"/>
               </div>
             </div>
             <!-- <div class="playing-lyric-wrapper">
@@ -72,7 +72,7 @@
       <div class="mini-player" v-show="!fullScreen" @click="open">
         <div class="icon">
           <div class="imgWrapper" ref="miniWrapper">
-            <img ref="miniImage" :class="cdCls" width="40" height="40" v-if="currentSong" :src="currentSong.image.url" :style="`object-position:${currentSong.image.left} ${currentSong.image.right}`"/>
+            <img ref="miniImage" :class="cdCls" width="40" height="40" v-if="currentSong && currentSong.image" :src="currentSong.image.url" :style="`object-position:${currentSong.image.left} ${currentSong.image.right}`"/>
           </div>
         </div>
         <div class="text">

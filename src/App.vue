@@ -49,14 +49,11 @@ export default {
   },  
   computed: {
     ...mapGetters(['playlist']),
-    showLive2d () {      
-      return this.innerWidth > 1800
-    }
+    // showLive2d () {      
+    //   return this.innerWidth > 1800
+    // }
   },
   methods: {
-    showLive2d () {
-      return window.innerWidth > 1800
-    },
     handleMove(liveModel){
       liveModel.setParamFloat('PARAM_ANGLE_X',value);
       /*

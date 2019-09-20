@@ -16,14 +16,10 @@ export function getLyric (mid, fn) {
     needNewCode: 0,
     categoryId: 10000000,
     pcachetime: +new Date(),
-    format: 'jsonp'
+    format: 'json'
   })
 
   return axios.get(url, {
-    headers: {
-      referer: 'https://c.y.qq.com/',
-      host: 'c.y.qq.com'
-    },
     params: data
   }).then((res) => {
     return Promise.resolve(res.data)
