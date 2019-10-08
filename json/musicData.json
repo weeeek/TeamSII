@@ -74,7 +74,9 @@
               "right": "50%",
               "objectfit": "cover"
             },
-	          "singer": ["莫寒"],
+            "singer": [
+              "莫寒"
+            ],
             "id": 222017395,
             "mid": "002oYhUp3dAnZq",
             "name": "Lost",
@@ -865,7 +867,10 @@
               "right": "50%",
               "objectfit": "cover"
             },
-	    "singer": ["戴萌","莫寒"],
+            "singer": [
+              "戴萌",
+              "莫寒"
+            ],
             "id": 228053613,
             "mid": "003saTQe0SySHp",
             "name": "就差一点点",
@@ -880,7 +885,10 @@
               "right": "50%",
               "objectfit": "cover"
             },
-	    "singer": ["许佳琪","吴哲晗"],
+            "singer": [
+              "许佳琪",
+              "吴哲晗"
+            ],
             "id": 228053615,
             "mid": "0046Ddy10yAlYi",
             "name": "Spy",
@@ -895,7 +903,10 @@
               "right": "50%",
               "objectfit": "cover"
             },
-	    "singer": ["张语格","孔肖吟"],
+            "singer": [
+              "张语格",
+              "孔肖吟"
+            ],
             "id": 228053609,
             "mid": "002A5zvW1ct3wc",
             "name": "9 to 9",
@@ -910,7 +921,9 @@
               "right": "50%",
               "objectfit": "cover"
             },
-	    "singer": ["戴萌"],
+            "singer": [
+              "戴萌"
+            ],
             "id": 228053617,
             "mid": "000BOmdk1dEJQX",
             "name": "钢铁之翼",
@@ -925,7 +938,9 @@
               "right": "50%",
               "objectfit": "cover"
             },
-	    "singer": ["SNH48 Team SII"],
+            "singer": [
+              "SNH48 Team SII"
+            ],
             "id": 228053123,
             "mid": "001JQ5Hy2DOlVn",
             "name": "初日",
@@ -1062,9 +1077,88 @@
         ]
       },
       {
+        "title": "第一届偶像年度总决选演唱会",
+        "enabled": true,
+        "songs": [
+          {
+            "image": {
+              "url": "",
+              "left": "50%",
+              "right": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "徐晨辰",
+              "鞠婧祎"
+            ],
+            "id": 101840112,
+            "mid": "003fQuzE0tbWJ4",
+            "name": "流着泪微笑",
+            "interval": 225,
+            "play": [],
+            "opern": "http://www.tan8.com/yuepu-55386.html"
+          }
+        ]
+      },
+      {
         "title": "第一届金曲大赏",
         "enabled": true,
         "songs": [
+          {
+            "image": {
+              "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000004NuB5p2BPluT_1.jpg",
+              "left": "50%",
+              "right": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "戴萌",
+              "陈思",
+              "钱蓓婷"
+            ],
+            "id": 102350012,
+            "mid": "002PJRig2hKPVB",
+            "name": "纯情主义",
+            "interval": 136,
+            "play": [],
+            "opern": ""
+          },
+          {
+            "image": {
+              "url": "//i1.hdslb.com/bfs/archive/67b46f737573e01b2c3bc40e1ba5375ac8e9da1f.jpg",
+              "left": "50%",
+              "right": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "陈观慧",
+              "李宇琪",
+              "沈之琳"
+            ],
+            "id": 102350006,
+            "mid": "002idhVM2NaGeV",
+            "name": "黑天使",
+            "interval": 172,
+            "play": [],
+            "opern": ""
+          },
+          {
+            "image": {
+              "url": "//i2.hdslb.com/bfs/archive/6b035fd3edd3208dc924157291e457a4cc8a6f33.jpg",
+              "left": "50%",
+              "right": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "李宇琪"
+            ],
+            "id": 8145229,
+            "mid": "003Dnw7h339tT2",
+            "name": "夕阳下的约定",
+            "interval": 298,
+            "play": [],
+            "opern": ""
+          },
           {
             "image": {
               "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000004NuB5p2BPluT_1.jpg?max_age=2592000",
@@ -1072,7 +1166,10 @@
               "right": "50%",
               "objectfit": "cover"
             },
-	    "singer": ["邱欣怡","吴哲晗"],
+            "singer": [
+              "邱欣怡",
+              "吴哲晗"
+            ],
             "id": 102349985,
             "mid": "001vcVs71Bd3YC",
             "name": "禁忌的爱",
@@ -1087,7 +1184,11 @@
               "right": "50%",
               "objectfit": "cover"
             },
-	    "singer": ["许佳琪","温晶婕","徐子轩"],
+            "singer": [
+              "许佳琪",
+              "温晶婕",
+              "徐子轩"
+            ],
             "id": 102349988,
             "mid": "003UDC5W0M2dVP",
             "name": "心型病毒",
@@ -1102,16 +1203,20 @@
               "right": "50%",
               "objectfit": "contain"
             },
-	    "singer": ["沈之琳"],
+            "singer": [
+              "沈之琳"
+            ],
             "id": 102349991,
             "mid": "003fQLeS2jqpGs",
             "name": "恋爱捉迷藏",
             "interval": 206,
-            "play": [{
-              "type": "piano",
-              "url": "https://www.bilibili.com/video/av12851586",
-              "player": "猫哥"
-            }],
+            "play": [
+              {
+                "type": "piano",
+                "url": "https://www.bilibili.com/video/av12851586",
+                "player": "猫哥"
+              }
+            ],
             "opern": "http://www.tan8.com/yuepu-66004.html"
           }
         ]
@@ -1135,6 +1240,34 @@
             "id": 238113920,
             "mid": "000Gsz5P0WYJCu",
             "name": "时间的歌",
+            "interval": 270,
+            "play": [],
+            "opern": ""
+          },
+          {
+            "image": {
+              "url": "https://imgsa.baidu.com/forum/pic/item/439e02f41bd5ad6e80959ff18ecb39dbb7fd3cc6.jpg",
+              "left": "50%",
+              "right": "50%",
+              "objectfit": "cover"
+            },
+            "id": 238446574,
+            "mid": "004I9CrV0sAshh",
+            "name": "勇不勇敢",
+            "interval": 230,
+            "play": [],
+            "opern": ""
+          },
+          {
+            "image": {
+              "url": "https://imgsa.baidu.com/forum/pic/item/bff687d4b31c87019752b5ff287f9e2f0608ff4c.jpg",
+              "left": "50%",
+              "right": "50%",
+              "objectfit": "cover"
+            },
+            "id": 239252627,
+            "mid": "004ETlGy0pdCB0",
+            "name": "有你",
             "interval": 270,
             "play": [],
             "opern": ""

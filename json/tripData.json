@@ -4,6 +4,20 @@
     "to": "2019"
   },
   "items": [{
+    "nameMonth": "10月20日 19:00",
+    "title": "《重生计划》第53场",
+    "description": "",
+    "summarize": "",
+    "type": "blue",
+    "url": "http://www.snh48.com/ticket.php"
+  }, {
+    "nameMonth": "10月19日 14:00",
+    "title": "《重生计划》第52场，邵雪聪生日公演",
+    "description": "",
+    "summarize": "",
+    "type": "blue",
+    "url": "http://www.snh48.com/ticket.php"
+  }, {
     "nameMonth": "10月12日 18:00",
     "title": "Tour In Tokyo SNH48 东京巡演，日本东京赤坂BLITZ",
     "description": "",
@@ -12,18 +26,42 @@
     "url": "https://www.bilibili.com/video/av67185569"
   }, {
     "nameMonth": "10月6日 19:00",
-    "title": "《重生计划》第51场，钱蓓婷《拾蓓光芒》生日公演",
-    "description": "",
-    "summarize": "",
+    "title": "《重生计划》第51场，钱蓓婷《拾蓓光芒》生日公演，刘丽千首演",
+    "description": "生日环节：人间规则，一个像夏天一个像秋天,MC1：生日祝福,Lost：莫寒,Hold me tight（汉服）：戴萌，蒋芸,解语者：钱蓓婷，李宇琪，袁雨桢,最终回合：张语格，陈俊羽，戴萌，徐晨辰,无罪无我：莫寒，刘增艳，陈思,somewhere：吴哲晗，孙芮，邵雪聪,噩梦轮回：蒋芸,MC3：逛三园游戏,MC4：抢板凳游戏",
+    "summarize": "你们在我心里，她们只是在表面上 ---- 钱蓓婷",
     "type": "blue",
-    "url": "http://www.snh48.com/ticket.php"
+    "url": "https://www.bilibili.com/video/av70368246"
+  }, {
+    "nameMonth": "10月3日",
+    "title": "《花儿为什么这样红》录制vlog",
+    "description": "莫寒 李艺彤 段艺璇 郑丹妮 苏杉杉 谢蕾蕾",
+    "type": "green",
+    "url": "https://www.bilibili.com/video/av69877937"
+  }, {
+    "nameMonth": "10月2日",
+    "title": "《梦想的旗帜》长江之恋-长江流域十二省市国庆主题晚会",
+    "description": "莫寒 张语格 吴哲晗 戴萌 孙芮 钱蓓婷 张昕 许杨玉琢 沈梦瑶",
+    "type": "green",
+    "url": "https://www.bilibili.com/video/av69823272"
   }, {
     "nameMonth": "9月25日 19:30",
-    "title": "《重生计划》第50场",
-    "description": "",
+    "title": "《重生计划》第50场，陈俊羽100场，戴萌神龙达成",
+    "description": "MC1：童年阴影,Lost：戴萌,Hold me tight：陈思，蒋芸,解语者：钱蓓婷，孙芮，温晶婕,最终回合：张语格，蒋芸，邵雪聪，徐晨辰,无罪无我：孙芮，陈俊羽，陈思,somewhere：吴哲晗，钱蓓婷，袁丹妮,噩梦轮回：刘增艳,MC2：觉得自己不是父母亲生的事情,MC3：推销未知物品,安可曲：《我的舞台》",
     "summarize": "",
     "type": "blue",
-    "url": "http://www.snh48.com/ticket.php"
+    "url": "https://www.bilibili.com/video/av68981717"
+  }, {
+    "nameMonth": "9月22日",
+    "title": "咪咕最佳人气新人提名BLUEV来电拉票会专场重庆站，DEMOON助演",
+    "description": "莫寒 李宇琪 孙芮 吕一 吴哲晗",
+    "type": "green",
+    "url": "https://www.bilibili.com/video/av68679523"
+  }, {
+    "nameMonth": "9月21日",
+    "title": "DEMOON出道巡演重庆站",
+    "description": "吴哲晗",
+    "type": "black",
+    "url": "https://www.bilibili.com/video/av68521275"
   }, {
     "nameMonth": "9月20日 19:30",
     "title": "《重生计划》第49场",
@@ -42,12 +80,12 @@
     "nameMonth": "9月15日 19:30",
     "title": "《重生计划》第47场，刘增艳生日公演",
     "description": "生日环节：天使的尾巴，下雨的夜晚，她和她，最后的8/31，盛夏光年，雌雄同体,MC1：生日祝福,Lost：莫寒,Hold me tight：戴萌，孔肖吟,解语者：钱蓓婷，李宇琪，袁丹妮,最终回合：张语格，陈俊羽，邵雪聪，徐晨辰,无罪无我：莫寒，刘增艳，陈思,somewhere：李宇琪，孙芮，蒋芸,噩梦轮回：温晶婕,MC3：站立推手游戏,MC4：传水游戏",
-    "summarize": "让他们知道什么叫胡 ---- 刘增艳\r\n嗯，有画面感了 ---- 孙芮",
+    "summarize": "让他们知道什么叫胡 ---- 刘增艳\r\n泳装单嘛，谁都不服谁的 ---- 孙芮",
     "type": "blue",
     "url": "https://www.bilibili.com/video/av67909752"
   }, {
     "nameMonth": "9月15日 19:00",
-    "title": "Demoon出道首秀",
+    "title": "DEMOON出道首秀上海站",
     "description": "我就是我，狐狸,MC1：排练趣事,噩梦轮回,月饼投喂大作战,掉了,MC2：对于未来的展望,触电",
     "summarize": "",
     "type": "blue",
@@ -101,7 +139,7 @@
     "url": "https://www.bilibili.com/video/av66650304"
   }, {
     "nameMonth": "8月31日 19:00",
-    "title": "《重生计划》第44场",
+    "title": "《重生计划》第44场，吴哲晗神龙达成",
     "description": "MC1：打脸的事,Lost：吴哲晗,Hold me tight：吴哲晗，莫寒,解语者：钱蓓婷，李宇琪，袁雨桢,最终回合：孙芮，温晶婕，徐晨辰，邵雪聪,无罪无我（跆拳道服）：莫寒，刘增艳，陈俊羽,somewhere：蒋芸，孙芮，袁丹妮,噩梦轮回：刘增艳,MC2：赚钱和省钱哪个更重要,MC3：弹瓶盖,MC4：皮卡丘游戏,安可曲《绿光》",
     "summarize": "小钱最重要",
     "type": "blue",
@@ -156,7 +194,7 @@
   }, {
     "nameMonth": "7月27日",
     "title": "SNH48 GROUP 第六届年度总决选",
-    "description": "魔女的诗篇,预言(助演：岛村绚沙（しまむら あやさ）),twinkle twinkle,(blueV)My key,(demoon)狐狸,天空信,终无艳,(7sense)7 o'clock,暗羽：戴萌，孔肖吟，张语格,粉红狙击手：许佳琪，林思意，谢蕾蕾,信念箭羽：陆婷，吴哲晗，钱蓓婷,一体同心：莫寒，赵粤,支柱,初日,新的旅程（纪念版）,第2名莫寒,第4名张语格,第5名吴哲晗,第6名孔肖吟,第7名许佳琪,第9名戴萌,第13名孙芮,第17名钱蓓婷,第24名冯晓菲,第30名刘增艳,第36名徐子轩",
+    "description": "魔女的诗篇,预言(助演：岛村绚沙（しまむら あやさ）),twinkle twinkle,(blueV)My key,(DEMOON)狐狸,天空信,终无艳,(7sense)7 o'clock,暗羽：戴萌，孔肖吟，张语格,粉红狙击手：许佳琪，林思意，谢蕾蕾,信念箭羽：陆婷，吴哲晗，钱蓓婷,一体同心：莫寒，赵粤,支柱,初日,新的旅程（纪念版）,第2名莫寒,第4名张语格,第5名吴哲晗,第6名孔肖吟,第7名许佳琪,第9名戴萌,第13名孙芮,第17名钱蓓婷,第24名冯晓菲,第30名刘增艳,第36名徐子轩",
     "summarize": "无论何时，我们都一直在你们身边",
     "type": "black",
     "url": "https://www.bilibili.com/video/av61024719"

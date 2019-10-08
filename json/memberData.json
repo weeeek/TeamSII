@@ -106,6 +106,10 @@
       "modian": {
         "enabled": true,
         "id": "2620358"
+      },
+      "owhat": {
+        "enabled": true,
+        "id": "1570370612110"
       }
     },
     {
@@ -124,24 +128,6 @@
       "modian": {
         "enabled": true,
         "id": "986515"
-      }
-    },
-    {
-      "name": "李宇琪",
-      "photo": "http://www.snh48.com/images/member/mp_10006.jpg",
-      "weibo": "u/3050792913",
-      "bilibili": "3882983",
-      "douyin": "28221702",
-      "changba": null,
-      "miaopai": null,
-      "pocket48": {
-        "id": 20,
-        "roomId": 67303256
-      },
-      "group": "blueV",
-      "modian": {
-        "enabled": true,
-        "id": "1186273"
       }
     },
     {
@@ -323,6 +309,10 @@
       "modian": {
         "enabled": true,
         "id": "1079154"
+      },
+      "owhat": {
+        "enabled": true,
+        "id": "1570370884476"
       }
     },
     {
@@ -519,6 +509,24 @@
       "modian": {
         "enabled": false,
         "id": ""
+      }
+    },
+    {
+      "name": "李宇琪",
+      "photo": "http://www.snh48.com/images/member/mp_10006.jpg",
+      "weibo": "u/3050792913",
+      "bilibili": "3882983",
+      "douyin": "28221702",
+      "changba": null,
+      "miaopai": null,
+      "pocket48": {
+        "id": 20,
+        "roomId": 67303256
+      },
+      "group": "blueV",
+      "modian": {
+        "enabled": true,
+        "id": "1186273"
       }
     },
     {
