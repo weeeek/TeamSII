@@ -2,7 +2,7 @@
   "memberData": [
     {
       "name": "陈观慧",
-      "photo": "http://www.snh48.com/images/member/mp_10001.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10001.jpg",
       "weibo": "u/3050708243",
       "bilibili": "192476819",
       "douyin": "602985242",
@@ -20,7 +20,7 @@
     },
     {
       "name": "陈俊羽",
-      "photo": "http://www.snh48.com/images/member/mp_10206.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10206.jpg",
       "weibo": "u/6501690381",
       "bilibili": 18064789,
       "douyin": "614700897",
@@ -38,7 +38,7 @@
     },
     {
       "name": "陈思",
-      "photo": "http://www.snh48.com/images/member/mp_10002.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10002.jpg",
       "weibo": "u/3050742117",
       "bilibili": "19383319",
       "douyin": "665951014",
@@ -56,7 +56,7 @@
     },
     {
       "name": "陈雨孜",
-      "photo": "http://www.snh48.com/images/member/mp_10221.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10221.jpg",
       "weibo": "u/6613839986",
       "bilibili": null,
       "douyin": null,
@@ -74,9 +74,9 @@
     },
     {
       "name": "戴萌",
-      "photo": "http://www.snh48.com/images/member/mp_10003.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10003.jpg",
       "weibo": "dddiamonddd",
-      "bilibili": null,
+      "bilibili": "18946307",
       "douyin": "diamooond28",
       "changba": null,
       "miaopai": null,
@@ -92,7 +92,7 @@
     },
     {
       "name": "蒋芸",
-      "photo": "http://www.snh48.com/images/member/mp_10004.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10004.jpg",
       "weibo": "u/3675573934",
       "bilibili": "114866",
       "douyin": "JiangYun327",
@@ -106,15 +106,11 @@
       "modian": {
         "enabled": true,
         "id": "2620358"
-      },
-      "owhat": {
-        "enabled": true,
-        "id": "1570370612110"
       }
     },
     {
       "name": "孔肖吟",
-      "photo": "http://www.snh48.com/images/member/mp_10005.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10005.jpg",
       "weibo": "u/3058127927",
       "bilibili": null,
       "douyin": "371432782",
@@ -131,8 +127,26 @@
       }
     },
     {
+      "name": "李宇琪",
+      "photo": "http://www.snh48.com/images/member/zp_10006.jpg",
+      "weibo": "u/3050792913",
+      "bilibili": "3882983",
+      "douyin": "28221702",
+      "changba": null,
+      "miaopai": null,
+      "pocket48": {
+        "id": 20,
+        "roomId": 67303256
+      },
+      "group": "blueV",
+      "modian": {
+        "enabled": true,
+        "id": "1186273"
+      }
+    },
+    {
       "name": "刘丽千",
-      "photo": "http://www.snh48.com/images/member/mp_10222.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10222.jpg",
       "weibo": "u/7303877489",
       "bilibili": null,
       "douyin": null,
@@ -150,7 +164,7 @@
     },
     {
       "name": "刘增艳",
-      "photo": "http://www.snh48.com/images/member/mp_10125.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10125.jpg",
       "weibo": "u/5681431767",
       "bilibili": "472626",
       "douyin": "869971950",
@@ -168,7 +182,7 @@
     },
     {
       "name": "莫寒",
-      "photo": "http://www.snh48.com/images/member/mp_10007.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10007.jpg",
       "weibo": "momo0v03",
       "bilibili": "323856",
       "douyin": "708165492",
@@ -186,7 +200,7 @@
     },
     {
       "name": "钱蓓婷",
-      "photo": "http://www.snh48.com/images/member/mp_10008.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10008.jpg",
       "weibo": "u/3055272517",
       "bilibili": "22062404",
       "douyin": "572856432",
@@ -204,7 +218,7 @@
     },
     {
       "name": "邱欣怡",
-      "photo": "http://www.snh48.com/images/member/mp_10009.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10009.jpg",
       "weibo": "u/3062769307",
       "bilibili": "144873060",
       "douyin": "62534021",
@@ -222,7 +236,7 @@
     },
     {
       "name": "孙芮",
-      "photo": "http://www.snh48.com/images/member/mp_10010.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10010.jpg",
       "weibo": "u/3669091483",
       "bilibili": "11777755",
       "douyin": "srsrsr333333srsr",
@@ -240,7 +254,7 @@
     },
     {
       "name": "邵雪聪",
-      "photo": "http://www.snh48.com/images/member/mp_10086.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10086.jpg",
       "weibo": "u/5460952383",
       "bilibili": "18736885",
       "douyin": "1050881824",
@@ -258,7 +272,7 @@
     },
     {
       "name": "温晶婕",
-      "photo": "http://www.snh48.com/images/member/mp_10012.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10012.jpg",
       "weibo": "u/3675603887",
       "bilibili": null,
       "douyin": null,
@@ -276,7 +290,7 @@
     },
     {
       "name": "吴哲晗",
-      "photo": "http://www.snh48.com/images/member/mp_10013.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10013.jpg",
       "weibo": "u/3050731261",
       "bilibili": "299303884",
       "douyin": "570521305",
@@ -294,7 +308,7 @@
     },
     {
       "name": "徐晨辰",
-      "photo": "http://www.snh48.com/images/member/mp_10014.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10014.jpg",
       "weibo": "u/3050758665",
       "bilibili": null,
       "douyin": "583908288",
@@ -309,15 +323,11 @@
       "modian": {
         "enabled": true,
         "id": "1079154"
-      },
-      "owhat": {
-        "enabled": true,
-        "id": "1570370884476"
       }
     },
     {
       "name": "许佳琪",
-      "photo": "http://www.snh48.com/images/member/mp_10015.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10015.jpg",
       "weibo": "u/3050737061",
       "bilibili": "18873979",
       "douyin": "hellokiki77",
@@ -335,7 +345,7 @@
     },
     {
       "name": "袁丹妮",
-      "photo": "http://www.snh48.com/images/member/mp_10073.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10073.jpg",
       "weibo": "u/5225886388",
       "bilibili": null,
       "douyin": "yuandanni",
@@ -353,7 +363,7 @@
     },
     {
       "name": "袁雨桢",
-      "photo": "http://www.snh48.com/images/member/mp_10017.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10017.jpg",
       "weibo": "u/3720838047",
       "bilibili": "213790489",
       "douyin": "576412860",
@@ -371,7 +381,7 @@
     },
     {
       "name": "张语格",
-      "photo": "http://www.snh48.com/images/member/mp_10019.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10019.jpg",
       "weibo": "u/3050783091",
       "bilibili": "326347677",
       "douyin": "368860177",
@@ -430,7 +440,7 @@
   "otherTeamMemberData": [
     {
       "name": "吕一",
-      "photo": "http://www.snh48.com/images/member/mp_10153.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10153.jpg",
       "weibo": "u/6021143413",
       "bilibili": "11399736",
       "douyin": "Kokoi_",
@@ -448,9 +458,9 @@
     },
     {
       "name": "冯晓菲",
-      "photo": "http://www.snh48.com/images/member/mp_10082.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10082.jpg",
       "weibo": "u/5461287018",
-      "bilibili": null,
+      "bilibili": "4873439",
       "douyin": "384991613",
       "changba": null,
       "miaopai": null,
@@ -512,27 +522,9 @@
       }
     },
     {
-      "name": "李宇琪",
-      "photo": "http://www.snh48.com/images/member/mp_10006.jpg",
-      "weibo": "u/3050792913",
-      "bilibili": "3882983",
-      "douyin": "28221702",
-      "changba": null,
-      "miaopai": null,
-      "pocket48": {
-        "id": 20,
-        "roomId": 67303256
-      },
-      "group": "blueV",
-      "modian": {
-        "enabled": true,
-        "id": "1186273"
-      }
-    },
-    {
       "name": "徐子轩",
-      "photo": "http://www.snh48.com/images/member/mp_10016.jpg",
-      "weibo": "u/3675905275",
+      "photo": "http://www.snh48.com/images/member/zp_10016.jpg",
+      "weibo": "u/6168787538",
       "bilibili": "1846928",
       "douyin": "660925792",
       "changba": null,
@@ -624,7 +616,7 @@
     },
     {
       "name": "赵晔",
-      "photo": "http://www.snh48.com/images/member/mp_10077.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10077.jpg",
       "weibo": "u/5221220112",
       "bilibili": "2310475",
       "douyin": "Yukino828",
@@ -639,7 +631,7 @@
     },
     {
       "name": "杨令仪",
-      "photo": "http://www.snh48.com/images/member/mp_10193.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10193.jpg",
       "weibo": "u/6502566940",
       "bilibili": null,
       "douyin": null,
@@ -654,7 +646,7 @@
     },
     {
       "name": "朱小丹",
-      "photo": "http://www.snh48.com/images/member/mp_10197.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10197.jpg",
       "weibo": "u/6502268109",
       "bilibili": null,
       "douyin": "4746929",
@@ -672,7 +664,7 @@
     },
     {
       "name": "徐伊人",
-      "photo": "http://www.snh48.com/images/member/mp_10069.jpg",
+      "photo": "http://www.snh48.com/images/member/zp_10069.jpg",
       "weibo": "u/5228057280",
       "bilibili": "14801692",
       "douyin": "163927666",
