@@ -1,7 +1,7 @@
 ﻿[
   {
     "typeName": "公演曲",
-    "group": [
+    "group": [      
       {
         "title": "重生计划",
         "songs": [
@@ -55,7 +55,7 @@
           },
           {
             "image": {
-              "url": "http://www.snh48.com/event/s258/img/08.jpg",
+              "url": "https://newsimg.48.cn/2018/1123/20181123113001367.jpg",
               "left": "50%",
               "right": "50%",
               "objectfit": "cover"
@@ -69,7 +69,7 @@
           },
           {
             "image": {
-              "url": "http://www.snh48.com/event/s258/img/13.jpg",
+              "url": "https://newsimg.48.cn/2018/1123/20181123113024279.jpg",
               "left": "50%",
               "right": "50%",
               "objectfit": "cover"
@@ -86,7 +86,7 @@
           },
           {
             "image": {
-              "url": "http://www.snh48.com/event/s258/img/17.jpg",
+              "url": "https://newsimg.48.cn/2018/1123/20181123113032497.jpg",
               "left": "50%",
               "right": "50%",
               "objectfit": "cover"
@@ -100,7 +100,7 @@
           },
           {
             "image": {
-              "url": "http://www.snh48.com/event/s258/img/20.jpg",
+              "url": "https://newsimg.48.cn/2018/1123/20181123113045566.jpg",
               "left": "50%",
               "right": "50%",
               "objectfit": "cover"
@@ -114,7 +114,7 @@
           },
           {
             "image": {
-              "url": "http://www.snh48.com/event/s258/img/23.jpg",
+              "url": "https://newsimg.48.cn/2018/1123/20181123113135675.jpg",
               "left": "50%",
               "right": "50%",
               "objectfit": "cover"
@@ -142,7 +142,7 @@
           },
           {
             "image": {
-              "url": "http://www.snh48.com/event/s258/img/30.jpg",
+              "url": "https://newsimg.48.cn/2018/1123/20181123113150521.jpg",
               "left": "50%",
               "right": "50%",
               "objectfit": "cover"
@@ -176,7 +176,7 @@
           },
           {
             "image": {
-              "url": "http://www.snh48.com/event/s258/img/41.jpg",
+              "url": "https://newsimg.48.cn/2018/1123/20181123113213544.jpg",
               "left": "50%",
               "right": "50%",
               "objectfit": "cover"
@@ -190,7 +190,7 @@
           },
           {
             "image": {
-              "url": "http://www.snh48.com/event/s258/img/44.jpg",
+              "url": "https://newsimg.48.cn/2018/1123/20181123113220705.jpg",
               "left": "50%",
               "right": "50%",
               "objectfit": "cover"
@@ -220,7 +220,7 @@
           },
           {
             "image": {
-              "url": "http://www.snh48.com/event/s258/img/46.jpg",
+              "url": "https://newsimg.48.cn/2018/1123/20181123113303877.jpg",
               "left": "50%",
               "right": "50%",
               "objectfit": "cover"
@@ -234,7 +234,7 @@
           },
           {
             "image": {
-              "url": "http://www.snh48.com/event/s258/img/48.jpg",
+              "url": "https://newsimg.48.cn/2018/1123/20181123113312681.jpg",
               "left": "50%",
               "right": "50%",
               "objectfit": "cover"
@@ -248,7 +248,7 @@
           },
           {
             "image": {
-              "url": "http://www.snh48.com/event/s258/img/49.jpg",
+              "url": "https://newsimg.48.cn/2018/1123/20181123113318777.jpg",
               "left": "50%",
               "right": "50%",
               "objectfit": "cover"
@@ -714,7 +714,12 @@
             "mid": "000yjFmS3sHWpG",
             "name": "月光下",
             "interval": 219,
-            "play": [],
+            "play": [
+              {
+                "player": "小稚zzZ",
+                "type": "piano",
+                "url": "https://www.bilibili.com/video/av70438718"
+              }],
             "opern": "http://www.tan8.com/yuepu-55347.html"
           },
           {
@@ -1174,7 +1179,11 @@
             "mid": "001vcVs71Bd3YC",
             "name": "禁忌的爱",
             "interval": 191,
-            "play": [],
+            "play": [{
+                "player": "等你的宫商角徵羽",
+                "type": "piano",
+                "url": "https://www.bilibili.com/video/av73571967"
+              }],
             "opern": ""
           },
           {
@@ -1557,7 +1566,12 @@
             "opern": "http://www.everyonepiano.cn/Music-7170-%E3%83%8F%E3%83%AD%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%8A%E3%82%A4%E3%83%88-%E4%B8%87%E5%9C%A3%E8%8A%82%E4%B9%8B%E5%A4%9C--AKB48.html"
           },
           {
-            "image": null,
+            "image": {
+              "url": "//i1.hdslb.com/bfs/archive/8852d7693ad56586392d9e7a24282b175dbc43a8.jpg",
+              "left": "50%",
+              "right": "50%",
+              "objectfit": "cover"
+	    },
             "id": 104780425,
             "mid": "0049CRd11eSMhs",
             "name": "青春的花瓣",
@@ -1603,7 +1617,7 @@
         "songs": [
           {
             "image": {
-              "url": "http://www.snh48.com/images/zb/cd_fxrs_9.jpg",
+              "url": "http://www.snh48.com/attached/record/2019-08-08/120698cd_fxrs_9.jpg",
               "left": "50%",
               "right": "50%",
               "objectfit": "cover"
@@ -1631,7 +1645,11 @@
             "mid": "003Ys3Wc1Fewb5",
             "name": "青春的约定",
             "interval": 299,
-            "play": [],
+            "play": [{
+                "player": "爷妹子凤梨太帅Yeah",
+                "type": "piano",
+                "url": "https://www.bilibili.com/video/av56221439"
+              }],
             "opern": "http://www.tan8.com/yuepu-55366.html"
           },
           {
