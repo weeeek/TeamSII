@@ -116,7 +116,7 @@ export default {
               let target = Object.assign({}, y)
               let match = false
               while (index < queryArr.length){
-                if (y.title.includes(queryArr[index]) || y.description.includes(queryArr[index])){
+                if (y.title.includes(queryArr[index]) || y.description.includes(queryArr[index]) || y.target.summarize.includes(queryArr[index])){
                   match = true
                   target.title = target.title.replace(new RegExp(queryArr[index],"gm"), `<span class="keywords">${queryArr[index]}</span>`)
                   target.description = target.description.replace(new RegExp(queryArr[index],"gm"), `<span class="keywords">${queryArr[index]}</span>`)
