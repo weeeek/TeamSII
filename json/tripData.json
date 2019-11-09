@@ -4,6 +4,20 @@
     "to": "2019"
   },
   "items": [{
+    "nameMonth": "11月17日 19:00",
+    "title": "《重生计划》第60场",
+    "description": "",
+    "summarize": "",
+    "type": "blue",
+    "url": "http://www.snh48.com/ticket.html"
+  }, {
+    "nameMonth": "11月14日 19:30",
+    "title": "《重生计划》第59场",
+    "description": "",
+    "summarize": "",
+    "type": "blue",
+    "url": "http://www.snh48.com/ticket.html"
+  }, {
     "nameMonth": "11月10日 19:00",
     "title": "《重生计划》第58场",
     "description": "",
@@ -13,10 +27,10 @@
   }, {
     "nameMonth": "11月8日 19:30",
     "title": "《重生计划》第57场",
-    "description": "",
+    "description": "MC1：买过的以为质量好，其实很差的东西,Lost：刘增艳,Hold me tight：戴萌，邵雪聪,解语者：莫寒，刘丽千，王睿琪,最终回合：张语格，蒋芸，邵雪聪，徐晨辰,无罪无我：刘增艳，陈俊羽，陈雨孜,somewhere（女仆）：张语格，蒋芸，陈琳,噩梦轮回：陈思,MC2：方言乱斗,MC3：嘴里塞番茄,MC4：腾格尔吃番茄唱公演曲,安可《生命所谓的意义》",
     "summarize": "",
     "type": "blue",
-    "url": "http://www.snh48.com/ticket.html"
+    "url": "https://www.bilibili.com/video/av75002276"
   }, {
     "nameMonth": "10月31日 19:30",
     "title": "万圣节特别公演",
@@ -38,6 +52,12 @@
     "summarize": "",
     "type": "blue",
     "url": "https://www.bilibili.com/video/av73479639"
+  }, {
+    "nameMonth": "10月23日",
+    "title": "踹踹TV EP02 炸厨房？做苦力？做偶像可太难了 |钱蓓婷|张昕|刘增艳|姜杉",
+    "description": "",
+    "type": "green",
+    "url": "https://www.bilibili.com/video/av73151008"
   }, {
     "nameMonth": "10月21日",
     "title": "心相印·告白季 天猫超市星愿官 | 孙芮",
@@ -874,6 +894,34 @@
     "description": "MC1：曾经梦到过哪位成员，并且发生了什么事？,MC2：如果现在举办一场舞林大会，你会选谁做你的舞伴,MC3：鬼故事大赛(不恐怖上下蹲10个),MC4：我们来讲鬼故事吧！",
     "type": "blue",
     "url": "https://www.bilibili.com/video/av27249922"
+  },  {
+    "nameMonth": "7月7日",
+    "title": "《第48区》",
+    "description": "MC3：觉得新公演哪位成员有撩到你,MC4：如果你当上女团老板，最想让团员做哪些事情？,MC2：安利新团综《星机女学院》,MC1：粉丝给你取过什么比较画风清奇的外号.",
+    "summarize": "反抗不了，就享受吧 ---- by 徐子轩\r\n我们当上女团老板，我们就是女的，我们能让成员干嘛呀 ---- by 邱欣怡",
+    "type": "blue",
+    "url": "https://www.bilibili.com/video/av11982178"
+  }, {
+    "nameMonth": "7月2日",
+    "title": "《第48区》首演第3场 李宇琪拉票",
+    "description": "MC1：最喜欢的Unit,MC3：世界末日有特异功能救谁,MC4：最不能接受的偶像剧情节",
+    "summarize": "你的人生就差这么一点点了 ---- 吴哲晗 to 莫寒",
+    "type": "blue",
+    "url": "https://www.bilibili.com/video/av11826559"
+  }, {
+    "nameMonth": "7月1日",
+    "title": "《第48区》首演第2场 张语格生日公演",
+    "description": "MC1：生日祝福,MC3：有一次读心术的机会你想问谁什么问题,MC4：48G的哪首歌会火遍广场",
+    "summarize": "张一条",
+    "type": "blue",
+    "url": "https://www.bilibili.com/video/av11793261"
+  }, {
+    "nameMonth": "6月30日",
+    "title": "《第48区》首演第一场",
+    "description": "MC1：新公演排练时发生好玩的事,MC2：对新公演的理解,MC3：河外歌配公演舞蹈,MC4：模仿成员撒娇的样子",
+    "summarize": "11:11",
+    "type": "blue",
+    "url": "https://www.bilibili.com/video/av11761574"
   }, {
     "nameMonth": "6月10日",
     "title": "梦想演播厅",
@@ -895,6 +943,20 @@
     "type": "black",
     "url": "https://www.bilibili.com/video/av21789837"
   }, {
+    "nameMonth": "2月18日 14:00",
+    "title": "《心的旅程》第41场 邱欣怡生日公演",
+    "description": "特别表演+生日环节：You are pitiful - FIESTAR,MC1：生日祝福,MC2：哪个成员私底下最爱演,MC3：0.5倍速随机歌曲,MC4：说一个觉得其他人都没做过但是自己做过的事",
+    "summarize": "绣球湾 solo 女王殿下",
+    "type": "blue",
+    "url": "https://www.bilibili.com/video/av19418735"
+  }, {
+    "nameMonth": "2月12日 14:00",
+    "title": "《心的旅程》第40场 成珏生日公演",
+    "description": "MC1：生日祝福,MC2：被怼的最惨的一次经历,MC3：2倍速舞蹈",
+    "summarize": "明天你好 二倍速",
+    "type": "blue",
+    "url": "https://www.bilibili.com/video/av19418735"
+  }, {
     "nameMonth": "2月10日 19:00",
     "title": "迎新春特别公演",
     "description": "那不勒斯的黎明+戎装信仰,MC1：投球抽红包,刘增艳《说散就散》,袁雨桢《我多喜欢你你会知道》,戴萌，张语格，许佳琪，陈观慧 歌舞剧《常回家》,MC2：游戏环节：犬系少女狗狗蹲,莫寒，吴哲晗 舞蹈《TT》,孔肖吟《双生花》,MC3：过年想带什么年货回家/非诚勿扰,《新年的钟声》,《青春的约定》,《好运来》",
@@ -907,6 +969,12 @@
     "description": "",
     "type": "black",
     "url": "https://v.qq.com/x/cover/ep27v9h3o3onzz4/f0025q78hwn.html"
+  }, {
+    "nameMonth": "1月14日",
+    "title": "舞台剧《向阳的星光》",
+    "description": "演出人员列表,星儿-----------------------许逸（NII）,柳叶---------------------刘菊子（NII）,玫瑰-----------------------蒋芸（SII）,花经理-------------------徐晨辰（SII）,向阳----------------------张丹三（X）,星辰---------------------刘增艳（XII）,乔木导演-----------------徐子轩（SII）,兰陵-----------------------成珏（SII）,阿梅---------------------熊沁娴（HII）,兰兰---------------------金莹月（NII）,小枫---------------------袁丹妮（SII）",
+    "type": "black",
+    "url": "https://www.bilibili.com/video/av18310435"
   }]
 }, {
   "year": {
@@ -986,6 +1054,13 @@
     "to": "2016"
   },
   "items": [{
+    "nameMonth": "11月20日",
+    "title": "《心的旅程》第32场",
+    "description": "MC3第一组：分享艾斯兔饭桌上的趣事,MC4：进团后有没有对谁想做但是做不了的事,MC2：分享一首能引起大家共鸣的歌,MC1：推荐一个冬天的娱乐项目",
+    "summarize": "饭桌趣事：干死莫寒",
+    "type": "blue",
+    "url": "https://www.bilibili.com/video/av7186329"
+  }, {
     "nameMonth": "9月2日",
     "title": "五队联合男装特别公演",
     "description": "周杰伦歌曲串烧：沈之琳,少女的遗憾：冯晓菲,降落伞：徐晨晨,小品：徐晨晨，温晶婕，孙芮",
@@ -1006,16 +1081,22 @@
     "url": "https://v.qq.com/x/cover/ox1wjaljy0b0lzi/f00213kcpwl.html"
   }, {
     "nameMonth": "5月20日 19:00",
-    "title": "原创公演《心的旅程》第1场",
+    "title": "《心的旅程》第1场",
     "description": "出席成员：陈观慧、陈思、成珏、戴萌、冯晓菲、蒋芸、孔肖吟、李宇琪、刘力玮、莫寒、钱蓓婷、沈之琳、吴哲晗、徐晨辰、徐子轩、许佳琪、袁丹妮、袁雨桢",
     "summarize": "0，马上出发\r\n（作词、作曲、编曲：上海星四芭）\r\n1，心的旅程\r\n（作词、作曲：浅紫；编曲：谢维）\r\n2，时差密码\r\n（作词：小7；作曲、编曲：ASPJ）\r\n3，小宇宙\r\n（作词：浅紫；作曲、编曲：鸭毛）\r\n4，蒙娜丽莎没有自拍照\r\n（作词：浅紫；作曲：姜帆；编曲：谢维）\r\n5，好友创口贴\r\n（作词、作曲：鸭毛；编曲：戴浪）\r\n6，地平线\r\n（作词：浅紫；作曲：林从胤；编曲：刘兴华/杨任衔）\r\n7，下一站是你\r\n（作词：浅紫；作曲：林从胤；编曲：谢维）\r\n8，新世界\r\n（作词：小7；作曲：鸭毛；编曲：郭伟聪）\r\n9，降落伞\r\n（作词：浅紫；作曲：姜帆；编曲：谢维）\r\n10，狂欢亚马逊\r\n（作词、作曲：鸭毛；编曲：刘兴华/杨任衔）\r\n11，罗马假日\r\n（作词：小7；作曲、编曲：ASPJ）\r\n12，纽约梦\r\n（作词：张欣瑜；作曲：林从胤；编曲：林祐睿/杨任衔）\r\n13，月光下\r\n（作词：周富坚/浅紫；作曲：周富坚；编曲：鸭毛）\r\n14，潮流冠军\r\n（作词：芮英杰/浅紫；作曲：芮英杰；编曲：刘衍霖）\r\n15，青春号角\r\n（作词：陈立志；作曲：姜帆；编曲：谢维）\r\n16，我的舞台\r\n（作词: 甘世佳 作曲、编曲：ASPJ）",
     "type": "blue",
     "url": "https://space.bilibili.com/12444300/channel/detail?cid=939"
   }, {
     "nameMonth": "5月14日 19:00",
+    "title": "史上最禁忌激情黄金4P版《夜蝶》",
+    "description": "达成成就：最高B站日排行30名",
+    "type": "blue",
+    "url": "https://www.bilibili.com/video/av4654252"
+  }, {
+    "nameMonth": "5月14日 19:00",
     "title": "纪念公演《十八个闪耀瞬间》第16场，千秋乐",
-    "description": "出席成员：陈观慧、陈思、成珏、戴萌、蒋芸、孔肖吟、李宇琪、刘力玮、莫寒、钱蓓婷、申月姣、沈之琳、吴哲晗、徐晨辰、徐子轩、许佳琪、袁丹妮、袁雨桢、 张语格、赵晔",
-    "summarize": "数据来源：http://wiki.akbfun48.com/index.php?title=SNH48_Team_SII剧场公演合集",
+    "description": "勇气重生，梅洛斯之路，爱的洄游鱼，呜吒,MC1：对十八个闪耀瞬间这场公演的想法,天使的尾巴，黑天使，傲娇女孩，爱恨的泪，再见制服，梦之河,MC2：十八个闪耀瞬间公演你很后悔还有什么歌曲你没有加入进来,,,,,,,,,,,MC3：第一组你最想壁咚哪位成员,MC4：你认为谁是本队的秒懂担当,毒蜘蛛，初日，绿光，神魂颠倒，生命所谓的意义，眼泪深呼吸，加油S队,谢幕彩蛋：盛夏的花+开拓者+日升日落+神魂颠倒+勇气重生",
+    "summarize": "",
     "type": "blue",
     "url": "https://www.bilibili.com/video/av4654252"
   }, {
@@ -1028,7 +1109,6 @@
     "nameMonth": "2月26日 19:00",
     "title": "纪念公演《十八个闪耀瞬间》第1场",
     "description": "出席成员：陈观慧、陈思、戴萌、冯晓菲、蒋芸、孔肖吟、李宇琪、刘力玮、莫寒、钱蓓婷、申月姣、沈之琳、孙芮、温晶婕、徐子轩、袁丹妮、袁雨桢、张语格 、赵晔",
-    "summarize": "数据来源：http://wiki.akbfun48.com/index.php?title=SNH48_Team_SII剧场公演合集",
     "type": "blue",
     "url": "https://www.bilibili.com/video/av6778371"
   }, {

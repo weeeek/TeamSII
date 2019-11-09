@@ -105,7 +105,7 @@ export default {
   #app
     margin-right calc(100% - 100vw)
     width 100%
-    background-image url('/TeamSII/static/images/bg.jpg')
+    background-image url('http://47.97.248.244/static/images/bg.jpg')
     .container
       height auto
   @media screen and (min-width 1366px)

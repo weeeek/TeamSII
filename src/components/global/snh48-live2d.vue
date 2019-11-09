@@ -17,7 +17,7 @@ export default {
   name: "live-snh",
   data() {
     return {
-      modelPath: "static/live2d/Terisa/model.json",
+      modelPath: "http://47.97.248.244/static/live2d/Terisa/model.json",
       customDialogue: live2dCofnig,
       toolsData: [
         { tabMsg: "home", backgroundColor: "#ff0", show: false },
