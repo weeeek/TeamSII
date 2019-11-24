@@ -240,6 +240,7 @@ export default {
   },
   mounted() {
     // this.analys()
+    document.getElementsByTagName("audio")[0].volume = this.currentVolume
   },
   methods: {
     back() {

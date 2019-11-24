@@ -41,14 +41,4 @@
         line-height 20px
         font-weight bold
         text-align center
-  @media screen and (min-width 1366px)
-    .waterfall
-        -moz-column-count 3
-        -webkit-column-count 3
-        column-count 3
-  @media screen and (max-width 560px)
-    .waterfall
-      -moz-column-count 1
-      -webkit-column-count 1
-      column-count 1
 </style>

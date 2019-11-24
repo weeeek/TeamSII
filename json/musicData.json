@@ -1,7 +1,7 @@
 ﻿[
   {
     "typeName": "公演曲",
-    "group": [      
+    "group": [
       {
         "title": "重生计划",
         "songs": [
@@ -719,7 +719,8 @@
                 "player": "小稚zzZ",
                 "type": "piano",
                 "url": "https://www.bilibili.com/video/av70438718"
-              }],
+              }
+            ],
             "opern": "http://www.tan8.com/yuepu-55347.html"
           },
           {
@@ -778,7 +779,7 @@
         "songs": [
           {
             "image": {
-              "url": "//www.snh48.com/images/show/sy_logo.jpg",
+              "url": "http://newsimg.snh48.com/2015/0612/20150612065039793.jpg",
               "left": "50%",
               "right": "50%",
               "objectfit": "cover"
@@ -795,12 +796,42 @@
       {
         "title": "勇气重生",
         "enabled": false,
-        "songs": []
+        "songs": [
+          {
+            "image": {
+              "url": "http://newsimg.snh48.com/2014/1108/20141108035627540.jpg",
+              "left": "50%",
+              "right": "50%",
+              "objectfit": "cover"
+            },
+            "id": 124746759,
+            "mid": "001T7jd331k8Ht",
+            "name": "勇气重生+焕然一新+能做你的女友吗+呜吼吼",
+            "interval": 2747,
+            "play": [],
+            "opern": null
+          }
+        ]
       },
       {
         "title": "不眠之夜",
         "enabled": false,
-        "songs": []
+        "songs": [
+          {
+            "image": {
+              "url": "http://www.snh48.com/event/s48/images/zs_5.jpg",
+              "left": "50%",
+              "right": "50%",
+              "objectfit": "cover"
+            },
+            "id": 102350013,
+            "mid": "004NPt0k2XkPZf",
+            "name": "不眠之夜",
+            "interval": 171,
+            "play": [],
+            "opern": null
+          }
+        ]
       },
       {
         "title": "永恒之光",
@@ -808,10 +839,10 @@
         "songs": [
           {
             "image": {
-              "url": "//www.snh48.com/images/show/ts_logo.jpg",
+              "url": "http://www.snh48.com/attached/show/15/2019-08-01/15144951S2_3.jpg",
               "left": "50%",
               "right": "50%",
-              "objectfit": "cover"
+              "objectfit": "contain"
             },
             "id": 5205169,
             "mid": "001Fsjec2lCO5m",
@@ -828,10 +859,10 @@
         "songs": [
           {
             "image": {
-              "url": "//www.snh48.com/images/show/zs_logo_n.jpg",
+              "url": "http://www.snh48.com/attached/show/11/2019-07-19/111644238795.jpg",
               "left": "50%",
               "right": "50%",
-              "objectfit": "cover"
+              "objectfit": "contain"
             },
             "id": 102328672,
             "mid": "000bbjnr00GNSi",
@@ -1157,10 +1188,10 @@
             "singer": [
               "李宇琪"
             ],
-            "id": 8145229,
-            "mid": "003Dnw7h339tT2",
+            "id": 102349994,
+            "mid": "001rSfhS3eeRrS",
             "name": "夕阳下的约定",
-            "interval": 298,
+            "interval": 193,
             "play": [],
             "opern": ""
           },
@@ -1179,11 +1210,13 @@
             "mid": "001vcVs71Bd3YC",
             "name": "禁忌的爱",
             "interval": 191,
-            "play": [{
+            "play": [
+              {
                 "player": "等你的宫商角徵羽",
                 "type": "piano",
                 "url": "https://www.bilibili.com/video/av73571967"
-              }],
+              }
+            ],
             "opern": ""
           },
           {
@@ -1394,7 +1427,7 @@
             "name": "心的旅程（纪念版）",
             "interval": 257,
             "play": [],
-            "opern": ""
+            "opern": "http://www.tan8.com/yuepu-66722.html"
           }
         ]
       },
@@ -1571,7 +1604,7 @@
               "left": "50%",
               "right": "50%",
               "objectfit": "cover"
-	    },
+            },
             "id": 104780425,
             "mid": "0049CRd11eSMhs",
             "name": "青春的花瓣",
@@ -1645,11 +1678,13 @@
             "mid": "003Ys3Wc1Fewb5",
             "name": "青春的约定",
             "interval": 299,
-            "play": [{
+            "play": [
+              {
                 "player": "爷妹子凤梨太帅Yeah",
                 "type": "piano",
                 "url": "https://www.bilibili.com/video/av56221439"
-              }],
+              }
+            ],
             "opern": "http://www.tan8.com/yuepu-55366.html"
           },
           {
@@ -1686,6 +1721,15 @@
             "mid": "000OSXRD1kUyOu",
             "name": "悬铃木",
             "interval": 276,
+            "play": [],
+            "opern": null
+          },
+          {
+            "image": null,
+            "id": 8145229,
+            "mid": "003Dnw7h339tT2",
+            "name": "夕阳下的约定",
+            "interval": 298,
             "play": [],
             "opern": null
           }
