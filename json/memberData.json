@@ -289,6 +289,24 @@
       }
     },
     {
+      "name": "王贝妮",
+      "photo": "http://www.snh48.com/images/member/zp_10226.jpg",
+      "weibo": "u/7337598871",
+      "bilibili": null,
+      "douyin": null,
+      "changba": null,
+      "miaopai": null,
+      "pocket48": {
+        "id": 0,
+        "roomId": 0
+      },
+      "group": null,
+      "modian": {
+        "enabled": false,
+        "id": "0"
+      }
+    },
+    {
       "name": "吴哲晗",
       "photo": "http://www.snh48.com/images/member/zp_10013.jpg",
       "weibo": "u/3050731261",
@@ -359,6 +377,24 @@
       "modian": {
         "enabled": true,
         "id": "1156063"
+      }
+    },
+    {
+      "name": "由淼",
+      "photo": "http://www.snh48.com/images/member/zp_10227.jpg",
+      "weibo": "u/7337600874",
+      "bilibili": null,
+      "douyin": null,
+      "changba": null,
+      "miaopai": null,
+      "pocket48": {
+        "id": 0,
+        "roomId": 0
+      },
+      "group": null,
+      "modian": {
+        "enabled": false,
+        "id": "0"
       }
     },
     {
@@ -481,6 +517,24 @@
   ],
   "exitMemberData": [
     {
+      "name": "徐子轩",
+      "photo": "http://www.snh48.com/images/member/zp_10016.jpg",
+      "weibo": "u/6168787538",
+      "bilibili": "1846928",
+      "douyin": "660925792",
+      "changba": null,
+      "miaopai": null,
+      "pocket48": {
+        "id": 14,
+        "roomId": 67313790
+      },
+      "group": "demoon",
+      "modian": {
+        "enabled": true,
+        "id": "1105967"
+      }
+    },
+    {
       "name": "赵嘉敏",
       "photo": "//wx3.sinaimg.cn/middle/006xb584ly1fthcie6o7qj31jk2bcnpf.jpg",
       "weibo": "u/5987057408",
@@ -523,24 +577,6 @@
       "modian": {
         "enabled": false,
         "id": ""
-      }
-    },
-    {
-      "name": "徐子轩",
-      "photo": "http://www.snh48.com/images/member/zp_10016.jpg",
-      "weibo": "u/6168787538",
-      "bilibili": "1846928",
-      "douyin": "660925792",
-      "changba": null,
-      "miaopai": null,
-      "pocket48": {
-        "id": 14,
-        "roomId": 67313790
-      },
-      "group": "demoon",
-      "modian": {
-        "enabled": true,
-        "id": "1105967"
       }
     },
     {
@@ -731,6 +767,21 @@
       "photo": "http://wx1.sinaimg.cn/mw690/6a33ab53ly8g1end1mjr7j20e80e8aas.jpg",
       "weibo": "hehe12345",
       "bilibili": "146943307",
+      "douyin": null,
+      "changba": null,
+      "miaopai": null,
+      "pocket48": null,
+      "group": null,
+      "modian": {
+        "enabled": false,
+        "id": ""
+      }
+    },
+    {
+      "name": "丁紫妍",
+      "photo": "https://wx1.sinaimg.cn/mw1024/8d23d91dgy1g4bb4u328vj20u014nqu8.jpg",
+      "weibo": "u/2367936797",
+      "bilibili": null,
       "douyin": null,
       "changba": null,
       "miaopai": null,
