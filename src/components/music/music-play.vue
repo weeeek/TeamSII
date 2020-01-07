@@ -240,7 +240,7 @@ export default {
   },
   mounted() {
     // this.analys()
-    document.getElementsByTagName("audio")[0].volume = this.currentVolume
+    document.getElementsByTagName("audio")[0].volume = this.currentVolume;
   },
   methods: {
     back() {
@@ -742,7 +742,6 @@ export default {
 
     .top {
       position: relative;
-      margin-bottom: 40px;
 
       .back {
         position: absolute;
@@ -782,10 +781,9 @@ export default {
       width: 100%;
       height: calc(100% - 80px - 180px);
       white-space: nowrap;
-      justify-content: center;
+      justify-content: space-around;
 
       .middle-l {
-        padding-top: 50px;
         vertical-align: top;
 
         .cd-wrapper {
@@ -1098,18 +1096,38 @@ export default {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1366px) {
+  .top{
+    margin-bottom: 40px;
+  }
+  .middle-l {
+    padding-top: 50px;
+
+    .cd-wrapper {
+      .cd {
+        width: 600px;
+        height: 600px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1366px) {  
+  .top{  
+    margin-bottom: 20px;
+  }
   .range-slider {
     width: 200px;
   }
 
   .middle-l {
     flex: 0 0 50%;
+    padding-top: 0;
 
     .cd-wrapper {
       .cd {
-        width: 600px;
-        height: 600px;
+        width: 460px;
+        height: 460px;
       }
     }
   }
@@ -1129,8 +1147,8 @@ export default {
 
     .cd-wrapper {
       .cd {
-        width: 500px;
-        height: 500px;
+        width: 400px;
+        height: 400px;
       }
     }
   }
@@ -1152,6 +1170,7 @@ export default {
 
         .middle-l {
           flex: 0 0 320px;
+          padding-top: 50px;
 
           .cd-wrapper {
             .cd {

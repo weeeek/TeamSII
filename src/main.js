@@ -24,9 +24,10 @@ Vue.use(AnimateNumber)
 Vue.use(VueCollapse)
 Vue.use(infiniteScroll)
 Vue.use(VueHighcharts, { Highcharts })
-Vue.use(VueLazyload, {
-  loading: require('common/image/default.png')
-})
+Vue.use(VueLazyload)
+// Vue.use(VueLazyload, {
+//   loading: require('common/image/default.png')
+// })
 
 /* eslint-disable no-new */
 // 注入Store

@@ -13,15 +13,7 @@
             <div class="cover"></div>
           </div>
           <div class="name">{{m.name}}</div>
-          <div class="accounts">
-            <a :href="`//weibo.com/${m.weibo}`" :title="`微博-${m.name}`" target="_blank" class="favicon favicon-weibo" v-if="m.weibo"></a>
-            <a :href="`//space.bilibili.com/${m.bilibili}`" :title="`B站-${m.name}`" target="_blank" class="favicon favicon-bilibili" v-if="m.bilibili"></a>
-            <!-- <a href="javascript:void(0)" :data-clipboard-text="m.douyin" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a> -->
-            <a href="javascript:void(0)" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a>
-            <a :href="m.changba" :title="`唱吧-${m.name}`" target="_blank" class="favicon favicon-changba" v-if="m.changba"></a>
-            <a :href="m.miaopai" :title="`秒拍-${m.name}`" target="_blank" class="favicon favicon-miaopai" v-if="m.miaopai"></a>
-            <a :href="m.weibomusic" :title="`微博音乐-${m.name}`" target="_blank" class="favicon favicon-music-weibo" v-if="m.weibomusic"></a>
-          </div>
+          <MemberAccount :data="m"></MemberAccount>
         </div>
       </div>
     </div>
@@ -45,15 +37,7 @@
             <div class="cover"></div>
           </div>
           <div class="name">{{m.name}}</div>
-          <div class="accounts">
-            <a :href="`//weibo.com/${m.weibo}`" :title="`微博-${m.name}`" target="_blank" class="favicon favicon-weibo" v-if="m.weibo"></a>
-            <a :href="`//space.bilibili.com/${m.bilibili}`" :title="`B站-${m.name}`" target="_blank" class="favicon favicon-bilibili" v-if="m.bilibili"></a>
-            <!-- <a href="javascript:void(0)" :data-clipboard-text="m.douyin" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a> -->
-            <a href="javascript:void(0)" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a>
-            <a :href="m.changba" :title="`唱吧-${m.name}`" target="_blank" class="favicon favicon-changba" v-if="m.changba"></a>
-            <a :href="m.miaopai" :title="`秒拍-${m.name}`" target="_blank" class="favicon favicon-miaopai" v-if="m.miaopai"></a>
-            <a :href="m.weibomusic" :title="`微博音乐-${m.name}`" target="_blank" class="favicon favicon-music-weibo" v-if="m.weibomusic"></a>
-          </div>
+          <MemberAccount :data="m"></MemberAccount>
         </div>
       </div>
     </div>
@@ -66,15 +50,7 @@
             <div class="cover"></div>
           </div>
           <div class="name">{{m.name}}</div>
-          <div class="accounts">
-            <a :href="`//weibo.com/${m.weibo}`" :title="`微博-${m.name}`" target="_blank" class="favicon favicon-weibo" v-if="m.weibo"></a>
-            <a :href="`//space.bilibili.com/${m.bilibili}`" :title="`B站-${m.name}`" target="_blank" class="favicon favicon-bilibili" v-if="m.bilibili"></a>
-            <!-- <a href="javascript:void(0)" :data-clipboard-text="m.douyin" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a> -->
-            <a href="javascript:void(0)" :title="`${m.name}-抖音号：${m.douyin}`" target="_blank" class="favicon favicon-douyin" v-if="m.douyin"></a>
-            <a :href="m.changba" :title="`唱吧-${m.name}`" target="_blank" class="favicon favicon-changba" v-if="m.changba"></a>
-            <a :href="m.miaopai" :title="`秒拍-${m.name}`" target="_blank" class="favicon favicon-miaopai" v-if="m.miaopai"></a>
-            <a :href="m.weibomusic" :title="`微博音乐-${m.name}`" target="_blank" class="favicon favicon-music-weibo" v-if="m.weibomusic"></a>
-          </div>
+          <MemberAccount :data="m"></MemberAccount>
         </div>
       </div>
     </div>
@@ -83,12 +59,14 @@
 
 <script type="text/ecmascript-6">
   import WordCloud from 'components/plugin/highchart-wordcloud'
+  import MemberAccount from 'components/index/member-account.vue'
   import {getMemberData} from 'config/memberData'
 
   export default {
     name: 'Index',
     components: {
-      WordCloud
+      WordCloud,
+      MemberAccount
     },
     data () {
       const text = 'Team SII,Team SII,小品队,社会,模特队,老司机,运动健儿,反应满分,人高马大又很拽,翻车女孩,邪恶势力,一天世界,动物园,底气,神魂颠倒,钻石呐喊,我的舞台,无尽旋转,激流之战,化作樱花树,支柱,初日,勇气重生,不眠之夜,梦之河,永恒之光,让梦想闪耀,心的旅程,第48区,Mad World,毒蜘蛛,机尾云,我的存在,战歌,废墟纪元,降落伞,青春的花瓣,马尾与发圈,再爱一回,黑天使,48个秘密,梅洛斯之路,盛夏好声音,新世界,幻,天使的圈套,流着泪微笑,绿光,Mute,开拓者,生命之风,Go away,UZA,好友创可贴,黑白格子裙,mammoth,最后的钟声响起,男友制作秘籍,不想太伟大,初恋小盗,对不起我的宝贝,夜蝶,16人姐妹歌,战役的崛起,冷酷女孩,爱的洄游鱼,期待相遇,暹罗猫,回到那天,睡美人,爱的降临,心型病毒,恋爱禁止条例,傲娇女孩,盛夏的花,遥控器,109,旧球鞋,SNH参上,眼泪深呼吸,必杀技,恋爱中的美人鱼,浪漫单车,天使的尾巴,纯情主义,爱恨的泪,镜中圣女,两年后,生命所谓的意义,Kiss,青春,加油!S队,水手梦,闪耀的你,柠檬的年纪,焕然一新,能做你的女友吗,呜吼吼,再见制服,错过奇迹,王子殿下,献给明天的吻,新的港湾,放手一搏,白色情人节,记忆的拼图,仰望星空,日升日落,新的旅程,雨季之后,遥远的彼岸,剧场女神,不需要浪漫,永不放弃,爱与自尊,Bye Bye Bye,巧克力糖果,青涩的香蕉,记忆迷宫,不曾后悔,森林漫步,青春闪电,活着真好,爱的毛巾,爱与和平,左右为难,爱情感冒药,时差密码,蒙娜丽莎没有自拍照,地平线,下一站是你,狂欢亚马逊,罗马假日,纽约梦,月光下,潮流冠军,青春号角,破茧,Drop It,Good Time,爱未央,灵魂使者,寒夜,冒险乐园,无尽的世界,天使与恶魔,Burning Up,La La La,虫之诗,自我主张,幸福的压力,樱花书签,爱的幸运曲奇,石头剪刀布,飞翔入手,借口,心电感应,晨光,黑洞,Who is the one,Forever XLVIII,Lost,Hold me tight,解语者,最终回合,无罪无我,Somewhere,噩梦轮回,Restart,预言,彼岸花,重生计划,坐标 121E 31N'
@@ -163,26 +141,6 @@
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
-.favicon
-  background-repeat no-repeat
-  background-position center center
-  background-size cover
-  &.disable
-    filter grayscale(1)
-    cursor not-allowed
-    pointer-events none
-.favicon-weibo
-  background-image url('//weibo.com/favicon.ico')
-.favicon-bilibili
-  background-image url('//www.bilibili.com/favicon.ico')
-.favicon-douyin
-  background-image url('//www.douyin.com/favicon.ico')
-.favicon-changba
-  background-image url('//changba.com/favicon.ico')
-.favicon-miaopai
-  background-image url('//www.miaopai.com/favicon.ico')
-.favicon-music-weibo
-  background-image url('//image2.sina.com.cn/music/web/logo/weibo2012/logo_16.ico')
 #wordcloud-container
   height 400px
   width 100%
@@ -239,13 +197,7 @@
           background-size contain 
           width 100%
           height 100%
-      .accounts
-        margin 0 auto
-        display flex
-        justify-content space-around
-        .favicon
-          flex-grow 0
-          flex-shrink 1
+      
 @media screen and (min-width 1366px)
   .slogan  
     font-size 24px

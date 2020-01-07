@@ -15,11 +15,11 @@
                 @click="selectItem(item,index)">
               <i class="current" :class="getCurrentIcon(item)"></i>
               <span class="text" v-html="item.name"></span>
-              <span @click.stop="toggleFavorite(item)" class="like">
+              <!-- <span @click.stop="toggleFavorite(item)" class="like">
                 <i :class="getFavoriteIcon(item)"></i>
-              </span>
-              <span @click.stop="deleteOne(item)" class="delete">
-                <i class="icon-delete"></i>
+              </span> -->
+              <span @click.stop="deleteOne(item)" class="delete">                
+                <jam-delete :fillColor="fillColor" />
               </span>
             </li>
           </transition-group>
@@ -47,11 +47,13 @@
   import Confirm from 'base/confirm/confirm'
   import AddSong from 'components/music/add-song'
   import {playerMixin} from 'common/js/mixin'
+  
 
   export default {
     mixins: [playerMixin],
     data() {
       return {
+        fillColor: "#87cefa",
         showFlag: false,
         refreshDelay: 120
       }

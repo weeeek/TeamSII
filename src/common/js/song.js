@@ -6,7 +6,7 @@ import { Base64 } from 'js-base64'
 let urlMap = {}
 
 export default class Song {
-  constructor ({id, mid, singer, name, album, duration, image, url, play, opern, lyric}) {
+  constructor ({id, mid, singer, name, album, duration, image, url, play, opern, lyric, lyricDelay = 0}) {
     this.id = id
     this.mid = mid
     this.singer = singer
@@ -18,6 +18,7 @@ export default class Song {
     this.play = play
     this.opern = opern
     this.lyric = lyric
+    this.lyricDelay = lyricDelay
     // 确保一首歌曲的 id 只对应一个 url
     if (urlMap[this.id]) {
       this.url = urlMap[this.id]

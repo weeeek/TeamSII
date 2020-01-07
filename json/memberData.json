@@ -5,8 +5,11 @@
       "photo": "http://www.snh48.com/images/member/zp_10001.jpg",
       "weibo": "u/3050708243",
       "bilibili": "192476819",
-      "douyin": "602985242",
-      "changba": "http://changba.comu/150709347",
+      "douyin": {
+        "number": "602985242",
+        "id": ""
+      },
+      "changba": "http://changba.com/u/150709347",
       "miaopai": null,
       "pocket48": {
         "id": 3,
@@ -23,7 +26,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10206.jpg",
       "weibo": "u/6501690381",
       "bilibili": 18064789,
-      "douyin": "614700897",
+      "douyin": {
+        "number": "614700897",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": {
@@ -41,7 +47,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10002.jpg",
       "weibo": "u/3050742117",
       "bilibili": "19383319",
-      "douyin": "665951014",
+      "douyin": {
+        "number": "665951014",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": {
@@ -77,7 +86,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10003.jpg",
       "weibo": "dddiamonddd",
       "bilibili": "18946307",
-      "douyin": "diamooond28",
+      "douyin": {
+        "number": "diamooond28",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": {
@@ -95,8 +107,11 @@
       "photo": "http://www.snh48.com/images/member/zp_10004.jpg",
       "weibo": "u/3675573934",
       "bilibili": "114866",
-      "douyin": "JiangYun327",
-      "changba": "http://changba.comu/46716517",
+      "douyin": {
+        "number": "JiangYun327",
+        "id": ""
+      },
+      "changba": "http://changba.com/u/46716517",
       "miaopai": null,
       "pocket48": {
         "id": 17,
@@ -113,7 +128,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10005.jpg",
       "weibo": "u/3058127927",
       "bilibili": null,
-      "douyin": "371432782",
+      "douyin": {
+        "number": "371432782",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": {
@@ -131,7 +149,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10006.jpg",
       "weibo": "u/3050792913",
       "bilibili": "3882983",
-      "douyin": "28221702",
+      "douyin": {
+        "number": "28221702",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": {
@@ -167,8 +188,13 @@
       "photo": "http://www.snh48.com/images/member/zp_10125.jpg",
       "weibo": "u/5681431767",
       "bilibili": "472626",
-      "douyin": "869971950",
+      "douyin": {
+        "number": "869971950",
+        "id": "97575976658"
+      },
       "changba": null,
+      "wangyiCloud": 389979421,
+      "acfun": 4214570,
       "miaopai": null,
       "pocket48": {
         "id": 63566,
@@ -185,7 +211,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10007.jpg",
       "weibo": "momo0v03",
       "bilibili": "323856",
-      "douyin": "708165492",
+      "douyin": {
+        "number": "708165492",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": {
@@ -203,7 +232,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10008.jpg",
       "weibo": "u/3055272517",
       "bilibili": "22062404",
-      "douyin": "572856432",
+      "douyin": {
+        "number": "572856432",
+        "id": ""
+      },
       "changba": null,
       "miaopai": "https://www.miaopai.comu/paike_f77xpyubxr",
       "pocket48": {
@@ -221,7 +253,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10009.jpg",
       "weibo": "u/3062769307",
       "bilibili": "144873060",
-      "douyin": "62534021",
+      "douyin": {
+        "number": "62534021",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": {
@@ -239,7 +274,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10010.jpg",
       "weibo": "u/3669091483",
       "bilibili": "11777755",
-      "douyin": "srsrsr333333srsr",
+      "douyin": {
+        "number": "srsrsr333333srsr",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": {
@@ -257,7 +295,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10086.jpg",
       "weibo": "u/5460952383",
       "bilibili": "18736885",
-      "douyin": "1050881824",
+      "douyin": {
+        "number": "1050881824",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": {
@@ -293,7 +334,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10226.jpg",
       "weibo": "u/7337598871",
       "bilibili": null,
-      "douyin": null,
+      "douyin": {
+        "number": "wbn920",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": {
@@ -311,8 +355,11 @@
       "photo": "http://www.snh48.com/images/member/zp_10013.jpg",
       "weibo": "u/3050731261",
       "bilibili": "299303884",
-      "douyin": "570521305",
-      "changba": "http://changba.comu/119484593",
+      "douyin": {
+        "number": "570521305",
+        "id": ""
+      },
+      "changba": "http://changba.com/u/119484593",
       "miaopai": null,
       "pocket48": {
         "id": 39,
@@ -329,8 +376,11 @@
       "photo": "http://www.snh48.com/images/member/zp_10014.jpg",
       "weibo": "u/3050758665",
       "bilibili": null,
-      "douyin": "583908288",
-      "changba": "http://changba.comu/99463480",
+      "douyin": {
+        "number": "583908288",
+        "id": ""
+      },
+      "changba": "http://changba.com/u/99463480",
       "weibomusic": "http://music.weibo.com/t/s/3050758665.html",
       "miaopai": null,
       "pocket48": {
@@ -348,7 +398,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10015.jpg",
       "weibo": "u/3050737061",
       "bilibili": "18873979",
-      "douyin": "hellokiki77",
+      "douyin": {
+        "number": "hellokiki77",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": {
@@ -366,7 +419,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10073.jpg",
       "weibo": "u/5225886388",
       "bilibili": null,
-      "douyin": "yuandanni",
+      "douyin": {
+        "number": "yuandanni",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": {
@@ -384,7 +440,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10227.jpg",
       "weibo": "u/7337600874",
       "bilibili": null,
-      "douyin": null,
+      "douyin": {
+        "number": "0805ym",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": {
@@ -402,8 +461,11 @@
       "photo": "http://www.snh48.com/images/member/zp_10017.jpg",
       "weibo": "u/3720838047",
       "bilibili": "213790489",
-      "douyin": "576412860",
-      "changba": "http://changba.comu/58705105",
+      "douyin": {
+        "number": "576412860",
+        "id": ""
+      },
+      "changba": "http://changba.com/u/58705105",
       "miaopai": null,
       "pocket48": {
         "id": 5,
@@ -420,7 +482,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10019.jpg",
       "weibo": "u/3050783091",
       "bilibili": "326347677",
-      "douyin": "368860177",
+      "douyin": {
+        "number": "368860177",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": {
@@ -483,7 +548,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10153.jpg",
       "weibo": "u/6021143413",
       "bilibili": "11399736",
-      "douyin": "Kokoi_",
+      "douyin": {
+        "number": "Kokoi_",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": {
@@ -501,7 +569,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10082.jpg",
       "weibo": "u/5461287018",
       "bilibili": "4873439",
-      "douyin": "384991613",
+      "douyin": {
+        "number": "384991613",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": {
@@ -521,7 +592,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10016.jpg",
       "weibo": "u/6168787538",
       "bilibili": "1846928",
-      "douyin": "660925792",
+      "douyin": {
+        "number": "660925792",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": {
@@ -599,7 +673,7 @@
       "photo": "http://www.snh48.com/images/member/zp_10155.jpg",
       "weibo": "u/6292981540",
       "bilibili": "",
-      "douyin": "",
+      "douyin": null,
       "changba": null,
       "miaopai": null,
       "pocket48": null,
@@ -614,7 +688,7 @@
       "photo": "http://www.snh48.com/images/member/zp_10154.jpg",
       "weibo": "",
       "bilibili": "",
-      "douyin": "",
+      "douyin": null,
       "changba": null,
       "miaopai": null,
       "pocket48": null,
@@ -629,7 +703,7 @@
       "photo": "http://www.snh48.com/images/member/zp_10011.jpg",
       "weibo": "linaixin2007",
       "bilibili": "",
-      "douyin": "",
+      "douyin": null,
       "changba": null,
       "miaopai": null,
       "pocket48": null,
@@ -644,7 +718,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10142.jpg",
       "weibo": "u/5861419679",
       "bilibili": "",
-      "douyin": "CJ_0103",
+      "douyin": {
+        "number": "CJ_0103",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": null,
@@ -659,7 +736,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10077.jpg",
       "weibo": "u/5221220112",
       "bilibili": "2310475",
-      "douyin": "Yukino828",
+      "douyin": {
+        "number": "Yukino828",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": 6429,
@@ -689,7 +769,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10197.jpg",
       "weibo": "u/6502268109",
       "bilibili": null,
-      "douyin": "4746929",
+      "douyin": {
+        "number": "4746929",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": {
@@ -707,7 +790,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10069.jpg",
       "weibo": "u/5228057280",
       "bilibili": "14801692",
-      "douyin": "163927666",
+      "douyin": {
+        "number": "163927666",
+        "id": ""
+      },
       "changba": null,
       "miaopai": null,
       "pocket48": 43,
