@@ -156,7 +156,14 @@
       position absolute
       top -1em
       left -.5px
-
+  .bilibili
+    height 100% 
+    width 2em
+    display inline-block
+    background-image url('//www.bilibili.com/favicon.ico')
+    background-size contain
+    background-position center center
+    background-repeat no-repeat
 
   .song-list
     ul

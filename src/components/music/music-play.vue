@@ -42,9 +42,6 @@
                 />
               </div>
             </div>
-            <!-- <div class="playing-lyric-wrapper">
-              <div class="playing-lyric">{{playingLyric}}</div>
-            </div>-->
             <!-- <canvas ref="canvas" id="canvas" width="575" height="250"></canvas> -->
           </div>
           <scroll class="middle-r" ref="lyricList" :data="currentLyric && currentLyric.lines">
@@ -405,33 +402,34 @@ export default {
     getLyric() {
       if (this.currentSong.notQQMusic) {
         this.isPureMusic = true;
-        return;
       }
-      this.currentSong
-        .getLyric(this.currentSong.mid)
-        .then(lyric => {
-          if (this.currentSong.lyric !== lyric) {
-            return;
-          }
-          this.currentLyric = new Lyric(lyric, this.handleLyric);
-          this.isPureMusic = !this.currentLyric.lines.length;
-          if (this.isPureMusic) {
-            this.pureMusicLyric = this.currentLyric.lrc
-              .replace(timeExp, "")
-              .trim();
-            this.playingLyric = this.pureMusicLyric;
-          } else {
-            if (this.playing && this.canLyricPlay) {
-              // 这个时候有可能用户已经播放了歌曲，要切到对应位置
-              this.currentLyric.seek(this.currentTime * 1000);
+      if (this.currentSong.mid) {
+        this.currentSong
+          .getLyric(this.currentSong.mid)
+          .then(lyric => {
+            if (this.currentSong.lyric !== lyric) {
+              return;
             }
-          }
-        })
-        .catch(() => {
-          this.currentLyric = null;
-          this.playingLyric = "";
-          this.currentLineNum = 0;
-        });
+            this.currentLyric = new Lyric(lyric, this.handleLyric);
+            this.isPureMusic = !this.currentLyric.lines.length;
+            if (this.isPureMusic) {
+              this.pureMusicLyric = this.currentLyric.lrc
+                .replace(timeExp, "")
+                .trim();
+              this.playingLyric = this.pureMusicLyric;
+            } else {
+              if (this.playing && this.canLyricPlay) {
+                // 这个时候有可能用户已经播放了歌曲，要切到对应位置
+                this.currentLyric.seek(this.currentTime * 1000);
+              }
+            }
+          })
+          .catch(() => {
+            this.currentLyric = null;
+            this.playingLyric = "";
+            this.currentLineNum = 0;
+          });
+      }
     },
     handleLyric({ lineNum, txt }) {
       if (!this.$refs.lyricLine) {
@@ -1097,9 +1095,10 @@ export default {
 }
 
 @media screen and (min-width: 1366px) {
-  .top{
+  .top {
     margin-bottom: 40px;
   }
+
   .middle-l {
     padding-top: 50px;
 
@@ -1112,10 +1111,11 @@ export default {
   }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1366px) {  
-  .top{  
+@media screen and (min-width: 1200px) and (max-width: 1366px) {
+  .top {
     margin-bottom: 20px;
   }
+
   .range-slider {
     width: 200px;
   }

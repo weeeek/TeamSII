@@ -15,7 +15,6 @@
             "singer": [
               "刘增艳"
             ],
-            "lyricDelay": 0,
             "id": 20190214,
             "mid": "004QRtm24OFj5y",
             "name": "彩虹",
@@ -41,7 +40,6 @@
             "singer": [
               "刘增艳"
             ],
-            "lyricDelay": 0,
             "id": 20170725,
             "mid": "001v6Jiq0Ef6rI",
             "name": "将军令",
@@ -67,7 +65,6 @@
             "singer": [
               "刘增艳"
             ],
-            "lyricDelay": 0,
             "id": 20170613,
             "mid": "003BpFTv3yW3CE",
             "name": "盛夏光年",
@@ -93,7 +90,6 @@
             "singer": [
               "刘增艳"
             ],
-            "lyricDelay": 0,
             "id": 20180618,
             "mid": "0044g6hb1mnYOV",
             "name": "夜空中最亮的星",
@@ -155,11 +151,10 @@
               "潘燕琦",
               "赵韩倩"
             ],
-            "lyricDelay": 0,
             "id": 20180106,
             "mid": "004Ft83R15VbRP",
             "name": "明天你好-成珏生日公演",
-            "interval": 310,
+            "interval": 312.5,
             "notQQMusic": true,
             "url": "http://47.97.248.244/static/music/明天你好.mp3",
             "play": [],
@@ -175,7 +170,6 @@
             "singer": [
               "刘增艳"
             ],
-            "lyricDelay": 0,
             "id": 20180210,
             "mid": "003vUjJp3QwFcd",
             "name": "说散就散-2018迎新春特别公演",
@@ -197,7 +191,6 @@
               "李宇琪",
               "莫寒"
             ],
-            "lyricDelay": 0,
             "id": 20170712,
             "mid": "000yIGC14RGJ0I",
             "name": "你曾是少年-2017莫寒拉票公演",
@@ -2434,7 +2427,7 @@
           {
             "id": 20181111,
             "lyric": "W3RpOuiUmuiTneWbnuWTjV0KW2FyOlNOSDQ4IFRlYW0gU0lJIOW6lOaPtOS8ml0KW2FsOue8luabsu+8mmt2bjIyXQpbYnk65Li2R29uZV0KW29mZnNldDowXQpbMDA6MDAuMDBd6JSa6JOd5Zue5ZONIC0gU05INDggVGVhbSBTSUkg5bqU5o+05LyaClswMDowMC41MF0qKioq5bqP44CA56ug77ya5ZCv56S6KioqKgpbMDA6MDEuMDBdLS0tLU1hZCBXb3JsZC0tLS0KWzAwOjAxLjUwXeWwseeul+mbqOWGjeWGu+e7neS4jeWbnuWktApbMDA6MDUuNTBd5LiN566h6aOO5YaN5Ye26YO95Yu+552A5omLClswMDowOS43NV3li4fmlaLnmoTmuKnmn5TlsIbnu73miJDoirHmnLUKWzAwOjEzLjc1XeeSgOeSqOWIneiht+S9oOWSjOaIkeWni+e7iOe0p+aPoQpbMDA6MTguMjldKioqKuesrOS4gOeroO+8muaXoOeVjyoqKioKWzAwOjE4Ljc5XS0tLS3nrKw0OOWMui0tLS0KWzAwOjE5LjI5XURvbid0IHN0b3AgbmV2ZXIgZ2l2ZSB1cApbMDA6MjMuMjld56ut5Yqb57+x57+U5Li65qKm6Zev6I2hClswMDoyNy41MF1Eb24ndCBzdG9wIHB1dCB5b3UgaGFuZHMgdXAKWzAwOjMxLjAwXURpc3RyaWN0IGZvcnR5IGVpZ2h0IOWwseaYr+WFiQpbMDA6MzUuODRdLS0tLeW8gOaLk+iAhS0tLS0KWzAwOjM2LjgyXeaDs+WOu+aOoue0ouWFqOaWsOmBk+i3r+adv+WdlwpbMDA6NDAuMDBd5Yir6YCJ5oup5LuW5Lq65byA6L6f55qE5Zyw55uYClswMDo0NS4wMF3nnYHlvIDlj4znnLzli4fmlaLop4LmnJvmnKrmnaUKWzAwOjQ5LjAwXeiuqeS4gOWIh+WFqOmDqOmHjeadpQpbMDA6NTIuMjBdLS0tLeelnumtgumioOWAki0tLS0KWzAwOjUyLjc1XeWcqOmCo+i/t+W5u+eahOS4lueVjOmHjApbMDA6NTcuMjhd5L2g54ix55qE5b6I5pyJ6LajClswMDo1OS4wMF3ljbTlv5jorrDkuobmiJHlrZjlnKjnmoTmhI/kuYkKWzAxOjAyLjU4XemCquaBtueahOa4uOaIjwpbMDE6MDUuMjhd5oiR6L+Y5Zyo5qKm6YeMClswMTowNy4yOF3lg4/luKbnvarnmoTnvpTnvorov7flpLHkuoboh6rlt7EKWzAxOjEwLjAwXS0tLS1HbyBBd2F5LS0tLQpbMDE6MTAuNTBd5LiN6KaB5YaN6Iet576OClswMToxMy4yMF3or7Tku4DkuYjlkI7mgpQKWzAxOjE1LjUwXeimgeijheW+l+acieWkmuWNkeW+rgpbMDE6MTcuMDBd5L2g6L+Y5LiN5piv6buR5ZCD6buRClswMToxOS41MF3lpLnnnYDkvaDnmoTlsL4KWzAxOjIxLjUwXeaTpuW5suS9oOeahOazqgpbMDE6MjMuNzBd5aSa54u854uI5bCx5aSa54u854uIClswMToyNS41MF3kvaDnmoTmoaPmoYjlt7Lnu4/pu5HmnInnp43liKvmjL3lm54KWzAxOjI5LjEwXSoqKirnrKzkuoznq6DvvJrml6DlpYgqKioqClswMTozMC4xMF0tLS0tTXV0ZS0tLS0KWzAxOjMwLjUwXeS9oOeahOWRvOWPqwpbMDE6MzIuMDBd5rKh5a6M5rKh5LqGClswMTozNS4wMF3lgZzkuI3kuIvmiJHlj6rlpb3miormiYvmnLrlhbPmjokKWzAxOjM4LjUwXeWIq+S9juS4i+WktApbMDE6NDAuMDBd55qH5Yag5Lya5o6JClswMTo0NC4wMF3or7TotbDlsLHotbDmiJHkuI3kvJrmgKXlvpfot7PohJoKWzAxOjQ3LjAwXeWPr+aDnOeOsOWcqOaJjeaHguWkp+S6i+S4jeWmmQpbMDE6NTEuMDBdLS0tLee7v+WFiS0tLS0KWzAxOjUyLjAwXeW9k+m7hOaYj+eahOaui+W9sea2iOWkseS5i+WJjeeahOeXlei/uQpbMDI6MDAuMDBd5oiR5Lmf5Y+q6ZyA6KaB55WZ5LiL5bGe5LqO5piO5aSp55qE6KGM5p2OClswMjowOC4wMF3or6XnprvlvIDnmoTkuZ/kvJrlnKjmnb7miYvkuYvlkI7lvojlvbvlupUKWzAyOjE2LjAwXeiAjOatpOWIu+eIseS8muWcqOS4i+S4qui3r+WPo+eskeedgOetieS9oApbMDI6MjQuMDBdKioqKuesrOS4ieeroO+8muabvue7jyoqKioKWzAyOjI1LjAwXS0tLS3ljJbkvZzmqLHoirHmoJEtLS0tClswMjoyNS45MF3mlZnlrqTnqpfmiLfml4HpgqPniYfpmLPlhYnmtJLkuIsKWzAyOjMyLjAwXeaXpeWFieS4i+S4juWQjOeql+iwiOiuuueahOe+juWlveacquadpeWVigpbMDI6NDIuNTBd5piv546w5Zyo5L2g5bCG6KaB6Leo5Ye655qE5q2l5LyQClswMjo0OS41MF3ot6jlh7rkuobnrKzkuIDmraXlkJHmoqbmg7Plh7rlj5EKWzAyOjU5LjAwXS0tLS3mlK/mn7EtLS0tClswMzowMC4wMF3ku47mnKrmnInov4fnmoQKWzAzOjAzLjkwXeiJsOi+m+aui+mFt+eahOiuree7gwpbMDM6MDguMDBd5LiA6LW357uP6L+H5LmL5ZCO5oiR57uI5LqO5Y+R546wClswMzoxNS4wMF0tLS0t5peg5bC95peL6L2sLS0tLQpbMDM6MTYuMDBdSSB3YW50IHlvdQpbMDM6MjAuMTBdSSBuZWVkIHlvdQpbMDM6MjQuMjBdSSBsb3ZlIHlvdQpbMDM6MjkuMDBd6L+Z5bCx5piv5oiR55qE54ixClswMzozNC4wMF3ov6vkuI3lj4rlvoXmg7PopoHkvaDlhajpg6jpg73nn6XpgZMKWzAzOjQwLjAwXeaIkeS7rCDkuZ/lj6/ku6Xlvq7nrJHlkKcKWzAzOjQ5LjAwXSoqKirnrKzlm5vnq6DvvJrlu7rpmJ8qKioqClswMzo0OS41MF0tLS0t5py65bC+5LqRLS0tLQpbMDM6NTAuMDBd5oiR55qE54ix5Zyo5aSp56m655WZ5LiL5byn57q/ClswMzo1NC41MF3ov73otbbliY3mlrnkvaDlpZTot5HnmoTmnoHpmZAKWzAzOjU4LjkwXeWwseeul+WGjeiQveWQjuS4gOeCuSDov5jmsqHlkKzop4EKWzA0OjA0LjAwXeWIkui/h+WkqeepuumjnuWQkeiTneWkqeeahOmfs+mYtgpbMDQ6MDguMDBd5pe26Ze05Zyo5aSp56m655WZ5LiL55qE5byn57q/ClswNDoxMS41MF3lpb3lg4/lnKjorrDlv4bkuK3mqKHns4rnmoTohLgKWzA0OjE2LjAwXeWwseeul+Wug+egtOWmguaui+e8uiDmtojlpLHkuI3op4EKWzA0OjIxLjAwXeWcqOaIkeW/g+S4remakOe6pua4heaZsOeahOmCo+WkqQpbMDQ6MjUuMDBdLS0tLeaIkeeahOWtmOWcqC0tLS0KWzA0OjI1LjUwXeeQtOW8puWcqOaMh+Wwlua+jua5gwpbMDQ6MjguMDBd546L6ICF5bi46IOc5LiN6LSlClswNDozNC41MF3lsLHnrpfmnIDlkI7kvJrlpLHotKUKWzA0OjM2LjUwXeWPjeato+S5n+S4jeS8muabtOWdjwpbMDQ6NDMuMDBd55C05bym5Zyo5oyH5bCW5r6O5rmDClswNDo0NS4wMF3njovogIXluLjog5zkuI3otKUKWzA0OjUxLjMwXemrmOWUseWHuuaIkeeahOWnv+aAgQpbMDQ6NTMuODBd5qKm5pKS5ZCR5pW05Liq6Iie5Y+wClswNDo1OC4wMF0tLS0t5YuH5rCU6YeN55SfLS0tLQpbMDQ6NTguNTBd5oiR5Lus6YeN5paw5Ye65Y+RClswNTowMi4wMF3nu6fnu63lr7vmib4KWzA1OjA0LjAwXeW9vOatpOeahOaipuaDswpbMDU6MDcuMTBd6K6p55y85rOq5ZKM5rGX5rC0ClswNToxMS43MF3lho3kuIDmrKHlj5HlhYkKWzA1OjE2LjAwXei/juedgOmjjuWOu+e/see/lApbMDU6MTkuMDBd5rGH6IGa5LqG5Yqb6YePClswNToyMS4wMF3ku47mraTkuI3lho3kuIDmoLcKWzA1OjI1LjUwXW9oIOaIkeS7rOWwseaYr3NuaApbMDU6MzMuOTBdLS0tLeW/g+eahOaXheeoiy0tLS0KWzA1OjM1LjAwXQpbMDU6NDIuNTBdKioqKuesrOS6lOeroO+8muWQjOeUmCoqKioKWzA1OjQzLjAwXS0tLS3moqbkuYvmsrMtLS0tClswNTo0My41MF3orqTnnJ/lkKwg6aOO5ZC56L+H55qE5aOw6Z+zClswNTo1MS41MF3lm57mlL7nnYAg5LiA5byg5byg5b6I56ia5aup55qE6KGo5oOFClswNjowMC41MF3ml6DorrrlnKgg5LuA5LmI5qC355qE6aOO5pmvClswNjowOS4wMF3ov5jmnInosIEg5Zyo6L+Z6YeM5a6I5oqk5rOo6KeG552A5L2gClswNjoxNi41MF0tLS0t5rC45oGS5LmL5YWJLS0tLQpbMDY6MTcuMDBd54ix5oOF5bCx5YOP54eD54On55qE54GrClswNjoyMS4wMF3ng63mg4XmgLvkuI3kvJrnga0KWzA2OjI2LjAwXeaZmumjjuWQueaLguedgOWkp+WcsApbMDY6MzAuMTBd5bu257ut5biM5pyb55qE5Yaz5b+DClswNjozNC4wMF0qKioq56ys5YWt56ug77ya5YWx6IumKioqKgpbMDY6MzQuNTBdLS0tLea1geedgOazquW+rueskS0tLS0KWzA2OjM1LjAwXeatpOaXtuatpOWIu+S9oOi/mOWcqOaDs+aIkeWQlwpbMDY6NDMuMDBd5piv6L+Z5qC35ZCXIOWmguaenOivmuWunuWbnuetlApbMDY6NTEuODBd55yL5L2g6L+c5Y67IOecvOazquaFouaFouiQveS4iwpbMDY6NTkuNTBd5LiA5Liq5Lq66IO95Lmg5oOvClswNzowMy41MF3msqHmnInkvaDlnKjnmoTkuJbnlYzlkJcKWzA3OjA4LjUwXS0tLS3lpb3lj4vliJvlj6/otLQtLS0tClswNzowOS41MF3kuIDotbfmt5jmsJQg5LiA6LW35peF6KGMClswNzoxMy45MF3kuIDotbfmmpfmgYsg5LiA6LW35Lyk5b+DClswNzoxOC41MF3lpoLmnpzmnInkurrmrLrotJ/kvaAKWzA3OjIyLjUwXeaIkeS4gOWumuWGsuWcqOesrOS4gApbMDc6MjYuODBdSG9uZXkgYmFieSDkvaDmnIDnvo7kuL0KWzA3OjMxLjAwXeiuqeaIkee7meS9oOa7oeWIhuiHquS/oQpbMDc6MzYuMDBd5piv5L2g57uZ5oiR55qE55Sc6JycClswNzozOS41MF3miJHopoHnmb7liIbkuYvnmb7liqDlgI3ov5jnu5nkvaAKWzA3OjQ3LjI1XSoqKirnrKzkuIPnq6DvvJrov7flpLEqKioqClswNzo0Ny43NV0tLS0t5aSp5L2/55qE5ZyI5aWXLS0tLQpbMDc6NDguMjVd5LuW55yL5LiN5YiwIOWkqeS9v+eahOWciOWllwpbMDc6NTIuMDBd5oiR5Lus5oyl6ZyNIOiZmuiNo+eahOmqhOWCsgpbMDc6NTcuMDBd5LiA5q2l5q2l55So54ix5raI6ICXClswODowMC4wMF3kuIDluZXluZXmuIXphpLlkI7lv5jmjokKWzA4OjA1LjAwXei/meaYryAg5aSp5L2/55qE5ZyI5aWXClswODowOS41MF3oh6rmiJHkv53miqQg6KaB54ug5b+D5YGa5YiwClswODoxMy4wMF3msqHku4DkuYjlpKfkuI3kuoYg5LuA5LmI546p56yRClswODoyMC4wMF3nu53kuI3kvJrlkIzmg4XmsYLppbYKWzA4OjIxLjIwXSoqKirnrKzlhavnq6DvvJrlhrPlv4MqKioqClswODoyMS43MF0tLS0t5bqf5aKf57qq5YWDLS0tLQpbMDg6MjIuMjBd5bqf5aKf5LiW55WM5Y+q5Ymp5oiR55WZ5LiLClswODoyNy4wMF3lho3lpJrnmoTlkI3liKnpg73ohZDljJYKWzA4OjMxLjAwXeecn+ecn+WIh+WIh+WcqOaIkeecvOWJjea1rueOsApbMDg6MzYuMDBd5oiY54Gr55qE54mH6IqxClswODozOS4wMF3lkozoh6rlt7Hlr7nor50KWzA4OjQ0LjAwXeacgOWQjuW+l+S4jeWIsOWbnuetlApbMDg6NDguNTBd5Lik6LSl5L+x5Lyk55qE57qg57ygClswODo1NS4wMF3osIHmlL7lvpfkuIsKWzA5OjAwLjcwXSoqKirnrKzkuZ3nq6DvvJrov5vljJYqKioqClswOTowMS4yMF0tLS0t5q+S6JyY6JubLS0tLQpbMDk6MDEuNzBd54ix5oOF55qE6LCO6KiAClswOTowNC4wMF3miJHoh6rlt7Hkv53nlZkKWzA5OjA2LjAwXeWPr+aYr+WNtOWPiOS4gOWRs+aOpeWPlwpbMDk6MDkuMDBd6L+35oOR6KaB5pyJ5YmN5aWPClswOToxMS41MF3nnIvnnYDkvaDkv53mjIHmsonpu5gKWzA5OjE1LjAwXeeUqOW+rueskeaOqemlsOayiem7mApbMDk6MTguMDBdLS0tLeW5uy0tLS0KWzA5OjE5LjAwXeWbnuiNoeeahOmfs+S5kOWcqOaMh+WwluayuOiFvgpbMDk6MjMuMDBd5LiN5piv5LiA5Liq5Lq6IOS4jeWPquS4gOS4quS6ugpbMDk6MjcuMzBd5ZO85ZSx552A5q2M5Lit5pS+5aSn55qE6Z2S5pilClswOTozMS4wMF3mi6XmirHmgY3mg5rpl7Qg5LiN5bGe5LqO5rex5rKJClswOTozNS41MF0tLS0t55Sf5ZG95LmL6aOOLS0tLQpbMDk6MzYuMDBd5aaC5p6c5LiW5LiK55yf55qE5pyJ56We5piO54ix5oCcClswOTo0MS4wMF3lj6rmg7PorqnpgqPmtYHkuI3mlq3lhrPloKTnnLzms6oKWzA5OjQ3LjAwXemHjeeUn+eahOS4lueVjApbMDk6NDkuMDBd5byA5aSp6L6f5ZywIOiuqeaXp+iyjOWPmOaIkOaWsOminApbMDk6NTIuMDBdKioqKuesrOWNgeeroO+8muaMr+S9nCoqKioKWzA5OjUyLjUwXS0tLS3mlrDkuJbnlYwtLS0tClswOTo1My4wMF3miJHku6zlnKjmlrDnmoTkuJbnlYwKWzA5OjU1LjAwXeaKiuaJgOacieinhOWImeaUueWPmApbMDk6NTguMDBd55Sp5o6J5LqG6Ieq5oiR57y66Zm3ClsxMDowMC4wMF3lkb3ov5DlsIbooqvmlLnlhpkKWzEwOjAyLjEwXei3qOaXtuS7o+eahOi/meS4gOWkqQpbMTA6MDQuMjBd57+76L+H6ZmI5pen55qE5LiA6aG1ClsxMDowNi4zMF3pgqPkuI3lubPlh6HnmoTnnqzpl7QKWzEwOjA4LjQwXee+juS4veeahOW+iOiAgOecvApbMTA6MTAuMDBdLS0tLeiuqeaipuaDs+mXquiAgC0tLS0KWzEwOjEwLjUwXeaipuaDs+eLrOeJueeahOWRs+mBkwpbMTA6MTQuMzBd5LiA5a6a6IO95aSf6Kem56Kw5YiwClsxMDoxOS4wMF3orqnli4fmlaLnmoTpnZLmmKUKWzEwOjIzLjAwXeS4jeS8muWGjeWNleiwgwpbMTA6MjcuNTBd5LiN566h6LWw5Yiw5ZOq6YeMClsxMDozMi4wMF3pg73kvJrnlZnkuIvmiJHnu73mlL4KWzEwOjM5LjAwXeeahOmqhOWCsgpbMTA6NDQuMDBdKioqKuesrOWNgeS4gOeroO+8muWRkOWWiioqKioKWzEwOjQ0LjUwXS0tLS3pkrvnn7PlkZDllootLS0tClsxMDo0NS4wMF3llpzmrKLkvaAg5oiR55yf55qEIOWlveWWnOasouS9oApbMTA6NDguODBd5YWo5Yqb5aWU6LeR6L+Z5bCx5piv5oiR55qE5Yaz5b+DClsxMDo1My41MF3llpzmrKLkvaAg5oiR6L+Z6aKXIOS4jeWPmOeahOW/gwpbMTA6NTcuNTBd5aSn5aOw5ZG85ZaK55u05Yiw5oiR55So5bC95YWo5YqbClsxMTowMC4wMF3llpzmrKLkvaAg5oiR55yf55qEIOWlveWWnOasouS9oApbMTE6MDUuMDBd5bCx6L+Z5qC35bCG5oiR5b+D5oSP5YWo6YOo5Lyg6YCSClsxMToxMC4yMF3nl5voi6bnmoTlv4MKWzExOjEyLjQ1XeS5n+S4jeaUvuW8gwpbMTE6MTQuOTBd5aSn5aOw5ZG85ZSkClsxMToxNy4wMF1kaWFtb25kIApbMTE6MTcuNTBdLS0tLeebm+Wkj+WlveWjsOmfsy0tLS0KWzExOjE4LjAwXea1t+a1quWjsOmfsyBTb3VuZHMgZ29vZApbMTE6MjIuNTBd5oiR55qE6JyV5Y+Y5L2g55yL5riF5qWaClsxMToyNi44MF3lrabkvJrooqvmm7TlpJrkurrms6jnm64KWzExOjI5LjgwXeiiq+abtOWkmuS6uuWrieWmkgpbMTE6MzIuMDBd5pKp5Yqo5LqG5rK/5bK46L+Z5LiA6LevClsxMTozNS4wMF3lv4Pot7Plo7Dpn7MgU291bmRzIGdvb2QKWzExOjM5LjUwXeeIseeahOaenOWunue7iOS6juaIkOeGnwpbMTE6NDQuMDBd5Li6562J5YCZ6L+Z5LiA5bmVClsxMTo0OC4wMF3miJHku6zmm77lnKjpu5HmmpfkuK3otbfoiJ4KWzExOjUzLjUwXSoqKirnrKzljYHkuoznq6DvvJroiJ7lj7AqKioqClsxMTo1NC4wMF0tLS0t5oiR55qE6Iie5Y+wLS0tLQpbMTE6NTQuNTBd5q+P5b2T5LiW55WM5Zyo5Y+Y5bm7ClsxMTo1Ny44MF3ov5noiJ7lj7DlsLHmmK/kvaDml4XnqIvnmoTmuK/mub4KWzEyOjAzLjAwXeayv+mAlOaYr+WQpuiusOW+lwpbMTI6MDYuNDBd5LiA6LW35qyi56yR5rOq5rC055qE5LyZ5Ly0ClsxMjoxMi4wMF3lm57lv4bov5jmhJ/liqjlkJcKWzEyOjE0LjgwXeaipuaYr+WQpuW3suWcqOmdkuepuuS4iuebm+W8gApbMTI6MjEuMDBd5Y2B5bm05ZCO5YaN5Zue6aaWClsxMjoyNC4wMF3kvYbmhL/liJ3lv4PkuI3mlLkKWzEyOjI5LjAwXS0tLS3liJ3ml6UtLS0tClsxMjoyOS41MF3lvZPmiJHku6zmraPliqrlipvnq5nlnKgKWzEyOjMzLjAwXeaGp+aGrOW3suS5heeahOiInuWPsOWkp+WjsOatjOWUsQpbMTI6MzguMDBd5YWo5Zy655qE5qyi5ZG85ZKM5o6M5aOwClsxMjo0MC41MF3lsIbng63ng4jmsJTmsJvmiYDlm7Tnu5UKWzEyOjQ1LjUwXS0tLS3pqazlsL7kuI7lj5HlnIgtLS0tClsxMjo0Ni4wMF3lgbflgbfnnIvnnYDlnZDlnKjliY3mlrnluqfkvY3nmoTkvaAKWzEyOjU2LjAwXeaIkeW/g+mHjOW/veeEtuWPmOW+l+acieS4gOS6m+W/p+mDgQpbMTM6MDMuMDBdLS0tLemZjeiQveS8ni0tLS0KWzEzOjAzLjUwXeS4gOS4quS6uuaZmumkkCDkuIDkuKrkurrmmZrlrokKWzEzOjA3LjEwXeW6iuWktOaKseaeleihrOedgOaIkeWtpOWNlQpbMTM6MTEuNTBd6JC95Y2V55qE5omL5py6IOWuiemdmeeahOWknOaZmgpbMTM6MTUuODBd5LiN5oOz6L+Z5b+D5oOFClsxMzoyMC4wMF3kvJrlj5jmiJDlv4XnhLYKWzEzOjIzLjc1XSoqKirnrKzljYHkuInnq6DvvJrlpbnku6wqKioqClsxMzoyNC4yNV0tLS0t6Z2S5pil55qE6Iqx55OjLS0tLQpbMTM6MjQuNzVd5b2T6Iqx5py157u95pS+55qE5pe25Yi75oiR55yL6KeB5LqG5biM5pybClsxMzozMy41MF3luIzmnJvnmoTpkp/lo7DmuIXmvogKWzEzOjM3LjAwXeWbnuiNoeWcqOmCo+mBpei/nOeahOWJjeaWuQpbMTM6NDIuNTBd57uZ5oiR5Yqb6YeP6K6p5oiR5Z2a5by6IOS4gOW/g+WQkeWJjemXrwpbMTM6NTEuMDBd5LiN5YaN54q56LGrIOS4jeWGjeW9t+W+qApbMTM6NTkuMzBdLS0tLem7keeZveagvOWtkOijmS0tLS0KWzEzOjU5LjgwXeW+rueskSDpnaLlr7kg552A5L2gClsxNDowMi44MF3miJHlv4PkuK0g5Zyo5b+Q5b+RClsxNDowNy44MF3niLHmg4Ug55Sc6JycIOiLpua2qQpbMTQ6MTAuODBd6K+l5aaC5L2VIOWOu+mAieaLqQpbMTQ6MTcuMDBd6L+Z5Lu95b+D5oOFClsxNDoyMS4wMF3ljJbkvZzkuIDpppbmrYwKWzE0OjI1LjUwXei/t+WkseWcqOmCo+eJh+S6pOmUmeeahApbMTQ6MzAuMDBd6buR55m96ImyClsxNDozNy41MF0qKioq56ys5Y2B5Zub56ug77ya5paw55SfKioqKgpbMTQ6MzguMDBdLS0tLVVaQS0tLS0KWzE0OjU1LjcwXeS9oOWPqumcgOimgeeIseedgOS9oOiHquW3seWwseWlvQpbMTU6MDQuMjBd5LiN6ZyA6KaB6ICD6JmR5Yir5Lq65a+55L2g55qE6K2m5ZGKClsxNToxMi4wMF0tLS0t5YaN54ix5LiA5ZueLS0tLQpbMTU6MTIuNTBd5Y+I5piv5aSP5aSpClsxNToxNi4wMF3ov5npl7Tml4XlupcKWzE1OjIwLjAwXei/meS4gOWPjOecvApbMTU6MjQuMDBd5bCx5Zyo6L+Z5LiA5Liq556s6Ze0ClsxNToyOS41MF0tLS0t54yb54q4LS0tLQpbMTU6MzAuMDBd5bey57uP5rKJ552h5LqG5Yeg5Liq5LiW57qqClsxNTozNC4wMF3kvYblvLrmgo3ml6nlsLHliLvlnKjmiJHnmoTln7rlm6AKWzE1OjM4LjUwXU0tQS1NLU0tTy1ULUgg5pyA5by65b2i5oCBClsxNTo0Mi41MF1NLUEtTS1NLU8tVC1IIOi/m+WMluWujOavlQpbMTU6NDguMDBdKioqKuesrOWNgeS6lOeroO+8muiejeWQiCoqKioKWzE1OjQ4LjUwXS0tLS3pu5HlpKnkvb8tLS0tClsxNTo0OS4wMF3pu5HoibLnmoTlpKnkvb/lhYXmlqXlhajouqsKWzE1OjUyLjMwXeWViiDohLHkuIvmsonph43ljYPmlqTnmoTpq5jot58KWzE1OjU3LjgwXeayoeacieS6uuWPr+iDveefpemBkwpbMTY6MDIuNTBd5oiR55qE5Y+m5LiA6Z2i57un57ut552A5Lq655SfClsxNjowNS4zMF0qKioq56ys5Y2B5YWt56ug77ya5aSH5oiYKioqKgpbMTY6MDUuODBdLS0tLTQ45Liq56eY5a+GLS0tLQpbMTY6MDYuMzBd6Iul6L+R6Iul56a7IOacn+W+heeahOihqOaDhQpbMTY6MDkuODBd5LuA5LmI6K+d6IO96K6p5L2g5Yqo5b+DClsxNjoxMS44MF3miJHnlKjml4vovaznmoTovajov7nlsIbkvaDlvJXlhaXmiI8KWzE2OjE1LjIwXeivt+WRiuivieaIkSDkvaDmmK/lkKbmhL/mhI8KWzE2OjE4LjAwXeWOu+aUtumbhuWwkeWls+eahOivnemimApbMTY6MjAuMDBd5LiN57uP5oSP5LmL6Ze0IOWcqOiAs+i+ueengeivrQpbMTY6MjEuNTBdLS0tLeaihea0m+aWr+S5i+i3ry0tLS0KWzE2OjIyLjAwXei3n+maj+edgOaihea0m+aWr+eahOiEmuatpQpbMTY6MjYuNTBd5bCx5piv546w5Zyo6L+I5byA5L2g55qE6ISa5q2lClsxNjozMS41MF3kuLrkuobov5zmlrnnmoTkuroKWzE2OjMzLjkwXeW/g+S4reaMguW/teeahOS6ugpbMTY6MzYuMDBd6YKj5Lqb5rex5L+h5LiN55aR55qE54ixClsxNjozOS4wMF3ot5/pmo/nnYDmooXmtJvmlq/nmoTohJrmraUKWzE2OjQzLjUwXeWwseeul+i/meadoei3r+eci+S4jeWIsOe7iOeCuQpbMTY6NDguNTBd5LiA5a6a5LiN5Lya6K6k6L6TClsxNjo1MS4wMF3kuIDlrprkuI3opoHmlL7lvIMKWzE2OjUzLjAwXee7p+e7reWQkeWJjeWllOi3keWQpwpbMTY6NTUuMDBd5Yiw55Sf5ZG954eD54On5q6G5bC9ClsxNzowMC4wMF0qKioq57uI44CA56ug77ya5Ye65b6BKioqKgpbMTc6MDEuMDBdLS0tLeaImOatjC0tLS0KWzE3OjAyLjAwXeaIkOeOi+i0peWvh+WPquaYr+S4qgpbMTc6MDQuMDBd5LiA6Zeq5bCx5Lya6L+H55qE5b+15aS0ClsxNzowNi41MF3kuI3lpoLmnaXlubbogqnlvIDlkK8KWzE3OjA4LjUwXeafkOS4quWFqOaWsOe+juS4veWuh+WumQpbMTc6MTEuMDBd5L2G5oS/5omA5pyJ54G16a2C5ZyoClsxNzoxMy4wMF3ml7bnqbrmtYHovazkuYvkuK3mlLbojrcKWzE3OjE1LjAwXeWSjOW5s+eahOiHqueUsQpbMTc6MTcuMDBd5pyA5peg5LiK55qE5YWJ6I2jClsxNzoxOS4xMF3miqzlpLTmnJvov5nniYflpKnnqboKWzE3OjIzLjYwXemBh+ingea4qeaalueahOeskeWuuQpbMTc6MjguMDBd6LCB55qE5rOq5ruR6JC96Zeq6ICA5LqG5pW05Liq5aSc56m6ClsxNzozOC4wMF3jgIAKWzE3OjM5LjAwXQ==",
-            "mid": "0",
+            "mid": null,
             "name": "建队5周年应援曲-蔚蓝回响",
             "interval": 1082.064,
             "notQQMusic": true,
@@ -2449,7 +2442,7 @@
         "songs": [
           {
             "id": 20191130,
-            "mid": "0",
+            "mid": null,
             "name": "永恒之光-钢琴",
             "interval": 217,
             "notQQMusic": true,
@@ -2459,7 +2452,7 @@
           },
           {
             "id": 20191129,
-            "mid": "0",
+            "mid": null,
             "name": "预言",
             "interval": 260,
             "notQQMusic": true,
@@ -2469,7 +2462,7 @@
           },
           {
             "id": 20191201,
-            "mid": "0",
+            "mid": null,
             "name": "初日",
             "interval": 217,
             "notQQMusic": true,
@@ -2479,7 +2472,7 @@
           },
           {
             "id": 20191202,
-            "mid": "0",
+            "mid": null,
             "name": "夕阳下的约定",
             "interval": 291,
             "notQQMusic": true,
@@ -2489,7 +2482,7 @@
           },
           {
             "id": 20191203,
-            "mid": "0",
+            "mid": null,
             "name": "solong",
             "interval": 354,
             "notQQMusic": true,
@@ -2499,7 +2492,7 @@
           },
           {
             "id": 20191204,
-            "mid": "0",
+            "mid": null,
             "name": "化作樱花树",
             "interval": 326,
             "notQQMusic": true,
@@ -2509,7 +2502,7 @@
           },
           {
             "id": 20191205,
-            "mid": "0",
+            "mid": null,
             "name": "生命之风",
             "interval": 219,
             "notQQMusic": true,
@@ -2519,7 +2512,7 @@
           },
           {
             "id": 20191206,
-            "mid": "0",
+            "mid": null,
             "name": "青春的花瓣",
             "interval": 318,
             "notQQMusic": true,
@@ -2529,7 +2522,7 @@
           },
           {
             "id": 20191207,
-            "mid": "0",
+            "mid": null,
             "name": "马尾与发圈",
             "interval": 262,
             "notQQMusic": true,
@@ -2539,7 +2532,7 @@
           },
           {
             "id": 20191208,
-            "mid": "0",
+            "mid": null,
             "name": "告白趁现在",
             "interval": 177,
             "notQQMusic": true,
@@ -2549,7 +2542,7 @@
           },
           {
             "id": 20191209,
-            "mid": "0",
+            "mid": null,
             "name": "青春的约定",
             "interval": 194,
             "notQQMusic": true,
