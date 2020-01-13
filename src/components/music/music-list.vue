@@ -1,9 +1,9 @@
 <template>
   <div id="music-container" :class="{'hasPlayer': this.playlist.length > 0}">
-    <div class="music-block" v-for="item in qqMusicList" :key="item.typeName">      
+    <div class="music-block" v-for="item in qqMusicList" :key="item.typeName">
       <div class="music-type">{{ item.typeName }}</div>
       <div class="music-group" v-for="g in item.group" :key="g.title">
-        <div class="music-group-title">{{ g.title }}</div>        
+        <div class="music-group-title">{{ g.title }}</div>
         <div class="music-list">
           <song-list :songs="g.songs" @select="selectSong"></song-list>
         </div>
@@ -41,17 +41,17 @@ export default {
   methods: {
     _normalizaSongs (list) {
       let ret = []
-      list.map((l,xIndex)=>{
+      list.map((l, xIndex) => {
         ret.push({
           typeName: l.typeName,
           group: []
         })
-        l.group.map((g,yIndex)=>{
+        l.group.map((g, yIndex) => {
           ret[xIndex].group.push({
             title: g.title,
             songs: []
           })
-          g.songs.map((s)=>{
+          g.songs.map((s) => {
             let song = createSong(s)
             ret[xIndex].group[yIndex].songs.push(song)
           })
@@ -59,10 +59,10 @@ export default {
       })
       return ret
     },
-    selectSong(song) {
+    selectSong (song) {
       this.insertSong(song)
     },
-    //在歌单里的，选择之，播放。不在，加入歌单，播放
+    // 在歌单里的，选择之，播放。不在，加入歌单，播放
     ...mapMutations({
       setPlayList: 'SET_PLAYLIST',
       setCurrentIndex: 'SET_CURRENT_INDEX',
@@ -105,7 +105,7 @@ export default {
       .music-from
         text-indent: 2em
       .music-detail
-        flex-grow: 0        
+        flex-grow: 0
         .music-title
           font-weight: bold
           text-align: center
@@ -163,5 +163,4 @@ export default {
             div
               width: 238px
               height: 150px
-
 </style>

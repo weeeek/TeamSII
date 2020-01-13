@@ -10,7 +10,7 @@
           <a class="icon" href="javascript:void(0)" @click="selectItem(song, index)">
             <jam-play :fillColor="'#87cefa'" />
           </a>
-          <a class="icon" :href="p.url" v-for="p in song.play" target="_blank" :title="`${p.player}-${getTypeString(p.type)}演奏`" :key="p.url">            
+          <a class="icon" :href="p.url" v-for="p in song.play" target="_blank" :title="`${p.player}-${getTypeString(p.type, '演奏')}`" :key="p.url">
             <span :class="p.type"></span>
           </a>
           <a class="icon" :href="song.opern" v-if="song.opern" target="_blank" :title="`${song.name}-曲谱`">
@@ -27,25 +27,29 @@
     props: {
       songs: {
         type: Array,
-        default: []
+        default: () => []
       }
     },
     methods: {
       selectItem (item, index) {
         this.$emit('select', item, index)
       },
-      getTypeString (str) {
+      getTypeString (str, ext) {
         switch (str) {
           case 'piano':
-            return '钢琴'
+            return '钢琴' + ext
           case 'guita':
-            return '吉他'
+            return '吉他' + ext
           case 'violin':
-            return '小提琴'
+            return '小提琴' + ext
           case 'erhu':
-            return '二胡'
+            return '二胡' + ext
           case 'note':
-            return '曲谱'
+            return '曲谱' + ext
+          case 'bilibili':
+            return 'B站UP'
+          default:
+            return ''
         }
       }
     }
@@ -93,7 +97,7 @@
       left 0.55em
       background $color-team-sii
       border-radius 0.05em
-      transform rotate(-15deg)      
+      transform rotate(-15deg)
   .erhu
     display inline-block
     width 1em
@@ -131,7 +135,7 @@
     border-style solid solid none solid
     border-width .45em .45em 0 .45em
     position relative
-    height 0.9em 
+    height 0.9em
     width 1em
     &:before
       content ''
@@ -157,7 +161,7 @@
       top -1em
       left -.5px
   .bilibili
-    height 100% 
+    height 100%
     width 2em
     display inline-block
     background-image url('//www.bilibili.com/favicon.ico')
