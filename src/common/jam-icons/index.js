@@ -16,6 +16,10 @@ import Heart from 'common/jam-icons/heart.vue'
 import HeartF from 'common/jam-icons/heart-f.vue'
 import Close from 'common/jam-icons/close.vue'
 import CloseCircle from 'common/jam-icons/close-circle.vue'
+import ChevronsSquareUp from 'common/jam-icons/chevrons-square-up.vue'
+import ChevronsSquareDown from 'common/jam-icons/chevrons-square-down.vue'
+import MinusRectangle from 'common/jam-icons/minus-rectangle.vue'
+import PlusRectangle from 'common/jam-icons/plus-rectangle.vue'
 
 export default {
   install: function (Vue) {
@@ -37,5 +41,9 @@ export default {
     Vue.component('jam-heart-f', HeartF)
     Vue.component('jam-close', Close)
     Vue.component('jam-close-circle', CloseCircle)
+    Vue.component('jam-chevrons-square-up', ChevronsSquareUp)
+    Vue.component('jam-chevrons-square-down', ChevronsSquareDown)
+    Vue.component('jam-minus-rectangle', MinusRectangle)
+    Vue.component('jam-plus-rectangle', PlusRectangle)
   }
 }

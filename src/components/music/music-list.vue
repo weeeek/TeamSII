@@ -1,8 +1,14 @@
 <template>
   <div id="music-container" :class="{'hasPlayer': this.playlist.length > 0}">
     <div class="music-block" v-for="item in qqMusicList" :key="item.typeName">
-      <div class="music-type">{{ item.typeName }}</div>
-      <div class="music-group" v-for="g in item.group" :key="g.title">
+      <div class="music-type">
+        {{ item.typeName }}
+        <span class="float-right" :title="(item.show?'收起':'展开')" @click="item.show=!item.show">
+          <jam-minus-rectangle :width="20" v-show="item.show"/>
+          <jam-plus-rectangle :width="20" v-show="!item.show"/>
+        </span>
+      </div>
+      <div class="music-group" v-show="item.show" v-for="g in item.group" :key="g.title">
         <div class="music-group-title">{{ g.title }}</div>
         <div class="music-list">
           <song-list :songs="g.songs" @select="selectSong"></song-list>
@@ -42,10 +48,8 @@ export default {
     _normalizaSongs (list) {
       let ret = []
       list.map((l, xIndex) => {
-        ret.push({
-          typeName: l.typeName,
-          group: []
-        })
+        ret.push({ typeName: l.typeName, group: [], show: true })
+
         l.group.map((g, yIndex) => {
           ret[xIndex].group.push({
             title: g.title,
