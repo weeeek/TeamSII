@@ -81,6 +81,12 @@ export default new Router({
       meta: {
         keepAlive: true
       }
+    }, {
+      path: '/tools',
+      component: (resolve) => require(['@/components/tools/index'], resolve),
+      meta: {
+        keepAlive: true
+      }
     }
   ]
 })

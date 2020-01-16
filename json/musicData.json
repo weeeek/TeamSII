@@ -29,6 +29,31 @@
               }
             ],
             "opern": null
+          },
+          {
+            "image": {
+              "url": "//i2.hdslb.com/bfs/archive/94f183a006fec7316647a303c4fa30388ce89305.jpg",
+              "left": "50%",
+              "right": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "赵晔"
+            ],
+            
+            "id": 20170624,
+            "mid": null,
+            "name": "Love fairy tale",
+            "interval": 256,
+            "url": "http://47.97.248.244/static/music/赵晔-Love fairy tale.mp3",
+            "play": [
+              {
+                "player": "深海サーモン雪野野",
+                "type": "bilibili",
+                "url": "https://www.bilibili.com/video/av19529046"
+              }
+            ],
+            "opern": null
           }
         ]
       }
