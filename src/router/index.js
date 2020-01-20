@@ -83,7 +83,22 @@ export default new Router({
       }
     }, {
       path: '/tools',
+      name: 'tools',
       component: (resolve) => require(['@/components/tools/index'], resolve),
+      meta: {
+        keepAlive: true
+      }
+    }, {
+      path: '/tools/quill',
+      name: 'quill',
+      component: (resolve) => require(['@/components/tools/quill'], resolve),
+      meta: {
+        keepAlive: true
+      }
+    }, {
+      path: '/tools/lyric',
+      name: 'lyric',
+      component: (resolve) => require(['@/components/tools/lyric'], resolve),
       meta: {
         keepAlive: true
       }

@@ -43,6 +43,7 @@
     "vue-jam-icons": "^1.0.1",
     "vue-lazyload": "^1.0.3",
     "vue-loader": "^13.3.0",
+    "vue-quill-editor": "^3.0.6",
     "vue-range-slider": "^0.6.0",
     "vue-router": "^2.5.3",
     "vue-style-loader": "^3.0.1",

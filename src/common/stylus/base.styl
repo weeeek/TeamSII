@@ -1,5 +1,6 @@
 @import "animation.styl"
 
+
 a
   color #2c3e50
   text-decoration none
@@ -12,6 +13,15 @@ a
 
 input[disabled],button[disabled]
   cursor not-allowed
+
+.flex
+  display flex
+
+.flex-column
+  flex-direction column
+
+.flex-justify-center
+  justify-content center
 
 .flex-grow
   flex-grow 1
@@ -26,6 +36,9 @@ input[disabled],button[disabled]
   display block
   text-align center
 
+.vertical-center
+  vertical-align center
+
 .text-ellipsis
   overflow hidden
   text-overflow ellipsis
@@ -37,6 +50,12 @@ input[disabled],button[disabled]
   display -webkit-box
   -webkit-line-clamp 2
   -webkit-box-orient vertical
+
+.overflow-scroll
+  overflow scroll
+.overflow-y-scroll
+  overflow-y scroll
+
 
 .float-right
   float right
