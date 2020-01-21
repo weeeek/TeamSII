@@ -9,7 +9,7 @@
     <div class="flex">
       <audio class="flex-grow" id="tempAudio" ref="tempAudio" controls volume="0.2"></audio>
       <div class="flex-grow vertical-center flex flex-column flex-justify-center">
-        <button style="width: 7em; margin-left: 1em; height: 2em; line-height: 2em;" @click="insertTime">插入时间戳</button>
+        <button style="width: 9em; margin-left: 1em; height: 2em; line-height: 2em;" @click="insertTime">插入时间戳</button>
       </div>
     </div>
     <div class="flex flex-operation">
@@ -66,10 +66,10 @@ const toolbarOptions = [];
 export default {
   data() {
     return {
-      query: "http://47.97.248.244/static/music/.MP3",
+      query: "http://47.97.248.244/static/music/徐子轩-一重加害【妄想症系列·堕落之章】.mp3",
       lyric: null,
       code: "",
-      mid: "003vUjJp3QwFcd",
+      mid: "0004t4uz1Okp3E",
       lineIndex: 5,
       content: null,
       editorOption: {
@@ -150,7 +150,7 @@ export default {
     flex-shrink 0
   .quill-editor
     width 100%
-    height 100%
+    height calc(100% - 54px)
   #codeArea
     width 100%
     height calc(100% - 60px)
