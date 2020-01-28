@@ -60,7 +60,8 @@
   @import "~common/stylus/variable"
 
   .piano
-    margin-right 5px
+    margin-left 3px
+    margin-right 1px
     margin-bottom -1px
     width 1.5em
     height 1.25em
@@ -197,6 +198,7 @@
         a
           float left
         .name
+          max-width 80%
           height 32px
           line-height 32px
           margin-right 1em

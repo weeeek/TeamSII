@@ -66,10 +66,10 @@ const toolbarOptions = [];
 export default {
   data() {
     return {
-      query: "http://47.97.248.244/static/music/徐子轩-一重加害【妄想症系列·堕落之章】.mp3",
+      query: "http://47.97.248.244/static/music/%E7%BA%A2%E7%8E%AB%E7%91%B0-%E8%92%8B%E8%8A%B8.mp3",
       lyric: null,
       code: "",
-      mid: "0004t4uz1Okp3E",
+      mid: "004EzHKM2jXY9i",
       lineIndex: 5,
       content: null,
       editorOption: {

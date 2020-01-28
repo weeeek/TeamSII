@@ -35,14 +35,15 @@
         return weibo || 'javascript:void(0)'
       },
       loadMore () {
-        if(this.alreadyCount > this.photos.length)
+        if (this.alreadyCount > this.photos.length) {
           return
-        this.busy = true;
+        }
+        this.busy = true
         setTimeout(() => {
           this.data = this.data.concat(this.photos.slice(this.alreadyCount, this.alreadyCount + 10))
           this.busy = false
           this.alreadyCount += 10
-        }, 1000);
+        }, 1000)
       }
     }
   }
@@ -54,7 +55,7 @@
 @media screen and (min-width 1366px)
   #painting-container
     padding-bottom 15px
-      
+
 @media screen and (max-width 1366px)
   #painting-container
     padding-bottom 10px

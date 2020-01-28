@@ -1,6 +1,6 @@
 <template>
-  <div id="music-container" :class="{'hasPlayer': this.playlist.length > 0}">
-    <div class="music-block" v-for="item in qqMusicList" :key="item.typeName">
+  <div id="music-container" class="waterfall" :class="{'hasPlayer': this.playlist.length > 0}">
+    <div class="music-block fallitem" v-for="item in qqMusicList" :key="item.typeName">
       <div class="music-type">
         {{ item.typeName }}
         <span class="float-right" :title="(item.show?'收起':'展开')" @click="item.show=!item.show">
@@ -78,7 +78,10 @@ export default {
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
+@import '~common/stylus/waterfall'
+
 #music-container
+  column-count 2
   &.hasPlayer
     margin-bottom 60px
   width: 100%
@@ -123,7 +126,6 @@ export default {
   #music-container
     .music-block
       padding 10px 20px
-      margin-top 15px
       &:last-child
         margin-bottom 15px
       .music-type
@@ -147,7 +149,6 @@ export default {
   #music-container
     .music-block
       padding: 5px 10px 0 10px
-      margin-top: 10px
       &:last-child
         margin-bottom 10px
       .music-type
@@ -167,4 +168,8 @@ export default {
             div
               width: 238px
               height: 150px
+
+@media screen and (max-width 1024px)
+  #music-container
+    column-count 1
 </style>
