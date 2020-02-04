@@ -1,6 +1,6 @@
 <template>
   <div id="painting-container">
-    <div class="block">欢迎投稿，投稿请<a class="link" href="https://weibo.com/u/5266139275">@SNH48 TeamSII应援会</a></div>
+    <!-- <div class="block">欢迎投稿，投稿请<a class="link" href="https://weibo.com/u/5266139275">@SNH48 TeamSII应援会</a></div> -->
     <div class="waterfall" v-infinite-scroll="loadMore" infinite-scroll-disabled="busy" infinite-scroll-distance="20">
       <a :href="getWeibo(item.weibo)" target="_blank" class="fallitem" v-for="(item) in data" :key="item.url" :title="getAuthor(item.author)">
         <img :src="item.url"/>
