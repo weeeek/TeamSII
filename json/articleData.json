@@ -1,6 +1,42 @@
 [
   {
     "member": true,
+    "finish": true,
+    "name": "我是阿吉",
+    "author": {
+      "name": "前SNH48工作人员·张竞",
+      "link": "https://weibo.com/zhangjingmax"
+    },
+    "articles": [
+      {
+        "chapter": 1,
+        "title": "一期生·初见",
+        "url": "https://wx2.sinaimg.cn/large/62ca40c6gy1frdbyajdfrj20c3111dh5.jpg"
+      },
+      {
+        "chapter": 2,
+        "title": "落入凡间的仙子",
+        "url": "http://t.cn/R30b6UM"
+      },
+      {
+        "chapter": 3,
+        "title": "芸·握手会",
+        "url": "http://t.cn/R38UZTV"
+      },
+      {
+        "chapter": 4,
+        "title": "最真实的一面",
+        "url": "http://t.cn/R33H0Ng"
+      },
+      {
+        "chapter": 5,
+        "title": "魔鬼队长·莫寒&袁丹妮",
+        "url": "http://t.cn/R1bkC9E"
+      }
+    ]
+  },
+  {
+    "member": true,
     "finish": false,
     "name": "重生计划·时之卷",
     "author": {

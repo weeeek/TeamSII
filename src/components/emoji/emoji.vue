@@ -1,9 +1,9 @@
 <template>
   <div id="emoji-container">
     <!-- <div class="block">欢迎投稿，投稿请<a class="link" href="https://weibo.com/u/5266139275">@SNH48 TeamSII应援会</a></div> -->
-    <div class="waterfall" v-infinite-scroll="loadMore" infinite-scroll-disabled="busy" infinite-scroll-distance="20">
+    <div class="waterfall">
       <a href="javascript:void(0)" class="fallitem" v-for="(item) in data" :key="item">
-        <img :src="CalcPath(item)"/>
+        <img v-lazy="CalcPath(item)"/>
       </a>
     </div>
     <!-- <div>
@@ -18,42 +18,27 @@
   export default {
     data () {
       return {
-        emojis: [],
-        data: [],
-        busy: false,
-        alreadyCount: 0
+        data: []
       }
     },
     created () {
       getEmojiData().then((res) => {
-        this.emojis = res
+        this.data = res
       })
     },
     methods: {
-        CalcPath (url) {
-          return 'http://47.97.248.244/static/emoji/' + url
-        },
-        loadMore () {
-            if(this.alreadyCount > this.emojis.length)
-                return
-            this.busy = true;
-            setTimeout(() => {
-                this.data = this.data.concat(this.emojis.slice(this.alreadyCount, this.alreadyCount + 10))
-                this.busy = false;
-                this.alreadyCount += 10
-            }, 1000);
-        }
+      CalcPath (url) {
+        return 'http://47.97.248.244/static/emoji/' + url
+      }
     }
   }
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
-  @import '~common/stylus/waterfall'
-  
+@import '~common/stylus/waterfall'
 @media screen and (min-width 1366px)
   #emoji-container
     padding-bottom 15px
-      
 @media screen and (max-width 1366px)
   #emoji-container
     padding-bottom 10px

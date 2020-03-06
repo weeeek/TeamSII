@@ -226,6 +226,12 @@
         "img": "//i1.hdslb.com/bfs/archive/48f9a3e96fbd2d564e0941b00da2a5fb103528bc.jpg"
       },
       {
+        "title": "第六届金曲大赏演唱会",
+        "from": "B",
+        "av": "80166733",
+        "img": "//i2.hdslb.com/bfs/archive/ae8cfc0a81c9f4ea76f0fdf8ebc5e09b133debc0.png_380x240.png"
+      },
+      {
         "title": "第六届总决选演唱会",
         "from": "B",
         "av": "61024719",
@@ -242,6 +248,54 @@
         "from": "B",
         "av": "27962731",
         "img": "//i0.hdslb.com/bfs/archive/a8a130ab80d8cc01eaee0303fdf02928d2eaef4b.jpg_380x240.jpg"
+      },
+      {
+        "title": "第四届金曲大赏演唱会",
+        "from": "",
+        "url": "https://v.qq.com/x/cover/ep27v9h3o3onzz4/f0025q78hwn.html",
+        "img": "//i2.hdslb.com/bfs/archive/4700ed202ce22766ccd301ccdc88ff737ac69c4b.jpg_380x240.jpg"
+      },
+      {
+        "title": "第四届年度总决选 《我心翱翔》",
+        "from": "",
+        "url": "https://v.qq.com/x/cover/2awu5u20hbp8tvb/i0024ft73t1.html",
+        "img": "//i0.hdslb.com/bfs/archive/c13807685ac7c4e6428b9bf9c75de59d9c480473.png_380x240.png"
+      },
+      {
+        "title": "第三届金曲大赏演唱会",
+        "from": "",
+        "url": "https://v.qq.com/x/cover/5pnj5vgwgc4g583/x0022o9rgpa.html",
+        "img": "//i0.hdslb.com/bfs/archive/b2b45539d20223c2426bce5cfc16f8dc2fdf75f3.jpg_380x240.jpg"
+      },
+      {
+        "title": "第三届年度总决选 《比翼齐飞》",
+        "from": "B",
+        "av": "22501461",
+        "img": "//i1.hdslb.com/bfs/archive/daf376ce7201f77f4281df0cad5b99093cc9c53e.jpg_380x240.jpg"
+      },
+      {
+        "title": "第二届金曲大赏演唱会",
+        "from": "B",
+        "av": "3458812",
+        "img": "//i1.hdslb.com/bfs/archive/e3e54f5173c8c633e794b65a4df2f52acfe7a7db.jpg_380x240.jpg"
+      },
+      {
+        "title": "第二届年度总决选 《梦想高飞》",
+        "from": "B",
+        "av": "2766137",
+        "img": "//i1.hdslb.com/bfs/archive/62d100a625eea2dd20e0b2f7d01e4332c7553b87.png_380x240.png"
+      },
+      {
+        "title": "第一届金曲大赏演唱会",
+        "from": "B",
+        "av": "13332601",
+        "img": "//i0.hdslb.com/bfs/archive/a3553471c28bf417e8c6db5272d3776c194fa3c4.jpg_380x240.jpg"
+      },
+      {
+        "title": "第一届年度总决选 《一心向前》",
+        "from": "B",
+        "av": "22168684",
+        "img": "//i2.hdslb.com/bfs/archive/18da165bb14f801701fe93432438f40a69dfa36f.png_380x240.png"
       },
       {
         "title": "160528亚洲强音盛典",
@@ -297,6 +351,18 @@
         "img": "//i1.hdslb.com/bfs/archive/199b2bad69f6ec493abace2c69bc0958f24c489c.png_380x240.png"
       },
       {
+        "title": "Toshiba x SNH48 运动会",
+        "from": "B",
+        "av": "22224223",
+        "img": "//i0.hdslb.com/bfs/archive/745d0563015c1f5d30953f99059157d3c286d4bd.jpg_380x240.jpg"
+      },
+      {
+        "title": "心跳泳池",
+        "from": "B",
+        "av": "13263474",
+        "img": "//i1.hdslb.com/bfs/archive/cdffa854b9ef4f55ee5d5e8d6608afc24b6b8167.jpg_380x240.jpg"
+      },
+      {
         "title": "国民美少女",
         "from": "B",
         "av": "4227744",
@@ -343,6 +409,12 @@
         "from": "B",
         "av": "14629561",
         "img": "//i0.hdslb.com/bfs/archive/a31f0220d7060c7cb481ed08c847d17716521ec0.png_380x240.png"
+      },
+      {
+        "title": "整人企划",
+        "from": "B",
+        "av": "14724096",
+        "img": "//i0.hdslb.com/bfs/archive/0bb3036609c374853744ad2189bc129e05d1bb44.png_380x240.png"
       }
     ]
   },
@@ -360,6 +432,12 @@
         "from": "B",
         "av": "17156101",
         "img": "//i2.hdslb.com/bfs/archive/703e653456ad9ea0cbd8a46bcaab3a2c9468bbf7.jpg_380x240.jpg"
+      },
+      {
+        "title": "花之岛 - 徐晨辰",
+        "from": "B",
+        "av": "89851329",
+        "img": "//i2.hdslb.com/bfs/archive/97eede5179d47e2afeb522089ffe452236b9a1ef.jpg_380x240.jpg"
       },
       {
         "title": "好友创可贴",
@@ -504,7 +582,7 @@
     "type": "科普",
     "list": [
       {
-        "title": "少女偶像“出柜”蝴蝶效应，粉丝成员直播撕纸",
+        "title": "三哥一梦，全员撕纸",
         "from": "B",
         "av": "37413556",
         "img": "//i2.hdslb.com/bfs/archive/00abf5170776ef0a1fd788e1fd49853f2c7ed6bf.jpg_380x240.jpg"
@@ -573,6 +651,12 @@
   {
     "type": "治愈",
     "list": [
+      {
+        "title": "警报：SII病毒感染者正在增加!",
+        "from": "B",
+        "av": "18347621",
+        "img": "//i1.hdslb.com/bfs/archive/8feced6e2c0e2480c64e7add4f1899ff67b5dc20.jpg_380x240.jpg"
+      },
       {
         "title": "盘点SII小哭包的哭哭瞬间",
         "from": "B",
@@ -652,6 +736,12 @@
         "img": "//i0.hdslb.com/bfs/archive/0e7f73682676849053a9b73f18a3f5ab946c93dd.jpg_380x240.jpg"
       },
       {
+        "title": "雨季之后",
+        "from": "B",
+        "av": "9061902",
+        "img": "//i2.hdslb.com/bfs/archive/0daa3b938a58b55fb1ea9eff45d42b5b15904899.jpg_380x240.jpg"
+      },
+      {
         "title": "少女天团",
         "from": "B",
         "av": "28253602",
@@ -680,6 +770,18 @@
         "from": "B",
         "av": "57930462",
         "img": "//i1.hdslb.com/bfs/archive/81cc8e1ac72c8b9dcbb9e743ea67448552a872cc.jpg_380x240.jpg"
+      },
+      {
+        "title": "建队6周年VCR",
+        "from": "B",
+        "av": "77450271",
+        "img": "//i0.hdslb.com/bfs/archive/6b41a4ec28b5815cb280460e9ef559b6ac5ee7ad.jpg_380x240.jpg"
+      },
+      {
+        "title": "“我心翱翔”微记录：莫寒",
+        "from": "B",
+        "av": "15350132",
+        "img": "//i1.hdslb.com/bfs/archive/4d5efa0a3818d92069d7cc8a31dda04c2a029ea8.png_380x240.png"
       }
     ]
   },
@@ -720,6 +822,12 @@
         "from": "O",
         "url": "https://space.bilibili.com/12041655/video?tid=0&page=2&keyword=&order=pubdate",
         "img": "//i1.hdslb.com/bfs/archive/663b93d2053071b516ec63f0dd70b77c1bb975bf.png_380x240.png"
+      },
+      {
+        "title": "午夜凶河",
+        "from": "B",
+        "av": "87893166",
+        "img": "//i0.hdslb.com/bfs/archive/49c839a862f1bfe85871a121841c0de3fdd73e5d.jpg_380x240.jpg"
       },
       {
         "title": "猫和老鼠系列",
@@ -798,6 +906,12 @@
     "type": "无声的呐喊",
     "list": [
       {
+        "title": "能遇到你们真的太好了",
+        "from": "B",
+        "av": "13627339",
+        "img": "//i2.hdslb.com/bfs/archive/bbfe4a7321cff49b70261164a52e026a932952d5.png_380x240.png"
+      },
+      {
         "title": "嘉兴路的百万富翁",
         "from": "B",
         "av": "20528183",
@@ -875,6 +989,18 @@
         "from": "B",
         "av": "44117041",
         "img": "//i0.hdslb.com/bfs/archive/938b1ed8c6c6165c1264f9de1c4c8f48f5ab1351.png_380x240.png"
+      },
+      {
+        "title": "2019开学季与尼相约聊青春",
+        "from": "B",
+        "av": "66993963",
+        "img": "//i1.hdslb.com/bfs/archive/a945005a3141f99d5e8abd0bc10755688e445a50.jpg_380x240.jpg"
+      },
+      {
+        "title": "2020元宵节暨管理员特别电台公演",
+        "from": "B",
+        "av": "87867105",
+        "img": "//i2.hdslb.com/bfs/archive/d38214db5293c584615b8874d06d02dc10d474fd.png_380x240.png"
       }
     ]
   }
