@@ -59,10 +59,17 @@
 </template>
 
 <script type="text/ecmascript-6">
-export default {};
+export default {}
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
+.tab{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
+
 @media screen and (min-width: 1366px) {
   .tab {
     border-top: 1px solid #f2f2f5;

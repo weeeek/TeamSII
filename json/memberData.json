@@ -351,6 +351,24 @@
       }
     },
     {
+      "name": "王秋茹",
+      "photo": "http://www.snh48.com/images/member/zp_10216.jpg",
+      "weibo": "u/6732128785",
+      "bilibili": null,
+      "douyin": null,
+      "changba": null,
+      "miaopai": null,
+      "pocket48": {
+        "id": 0,
+        "roomId": 0
+      },
+      "group": null,
+      "modian": {
+        "enabled": false,
+        "id": "0"
+      }
+    },
+    {
       "name": "吴哲晗",
       "photo": "http://www.snh48.com/images/member/zp_10013.jpg",
       "weibo": "u/3050731261",
