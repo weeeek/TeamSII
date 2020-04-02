@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <music-player></music-player>
-    <global-header></global-header>
-    <tab></tab>
     <div class="container" :class="{'showMusicPlayer': this.playlist.length > 0}">
+      <global-header></global-header>
+      <tab></tab>
       <keep-alive>
         <router-view v-if="$route.meta.keepAlive"></router-view>
       </keep-alive>

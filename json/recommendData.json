@@ -213,7 +213,19 @@
         "title": "模仿鬼才刘增艳",
         "from": "B",
         "url": "28500436",
-        "img": "//i2.hdslb.com/bfs/archive/a4a2e7f049557dcf558b0b5a5a14c0e1828e27b8.jpg"
+        "img": "//i2.hdslb.com/bfs/archive/a4a2e7f049557dcf558b0b5a5a14c0e1828e27b8.jpg_380x240.jpg"
+      },
+      {
+        "title": "刘增艳·神吐槽小黄歌《天真》",
+        "from": "B",
+        "av": "95458818",
+        "img": "//i2.hdslb.com/bfs/archive/5af85353c5341025348afcbd5177f18fc8c5e163.jpg_380x240.jpg"
+      },
+      {
+        "title": "钱蓓婷·少女偶像带你听懂《毒蜘蛛》",
+        "from": "B",
+        "av": "96916287",
+        "img": "//i1.hdslb.com/bfs/archive/77d861584acb31941a43cdf2a7dded37278633b5.jpg_380x240.jpg"
       }]
   },
   {
@@ -308,6 +320,12 @@
   {
     "type": "综艺",
     "list": [
+      {
+        "title": "青春有你2·少女的funny time",
+        "from": "B",
+        "av": "89717502",
+        "img": "//i1.hdslb.com/bfs/archive/f3bb5c841b16519cbc78685d0b8bacc07de2360f.png_380x240.png"
+      },
       {
         "title": "意想不到的假期",
         "from": "I",
@@ -641,6 +659,12 @@
     "type": "官方制作",
     "list": [
       {
+        "title": "成员B站投稿",
+        "from": "",
+        "url": "https://space.bilibili.com/12444300/favlist?fid=313228200&ftype=create",
+        "img": "//i1.hdslb.com/bfs/archive/5b7658fff9ced3cdbc9a1e1186c005a70e7e248d.jpg_380x240.jpg"
+      },
+      {
         "title": "莫寒的八个梦",
         "from": "B",
         "av": "48712575",
@@ -942,30 +966,15 @@
     "list": [
       {
         "title": "SNH48Kill",
+        "from": "塞纳河杯峡谷争霸联赛",
+        "url": "https://www.bilibili.com/video/BV1dA41187fM",
+        "img": "//i0.hdslb.com/bfs/archive/cb6ffdd028b86f31d2d1372072bda81535b4a174.png_380x240.png"
+      },
+      {
+        "title": "SNH48Kill",
         "from": "G",
         "url": "http://47.97.248.244/SNH48Kill/index.html",
         "img": "http://47.97.248.244/static/images/SNH48Kill.jpg"
-      },
-      {
-        "title": "款款快跑",
-        "from": "G",
-        "url": "https://www.fxf48.com/game/kkrush/",
-        "img": "https://www.fxf48.com/game/images/EN/preloadImage.jpg",
-        "size": "contain"
-      },
-      {
-        "title": "冯款款2048",
-        "from": "G",
-        "url": "https://www.fxf48.com/game/fkk2048/index.html",
-        "img": "https://www.fxf48.com/game/fkk2048/img/11.png",
-        "size": "contain"
-      },
-      {
-        "title": "五子棋大战",
-        "from": "G",
-        "url": "https://weeeek.github.io/Skills/SIIGobang.html",
-        "img": "https://imgsa.baidu.com/baike/pic/item/dbb44aed2e738bd42f3eebfda88b87d6267ff9db.jpg",
-        "size": "contain"
       }
     ]
   },
