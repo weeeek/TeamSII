@@ -29,6 +29,31 @@
               }
             ],
             "opern": null
+          },
+          {
+            "image": {
+              "url": "//i1.hdslb.com/bfs/archive/7f842f4b9d930db38f19c87d35e74cb810095a56.jpg",
+              "left": "50%",
+              "right": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "蒋芸"
+            ],
+            "lyric": "W3RpOuS4jei0n10KW29mZnNldDowXQpbMDA6MDAuMDBd44CK5LiN6LSf44CLClswMDowMS4zM13kvZzor43vvJrlpKfnmb0KWzAwOjAyLjY2XeS9nOabsu+8mkZhU29MYVhpRG9GYQpbMDA6MDQuMDBd57yW5puy77yaQ2hhc2Vt5qKm6Z+zClswMDowNS4zM13ljp/llLHvvJrmnKrmnaUuTWlyYWnvvIjokovoirjvvIkKWzAwOjA2LjY2XeWQjuacn++8mui0vOaBqQpbMDA6MDguMDBd5L+u5Zu+77ya5L2c6IKGClswMDowOS4zM13vvLDvvLbvvJrlronmqILlupzmmbTmmI4KWzAwOjEwLjY2XeeJiOadg++8mlNOSDQ46JKL6Iq4JuiSi+iKuOWls+mlreW6lOaPtOS8mgpbMDA6MTQuNTJd5LuK5aSV5L2V5aSVIOabvuW/hgpbMDA6MTguMDhd5Yid6YKC6YCFIOeciemXtOiXj+aEjwpbMDA6MjEuNDRd57Sg6Z2i5YeA5omLIOS5kOa4hea4hQpbMDA6MjQuOTRd5aSc6aOO6KKt5p2lIOS4jei0n+ebuOaAnQpbMDA6MjguMzRd54Gr5bGx5oiQ54GwIOWNiui4n+i6hwpbMDA6MzEuNzdd5YmN6Lev6LCB6IO9IOi+qemavuaYkwpbMDA6MzUuMTZd5aSc55qO5pei5piOIOW/g+S9jumhvuaAgApbMDA6MzguNzVd5oGo5aiH5p+UIOazquiHquasugpbMDA6NDUuNTdd6IWQ6I2J5Li66JCkIOaIkeaXouaYjgpbMDA6NDguOThd5LiN6LSf5LuW5Lq6IOebuOefpeebuOmajwpbMDA6NTIuMDhd55yJ6Ze057qz6ZuqIOW/g+iXj+aEjyDosIHmlaLoqIAKWzAwOjU5LjE5XeW8seafs+aJtumjjiDkuI3loKrnp7sKWzAxOjAyLjU4XeaYpeaoseiQveWFriDnp4vlj7botbcKWzAxOjA1Ljc3XeW8ueWJkeaUvuatjCDkvZXmgJXliY3ot68KWzAxOjA5LjQ5XeeLgumjjuaApQpbMDE6MjYuNjld6Iie6Z2S6KGj55m9IOmck+ijswpbMDE6MzAuMDBd5L2O5ZCf5rWF5ZSxIOiKiuiKiuabsgpbMDE6MzMuNDBd5aSP6Iqx5byA5YWuIOWGrOmbquaKqwpbMDE6MzYuNzBd5LiN56a75LiN5byDIOS9leiwiOiHquazowpbMDE6NDAuMjJd5pyI5YWJ5Ly857qxIOS4uuWQm+ihowpbMDE6NDMuNjhd5rW35qOg6Iqx5byAIOWPquS4uuW+heWQmwpbMDE6NDcuMTld5LiN6Zeu5LiU5LiN55+l56e7ClswMTo1MC4yOF3lpKfpsbzljJbpuY/muLjlpKnpmYUKWzAxOjUzLjk1XeiHquebuOemuwpbMDE6NTcuNTdd5b6F5p2l5bm06L27IOaKmOahguaenQpbMDI6MDAuODld5Zue6aOO6Iie6ZuqIOa1heeskeS9juWQnwpbMDI6MDQuMDdd5LiN6LSf5ZCbIOS4lOS4uuaIkSDmjILml4zml5cKWzAyOjExLjEzXei/h+WNg+W4hiDkvJfkuLrmiJHlgJoKWzAyOjE0LjUyXemVv+iilue/qeiIniDlsL3lsZXoiboKWzAyOjE3Ljg2XeS5mOmjjuegtOa1quS8muacieaXtiDmjILkupHluIbllK/lv4YKWzAyOjI0Ljg0XeW+headpeW5tOi9uyDmipjmoYLmnp0KWzAyOjI4LjM1XeWbnumjjuiInumbqiDmtYXnrJHkvY7lkJ8KWzAyOjMxLjQ2XeS4jei0n+WQmyDkuJTkuLrmiJEg5oyC5peM5peXClswMjozOC41Ml3ov4fljYPluIYg5LyX5Li65oiR5YCaClswMjo0MS45OV3plb/oopbnv6kg6Iie5bC95bGV6Im6ClswMjo0NS4yNV3kuZjpo47noLTmtarkvJrmnInml7YKWzAyOjQ3Ljk1XeaMguS6keW4huWUr+W/hgo=",
+            "id": 20171002,
+            "mid": null,
+            "name": "不负",
+            "interval": 182,
+            "url": "http://47.97.248.244/static/music/蒋芸-不负.mp3",
+            "play": [
+              {
+                "player": "未来·Mirai",
+                "type": "bilibili",
+                "url": "https://www.bilibili.com/video/BV1cx41137DK"
+              }
+            ],
+            "opern": null
           }
         ]
       },
@@ -40,7 +65,7 @@
               "url": "//i2.hdslb.com/bfs/archive/94f183a006fec7316647a303c4fa30388ce89305.jpg",
               "left": "50%",
               "right": "50%",
-              "objectfit": "cover"
+              "objectfit": "contain"
             },
             "singer": [
               "赵晔"
@@ -66,7 +91,36 @@
   },
   {
     "typeName": "填词",
-    "group": []
+    "group": [
+      {
+        "title": "吕一",
+        "songs": [{
+            "image": {
+              "url": "//i0.hdslb.com/bfs/album/0efd6699c9001e5cbf993da8f2970a951f313b06.jpg",
+              "left": "50%",
+              "right": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "吕一"
+            ],
+            "lyric": "W3RpOjfml7YxMuWIhueahOWIneaBi10KW2FyOuWQleS4gF0KW2FsOuWQleS4gF0KW2J5OkFLQjQ4XQpbb2Zmc2V0OjBdClswMDowMC4wMF035pe2MTLliIbjga7liJ3mgYsKWzAwOjA1LjAwXeWOn+WUse+8mmFrYjQ4ClswMDoxMC4wMF3nv7vllLHvvJroh63ohJrnlarojITvvIjlkJXkuIDvvIkKWzAwOjE0LjAwXeWhq+ivje+8muWPo+WPo+S4gO+8iOWQleS4gO+8ieWSjOWlueeahOWwj+S8meS8tApbMDA6MTguMDBd5b2V6Z+z77ya6Zuq6YeO6YeO77yI6LW15pmU77yJClswMDoyMi4wMF3op4bpopHvvJrpm6rph47ph47vvIjotbXmmZTvvIkKWzAwOjI2LjU4Xeavj+WkqemDveWcqOacn+W+hQpbMDA6MjguMjhd5riF5pmo5YWs5Lqk6L2m56uZClswMDozMC40Ml3kvY7lpLTnnIvmiYvmnLrnmoTkvaAKWzAwOjM0LjIxXeaChOaChOermeWcqOS9oOi6q+WQjgpbMDA6MzguMzVd5YGH6KOF5YG254S26YGH6KeBClswMDo0Mi41NV3lgbbnhLbmk6bogqnogIzov4cKWzAwOjQ0LjU2Xeinhue6v+eahOS6pOWPieWkhApbMDA6NDYuNTFd5oiR56qB54S25YO15L2P55qE6IS4ClswMDo1MC4yN13miYDmnInlhbPkuo7kvaDnmoTkuosKWzAwOjU0LjE4XeaIkei/mOayoeiDveS6huinowpbMDA6NTguNjVd5LiA55u05Lul5p2l55qE5oiRClswMTowMS4wNV3mgLvmmK/lnKgKWzAxOjAyLjYwXei/nOi/nOeahOacm+edgOS9oApbMDE6MDUuNjVd5pil5aSp5LiA6Iis55qE56yR6IS4ClswMTowOC40MV3muKnmn5TnmoTkvqfpopwKWzAxOjExLjA1XemDveWIu+WcqOiEkea1t+mHjOmdogpbMDE6MTUuNTVd5Ye6546w5ZyoIOa4heaZqOS4g+eCueWNgeS6jOWIhiDliJ3mgYvnmoTlv4MKWzAxOjI0LjE5Xeiiq+S6uue+pOmalOW8gOmBpei/nOeahOi3neemuwpbMDE6MjguNDVd5peg5rOV5ZCR5L2g6Z2g6L+RClswMTozMS41NF3lh7rnjrDlnKgg5riF5pmo5LiD54K55Y2B5LqM5YiGIOi/q+WIh+eahOW/gyAKWzAxOjQwLjQ3XeWPquWlveeUqOWPjOecvOi3n+e0p+S9oOeahOi6q+W9sQpbMDE6NDQuNDVd5LiN5oS/6ZSZ6L+H5q+P5LiA5qyhIOebuOmBhwpbMDE6NTYuNTFd5oC75piv6Z2g5Zyo6L2m56qXClswMTo1OC40MF3lgYfoo4XnnIvlkJHnqpflpJYKWzAyOjAwLjM5XeaChOaChOeahOazqOinhuedgOS9oApbMDI6MDQuMzBd5L2g6IO95LiN6IO95aSf5LmfClswMjowOC4yMF3nqI3lvq7nnIvlkJHov5novrkKWzAyOjEyLjQ5XeWTquaAleaJgOaciemCo+S6mwpbMDI6MTQuNDZd5YWz5LqO5L2g55qE5LqL5oOFClswMjoxNi40NV3miJHkvp3ml6fmsqHog73kuobop6MKWzAyOjIwLjMzXeS9huaBi+eIseaAu+aYr+WcqApbMDI6MjQuMzFd54us6Ieq5LiL552A5Yaz5b+DClswMjoyOS4wOF3ljbPkvb/kuI3lg4/nq6Xor53ph4zpgqPmoLcKWzAyOjMyLjUwXeaLpeacieWujOe+jueahOaooeagtwpbMDI6MzUuNzVd5Y205bim552A5piO5pyX55qE56yRClswMjozOC4zOV3pmY3kuLTouqvml4EKWzAyOjQwLjk4XeWNoOmihuaIkeeahOW/g+aIvwpbMDI6NDUuNTRd5Y2z5L2/5pivIOWPquaciTIw5YiG6ZKf55qE55+t5pqC55u46YGHClswMjo1NC4wMF3lsLHnrpfnnLznpZ7lkoznnLznpZ7msqHmnInkuqTmsYcKWzAyOjU4LjU4XeS5n+aYr+W/q+S5kOeahOe6puS8mgpbMDM6MDEuNjNd5Y2z5L2/5pivIOWPquaciTIw5YiG6ZKf55qE5qKm5aKD6YeM6Z2iClswMzoxMC4zMl3lj6ropoHmhqfmhqznmoTkvaDog73lnKjmiJHouqvovrkKWzAzOjE0LjQ0XeW9kumAlOaYr+WQpuS5n+iDveWGjeeisOmdogpbMDM6MzUuNjBd5Ye6546w5ZyoIOa4heaZqOS4g+eCueWNgeS6jOWIhuWIneaBi+eahOW/gwpbMDM6NDQuNTRd6KKr5Lq6576k6ZqU5byA6YGl6L+c55qE6Led56a7ClswMzo0OC4zNl3ml6Dms5XlkJHkvaDpnaDov5EKWzAzOjUxLjU3XeWHuueOsOWcqCDmuIXmmajkuIPngrnljYHkuozliIbov6vliIfnmoTlv4MgClswNDowMC40Ml3lj6rlpb3nlKjlj4znnLzot5/ntKfkvaDnmoTouqvlvbEKWzA0OjA0LjM3XeS4jeaEv+mUmei/h+avj+S4gOasoeebuOmBhwo=",
+            "id": 20170626,
+            "mid": null,
+            "name": "7时12分的初恋",
+            "interval": 264,
+            "url": "http://47.97.248.244/static/music/吕一-7时12分的初恋.mp3",
+            "play": [
+              {
+                "player": "臭脚番茄",
+                "type": "bilibili",
+                "url": "https://www.bilibili.com/video/BV18x41167tn"
+              }
+            ],
+            "opern": null
+          }]
+      }
+    ]
   },
   {
     "typeName": "翻唱",
@@ -244,6 +298,31 @@
                 "player": "未来·Mirai",
                 "type": "bilibili",
                 "url": "https://www.bilibili.com/video/av25772257"
+              }
+            ],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "//i2.hdslb.com/bfs/archive/ac39de7c640b5ed1460de704421e626db251b311.jpg",
+              "left": "50%",
+              "right": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "蒋芸"
+            ],
+            "lyric": "",
+            "id": 20160821,
+            "mid": "004OQ5Mt0EmEzv",
+            "name": "大鱼",
+            "interval": 313,
+            "url": "http://47.97.248.244/static/music/蒋芸-大鱼.MP3",
+            "play": [
+              {
+                "player": "未来·Mirai",
+                "type": "bilibili",
+                "url": "https://www.bilibili.com/video/BV1ts411k7bH"
               }
             ],
             "opern": null
@@ -678,7 +757,13 @@
             "mid": "0004Z2VS4fomBw",
             "name": "哪种朋友",
             "interval": 298,
-            "play": [],
+            "play": [
+              {
+                "player": "大师之大",
+                "type": "bilibili",
+                "url": "https://www.bilibili.com/video/av49984336"
+              }
+            ],
             "opern": null
           }
         ]
@@ -804,6 +889,56 @@
             "interval": 280,
             "url": "http://47.97.248.244/static/music/修炼爱情-徐晨辰&沈之琳.mp3",
             "play": [],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "//i0.hdslb.com/bfs/archive/aa71563f7417338b92f041f8ae89183eabb7c38b.jpg",
+              "left": "50%",
+              "right": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "张语格"
+            ],
+            "lyric": "W3RpOumdkuaYpeeahOiKseeTo10KW2FyOlNOSDQ4XQpbYWw65LiH5Zyj6IqC5LmL5aScXQpbYnk6XQpbb2Zmc2V0OjBdClswMDowMC4wMF3pnZLmmKXnmoToirHnk6MgLSBTTkg0OCAtIOW8oOivreagvApbMDA6MDEuMDBd6K+N77ya5LiK5rW35pif5Zub6IqtClswMDowMi4wMF3mm7LvvJrkuIrmnYnmtIvlj7IKWzAwOjA0LjYwXeeJteedgOS9oOeahOaJiwpbMDA6MDUuODdd55yL6Iqx55Oj6aOY6JC9ClswMDowNy4xN13ov5jmnInlpJrlsJHmnKrlroznmoTmib/or7oKWzAwOjExLjEyXemdkuaYpeW8gOWni+aIkOeGnwpbMDA6MTMuNDNd5piv5oiR5ZCv56iL55qE5pe25YCZClswMDoxOC4zNl3kuI3lkIznmoTnkIbnlLEKWzAwOjE5LjYwXeS4jeWQjOeahOaEn+WPlwpbMDA6MjAuODdd5Lmf5Zyo6L+95a+7552A55u45ZCM55qE5qKmClswMDoyNC43OV3kvYbmhL/miJHku6zmi6XmnIkKWzAwOjI3LjI0Xee7veaUvuS5i+WQjueahOeskeWuuQpbMDA6MzEuNjld6YKj5pyq5p2l5bCx5YOP5a695bm/55qE5a6H5a6ZClswMDozOC45MF3otbDliLDlk6rph4zpg73kuI3kvJrlr4Llr54KWzAwOjQ1LjMxXeWwj+Wwj+i6q+S9k+iDjOWQjgpbMDA6NDguNzhd6ZW/5Ye65qKm55qE57+F6IaAClswMDo1MS4zM13po57lkJHoh6rnlLEKWzAwOjU5LjMyXeW9k+azquawtOa7keiQveeahOaXtuWAmQpbMDE6MDEuNjld5oiR5LuN57Sn5o+h552A5biM5pybClswMTowNS42NV3ohLjpoormu5HokL3nmoTmmK/li4fmlaIKWzAxOjA4LjUyXeiAjOS4jeaYr+abvuWPl+i/h+eahOS8pApbMDE6MTIuNzZd6JSa6JOd55qE5aSp56m6ClswMToxNC41M13ku7vmiJHku6zlvKDlvIDnv4XohoDpo57nv5QKWzAxOjE5LjY5XeW9vOatpOePjeaDnCDov5nmrrXml7blhYkKWzAxOjI2LjUyXeW9k+azquawtOe7veaUvueahOaXtuWAmeW8pea8q+edgOeIseeahOiKrOiKswpbMDE6MzMuMTld5Zue5b+G5pu+57uP576O5aW955qE556s6Ze0ClswMTozNi4xNl3lkozmnIDmiafnnYDnmoTnlq/ni4IKWzAxOjQwLjI2XeS7u+aAp+eahOmdkuaYpeaIkeS7rOWkp+WjsOeahOatjOWUsQpbMDE6NDcuMDNd57un57ut5Y+R5YWJ57un57ut6Zeq5LquClswMTo1Mi4yM13miJHku6zkuI3kuIDmoLcKWzAyOjAwLjg3XeW9k+iKseactee7veaUvueahOaXtuWIu+aIkeeci+ingeS6huW4jOacmwpbMDI6MDcuNTVd5biM5pyb55qE6ZKf5aOw5riF5r6IClswMjowOS43Nl3lm57ojaHlnKjpgqPpgaXov5znmoTliY3mlrkKWzAyOjE0Ljc0Xee7meaIkeWKm+mHj+iuqeaIkeWdmuW8uuS4gOW/g+WQkeWJjemXrwpbMDI6MjEuMzJd5LiN5YaN54q56LGrIOS4jeWGjeW9t+W+qApbMDI6MjguMjRd5b2T6Iqx5py157u95pS+55qE5pe25Yi76YO95piv6bKc6Imz55qE5qih5qC3ClswMjozNC45NV3ltK3mlrDnmoTkuJbnlYznlKjoh6rlt7HnmoTmiYsKWzAyOjM4LjUxXeaJk+W8gOaJjeabtOa8guS6rgpbMDI6NDIuMDBd5rWB6L+H55y85rOq5bCx5Lya5Y+Y5b6X5pu05Z2a5by6ClswMjo0OC43MV3mnInov4flpLHmnJvmnInov4flj5fkvKQKWzAyOjUzLjgyXeaIkeS7rOeahOaipuaDswo=",
+            "id": 20181117,
+            "mid": null,
+            "name": "青春的花瓣",
+            "interval": 193,
+            "url": "http://47.97.248.244/static/music/张语格-青春的花瓣.mp3",
+            "play": [
+              {
+                "player": "张语格-Kether-热情组织",
+                "type": "bilibili",
+                "url": "https://www.bilibili.com/video/BV1rt411B7vd"
+              }
+            ],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "//i0.hdslb.com/bfs/archive/56823c9640fe970b197c2ee0159abf0def2aa467.jpg",
+              "left": "50%",
+              "right": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "戴萌"
+            ],
+            "lyric": "W3RpOuS4gOeskeWAvuWfjl0KW29mZnNldDowXQpbMDA6MDAuMDBd5LiA56yR5YC+5Z+OClswMDowMS4wMF3or43vvJpGaW5hbGUKWzAwOjAxLjUwXeabsu+8muaxquiLj+aztwpbMDA6MDIuMDBd5pS557yW57yW5puy77ya6YOR5qWgClswMDowMi41MF3mt7fpn7PvvJrotbXpnZYKWzAwOjAzLjAwXVdvbyB3b28KWzAwOjE3LjQ4XSBteSBiYWJ5IGdpcmwKWzAwOjE5LjU5XVdvbyB3b28KWzAwOjIyLjU0XUkgbWlzcyB5b3UgSSBsb3ZlIHlvdQpbMDA6MjQuOTdd5oiR5oC75piv6L275o+P5reh5YaZ5ZGK6K+J5L2g5oiR55qE5oS/5pybClswMDozMC40MF3kuZ/nu5nkvaDljYPoqIDkuIfor63pg73or7TkuI3lsL3nmoTnm67lhYkKWzAwOjM1LjgxXei/meS4lueVjOaAu+acieS6uuWcqOW/meW/meeijOeijOWvu+WuneiXjwpbMDA6NDEuMjld5Y206K+v5LqG5rWu5LiW6aqE6ZizClswMDo0My44OV3kuZ/plJnov4fkurrpl7TkuIfosaEKWzAwOjQ2Ljc3XeS9oOeahOW+rueskeWwseWDj+m7keaal+S4reegtOaZkwpbMDA6NDkuNTBd5rip5p+U5YWJ6IqS5YWz5o6J5Z+O5biC55qE5Zan5ZqjClswMDo1Mi4yMF3ogLPovrnkuJbnlYzpmo/nnYDkvaDkuIrmiazlmLTop5IKWzAwOjU0LjcwXeWPquWJqeaIkeeahOW/g+i3swpbMDA6NTcuNzFd6JOm54S25Zue6aaW5p+Q5Liq6Ze06ZqZ55qE5b6u5aaZClswMTowMC41MF3op4bnur/nqb/ov4fnga/ngavpmJHnj4rlpITlr7nnhKYKWzAxOjAzLjEzXemCo+S4gOWIu+aIkeWwseWvueS9oOS4gOingeWAvuW/gwpbMDE6MDUuNjBd55u45L+h5ZG95Lit5rOo5a6aClswMTowNy4wMF3lsLHmib/orqTkuIDnrJHlgL7ln47kuIDop4Hoh6rpmr7lv5gKWzAxOjEyLjE2XeivtOS7gOS5iOaDhea3seS8vOa1t+aIkeWNtOS4jeaVouW9kwpbMDE6MTcuNzdd5pyA5rWq5ryr5LiN6L+H5LiO5L2g5bm26IKp55yL5aSV6ZizClswMToyMy4wNV3miJHlv4PkuYvmiYDlkJEKWzAxOjI4Ljc2XeaDs+WSjOS9oOa4uOWbm+aWuei1j+aZtOmbqOeahOmjjuWFiQpbMDE6MzQuMDZd5oOz5ZKM5L2g6ZO657q456yU5YaZ5L2Z55Sf55qE56+H56ugClswMTozOS42N13nrJHkuI7ms6rpg73liIbkuqvnrqHmg4XoioLlpJrot4zlrpUKWzAxOjQ1LjEwXeaIkeS7rOS4jeaVo+Wcugo=",
+            "id": 20191201001,
+            "mid": null,
+            "name": "一笑倾城",
+            "interval": 140,
+            "url": "http://47.97.248.244/static/music/戴萌-一笑倾城.mp3",
+            "play": [
+              {
+                "player": "z-48",
+                "type": "bilibili",
+                "url": "https://www.bilibili.com/video/BV15J411z7Nn"
+              }
+            ],
             "opern": null
           }
         ]

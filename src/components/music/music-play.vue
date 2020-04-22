@@ -10,6 +10,7 @@
       <div class="normal-player" v-show="fullScreen">
         <div class="background">
           <img
+            style="object-fit: contain"
             width="100%"
             height="100%"
             v-if="currentSong && currentSong.image"
