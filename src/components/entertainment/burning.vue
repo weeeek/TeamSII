@@ -14,9 +14,9 @@
 <script type="text/ecmascript-6">
   import {getBurningData} from 'config/burningData'
   import PK from 'components/plugin/pk2'
-  
+
   export default {
-    name: 'Burning',    
+    name: 'Burning',
     components: {
       PK
     },

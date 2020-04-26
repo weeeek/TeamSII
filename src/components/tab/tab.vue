@@ -40,14 +40,19 @@
         <span class="tab-link">直播</span>
       </router-link>
     </keep-alive>-->
-    <keep-alive>
+    <!-- <keep-alive>
       <router-link tag="div" class="tab-item" to="/raise">
         <span class="tab-link">集资</span>
       </router-link>
-    </keep-alive>
-    <keep-alive>
+    </keep-alive> -->
+    <!-- <keep-alive>
       <router-link tag="div" class="tab-item" to="/derivant">
         <span class="tab-link">周边</span>
+      </router-link>
+    </keep-alive> -->
+    <keep-alive>
+      <router-link tag="div" class="tab-item" to="/focus">
+        <span class="tab-link">直拍</span>
       </router-link>
     </keep-alive>
     <keep-alive>

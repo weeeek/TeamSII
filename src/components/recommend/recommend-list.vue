@@ -3,12 +3,12 @@
     <div class="video-block"  v-for="item in dataList" :key="item.type">
       <a class="video-type " :href="getUrl(item)" target="_blank">{{ item.type }}</a>
       <div class="video-list">
-        <a target="_blank" :href="getVideoPlayUrl(v)" class="video-detail" v-for="v in item.list" :key="v.av">
+        <a target="_blank" :href="getVideoPlayUrl(v)" class="video-detail" v-for="v in item.list" :key="v.url">
           <div class="video-img" :class="v.size">
             <div :style="setStyle(v)"></div>
           </div>
           <h3 class="video-title text-ellipsis">{{ v.title }}</h3>
-          <!-- <div class="video-info">{{ v.av }}</div> -->
+          <!-- <div class="video-info">{{ v.url }}</div> -->
         </a>
       </div>
     </div>
@@ -25,10 +25,11 @@ export default {
     })
   },
   methods: {
-    setStyle(v){
+    setStyle (v) {
       let str = `background-image:url(${v.img});`
-      if(v.position)
+      if (v.position) {
         str += `background-position:${v.position}`
+      }
       return str
     },
     getVideoImage (videoinfo) {
@@ -36,8 +37,10 @@ export default {
     },
     getVideoPlayUrl (videoinfo) {
       switch (videoinfo.from) {
+        case `BV`:
+          return `https://www.bilibili.com/video/BV${videoinfo.url}`
         case `B`:
-          return `https://www.bilibili.com/video/av${videoinfo.av}`
+          return `https://www.bilibili.com/video/av${videoinfo.url}`
         case `Q`:
           return `https://v.qq.com/detail/s/${videoinfo.url}.html`
         case `S`:
@@ -50,9 +53,10 @@ export default {
           return videoinfo.url
       }
     },
-    getUrl(obj){
-      if(obj.url)
+    getUrl (obj) {
+      if (obj.url) {
         return obj.url
+      }
       return 'javascript:void(0)'
     }
   },
@@ -88,7 +92,7 @@ export default {
             font-weight bold
             text-align center
           .video-img
-            div              
+            div
               background-repeat no-repeat
               background-size cover
               background-position center center
@@ -120,7 +124,7 @@ export default {
           .video-img
             div
               width 240px
-              height 150px              
+              height 150px
           .contain
             div
               background-size contain !important
@@ -152,5 +156,5 @@ export default {
               width 156px
               height 100px
           .video-info
-            display none            
+            display none
 </style>
