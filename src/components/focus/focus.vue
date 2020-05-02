@@ -8,27 +8,35 @@
             </div>
           </div>
         </div>
+        <br />
+        <div class="search">
+            <trip-search :placeholder="'搜索关键字（用单英文空格分隔）'" @query="onQueryChange"></trip-search>
+        </div>
     </div>
     <div v-for="(obj, i) in focusFilter" :key="obj.id">
-      <p class="focusor">{{obj.name}}</p>
-      <div class="project-wrap">
-        <a :class="`project-item member${i}`" v-for="item in obj.list" :key="item.url" target="_blank" :href="item.url">
-          <div class="project-info" :style="`background-image:url(${item.img})`">
-            <h3 class="project-title text-ellipsis">{{item.from}}<br />{{item.title}}</h3>
-          </div>
-        </a>
-      </div>
+        <p class="focusor">{{obj.name}}</p>
+        <div class="project-wrap">
+            <a :class="`project-item member${i}`" v-for="item in obj.list" :key="item.url" target="_blank" :href="item.url">
+            <div class="project-info" :style="`background-image:url(${item.img})`">
+                <h3 class="project-title text-ellipsis">{{item.from}}<br />{{item.title}}</h3>
+            </div>
+            </a>
+        </div>
     </div>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
 import { getFocusData } from 'config/focusData'
+import TripSearch from 'components/plugin/search'
 import blockcheck from 'components/plugin/blockCheck'
+import { searchMixin } from 'common/js/mixin'
 
 export default {
+  mixins: [searchMixin],
   components: {
-    blockcheck
+    blockcheck,
+    TripSearch
   },
   data () {
     return {
@@ -36,17 +44,6 @@ export default {
       all: false,
       DataList: []
     }
-  },
-  watch: {
-    all (newValue) {
-      this.all = newValue
-    //   this.FocusList.map((item) => {
-    //     item.checked = this.all
-    //     this.exchange(item)
-    //   })
-    }
-  },
-  created () {
   },
   mounted () {
     getFocusData().then(res => {
@@ -58,11 +55,24 @@ export default {
   },
   computed: {
     focusFilter () {
-      return this.DataList.filter((x) => {
+      let data = []
+      this.DataList.map((x) => {
         if (x.checked) {
-          return x
+          let temp = { id: x.id, name: x.name, checked: x.checked, list: [] }
+          let query = this.query.toLowerCase()
+          if (query) {
+            x.list.map((y) => {
+              if (y.title.toLowerCase().includes(query) || y.from.toLowerCase().includes(query)) {
+                temp.list.push(y)
+              }
+            })
+          } else {
+            temp.list = x.list
+          }
+          data.push(temp)
         }
       })
+      return data
     }
   }
 }

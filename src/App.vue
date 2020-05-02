@@ -103,7 +103,6 @@ export default {
   @import '~common/stylus/animation'
 
   #app
-    margin-right calc(100% - 100vw)
     width 100%
     background-image url('http://47.97.248.244/static/images/bg.jpg')
     .container

@@ -46,13 +46,8 @@ export default {
       default: ''
     }
   },
-  data () {
-    return {
-      
-    }
-  },
   methods: {
-    getClass(type){
+    getClass (type) {
       return 'dot-' + type
     },
     getUrl (url) {
@@ -64,80 +59,71 @@ export default {
     },
     splitDescription (str) {
       return str.split(',').join('<br>')
-    },
-  },
-  mounted () {
-
+    }
   },
   computed: {
     queryTimelineItems () {
       let data = []
-      let queryArr = [];
+      let queryArr = []
       if (this.query) {
-        //同时包含
-        if(this.query.includes("+")){
+        // 同时包含
+        if (this.query.includes('+')) {
           queryArr = this.query.trim().split('+')
-          this.timelineItems.map((x, xindex)=>{
+          this.timelineItems.map((x, xindex) => {
             data.push({
               year: x.year,
               items: []
             })
-            x.items.map((y)=>{
+            x.items.map((y) => {
               let index = 0
               let allmatch = true
-              let target = Object.assign({}, y)      
-              while (index < queryArr.length && allmatch){
-                //匹配这一个关键词
-                if (y.title.includes(queryArr[index]) || y.description.includes(queryArr[index])){
-                  //替换文本
+              let target = Object.assign({}, y)
+              while (index < queryArr.length && allmatch) {
+                // 匹配这一个关键词
+                if (y.title.includes(queryArr[index]) || y.description.includes(queryArr[index])) {
+                  // 替换文本
                   target.title = target.title.replace(queryArr[index], '<span class="keywords">' + queryArr[index] + '</span>')
                   target.description = target.description.replace(queryArr[index], '<span class="keywords">' + queryArr[index] + '</span>')
-                }
-                else{
+                } else {
                   allmatch = false
                 }
                 ++index
               }
-              if(allmatch)
+              if (allmatch) {
                 data[xindex].items.push(target)
+              }
             })
           })
-        }
-        else{
-          //关键字分割的关键字数组
+        } else {
+          // 关键字分割的关键字数组
           queryArr = this.query.trim().split(' ')
-          this.timelineItems.map((x, xindex)=>{
+          this.timelineItems.map((x, xindex) => {
             data.push({
               year: x.year,
               items: []
             })
-            x.items.map((y)=>{
+            x.items.map((y) => {
               let index = 0
               let target = Object.assign({}, y)
               let match = false
-              while (index < queryArr.length){
-                if (y.title.includes(queryArr[index]) || y.description.includes(queryArr[index]) || (y.summarize && y.summarize.includes(queryArr[index]))){
+              while (index < queryArr.length) {
+                if (y.title.includes(queryArr[index]) || y.description.includes(queryArr[index]) || (y.summarize && y.summarize.includes(queryArr[index]))) {
                   match = true
-                  target.title = target.title.replace(new RegExp(queryArr[index],"gm"), `<span class="keywords">${queryArr[index]}</span>`)
-                  target.description = target.description.replace(new RegExp(queryArr[index],"gm"), `<span class="keywords">${queryArr[index]}</span>`)
+                  target.title = target.title.replace(new RegExp(queryArr[index], 'gm'), `<span class="keywords">${queryArr[index]}</span>`)
+                  target.description = target.description.replace(new RegExp(queryArr[index], 'gm'), `<span class="keywords">${queryArr[index]}</span>`)
                 }
                 ++index
               }
-              if(match)
+              if (match) {
                 data[xindex].items.push(target)
+              }
             })
           })
-        }        
-      }
-      else{
+        }
+      } else {
         data = this.timelineItems
       }
       return data
-    }
-  },
-  watch: {
-    query (oldValue, newValue) {
-      
     }
   }
 }
@@ -207,14 +193,14 @@ export default {
         background #006ab7
       .dot-black
         background #000000
-        
+
 @media screen and (min-width 1366px)
   .wrapper-item
     grid-template-columns 100px 1fr
     .section-year
       margin 20px auto
-      font-size 20px  
-    .timeline-items    
+      font-size 20px
+    .timeline-items
       .month-item
         font-size 18px
         letter-spacing 2px
@@ -228,8 +214,8 @@ export default {
     grid-template-columns 80px 1fr
     .section-year
       margin 20px auto
-      font-size 20px  
-    .timeline-items    
+      font-size 20px
+    .timeline-items
       .month-item
         font-size 14px
         letter-spacing 1px

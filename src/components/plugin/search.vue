@@ -1,5 +1,5 @@
 <template>
-  <div class="search-box">    
+  <div class="search-box">
     <jam-search @click="click" />
     <input ref="query" v-model="query" class="box" :placeholder="placeholder"/>
     <jam-delete @click="clear" v-show="query" />
@@ -18,27 +18,27 @@
       click: {
         type: Function,
         default: function () {
-            return
+          return
         }
       }
     },
-    data() {
+    data () {
       return {
         query: ''
       }
     },
     methods: {
-      clear() {
+      clear () {
         this.query = ''
       },
-      setQuery(query) {
+      setQuery (query) {
         this.query = query
       },
-      blur() {
+      blur () {
         this.$refs.query.blur()
       }
     },
-    created() {
+    created () {
       this.$watch('query', debounce((newQuery) => {
         this.$emit('query', newQuery)
       }, 200))
