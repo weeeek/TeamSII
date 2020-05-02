@@ -43,7 +43,7 @@
                 />
               </div>
             </div>
-            <!-- <canvas ref="canvas" id="canvas" width="575" height="250"></canvas> -->
+            <canvas ref="canvas" id="canvas" width="575" height="250"></canvas>
           </div>
           <scroll class="middle-r" ref="lyricList" :data="currentLyric && currentLyric.lines">
             <div class="lyric-wrapper">
@@ -239,7 +239,6 @@ export default {
     this.touch = {}
   },
   mounted () {
-    // this.analys()
     document.getElementsByTagName('audio')[0].volume = this.currentVolume
   },
   methods: {
@@ -549,84 +548,84 @@ export default {
       setFullScreen: 'SET_FULL_SCREEN',
       setVolume: 'SET_VOLUME'
     }),
-    ...mapActions(['savePlayHistory'])
-    // analys() {
-    //   window.AudioContext =
-    //     window.AudioContext ||
-    //     window.webkitAudioContext ||
-    //     window.mozAudioContext
-    //   this.ctx = new AudioContext()
-    //   this.analyser = this.ctx.createAnalyser()
-    //   //this.audio = document.getElementById('audio')
-    //   this.audio = this.$refs.audio
-    //   // this.audio.volume = 0.3
-    //   this.audioSrc = this.ctx.createMediaElementSource(this.audio)
-    //   // we have to connect the MediaElementSource with the analyser
-    //   this.audioSrc.connect(this.analyser)
-    //   this.analyser.connect(this.ctx.destination)
-    //   // we could configure the analyser: e.g. analyser.fftSize (for further infos read the spec)
-    //   // analyser.fftSize = 64
-    //   // frequencyBinCount tells you how many values you'll receive from the analyser
-    //   this.frequencyData = new Uint8Array(this.analyser.frequencyBinCount)
-    //   // we're ready to receive some data!
-    //   this.canvas = this.$refs.canvas
-    //   this.cwidth = this.canvas.width
-    //   this.cheight = this.canvas.height - 2
-    //   this.meterWidth = 10 //width of the meters in the spectrum
-    //   this.gap = 2 //gap between meters
-    //   this.capHeight = 2
-    //   this.capStyle = '#fff'
-    //   this.meterNum = 800 / 10 //count of the meters
-    //   this.capYPositionArray = [] ////store the vertical position of hte caps for the preivous frame
-    //   this.ctx = this.canvas.getContext('2d')
-    //   this.gradient = this.ctx.createLinearGradient(0, 0, 0, 300)
-    //   // 0f0绿，ff0红 f00黄
-    //   this.gradient.addColorStop(1, '#0f0')
-    //   this.gradient.addColorStop(0.5, '#ff0')
-    //   this.gradient.addColorStop(0, '#f00')
-    // },
-    // loadstart() {
-    //   let _this = this
-    //   function renderFrame() {
-    //     var array = new Uint8Array(_this.analyser.frequencyBinCount)
-    //     _this.analyser.getByteFrequencyData(array)
-    //     var step = Math.round(array.length / _this.meterNum) //sample limited data from the total array
-    //     _this.ctx.clearRect(0, 0, _this.cwidth, _this.cheight)
-    //     for (var i = 0 i < _this.meterNum i++) {
-    //       var value = array[i * step]
-    //       if (_this.capYPositionArray.length < Math.round(_this.meterNum)) {
-    //         _this.capYPositionArray.push(value)
-    //       }
-    //       _this.ctx.fillStyle = _this.capStyle
-    //       //draw the cap, with transition effect
-    //       if (value < _this.capYPositionArray[i]) {
-    //         _this.ctx.fillRect(
-    //           i * 12,
-    //           _this.cheight - --_this.capYPositionArray[i],
-    //           _this.meterWidth,
-    //           _this.capHeight
-    //         )
-    //       } else {
-    //         _this.ctx.fillRect(
-    //           i * 12,
-    //           _this.cheight - value,
-    //           _this.meterWidth,
-    //           _this.capHeight
-    //         )
-    //         _this.capYPositionArray[i] = value
-    //       }
-    //       _this.ctx.fillStyle = _this.gradient //set the filllStyle to gradient for a better look
-    //       _this.ctx.fillRect(
-    //         i * 12 /*meterWidth+gap*/,
-    //         _this.cheight - value + _this.capHeight,
-    //         _this.meterWidth,
-    //         _this.cheight
-    //       ) //the meter
-    //     }
-    //     requestAnimationFrame(renderFrame)
-    //   }
-    //   renderFrame()
-    // }
+    ...mapActions(['savePlayHistory']),
+    analys () {
+      window.AudioContext =
+        window.AudioContext ||
+        window.webkitAudioContext ||
+        window.mozAudioContext
+      this.ctx = new AudioContext()
+      this.analyser = this.ctx.createAnalyser()
+      // this.audio = document.getElementById('audio')
+      this.audio = this.$refs.audio
+      // this.audio.volume = 0.3
+      this.audioSrc = this.ctx.createMediaElementSource(this.audio)
+      // we have to connect the MediaElementSource with the analyser
+      this.audioSrc.connect(this.analyser)
+      this.analyser.connect(this.ctx.destination)
+      // we could configure the analyser: e.g. analyser.fftSize (for further infos read the spec)
+      // analyser.fftSize = 64
+      // frequencyBinCount tells you how many values you'll receive from the analyser
+      this.frequencyData = new Uint8Array(this.analyser.frequencyBinCount)
+      // we're ready to receive some data!
+      this.canvas = this.$refs.canvas
+      this.cwidth = this.canvas.width
+      this.cheight = this.canvas.height - 2
+      this.meterWidth = 10 // width of the meters in the spectrum
+      this.gap = 2 // gap between meters
+      this.capHeight = 2
+      this.capStyle = '#fff'
+      this.meterNum = 800 / 10 // count of the meters
+      this.capYPositionArray = [] // store the vertical position of hte caps for the preivous frame
+      this.ctx = this.canvas.getContext('2d')
+      this.gradient = this.ctx.createLinearGradient(0, 0, 0, 300)
+      // 0f0绿，ff0红 f00黄
+      this.gradient.addColorStop(1, '#0f0')
+      this.gradient.addColorStop(0.5, '#ff0')
+      this.gradient.addColorStop(0, '#f00')
+    },
+    loadstart () {
+      let _this = this
+      let renderFrame = () => {
+        var array = new Uint8Array(_this.analyser.frequencyBinCount)
+        _this.analyser.getByteFrequencyData(array)
+        var step = Math.round(array.length / _this.meterNum) // sample limited data from the total array
+        _this.ctx.clearRect(0, 0, _this.cwidth, _this.cheight)
+        for (var i = 0; i < _this.meterNum; i++) {
+          var value = array[i * step]
+          if (_this.capYPositionArray.length < Math.round(_this.meterNum)) {
+            _this.capYPositionArray.push(value)
+          }
+          _this.ctx.fillStyle = _this.capStyle
+          // draw the cap, with transition effect
+          if (value < _this.capYPositionArray[i]) {
+            _this.ctx.fillRect(
+              i * 12,
+              _this.cheight - --_this.capYPositionArray[i],
+              _this.meterWidth,
+              _this.capHeight
+            )
+          } else {
+            _this.ctx.fillRect(
+              i * 12,
+              _this.cheight - value,
+              _this.meterWidth,
+              _this.capHeight
+            )
+            _this.capYPositionArray[i] = value
+          }
+          _this.ctx.fillStyle = _this.gradient // set the filllStyle to gradient for a better look
+          _this.ctx.fillRect(
+            i * 12, // meterWidth+gap
+            _this.cheight - value + _this.capHeight,
+            _this.meterWidth,
+            _this.cheight
+          ) // the meter
+        }
+        requestAnimationFrame(renderFrame)
+      }
+      renderFrame()
+    }
   },
   watch: {
     currentSong (newSong, oldSong) {
@@ -650,7 +649,12 @@ export default {
         this.currentLineNum = 0
       }
       this.$refs.audio.src = newSong.url
+      // 播放歌曲
       this.$refs.audio.play()
+      // 加载分析
+      // this.analys()
+      // 开始分析音频
+      // this.loadstart()
       // 若歌曲 5s 未播放，则认为超时，修改状态确保可以切换歌曲。
       clearTimeout(this.timer)
       this.timer = setTimeout(() => {

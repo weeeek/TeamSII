@@ -82,7 +82,8 @@ export default class Song {
     getVKey(this.mid, this.filename).then((res) => {
       if (res.code === ERR_OK) {
         const vkey = res.data.items[0].vkey
-        this.url = `http://dl.stream.qqmusic.qq.com/${this.filename}?vkey=${vkey}&guid=${getUid()}&uin=0&fromtag=66`
+        // this.url = `http://dl.stream.qqmusic.qq.com/${this.filename}?vkey=${vkey}&guid=${getUid()}&uin=0&fromtag=66`
+        this.url = `http://isure.stream.qqmusic.qq.com/C400${this.filename}?guid=${getUid()}&vkey=${vkey}&uin=0&fromtag=66`
         urlMap[this.id] = this.url
       }
     })

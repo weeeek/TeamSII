@@ -52,6 +52,12 @@ export default new Router({
         keepAlive: true
       }
     }, {
+      path: '/focus',
+      component: (resolve) => require(['@/components/focus/focus'], resolve),
+      meta: {
+        keepAlive: true
+      }
+    }, {
       path: '/entertainment',
       component: (resolve) => require(['@/components/entertainment/entertainment-list'], resolve),
       meta: {
