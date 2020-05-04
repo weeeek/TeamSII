@@ -82,6 +82,12 @@ export default new Router({
         keepAlive: true
       }
     }, {
+      path: '/live',
+      component: (resolve) => require(['@/components/live/live'], resolve),
+      meta: {
+        keepAlive: true
+      }
+    }, {
       path: '/dev',
       component: (resolve) => require(['@/components/dev/dev'], resolve),
       meta: {
