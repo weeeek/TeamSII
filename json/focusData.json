@@ -1,110 +1,86 @@
 [
     {
-        "id": "TaTA",
-        "name": "张语格",
-        "list": [
-            {
-                "title": "love shot",
-                "from": "燃烧吧团魂",
-                "img": "//i2.hdslb.com/bfs/archive/0bb17a085b44f21229abd6e6958c55a7c0636b07.jpg@320w_200h.jpg",
-                "url": "https://www.bilibili.com/video/BV1jx411R799"
-            },
-            {
-                "title": "MAMA",
-                "from": "青春有你2",
-                "img": "//i0.hdslb.com/bfs/archive/de66fd48720b65cb70d8f0378ea205a2d0143eb9.jpg@320w_200h.jpg",
-                "url": "https://www.bilibili.com/video/BV1S5411t7rJ"
-            },
-            {
-                "title": "如果你能拥抱我",
-                "from": "第三届金曲大赏",
-                "img": "//i1.hdslb.com/bfs/archive/54153dd93546b1b515a7c3c791165dd7b147d7a9.jpg@320w_200h.jpg",
-                "url": "https://www.bilibili.com/video/BV1Ns411h7PX"
-            },
-            {
-                "title": "画",
-                "from": "第六届金曲大赏",
-                "img": "//i0.hdslb.com/bfs/archive/9de795d24c297005a9d7a8d4a74b0c049323b196.jpg@320w_200h.jpg",
-                "url": "https://www.bilibili.com/video/BV1mJ411s732"
-            }
-        ]
+        "title": "《love shot》直拍合集",
+        "from": "燃烧吧团魂总决赛",
+        "img": "//i1.hdslb.com/bfs/archive/64fc7a746c1844a1dd0419cf60c367d1bcbc0de8.jpg@336w_190h.jpg",
+        "url": "https://www.bilibili.com/video/BV1rx411R7Gn"
     },
     {
-        "id": "KiKi",
-        "name": "许佳琪",
-        "list": [
-            {
-                "title": "love shot",
-                "from": "燃烧吧团魂",
-                "img": "//i1.hdslb.com/bfs/archive/225f9da9b61b91b48bcd63b83d13edf6627c5eac.jpg@320w_200h.jpg",
-                "url": "https://www.bilibili.com/video/BV12x411X7zT"
-            },
-            {
-                "title": "废墟纪元",
-                "from": "第六届金曲大赏",
-                "img": "//i2.hdslb.com/bfs/archive/4042d07922020857d8828f15225816f5b53a7c69.jpg@320w_200h.jpg",
-                "url": "https://www.bilibili.com/video/BV1rJ41147Vy"
-            }
-        ]
+        "title": "S队《love shot》+《跳舞街》focus",
+        "from": "燃烧吧团魂总决赛",
+        "img": "//i0.hdslb.com/bfs/archive/93024dac2bf54095fb8306b62561e9f67b14b10f.jpg@336w_190h.jpg",
+        "url": "https://www.bilibili.com/video/BV1jx411X7An"
+    },
+        {
+        "title": "《流着泪微笑》focus",
+        "from": "燃烧吧团魂总决赛",
+        "img": "//i2.hdslb.com/bfs/archive/dc4d19e9337efc00ba1afc2a14f7f59c138a2b1c.jpg@336w_190h.jpg",
+        "url": "https://www.bilibili.com/video/BV1T4411H7Kd"
     },
     {
-        "id": "Three",
-        "name": "孙芮",
-        "list": [
-            {
-                "title": "love shot",
-                "from": "燃烧吧团魂",
-                "img": "//i1.hdslb.com/bfs/archive/65823efb0d46a5e0b1074779a72cb2b43c4dafad.jpg@320w_200h.jpg",
-                "url": "https://www.bilibili.com/video/BV1Nx411R7yu"
-            }
-        ]
+        "title": "《坐标121E 31N》右侧focus",
+        "from": "第六届金曲大赏",
+        "img": "//i1.hdslb.com/bfs/archive/c8ab5b7ddb1a11ccd9a966768a64f417378c15fd.jpg@336w_190h.jpg",
+        "url": "https://www.bilibili.com/video/BV1YJ411s7fm"
     },
     {
-        "id": "JY",
-        "name": "蒋芸",
-        "list": [
-            {
-                "title": "love shot",
-                "from": "燃烧吧团魂",
-                "img": "//i1.hdslb.com/bfs/archive/dfb091adda648dcaaee4f528c7ce3fceaeae315e.jpg@320w_200h.jpg",
-                "url": "https://www.bilibili.com/video/BV1U4411w7nB"
-            }
-        ]
+        "title": "《坐标121E 31N》左侧focus",
+        "from": "第六届金曲大赏",
+        "img": "//i1.hdslb.com/bfs/archive/614b66ef05427c59114c83be7f9bc820b52b7b12.jpg@336w_190h.jpg",
+        "url": "https://www.bilibili.com/video/BV1EJ411x7SL"
     },
     {
-        "id": "MaoMao",
-        "name": "李宇琪",
-        "list": [
-            {
-                "title": "love shot",
-                "from": "燃烧吧团魂",
-                "img": "//i0.hdslb.com/bfs/archive/686cc39c842567119a7162c826587c7231f83ac9.jpg@320w_200h.jpg",
-                "url": "https://www.bilibili.com/video/BV15x411R7TA"
-            }
-        ]
+        "title": "一期生特殊表演focus",
+        "from": "第六届总选举",
+        "img": "//i0.hdslb.com/bfs/archive/5f7903731c872bada58e456e92c263f8c15d3c3b.jpg@336w_190h.webp",
+        "url": "https://www.bilibili.com/video/BV1Pt411w7oo"
     },
     {
-        "id": "Bee",
-        "name": "孔肖吟",
-        "list": [
-            {
-                "title": "love shot",
-                "from": "燃烧吧团魂",
-                "img": "//i1.hdslb.com/bfs/archive/202951b966d16e5c05caaa4e3083b1126071ad61.jpg@320w_200h.jpg",
-                "url": "https://www.bilibili.com/video/BV1Wx411R7uB"
-            }
-        ]
+        "title": "S队《预言》focus",
+        "from": "第六届总选举",
+        "img": "//i0.hdslb.com/bfs/archive/e1b5810a04abd80ba84f254490b49d4f8304e031.jpg@336w_190h.jpg",
+        "url": "https://www.bilibili.com/video/BV1gt411c7ro"
     },
     {
-        "id": "LuoYao",
-        "name": "徐子轩",
-        "list": [
-            {
-                "title": "love shot",
-                "from": "燃烧吧团魂",
-                "img": "//i0.hdslb.com/bfs/archive/94d83f061e15cc52bf69b0f963fa2773347c1825.jpg@320w_200h.jpg",
-                "url": "https://www.bilibili.com/video/BV1zx411R7gG"
-            }
-        ]
+        "title": "第六届总选举全场侧拍focus",
+        "from": "第六届总选举",
+        "img": "//i1.hdslb.com/bfs/archive/0d8ee8abbae3944e26d8ef99a88f9a7aa965cc72.png@336w_190h.jpg",
+        "url": "https://www.bilibili.com/video/BV1Lt411u7Tk"
+    },
+    {
+        "title": "S队运动会开场focus",
+        "from": "第二届偶像运动会",
+        "img": "//i1.hdslb.com/bfs/archive/b91a47a99522895161ea511d16f4bc1759e847f3.jpg@336w_190h.jpg",
+        "url": "https://www.bilibili.com/video/BV1fb411L7KZ"
+    },
+        {
+        "title": "S队比赛环节部分focus",
+        "from": "第一届偶像运动会",
+        "img": "//i0.hdslb.com/bfs/archive/9428f72bf9e83874b5b10ce17125b8feeeaa1ab0.jpg@336w_190h.jpg",
+        "url": "https://www.bilibili.com/video/BV1mW411L7MP"
+    },
+    {
+        "title": "《战歌》山顶focus",
+        "from": "第五届总选举",
+        "img": "//i2.hdslb.com/bfs/archive/074171cb10ef8e94096c783f136bade9391c8be9.png@336w_190h.jpg",
+        "url": "https://www.bilibili.com/video/BV1Ts41137wb"
+    }, 
+        {
+        "title": "S队部分focus",
+        "from": "第五届总选举",
+        "img": "//i2.hdslb.com/bfs/archive/4ce6a842109bae8822c9a4fdee4a57f6c61b9e60.jpg@336w_190h.jpg",
+        "url": "https://www.bilibili.com/video/BV1fs411g7rb"
+    }, 
+    {
+        "title": "《初日》focus",
+        "from": "第五届金曲大赏",
+        "img": "//i1.hdslb.com/bfs/archive/ab645b8e44220e7916002b63536dd64a82dd69c7.png@336w_190h.jpg",
+        "url": "https://www.bilibili.com/video/BV1Xt411t7wd"
+    },
+    {
+        "title": "《我的舞台》focus",
+        "from": "第三届金曲大赏",
+        "img": "//i2.hdslb.com/bfs/archive/6e463ad3c987cac590e56428f1da855d0487be10.jpg@336w_190h.jpg",
+        "url": "https://www.bilibili.com/video/BV1Rb411S7LU"
     }
 ]

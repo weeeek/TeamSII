@@ -40,6 +40,7 @@
     "video.js": "^7.7.5",
     "videojs-flash": "^2.2.1",
     "vue": "^2.5.5",
+    "vue-aliplayer": "^0.0.8",
     "vue-carousel": "^0.18.0",
     "vue-highcharts": "^0.0.10",
     "vue-jam-icons": "^1.0.1",

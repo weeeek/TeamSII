@@ -1,6 +1,9 @@
 <template>
   <div id="emoji-container">
-    <!-- <div class="block">欢迎投稿，投稿请<a class="link" href="https://weibo.com/u/5266139275">@SNH48 TeamSII应援会</a></div> -->
+    <div class="block">
+      <a class="button blue skew" target="_blank" href="https://weibo.com/p/10080895b3a71856d76c4435c477e4ac01e57a/super_index">#勇气重生419#</a>
+      <a class="button blue skew" target="_blank" href="https://weibo.com/p/100808eaa925a8fccc2a30cfcc7079d5e4fbc1/super_index">#艾斯兔表情包#</a>
+    </div>
     <div class="waterfall">
       <a href="javascript:void(0)" class="fallitem" v-for="(item) in data" :key="item" @click="view(item)">
         <img v-lazy="calcPath(item)"/>
@@ -42,6 +45,8 @@ export default {
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
 @import '~common/stylus/waterfall'
+@import '~common/stylus/bonbonbutton'
+
 @media screen and (min-width 1366px)
   #emoji-container
     padding-bottom 15px

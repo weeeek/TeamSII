@@ -433,27 +433,6 @@
       }
     },
     {
-      "name": "袁丹妮",
-      "photo": "http://www.snh48.com/images/member/zp_10073.jpg",
-      "weibo": "u/5225886388",
-      "bilibili": null,
-      "douyin": {
-        "number": "yuandanni",
-        "id": ""
-      },
-      "changba": null,
-      "miaopai": null,
-      "pocket48": {
-        "id": 67,
-        "roomId": 67352249
-      },
-      "group": null,
-      "modian": {
-        "enabled": true,
-        "id": "1156063"
-      }
-    },
-    {
       "name": "由淼",
       "photo": "http://www.snh48.com/images/member/zp_10227.jpg",
       "weibo": "u/7337600874",
@@ -518,6 +497,10 @@
     }
   ],
   "pet48Data": [
+   {
+      "name": "元宝",
+      "master": "徐晨辰"
+    },
     {
       "name": "DuangDuang",
       "master": "孙芮"
@@ -544,6 +527,10 @@
       "master": "袁雨桢"
     },
     {
+      "name": "小白",
+      "master": "吴哲晗"
+    },
+    {
       "name": "团团",
       "master": "吴哲晗"
     },
@@ -554,10 +541,6 @@
     {
       "name": "蛋挞",
       "master": "刘增艳"
-    },
-    {
-      "name": "乌冬",
-      "master": "朱小希"
     }
   ],
   "otherTeamMemberData": [
@@ -605,6 +588,27 @@
     }
   ],
   "exitMemberData": [
+   {
+      "name": "袁丹妮",
+      "photo": "http://www.snh48.com/images/member/zp_10073.jpg",
+      "weibo": "u/5225886388",
+      "bilibili": null,
+      "douyin": {
+        "number": "yuandanni",
+        "id": ""
+      },
+      "changba": null,
+      "miaopai": null,
+      "pocket48": {
+        "id": 67,
+        "roomId": 67352249
+      },
+      "group": null,
+      "modian": {
+        "enabled": true,
+        "id": "1156063"
+      }
+    },
     {
       "name": "徐子轩",
       "photo": "http://www.snh48.com/images/member/zp_10016.jpg",

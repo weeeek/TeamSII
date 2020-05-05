@@ -108,6 +108,13 @@ export default new Router({
         keepAlive: true
       }
     }, {
+      path: '/tools/editor',
+      name: 'editor',
+      component: (resolve) => require(['@/components/tools/editor'], resolve),
+      meta: {
+        keepAlive: true
+      }
+    }, {
       path: '/tools/lyric',
       name: 'lyric',
       component: (resolve) => require(['@/components/tools/lyric'], resolve),

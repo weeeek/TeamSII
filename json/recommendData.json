@@ -3,10 +3,40 @@
     "type": "公演",
     "list": [
       {
-        "title": "S队男装公演",
+        "title": "S队成立六周年特别公演",
         "from": "B",
-        "url": "4542786",
-        "img": "//i0.hdslb.com/bfs/archive/2ad7ae5a4108636fd65af159caf1b3dc86b26802.jpg_380x240.jpg"
+        "url": "77478337",
+        "img": "//i1.hdslb.com/bfs/archive/d6ce5edd2cf0777e5b20e56c6dfdbe59c81236f4.jpg_380x240.jpg"
+      },
+      {
+        "title": "S队万圣节特别公演",
+        "from": "B",
+        "url": "74074531",
+        "img": "//i2.hdslb.com/bfs/archive/8a1b10d80f1749c348312ef63ed724bf55f5253d.png_380x240.png"
+      },
+      {
+        "title": "《重生计划》特别联合公演",
+        "from": "B",
+        "url": "71078164",
+        "img": "//i1.hdslb.com/bfs/archive/7b15ed9f0f99b407841273b6d764558f2c4fb210.png_380x240.png"
+      },
+      {
+        "title": "S队七夕男装特别公演",
+        "from": "B",
+        "url": "62693288",
+        "img": "//i2.hdslb.com/bfs/archive/8bf2739306e797eae6e61b016786db79796030ec.jpg_380x240.jpg"
+      },
+      {
+        "title": "《燃烧吧团魂》总决赛",
+        "from": "B",
+        "url": "57291688",
+        "img": "//i0.hdslb.com/bfs/archive/34ad4e5521241d6458c35cd796875abc291a71d8.png_380x240.png"
+      },
+      {
+        "title": "《燃烧吧团魂》初赛",
+        "from": "B",
+        "url": "54293686",
+        "img": "//i2.hdslb.com/bfs/archive/8f297611a099c33b53926ae0a3332b49a74a04f1.png_380x240.png"
       },
       {
         "title": "S队出道六周年特别公演",
@@ -15,9 +45,9 @@
         "img": "//i1.hdslb.com/bfs/archive/10b231f5be69b941f6de44d0d53e106943e3cc1c.jpg_380x240.jpg"
       },
       {
-        "title": "《重生计划》第四场",
+        "title": "《重生计划》首演",
         "from": "B",
-        "url": "38690294",
+        "url": "36605536",
         "img": "//i0.hdslb.com/bfs/archive/42eaf0927d475a6e3cef17808dc196bcb01f775d.png_380x240.png"
       },
       {
@@ -39,12 +69,6 @@
         "img": "//i0.hdslb.com/bfs/archive/8c8723d691b890b7c457b5c9b3302922a0a3d379.jpg_380x240.jpg"
       },
       {
-        "title": "《美丽48区》2018徐晨辰生日&拉票公演",
-        "from": "B",
-        "url": "25901424",
-        "img": "//i1.hdslb.com/bfs/archive/d21cef81ede2c4fa3411512b31351dfea882cc27.jpg_380x240.jpg"
-      },
-      {
         "title": "《心的旅程》首演",
         "from": "B",
         "url": "4713886",
@@ -55,6 +79,12 @@
         "from": "B",
         "url": "4564252",
         "img": "//i0.hdslb.com/bfs/archive/3e9f7f4c3c8a8ce295fbf76c487c4ce310aed674.jpg_380x240.jpg"
+      },
+       {
+        "title": "S队男装公演",
+        "from": "B",
+        "url": "4542786",
+        "img": "//i0.hdslb.com/bfs/archive/2ad7ae5a4108636fd65af159caf1b3dc86b26802.jpg_380x240.jpg"
       },
       {
         "title": "《勇气重生》419",
@@ -67,6 +97,12 @@
   {
     "type": "合集",
     "list": [
+      {
+        "title": "S队特殊公演合集",
+        "from": "",
+        "url": "https://space.bilibili.com/12444300/favlist?fid=44570800&ftype=create",
+        "img": "//i0.hdslb.com/bfs/archive/b86780096e67d5c3ffb51c82a54cbcb63c935573.jpg_380x240.jpg"
+      },
       {
         "title": "成员投稿合集",
         "from": "",
@@ -228,7 +264,7 @@
         "img": "//i2.hdslb.com/bfs/archive/5af85353c5341025348afcbd5177f18fc8c5e163.jpg_380x240.jpg"
       },
       {
-        "title": "钱蓓婷·少女偶像带你听懂《毒蜘蛛》",
+        "title": "钱蓓婷·少女偶像·解说《毒蜘蛛》",
         "from": "B",
         "url": "96916287",
         "img": "//i1.hdslb.com/bfs/archive/77d861584acb31941a43cdf2a7dded37278633b5.jpg_380x240.jpg"
@@ -333,10 +369,22 @@
         "img": "//i1.hdslb.com/bfs/archive/436f3dc1975b4324f92db6ef624f0c4284c0a38f.jpg_380x250.jpg"
       },
       {
+        "title": "青春有你2·青春有日记",
+        "from": "B",
+        "url": "84639195",
+        "img": "//i1.hdslb.com/bfs/archive/15b7f1c78fabe1641cc73b8b1bc4593bbb364b9b.jpg_380x240.jpg"
+      },
+      {
         "title": "青春有你2·少女的funny time",
         "from": "B",
         "url": "89717502",
         "img": "//i1.hdslb.com/bfs/archive/f3bb5c841b16519cbc78685d0b8bacc07de2360f.png_380x240.png"
+      },
+      {
+        "title": "LUCKY 7 BABY",
+        "from": "",
+        "url": "https://space.bilibili.com/12444300/favlist?fid=320055400&ftype=create",
+        "img": "//i2.hdslb.com/bfs/archive/95e3eb68a7af7968a4b34113c8c035a8211330f2.jpg_380x240.jpg"
       },
       {
         "title": "意想不到的假期",
@@ -351,10 +399,16 @@
         "img": "//i1.hdslb.com/bfs/archive/b2eedfe1db2ddcfef4c033855a67c6f27e29d4ae.jpg_380x240.jpg"
       },
       {
-        "title": "もう1人の私に会いたい！",
+        "title": "第一届SNH48偶像运动会",
         "from": "B",
-        "url": "39290717",
-        "img": "//i1.hdslb.com/bfs/archive/1863d1c8ae3157eabe14004c2b747a2282a1fb48.jpg_380x240.jpg"
+        "url": "21789837",
+        "img": "//i1.hdslb.com/bfs/archive/199b2bad69f6ec493abace2c69bc0958f24c489c.png_380x240.png"
+      },
+      {
+        "title": "48狼人杀",
+        "from": "",
+        "url": "https://space.bilibili.com/12444300/favlist?keyword=48%E7%8B%BC%E4%BA%BA%E6%9D%80&searchFid=44570400&fid=44570400&type=0",
+        "img": "//i2.hdslb.com/bfs/archive/3537943c1c6435787ef0621406e78f6a6a8c87b2.jpg_380x240.jpg"
       },
       {
         "title": "心动的味道",
@@ -375,22 +429,10 @@
         "img": "//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180703/e0852181324340409af34d7bb3de6f9e.jpg"
       },
       {
-        "title": "第一届SNH48偶像运动会",
-        "from": "B",
-        "url": "21789837",
-        "img": "//i1.hdslb.com/bfs/archive/199b2bad69f6ec493abace2c69bc0958f24c489c.png_380x240.png"
-      },
-      {
         "title": "Toshiba x SNH48 运动会",
         "from": "B",
         "url": "22224223",
         "img": "//i0.hdslb.com/bfs/archive/745d0563015c1f5d30953f99059157d3c286d4bd.jpg_380x240.jpg"
-      },
-      {
-        "title": "心跳泳池",
-        "from": "B",
-        "url": "13263474",
-        "img": "//i1.hdslb.com/bfs/archive/cdffa854b9ef4f55ee5d5e8d6608afc24b6b8167.jpg_380x240.jpg"
       },
       {
         "title": "国民美少女",
@@ -540,6 +582,12 @@
   {
     "type": "鬼畜",
     "list": [
+     {
+        "title": "勇气重生419·表情包disco",
+        "from": "BV",
+        "url": "1fa4y1x7FV",
+        "img": "//i1.hdslb.com/bfs/archive/0c2aa64b101c01a297335fe31e65c16fb0c1d3c6.png_380x240.png"
+      },
       {
         "title": "Dance with 许佳琪",
         "from": "B",
@@ -612,6 +660,12 @@
     "type": "科普",
     "list": [
       {
+        "title": "SNH48TeamSII 简史",
+        "from": "BV",
+        "url": "1PZ4y1s7WF",
+        "img": "//i2.hdslb.com/bfs/archive/ba08b86a91e481f3d896ecd6b9f24c2529e05204.jpg@380w_240h_100Q_1c.webp"
+      },
+      {
         "title": "三哥一梦，全员撕纸",
         "from": "B",
         "url": "37413556",
@@ -626,7 +680,7 @@
       {
         "title": "蘑菇蹲",
         "from": "O",
-        "url": "//space.bilibili.com/33670738/favlist?fid=2831864",
+        "url": "https://space.bilibili.com/33670738/favlist?fid=283186438&ftype=create",
         "img": "//i0.hdslb.com/bfs/archive/a72d5816d65f82acda05d590869aad99be1059b6.jpg_380x240.jpg"
       },
       {
@@ -664,23 +718,6 @@
         "from": "B",
         "img": "//i1.hdslb.com/bfs/archive/8b5dd982ce8e108515b8d1189ee54d064af89106.jpg_380x240.jpg",
         "url": "21036842"
-      }
-    ]
-  },
-  {
-    "type": "官方制作",
-    "list": [
-      {
-        "title": "成员B站投稿",
-        "from": "",
-        "url": "https://space.bilibili.com/12444300/favlist?fid=313228200&ftype=create",
-        "img": "//i1.hdslb.com/bfs/archive/5b7658fff9ced3cdbc9a1e1186c005a70e7e248d.jpg_380x240.jpg"
-      },
-      {
-        "title": "莫寒的八个梦",
-        "from": "B",
-        "url": "48712575",
-        "img": "//i0.hdslb.com/bfs/archive/a06e54cb73664f55c9170e86434fecdd920ba70e.png_380x240.png"
       }
     ]
   },
@@ -753,12 +790,6 @@
   {
     "type": "纪录片",
     "list": [
-      {
-        "title": "从浙江临海到《青春有你2》",
-        "from": "BV",
-        "url": "1vk4y1k765",
-        "img": "//i1.hdslb.com/bfs/archive/4b2b08e381f4d4a7fe2d46da8e4f78a46791d5cf.jpg_380x240.jpg"
-      },
       {
         "title": "一期生成长史",
         "from": "B",
@@ -874,7 +905,7 @@
       {
         "title": "猫和老鼠系列",
         "from": "O",
-        "url": "//space.bilibili.com/12444300/favlist?fid=445722",
+        "url": "https://space.bilibili.com/12444300/video?keyword=%E7%8C%AB%E5%92%8C%E8%80%81%E9%BC%A0",
         "img": "//i2.hdslb.com/bfs/archive/12c7b802283be38c089de270dbbe69c88f65415c.png_380x240.png"
       },
       {

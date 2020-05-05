@@ -1,6 +1,5 @@
 <template>
   <div class="block">
-    <button @click="aaa"></button>
     <quill-editor
       v-model="content"
       ref="myQuillEditor"
@@ -10,9 +9,12 @@
       @focus="onEditorFocus($event)"
       @change="onEditorChange($event)"
     ></quill-editor>
+    <br />
+    <button @click="aaa"></button>
+    <hr />
     <div>{{content}}</div>
   </div>
-</template> 
+</template>
 <script>
 // require styles 引入样式
 import "quill/dist/quill.core.css";

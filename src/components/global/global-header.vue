@@ -6,7 +6,7 @@
     <div class="header-container">
       <div class="header-control">
         <h1 class="title">{{ title }}</h1>
-        <a href="https://weibo.com/p/100808ece29cf744f4d14b450f0c12999e767b/super_index" target="_blank" class="button blue brackets" title="微博：SNH48 Team SII 超级话题">微博超级话题</a>
+        <a href="https://weibo.com/p/100808ece29cf744f4d14b450f0c12999e767b/super_index" target="_blank" class="button blue oval icon" title="微博：SNH48 Team SII 超级话题">微博超级话题</a>
         <!-- <button class="button green skew" title="功能完善中...">签到</button> -->
       </div>
     </div>
