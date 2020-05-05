@@ -1168,20 +1168,12 @@ export default {
         flex-direction: column
 
         .middle-l {
-          flex: 0 0 320px
-          padding-top: 50px
-
-          .cd-wrapper {
-            .cd {
-              width: 320px
-              height: 320px
-            }
-          }
+          display none
         }
 
         .middle-r {
           padding-top: 10px
-          flex: 0 0 280px
+          flex-grow: 1
           position: relative
 
           .lyric-wrapper {
