@@ -121,6 +121,13 @@ export default new Router({
       meta: {
         keepAlive: true
       }
+    }, {
+      path: '/tools/qrcode',
+      name: 'qrcode',
+      component: (resolve) => require(['@/components/tools/qrcode'], resolve),
+      meta: {
+        keepAlive: true
+      }
     }
   ]
 })

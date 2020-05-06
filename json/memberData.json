@@ -355,7 +355,11 @@
       "photo": "http://www.snh48.com/images/member/zp_10216.jpg",
       "weibo": "u/6732128785",
       "bilibili": null,
-      "douyin": null,
+      "douyin": {
+        "number": "67802915334",
+        "id": ""
+      },
+      "quanmin": "6b9e9c802628368f30",
       "changba": null,
       "miaopai": null,
       "pocket48": {
@@ -497,10 +501,6 @@
     }
   ],
   "pet48Data": [
-   {
-      "name": "元宝",
-      "master": "徐晨辰"
-    },
     {
       "name": "DuangDuang",
       "master": "孙芮"

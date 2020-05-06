@@ -56,6 +56,13 @@
       class="favicon favicon-acfun"
       v-if="data.acfun"
     ></a>
+    <a
+      :href="`http://kg.qq.com/node/personal?uid=${data.quanmin}`"
+      :title="`全民TV-${data.name}`"
+      target="_blank"
+      class="favicon favicon-quanmin"
+      v-if="data.quanmin"
+    ></a>
   </div>
 </template>
 
@@ -92,7 +99,7 @@ export default {
     &.favicon-bilibili
       background-image url('//www.bilibili.com/favicon.ico')
     &.favicon-douyin
-      background-image url('//www.douyin.com/favicon.ico')
+      background-image url('//s3.pstatp.com/ies/resource/falcon/douyin_falcon/static/image/logo/favicon_v2_7145ff0.ico')
     &.favicon-changba
       background-image url('//changba.com/favicon.ico')
     &.favicon-miaopai
@@ -101,6 +108,8 @@ export default {
       background-image url('//image2.sina.com.cn/music/web/logo/weibo2012/logo_16.ico')
     &.favicon-acfun
       background-image url('//cdn.aixifan.com/ico/favicon.ico')
+    &.favicon-quanmin
+      background-image url('//kg.qq.com/favicon.ico')
     &.favicon-music-wangyi
       background-image url('//s1.music.126.net/style/favicon.ico')
 </style>
