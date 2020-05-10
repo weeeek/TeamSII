@@ -6,9 +6,25 @@
     },
     "items": [
       {
+        "nameMonth": "4月26日 19:30",
+        "title": "云·《重生计划》第69场",
+        "description": "MC1：,somewhere：蒋芸，王贝妮，陈琳,Lost：陈思,Hold me tight：钱蓓婷，王睿琦,解语者：邵雪聪，陈雨孜，王秋茹,最终回合：陈观慧，由淼，郭爽，徐晨辰,无罪无我：刘增艳，邵雪聪，温晶婕,噩梦轮回：蒋芸,MC2：,MC3：,MC4：,安可：初日",
+        "summarize": "",
+        "type": "blue",
+        "url": ""
+      },
+      {
+        "nameMonth": "5月10日",
+        "title": "《On Stage》【我行我秀·塞纳河之光初心舞台】绽放组 || 蒋芸 刘增艳",
+        "description": "风月：蒋芸,一分一秒：刘增艳,爱未央：刘增艳，万丽娜,Touble Maker：蒋芸，李钊,Lion Heart：蒋芸，刘增艳，李钊,现场学舞",
+        "summarize": "",
+        "type": "blue",
+        "url": "https://www.bilibili.com/video/BV1sT4y1372b"
+      },
+      {
         "nameMonth": "5月3日",
         "title": "《On Stage》【我行我秀·塞纳河之光初心舞台】绽放组 || 邵雪聪 温晶婕",
-        "description": "芒种：邵雪聪,On：温晶婕,没有明天：邵雪聪，温晶婕,DUN DUN：邵雪聪，温晶婕",
+        "description": "芒种：邵雪聪,On：温晶婕,没有明天：邵雪聪，温晶婕,DUN DUN：邵雪聪，温晶婕,现场学舞",
         "summarize": "",
         "type": "blue",
         "url": "https://www.bilibili.com/video/BV1754y1X7U8"
@@ -878,7 +894,7 @@
       {
         "nameMonth": "5月11日 14:00",
         "title": "《重生计划》第24场，李宇琪第350场",
-        "description": "MC1：印象中年代最久远的电视剧,Lost：徐晨辰,Hold me tight：莫寒，刘增艳,解语者：孔肖吟，李宇琪，袁丹妮,最终回合：吴哲晗，蒋芸，邵雪聪，陈俊羽,无罪无我：戴萌，陈思，刘增艳,somewhere：莫寒，孙芮，徐子轩,噩梦轮回：戴萌,MC2：买的最失败的东西,MC3：每个人写真心话或大冒险，打乱后抽选并各自完成内容,MC4:游戏-你有我没有,安可《我的舞台》",
+        "description": "MC1：印象中年代最久远的电视剧,Lost：徐晨辰,Hold me tight：莫寒，刘增艳,解语者：孔肖吟，李宇琪，袁丹妮,最终回合：吴哲晗，蒋芸，邵雪聪，陈俊羽,无罪无我：戴萌，陈思，刘增艳,somewhere：莫寒，孙芮，徐子轩,噩梦轮回：戴萌,MC2：买的最失败的东西,MC3：每个人写真心话或大冒险，打乱后抽选并各自完成内容,MC4：游戏-你有我没有,安可《我的舞台》",
         "summarize": "你可以为我撕纸吗？ ---- 陈俊羽 to 孙芮\r\n她让我脑袋疼 ---- 孔肖吟 to 陈俊羽",
         "type": "blue",
         "url": "https://www.bilibili.com/video/av52140136"
@@ -1220,7 +1236,7 @@
       {
         "nameMonth": "12月13日 19:30",
         "title": "《重生计划》第5场",
-        "description": "MC1:有没有什么特别巧合的事情,MC2：团内谁最贤惠,MC3：大家有什么好的御寒方法,MC4：第一次看见雪",
+        "description": "MC1：有没有什么特别巧合的事情,MC2：团内谁最贤惠,MC3：大家有什么好的御寒方法,MC4：第一次看见雪",
         "type": "blue",
         "url": "https://www.bilibili.com/video/av38093762"
       },
@@ -1248,7 +1264,7 @@
       {
         "nameMonth": "11月30日 19:30",
         "title": "《重生计划》第4场",
-        "description": "MC1: 如果你在路边看见一个神灯，他会实现一个河内愿望，你会许什么愿望,MC2: 最皮的人是谁,MC3：拿应援毛巾给每个人设计服装,MC4： 一个成员戴上耳机，另一个成员说一句话，而那个成员重复这句话并回答",
+        "description": "MC1： 如果你在路边看见一个神灯，他会实现一个河内愿望，你会许什么愿望,MC2： 最皮的人是谁,MC3：拿应援毛巾给每个人设计服装,MC4： 一个成员戴上耳机，另一个成员说一句话，而那个成员重复这句话并回答",
         "summarize": "撕纸后续",
         "type": "blue",
         "url": "https://www.bilibili.com/video/av37107074"
@@ -1256,7 +1272,7 @@
       {
         "nameMonth": "11月25日 19:00",
         "title": "《重生计划》首演第3场",
-        "description": "MC1: 失眠原因,MC2: 你现在最想忘掉的一件事情是什么,MC3：如果你是造型师，想给哪位成员做什么样发型,MC4：蒙眼画口红，给别的成员化美美的妆",
+        "description": "MC1： 失眠原因,MC2： 你现在最想忘掉的一件事情是什么,MC3：如果你是造型师，想给哪位成员做什么样发型,MC4：蒙眼画口红，给别的成员化美美的妆",
         "summarize": "撕纸起源",
         "type": "blue",
         "url": "https://www.bilibili.com/video/av36769190"
@@ -1337,7 +1353,7 @@
       {
         "nameMonth": "6月30日",
         "title": "《美丽48区》徐晨辰生日公演",
-        "description": "生日环节：小品《青春无悔》,MC1：生日祝福,MC3: 私底下最经常去哪位成员的房间，都聊些什么话题,MC4: 如果有一次时间倒流，你最想回到哪个时候",
+        "description": "生日环节：小品《青春无悔》,MC1：生日祝福,MC3：私底下最经常去哪位成员的房间，都聊些什么话题,MC4：如果有一次时间倒流，你最想回到哪个时候",
         "summarize": "你这经验有什么用呢 ---- by 莫寒\r\n这样的青春你后悔吗 ---- by 钱蓓婷",
         "type": "blue",
         "url": "https://www.bilibili.com/video/av25901424"
@@ -1352,10 +1368,10 @@
       {
         "nameMonth": "5月6日 14:00",
         "title": "《美丽48区》",
-        "description": "MC1：巡回演唱会的话你们最期待的是什么,MC2:希望有哥哥姐姐还是弟弟妹妹,MC3：来一场艾斯兔公平的掰手腕比赛,MC4：分享一下练舞的趣事，或者演出翻车后怎么勉励自己",
+        "description": "MC1：巡回演唱会的话你们最期待的是什么,MC2：希望有哥哥姐姐还是弟弟妹妹,MC3：来一场艾斯兔公平的掰手腕比赛,MC4：分享一下练舞的趣事，或者演出翻车后怎么勉励自己",
         "summarize": "凭什么？我也是女人 ---- by 刘增艳",
         "type": "blue",
-        "url": "https://www.bilibili.com/video/av25576496"
+        "url": "https://www.bilibili.com/video/BV1Vp411f7ka"
       },
       {
         "nameMonth": "5月1日 14:00",

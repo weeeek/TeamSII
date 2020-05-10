@@ -176,6 +176,8 @@
       },
       {
         "title": "保龙一族",
+        "fit": "cover",
+        "position": "0px -70px",
         "from": "",
         "url": "https://v.qq.com/x/cover/mzc00200tlnprgt.html",
         "img": "https://wx4.sinaimg.cn/large/b5ff8eb1gy1g96t5t3u32j219x23p4qv.jpg"
@@ -740,8 +742,7 @@
         "title": "孙老师点评第一届偶像运动会",
         "from": "B",
         "url": "21980133",
-        "img": "//i2.hdslb.com/bfs/archive/65d36a9d00eacb8b403d71693836f578274877db.jpg_380x240.jpg",
-        "position": "cneter center"
+        "img": "//i2.hdslb.com/bfs/archive/65d36a9d00eacb8b403d71693836f578274877db.jpg_380x240.jpg"
       },
       {
         "title": "不要让爸爸带孩子",

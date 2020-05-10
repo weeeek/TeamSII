@@ -7,8 +7,9 @@
     </div>
     <div class="project-wrap flex flex-wrap flex-justify-between">
       <a :class="`project-item flex-l-4 flex-m-3 flex-s-2 flex-xs-1 member${i}`" target="_blank" :href="item.url" v-for="(item, i) in focusFilter" :key="i">
-        <div class="project-info" :style="`background-image:url(${item.img})`">
-            <h3 class="project-title text-ellipsis">{{item.from}}<br />{{item.title}}</h3>
+        <div class="project-info">
+          <img v-lazy="item.img" />
+          <p class="text-ellipsis">{{item.from}}<br />{{item.title}}</p>
         </div>
       </a>
     </div>
@@ -62,9 +63,16 @@ export default {
       column-count unset
       column-gap unset
       .project-info
-        height 190px
-        line-height 95px
+        height calc(190px + 2.8em)
         margin-bottom 0
+        img
+          width 100%
+          height 190px
+          display block
+        p
+          line-height 1.4em
+          text-align center
+          margin 10px 0
   @media screen and (min-width 1366px)
     #focus-container
       padding-bottom 15px

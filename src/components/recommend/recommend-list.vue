@@ -1,14 +1,11 @@
 <template>
   <div id="recommend-container">
-    <div class="video-block"  v-for="item in dataList" :key="item.type">
+    <div class="video-block" v-for="item in dataList" :key="item.type">
       <a class="video-type " :href="getUrl(item)" target="_blank">{{ item.type }}</a>
-      <div class="video-list">
-        <a target="_blank" :href="getVideoPlayUrl(v)" class="video-detail" v-for="v in item.list" :key="v.url">
-          <div class="video-img" :class="v.size">
-            <div :style="setStyle(v)"></div>
-          </div>
+      <div class="video-list flex flex-wrap flex-justify-between">
+        <a class="video-detail flex-l-4 flex-m-3 flex-s-2 flex-xs-1" target="_blank" :href="getVideoPlayUrl(v)" v-for="(v, i) in item.list" :key="i">
+          <img v-lazy="v.img" :style="getStyle(v)" />
           <h3 class="video-title text-ellipsis">{{ v.title }}</h3>
-          <!-- <div class="video-info">{{ v.url }}</div> -->
         </a>
       </div>
     </div>
@@ -25,12 +22,10 @@ export default {
     })
   },
   methods: {
-    setStyle (v) {
-      let str = `background-image:url(${v.img});`
-      if (v.position) {
-        str += `background-position:${v.position}`
+    getStyle (v) {
+      if (v.fit) {
+        return `object-fit: ${v.fit};object-position: ${v.position}`
       }
-      return str
     },
     getVideoImage (videoinfo) {
       return videoinfo.img
@@ -69,6 +64,8 @@ export default {
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
+@import "~common/stylus/screen"
+
   #recommend-container
     width 100%
     height 100%
@@ -82,26 +79,15 @@ export default {
         font-size 20px
         font-weight bolder
       .video-list
-        display flex
-        flex-direction row
-        flex-wrap wrap
-        justify-content flex-start
-        align-content flex-start
+        width 100%
         .video-detail
+          img
+            width 100%
+            height 183px
           .video-title
+            line-height 2em
             font-weight bold
             text-align center
-          .video-img
-            div
-              background-repeat no-repeat
-              background-size cover
-              background-position center center
-          .contain
-            div
-              background-size contain !important
-              background-color #ebebeb
-          .video-info
-            display none
 
 @media screen and (min-width 1366px)
   #recommend-container
@@ -114,23 +100,8 @@ export default {
         font-size 20px
         margin 5px 0 0 10px
       .video-list
-        width 100%
         .video-detail
-          flex-grow 0
-          margin 10px
-          .video-title
-            line-height 2em
-            width 240px
-          .video-img
-            div
-              width 240px
-              height 150px
-          .contain
-            div
-              background-size contain !important
-              background-color #ebebeb
-          .video-info
-            display none
+          padding 10px
 
 @media screen and (max-width 1366px)
   #recommend-container
@@ -140,21 +111,8 @@ export default {
       &:last-child
         margin-bottom 10px
       .video-type
-        font-size 12px
         margin 5px 0 0 5px
       .video-list
-        width 100%
         .video-detail
-          flex-grow 0
-          margin 5px
-          .video-title
-            line-height 2em
-            font-size 12px
-            width 156px
-          .video-img
-            div
-              width 156px
-              height 100px
-          .video-info
-            display none
+          padding 5px
 </style>
