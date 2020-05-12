@@ -41,7 +41,8 @@ export default class Song {
   }
 
   getLyric () {
-    var ids = [125380668, 20181111]
+    // 特别处理歌词对不上，手动解码，支柱
+    var ids = [125380668]
     if (!this.lyricTranslated && ids.includes(this.id)) {
       this.lyric = Base64.decode(this.lyric)
       this.lyricTranslated = true
@@ -51,18 +52,19 @@ export default class Song {
       return Promise.resolve(this.lyric)
     }
     // 手动歌词
-    if (this.lyric && this.mid == null) {
+    if (this.lyric) {
       // 非QQ音乐，手动加载歌词
       this.lyric = Base64.decode(this.lyric)
       this.lyricTranslated = true
       return Promise.resolve(this.lyric)
     }
     // 非手动歌词，必须要有mid
-    if (this.mid) {
+    if (this.id) {
       return new Promise((resolve, reject) => {
-        getLyric(this.mid).then((res) => {
+        getLyric(this.id).then((res) => {
           if (res.retcode === ERR_OK) {
-            this.lyric = Base64.decode(res.lyric)
+            // this.lyric = Base64.decode(res.lyric)
+            this.lyric = res.lyric
             this.lyricTranslated = true
             resolve(this.lyric)
           } else {

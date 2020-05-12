@@ -190,6 +190,8 @@
       },
       {
         "title": "贴身校花",
+        "fit": "cover",
+        "position": "center center",
         "from": "L",
         "url": "//so.tv.sohu.com/mts?box=1&wd=%E8%B4%B4%E8%BA%AB%E6%A0%A1%E8%8A%B1",
         "img": "http://itedou.com/Public/kindeditor/attached/image/20171013/20171013144953_63689.png"
@@ -463,13 +465,13 @@
       {
         "title": "SNHello星萌学院",
         "from": "",
-        "url": "https://space.bilibili.com/12444300/favlist?fid=44572300&ftype=create",
+        "url": "https://space.bilibili.com/12444300/video?keyword=%E6%98%9F%E8%90%8C%E5%AD%A6%E9%99%A2",
         "img": "//photocdn.tv.sohu.com/img/20140707/vrsa_ver6938060_i99Fe_pic26.jpg"
       },
       {
         "title": "SNHello星梦学院",
-        "from": "I",
-        "url": "m_217503614",
+        "from": "BV",
+        "url": "19W41137gF?p=9",
         "img": "//pic9.iqiyipic.com/image/20180423/fe/89/a_100142135_m_601_180_236.jpg"
       },
       {
@@ -506,6 +508,12 @@
         "from": "B",
         "url": "17156101",
         "img": "//i2.hdslb.com/bfs/archive/703e653456ad9ea0cbd8a46bcaab3a2c9468bbf7.jpg_380x240.jpg"
+      },
+      {
+        "title": "梦想开始的地方",
+        "from": "BV",
+        "url": "1Ux411g7iD",
+        "img": "//i1.hdslb.com/bfs/archive/4a1cda6e64f6a01bf22460028a7d1844c3683ed0.jpg@380w_240h.jpg"
       },
       {
         "title": "花之岛 - 徐晨辰",
@@ -746,6 +754,8 @@
       },
       {
         "title": "不要让爸爸带孩子",
+        "fit":"cover",
+        "position":"center center",
         "from": "B",
         "url": "14684523",
         "img": "//i0.hdslb.com/bfs/archive/9af1bebe3aa84d6c42233d4b6824c58623d4c3ce.jpg_380x240.jpg"

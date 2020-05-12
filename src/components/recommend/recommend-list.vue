@@ -84,6 +84,7 @@ export default {
           img
             width 100%
             height 183px
+            box-shadow 5px 5px 5px rgba(0, 0, 0, 0.75)
           .video-title
             line-height 2em
             font-weight bold
