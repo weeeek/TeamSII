@@ -400,7 +400,7 @@ export default {
       }
     },
     getLyric () {
-      this.currentSong.getLyric(this.currentSong.mid)
+      this.currentSong.getLyric(this.currentSong.id, this.currentSong.mid)
         .then(lyric => {
           if (this.currentSong.lyric !== lyric || lyric == null) {
             return

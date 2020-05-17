@@ -33,10 +33,14 @@ export default class Song {
     if (urlMap[this.id]) {
       this.url = urlMap[this.id]
     } else if (url) {
+      // 有歌曲地址了
       urlMap[this.id] = url
       this.url = urlMap[this.id]
     } else {
-      this._genUrl()
+      // 需要获取歌曲地址
+      // this.url = null
+      // this._genUrl()
+      // this.getUrl()
     }
   }
 
@@ -61,10 +65,12 @@ export default class Song {
     // 非手动歌词，必须要有mid
     if (this.id) {
       return new Promise((resolve, reject) => {
-        getLyric(this.id).then((res) => {
+        getLyric(this.id, this.mid).then((res) => {
           if (res.retcode === ERR_OK) {
-            // this.lyric = Base64.decode(res.lyric)
-            this.lyric = res.lyric
+            // Base64解码
+            this.lyric = Base64.decode(res.lyric)
+            // html解码
+            // this.lyric = this.unescapeHTML(res.lyric)
             this.lyricTranslated = true
             resolve(this.lyric)
           } else {
@@ -76,20 +82,32 @@ export default class Song {
       return Promise.resolve(null)
     }
   }
-
+  unescapeHTML (lrc) {
+    var t = document.createElement('div')
+    t.innerHTML = lrc + ''
+    return t.innerText
+  }
   _genUrl () {
     if (this.url) {
       return
     }
-    getVKey(this.mid, this.filename).then((res) => {
+
+    let guid = getUid()
+
+    getVKey(this.mid, guid).then((res) => {
+      debugger
       if (res.code === ERR_OK) {
-        const vkey = res.data.items[0].vkey
-        // this.url = `http://dl.stream.qqmusic.qq.com/${this.filename}?vkey=${vkey}&guid=${getUid()}&uin=0&fromtag=66`
-        this.url = `http://isure.stream.qqmusic.qq.com/C400${this.filename}?guid=${getUid()}&vkey=${vkey}&uin=0&fromtag=66`
+        const vkey = res.req.data.vkey
+        this.url = `http://isure.stream.qqmusic.qq.com/C400${this.mid}.m4a?guid=${guid}&vkey=${vkey}&uin=0&fromtag=38`
         urlMap[this.id] = this.url
       }
     })
   }
+  // getUrl () {
+  //   getUrl (this.mid).then((res) => {
+  //     this.url = `http://isure.stream.qqmusic.qq.com/${res.req_0.data.midurlinfo.purl}`
+  //   })
+  // }
 }
 
 export function createSong (musicData) {

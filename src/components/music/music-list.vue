@@ -19,7 +19,7 @@
 </template>
 
 <script type="text/ecmascript-6">
-import { getMusicData } from 'config/musicData'
+import { getMusicData, getMusicUrl } from 'config/musicData'
 import { mapMutations, mapActions, mapGetters } from 'vuex'
 import SongList from 'components/music/song-list'
 import { createSong } from 'common/js/song'
@@ -36,7 +36,25 @@ export default {
   },
   created () {
     getMusicData().then((res) => {
-      this.qqMusicList = this._normalizaSongs(res)
+      var mids = []
+      res.map(t => {
+        t.group.map(g => {
+          g.songs.map(s => {
+            if (s.mid && !s.url) {
+              mids.push(s.mid)
+            }
+          })
+        })
+      })
+      getMusicUrl(mids).then((response) => {
+        if (response.data.code === 0) {
+          let urlMap = {}
+          response.data.req_0.data.midurlinfo.map(s => {
+            urlMap[s.songmid] = `http://isure.stream.qqmusic.qq.com/${s.purl}`
+          })
+          this.qqMusicList = this._normalizaSongs(res, urlMap)
+        }
+      })
     })
   },
   computed: {
@@ -45,17 +63,19 @@ export default {
     ])
   },
   methods: {
-    _normalizaSongs (list) {
+    _normalizaSongs (list, map) {
       let ret = []
       list.map((l, xIndex) => {
         ret.push({ typeName: l.typeName, group: [], show: true })
-
         l.group.map((g, yIndex) => {
           ret[xIndex].group.push({
             title: g.title,
             songs: []
           })
           g.songs.map((s) => {
+            if (!s.url) {
+              s.url = map[s.mid]
+            }
             let song = createSong(s)
             ret[xIndex].group[yIndex].songs.push(song)
           })

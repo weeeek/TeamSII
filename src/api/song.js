@@ -1,26 +1,17 @@
-import { commonParams, options } from 'config/common'
+import {
+  options
+} from 'config/common'
 import axios from 'axios'
 import jsonp from 'common/js/jsonp'
-import { getUid } from 'common/js/uid'
 
 const debug = process.env.NODE_ENV !== 'production'
 
-export function getLyric (id, fn) {
+export function getLyric (id, mid, fn) {
   const url = debug ? 'http://localhost/HttpProxy/api/QQlyric' : 'http://47.97.248.244/WebProxy/api/QQlyric'
 
   const data = {
-    nobase64: 1,
-    musicid: id,
-    g_tk_new_20200303: 5381,
-    g_tk: 5381,
-    loginUin: 0,
-    hostUin: 0,
-    format: 'json',
-    inCharset: 'utf8',
-    outCharset: 'utf-8',
-    notice: 0,
-    platform: 'yqq.json',
-    needNewCode: 0
+    id: id,
+    mid: mid
   }
 
   return axios.get(url, {
@@ -30,21 +21,49 @@ export function getLyric (id, fn) {
   })
 }
 
-export function getVKey (songmid, filename) {
-  const url = 'https://c.y.qq.com/base/fcgi-bin/fcg_music_express_mobile3.fcg'
-
-  const data = Object.assign({}, commonParams, {
-    cid: 205361747,
-    format: 'json',
-    platform: 'yqq',
+export function getVKey (songmid, guid) {
+  const url = 'https://u.y.qq.com/cgi-bin/musics.fcg'
+  const data = {
+    sign: 'zza7rrstg933vbezgje16df07565064936c5e971bc4ab222ec',
+    data: {
+      req: {
+        module: 'CDN.SrfCdnDispatchServer',
+        method: 'GetCdnDispatch',
+        param: {
+          guid: guid,
+          calltype: 0,
+          userip: ''
+        }
+      },
+      req_0: {
+        module: 'vkey.GetVkeyServer',
+        method: 'CgiGetVkey',
+        param: {
+          guid: guid,
+          songmid: [songmid],
+          songtype: [0],
+          uin: '0',
+          loginflag: 1,
+          platform: '20'
+        }
+      },
+      comm: {
+        uin: 0,
+        format: 'json',
+        ct: 24,
+        cv: 0
+      }
+    },
+    g_tk: 5381,
+    loginUin: 0,
     hostUin: 0,
-    needNewCode: 0,
-    uin: 0,
-    songmid,
-    filename,
-    guid: getUid()
-  })
-
+    format: 'json',
+    inCharset: 'utf8',
+    outCharset: 'utf-8',
+    notice: 0,
+    platform: 'yqq.com',
+    needNewCode: 0
+  }
   return jsonp(url, data, Object.assign({}, options, {
     param: 'callback'
   }))
