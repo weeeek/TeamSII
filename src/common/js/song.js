@@ -63,7 +63,7 @@ export default class Song {
       return Promise.resolve(this.lyric)
     }
     // 非手动歌词，必须要有mid
-    if (this.id) {
+    if (this.mid) {
       return new Promise((resolve, reject) => {
         getLyric(this.id, this.mid).then((res) => {
           if (res.retcode === ERR_OK) {

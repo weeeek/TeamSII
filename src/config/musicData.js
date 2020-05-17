@@ -9,8 +9,12 @@ export function getMusicData () {
 }
 
 export function getMusicUrl (mids) {
-  return axios.post(`${webProxyServer}api/QQAudioUrl`, { guid: getUid(), mids: mids }).then((res) => {
-    return Promise.resolve(res)
-  })
+  if (mids.length > 0) {
+    return axios.post(`${webProxyServer}api/QQAudioUrl`, { guid: getUid(), mids: mids }).then((res) => {
+      return Promise.resolve(res)
+    })
+  } else {
+    return Promise.resolve({data: { code: -1 }})
+  }
 }
 

@@ -31,13 +31,14 @@ export default {
   },
   data () {
     return {
-      qqMusicList: []
+      qqMusicList: [],
+      urlMap: {}
     }
   },
   created () {
     getMusicData().then((res) => {
-      var mids = []
       res.map(t => {
+        var mids = []
         t.group.map(g => {
           g.songs.map(s => {
             if (s.mid && !s.url) {
@@ -45,15 +46,14 @@ export default {
             }
           })
         })
-      })
-      getMusicUrl(mids).then((response) => {
-        if (response.data.code === 0) {
-          let urlMap = {}
-          response.data.req_0.data.midurlinfo.map(s => {
-            urlMap[s.songmid] = `http://isure.stream.qqmusic.qq.com/${s.purl}`
-          })
-          this.qqMusicList = this._normalizaSongs(res, urlMap)
-        }
+        getMusicUrl(mids).then((response) => {
+          if (response.data.code === 0) {
+            response.data.req_0.data.midurlinfo.map(s => {
+              this.urlMap[s.songmid] = `http://isure.stream.qqmusic.qq.com/${s.purl}`
+            })
+          }
+          this.qqMusicList = [...this._normalizaSongs(res)]
+        })
       })
     })
   },
@@ -63,7 +63,7 @@ export default {
     ])
   },
   methods: {
-    _normalizaSongs (list, map) {
+    _normalizaSongs (list) {
       let ret = []
       list.map((l, xIndex) => {
         ret.push({ typeName: l.typeName, group: [], show: true })
@@ -74,7 +74,7 @@ export default {
           })
           g.songs.map((s) => {
             if (!s.url) {
-              s.url = map[s.mid]
+              s.url = this.urlMap[s.mid]
             }
             let song = createSong(s)
             ret[xIndex].group[yIndex].songs.push(song)

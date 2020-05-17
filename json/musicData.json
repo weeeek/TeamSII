@@ -8,7 +8,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/6efdaa1d28307b65e513dbcd07059ce086d745f0.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -33,7 +33,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/7f842f4b9d930db38f19c87d35e74cb810095a56.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -63,7 +63,7 @@
           {
             "image": {
               "url": "//i2.hdslb.com/bfs/archive/94f183a006fec7316647a303c4fa30388ce89305.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "contain"
             },
@@ -97,7 +97,7 @@
         "songs": [{
             "image": {
               "url": "//i0.hdslb.com/bfs/album/0efd6699c9001e5cbf993da8f2970a951f313b06.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "contain"
             },
@@ -131,7 +131,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/845e85793fd990083922a7b7436cf571eba561dd.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -156,7 +156,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/f0aae5f09f04a902b391719f6ad841ac3d33d6d0.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -181,7 +181,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/11f7502bfcbb6933821e77d56d9bf5b72d98d610.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -206,7 +206,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/97b4d692a8e384c3a8603662a61cb94b6bb21b5d.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -231,7 +231,7 @@
           {
             "image": {
               "url": "//i2.hdslb.com/bfs/archive/fc4b6b55c645327c400ac1e1ef74683367e7d468.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -256,7 +256,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/f72ead69f4a423ef45d68eb08893b58af7855dd9.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -286,7 +286,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/988077534e5e9f21e7311a4d24925a56ccaacd63.png",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -311,7 +311,7 @@
           {
             "image": {
               "url": "//i2.hdslb.com/bfs/archive/ac39de7c640b5ed1460de704421e626db251b311.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -341,7 +341,7 @@
           {
             "image": {
               "url": "//i2.hdslb.com/bfs/archive/aaadf40a385f96e3b6bac9eab12e8a2756cb869d.png",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -368,7 +368,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/c500d0a7742c2432c2f5c6314a0f84a9fbf08a4c.png",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -395,7 +395,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/b23a4344786f73dd3e4c2d8b214c75c154885f6a.png",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -421,7 +421,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/aabfb90d4c54bac7736ff0a4bd86013e4a5fdd89.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -447,7 +447,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/8ea3d9a2e5179514ac951f701d2041acd488fb76.png",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -477,7 +477,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/6f5e942dcd085474a9593e5ac61e7ce1d1c3f593.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -501,7 +501,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/04ceeb9e97a42a2ddb0728a84731b5b4913bcf9c.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -525,7 +525,7 @@
           {
             "image": {
               "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000002GAlzP3mdNQi_1.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -543,7 +543,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/78b7bf261dc9d9c0279d46c62ab8155232496106.jpg",
-              "left": "90%",
+              "top": "90%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -566,7 +566,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/38234e04c8b8b17cdf019c928482bfb33c7889c4.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -595,7 +595,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/a4871e2697c114b056e3e2aaf15d5d34c04e7ebc.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -613,7 +613,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/48be7abc18805d4c6fcb4f9ac1f75724d53b1712.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -641,7 +641,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/c2a4a0bfcffd66e346334ce752ece568cd73e818.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -666,7 +666,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/6ab2ce83db76edd5dd949984ebd1fb83e8536a9b.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -696,7 +696,7 @@
           {
             "image": {
               "url": "//i2.hdslb.com/bfs/archive/d3d208e4356cb9bd58e6527bf05ec4a9299e13be.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "contain"
             },
@@ -721,7 +721,7 @@
           {
             "image": {
               "url": "//i2.hdslb.com/bfs/archive/703edb369015b697d916bcd6c544754affbc3754.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "contain"
             },
@@ -757,7 +757,7 @@
           {
             "image": {
               "url": "//i2.hdslb.com/bfs/archive/34c20e03c13084c2751de7a7125addf19a5e3a1f.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "contain"
             },
@@ -785,7 +785,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/d5f60af2ddb25329a496d74f3b150e8a763407ba.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -808,7 +808,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/11f7502bfcbb6933821e77d56d9bf5b72d98d610.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -827,7 +827,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/fc96f59847171196d3bfbf3ad77b1d829458eb2b.png",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -848,7 +848,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/bf5491818b07fa9cde0763aae19a53ec61e4e4bb.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -867,7 +867,7 @@
           {
             "image": {
               "url": "//i2.hdslb.com/bfs/archive/b2675728aba9980cc9f1574faa6e8b75c3c43dfd.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -885,7 +885,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/61c968d9a07e24ec0a41754640afe484f47017ef.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -904,7 +904,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/aa71563f7417338b92f041f8ae89183eabb7c38b.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -929,7 +929,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/56823c9640fe970b197c2ee0159abf0def2aa467.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -968,7 +968,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2018/1123/20181123112917682.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -988,7 +988,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2018/1123/20181123112924402.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1002,7 +1002,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2018/1123/20181123112954739.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1016,7 +1016,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2018/1123/20181123113001367.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1030,7 +1030,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2018/1123/20181123113024279.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1047,7 +1047,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2018/1123/20181123113032497.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1061,7 +1061,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2018/1123/20181123113045566.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1075,7 +1075,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2018/1123/20181123113135675.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1089,7 +1089,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2018/1123/20181123113142601.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1103,7 +1103,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2018/1123/20181123113150521.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1123,7 +1123,7 @@
           {
             "image": {
               "url": "https://i1.hdslb.com/bfs/archive/91e6da751c8344ee6b0c2e9dda4a9926f6b4e1b7.jpg@560w_350h_100Q_1c.webp",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1137,7 +1137,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2018/1123/20181123113213544.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1151,7 +1151,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2018/1123/20181123113220705.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1181,7 +1181,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2018/1123/20181123113303877.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1195,7 +1195,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2018/1123/20181123113312681.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1209,7 +1209,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2018/1123/20181123113318777.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1228,7 +1228,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2017/0701/20170701014656607.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1248,7 +1248,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2017/0701/20170701014727556.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1262,7 +1262,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2017/0701/20170701014742843.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1276,7 +1276,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2017/0701/20170701014754930.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1290,7 +1290,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2017/0701/20170701014806186.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1304,7 +1304,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2017/0701/20170701014827984.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1318,7 +1318,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2017/0701/20170701014841934.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1332,7 +1332,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2017/0701/20170701014854292.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1346,7 +1346,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2017/0701/20170701014905715.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1360,7 +1360,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2017/0701/20170701014944421.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1374,7 +1374,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2017/0701/20170701015000824.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1388,7 +1388,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2017/0701/20170701015022607.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1402,7 +1402,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2017/0701/20170701014643825.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1427,7 +1427,7 @@
           {
             "image": {
               "url": "https://i0.hdslb.com/bfs/archive/8541cf8f63c5f5d021ec4a174c4e0b1037ebf93b.jpg_960x600.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1452,7 +1452,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2017/0701/20170701015047247.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1466,7 +1466,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2017/0701/20170701015056575.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1492,7 +1492,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2016/0521/20160521010418333.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1512,7 +1512,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2016/0521/20160521010426138.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1526,7 +1526,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2016/0521/20160521010554238.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1540,7 +1540,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2016/0521/20160521010604999.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1554,7 +1554,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2016/0521/20160521010613800.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1574,7 +1574,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2016/0521/20160521010621200.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1588,7 +1588,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2016/0521/20160521010630114.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1602,7 +1602,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2016/0521/20160521010638520.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1622,7 +1622,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2016/0521/20160521010648982.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1658,7 +1658,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2016/0521/20160521010715570.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1686,7 +1686,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2016/0521/20160521010731889.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1700,7 +1700,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2016/0521/20160521010743212.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1714,7 +1714,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2018/0208/20180208051823222.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1740,7 +1740,7 @@
           {
             "image": {
               "url": "http://newsimg.snh48.com/2015/0612/20150612065039793.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1760,7 +1760,7 @@
           {
             "image": {
               "url": "http://newsimg.snh48.com/2014/1108/20141108035627540.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1780,7 +1780,7 @@
           {
             "image": {
               "url": "http://www.snh48.com/event/s48/images/zs_5.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1800,7 +1800,7 @@
           {
             "image": {
               "url": "http://www.snh48.com/attached/show/15/2019-08-01/15144951S2_3.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "contain"
             },
@@ -1820,7 +1820,7 @@
           {
             "image": {
               "url": "http://www.snh48.com/attached/show/11/2019-07-19/111644238795.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "contain"
             },
@@ -1834,7 +1834,7 @@
           {
             "image": {
               "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000003LF2pX0v1zhY.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1848,7 +1848,7 @@
           {
             "image": {
               "url": "http://oss.tan8.com//yuepuku/110/55363/55363_prev.jpg?v=1503115201",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1863,7 +1863,7 @@
           {
             "image": {
               "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000003LF2pX0v1zhY.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1888,7 +1888,7 @@
           {
             "image": {
               "url": "https://i1.hdslb.com/bfs/archive/8e8b08aac561794e5b950e1e4377bb1c2775ab6e.jpg_640x400.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1906,7 +1906,7 @@
           {
             "image": {
               "url": "https://i2.hdslb.com/bfs/archive/af6c9e46e44ba388e722686c5f49cbafdab33547.jpg_640x400.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1924,7 +1924,7 @@
           {
             "image": {
               "url": "https://i0.hdslb.com/bfs/archive/c5c09f702beb8b667c9ce59e0afbcdafcb07edf7.jpg_640x400.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1942,7 +1942,7 @@
           {
             "image": {
               "url": "https://i0.hdslb.com/bfs/archive/d6b3373bc7c7095673f5b499bd11b3be0d2eaa8c.jpg_640x400.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1959,7 +1959,7 @@
           {
             "image": {
               "url": "https://i1.hdslb.com/bfs/archive/e47469f460b7b6543071208fd3b353a7d3bea1c9.jpg_640x400.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1976,7 +1976,7 @@
           {
             "image": {
               "url": "https://i0.hdslb.com/bfs/archive/ece8dfcab089a5444499883a9da66af6fc3493aa.jpg_640x400.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -1990,7 +1990,7 @@
           {
             "image": {
               "url": "https://i1.hdslb.com/bfs/archive/d9ce054fbcc8fd2899fd42266520695b95a69744.jpg_640x400.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2004,7 +2004,7 @@
           {
             "image": {
               "url": "https://i2.hdslb.com/bfs/archive/3e5db1326ec5c180e87f491d5f0182984df8d17c.png_640x400.png",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2018,7 +2018,7 @@
           {
             "image": {
               "url": "https://i1.hdslb.com/bfs/archive/2aeffd56fa7bced36880c11cc223a0c14489a07a.jpg_640x400.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2032,7 +2032,7 @@
           {
             "image": {
               "url": "https://i1.hdslb.com/bfs/archive/2aed05a20f8cc518597cacdef0acf0d08936b8b3.jpg_640x400.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2046,7 +2046,7 @@
           {
             "image": {
               "url": "https://i1.hdslb.com/bfs/archive/cc314610767bb02e111e09433ea5847bf13dff15.jpg_640x400.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2060,7 +2060,7 @@
           {
             "image": {
               "url": "https://i0.hdslb.com/bfs/archive/546ee8354e0d0de6d02eb2d779356e65d7189abf.jpg_640x400.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2074,7 +2074,7 @@
           {
             "image": {
               "url": "https://i1.hdslb.com/bfs/archive/47e3bcde18d3ba8aa832e84b693b0ed6d019e006.jpg_640x400.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2088,7 +2088,7 @@
           {
             "image": {
               "url": "https://i1.hdslb.com/bfs/archive/7c34baf25609fbdcb298d8040883fcbbc5774624.jpg_640x400.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2108,7 +2108,7 @@
           {
             "image": {
               "url": "",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2132,7 +2132,7 @@
           {
             "image": {
               "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000004NuB5p2BPluT_1.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2151,7 +2151,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/67b46f737573e01b2c3bc40e1ba5375ac8e9da1f.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2170,7 +2170,7 @@
           {
             "image": {
               "url": "//i2.hdslb.com/bfs/archive/6b035fd3edd3208dc924157291e457a4cc8a6f33.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2187,7 +2187,7 @@
           {
             "image": {
               "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000004NuB5p2BPluT_1.jpg?max_age=2592000",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2211,7 +2211,7 @@
           {
             "image": {
               "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000004NuB5p2BPluT_1.jpg?max_age=2592000",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2230,7 +2230,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/57b44a83d7b14c1ccec6470366b451b4be5920bb.png",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "contain"
             },
@@ -2264,7 +2264,7 @@
           {
             "image": {
               "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000000R9ZFf3NwMT2_1.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2278,7 +2278,7 @@
           {
             "image": {
               "url": "https://imgsa.baidu.com/forum/pic/item/439e02f41bd5ad6e80959ff18ecb39dbb7fd3cc6.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2292,7 +2292,7 @@
           {
             "image": {
               "url": "https://imgsa.baidu.com/forum/pic/item/bff687d4b31c87019752b5ff287f9e2f0608ff4c.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2312,7 +2312,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/40e3e76bfc39696d71d3742220780087767ee98b.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2331,7 +2331,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/d9ce054fbcc8fd2899fd42266520695b95a69744.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2345,7 +2345,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/c5c09f702beb8b667c9ce59e0afbcdafcb07edf7.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2359,7 +2359,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/d6b3373bc7c7095673f5b499bd11b3be0d2eaa8c.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2373,7 +2373,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2019/0120/20190120121823407.jpg",
-              "left": "100%",
+              "top": "100%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2387,7 +2387,7 @@
           {
             "image": {
               "url": "https://newsimg.48.cn/2019/0120/20190120121745512.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2407,7 +2407,7 @@
           {
             "image": {
               "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000004bwVH937nhQW_1.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2427,7 +2427,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/13ce833302a167bed46fb812fe9ab8127c8eac0e.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2447,7 +2447,7 @@
           {
             "image": {
               "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000002MqNQL3tPd8M_1.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2461,7 +2461,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/f3f15f8963328848b97e50c736caf2ea5c7999d2.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2475,7 +2475,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/6218f60397b4ef060c42a0fc7659f1ee14199963.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2495,7 +2495,7 @@
           {
             "image": {
               "url": "//i2.hdslb.com/bfs/archive/c6443cbbfe1079712b3746309723ad1ffabf30a6.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2515,7 +2515,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/347181bbb0c7799961a101610d21fb7aef6dc7c0.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2529,7 +2529,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/cbfc7284d5bfd91cf9d0d7c364ce1c57f74d2b4a.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2543,7 +2543,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/8ca6d7df5c6d43681edea0b737db2eb997c11070.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2557,7 +2557,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/c841c8901a0c058fb29b5d3d3479eae944f172b1.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2576,7 +2576,7 @@
           {
             "image": {
               "url": "http://www.snh48.com/attached/record/2019-08-08/55634cd_fxrs_13.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2590,7 +2590,7 @@
           {
             "image": {
               "url": "http://i1.hdslb.com/bfs/archive/df34135ac02bdc6fdfe8d3a202c000ed005de395.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2609,7 +2609,7 @@
           {
             "image": {
               "url": "http://www.snh48.com/attached/record/2019-08-08/345601cd_fxrs_11.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2623,7 +2623,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/8852d7693ad56586392d9e7a24282b175dbc43a8.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2648,7 +2648,7 @@
           {
             "image": {
               "url": "//y.gtimg.cn/music/photo_new/T002R300x300M0000019RI7T1XHO8U.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2673,7 +2673,7 @@
           {
             "image": {
               "url": "http://www.snh48.com/attached/record/2019-08-08/120698cd_fxrs_9.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2692,7 +2692,7 @@
           {
             "image": {
               "url": "//y.gtimg.cn/music/photo_new/T002R300x300M0000001Lt8X2T63xb.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2726,7 +2726,7 @@
           {
             "image": {
               "url": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003gjOrP0FLyAq.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2763,7 +2763,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/c7795b8ffd3c41e295f414fa5e4bcb5e7cace555.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2777,7 +2777,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/7e3bce2dc81dbd1345fcd6e66aae3aab1fb040ab.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2791,7 +2791,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/c17533550cded1e6af848f2f63a46468edc5f690.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2813,7 +2813,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/1a37727c1d143863846e412dca7484daf32f5aa2.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2832,7 +2832,7 @@
           {
             "image": {
               "url": "//i2.hdslb.com/bfs/archive/aa3548784befcf93f9edd7ace4ff70651125df2a.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2852,7 +2852,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/archive/5962ad48f5987d93d51c46fe744fd43b6085fbc5.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2866,7 +2866,7 @@
           {
             "image": {
               "url": "//i0.hdslb.com/bfs/videoshot/1506468.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2885,7 +2885,7 @@
           {
             "image": {
               "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000002vj8jl276mNh.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2899,7 +2899,7 @@
           {
             "image": {
               "url": "//www.snh48.com/event/s82/images/mainbg02.jpg",
-              "left": "91%",
+              "top": "91%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2921,7 +2921,7 @@
           {
             "image": {
               "url": "//newsimg.48.cn/2014/0517/20140517091421299.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2935,7 +2935,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/f398ec04069b4be3e853b31b66c4ec0970bbbd1a.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2949,7 +2949,7 @@
           {
             "image": {
               "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000002vj8jl276mNh.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2963,7 +2963,7 @@
           {
             "image": {
               "url": "//www.snh48.com/event/s82/images/mainbg02.jpg",
-              "left": "91%",
+              "top": "91%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2985,7 +2985,7 @@
           {
             "image": {
               "url": "//newsimg.48.cn/2014/0517/20140517091421299.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -2999,7 +2999,7 @@
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/f398ec04069b4be3e853b31b66c4ec0970bbbd1a.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -3018,7 +3018,7 @@
           {
             "image": {
               "url": "//hbimg.b0.upaiyun.com/031642560223d12f4beda7a15c86b9e32511b64cabc8b-tyk4SZ_fw658",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -3032,7 +3032,7 @@
           {
             "image": {
               "url": "//data.znds.com/attachment/forum/201702/09/203431sxez81la0i69909l.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -3046,7 +3046,7 @@
           {
             "image": {
               "url": "https://gss3.bdstatic.com/-Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=39f9969a15dfa9ece9235e4503b99c66/cf1b9d16fdfaaf5138f47539885494eef01f7a25.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -3060,7 +3060,7 @@
           {
             "image": {
               "url": "//hbimg.b0.upaiyun.com/031642560223d12f4beda7a15c86b9e32511b64cabc8b-tyk4SZ_fw658",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -3074,7 +3074,7 @@
           {
             "image": {
               "url": "//data.znds.com/attachment/forum/201702/09/203431sxez81la0i69909l.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -3088,7 +3088,7 @@
           {
             "image": {
               "url": "https://gss3.bdstatic.com/-Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=39f9969a15dfa9ece9235e4503b99c66/cf1b9d16fdfaaf5138f47539885494eef01f7a25.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -3107,7 +3107,7 @@
           {
             "image": {
               "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000000Ic7kp46jL1n.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -3121,7 +3121,7 @@
           {
             "image": {
               "url": "//newsimg.snh48.com/2013/0503/20130503101242672.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -3135,7 +3135,7 @@
           {
             "image": {
               "url": "//img3.a0bi.com/upload/ttq/20160627/1467002775843.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -3155,7 +3155,7 @@
           {
             "image": {
               "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000000Ic7kp46jL1n.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -3169,7 +3169,7 @@
           {
             "image": {
               "url": "//newsimg.snh48.com/2013/0503/20130503101242672.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
@@ -3183,7 +3183,7 @@
           {
             "image": {
               "url": "//img3.a0bi.com/upload/ttq/20160627/1467002775843.jpg",
-              "left": "50%",
+              "top": "50%",
               "right": "50%",
               "objectfit": "cover"
             },
