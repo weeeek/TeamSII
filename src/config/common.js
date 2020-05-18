@@ -50,5 +50,4 @@ export const playMode = {
 }
 
 export const server = 'http://47.97.248.244/json/'
-// export const webProxyServer = 'http://47.97.248.244/WebProxy/'
-export const webProxyServer = 'http://localhost/HttpProxy/'
+export const webProxyServer = 'http://47.97.248.244/WebProxy/'
