@@ -48,6 +48,8 @@
             return '曲谱' + ext
           case 'bilibili':
             return 'B站UP'
+          case 'MV':
+            return 'MV'
           default:
             return ''
         }
@@ -61,7 +63,7 @@
 
   .piano
     margin-left 3px
-    margin-right 1px
+    margin-right 3px
     margin-bottom -1px
     width 1.5em
     height 1.25em
@@ -100,6 +102,7 @@
       border-radius 0.05em
       transform rotate(-15deg)
   .erhu
+    margin-left 3px
     display inline-block
     width 1em
     height 1.5em
@@ -129,6 +132,7 @@
       border-style solid none
       border-width 1px 0
   .violin
+    margin-left 3px
     margin-right 5px
     display inline-block
     border-radius 2em
@@ -169,7 +173,18 @@
     background-size contain
     background-position center center
     background-repeat no-repeat
-
+  .MV
+    height 100%
+    width 2em
+    display inline-block
+    border 2px solid $color-team-sii
+    box-shadow 0px 1px 1px $color-team-sii
+    position relative
+    &:before
+      position absolute
+      left 0.5px
+      content 'MV'
+      color $color-team-sii
   .song-list
     ul
       padding 12px 0

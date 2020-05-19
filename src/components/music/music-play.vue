@@ -39,7 +39,7 @@
                   class="image"
                   v-if="currentSong && currentSong.image"
                   :src="currentSong.image.url"
-                  :style="`object-position:${currentSong.image.top} ${currentSong.image.right};object-fit:${currentSong.image.objectfit}`"
+                  :style="`object-position:${currentSong.image.left} ${currentSong.image.top};object-fit:${currentSong.image.objectfit}`"
                 />
               </div>
             </div>
@@ -121,7 +121,7 @@
               height="40"
               v-if="currentSong && currentSong.image"
               :src="currentSong.image.url"
-              :style="`object-position:${currentSong.image.top} ${currentSong.image.right};object-fit:${currentSong.image.objectfit}`"
+              :style="`object-position:${currentSong.image.left} ${currentSong.image.top};object-fit:${currentSong.image.objectfit}`"
             />
           </div>
         </div>

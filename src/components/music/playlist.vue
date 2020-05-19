@@ -160,7 +160,7 @@
     right: 0
     top: 0
     bottom: 0
-    z-index: 200
+    z-index: 2000
     background-color: $color-background-d
     &.list-fade-enter-active, &.list-fade-leave-active
       transition: opacity 0.3s
