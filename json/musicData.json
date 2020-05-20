@@ -758,6 +758,34 @@
         "songs": [
           {
             "image": {
+              "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000003EskZ62b4UBG_1.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "SNH48 Team SII"
+            ],
+            "id": 201087877,
+            "mid": "003rnKGS1905V9",
+            "name": "好友创可贴（白色情人节）",
+            "interval": 257,
+            "play": [
+              {
+                "player": "最爱吃的熊孩子",
+                "type": "piano",
+                "url": "https://www.bilibili.com/video/BV17x411G7jr"
+              },
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/av9156071"
+              }
+            ],
+            "opern": null
+          },
+          {
+            "image": {
               "url": "//i1.hdslb.com/bfs/archive/4a1cda6e64f6a01bf22460028a7d1844c3683ed0.jpg@380w_240h.jpg",
               "left": "50%",
               "top": "50%",
@@ -770,7 +798,13 @@
             "mid": "004Rg6RG4Xa0Yt",
             "name": "梦想开始的地方",
             "interval": 169,
-            "play": [],
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/BV1Ux411g7iD"
+              }
+            ],
             "opern": null
           },
           {
@@ -1714,7 +1748,13 @@
             "mid": "004MHdRt2xw3CP",
             "name": "潮流冠军",
             "interval": 203,
-            "play": [],
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/av5583819"
+              }
+            ],
             "opern": null
           },
           {
@@ -1747,6 +1787,11 @@
                 "player": "最爱吃的熊孩子",
                 "type": "piano",
                 "url": "https://www.bilibili.com/video/av17078898"
+              },
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/av17156101"
               }
             ],
             "opern": "http://www.tan8.com/yuepu-55390.html"
@@ -2439,7 +2484,13 @@
             "mid": "000Gsz5P0WYJCu",
             "name": "时间的歌",
             "interval": 270,
-            "play": [],
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/av71277316"
+              }
+            ],
             "opern": ""
           },
           {
@@ -2622,7 +2673,13 @@
             "mid": "003qiNr92E67GP",
             "name": "魔女的诗篇",
             "interval": 263,
-            "play": [],
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/av33676607"
+              }
+            ],
             "opern": ""
           },
           {
@@ -2778,7 +2835,13 @@
             "mid": "0038izgC0LOD5t",
             "name": "那不勒斯的黎明",
             "interval": 311,
-            "play": [],
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/av16071872"
+              }
+            ],
             "opern": ""
           }
         ]
@@ -2886,7 +2949,13 @@
             "mid": "0042wDTD3i3otD",
             "name": "公主披风",
             "interval": 205,
-            "play": [],
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/av6668234"
+              }
+            ],
             "opern": ""
           },
           {
@@ -3020,7 +3089,13 @@
             "mid": "003tn4dl1bP3Re",
             "name": "万圣节之夜",
             "interval": 302,
-            "play": [],
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/av13468389"
+              }
+            ],
             "opern": "http://www.everyonepiano.cn/Music-7170-%E3%83%8F%E3%83%AD%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%8A%E3%82%A4%E3%83%88-%E4%B8%87%E5%9C%A3%E8%8A%82%E4%B9%8B%E5%A4%9C--AKB48.html"
           },
           {
@@ -3108,6 +3183,11 @@
                 "player": "爷妹子凤梨太帅Yeah",
                 "type": "piano",
                 "url": "https://www.bilibili.com/video/av56221439"
+              },
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/av1890326"
               }
             ],
             "opern": "http://www.tan8.com/yuepu-55366.html"
@@ -3137,7 +3217,13 @@
             "mid": "000VDXiv4gMaV7",
             "name": "UZA",
             "interval": 276,
-            "play": [],
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/av30923952"
+              }
+            ],
             "opern": null
           },
           {
@@ -3224,7 +3310,13 @@
             "mid": "003re5S23BtFcp",
             "name": "开拓者",
             "interval": 242,
-            "play": [],
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/av1215352"
+              }
+            ],
             "opern": null
           }
         ]
@@ -3346,7 +3438,13 @@
             "mid": "001JPCju2Gsfe8",
             "name": "生命之风",
             "interval": 223,
-            "play": [],
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/av3060321"
+              }
+            ],
             "opern": null
           },
           {
