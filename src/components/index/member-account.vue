@@ -22,7 +22,7 @@
       v-if="data.douyin"
     ></a>
     <a
-      :href="data.changba"
+      :href="`http://changba.com/u/${data.changba}`"
       :title="`唱吧-${data.name}`"
       target="_blank"
       class="favicon favicon-changba"

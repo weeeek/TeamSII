@@ -8,7 +8,7 @@
       <h2>每当世界在变幻，这舞台就是你旅程的港湾</h2>
       <div class="members">
         <div class="member" v-for="m in memberDataList" :key="m.name">
-          <div class="photo" :style="`background-image:url(${m.photo})`">
+          <div class="photo" v-lazy:background-image="m.photo">
             <a v-if="m.group" class="group name" :class="m.group" target="_blank" :href="getGroupWeibo(m.group)"></a>
             <div class="cover"></div>
           </div>
@@ -21,7 +21,7 @@
       <h2>沿途是否记得，一起欢笑泪水的伙伴</h2>
       <div class="members">
         <div class="member" v-for="m in pet48DataList" :key="m.name">
-          <div class="photo" :style="`background-image:url('${getPetPhoto(m)}')`">
+          <div class="photo" v-lazy:background-image="getPetPhoto(m)">
             <div class="cover"></div>
           </div>
           <div class="name">{{m.master}} - {{m.name}}</div>
@@ -32,7 +32,7 @@
       <h2>回忆还感动吗，梦是否已在青空上盛开</h2>
       <div class="members">
         <div class="member" v-for="m in otherTeamMemberDataList" :key="m.name">
-          <div class="photo" :style="`background-image:url(${m.photo})`">
+          <div class="photo" v-lazy:background-image="m.photo">
             <a v-if="m.group" class="group name" :class="m.group" target="_blank" :href="getGroupWeibo(m.group)"></a>
             <div class="cover"></div>
           </div>
@@ -45,7 +45,7 @@
       <h2>十年后再回首，我们初心不改</h2>
       <div class="members">
         <div class="member" v-for="m in exitMemberDataList" :key="m.name">
-          <div class="photo" :style="`background-image:url(${m.photo})`">
+          <div class="photo" v-lazy:background-image="m.photo">
             <a v-if="m.group" class="group name" :class="m.group" target="_blank" :href="getGroupWeibo(m.group)"></a>
             <div class="cover"></div>
           </div>
@@ -173,7 +173,6 @@
         .group
           position absolute
           left calc(50% + 37.5px)
-          top -12.5px
           border-radius 50%
           background-repeat no-repeat
           background-position center center
@@ -215,6 +214,9 @@
       .name
         font-size 24px
         margin 10px auto
+      .photo
+        .group
+          top -12.5px
       .accounts
         width 60%
 @media screen and (max-width 1366px)
@@ -234,6 +236,9 @@
       .member
         flex 0 0 25%
         margin-bottom 20px
+      .photo
+        .group
+          top -10.5px
       .accounts
         width 65%
 @media screen and (max-width 700px)
@@ -254,6 +259,9 @@
       .member
         flex 0 0 33%
         margin-bottom 15px
+      .photo
+        .group
+          top -8.5px
       .accounts
         width 70%
 @media screen and (max-width 540px)
@@ -273,6 +281,9 @@
       .member
         flex 0 0 50%
         margin-bottom 10px
+      .photo
+        .group
+          top -7.5px
       .accounts
         width 75%
 </style>

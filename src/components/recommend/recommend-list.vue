@@ -1,8 +1,14 @@
 <template>
   <div id="recommend-container">
     <div class="video-block" v-for="item in dataList" :key="item.type">
-      <a class="video-type " :href="getUrl(item)" target="_blank">{{ item.type }}</a>
-      <div class="video-list flex flex-wrap flex-justify-between">
+      <div class="video-type" @click="item.show = !item.show">
+        {{ item.type }}
+        <span class="float-right" :title="(item.show?'收起':'展开')">
+          <jam-minus-rectangle :width="20" v-show="item.show"/>
+          <jam-plus-rectangle :width="20" v-show="!item.show"/>
+        </span>
+      </div>
+      <div class="video-list flex flex-wrap flex-justify-between" v-show="item.show">
         <a class="video-detail flex-l-4 flex-m-3 flex-s-2 flex-xs-1" target="_blank" :href="getVideoPlayUrl(v)" v-for="(v, i) in item.list" :key="i">
           <img v-lazy="v.img" :style="getStyle(v)" />
           <h3 class="video-title text-ellipsis">{{ v.title }}</h3>
@@ -18,6 +24,9 @@ export default {
   name: `RecommendList`,
   created () {
     getRecommendData().then((res) => {
+      res.forEach(e => {
+        e.show = true
+      })
       this.dataList = res
     })
   },
