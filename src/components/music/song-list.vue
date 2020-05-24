@@ -6,7 +6,7 @@
           <span v-text="index + 1"></span>
         </div>
         <div class="content">
-          <a class="name text-ellipsis" target="_blank" :href="`https://y.qq.com/n/yqq/song/${song.mid}.html`">{{song.name}}</a>
+          <a class="name text-ellipsis" target="_blank" :href="getPlayUrl(song)">{{song.name}}</a>
           <a class="icon" href="javascript:void(0)" @click="selectItem(song, index)">
             <jam-play :fillColor="'#87cefa'" />
           </a>
@@ -52,6 +52,15 @@
             return 'MV'
           default:
             return ''
+        }
+      },
+      getPlayUrl (song) {
+        if (song.play && song.play.some(p => p.type === 'MV')) {
+          return song.play.find(p => p.type === 'MV').url
+        } else if (song.mid) {
+          return `https://y.qq.com/n/yqq/song/${song.mid}.html`
+        } else {
+          return `javascript: void(0)`
         }
       }
     }

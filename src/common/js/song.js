@@ -95,7 +95,6 @@ export default class Song {
     let guid = getUid()
 
     getVKey(this.mid, guid).then((res) => {
-      debugger
       if (res.code === ERR_OK) {
         const vkey = res.req.data.vkey
         this.url = `http://isure.stream.qqmusic.qq.com/C400${this.mid}.m4a?guid=${guid}&vkey=${vkey}&uin=0&fromtag=38`
@@ -103,11 +102,6 @@ export default class Song {
       }
     })
   }
-  // getUrl () {
-  //   getUrl (this.mid).then((res) => {
-  //     this.url = `http://isure.stream.qqmusic.qq.com/${res.req_0.data.midurlinfo.purl}`
-  //   })
-  // }
 }
 
 export function createSong (musicData) {

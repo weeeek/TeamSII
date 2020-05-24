@@ -10,7 +10,15 @@
         <div class="member" v-for="m in memberDataList" :key="m.name">
           <div class="photo" v-lazy:background-image="m.photo">
             <a v-if="m.group" class="group name" :class="m.group" target="_blank" :href="getGroupWeibo(m.group)"></a>
-            <div class="cover"></div>
+            <div class="flex flex-column cover">
+              <div class="flex-grow bg-white"></div>
+              <div class="flex cover-v">
+                <div class="flex-grow bg-white"></div>
+                <div class="cover-border"></div>
+                <div class="flex-grow bg-white"></div>
+              </div>
+              <div class="flex-grow bg-white"></div>
+            </div>
           </div>
           <div class="name">{{m.name}}</div>
           <MemberAccount :data="m"></MemberAccount>
@@ -22,7 +30,15 @@
       <div class="members">
         <div class="member" v-for="m in pet48DataList" :key="m.name">
           <div class="photo" v-lazy:background-image="getPetPhoto(m)">
-            <div class="cover"></div>
+            <div class="flex flex-column cover">
+              <div class="flex-grow bg-white"></div>
+              <div class="flex cover-v">
+                <div class="flex-grow bg-white"></div>
+                <div class="cover-border"></div>
+                <div class="flex-grow bg-white"></div>
+              </div>
+              <div class="flex-grow bg-white"></div>
+            </div>
           </div>
           <div class="name">{{m.master}} - {{m.name}}</div>
         </div>
@@ -34,7 +50,15 @@
         <div class="member" v-for="m in otherTeamMemberDataList" :key="m.name">
           <div class="photo" v-lazy:background-image="m.photo">
             <a v-if="m.group" class="group name" :class="m.group" target="_blank" :href="getGroupWeibo(m.group)"></a>
-            <div class="cover"></div>
+            <div class="flex flex-column cover">
+              <div class="flex-grow bg-white"></div>
+              <div class="flex cover-v">
+                <div class="flex-grow bg-white"></div>
+                <div class="cover-border"></div>
+                <div class="flex-grow bg-white"></div>
+              </div>
+              <div class="flex-grow bg-white"></div>
+            </div>
           </div>
           <div class="name">{{m.name}}</div>
           <MemberAccount :data="m"></MemberAccount>
@@ -47,7 +71,15 @@
         <div class="member" v-for="m in exitMemberDataList" :key="m.name">
           <div class="photo" v-lazy:background-image="m.photo">
             <a v-if="m.group" class="group name" :class="m.group" target="_blank" :href="getGroupWeibo(m.group)"></a>
-            <div class="cover"></div>
+            <div class="flex flex-column cover">
+              <div class="flex-grow bg-white"></div>
+              <div class="flex cover-v">
+                <div class="flex-grow bg-white"></div>
+                <div class="cover-border"></div>
+                <div class="flex-grow bg-white"></div>
+              </div>
+              <div class="flex-grow bg-white"></div>
+            </div>
           </div>
           <div class="name">{{m.name}}</div>
           <MemberAccount :data="m"></MemberAccount>
@@ -190,12 +222,16 @@
         .new
           background-image url('http://47.97.248.244/static/images/new.png')
         .cover
-          background-image url('http://www.snh48.com/images/member/zx5_def_s.png')
-          background-repeat no-repeat
-          background-position center center
-          background-size contain
-          width 100%
           height 100%
+          .cover-v
+            flex-basis 160px
+            .cover-border
+              background-image url('http://www.snh48.com/images/member/zx5_def_s.png')
+              background-repeat no-repeat
+              background-position center center
+              background-size contain
+              flex-basis 160px
+              height 100%
 
 @media screen and (min-width 1366px)
   .slogan

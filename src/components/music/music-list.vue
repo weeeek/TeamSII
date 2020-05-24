@@ -37,6 +37,7 @@ export default {
   },
   created () {
     getMusicData().then((res) => {
+      let promiseArr = []
       res.map(t => {
         var mids = []
         t.group.map(g => {
@@ -46,20 +47,34 @@ export default {
             }
           })
         })
-        getMusicUrl(mids).then((response) => {
+        // 分组取QQ音乐播放地址
+        promiseArr.push(getMusicUrl(mids).then((response) => {
           if (response.data.code === 0) {
             response.data.req_0.data.midurlinfo.map(s => {
               this.urlMap[s.songmid] = `http://isure.stream.qqmusic.qq.com/${s.purl}`
             })
           }
           this.qqMusicList = [...this._normalizaSongs(res)]
+        }))
+      })
+      Promise.all(promiseArr).then(() => {
+        this.favoriteList.map(s => {
+          if (s.lyric && s.lyric[0] === '[') {
+            s.lyricTranslated = true
+          }
+          // favoriteList存的播放地址也许过期了
+          if (this.urlMap[s.mid]) {
+            s.url = this.urlMap[s.mid]
+          }
+          this.insertFavoriteSong(s)
         })
       })
     })
   },
   computed: {
     ...mapGetters([
-      'playlist'
+      'playlist',
+      'favoriteList'
     ])
   },
   methods: {
@@ -92,7 +107,7 @@ export default {
       setCurrentIndex: 'SET_CURRENT_INDEX',
       setPlayingState: 'SET_PLAYING_STATE'
     }),
-    ...mapActions(['insertSong'])
+    ...mapActions(['insertSong', 'insertFavoriteSong'])
   }
 }
 </script>

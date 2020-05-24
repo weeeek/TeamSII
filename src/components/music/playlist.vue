@@ -4,11 +4,10 @@
       <div class="list-wrapper" @click.stop>
         <scroll ref="listContent" :data="sequenceList" class="list-content" :refreshDelay="refreshDelay">
           <transition-group ref="list" name="list" tag="ul">
-            <li :key="item.id" class="item" :class="getCurrentIcon(item)" v-for="(item,index) in sequenceList"
-                @click="selectItem(item,index)">
+            <li :key="item.id" class="item" :class="getCurrentIcon(item)" v-for="(item,index) in sequenceList" @click="selectItem(item,index)">
               <span @click.stop="toggleFavorite(item)" class="like">
-                <jam-heart :fillColor="'#FF0000'" v-show="isFavorite(item)" />
-                <jam-heart-f :fillColor="'#FF0000'" v-show="!isFavorite(item)" />
+                <jam-heart :fillColor="'#FF0000'" v-show="!isFavorite(item)" />
+                <jam-heart-f :fillColor="'#FF0000'" v-show="isFavorite(item)" />
               </span>
               <span class="text" v-html="item.name"></span>
               <span @click.stop="deleteOne(item)" class="delete">

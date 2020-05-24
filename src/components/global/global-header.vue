@@ -32,6 +32,9 @@
     .header-container
       position absolute
       background-color white
+      .header-control
+        h1
+          font-weight bolder
     .logo
       position absolute
       background-image url('http://47.97.248.244/static/images/flag.jpg')

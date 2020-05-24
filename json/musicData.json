@@ -1908,7 +1908,7 @@
             "name": "16人姐妹歌",
             "interval": 209,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -1938,7 +1938,7 @@
             "url": "http://47.97.248.244/static/music/16人姉妹の歌 (官方伴奏).mp3",
             "interval": 223,
             "play": [],
-            "opern": ""
+            "opern": null
           }
         ]
       }
@@ -1969,7 +1969,7 @@
                 "url": "https://www.bilibili.com/video/BV1mx411Q7wb"
               }
             ],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -1989,7 +1989,7 @@
                 "url": "https://www.bilibili.com/video/BV1ox411U76T"
               }
             ],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2003,7 +2003,7 @@
             "name": "Bee With U",
             "interval": 231,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2017,7 +2017,7 @@
             "name": "Heart Beat",
             "interval": 230,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2031,7 +2031,7 @@
             "name": "Moonlight（月光）",
             "interval": 304,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2045,7 +2045,7 @@
             "name": "I Wanna Play",
             "interval": 214,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2065,7 +2065,7 @@
                 "url": "https://www.bilibili.com/video/BV1uW41157ya"
               }
             ],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2085,7 +2085,7 @@
                 "url": "https://www.bilibili.com/video/BV1aW411h7Ek"
               }
             ],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2099,7 +2099,7 @@
             "name": "Lollipop",
             "interval": 203,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2113,7 +2113,7 @@
             "name": "我只在乎你",
             "interval": 264,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2127,7 +2127,7 @@
             "name": "SWAN（天鹅）",
             "interval": 258,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2141,7 +2141,7 @@
             "name": "SWAN（天鹅）（Korean Ver.）",
             "interval": 220,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2155,7 +2155,7 @@
             "name": "OMG（偶买噶）",
             "interval": 198,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2169,7 +2169,7 @@
             "name": "China Town（唐人街）",
             "interval": 229,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2183,7 +2183,7 @@
             "name": "7 O'Clock",
             "interval": 227,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2197,7 +2197,7 @@
             "name": "Who Is Your Girl（Japanese Ver.）",
             "interval": 230,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2211,7 +2211,7 @@
             "name": "Who Is Your Girl",
             "interval": 230,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2225,7 +2225,7 @@
             "name": "New Plan(Look at Me) (Korean Ver.)",
             "interval": 222,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2245,7 +2245,7 @@
                 "url": "https://www.bilibili.com/video/BV1oJ41147at"
               }
             ],
-            "opern": ""
+            "opern": null
           }
         ]
       },
@@ -2265,7 +2265,7 @@
             "name": "Fox（狐狸）",
             "interval": 208,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2279,7 +2279,7 @@
             "name": "触电",
             "interval": 216,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2293,7 +2293,7 @@
             "name": "我就是我",
             "interval": 207,
             "play": [],
-            "opern": ""
+            "opern": null
           }
         ]
       },
@@ -2313,7 +2313,7 @@
             "name": "MAMI",
             "interval": 210,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2327,7 +2327,7 @@
             "name": "My Key",
             "interval": 219,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2341,7 +2341,7 @@
             "name": "非你不可",
             "interval": 211,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2355,7 +2355,7 @@
             "name": "Be My Love",
             "interval": 192,
             "play": [],
-            "opern": ""
+            "opern": null
           }
         ]
       },
@@ -2451,7 +2451,7 @@
             "name": "青春之翼",
             "interval": 214,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2465,7 +2465,7 @@
             "name": "心愿",
             "interval": 203,
             "play": [],
-            "opern": ""
+            "opern": null
           }
         ]
       },
@@ -2491,7 +2491,7 @@
                 "url": "https://www.bilibili.com/video/av71277316"
               }
             ],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2505,7 +2505,7 @@
             "name": "勇不勇敢",
             "interval": 230,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2519,7 +2519,7 @@
             "name": "有你",
             "interval": 270,
             "play": [],
-            "opern": ""
+            "opern": null
           }
         ]
       },
@@ -2539,7 +2539,7 @@
             "name": "那年夏天的梦",
             "interval": 215,
             "play": [],
-            "opern": ""
+            "opern": null
           }
         ]
       },
@@ -2578,7 +2578,7 @@
                 "url": "https://www.bilibili.com/video/av66038360"
               }
             ],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2592,7 +2592,7 @@
             "name": "9 To 9",
             "interval": 223,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2606,7 +2606,7 @@
             "name": "钢铁之翼",
             "interval": 217,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2620,7 +2620,7 @@
             "name": "SPY",
             "interval": 0,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2634,7 +2634,7 @@
             "name": "巧克力之吻",
             "interval": 281,
             "play": [],
-            "opern": ""
+            "opern": null
           }
         ]
       },
@@ -2654,7 +2654,7 @@
             "name": "此刻到永远",
             "interval": 211,
             "play": [],
-            "opern": ""
+            "opern": null
           }
         ]
       },
@@ -2680,7 +2680,7 @@
                 "url": "https://www.bilibili.com/video/av33676607"
               }
             ],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2694,7 +2694,7 @@
             "name": "天空信",
             "interval": 195,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2708,7 +2708,7 @@
             "name": "Twinkle Twinkle",
             "interval": 212,
             "play": [],
-            "opern": ""
+            "opern": null
           }
         ]
       },
@@ -2842,7 +2842,7 @@
                 "url": "https://www.bilibili.com/video/av16071872"
               }
             ],
-            "opern": ""
+            "opern": null
           }
         ]
       },
@@ -2956,7 +2956,7 @@
                 "url": "https://www.bilibili.com/video/av6668234"
               }
             ],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2970,7 +2970,7 @@
             "name": "浪漫关系",
             "interval": 220,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2984,7 +2984,7 @@
             "name": "哎哟爱哟",
             "interval": 220,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -2998,7 +2998,7 @@
             "name": "48个秘密",
             "interval": 203,
             "play": [],
-            "opern": ""
+            "opern": null
           }
         ]
       },
@@ -3057,7 +3057,7 @@
             "mid": "003WFBrH2stng0",
             "interval": 311,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -3071,7 +3071,7 @@
             "mid": "003xO7pL217MxZ",
             "interval": 269,
             "play": [],
-            "opern": ""
+            "opern": null
           }
         ]
       },
@@ -3966,7 +3966,7 @@
             "name": "纯情主义",
             "interval": 136,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -3985,7 +3985,7 @@
             "name": "黑天使",
             "interval": 172,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -4002,7 +4002,7 @@
             "name": "夕阳下的约定",
             "interval": 193,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -4026,7 +4026,7 @@
                 "url": "https://www.bilibili.com/video/av73571967"
               }
             ],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -4045,7 +4045,7 @@
             "name": "心型病毒",
             "interval": 157,
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "image": {
@@ -4087,7 +4087,11 @@
             "name": "建队5周年应援曲-蔚蓝回响",
             "interval": 1082,
             "url": "http://47.97.248.244/static/music/SIIMedley.mp3",
-            "play": [],
+            "play": [{
+              "player": "",
+              "type": "MV",
+              "url": "https://www.bilibili.com/video/av35704665"
+            }],
             "opern": "https://weeeek.github.io/SNH48/SNH48TeamSII5周年应援曲谱.html"
           }
         ]
@@ -4102,7 +4106,7 @@
             "interval": 217,
             "url": "http://47.97.248.244/static/music/永恒之光-钢琴.mp3",
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "id": 20191129,
@@ -4111,7 +4115,7 @@
             "interval": 260,
             "url": "http://47.97.248.244/static/music/预言.ogg",
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "id": 20191201,
@@ -4120,7 +4124,7 @@
             "interval": 217,
             "url": "http://47.97.248.244/static/music/初日.ogg",
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "id": 20191202,
@@ -4129,7 +4133,7 @@
             "interval": 291,
             "url": "http://47.97.248.244/static/music/夕阳下的约定-吉他.ogg",
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "id": 20191203,
@@ -4138,7 +4142,7 @@
             "interval": 354,
             "url": "http://47.97.248.244/static/music/solong.ogg",
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "id": 20191204,
@@ -4147,7 +4151,7 @@
             "interval": 326,
             "url": "http://47.97.248.244/static/music/樱花树-吉他.ogg",
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "id": 20191205,
@@ -4156,7 +4160,7 @@
             "interval": 219,
             "url": "http://47.97.248.244/static/music/生命之风.ogg",
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "id": 20191206,
@@ -4174,7 +4178,7 @@
             "interval": 262,
             "url": "http://47.97.248.244/static/music/马尾与发圈.ogg",
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "id": 20191208,
@@ -4183,7 +4187,7 @@
             "interval": 177,
             "url": "http://47.97.248.244/static/music/告白趁现在.ogg",
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "id": 20191209,
@@ -4192,7 +4196,7 @@
             "interval": 194,
             "url": "http://47.97.248.244/static/music/青春的约定.ogg",
             "play": [],
-            "opern": ""
+            "opern": null
           },
           {
             "id": 20191210,
@@ -4201,7 +4205,7 @@
             "interval": 234,
             "url": "http://47.97.248.244/static/music/樱花书签-小提琴.ogg",
             "play": [],
-            "opern": ""
+            "opern": null
           }
         ]
       }

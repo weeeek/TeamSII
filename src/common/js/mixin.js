@@ -65,7 +65,7 @@ export const playerMixin = {
     },
     resetCurrentIndex (list) {
       let index = list.findIndex((item) => {
-        return item.id === this.currentSong.id || item.songid === this.currentSong.songid
+        return item.id === this.currentSong.id && item.mid === this.currentSong.mid
       })
       this.setCurrentIndex(index)
     },
@@ -84,7 +84,7 @@ export const playerMixin = {
     },
     isFavorite (song) {
       const index = this.favoriteList.findIndex((item) => {
-        return item.id === song.id || item.songid === song.songid
+        return item.id === song.id && item.mid === song.mid
       })
       return index > -1
     },

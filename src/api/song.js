@@ -1,14 +1,12 @@
 import {
-  options
+  options,
+  webProxyServer
 } from 'config/common'
 import axios from 'axios'
 import jsonp from 'common/js/jsonp'
 
-const debug = process.env.NODE_ENV !== 'production'
-
 export function getLyric (id, mid, fn) {
-  const url = debug ? 'http://localhost/HttpProxy/api/QQlyric' : 'http://47.97.248.244/WebProxy/api/QQlyric'
-
+  const url = webProxyServer + 'api/QQlyric'
   const data = {
     id: id,
     mid: mid

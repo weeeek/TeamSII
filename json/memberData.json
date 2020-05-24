@@ -518,6 +518,10 @@
       "master": "许佳琪"
     },
     {
+      "name": "浪浪",
+      "master": "许佳琪"
+    },
+    {
       "name": "安娜",
       "master": "戴萌",
       "photo": "https://wx3.sinaimg.cn/bmiddle/6ea3618ely1g51qmk88loj20qy133jtr.jpg"
@@ -588,7 +592,7 @@
     }
   ],
   "exitMemberData": [
-   {
+    {
       "name": "袁丹妮",
       "photo": "http://www.snh48.com/images/member/zp_10073.jpg",
       "weibo": "u/5225886388",
@@ -857,8 +861,8 @@
     },
     {
       "name": "徐佳丽",
-      "photo": "https://ww2.sinaimg.cn/mw1024/006ddOSEjw1f73zcke9u5j30qo0zk7wh.jpg",
-      "weibo": "",
+      "photo": "https://wx4.sinaimg.cn/mw690/006ESTtily8g6xnntojs4j30ro0ron06.jpg",
+      "weibo": "u/6100933380",
       "bilibili": null,
       "douyin": null,
       "changba": null,
@@ -904,6 +908,36 @@
       "name": "曾琳瑜",
       "photo": "https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=2bea0adad258ccbf1bbcb23c21e3db03/908fa0ec08fa513dbea3cfb63e6d55fbb2fbd949.jpg",
       "weibo": "",
+      "bilibili": null,
+      "douyin": null,
+      "changba": null,
+      "miaopai": null,
+      "pocket48": null,
+      "group": null,
+      "modian": {
+        "enabled": false,
+        "id": ""
+      }
+    },
+    {
+      "name": "宫泽佐江",
+      "photo": "https://bkimg.cdn.bcebos.com/pic/ca1349540923dd54f2826759d809b3de9c82480a?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UxMTY=,xp_5,yp_5",
+      "weibo": "miyasae",
+      "bilibili": null,
+      "douyin": null,
+      "changba": null,
+      "miaopai": null,
+      "pocket48": null,
+      "group": null,
+      "modian": {
+        "enabled": false,
+        "id": ""
+      }
+    },
+    {
+      "name": "铃木玛莉亚",
+      "photo": "https://bkimg.cdn.bcebos.com/pic/e1fe9925bc315c60d55cea4a8bb1cb134854774e?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2U4MA==,xp_5,yp_5",
+      "weibo": "u/3145968457",
       "bilibili": null,
       "douyin": null,
       "changba": null,

@@ -32,7 +32,6 @@ const devWebpackConfig = merge(baseWebpackConfig, {
             host: 'www.orimuse.com'
           }
         }).then((response) => {
-          debugger
           let ret = response.data
           if (typeof ret === 'string') {
             const reg = /^\w+\(({.+})\)$/
