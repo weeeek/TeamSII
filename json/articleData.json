@@ -36,6 +36,15 @@
     ]
   },
   {
+    "member":true,
+    "finish":true,
+    "name": "火鸟",
+    "author":{
+      "name": "前SNH48-董芷依",
+      "link": "https://www.zhihu.com/question/52887964/answer/168996096"
+    }
+  },
+  {
     "member": true,
     "finish": false,
     "name": "重生计划·时之卷",

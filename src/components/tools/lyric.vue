@@ -63,11 +63,11 @@ import { quillEditor } from 'vue-quill-editor'
 export default {
   data () {
     return {
-      query: 'http://47.97.248.244/static/music/%E7%BA%A2%E7%8E%AB%E7%91%B0-%E8%92%8B%E8%8A%B8.mp3',
+      query: '',
       lyric: null,
-      code: '',
+      code: 'WzAwOjAwLjAwXQo=',
       id: '',
-      mid: '101829430',
+      mid: '',
       lineIndex: 5,
       content: null,
       editorOption: {
@@ -118,8 +118,8 @@ export default {
       this.code = Base64.encode(this.quill.getText())
     },
     decode () {
-      // this.quill.setText(Base64.decode(this.code))
-      this.quill.setText(this.code)
+      this.quill.setText(Base64.decode(this.code))
+      // this.quill.setText(this.code)
     },
     onEditorBlur () {
       // 失去焦点事件
