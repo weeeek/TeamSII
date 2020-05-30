@@ -1009,6 +1009,57 @@
     ]
   },
   {
+    "typeName": "综艺",
+    "group": [
+      {
+        "title": "炙热的我们",
+        "songs": [
+          {
+            "image": {
+              "url": "//i2.hdslb.com/bfs/archive/be755876cc993864f137cda2e8a736c38aa222b4.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "id": 267507646,
+            "mid": "003t7yf61Osq6w",
+            "name": "你要跳舞吗",
+            "interval": 265,
+            "play": [],
+            "opern": null
+          }
+        ]
+      },
+      {
+        "title": "青春有你2",
+        "songs": [
+          {
+            "image": {
+              "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000003uuI8M3vVTwP_1.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "莫寒",
+              "孙芮",
+              "段艺璇",
+              "苏杉杉",
+              "宋昕冉",
+              "费沁源"
+            ],
+            "id": 256039661,
+            "mid": "004XI5Zd1mSHuq",
+            "name": "画",
+            "interval": 167,
+            "play": [],
+            "opern": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "typeName": "单曲",
     "group": [
       {
@@ -2095,7 +2146,81 @@
       },
       {
         "title": "十八个闪耀瞬间",
-        "songs": []
+        "songs": [
+          {
+            "image": {
+              "url": "//i2.hdslb.com/bfs/archive/6a60453e8122d6673d8897f58239070450fd2f4c.jpg@320w_200h.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "吴哲晗",
+              "戴萌",
+              "莫寒",
+              "许佳琪"
+            ],
+            "lyric": "WzAwOjAwLjAwXVNOSDQ4IFRlYW0gU0lJIDIwMTYwNTE0ClswMDowMi4wMF3jgIrljYHlhavkuKrpl6rogIDnnqzpl7TjgIvljYPnp4vkuZAKWzAwOjA0LjAwXeWknOidti3miLTojqvkuIPkupQKWzAwOjA2LjAwXeaItO+8muaItOiQjApbMDA6MDcuMDBd6I6r77ya6I6r5a+SClswMDowOC4wMF3kuIPvvJrorrjkvbPnkKoKWzAwOjA5LjAwXeS6lO+8muWQtOWTsuaZlwpbMDA6MTAuMDBd6buE6YeRNFAKWzAwOjE1LjYyXeS6lO+8muaChOaChOeahCDku4rmmZrnm7jpgYfov5nph4wKWzAwOjE5LjM3XeS6lO+8muS4jeimgeWQkeS7u+S9leS6uuaPkOi1twpbMDA6MjIuMjBd5LqU77ya6KaB5L+d5a+GClswMDoyMy4xOV3miLTvvJrmgoTmgoTnmoQg5p2l5Yiw6ZqQ56eY5LmL5ZywClswMDoyNi45Ml3miLTvvJrmjqXkuIvmnaUg5YGa5LuA5LmI5LqL5oOFClswMDozMS4wMF3miLTvvJpBaApbMDA6MzIuMjVd5LqU77ya5pyI5YWJ5Zyo6L6J5pigClswMDozMy40Nl3miLTvvJrov5noiKzlppblqIYKWzAwOjM0LjY2XeS6lO+8mkFoClswMDozNS45OF3kupTvvJrkupHpm77lj5jlvpfmtZPlr4YKWzAwOjM3LjA5XeaItO+8mumCgOivt+S6huS9oApbMDA6MzguMzld5LqU77ya5p2l5Yiw5LqG6L+Z6YeMClswMDo0MC4xMV3miLTvvJrkvaDmnInku4DkuYjnm67nmoQKWzAwOjQyLjE2XeS6lHjmiLTvvJrlnKjov5nov7fkurrlsJHlpbPoirHlm63ph4wKWzAwOjQ2LjkzXeS6lHjmiLTvvJrpu5HmmpfnmoTlpJwg5Y6f5p2l6JW06JeP6L+Z6Iis55Sc6JycClswMDo1MS41MF3kupTvvJrkuI3nn6UKWzAwOjUyLjAwXeaItO+8muS4jeiniQpbMDA6NTIuNTBd5LqUeOaItO+8mui/meWNsemZqeWNtOW3suaIkOemgeW/jApbMDA6NTUuNDhd5oi077ya5LiA5q2l5LiA5q2lClswMDo1Ni40M13kupTvvJrlv4Pot7PkuI3mga8KWzAwOjU3LjM4XeaItO+8muaYr+WQpuaEv+aEjwpbMDA6NTguMzFd5LqU77ya5b2T54S25oS/5oSPClswMDo1OS4yNV3kupR45oi077ya5YWF5ruh5Y2x6Zmp55qE5ri45oiPClswMTowMi45N13kupR45oi077ya5peg5oSP6Ze05Lik5Y+M5a+56LSo55qE55y8552bClswMTowNi40OF3kupTvvJrkuLrkvZUKWzAxOjA3LjEwXeaItO+8muS4uuS9lQpbMDE6MDcuNTRd5LqUeOaItO+8muayiem7mOiuqeW9vOatpOabtOWdmuWumgpbMDE6MTAuNTJd5LqU77ya5Ly45Ye655qE5omLClswMToxMS41Ml3miLTvvJrlkJHkvaDpnaDov5EKWzAxOjEyLjUwXeS6lO+8muS6pOmUmeeahOaDhQpbMDE6MTMuNDRd5oi077ya5L2g5oiR55qE5b+DClswMToxNC4zOF3kupR45oi077ya6ZuM6ZuE55u46L6J5pigIOWknOepuuS4reidtuW9sQpbMDE6MzEuMzJd6I6r77ya56eY5a+G55qEIOWPmOW+l+S4jeWDj+aIkeiHquW3sQpbMDE6MzQuOTBd6I6r77ya5aaI5aaI5aaC5p6c55+l6YGT5LiA5a6aIOW+iOeUn+awlApbMDE6MzguOTBd5LiD77ya56eY5a+G55qEIOWwsei/meagt+S4jeaQreeQhgpbMDE6NDIuNDZd5LiD77ya5bCx5Y+v5LulIOe6teaDheebtOWIsOWkqeaYjgpbMDE6NDYuNDdd6I6r77yaQWgg6L+Z5Lqb5LiN5pu+6YGH6KeBClswMTo0OC44OF3kuIPvvJrmnKrpl7voirHlkI0KWzAxOjUwLjYxXeiOq++8mkFoIOWPiOmFuOeUnOWPiOa1k+mDgQpbMDE6NTIuNzRd5LiD77ya6aaZ5Zub5rqiClswMTo1NC4wM13ojqvvvJrliKvorqnmiJHlv4PmgKUKWzAxOjU1LjczXeS4g++8muaIkeS8muW4pumihuedgOS9oApbMDE6NTcuNzJd5LiDeOiOq++8muadpeWIsOi/t+S6uuWwkeWls+iKseWbremHjApbMDI6MDIuNDld5LiDeOiOq++8mueIseaDheaAu+aYr+iuqeS6uuaEj+S5seaNieaRuOS4jeWumgpbMDI6MDcuMDRd6I6r77ya5LiN55+lClswMjowNy41M13kuIPvvJrkuI3op4kKWzAyOjA4LjEyXeS4g3jojqvvvJrov5nlj4zllIfpgJDmuJDnmoTpnaDov5EKWzAyOjExLjAyXeiOq++8mui/meS4jeWPr+S7pQpbMDI6MTIuMDFd5LiD77ya5pyJ5L2V5YWz57O7ClswMjoxMi45N13ojqvvvJrkuI3opoHooYzov5sKWzAyOjEzLjg5XeS4g++8muWPr+eIseeahOS9oApbMDI6MTQuOTBd5LiDeOiOq++8mui3qOi/h+S4tOeVjOe6v+eahOi3neemuwpbMDI6MTguNThd5LiDeOiOq++8mueIseaDheaAu+aYryDmt7Hpmbfov5nov7fmg4UKWzAyOjIyLjA0XeS4g++8muWujOWFqApbMDI6MjIuNTZd6I6r77ya5bey57uPClswMjoyMi45OF3kuIN46I6r77ya5peg5rOV5YaN5Y6L5oqR55qE5ZG85ZC4ClswMjoyNi4wOV3kuIPvvJrngbzng63nmoTmg4UKWzAyOjI3LjEzXeiOq++8muacrOiDveWPjeW6lApbMDI6MjguMDld5LiD77ya5oGQ5oOn55qE5b+DClswMjoyOS4wMl3ojqvvvJrph4rmlL7lj4znv7wKWzAyOjI5Ljk3XeS4g3jojqvvvJrpm4zpm4Tnm7jovonmmKAg5aSc56m65Lit6J225b2xClswMjozOC4wMF3kuIPvvJrotbDvvIzlp5Dlp5DluKbkvaDljrvpgJvoirHlm60KWzAyOjQwLjUwXeiOq++8muWlveWVigpbMDI6NDMuMzBd5LqU77ya5oi06JCM77yM5L2g55yL77yM6L+Z5piv5oiR5Li65L2g5om/5YyF55qE6aOf5aCCClswMjo0Ny4wMF3miLTvvJrlk4fvvIzov5nkuKrpo5/loILlpb3mo5LllpTvvIzlk7Llk6Xlk6UKWzAyOjUwLjIwXeaItO+8muivtu+8geaAjuS5iOiOq+WvkuWcqOS9oOeahOmjn+WggumHjApbMDI6NTMuMjZd5LiD77ya5ZOI5ZOI5ZOI77yM5oi06JCM77yM5L2g55yL77yM5L2g5LiN5pWi5YGa55qE5oiR6YO95pWi5ZaUClswMjo1Ny4xMl3kupTvvJrlpKflprnlrZDvvIEKWzAyOjU5LjQxXeaItO+8muiOq+Wvkn5+ClswMzowMC4xOF3kupTvvJrkvaDku6XkuLrkvaDlsLHmmK/ph47orrjkuoblkJfvvIzov4fmnaXvvIEKWzAzOjAxLjIzXeaItO+8muiOq+Wvkn5+ClswMzowMy4wOF3kuIN45LqU77ya6buR5pqX55qE5aScIOWOn+adpeiVtOiXj+i/meiIrOeUnOicnApbMDM6MDcuNTld5oi077ya5LiN55+lClswMzowNy45OF3ojqvvvJrkuI3op4kKWzAzOjA4LjQwXeaItHjojqvvvJrov5nljbHpmanljbTlt7LmiJDnpoHlv4wKWzAzOjExLjUxXeaItO+8muS4gOatpeS4gOatpQpbMDM6MTIuNDZd5LiD77ya5b+D6Lez5LiN5oGvClswMzoxMy40Nl3kupTvvJrmmK/lkKbmhL/mhI8KWzAzOjE0LjM3XeiOq++8muW9k+eEtuaEv+aEjwpbMDM6MTUuMzJd5oi0eOiOq3zkuIN45LqU77ya5YWF5ruh5Y2x6Zmp55qE5ri45oiPClswMzoxOS4wMl3miLR46I6rfOS4g3jkupTvvJrml6DmhI/pl7TkuKTlj4zlr7notKjnmoTnnLznnZsKWzAzOjIyLjY5XeaItHjkupTvvJrkuLrkvZUKWzAzOjIzLjExXeiOq3jkuIPvvJrkuLrkvZUKWzAzOjIzLjUyXeaItHjojqt85LiDeOS6lO+8muayiem7mOiuqeW9vOatpOabtOWdmuWumgpbMDM6MjYuNTld5oi0eOS6lO+8muS8uOWHuueahOaJiwpbMDM6MjcuNjJd6I6reOS4g++8muWQkeS9oOmdoOi/kQpbMDM6MjguNTdd5oi0eOS6lO+8muS6pOmUmeeahOaDhQpbMDM6MjkuNTFd6I6reOS4g++8muS9oOaIkeeahOW/gwpbMDM6MzAuNDdd5oi0eOiOq3zkuIN45LqU77ya6ZuM6ZuE55u46L6J5pigIOWknOepuuS4reidtuW9sQpbMDM6NTIuNThd5oi077ya5ZOy5ZOl5ZOl77yM5ZOy5ZOl5ZOl77yM5oiR5Lus5LiL5qyh5YaN57qm5ZCnClswMzo1Ni41N13ojqt45LiD77ya5rua77yBCg==",
+            "url": "http://47.97.248.244/static/music/十八闪千秋乐-夜蝶.MP3",
+            "id": 2016051407,
+            "mid": null,
+            "name": "夜蝶",
+            "interval": 246,
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/BV1is411B7gX"
+              }
+            ],
+            "opern": null
+          },
+          {
+            "singer": [
+              "李宇琪",
+              "陈思",
+              "陈观慧"
+            ],
+            "lyric": "WzAwOjAwLjAwXeWGjeingeWItuacjQpbMDA6MDYuMjdd6K+N77ya5LiK5rW35pif5Zub6IqtClswMDoxMi41NV3mm7LvvJrkvIrol6Tlv4PlpKrpg44KWzAwOjE4LjgzXee8luabsu+8mueZvuefs+WFgwpbMDA6MjMuMjJd5oiR55qE6IqC5aWP5L2g5Lus6YO95LiN5oeCClswMDoyNS44MF3nqb/lpb3oh6rlt7HnmoTliLbmnI0KWzAwOjI4LjY3Xea2guaKueWUh+iGj+WGjei0tOS4iuedq+avmwpbMDA6MzEuNDld5Yir5aSq5Yi75oSP55qE6KOF6YW3ClswMDozNC40MF3pk4Plo7DlsLHopoHnlKjov5nkuKrmm7LosIMKWzAwOjM3LjE3XeWPquepv+S4quaAp+eahOWItuacjQpbMDA6MzkuOThd5bCx566X5YmN5pa55oWi5oWi5Y+Y5qih57OKClswMDo0Mi44MF3miJHkuZ/kuI3otbDlr7vluLjot68KWzAwOjQ1LjYzXeaIkeS4jeWFs+W/g+eahOS6i+aDheS7juadpemDveS4jeWcqOS5jgpbMDA6NTEuMzNd5LiN5oOz5YaN6L+Z5qC35q+P5aSp6YO96KKr6KeE5YiZ5p2f57yaClswMDo1Ni40NF3mkZjmjonplZzmoYYg6ISx5o6J5Yi25pyNClswMDo1OS4zNF3otbDmiJHnmoTot68KWzAxOjAxLjE2Xei/iOW8gOiEmuatpQpbMDE6MDIuNTZd5LiN566h5oCO5qC35oiR5Lmf5Lya5om+5Yiw5pa55ZCRClswMTowNi43NF3kuIDkuKrkurrlraTni6znmoTlkozkvaDku6zlgZrnnYDmirXmipcKWzAxOjEyLjM3Xei/iOW8gOiEmuatpQpbMDE6MTMuODld5oiR55qE5oOz5rOV5Lmf6IO95ZKM5aSn5Lq65LiA5qC3ClswMToxOC4xMV3kvaDku6znnLzkuK3nmoTlpb3lranlrZDmiJHmsqHlhbTotqPlvZMKWzAxOjIzLjY0XeaIkeeUqOaKteinpueahOebruWFiQpbMDE6MjYuNTNd57un57ut5oiR55qE5YCU5by6ClswMTo0Ni4zOV3kvaDnmoTop4TliJnmiJHkuZ/kuI3lnKjkuY4KWzAxOjQ5LjAzXeaLv+WHuuiHquW3seeahOaAgeW6pgpbMDE6NTIuMThd5ZCR5bem5ZCR5Y+z5q+U6LCB6YO95riF5qWaClswMTo1NC44MF3miJHnmoTkurrnlJ/miJHlgZrkuLsKWzAxOjU3LjY1XeS4jeaDs+WGjeWQrOS9oOS7rOeahOivtOaVmQpbMDI6MDAuMzhd55Sp5o6J5rKJ6YeN55qE5YyF6KKxClswMjowMy4yNV3lsLHnrpfliY3mlrnku43mmK/kuKrplJnor68KWzAyOjA2LjAzXei3jOWAkuS6huS5n+S4jeiupOi+kwpbMDI6MDguOTFd5oiR5LiN5YWz5b+D55qE5LqL5oOF5LuO5p2l6YO95LiN5Zyo5LmOClswMjoxNC42MV3kuI3mg7Plho3ov5nmoLfmr4/lpKnpg73ooqvop4TliJnmnZ/nvJoKWzAyOjE5LjgxXeaRmOaOiemVnOahhiDohLHmjonliLbmnI0KWzAyOjIyLjc0Xei1sOaIkeeahOi3rwpbMDI6MjQuNTJd6L+I5byA6ISa5q2lClswMjoyNS44OF3kuI3nrqHmgI7moLfmiJHkuZ/kvJrmib7liLDmlrnlkJEKWzAyOjMwLjA4XeS4gOS4quS6uuWtpOeLrOeahOWSjOS9oOS7rOWBmuedgOaKteaKlwpbMDI6MzUuNzld6L+I5byA6ISa5q2lClswMjozNy4xNl3miJHnmoTmg7Pms5XkuZ/og73lkozlpKfkurrkuIDmoLcKWzAyOjQxLjM3XeS9oOS7rOecvOS4reeahOWlveWtqeWtkOaIkeayoeWFtOi2o+W9kwpbMDI6NDcuMDVd5oiR55So5oq16Kem55qE55uu5YWJClswMjo0OS43NV3nu6fnu63miJHnmoTlgJTlvLoKWzAzOjE4LjA5XeaIkeS4jeWFs+W/g+eahOS6i+aDheS7juadpemDveS4jeWcqOS5jgpbMDM6MjMuODBd5LiN5oOz5YaN6L+Z5qC35q+P5aSp6YO96KKr6KeE5YiZ5p2f57yaClswMzoyOS4xNF3mkZjmjonplZzmoYYg6ISx5o6J5Yi25pyNClswMzozMS43N13otbDmiJHnmoTot68KWzAzOjM2LjY2Xei/iOW8gOiEmuatpQpbMDM6MzcuOTBd5LiN566h5oCO5qC35oiR5Lmf5Lya5om+5Yiw5pa55ZCRClswMzo0Mi4xMl3kuIDkuKrkurrlraTni6znmoTlkozkvaDku6zlgZrnnYDmirXmipcKWzAzOjQ3LjgwXei/iOW8gOiEmuatpQpbMDM6NDkuMjRd5oiR55qE5oOz5rOV5Lmf6IO95ZKM5aSn5Lq65LiA5qC3ClswMzo1My4zNl3kvaDku6znnLzkuK3nmoTlpb3lranlrZDmiJHmsqHlhbTotqPlvZMKWzAzOjU5LjA1XeaIkeeUqOaKteinpueahOebruWFiQpbMDQ6MDEuODld57un57ut5oiR55qE5YCU5by6Cg==",
+            "url": "http://47.97.248.244/static/music/十八闪千秋乐-再见制服.MP3",
+            "id": 2016051410,
+            "mid": "003z0LYr0ix8oC",
+            "name": "再见制服",
+            "interval": 265,
+            "play": [],
+            "opern": null
+          },
+          {
+            "singer": [
+              "徐晨辰",
+              "沈之琳"
+            ],
+            "lyric": "WzAwOjAwLjAwXeaipuS5i+ayswpbMDA6MDYuMTVd6K+N77ya56eL5YWD5bq3L+S4iua1t+aYn+Wbm+iKrQpbMDA6MTIuMzFd5puy77ya5p2J5bGx6IOc5b2mClswMDoxNi4wMF3moqblooPkuK0g5Y+I5p2l5Yiw5LqG6L+Z6YeMClswMDoyMi4wN13ov5nkuIDliIcg5L+d5oyB552A5Y6f5p2l5pyA5Yid55qE55eV6L+5ClswMDoyOC4yN13op5LokL3nmoQg5bCY5Z+D562J5b6F6buO5piOClswMDozNC4yMF3ogIzpo47pk4Mg6YO96L+Y5piv54af5oKJ55qE5aOw6Z+zClswMDo0MC4wOV3ooYzmnY7nrrEg6KOF6L+b5aSa5bCR5Zue5b+GClswMDo0My4zNl3kuIDku7bku7Yg5oCO5LmI6YO95pWw5LiN5riFClswMDo0Ni40M13ov5nkuIDliLsg6L+Z5LiA5Yi7ClswMDo0OS4zOF3ml7bpl7TmgoTnhLbnmoTnprvljrsKWzAwOjU0Ljg3XeaIkeS7rOadpeS4jeWPiuePjeaDnApbMDA6NTcuOThd5bCx5YOP5qKm5Lit55qE5rKzClswMTowMC45NF3pgqPmoLfmmI7kuq7ogIzmuIXmvogKWzAxOjA0LjMyXeWcqOaLguaZk+S5i+WJjeetieW+heedgOmYs+WFieeahOeFp+WwhApbMDE6MTAuMjVd5bim552A5pyq5a6M55qE5qKmClswMToxMi45NV3pgqPlsI/oiLnmib/ovb3nnYDmiJEKWzAxOjE2LjAwXeWLh+aVoueahCDllLHnnYDmnKrmnaXnmoTmrYwKWzAxOjI2LjEyXeiupOecn+WQrCDpo47lkLnov4fnmoTlo7Dpn7MKWzAxOjMxLjk3XeWbnuaUvuedgCDkuIDlvKDlvKDlvojnqJrlq6nnmoTooajmg4UKWzAxOjM4LjE5XeaXoOiuuuWcqCDku4DkuYjmoLfnmoTpo47mma8KWzAxOjQ0LjE5Xei/mOacieiwgSDlnKjov5nph4zlrojmiqTms6jop4bnnYDkvaAKWzAxOjUwLjMxXeiuqeWLh+aVoiDkuI3mmK/or7Tor7TogIzlt7IKWzAxOjUzLjI2XeaKm+W8gOS6hiDmiYDmnInkuI3lronmg4Xnu6oKWzAxOjU2LjIzXei/meS4gOWIuyDov5nkuIDliLsKWzAxOjU5LjM0XeaXtumXtOaChOeEtueahOemu+WOuwpbMDI6MDQuOTVd6ICM5oiR5Y205b+F6aG75Z2a5a6aClswMjowOS43OF3lsLHlg4/moqbkuK3nmoTmsrMg6YKj5qC35piO5Lqu6ICM5riF5r6IClswMjoxNS43MF3lnKjmi4LmmZPkuYvliY3nrYnlvoXnnYDpmLPlhYnnmoTnhaflsIQKWzAyOjIxLjcwXeW4puedgOacquWujOeahOaipiDpgqPlsI/oiLnmib/ovb3nnYDmiJEKWzAyOjI3LjQwXeWLh+aVoueahCDllLHnnYDmnKrmnaXnmoTmrYwKWzAyOjM0LjIzXeS7iuWkqeS4juS9oOmBk+WIqyDkvZXml7bmiY3nm7jop4EKWzAyOjQwLjU0XeS9leaXtuaJjeiDveiuqeW+gOS6i+WPiOWGjemHjea8lApbMDI6NDYuMjld6YKj5a+C5a+e55qE55y85rOqIOWcqOaIkeaKueWOu+Wug+S5i+WJjQpbMDI6NTEuODRd55uu6YCBIOS4gOebtOWIsOS9oOi1sOi/nApbMDM6MDcuMzBd5bCx5YOP5qKm5Lit55qE5rKzIOmCo+agt+aYjuS6ruiAjOa4hea+iApbMDM6MTMuNDNd5Zyo5ouC5pmT5LmL5YmN562J5b6F552A6Ziz5YWJ55qE54Wn5bCEClswMzoxOS40OF3luKbnnYDmnKrlroznmoTmoqYg6YKj5bCP6Ii55om/6L29552A5oiRClswMzoyNS4yOF3li4fmlaLnmoQg6L+I5Ye66ISa5q2lClswMzoyOC41Ml3lsLHlg4/moqbkuK3nmoTmsrMg6YKj5qC35piO5Lqu6ICM5riF5r6IClswMzozNC42OF3lnKjmi4LmmZPkuYvliY3nrYnlvoXnnYDpmLPlhYnnmoTnhaflsIQKWzAzOjQwLjc1XemCo+S6m+acquWujOeahOaipiDlsLHlg4/mnKrmnaXnmoTmib/or7oKWzAzOjQ2LjQ2XeiuqeaXtumXtCDor4HmmI7kvaDnmoTpgInmi6kKWzAzOjUyLjYyXeWGjeebuOingSDmiJHku6znmoTmoqbmg7Mg5LiA5a6a5Lya5a6e546wCg==",
+            "url": "http://47.97.248.244/static/music/十八闪千秋乐-梦之河.MP3",
+            "id": 2016051411,
+            "mid": "004Wh0i20hBzNp",
+            "name": "梦之河",
+            "interval": 271,
+            "play": [],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "lyric": "",
+            "url": "",
+            "id": 2016051411,
+            "mid": "",
+            "name": "",
+            "interval": 271,
+            "play": [],
+            "opern": null
+          }
+        ]
       },
       {
         "title": "让梦想闪耀",
@@ -2111,6 +2236,20 @@
             "mid": "002AjuQF3ixG8b",
             "name": "让梦想闪耀",
             "interval": 295,
+            "play": [],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "id": 124686725,
+            "mid": "004MI4LD3X7GYS",
+            "name": "毒蜘蛛",
+            "interval": 256,
             "play": [],
             "opern": null
           }
@@ -2131,6 +2270,20 @@
             "mid": "001T7jd331k8Ht",
             "name": "《勇气重生》公演前4首",
             "interval": 2747,
+            "play": [],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "id": 124686725,
+            "mid": "004MI4LD3X7GYS",
+            "name": "毒蜘蛛",
+            "interval": 256,
             "play": [],
             "opern": null
           }
@@ -3496,7 +3649,12 @@
             "opern": "http://www.tan8.com/yuepu-55366.html"
           },
           {
-            "image": null,
+            "image": {
+              "url": "//i1.hdslb.com/bfs/archive/f2b203b98dc3c5b817ca4bb2f34c4a118943e426.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
             "id": 101822798,
             "mid": "004Wh0i20hBzNp",
             "name": "梦之河",
@@ -3530,7 +3688,12 @@
             "opern": null
           },
           {
-            "image": null,
+            "image": {
+              "url": "//i0.hdslb.com/bfs/archive/8fe460586accca2004ca84311f27fc609130ee54.jpg@320w_200h.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
             "id": 8145226,
             "mid": "000OSXRD1kUyOu",
             "name": "悬铃木",
@@ -3539,7 +3702,12 @@
             "opern": null
           },
           {
-            "image": null,
+            "image": {
+              "url": "//i1.hdslb.com/bfs/archive/5b1bfd4970513b12950ca249492a1fc5df1a7aca.jpg@320w_200h.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
             "id": 8145229,
             "mid": "003Dnw7h339tT2",
             "name": "夕阳下的约定",

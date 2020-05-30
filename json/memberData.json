@@ -431,6 +431,7 @@
         "roomId": 67217577
       },
       "group": "sense",
+      "association": "nine",
       "modian": {
         "enabled": true,
         "id": "1067442"
@@ -731,7 +732,7 @@
     {
       "name": "沈之琳",
       "photo": "http://www.snh48.com/images/member/zp_10011.jpg",
-      "weibo": "linaixin2007",
+      "weibo": "3668820134",
       "bilibili": "",
       "douyin": null,
       "changba": null,

@@ -11,6 +11,16 @@
       </router-link>
     </keep-alive>
     <keep-alive>
+      <router-link tag="div" class="tab-item" to="/trip">
+        <span class="tab-link">行程</span>
+      </router-link>
+    </keep-alive>
+    <keep-alive>
+      <router-link tag="div" class="tab-item" to="/music">
+        <span class="tab-link">歌曲</span>
+      </router-link>
+    </keep-alive>
+    <keep-alive>
       <router-link tag="div" class="tab-item" to="/article">
         <span class="tab-link">文章</span>
       </router-link>
@@ -23,16 +33,6 @@
     <keep-alive>
       <router-link tag="div" class="tab-item" to="/emoji">
         <span class="tab-link">表情包</span>
-      </router-link>
-    </keep-alive>
-    <keep-alive>
-      <router-link tag="div" class="tab-item" to="/music">
-        <span class="tab-link">歌曲</span>
-      </router-link>
-    </keep-alive>
-    <keep-alive>
-      <router-link tag="div" class="tab-item" to="/trip">
-        <span class="tab-link">行程</span>
       </router-link>
     </keep-alive>
     <!-- <keep-alive>

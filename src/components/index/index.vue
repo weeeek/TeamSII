@@ -10,6 +10,7 @@
         <div class="member" v-for="m in memberDataList" :key="m.name">
           <div class="photo" v-lazy:background-image="m.photo">
             <a v-if="m.group" class="group name" :class="m.group" target="_blank" :href="getGroupWeibo(m.group)"></a>
+            <a v-if="m.association" class="association name" :class="m.association" target="_blank" :href="getGroupWeibo(m.association)"></a>
             <div class="flex flex-column cover">
               <div class="flex-grow bg-white"></div>
               <div class="flex cover-v">
@@ -161,6 +162,8 @@
             return '//weibo.com/u/6386595576'
           case 'demoon':
             return '//weibo.com/u/7188391261'
+          case 'nine':
+            return '//weibo.com/u/7460268992'
           default:
             return 'javascript:void(0)'
         }
@@ -202,6 +205,20 @@
         background-position center center
         background-size contain
         position relative
+        .association
+          position absolute
+          border-radius 50%
+          background-repeat no-repeat
+          background-position center center
+          background-size contain
+          display inline-block
+          width 40px
+          height 40px
+          box-shadow 0 0 3px #000
+          left calc(50% - 20px)
+          bottom -7.5px
+        .nine
+          background-image url('https://wx1.sinaimg.cn/small/0088SwLely8gfarcx89tfj30n00n0wfp.jpg')
         .group
           position absolute
           left calc(50% + 37.5px)
@@ -214,11 +231,11 @@
           height 40px
           box-shadow 0 0 3px #000
         .sense
-          background-image url('http://47.97.248.244/static/images/sense.jpg')
+          background-image url('https://wx1.sinaimg.cn/small/006rmjNSgy1fdpvmlpirlj307x07tdgf.jpg')
         .blueV
-          background-image url('http://47.97.248.244/static/images/bluev.jpg')
+          background-image url('https://wx4.sinaimg.cn/small/006Ydvg4ly8frlinu447kj30dw0dwaby.jpg')
         .demoon
-          background-image url('http://47.97.248.244/static/images/demoon.jpg')
+          background-image url('https://wx1.sinaimg.cn/small/007QtKWxly8g4xzghv6mrj30u00u0wg6.jpg')
         .new
           background-image url('http://47.97.248.244/static/images/new.png')
         .cover
