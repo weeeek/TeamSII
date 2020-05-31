@@ -12,7 +12,7 @@
         </div>
         <div class="content" v-collapse-content>
           <ol>
-            <li v-for="item in a.articles" :key="item.chapter">
+            <li v-for="(item, i) in a.articles" :key="i">
               <a target="_blank" :href="item.url">{{ item.title }}</a>
             </li>
             <li v-if="!a.finish">未完待续...</li>
@@ -28,7 +28,7 @@ import {getArticleData} from 'config/articleData'
 
 export default {
   name: 'ArticleList',
-  created() {
+  created () {
     getArticleData().then((res) => {
       this.articleDatas = res
     })
@@ -48,7 +48,7 @@ export default {
   border 1px solid #ddd
   color #fa7d3c
   cursor pointer
-  span    
+  span
     font-weight bolder
   .member
     color #87cefa
@@ -59,7 +59,7 @@ export default {
     &.member
       color #87cefa
   li
-    list-style none    
+    list-style none
 
 .v-collapse-content
   padding calc(2em - 26px) 15px
@@ -74,7 +74,6 @@ export default {
 .v-collapse-content-end
   display block
 
-  
 @media screen and (min-width 1024px)
   #article-container
     padding-bottom 15px

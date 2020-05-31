@@ -9,37 +9,32 @@
     },
     "articles": [
       {
-        "chapter": 1,
         "title": "一期生·初见",
         "url": "https://wx2.sinaimg.cn/large/62ca40c6gy1frdbyajdfrj20c3111dh5.jpg"
       },
       {
-        "chapter": 2,
         "title": "落入凡间的仙子",
         "url": "http://t.cn/R30b6UM"
       },
       {
-        "chapter": 3,
         "title": "芸·握手会",
         "url": "http://t.cn/R38UZTV"
       },
       {
-        "chapter": 4,
         "title": "最真实的一面",
         "url": "http://t.cn/R33H0Ng"
       },
       {
-        "chapter": 5,
         "title": "魔鬼队长·莫寒&袁丹妮",
         "url": "http://t.cn/R1bkC9E"
       }
     ]
   },
   {
-    "member":true,
-    "finish":true,
+    "member": true,
+    "finish": true,
     "name": "火鸟",
-    "author":{
+    "author": {
       "name": "前SNH48-董芷依",
       "link": "https://www.zhihu.com/question/52887964/answer/168996096"
     }
@@ -54,169 +49,132 @@
     },
     "articles": [
       {
-        "chapter": 1,
-        "title": "晨光",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/ME-Kbhi6zNPgn4SMoDUcDQ2"
+        "url": "http://www.qqhome.cc/148789/44525430.html",
+        "title": "第一章:晨光"
       },
       {
-        "chapter": 2,
-        "title": "Forever 48",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/FTQsk4Xxwgtp4rPq4Fd4KQ2"
+        "url": "http://www.qqhome.cc/148789/44525433.html",
+        "title": "第二章:Forever 48"
       },
       {
-        "chapter": 3,
-        "title": "Who is the one",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/VJ_4Qv8GqhJMs5iq0oQwLQ2"
+        "url": "http://www.qqhome.cc/148789/44525436.html",
+        "title": "第三章:Who Is The One"
       },
       {
-        "chapter": 4,
-        "title": "黑洞",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/8tcJTl4MpLrwrjbX3WA1AA2"
+        "url": "http://www.qqhome.cc/148789/44525439.html",
+        "title": "第四章:黑洞"
       },
       {
-        "chapter": 5,
-        "title": "Flower",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/ywykl-eyp4v4p8iEw--PPw2"
+        "url": "http://www.qqhome.cc/148789/44525442.html",
+        "title": "第五章:Flower"
       },
       {
-        "chapter": 6,
-        "title": "Hold me tight",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/sDI5ujN7LgHM5j8_3RRvhw2"
+        "url": "http://www.qqhome.cc/148789/44525446.html",
+        "title": "第六章:Hold Me Tigh"
       },
       {
-        "chapter": 7,
-        "title": "解语者",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/tl00-656l5ZMs5iq0oQwLQ2"
+        "url": "http://www.qqhome.cc/148789/44525448.html",
+        "title": "第七章:解语者"
       },
       {
-        "chapter": 8,
-        "title": "Final round （上）",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/7zzRbHg806PwrjbX3WA1AA2"
+        "url": "http://www.qqhome.cc/148789/44525451.html",
+        "title": "第八章:Final Round 上"
       },
       {
-        "chapter": 9,
-        "title": "Final round （下）",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/n1Yfo-L5hpvwrjbX3WA1AA2"
+        "url": "http://www.qqhome.cc/148789/44525455.html",
+        "title": "第八章:Final Round 下"
       },
       {
-        "chapter": 10,
-        "title": "无罪无我",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/EsxrtCKrxc3wrjbX3WA1AA2"
+        "url": "http://www.qqhome.cc/148789/44525459.html",
+        "title": "第九章:无罪无我"
       },
       {
-        "chapter": 11,
-        "title": "Somewhere",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/kifydDoDhD9OBDFlr9quQA2"
+        "url": "http://www.qqhome.cc/148789/44525462.html",
+        "title": "第十章:Somewhere"
       },
       {
-        "chapter": 12,
-        "title": "发条舞者",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/vjLb9DkuKORp4rPq4Fd4KQ2"
+        "url": "http://www.qqhome.cc/148789/44525464.html",
+        "title": "第十一章:发条舞者"
       },
       {
-        "chapter": 13,
-        "title": "Restar",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/rb5HVSSmfcr6ItTi_ILQ7A2"
+        "url": "http://www.qqhome.cc/148789/44525467.html",
+        "title": "第十三章:预言"
       },
       {
-        "chapter": 14,
-        "title": "预言",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/fVawU8SHS6Xgn4SMoDUcDQ2"
+        "url": "http://www.qqhome.cc/148789/44525469.html",
+        "title": "第十四章:彼岸花"
       },
       {
-        "chapter": 15,
-        "title": "彼岸花",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/bAeSkxTs4grwrjbX3WA1AA2"
+        "url": "http://www.qqhome.cc/148789/44525472.html",
+        "title": "第十五章:重生计划"
       },
       {
-        "chapter": 16,
-        "title": "重生计划",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/4ZPpl4UlEZxMs5iq0oQwLQ2"
+        "url": "http://www.qqhome.cc/148789/44525474.html",
+        "title": "第十六章:坐标121E 31N"
       },
       {
-        "chapter": 17,
-        "title": "坐标 121E 31N",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/4kOoFLh59KlOBDFlr9quQA2"
+        "url": "http://www.qqhome.cc/148789/44525388.html",
+        "title": "第十七章:雪之国"
       },
       {
-        "chapter": 18,
-        "title": "雪之国",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/Z_6wj9yponT4p8iEw--PPw2"
+        "url": "http://www.qqhome.cc/148789/44525391.html",
+        "title": "第十八章:光明与黑暗"
       },
       {
-        "chapter": 19,
-        "title": "光明与黑暗",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/xggxK2yRmlpOBDFlr9quQA2"
+        "url": "http://www.qqhome.cc/148789/44525393.html",
+        "title": "第十九章:命运齿轮"
       },
       {
-        "chapter": 20,
-        "title": "命运齿轮",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/8To_60JyFg7M5j8_3RRvhw2"
+        "url": "http://www.qqhome.cc/148789/44525396.html",
+        "title": "第二十章:十洲集结"
       },
       {
-        "chapter": 21,
-        "title": "十洲集结",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/axn2IPh54SxOBDFlr9quQA2"
+        "url": "http://www.qqhome.cc/148789/44525398.html",
+        "title": "第二十一章:画"
       },
       {
-        "chapter": 22,
-        "title": "画",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/PGzsj4bOimNMs5iq0oQwLQ2"
+        "url": "http://www.qqhome.cc/148789/44525402.html",
+        "title": "第二十二章:一体同心"
       },
       {
-        "chapter": 23,
-        "title": "一体同心",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/CmQeI4-u5nLwrjbX3WA1AA2"
+        "url": "http://www.qqhome.cc/148789/44525405.html",
+        "title": "第二十三章:暗羽"
       },
       {
-        "chapter": 24,
-        "title": "暗羽",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/pXe5_8EYmWTwrjbX3WA1AA2"
+        "url": "http://www.qqhome.cc/148789/44525406.html",
+        "title": "第二十四章:传颂之歌"
       },
       {
-        "chapter": 25,
-        "title": "传颂之歌",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/7wP6gTUqmo3M5j8_3RRvhw2"
+        "url": "http://www.qqhome.cc/148789/44525409.html",
+        "title": "第二十五章:观自在"
       },
       {
-        "chapter": 26,
-        "title": "观自在",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/t_vVbyqJ687gn4SMoDUcDQ2"
+        "url": "http://www.qqhome.cc/148789/44525411.html",
+        "title": "第二十六章:信仰之箭"
       },
       {
-        "chapter": 27,
-        "title": "信仰之箭",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/KYuQxrIPBeDgn4SMoDUcDQ2"
+        "url": "http://www.qqhome.cc/148789/44525414.html",
+        "title": "第二十七章:春日"
       },
       {
-        "chapter": 28,
-        "title": "春日",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/9tK0yxn4V65OBDFlr9quQA2"
+        "url": "http://www.qqhome.cc/148789/44525417.html",
+        "title": "第二十八章:花之祭"
       },
       {
-        "chapter": 29,
-        "title": "花之祭",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/ua7chJ2iMabwrjbX3WA1AA2"
+        "url": "http://www.qqhome.cc/148789/44525419.html",
+        "title": "第二十九章:时之卷"
       },
       {
-        "chapter": 30,
-        "title": "时之卷",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/sN5sVVdzzhNMs5iq0oQwLQ2"
+        "url": "http://www.qqhome.cc/148789/44525422.html",
+        "title": "第三十章:无尽的白"
       },
       {
-        "chapter": 31,
-        "title": "无尽的白",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/m8PS_-HdOoXgn4SMoDUcDQ2"
+        "url": "http://www.qqhome.cc/148789/44525424.html",
+        "title": "第三十一章:未知天空"
       },
       {
-        "chapter": 32,
-        "title": "未知天空",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/2NRHslwQSjr6ItTi_ILQ7A2"
-      },
-      {
-        "chapter": 33,
-        "title": "远方的海",
-        "url": "https://read.qidian.com/chapter/gunqLjJgXxGt-wSl2uB4dQ2/NgbicsNVsn7gn4SMoDUcDQ2"
+        "url": "http://www.qqhome.cc/148789/44525427.html",
+        "title": "终章:远方的海"
       }
     ]
   },
@@ -230,47 +188,38 @@
     },
     "articles": [
       {
-        "chapter": 1,
         "title": "1",
         "url": "https://www.bilibili.com/read/cv2898498"
       },
       {
-        "chapter": 2,
         "title": "2",
         "url": "https://www.bilibili.com/read/cv2912563"
       },
       {
-        "chapter": 3,
         "title": "3",
         "url": "https://www.bilibili.com/read/cv2929420"
       },
       {
-        "chapter": 4,
         "title": "4",
         "url": "https://www.bilibili.com/read/cv2935292"
       },
       {
-        "chapter": 5,
         "title": "5",
         "url": "https://www.bilibili.com/read/cv2949200"
       },
       {
-        "chapter": 6,
         "title": "6",
         "url": "https://www.bilibili.com/read/cv2961781"
       },
       {
-        "chapter": 7,
         "title": "7",
         "url": "https://www.bilibili.com/read/cv2974975"
       },
       {
-        "chapter": 8,
         "title": "8",
         "url": "https://www.bilibili.com/read/cv2982840"
       },
       {
-        "chapter": 9,
         "title": "9",
         "url": "https://www.bilibili.com/read/cv2994745"
       }
@@ -286,107 +235,86 @@
     },
     "articles": [
       {
-        "chapter": 1,
         "title": "①",
         "url": "https://www.bilibili.com/read/cv2676175"
       },
       {
-        "chapter": 2,
         "title": "②",
         "url": "https://www.bilibili.com/read/cv2689382"
       },
       {
-        "chapter": 3,
         "title": "③",
         "url": "https://www.bilibili.com/read/cv2700787"
       },
       {
-        "chapter": 4,
         "title": "④",
         "url": "https://www.bilibili.com/read/cv2715077"
       },
       {
-        "chapter": 5,
         "title": "⑤",
         "url": "https://www.bilibili.com/read/cv2721123"
       },
       {
-        "chapter": 6,
         "title": "⑥",
         "url": "https://www.bilibili.com/read/cv2732903"
       },
       {
-        "chapter": 7,
         "title": "⑦",
         "url": "https://www.bilibili.com/read/cv2744429"
       },
       {
-        "chapter": 8,
         "title": "⑧",
         "url": "https://www.bilibili.com/read/cv2756975"
       },
       {
-        "chapter": 9,
         "title": "⑨",
         "url": "https://www.bilibili.com/read/cv2762746"
       },
       {
-        "chapter": 10,
         "title": "⑩",
         "url": "https://www.bilibili.com/read/cv2773446"
       },
       {
-        "chapter": 11,
         "title": "11",
         "url": "https://www.bilibili.com/read/cv2784133"
       },
       {
-        "chapter": 12,
         "title": "12",
         "url": "https://www.bilibili.com/read/cv2796033"
       },
       {
-        "chapter": 13,
         "title": "13",
         "url": "https://www.bilibili.com/read/cv2802575"
       },
       {
-        "chapter": 14,
         "title": "14",
         "url": "https://www.bilibili.com/read/cv2813490"
       },
       {
-        "chapter": 15,
         "title": "15",
         "url": "https://www.bilibili.com/read/cv2825151"
       },
       {
-        "chapter": 16,
         "title": "16",
         "url": "https://www.bilibili.com/read/cv2839955"
       },
       {
-        "chapter": 17,
         "title": "17",
         "url": "https://www.bilibili.com/read/cv2845906"
       },
       {
-        "chapter": 18,
         "title": "18",
         "url": "https://www.bilibili.com/read/cv2857118"
       },
       {
-        "chapter": 19,
         "title": "19",
         "url": "https://www.bilibili.com/read/cv2868678"
       },
       {
-        "chapter": 20,
         "title": "20",
         "url": "https://www.bilibili.com/read/cv2881480"
       },
       {
-        "chapter": 21,
         "title": "终章",
         "url": "https://www.bilibili.com/read/cv2886883"
       }
@@ -402,32 +330,26 @@
     },
     "articles": [
       {
-        "chapter": 1,
         "title": "①",
         "url": ""
       },
       {
-        "chapter": 2,
         "title": "②",
         "url": ""
       },
       {
-        "chapter": 3,
         "title": "③",
         "url": ""
       },
       {
-        "chapter": 4,
         "title": "④",
         "url": ""
       },
       {
-        "chapter": 5,
         "title": "⑤",
         "url": ""
       },
       {
-        "chapter": 6,
         "title": "⑥",
         "url": ""
       }
@@ -443,32 +365,26 @@
     },
     "articles": [
       {
-        "chapter": 1,
         "title": "①",
         "url": "https://www.bilibili.com/read/cv2360005"
       },
       {
-        "chapter": 2,
         "title": "②",
         "url": "https://www.bilibili.com/read/cv2367032"
       },
       {
-        "chapter": 3,
         "title": "③",
         "url": "https://www.bilibili.com/read/cv2378336"
       },
       {
-        "chapter": 4,
         "title": "④",
         "url": "https://www.bilibili.com/read/cv2413839"
       },
       {
-        "chapter": 5,
         "title": "⑤",
         "url": "https://www.bilibili.com/read/cv2438214"
       },
       {
-        "chapter": 6,
         "title": "⑥",
         "url": "https://www.bilibili.com/read/cv2460250"
       }
@@ -484,62 +400,50 @@
     },
     "articles": [
       {
-        "chapter": 1,
         "title": "(1)",
         "url": "https://www.bilibili.com/read/cv2360286"
       },
       {
-        "chapter": 2,
         "title": "(2)",
         "url": "https://www.bilibili.com/read/cv2390896"
       },
       {
-        "chapter": 3,
         "title": "(3)",
         "url": "https://www.bilibili.com/read/cv2407657"
       },
       {
-        "chapter": 4,
         "title": "(4)",
         "url": "https://www.bilibili.com/read/cv2426015"
       },
       {
-        "chapter": 5,
         "title": "(5)",
         "url": "https://www.bilibili.com/read/cv2453488"
       },
       {
-        "chapter": 6,
         "title": "(6)",
         "url": "https://www.bilibili.com/read/cv2473140"
       },
       {
-        "chapter": 7,
         "title": "(7)",
         "url": "https://www.bilibili.com/read/cv2485500"
       },
       {
-        "chapter": 8,
         "title": "(8)",
         "url": "https://www.bilibili.com/read/cv2500538"
       },
       {
-        "chapter": 9,
         "title": "(9)",
         "url": "https://www.bilibili.com/read/cv2506897"
       },
       {
-        "chapter": 10,
         "title": "(10)",
         "url": "https://www.bilibili.com/read/cv2519350"
       },
       {
-        "chapter": 11,
         "title": "(11)",
         "url": "https://www.bilibili.com/read/cv2529781"
       },
       {
-        "chapter": 12,
         "title": "番外",
         "url": "https://www.bilibili.com/read/cv2542404"
       }
@@ -550,354 +454,689 @@
     "finish": true,
     "name": "重生计划-硝烟终奏",
     "author": {
-      "name": "晓白鵺",
+      "name": "曈穆",
       "link": "https://weibo.com/u/6886194851"
     },
     "articles": [
       {
-        "chapter": 1,
         "title": "迷失",
         "url": "http://t.cn/EUrtCbR"
       },
       {
-        "chapter": 2,
         "title": "本质",
         "url": "http://t.cn/EUgEsE0"
       },
       {
-        "chapter": 3,
         "title": "人类",
         "url": "http://t.cn/EUkXmry"
       },
       {
-        "chapter": 4,
         "title": "交错",
         "url": "http://t.cn/E4PXPui"
       },
       {
-        "chapter": 5,
         "title": "失物",
         "url": "http://t.cn/E4z4Ylq"
       },
       {
-        "chapter": 6,
         "title": "宿命",
         "url": "http://t.cn/E4ANOau"
       },
       {
-        "chapter": 7,
         "title": "忽悠",
         "url": "http://t.cn/E4LcAE8"
       },
       {
-        "chapter": 8,
         "title": "交易",
         "url": "http://t.cn/E44v32F"
       },
       {
-        "chapter": 9,
         "title": "觉醒",
         "url": "http://t.cn/E4q59px"
       },
       {
-        "chapter": 10,
         "title": "拳击",
         "url": "http://t.cn/E4t6nrD"
       },
       {
-        "chapter": 11,
         "title": "再见",
         "url": "http://t.cn/E4fLN0l"
       },
       {
-        "chapter": 12,
         "title": "理由",
         "url": "http://t.cn/E4MVJu7"
       },
       {
-        "chapter": 13,
         "title": "暗杀",
         "url": "http://t.cn/E4X1OHl"
       },
       {
-        "chapter": 14,
         "title": "somewhere",
         "url": "http://t.cn/E4S3tL2"
       },
       {
-        "chapter": 15,
         "title": "回溯",
         "url": "http://t.cn/E4p5C3o"
       },
       {
-        "chapter": 16,
         "title": "黑白对战（一）",
         "url": "http://t.cn/EfXBYjh"
       },
       {
-        "chapter": 17,
         "title": "黑白对战（二）",
         "url": "http://t.cn/Efpfas1"
       },
       {
-        "chapter": 18,
         "title": "黑白对战（三）",
         "url": "http://t.cn/EfQUYlr"
       },
       {
-        "chapter": 19,
         "title": "黑白对战（四）",
         "url": "http://t.cn/Ef1PDsT"
       },
       {
-        "chapter": 20,
         "title": "黑白对战（五）",
         "url": "http://t.cn/EfFmK8c"
       },
       {
-        "chapter": 21,
         "title": "黑白对战（六）",
         "url": "http://t.cn/EIA5z2s"
       },
       {
-        "chapter": 22,
         "title": "黑白对战（七）",
         "url": "http://t.cn/EIqnI9Y"
       },
       {
-        "chapter": 23,
         "title": "黑白对战（八）",
         "url": "http://t.cn/EIxxfBR"
       },
       {
-        "chapter": 24,
         "title": "黑白对战（九）",
         "url": "http://t.cn/EIKlva8"
       },
       {
-        "chapter": 25,
         "title": "黑白对战（十）",
         "url": "http://t.cn/EIj7l4Y"
       },
       {
-        "chapter": 26,
         "title": "黑白对战（十一）",
         "url": "http://t.cn/EIm7qDU"
       },
       {
-        "chapter": 27,
         "title": "黑白对战（十二）",
         "url": "http://t.cn/EIeRr4X"
       },
       {
-        "chapter": 28,
         "title": "黑白对战（十三）",
         "url": "http://t.cn/EMz9Wq5"
       },
       {
-        "chapter": 29,
         "title": "黑白对战（十四）",
         "url": "http://t.cn/EM43CLG"
       },
       {
-        "chapter": 30,
         "title": "黑白对战（十五）",
         "url": "http://t.cn/EMfy5DB"
       },
       {
-        "chapter": 31,
         "title": "黑白对战（十六）",
         "url": "http://t.cn/EMaxzuE"
       },
       {
-        "chapter": 32,
         "title": "致一年后的我们",
         "url": "http://t.cn/EMOUgQu"
       },
       {
-        "chapter": 33,
         "title": "守卫48区（一）",
         "url": "http://t.cn/EafDW8P"
       },
       {
-        "chapter": 34,
         "title": "守卫48区（二）",
         "url": "http://t.cn/Ea69J5I"
       },
       {
-        "chapter": 35,
         "title": "守卫48区（三）",
         "url": "http://t.cn/Eap92y4"
       },
       {
-        "chapter": 36,
         "title": "守卫48区（四）",
         "url": "http://t.cn/EaHDvgE"
       },
       {
-        "chapter": 37,
         "title": "守卫48区（五）",
         "url": "http://t.cn/Ea1VwVW"
       },
       {
-        "chapter": 38,
         "title": "守卫48区（六）",
         "url": "http://t.cn/EaFNUr7"
       },
       {
-        "chapter": 39,
         "title": "守卫48区（七）",
         "url": "http://t.cn/ESwdWEU"
       },
       {
-        "chapter": 40,
         "title": "守卫48区（八）",
         "url": "http://t.cn/ESqfpFS"
       },
       {
-        "chapter": 41,
         "title": "守卫48区（九）",
         "url": "http://t.cn/ESJfozS"
       },
       {
-        "chapter": 42,
         "title": "守卫48区（十）",
         "url": "http://t.cn/ESCcmS1"
       },
       {
-        "chapter": 43,
         "title": "守卫48区（十一）",
         "url": "http://t.cn/ESTvYeu"
       },
       {
-        "chapter": 44,
         "title": "守卫48区（十二）",
         "url": "http://t.cn/ESucDFD"
       },
       {
-        "chapter": 45,
         "title": "守卫48区（十三）",
         "url": "http://t.cn/ESD4I2u"
       },
       {
-        "chapter": 46,
         "title": "守卫48区（十四）",
         "url": "http://t.cn/Eo7lDyd"
       },
       {
-        "chapter": 47,
         "title": "战地记录",
         "url": "http://t.cn/Eo42P2V"
       },
       {
-        "chapter": 48,
         "title": "守卫48区（十五）",
         "url": "http://t.cn/EoIjMF3"
       },
       {
-        "chapter": 49,
         "title": "守卫48区（十六）",
         "url": "http://t.cn/EoKJoeF"
       },
       {
-        "chapter": 50,
         "title": "守卫48区（十七）",
         "url": "http://t.cn/Eojdmg7"
       },
       {
-        "chapter": 51,
         "title": "守卫48区（十八）",
         "url": "http://t.cn/Eom8jBh"
       },
       {
-        "chapter": 52,
         "title": "守卫48区（十九）",
         "url": "http://t.cn/EoDY4yd"
       },
       {
-        "chapter": 53,
         "title": "守卫48区（二十）",
         "url": "http://t.cn/EKzWaQC"
       },
       {
-        "chapter": 54,
         "title": "守卫48区（二十一）",
         "url": "http://t.cn/EKUD9sz"
       },
       {
-        "chapter": 55,
         "title": "守卫48区（二十二）",
         "url": "http://t.cn/EKVByAT"
       },
       {
-        "chapter": 56,
         "title": "A视角",
         "url": "http://t.cn/AiOKSFWW"
       },
       {
-        "chapter": 57,
         "title": "C视角",
         "url": "http://t.cn/AiOY5nHz"
       },
       {
-        "chapter": 58,
         "title": "B视角",
         "url": "http://t.cn/AiO3x687"
       },
       {
-        "chapter": 59,
         "title": "O视角",
         "url": "http://t.cn/AiOFkuhV"
       },
       {
-        "chapter": 60,
         "title": "G视角",
         "url": "http://t.cn/AiW2DyLa"
       },
       {
-        "chapter": 61,
         "title": "主角",
         "url": "http://t.cn/AiWVxoiN"
       },
       {
-        "chapter": 62,
         "title": "完美犯罪（一）",
         "url": "http://t.cn/AiWa2heo"
       },
       {
-        "chapter": 63,
         "title": "完美犯罪（二）",
         "url": "http://t.cn/AiW01OqM"
       },
       {
-        "chapter": 64,
         "title": "完美犯罪（三）",
         "url": "http://t.cn/AiWRmhl7"
       },
       {
-        "chapter": 65,
         "title": "完美犯罪（四）",
         "url": "http://t.cn/AiWddvVb"
       },
       {
-        "chapter": 66,
         "title": "完美犯罪（五）",
         "url": "http://t.cn/Ail7vHLk"
       },
       {
-        "chapter": 67,
         "title": "无法逃离（一）",
         "url": "http://t.cn/Ail4x1nW"
       },
       {
-        "chapter": 68,
         "title": "无法逃离（二）",
         "url": "http://t.cn/AilMcusC"
       },
       {
-        "chapter": 69,
         "title": "无法逃离（三）",
         "url": "http://t.cn/AilK43Kg"
+      },
+      {
+        "title": "无法逃离（四）",
+        "url": "http://t.cn/AiljKWcP"
+      },
+      {
+        "title": "将在沙场（一）",
+        "url": "http://t.cn/AiluXTfJ"
+      },
+      {
+        "title": "将在沙场（二）",
+        "url": "http://t.cn/AilsqqJq"
+      },
+      {
+        "title": "将在沙场（三）",
+        "url": "http://t.cn/AijLgRnE"
+      },
+      {
+        "title": "将在沙场（四）",
+        "url": "http://t.cn/AijVRLO3"
+      },
+      {
+        "title": "将在沙场（五）",
+        "url": "http://t.cn/AijR5saf"
+      },
+      {
+        "title": "将在沙场（六-1）",
+        "url": "http://t.cn/AijeY0Dp"
+      },
+      {
+        "title": "将在沙场（六-2）",
+        "url": "http://t.cn/AijeRl90"
+      },
+      {
+        "title": "将在沙场（六-3）",
+        "url": "http://t.cn/AijeuwR6"
+      },
+      {
+        "title": "将在沙场（六-4）",
+        "url": "http://t.cn/Aije3lAQ"
+      },
+      {
+        "title": "1937（一-1）",
+        "url": "http://t.cn/AiYhomr3"
+      },
+      {
+        "title": "1937（一-2）",
+        "url": "http://t.cn/AiYhKMYD"
+      },
+      {
+        "title": "1937（二）",
+        "url": "http://t.cn/AiYUswCj"
+      },
+      {
+        "title": "1937（三-1）",
+        "url": "http://t.cn/AiYI8FkW"
+      },
+      {
+        "title": "1937（三-2）",
+        "url": "http://t.cn/AiYIRYTp"
+      },
+      {
+        "title": "1937（四）",
+        "url": "http://t.cn/AiYKOE9x"
+      },
+      {
+        "title": "1937（五）",
+        "url": "http://t.cn/AiYjSp4y"
+      },
+      {
+        "title": "1937（六）",
+        "url": "http://t.cn/AiYmzBHw"
+      },
+      {
+        "title": "谎言革命（一）",
+        "url": "https://weibo.com/u/6886194851?is_all=1&is_search=1&key_word=%E7%A1%9D%E7%83%9F%E7%9A%84%E7%BB%88%E5%A5%8F%EF%BC%88%E5%85%AB%E5%8D%81%E4%B8%89%EF%BC%89#_0"
+      },
+      {
+        "title": "谎言革命（二）",
+        "url": "http://t.cn/AiTtEuXK"
+      },
+      {
+        "title": "谎言革命（三）",
+        "url": "http://t.cn/AiTXB81v"
+      },
+      {
+        "title": "谎言革命（四）",
+        "url": "http://t.cn/AiTWGdGR"
+      },
+      {
+        "title": "谎言革命（五）",
+        "url": "http://t.cn/AiTEBJB8"
+      },
+      {
+        "title": "谎言革命（六）",
+        "url": "http://t.cn/AiTgeu0D"
+      },
+      {
+        "title": "箱庭之爱（一）",
+        "url": "http://t.cn/AiHZwjeo"
+      },
+      {
+        "title": "箱庭之爱（二）",
+        "url": "http://t.cn/AiHqWgHX"
+      },
+      {
+        "title": "箱庭之爱（三）",
+        "url": "http://t.cn/AiHi3WQx"
+      },
+      {
+        "title": "箱庭之爱（四）",
+        "url": "http://t.cn/AiH0tdO1"
+      },
+      {
+        "title": "箱庭之爱（五）",
+        "url": "http://t.cn/AiHR1sxQ"
+      },
+      {
+        "title": "环中罪人（一）",
+        "url": "http://t.cn/AiHg00NA"
+      },
+      {
+        "title": "环中罪人（二）",
+        "url": "http://t.cn/AiQzhkzt"
+      },
+      {
+        "title": "环中罪人（三）",
+        "url": "http://t.cn/AiQqL96Z"
+      },
+      {
+        "title": "Who is the one（一）",
+        "url": "http://t.cn/AiQi7MM9"
+      },
+      {
+        "title": "Who is the one（二）",
+        "url": "http://t.cn/AiQDNz7k"
+      },
+      {
+        "title": "Who is the one（三）",
+        "url": "http://t.cn/Ai8ZK7wV"
+      },
+      {
+        "title": "杀手",
+        "url": "http://t.cn/AiEEJ2k7"
+      },
+      {
+        "title": "512号游戏",
+        "url": "http://t.cn/AiEuMhvF"
+      },
+      {
+        "title": "A伯爵？",
+        "url": "http://t.cn/AiErdxkz"
+      },
+      {
+        "title": "魔女",
+        "url": "http://t.cn/AiEk59FR"
+      },
+      {
+        "title": "Boxer",
+        "url": "http://t.cn/AinhLAjJ"
+      },
+      {
+        "title": "潜入",
+        "url": "http://t.cn/AinArBTD"
+      },
+      {
+        "title": "交易",
+        "url": "http://t.cn/Ain48vSm"
+      },
+      {
+        "title": "解语者（一）",
+        "url": "http://t.cn/AintxzE7"
+      },
+      {
+        "title": "解语者（二）",
+        "url": "http://t.cn/AinMgMA8"
+      },
+      {
+        "title": "解语者（三）",
+        "url": "http://t.cn/AinaNzjq"
+      },
+      {
+        "title": "解语者（四）",
+        "url": "http://t.cn/AinpzikJ"
+      },
+      {
+        "title": "解语者（五）",
+        "url": "http://t.cn/AinTLykS"
+      },
+      {
+        "title": "解语者（六）",
+        "url": "http://t.cn/AinmpBsU"
+      },
+      {
+        "title": "结束？",
+        "url": "http://t.cn/AingBmsy"
+      },
+      {
+        "title": "危机",
+        "url": "http://t.cn/AimhPWZO"
+      },
+      {
+        "title": "始末",
+        "url": "http://t.cn/Aim2u23S"
+      },
+      {
+        "title": "历史",
+        "url": "http://t.cn/Aim5i7fM"
+      },
+      {
+        "title": "卡罗斯",
+        "url": "http://t.cn/AimixsAK"
+      },
+      {
+        "title": "情报",
+        "url": "http://t.cn/AimNJ790"
+      },
+      {
+        "title": "中计",
+        "url": "http://t.cn/AimTcoW2"
+      },
+      {
+        "title": "意想不到",
+        "url": "http://t.cn/AimmqESZ"
+      },
+      {
+        "title": "环",
+        "url": "http://t.cn/Aimdgc2u"
+      },
+      {
+        "title": "C计划",
+        "url": "http://t.cn/AiuvHQAH"
+      },
+      {
+        "title": "钥匙",
+        "url": "http://t.cn/AiuApL2k"
+      },
+      {
+        "title": "消失",
+        "url": "http://t.cn/AiuqI3iz"
+      },
+      {
+        "title": "背叛？",
+        "url": "http://t.cn/AiuMm30W"
+      },
+      {
+        "title": "上天的意图",
+        "url": "http://t.cn/AiuopNdY"
+      },
+      {
+        "title": "规则",
+        "url": "http://t.cn/AiuWEmhp"
+      },
+      {
+        "title": "迎接",
+        "url": "http://t.cn/Aiu8gQKf"
+      },
+      {
+        "title": "摩托车",
+        "url": "http://t.cn/AiurvFJF"
+      },
+      {
+        "title": "星星",
+        "url": "http://t.cn/Aius9wVD"
+      },
+      {
+        "title": "回归",
+        "url": "http://t.cn/Ai3AivzZ"
+      },
+      {
+        "title": "崩坏",
+        "url": "http://t.cn/Ai3qikQf"
+      },
+      {
+        "title": "抉择",
+        "url": "http://t.cn/Ai3x0KV3"
+      },
+      {
+        "title": "魔方",
+        "url": "http://t.cn/Ai3o3dUk"
+      },
+      {
+        "title": "Dead ring",
+        "url": "http://t.cn/Ai3OCgYW"
+      },
+      {
+        "title": "焦灼",
+        "url": "http://t.cn/Ai38YnNG"
+      },
+      {
+        "title": "相似规则",
+        "url": "http://t.cn/Ai31jaWH"
+      },
+      {
+        "title": "突破",
+        "url": "http://t.cn/Ai3FOCd2"
+      },
+      {
+        "title": "唯一真实指向标准",
+        "url": "http://t.cn/Ai1wXFqp"
+      },
+      {
+        "title": "最终回合",
+        "url": "http://t.cn/Ai1GTnD8"
+      },
+      {
+        "title": "告别",
+        "url": "http://t.cn/Ai1M2WWv"
+      },
+      {
+        "title": "破坏",
+        "url": "http://t.cn/Ai1SBe3U"
+      },
+      {
+        "title": "逃亡（上）",
+        "url": "http://t.cn/Ai1OC4ly"
+      },
+      {
+        "title": "逃亡（下）",
+        "url": "http://t.cn/Ai1QKBEK"
+      },
+      {
+        "title": "Hold me tight",
+        "url": "http://t.cn/Ai13Fn2V"
+      },
+      {
+        "title": "别开玩笑！",
+        "url": "http://t.cn/Ai1kRHjh"
+      },
+      {
+        "title": "噩梦轮回（上）",
+        "url": "http://t.cn/AiBwLWvU"
+      },
+      {
+        "title": "噩梦轮回（中）",
+        "url": "http://t.cn/AiBbrv6D"
+      },
+      {
+        "title": "噩梦轮回（下）",
+        "url": "http://t.cn/AiBfCGTx"
+      },
+      {
+        "title": "天罚",
+        "url": "http://t.cn/AiBa4qS4"
+      },
+      {
+        "title": "预言",
+        "url": "http://t.cn/AiBpGYRF"
+      },
+      {
+        "title": "坐标121E 31N",
+        "url": "http://t.cn/AiBTzzTA"
+      },
+      {
+        "title": "死战（上）",
+        "url": "http://t.cn/AiBmX6J2"
+      },
+      {
+        "title": "死战（下）",
+        "url": "http://t.cn/AiBeqQdc"
+      },
+      {
+        "title": "彼岸",
+        "url": "http://t.cn/AirLD7ZS"
+      },
+      {
+        "title": "不会后悔",
+        "url": "http://t.cn/AirtJ1d3"
+      },
+      {
+        "title": "棋局",
+        "url": "http://t.cn/AirJx01n"
+      },
+      {
+        "title": "选择",
+        "url": "http://t.cn/AirKg2q5"
+      },
+      {
+        "title": "Final Direction",
+        "url": "http://t.cn/AirWeb79"
+      },
+      {
+        "title": "幕后·教授",
+        "url": "http://t.cn/Air8ESNh"
+      },
+      {
+        "title": "幕后·缸中之脑",
+        "url": "http://t.cn/Air8n7J1"
+      },
+      {
+        "title": "幕后·Wang",
+        "url": "http://t.cn/Air8nlTw"
+      },
+      {
+        "title": "幕后·xx",
+        "url": "http://t.cn/Air8m9Di"
+      },
+      {
+        "title": "幕后·Diamon",
+        "url": "http://t.cn/Air83GGy"
+      },
+      {
+        "title": "幕后·Momo",
+        "url": "http://t.cn/AirrOl5s"
       }
     ]
   },
@@ -911,22 +1150,18 @@
     },
     "articles": [
       {
-        "chapter": 1,
         "title": "杀手的故事（一）",
         "url": "http://t.cn/EyqPKtc"
       },
       {
-        "chapter": 2,
         "title": "杀手的故事（二）",
         "url": "http://t.cn/EyMdurK"
       },
       {
-        "chapter": 3,
         "title": "杀手的故事（三）",
         "url": "http://t.cn/EUnxdsx"
       },
       {
-        "chapter": 4,
         "title": "杀手的故事（四）",
         "url": "http://t.cn/E4AAmmb"
       }
@@ -942,27 +1177,22 @@
     },
     "articles": [
       {
-        "chapter": 1,
         "title": "（一） 莫寒，钱蓓婷，李宇琪，袁雨桢",
         "url": "http://t.cn/ELveNdQ"
       },
       {
-        "chapter": 2,
         "title": "（二） 吴哲晗，孙芮，徐子轩",
         "url": "http://t.cn/ELzexbG"
       },
       {
-        "chapter": 3,
         "title": "（三） 戴萌，孔肖吟，许佳琪",
         "url": "http://t.cn/ELUn7me"
       },
       {
-        "chapter": 4,
         "title": "（四） 莫寒，刘增艳，陈观慧",
         "url": "http://t.cn/EL6YVnZ"
       },
       {
-        "chapter": 5,
         "title": "（五） 张语格，邵雪聪，吕一，陈思，徐晨辰，蒋芸",
         "url": "http://t.cn/ELjSbHO"
       }

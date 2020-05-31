@@ -215,10 +215,9 @@
           width 40px
           height 40px
           box-shadow 0 0 3px #000
-          left calc(50% - 20px)
-          bottom -7.5px
+          left calc(50% + 37.5px)
         .nine
-          background-image url('https://wx1.sinaimg.cn/small/0088SwLely8gfarcx89tfj30n00n0wfp.jpg')
+          background-image url('http://wx1.sinaimg.cn/small/0088SwLely8gfarcx89tfj30n00n0wfp.jpg')
         .group
           position absolute
           left calc(50% + 37.5px)
@@ -231,11 +230,12 @@
           height 40px
           box-shadow 0 0 3px #000
         .sense
-          background-image url('https://wx1.sinaimg.cn/small/006rmjNSgy1fdpvmlpirlj307x07tdgf.jpg')
+          background-image url('http://wx1.sinaimg.cn/small/006rmjNSgy1fdpvmlpirlj307x07tdgf.jpg')
+          background-color black
         .blueV
-          background-image url('https://wx4.sinaimg.cn/small/006Ydvg4ly8frlinu447kj30dw0dwaby.jpg')
+          background-image url('http://wx4.sinaimg.cn/small/006Ydvg4ly8frlinu447kj30dw0dwaby.jpg')
         .demoon
-          background-image url('https://wx1.sinaimg.cn/small/007QtKWxly8g4xzghv6mrj30u00u0wg6.jpg')
+          background-image url('http://wx1.sinaimg.cn/small/007QtKWxly8g4xzghv6mrj30u00u0wg6.jpg')
         .new
           background-image url('http://47.97.248.244/static/images/new.png')
         .cover
@@ -270,6 +270,8 @@
       .photo
         .group
           top -12.5px
+        .association
+          bottom 12.5px
       .accounts
         width 60%
 @media screen and (max-width 1366px)
@@ -292,6 +294,8 @@
       .photo
         .group
           top -10.5px
+        .association
+          bottom 10.5px
       .accounts
         width 65%
 @media screen and (max-width 700px)
@@ -315,6 +319,8 @@
       .photo
         .group
           top -8.5px
+        .association
+          bottom 8.5px
       .accounts
         width 70%
 @media screen and (max-width 540px)
@@ -337,6 +343,8 @@
       .photo
         .group
           top -7.5px
+        .association
+          bottom 7.5px
       .accounts
         width 75%
 </style>
