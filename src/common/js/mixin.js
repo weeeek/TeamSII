@@ -116,7 +116,7 @@ export const searchMixin = {
   methods: {
     onQueryChange (query) {
       // 处理带空格的情况
-      this.query = query.trim()
+      this.query = query.trim().toLowerCase()
     },
     blurInput () {
       this.$refs.searchBox.blur()

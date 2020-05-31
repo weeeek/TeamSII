@@ -68,7 +68,7 @@ export default {
       if (this.query) {
         // 同时包含
         if (this.query.includes('+')) {
-          queryArr = this.query.trim().split('+')
+          queryArr = this.query.trim().toLowerCase().split('+')
           this.timelineItems.map((x, xindex) => {
             data.push({
               year: x.year,
@@ -80,7 +80,7 @@ export default {
               let target = Object.assign({}, y)
               while (index < queryArr.length && allmatch) {
                 // 匹配这一个关键词
-                if (y.title.includes(queryArr[index]) || y.description.includes(queryArr[index])) {
+                if (y.title.toLowerCase().includes(queryArr[index]) || y.description.toLowerCase().includes(queryArr[index])) {
                   // 替换文本
                   target.title = target.title.replace(queryArr[index], '<span class="keywords">' + queryArr[index] + '</span>')
                   target.description = target.description.replace(queryArr[index], '<span class="keywords">' + queryArr[index] + '</span>')
@@ -96,7 +96,7 @@ export default {
           })
         } else {
           // 关键字分割的关键字数组
-          queryArr = this.query.trim().split(' ')
+          queryArr = this.query.trim().toLowerCase().split(' ')
           this.timelineItems.map((x, xindex) => {
             data.push({
               year: x.year,
@@ -107,10 +107,10 @@ export default {
               let target = Object.assign({}, y)
               let match = false
               while (index < queryArr.length) {
-                if (y.title.includes(queryArr[index]) || y.description.includes(queryArr[index]) || (y.summarize && y.summarize.includes(queryArr[index]))) {
+                if (y.title.toLowerCase().includes(queryArr[index]) || y.description.toLowerCase().includes(queryArr[index]) || (y.summarize && y.summarize.includes(queryArr[index]))) {
                   match = true
-                  target.title = target.title.replace(new RegExp(queryArr[index], 'gm'), `<span class="keywords">${queryArr[index]}</span>`)
-                  target.description = target.description.replace(new RegExp(queryArr[index], 'gm'), `<span class="keywords">${queryArr[index]}</span>`)
+                  target.title = target.title.replace(new RegExp(queryArr[index], 'gi'), `<span class="keywords">${queryArr[index]}</span>`)
+                  target.description = target.description.replace(new RegExp(queryArr[index], 'gi'), `<span class="keywords">${queryArr[index]}</span>`)
                 }
                 ++index
               }
