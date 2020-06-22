@@ -1137,7 +1137,7 @@
         "nameMonth": "2月19日",
         "title": "安徽卫视元宵晚会",
         "description": "7SENSES 《China Town 唐人街》，BlueV 《Be My Love 请回答》",
-        "type": "Green",
+        "type": "green",
         "url": "https://www.bilibili.com/video/av44113215"
       },
       {
@@ -1919,6 +1919,14 @@
         "summarize": "优酷全集观看：http://list.youku.com/show/id_ze7bf3156ab0211e5a080.html?tpa=dW5pb25faWQ9MTAzNzUzXzEwMDAwMV8wMV8wMQ&refer=baiduald1705",
         "type": "black",
         "url": "https://www.bilibili.com/video/av4227744"
+      },
+      {
+        "nameMonth": "1月7日",
+        "title": "我是歌手·谁来踢馆 徐晨辰",
+        "description": "I Feel the Earth Move,In Control,Rolling In The Deep,虫之诗,流着泪微笑,梦之河,夏天的风,至少还有你",
+        "summarize": "",
+        "type": "green",
+        "url": "https://www.bilibili.com/video/BV114411Y7pV"
       }
     ]
   },
