@@ -108,13 +108,6 @@ export default new Router({
         keepAlive: true
       }
     }, {
-      path: '/tools/editor',
-      name: 'editor',
-      component: (resolve) => require(['@/components/tools/editor'], resolve),
-      meta: {
-        keepAlive: true
-      }
-    }, {
       path: '/tools/lyric',
       name: 'lyric',
       component: (resolve) => require(['@/components/tools/lyric'], resolve),
@@ -125,6 +118,13 @@ export default new Router({
       path: '/tools/qrcode',
       name: 'qrcode',
       component: (resolve) => require(['@/components/tools/qrcode'], resolve),
+      meta: {
+        keepAlive: true
+      }
+    }, {
+      path: '/tools/voicedictation',
+      name: 'voicedictation',
+      component: (resolve) => require(['@/components/tools/voicedictation'], resolve),
       meta: {
         keepAlive: true
       }
