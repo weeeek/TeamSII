@@ -80,7 +80,7 @@
         "url": "4564252",
         "img": "//i0.hdslb.com/bfs/archive/3e9f7f4c3c8a8ce295fbf76c487c4ce310aed674.jpg_380x240.jpg"
       },
-       {
+      {
         "title": "S队男装公演",
         "from": "B",
         "url": "4542786",
@@ -278,7 +278,8 @@
         "from": "B",
         "url": "96916287",
         "img": "//i1.hdslb.com/bfs/archive/77d861584acb31941a43cdf2a7dded37278633b5.jpg_380x240.jpg"
-      }]
+      }
+    ]
   },
   {
     "type": "舞台",
@@ -604,7 +605,7 @@
   {
     "type": "鬼畜",
     "list": [
-     {
+      {
         "title": "勇气重生419·表情包disco",
         "from": "BV",
         "url": "1fa4y1x7FV",
@@ -747,6 +748,14 @@
     "type": "治愈",
     "list": [
       {
+        "title": "一语中的 击沉队友",
+        "fit": "cover",
+        "position": "center 55%",
+        "from": "BV",
+        "url": "1Hk4y1r7ER",
+        "img": "//i0.hdslb.com/bfs/archive/2b29a9af4f46dda65b4cbe8d895c60953989440e.jpg_380x240.jpg"
+      },
+      {
         "title": "警报：SII病毒感染者正在增加!",
         "from": "B",
         "url": "18347621",
@@ -766,8 +775,8 @@
       },
       {
         "title": "不要让爸爸带孩子",
-        "fit":"cover",
-        "position":"center center",
+        "fit": "cover",
+        "position": "center center",
         "from": "B",
         "url": "14684523",
         "img": "//i0.hdslb.com/bfs/archive/9af1bebe3aa84d6c42233d4b6824c58623d4c3ce.jpg_380x240.jpg"
@@ -776,7 +785,7 @@
         "title": "听莫妈的话",
         "from": "B",
         "url": "6706750",
-        "img": "//i2.hdslb.com/bfs/archive/d6c88288166533085e9d8a0f4bcdb60e459a6aad.jpg_380x240.jpg"
+        "img": "//i2.hdslb.com/bfs/archive/bc9316f199504919659431d3caca1a72a7da5b51.jpg_380x240.jpg"
       },
       {
         "title": "爱的魔法",
@@ -1042,6 +1051,12 @@
         "from": "B",
         "url": "7853883",
         "img": "//i2.hdslb.com/bfs/archive/29c5d6541835c18b0b25f14a999a7101bec73ba3.png_380x240.png"
+      },
+      {
+        "title": "《HE9》",
+        "from": "BV",
+        "url": "1na4y1Y7M2",
+        "img": "//i0.hdslb.com/bfs/archive/2ccf668b442c4f5f48b6443a57bdf5708139f74d.jpg_380x240.jpg"
       }
     ]
   },
