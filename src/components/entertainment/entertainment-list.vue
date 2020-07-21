@@ -30,14 +30,39 @@
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
-  @import '~common/stylus/waterfall'
+@import '~common/stylus/waterfall'
+.waterfall
+  .fallitem
+    img
+      display block
+    h2
+      font-weight bold
+      text-align center
+
+@media screen and (min-width 1366px)
   .waterfall
     .fallitem
-      img
-        display block
       h2
         margin-top 15px
         line-height 20px
-        font-weight bold
-        text-align center
+
+
+@media screen and (max-width 1366px) and (min-width 767px)
+  .waterfall
+    .fallitem
+      h2
+        margin-top 12px
+        line-height 16px
+        font-size 16px
+
+@media screen and (max-width 767px)
+  .waterfall
+    -moz-column-count 2
+    -webkit-column-count 2
+    column-count 2
+    .fallitem
+      h2
+        margin-top 9px
+        line-height 12px
+        font-size 12px
 </style>

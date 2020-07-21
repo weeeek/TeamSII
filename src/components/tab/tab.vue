@@ -44,12 +44,12 @@
       <router-link tag="div" class="tab-item" to="/raise">
         <span class="tab-link">集资</span>
       </router-link>
-    </keep-alive> -->
+    </keep-alive>-->
     <!-- <keep-alive>
       <router-link tag="div" class="tab-item" to="/derivant">
         <span class="tab-link">周边</span>
       </router-link>
-    </keep-alive> -->
+    </keep-alive>-->
     <keep-alive>
       <router-link tag="div" class="tab-item" to="/focus">
         <span class="tab-link">直拍</span>
@@ -64,11 +64,11 @@
 </template>
 
 <script type="text/ecmascript-6">
-export default {}
+export default {};
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
-.tab{
+.tab {
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
@@ -106,7 +106,7 @@ export default {}
   }
 }
 
-@media screen and (max-width: 1366px) and (min-width: 768px) {
+@media screen and (max-width: 1366px) {
   .tab {
     border-top: 1px solid #f2f2f5;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
@@ -138,7 +138,7 @@ export default {}
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .tab {
     border-top: 1px solid #f2f2f5;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
@@ -158,13 +158,23 @@ export default {}
         cursor: pointer;
         font-weight: bolder;
         padding: 0 6px 2px 6px;
-        font-size: 12px;
+        font-size: 14px;
       }
     }
 
     &.router-link-active {
       .tab-link {
         border-bottom: 2px solid $color-team-sii;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .tab {
+    .tab-item {
+      .tab-link {
+        font-size: 12px;
       }
     }
   }

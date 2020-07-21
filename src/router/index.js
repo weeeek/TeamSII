@@ -1,9 +1,12 @@
+// https://www.cnblogs.com/fms-3/p/9716758.html
+// router讲解
 import Vue from 'vue'
 import Router from 'vue-router'
 
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
@@ -118,6 +121,13 @@ export default new Router({
       path: '/tools/qrcode',
       name: 'qrcode',
       component: (resolve) => require(['@/components/tools/qrcode'], resolve),
+      meta: {
+        keepAlive: true
+      }
+    }, , {
+      path: '/tools/chat',
+      name: 'chat',
+      component: (resolve) => require(['@/components/tools/chat'], resolve),
       meta: {
         keepAlive: true
       }

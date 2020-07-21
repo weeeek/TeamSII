@@ -31,10 +31,16 @@
     position relative
     .header-container
       position absolute
+      bottom 0
+      left 0
+      z-index 1
+      width 100%
       background-color white
       .header-control
         h1
           font-weight bolder
+      .title
+          width 100%
     .logo
       position absolute
       background-image url('http://47.97.248.244/static/images/flag.jpg')
@@ -43,18 +49,12 @@
       height 220px
       .header-container
         height 110px
-        bottom 0
-        left 0
-        z-index 1
-        width 100%
         .header-control
           width calc(100% - 220px)
           margin-left 220px
           padding 10px 10px 10px 0
           h1
             font-size 32px
-        .title
-            width 100%
       .logo
         left 20px
         bottom 20px
@@ -69,10 +69,6 @@
       height 110px
       .header-container
         height 65px
-        bottom 0
-        left 0
-        z-index 1
-        width 100%
         .header-control
           width calc(100% - 110px)
           margin-left 110px
@@ -88,8 +84,6 @@
             font-size 12px
             line-height 12px
             height 18px
-        .title
-            width 100%
       .logo
         left 10px
         bottom 10px
@@ -100,4 +94,13 @@
         border 3px solid #FFF
         box-shadow 0 2px 4px rgba(0,0,0,0.3)
         cursor pointer
+        
+  @media screen and (max-width 320px)
+    .global-header
+      .header-container
+        .header-control
+          h1
+            margin 4px 0
+            font-size 14px
+
 </style>
