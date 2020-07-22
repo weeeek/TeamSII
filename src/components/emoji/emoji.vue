@@ -4,20 +4,29 @@
       <a class="button blue skew" target="_blank" href="https://weibo.com/p/10080895b3a71856d76c4435c477e4ac01e57a/super_index">#勇气重生419#</a>
       <a class="button blue skew" target="_blank" href="https://weibo.com/p/100808eaa925a8fccc2a30cfcc7079d5e4fbc1/super_index">#艾斯兔表情包#</a>
     </div>
+    <div class="block">
+      <div class="search">
+        <search :placeholder="'搜索关键字（用单英文空格分隔）'" @query="onQueryChange"></search>
+      </div>
+    </div>
     <div class="waterfall">
-      <a href="javascript:void(0)" class="fallitem" v-for="(item) in data" :key="item" @click="view(item)">
+      <a href="javascript:void(0)" class="fallitem" v-for="(item) in emojiFilter" :key="item" @click="view(item)">
         <img v-lazy="calcPath(item)"/>
       </a>
     </div>
-    <!-- <bigImg ref="bigImg"></bigImg> -->
   </div>
 </template>
 
 <script type="ecmascript-6">
-// import bigImg from 'components/plugin/bigImg'
 import {getEmojiData} from 'config/emojiData'
+import Search from 'components/plugin/search'
+import { searchMixin } from 'common/js/mixin'
 
 export default {
+  mixins: [searchMixin],
+  components: {
+    Search
+  },
   data () {
     return {
       data: []
@@ -33,12 +42,19 @@ export default {
       return 'http://47.97.248.244/static/emoji/' + url
     },
     view (item) {
-      // this.$refs.bigImg.imgSrc = this.calcPath(item)
       window.open(this.calcPath(item))
     }
   },
-  components: {
-    // bigImg
+  computed:{
+    emojiFilter () {
+      var query = this.query.trim().toLowerCase()
+      if (!query) {
+        return this.data
+      }
+      return this.data.filter((fileName) => {
+        return fileName.toLowerCase().includes(query)
+      })
+    }
   }
 }
 </script>

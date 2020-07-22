@@ -1198,7 +1198,7 @@
       {
         "nameMonth": "1月26日",
         "title": "SNH48春晚特别公演",
-        "description": "陈俊羽，朱小丹，杨令仪加入,初日,SPY,莫寒2018年度剧场MVP",
+        "description": "陈俊羽，朱小丹，杨令仪加入,初日,SPY,莫寒2018年度剧场MVP,莫寒卸任副队长，戴萌卸任正队长，钱蓓婷正队长，戴萌副队长",
         "type": "blue",
         "url": "https://www.bilibili.com/video/av41792313"
       },
@@ -2003,6 +2003,13 @@
         "url": "https://www.bilibili.com/video/av3458812"
       },
       {
+        "nameMonth": "9月13日",
+        "title":"剧场两周年特别公演",
+        "description":"戴萌正队长，莫寒副队长",
+        "type":"blue",
+        "url":"https://www.bilibili.com/video/av2906267"
+      },
+      {
         "nameMonth": "7月25日",
         "title": "SNH48 GROUP 第二届年度总决选 《梦想高飞》",
         "description": "",
@@ -2053,6 +2060,13 @@
         "description": "第3名《恋爱捉迷藏》：沈之琳,第7名《爱恨的泪》：莫寒、袁雨桢,第12名《禁忌的爱》：邱欣怡、吴哲晗,第13名《夕阳下的约定》：李宇琪,第14名《生命之风》：Team SII,第15名《开拓者》：Team SII,第18名《黑白格子裙》：Team SII,第19名《神魂颠倒》：孔肖吟,第20名《黑天使》：陈观慧、李宇琪、沈之琳,第21名《心型病毒》：许佳琪、徐子轩、温晶婕,第22名《流着泪微笑》：徐晨辰,第24名《借口》：Team SII,第26名《爱的幸运曲奇》：Team SII,第27名《纯情主义》：戴萌、陈思、钱蓓婷,第28名《不眠之夜》：莫寒、李宇琪、许佳琪",
         "type": "black",
         "url": "http://www.iqiyi.com/w_19rwcs0pd1.html"
+      },
+      {
+        "nameMonth": "1月3日",
+        "title": "《勇气重生》第19场，莫寒生日公演",
+        "description": "同手同脚",
+        "type": "blue",
+        "url": "https://www.bilibili.com/video/av4169885"
       }
     ]
   },
@@ -2159,6 +2173,12 @@
         "summarize": "SNH48首场万人演唱会",
         "type": "black",
         "url": "https://www.bilibili.com/video/av13036174"
+      },
+      {
+        "nameMonth": "11月11日",
+        "title": "TeamSII 建队，莫寒正队长",
+        "type": "black",
+        "url": "https://www.bilibili.com/video/BV1Lx4116732"
       },
       {
         "nameMonth": "8月30日 19:00",
