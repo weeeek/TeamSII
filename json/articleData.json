@@ -33,11 +33,17 @@
   {
     "member": true,
     "finish": true,
-    "name": "火鸟",
+    "name": "前SNH48成员董芷依回忆录",
     "author": {
       "name": "前SNH48-董芷依",
-      "link": "https://www.zhihu.com/question/52887964/answer/168996096"
-    }
+      "link": ""
+    },
+    "articles": [
+      {
+        "url": "https://www.zhihu.com/question/52887964/answer/168996096",
+        "title": "火鸟"
+      }
+    ]
   },
   {
     "member": true,
@@ -357,7 +363,7 @@
   },
   {
     "member": false,
-    "finish": false,
+    "finish": true,
     "name": "孙芮的一天",
     "author": {
       "name": "不傲",
