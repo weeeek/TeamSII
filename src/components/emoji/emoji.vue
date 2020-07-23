@@ -1,10 +1,11 @@
 <template>
   <div id="emoji-container">
-    <div class="block">
-      <a class="button blue skew" target="_blank" href="https://weibo.com/p/10080895b3a71856d76c4435c477e4ac01e57a/super_index">#勇气重生419#</a>
-      <a class="button blue skew" target="_blank" href="https://weibo.com/p/100808eaa925a8fccc2a30cfcc7079d5e4fbc1/super_index">#艾斯兔表情包#</a>
-      
-      <button>上传</button>
+    <div class="block flex">
+      <button class="btn-3d" onclick="window.open(`https://weibo.com/p/10080895b3a71856d76c4435c477e4ac01e57a/super_index`)">#勇气重生419#</button>
+      <button class="btn-3d" onclick="window.open(`https://weibo.com/p/100808eaa925a8fccc2a30cfcc7079d5e4fbc1/super_index`)">#艾斯兔表情包#</button>
+      <div class="flex-grow">
+        <button class="btn-3d float-right">上传</button>
+      </div>
     </div>
     <div class="block flex">
       <div class="search flex-grow">
@@ -47,7 +48,7 @@ export default {
       window.open(this.calcPath(item))
     }
   },
-  computed:{
+  computed: {
     emojiFilter () {
       var query = this.query.trim().toLowerCase()
       if (!query) {
@@ -63,7 +64,7 @@ export default {
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
 @import '~common/stylus/waterfall'
-@import '~common/stylus/bonbonbutton'
+@import '~common/stylus/3dButton'
 
 @media screen and (min-width 1366px)
   #emoji-container

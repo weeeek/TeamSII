@@ -350,6 +350,30 @@
         "songs": [
           {
             "image": {
+              "url": "//i1.hdslb.com/bfs/archive/c4c1cf0a2751552abc900ae42865673b6bd24ec2.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "刘增艳"
+            ],
+            "id": 862635,
+            "mid": "003VR5qW25l5FV",
+            "name": "花束",
+            "interval": 287,
+            "url": "http://47.97.248.244/static/music/刘增艳-花束.mp3",
+            "play": [
+              {
+                "player": "増える",
+                "type": "bilibili",
+                "url": "https://www.bilibili.com/video/av19597247"
+              }
+            ],
+            "opern": null
+          },
+          {
+            "image": {
               "url": "//i1.hdslb.com/bfs/archive/845e85793fd990083922a7b7436cf571eba561dd.jpg",
               "left": "50%",
               "top": "50%",
