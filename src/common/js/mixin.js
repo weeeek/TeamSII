@@ -133,3 +133,28 @@ export const searchMixin = {
     ])
   }
 }
+
+export const trasferMixin = {
+  methods: {
+    getVideoPlayUrl (videoinfo) {
+      switch (videoinfo.from) {
+        case `BV`:
+          return `https://www.bilibili.com/video/BV${videoinfo.url}`
+        case `B`:
+          return `https://www.bilibili.com/video/av${videoinfo.url}`
+        case `Q`:
+          return `https://v.qq.com/detail/s/${videoinfo.url}.html`
+        case `S`:
+          return `https://tv.sohu.com/${videoinfo.url}`
+        case `I`:
+          return `https://www.iqiyi.com/${videoinfo.url}.html`
+        case `W`:
+          return `https://weibo.com/p/${videoinfo.url}`
+        case `Server`:
+          return `http://47.97.248.244/static/${videoinfo.url}`
+        default:
+          return videoinfo.url
+      }
+    }
+  },
+}

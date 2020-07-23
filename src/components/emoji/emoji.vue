@@ -3,9 +3,11 @@
     <div class="block">
       <a class="button blue skew" target="_blank" href="https://weibo.com/p/10080895b3a71856d76c4435c477e4ac01e57a/super_index">#勇气重生419#</a>
       <a class="button blue skew" target="_blank" href="https://weibo.com/p/100808eaa925a8fccc2a30cfcc7079d5e4fbc1/super_index">#艾斯兔表情包#</a>
+      
+      <button>上传</button>
     </div>
-    <div class="block">
-      <div class="search">
+    <div class="block flex">
+      <div class="search flex-grow">
         <search :placeholder="'搜索关键字（用单英文空格分隔）'" @query="onQueryChange"></search>
       </div>
     </div>

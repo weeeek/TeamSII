@@ -55,9 +55,14 @@
         <span class="tab-link">直拍</span>
       </router-link>
     </keep-alive>
-    <keep-alive>
+    <!-- <keep-alive>
       <router-link tag="div" class="tab-item" to="/entertainment">
         <span class="tab-link">赛事</span>
+      </router-link>
+    </keep-alive> -->
+    <keep-alive>
+      <router-link tag="div" class="tab-item" to="/film">
+        <span class="tab-link">影视</span>
       </router-link>
     </keep-alive>
   </div>

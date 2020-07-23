@@ -20,6 +20,8 @@
 
 <script type="text/ecmascript-6">
 import {getRecommendData} from 'config/recommendData'
+import { trasferMixin } from 'common/js/mixin'
+
 export default {
   name: `RecommendList`,
   created () {
@@ -39,24 +41,6 @@ export default {
     getVideoImage (videoinfo) {
       return videoinfo.img
     },
-    getVideoPlayUrl (videoinfo) {
-      switch (videoinfo.from) {
-        case `BV`:
-          return `https://www.bilibili.com/video/BV${videoinfo.url}`
-        case `B`:
-          return `https://www.bilibili.com/video/av${videoinfo.url}`
-        case `Q`:
-          return `https://v.qq.com/detail/s/${videoinfo.url}.html`
-        case `S`:
-          return `https://tv.sohu.com/v/`
-        case `I`:
-          return `https://www.iqiyi.com/${videoinfo.url}.html`
-        case `W`:
-          return `https://weibo.com/p/${videoinfo.url}`
-        default:
-          return videoinfo.url
-      }
-    },
     getUrl (obj) {
       if (obj.url) {
         return obj.url
@@ -68,7 +52,8 @@ export default {
     return {
       dataList: []
     }
-  }
+  },
+  mixins:[trasferMixin]
 }
 </script>
 

@@ -84,6 +84,12 @@ export default new Router({
         keepAlive: true
       }
     }, {
+      path: '/film',
+      component: (resolve) => require(['@/components/film/film'], resolve),
+      meta: {
+        keepAlive: true
+      }
+    }, {
       path: '/live',
       component: (resolve) => require(['@/components/live/live'], resolve),
       meta: {

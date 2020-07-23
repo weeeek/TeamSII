@@ -113,7 +113,6 @@ export default {
       background-position top center
       background-size contain
       color #2c3e50
-      padding 15px 0
       background-color $color-bg
       .container
         width 1336px
@@ -126,7 +125,6 @@ export default {
       background-position top center
       background-size contain
       color #2c3e50
-      padding 15px 0
       background-color $color-bg
       .container
         width 100%
