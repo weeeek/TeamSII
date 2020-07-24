@@ -188,3 +188,8 @@ export const insertFavoriteSong = function ({commit, state}, song) {
   commit(types.SET_FULL_SCREEN, false)
   commit(types.SET_PLAYING_STATE, true)
 }
+
+
+export const triggerUploader = function({commit}){
+  commit(types.TRIGGER_UPLOADER)
+}

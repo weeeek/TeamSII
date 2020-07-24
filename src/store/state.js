@@ -24,7 +24,11 @@ const state = {
   // topList: {},
   // searchHistory: loadSearch(),
   playHistory: loadPlay(),
-  favoriteList: loadFavorite()
+  favoriteList: loadFavorite(),
+
+
+  // 别的东西
+  uploaderShow: false
 }
 
 export default state

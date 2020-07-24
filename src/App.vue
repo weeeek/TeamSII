@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <music-player></music-player>
+    <uploader v-show="uploaderShow"></uploader>
     <div class="container" :class="{'showMusicPlayer': this.playlist.length > 0}">
       <global-header></global-header>
       <tab></tab>
@@ -18,13 +19,15 @@ import { mapGetters } from 'vuex'
 import GlobalHeader from 'components/global/global-header'
 import Tab from 'components/tab/tab'
 import MusicPlayer from 'components/music/music-play'
+import Uploader from 'components/global/uploader'
 // import Snh48Live2d from 'components/global/snh48-live2d'
 
 export default {
   components: {
     GlobalHeader,
     Tab,
-    MusicPlayer
+    MusicPlayer,
+    Uploader
     // Snh48Live2d
   },
   data () {
@@ -48,7 +51,7 @@ export default {
     }
   },
   computed: {
-    ...mapGetters(['playlist'])
+    ...mapGetters(['playlist','uploaderShow'])
     // showLive2d () {
     //   return this.innerWidth > 1800
     // }

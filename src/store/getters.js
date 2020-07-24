@@ -40,3 +40,7 @@ export const favoriteList = (state) => {
     return new Song(song)
   })
 }
+
+export const uploaderShow = (state) => {
+  return state.uploaderShow
+}
