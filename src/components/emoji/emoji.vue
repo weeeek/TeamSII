@@ -3,9 +3,9 @@
     <div class="block flex">
       <button class="btn-3d" onclick="window.open(`https://weibo.com/p/10080895b3a71856d76c4435c477e4ac01e57a/super_index`)">#勇气重生419#</button>
       <button class="btn-3d" onclick="window.open(`https://weibo.com/p/100808eaa925a8fccc2a30cfcc7079d5e4fbc1/super_index`)">#艾斯兔表情包#</button>
-      <div class="flex-grow">
+      <!-- <div class="flex-grow">
         <button class="btn-3d float-right">上传</button>
-      </div>
+      </div> -->
     </div>
     <div class="block flex">
       <div class="search flex-grow">
@@ -69,7 +69,15 @@ export default {
 @media screen and (min-width 1366px)
   #emoji-container
     padding-bottom 15px
+    button
+      font-size 20px
+      line-height 20px
+      height 40px
 @media screen and (max-width 1366px)
   #emoji-container
-    padding-bottom 10px
+    padding-bottom 10px    
+    button
+      font-size 12px
+      line-height 12px
+      height 24px
 </style>

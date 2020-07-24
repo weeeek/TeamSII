@@ -150,6 +150,8 @@ export const trasferMixin = {
           return `https://www.iqiyi.com/${videoinfo.url}.html`
         case `W`:
           return `https://weibo.com/p/${videoinfo.url}`
+        case `Y`:
+          return `https://v.youku.com/v_show/id_${videoinfo.url}.html`
         case `Server`:
           return `http://47.97.248.244/static/${videoinfo.url}`
         default:

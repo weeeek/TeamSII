@@ -6,7 +6,8 @@
     <div class="header-container">
       <div class="header-control">
         <h1 class="title">{{ title }}</h1>
-        <a href="https://weibo.com/p/100808ece29cf744f4d14b450f0c12999e767b/super_index" target="_blank" class="button blue oval icon" title="微博：SNH48 Team SII 超级话题">微博超级话题</a>
+        <button class="btn-3d" onclick="window.open(`https://weibo.com/p/100808ece29cf744f4d14b450f0c12999e767b/super_index`)">微博超级话题</button>
+        <!-- <a href="https://weibo.com/p/100808ece29cf744f4d14b450f0c12999e767b/super_index" target="_blank" class="button blue oval icon" title="微博：SNH48 Team SII 超级话题">微博超级话题</a> -->
         <!-- <button class="button green skew" title="功能完善中...">签到</button> -->
       </div>
     </div>
@@ -25,7 +26,7 @@
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
-  @import '~common/stylus/bonbonbutton'
+@import '~common/stylus/3dButton'
 
   .global-header
     position relative
@@ -55,6 +56,11 @@
           padding 10px 10px 10px 0
           h1
             font-size 32px
+          button
+            font-size 20px
+            line-height 20px
+            height 40px
+            margin-top 6px
       .logo
         left 20px
         bottom 20px
@@ -81,9 +87,9 @@
             padding 0 0.3em
             line-height 25px
           button
-            font-size 12px
-            line-height 12px
-            height 18px
+            font-size 14px
+            line-height 14px
+            height 24px
       .logo
         left 10px
         bottom 10px

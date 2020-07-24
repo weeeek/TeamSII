@@ -5,18 +5,21 @@
         <search :placeholder="'搜索关键字（用单英文空格分隔）'" @query="onQueryChange"></search>
       </div>
     </div>
-    <div class="waterfall flex-grow">
-      <a
-        :href="getVideoPlayUrl(item)"
-        target="_blank"
-        class="fallitem"
-        v-for="(item) in filmFilter"
-        :key="item.title"
-        :title="item.title"
-      >
-        <img v-lazy="item.img" :alt="item.title" :title="item.title" />
-        <h2>{{ item.title }}</h2>
-      </a>
+    <div class="block-transparent" v-for="data in filmFilter">
+      <h2 style="margin: .5em 0">{{data.type}}</h2>
+      <div class="waterfall flex-grow">
+        <a
+          :href="getVideoPlayUrl(item)"
+          target="_blank"
+          class="fallitem"
+          v-for="item in data.list"
+          :key="item.title"
+          :title="item.title"
+        >
+          <img v-lazy="item.img" :alt="item.title" :title="item.title" />
+          <h2>{{ item.title }}</h2>
+        </a>
+      </div>
     </div>
   </div>
 </template>
@@ -48,9 +51,79 @@ export default {
       if (!query) {
         return this.DataList;
       }
-      return this.DataList.filter(y => {
-        return y.title.toLowerCase().includes(query);
-      });
+      var queryArr = [];
+      var data = [];
+      // 同时包含
+      if (this.query.includes("+")) {
+        queryArr = this.query
+          .trim()
+          .toLowerCase()
+          .split("+");
+        this.timelinelist.map((x, xindex) => {
+          data.push({
+            type: x.type,
+            list: []
+          });
+          x.list.map(y => {
+            let index = 0;
+            let allmatch = true;
+            let target = Object.assign({}, y);
+            while (index < queryArr.length && allmatch) {
+              // 匹配这一个关键词
+              if (
+                y.title.toLowerCase().includes(queryArr[index]) ||
+                y.actor.toLowerCase().includes(queryArr[index])
+              ) {
+                // 替换文本
+                target.title = target.title.replace(
+                  queryArr[index],
+                  '<span class="keywords">' + queryArr[index] + "</span>"
+                );
+                target.actor = target.actor.replace(
+                  queryArr[index],
+                  '<span class="keywords">' + queryArr[index] + "</span>"
+                );
+              } else {
+                allmatch = false;
+              }
+              ++index;
+            }
+            if (allmatch) {
+              data[xindex].list.push(target);
+            }
+          });
+        });
+      } else {
+        // 关键字分割的关键字数组
+        queryArr = this.query
+          .trim()
+          .toLowerCase()
+          .split(" ");
+        this.DataList.map((x, xindex) => {
+          data.push({
+            type: x.type,
+            list: []
+          });
+          x.list.map(y => {
+            let index = 0;
+            let target = Object.assign({}, y);
+            let match = false;
+            while (index < queryArr.length) {
+              if (
+                y.title.toLowerCase().includes(queryArr[index]) ||
+                y.actor.toLowerCase().includes(queryArr[index])
+              ) {
+                match = true;
+              }
+              ++index;
+            }
+            if (match) {
+              data[xindex].list.push(target);
+            }
+          });
+        });
+      }
+      return data
     }
   }
 };
@@ -79,6 +152,7 @@ export default {
     -moz-column-count: 4;
     -webkit-column-count: 4;
     column-count: 4;
+
     .fallitem {
       h2 {
         margin-top: 15px;
@@ -93,6 +167,7 @@ export default {
     -moz-column-count: 3;
     -webkit-column-count: 3;
     column-count: 3;
+
     .fallitem {
       h2 {
         margin-top: 12px;

@@ -31,6 +31,21 @@
     ]
   },
   {
+    "member": "true",
+    "finish": true,
+    "name": "袋王真情实感",
+    "author": {
+      "name": "口袋48-袋王",
+      "link": ""
+    },
+    "articles": [
+      {
+        "url": "http://blog.sina.com.cn/s/blog_145ad79240102wsli.html",
+        "title": "梦想，让时光无需回头"
+      }
+    ]
+  },
+  {
     "member": true,
     "finish": true,
     "name": "前SNH48成员董芷依回忆录",
