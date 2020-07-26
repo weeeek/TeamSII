@@ -63,6 +63,13 @@
       class="favicon favicon-quanmin"
       v-if="data.quanmin"
     ></a>
+    <a
+      :href="`https://oasis.weibo.cn/v1/h5/share?sid=${data.lvzhou}`"
+      :title="`绿洲-${data.name}`"
+      target="_blank"
+      class="favicon favicon-lvzhou"
+      v-if="data.lvzhou"
+    ></a>
   </div>
 </template>
 
@@ -112,4 +119,6 @@ export default {
       background-image url('//kg.qq.com/favicon.ico')
     &.favicon-music-wangyi
       background-image url('//s1.music.126.net/style/favicon.ico')
+    &.favicon-lvzhou
+      background-image url('//oasis.weibo.cn/static/image/logo96.png')
 </style>

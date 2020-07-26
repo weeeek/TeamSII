@@ -10,6 +10,7 @@
         "id": "95594516797"
       },
       "changba": "150709347",
+      "lvzhou": 4525589572264535,
       "miaopai": null,
       "pocket48": {
         "id": 3,
@@ -49,6 +50,7 @@
       "bilibili": "12294969",
       "douyin": null,
       "changba": null,
+      "lvzhou": 4530228485955628,
       "miaopai": null,
       "pocket48": {
         "id": 0,
@@ -70,6 +72,7 @@
         "id": "61363027939"
       },
       "changba": null,
+      "lvzhou": 4530692674029806,
       "miaopai": null,
       "pocket48": {
         "id": 38,
@@ -91,6 +94,7 @@
         "id": "60912589230"
       },
       "changba": "46716517",
+      "lvzhou": 4530228636685834,
       "miaopai": null,
       "pocket48": {
         "id": 17,
@@ -112,6 +116,7 @@
         "id": "75478657854"
       },
       "changba": "147320351",
+      "lvzhou": 4530288354408054,
       "miaopai": null,
       "pocket48": {
         "id": 19,
@@ -151,6 +156,7 @@
       "bilibili": "480894363",
       "douyin": null,
       "changba": null,
+      "lvzhou": 4530279736150004,
       "miaopai": null,
       "pocket48": {
         "id": 0,
@@ -172,6 +178,7 @@
         "id": "97575976658"
       },
       "changba": null,
+      "lvzhou": 4525606232503206,
       "wangyiCloud": 389979421,
       "acfun": 4214570,
       "miaopai": null,
@@ -195,6 +202,7 @@
         "id": "96585259273"
       },
       "changba": null,
+      "lvzhou": 4530241806021478,
       "miaopai": null,
       "pocket48": {
         "id": 35,
@@ -216,6 +224,7 @@
         "id": "94481054620"
       },
       "changba": null,
+      "lvzhou": 4531011898312794,
       "miaopai": "https://www.miaopai.comu/paike_f77xpyubxr",
       "pocket48": {
         "id": 36,
@@ -237,6 +246,7 @@
         "id": "57476731686"
       },
       "changba": null,
+      "lvzhou": 4530261092734096,
       "miaopai": null,
       "pocket48": {
         "id": 40,
@@ -258,6 +268,7 @@
         "id": "58050466587"
       },
       "changba": null,
+      "lvzhou": 4522953109490234,
       "miaopai": null,
       "pocket48": {
         "id": 8,
@@ -279,6 +290,7 @@
         "id": "79294218830"
       },
       "changba": null,
+      "lvzhou": 4530911780278663,
       "miaopai": null,
       "pocket48": {
         "id": 6737,
@@ -297,6 +309,7 @@
       "bilibili": "355647007",
       "douyin": null,
       "changba": null,
+      "lvzhou": 4530225876053748,
       "miaopai": null,
       "pocket48": {
         "id": 11,
@@ -319,6 +332,7 @@
       },
       "quanmin": "6b9e9c802628368f30",
       "changba": null,
+      "lvzhou": 4530249179604571,
       "miaopai": null,
       "pocket48": {
         "id": 0,
@@ -340,6 +354,7 @@
         "id": "61360812916"
       },
       "changba": "119484593",
+      "lvzhou": 4529473682408112,
       "miaopai": null,
       "pocket48": {
         "id": 39,
@@ -361,6 +376,7 @@
         "id": "58423660275"
       },
       "changba": "99463480",
+      "lvzhou": 4530634150910116,
       "weibomusic": "http://music.weibo.com/t/s/3050758665.html",
       "miaopai": null,
       "pocket48": {
@@ -383,6 +399,7 @@
         "id": "57825100366"
       },
       "changba": null,
+      "lvzhou": 4521646280409366,
       "miaopai": null,
       "pocket48": {
         "id": 21,
@@ -405,6 +422,7 @@
         "id": "109340794499"
       },
       "changba": null,
+      "lvzhou": 4530221041326013,
       "miaopai": null,
       "pocket48": {
         "id": 0,
@@ -426,6 +444,7 @@
         "id": "94405513146"
       },
       "changba": "58705105",
+      "lvzhou": 4529910234743225,
       "miaopai": null,
       "pocket48": {
         "id": 5,
@@ -447,6 +466,7 @@
         "id": "93454322158"
       },
       "changba": null,
+      "lvzhou": 4530664827519602,
       "miaopai": null,
       "pocket48": {
         "id": 1,
@@ -521,6 +541,7 @@
         "id": "97775160809"
       },
       "changba": "291711662",
+      "lvzhou": 4531002259277340,
       "miaopai": null,
       "pocket48": {
         "id": 399631,
@@ -552,7 +573,7 @@
     }
   ],
   "exitMemberData": [
-      {
+    {
       "name": "王贝妮",
       "photo": "http://www.snh48.com/images/member/zp_10226.jpg",
       "weibo": "u/7337598871",
@@ -573,7 +594,7 @@
         "id": "0"
       }
     },
-     {
+    {
       "name": "陈俊羽",
       "photo": "http://www.snh48.com/images/member/zp_10206.jpg",
       "weibo": "u/6501690381",

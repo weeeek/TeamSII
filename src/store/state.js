@@ -28,7 +28,8 @@ const state = {
 
 
   // 别的东西
-  uploaderShow: false
+  uploaderShow: false,
+  uploadType: ''
 }
 
 export default state

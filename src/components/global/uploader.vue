@@ -1,45 +1,49 @@
 <template>
-  <div class="layer">
-    <form class="uploader">
-      <p class="name">
-        <select name="Type" id="type" v-model="formData.Type" disabled>
-          <option value="Emoji">表情包</option>
-          <option value="Painting">手绘</option>
-        </select>
-        <label for="type">类型</label>
-      </p>
-      <p class="email">
-        <input type="text" name="Key" id="key" v-model="formData.Key" />
-        <label for="key">关键字</label>
-      </p>
-      <p class="file">
-        <input type="file" name="File" id="file" accept="image/*" v-on:change="tirggerFile" />
-        <label for="key">文件</label>
-      </p>
-      <div class="flex">
-        <button class="btn-3d" @click="onSubmit">提交</button>
-        <button class="btn-3d" @click="triggerUploader">取消</button>
+  <div class="layer" @click="triggerUploader">
+    <center>
+      <div slot class="uploader">
+        <form>
+          <p class="name">
+            <select name="Type" id="type" class="select-3d" v-model="uploadType" disabled>
+              <option value="Emoji">表情包</option>
+              <option value="Painting">手绘</option>
+            </select>
+            <label for="type">类型{{uploadType}}</label>
+          </p>
+          <p class="email">
+            <input type="text" name="Key" id="key" v-model="formData.Key" />
+            <label for="key">关键字</label>
+          </p>
+          <p class="file">
+            <input type="file" name="File" id="file" accept="image/*" v-on:change="tirggerFile" />
+            <label for="key">文件</label>
+          </p>
+        </form>
+        <div class="flex">
+          <button class="btn-3d" @click="onSubmit">提交</button>
+          <button class="btn-3d" @click="triggerUploader">取消</button>
+        </div>
       </div>
-    </form>
+    </center>
   </div>
 </template>
 
 <script>
-import { mapActions } from "vuex";
+import Center from "./center";
+import { mapActions, mapGetters } from "vuex";
 import { webProxyServer } from "config/common";
 export default {
-  name: "uploader",
   data() {
     return {
       formData: {
         Type: "",
         Key: "",
-        File: null
-      }
+        File: null,
+      },
     };
   },
   methods: {
-    tirggerFile: function(event) {
+    tirggerFile: function (event) {
       var file = event.target.files; // (利用console.log输出看结构就知道如何处理档案资料)
       this.formData.File = event.target.files;
     },
@@ -49,23 +53,30 @@ export default {
 
       /* formData格式提交： */
       let formData = new FormData();
+      formData.append('Type', this.uploadType)
       for (var key in this.formData) {
         formData.append(key, this.formData[key]);
       }
-
+      
       axios({
         method: "post",
         url: `${webProxyServer}api/UploadFile`,
         headers: {
-          "Content-Type": "multipart/form-data"
+          "Content-Type": "multipart/form-data",
         },
         withCredentials: true,
-        data: formData
-      }).then(res => {
+        data: formData,
+      }).then((res) => {
         console.log(res);
       });
     },
-    ...mapActions(["triggerUploader"])
+    ...mapActions(["triggerUploader"]),
+  },
+  computed:{
+    ...mapGetters(['uploadType'])
+  },
+  components: {
+    Center
   }
 };
 </script>
@@ -80,11 +91,15 @@ export default {
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, 0.6);
+  z-index: 2147483647;
 
   .uploader {
     width: 100%;
     max-width: 500px;
-    background white
+    margin: 0 auto;
+    background: white;
+    padding: 10px;
+
     label {
       margin-left: 10px;
       color: #999999;

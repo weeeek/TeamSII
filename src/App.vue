@@ -51,7 +51,7 @@ export default {
     }
   },
   computed: {
-    ...mapGetters(['playlist','uploaderShow'])
+    ...mapGetters(['playlist', 'uploaderShow'])
     // showLive2d () {
     //   return this.innerWidth > 1800
     // }

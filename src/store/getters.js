@@ -44,3 +44,7 @@ export const favoriteList = (state) => {
 export const uploaderShow = (state) => {
   return state.uploaderShow
 }
+
+export const uploadType = (state) => {
+  return state.uploadType
+}
