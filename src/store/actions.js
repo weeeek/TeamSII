@@ -194,5 +194,6 @@ export const triggerUploader = function({commit}){
 }
 
 export const setUploadType = function({commit, state}, type){
+  console.log(type)
   commit(types.UPLOAD_TYPE, type)
 }

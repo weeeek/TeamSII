@@ -1,29 +1,31 @@
 <template>
-  <div class="layer" @click="triggerUploader">
+  <div class="layer">
     <center>
-      <div slot class="uploader">
-        <form>
-          <p class="name">
-            <select name="Type" id="type" class="select-3d" v-model="uploadType" disabled>
+      <div slot class="uploader flex flex-column" v-if="!showAlert">
+        <div class="flex-grow">
+          <div class="select" v-if="!Lock">
+            <select name="Type" v-model="formData.Type">
               <option value="Emoji">表情包</option>
               <option value="Painting">手绘</option>
             </select>
-            <label for="type">类型{{uploadType}}</label>
-          </p>
-          <p class="email">
-            <input type="text" name="Key" id="key" v-model="formData.Key" />
-            <label for="key">关键字</label>
-          </p>
-          <p class="file">
-            <input type="file" name="File" id="file" accept="image/*" v-on:change="tirggerFile" />
-            <label for="key">文件</label>
-          </p>
-        </form>
-        <div class="flex">
+          </div>
+          <input disabled type="text" name="Type" id="Type" v-model="formData.Type" v-if="Lock" />
+          <label for="key">类型</label>
+        </div>
+        <div class="email flex-grow">
+          <input type="text" name="Key" id="key" v-model="formData.Key" />
+          <label for="key">关键字</label>
+        </div>
+        <div class="file flex-grow">
+          <input type="file" name="File" id="file" accept="image/*" v-on:change="tirggerFile" />
+          <label for="key">文件</label>
+        </div>
+        <div class="flex flex-grow flex-justify-between">
           <button class="btn-3d" @click="onSubmit">提交</button>
           <button class="btn-3d" @click="triggerUploader">取消</button>
         </div>
       </div>
+      <div slot v-if="showAlert" style="color: white">感谢聚聚对本站的贡献，审核通过后更新数据</div>
     </center>
   </div>
 </template>
@@ -32,9 +34,11 @@
 import Center from "./center";
 import { mapActions, mapGetters } from "vuex";
 import { webProxyServer } from "config/common";
+import axios from "axios";
 export default {
   data() {
     return {
+      showAlert: false,
       formData: {
         Type: "",
         Key: "",
@@ -53,11 +57,11 @@ export default {
 
       /* formData格式提交： */
       let formData = new FormData();
-      formData.append('Type', this.uploadType)
+      // formData.append("Type", this.uploadType);
       for (var key in this.formData) {
         formData.append(key, this.formData[key]);
       }
-      
+
       axios({
         method: "post",
         url: `${webProxyServer}api/UploadFile`,
@@ -67,17 +71,31 @@ export default {
         withCredentials: true,
         data: formData,
       }).then((res) => {
-        console.log(res);
+        this.showAlert = true;
+        this.$setTimeout(() => {
+          this.triggerUploader();
+        }, 3000);
       });
     },
     ...mapActions(["triggerUploader"]),
   },
-  computed:{
-    ...mapGetters(['uploadType'])
+  computed: {
+    ...mapGetters(["uploadType"]),
+  },
+  watch: {
+    uploadType(v) {
+      this.formData.Type = v;
+    },
   },
   components: {
-    Center
-  }
+    Center,
+  },
+  props: {
+    Lock: {
+      type: Boolean,
+      default: true,
+    },
+  },
 };
 </script>
 
@@ -96,6 +114,8 @@ export default {
   .uploader {
     width: 100%;
     max-width: 500px;
+    height: 100%;
+    max-height: 560px;
     margin: 0 auto;
     background: white;
     padding: 10px;

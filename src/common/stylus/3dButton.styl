@@ -1,28 +1,31 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap');
 
-@-webkit-keyframes active {
-  from {
-    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 10px 0px rgba(0, 0, 250, 0.6);
-  }
-  to {
-    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
-  }
-}
 @keyframes active {
   from {
     box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 10px 0px rgba(0, 0, 250, 0.6);
   }
+
   to {
     box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
   }
 }
 
-button.btn-3d{
+@keyframes active {
+  from {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 10px 0px rgba(0, 0, 250, 0.6);
+  }
+
+  to {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
+  }
+}
+
+button.btn-3d {
   -webkit-appearance: none;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,104 +38,132 @@ button.btn-3d{
   border: 1px solid #8F9092;
   box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 0 #CECFD1;
   transition: all 0.2s ease;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
   font-weight: 600;
   color: #606060;
   text-shadow: 0 1px #fff;
 }
-button.btn-3d::-moz-focus-inner,
-[role="button"]::-moz-focus-inner {
+
+button.btn-3d::-moz-focus-inner, [role='button']::-moz-focus-inner {
   border: 0;
 }
-button.btn-3d > *,
-[role="button"].btn-3d > * {
+
+button.btn-3d > *, [role='button'].btn-3d > * {
   transition: -webkit-transform 0.2s ease;
   transition: transform 0.2s ease;
   transition: transform 0.2s ease, -webkit-transform 0.2s ease;
 }
-button.btn-3d:hover:not([disabled]),
-[role="button"]:hover:not([disabled]) {
+
+button.btn-3d:hover:not([disabled]), [role='button']:hover:not([disabled]) {
   box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
 }
-button.btn-3d:hover:not([disabled]) > *,
-[role="button"]:hover:not([disabled]) > * {
+
+button.btn-3d:hover:not([disabled]) > *, [role='button']:hover:not([disabled]) > * {
   -webkit-transform: scale(0.975);
-          transform: scale(0.975);
+  transform: scale(0.975);
 }
-button.btn-3d:focus:not(:active),
-[role="button"].btn-3d:focus:not(:active) {
+
+button.btn-3d:focus:not(:active), [role='button'].btn-3d:focus:not(:active) {
   -webkit-animation: active 0.9s alternate infinite;
-          animation: active 0.9s alternate infinite;
+  animation: active 0.9s alternate infinite;
   outline: none;
 }
-button.btn-3d:active:not([disabled]),
-[role="button"]:active:not([disabled]) {
+
+button.btn-3d:active:not([disabled]), [role='button']:active:not([disabled]) {
   box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
 }
-button.btn-3d:active:not([disabled]) > *,
-[role="button"]:active:not([disabled]) > * {
+
+button.btn-3d:active:not([disabled]) > *, [role='button']:active:not([disabled]) > * {
   -webkit-transform: scale(0.95);
-          transform: scale(0.95);
+  transform: scale(0.95);
 }
-button.btn-3d:disabled,
-[role="button"]:disabled {
+
+button.btn-3d:disabled, [role='button']:disabled {
   opacity: 0.6;
   cursor: not-allowed;
 }
-button.btn-3d.icon,
-[role="button"].btn-3d.icon {
+
+button.btn-3d.icon, [role='button'].btn-3d.icon {
   width: 50px;
 }
-button.btn-3d.icon svg,
-[role="button"].btn-3d.icon svg {
+
+button.btn-3d.icon svg, [role='button'].btn-3d.icon svg {
   margin-top: 3px;
   width: 30px;
   height: 30px;
 }
-select.selct-3d {
-		display: inline-block;
-		width: 300px;
-		position: relative;
-		vertical-align: middle;
-		padding: 0;
-		overflow: hidden;
-		background-color: #fff;
-		color: #555;
-		border: 1px solid #aaa;
-		text-shadow: none;
-		border-radius: 4px;	
-		transition: box-shadow 0.25s ease;
-		z-index: 2;
-	}
- 
-	select.selct-3d:hover {
-		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
-	}
- 
-	select.selct-3d:before {
-		content: "";
-		position: absolute;
-		width: 0;
-		height: 0;
-		border: 10px solid transparent;
-		border-top-color: #ccc;
-		top: 14px;
-		right: 10px;
-		cursor: pointer;
-		z-index: -2;
-	}
-	select.selct-3d {
-		cursor: pointer;
-		padding: 10px;
-		width: 100%;
-		border: none;
-		background: transparent;
-		background-image: none;
-		-webkit-appearance: none;
-		-moz-appearance: none;
-	}
- 
-	select.selct-3d:focus {
-		outline: none;
-  }
+
+.select {
+  display: inline-block;
+  width: 200px;
+  position: relative;
+  vertical-align: middle;
+  padding: 0;
+  overflow: hidden;
+  background: #fff;
+  color: #555;
+  border: 1px solid #aaa;
+  text-shadow: none;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-transition: box-shadow 0.25s ease;
+  -o-transition: box-shadow 0.25s ease;
+  -webkit-transition: box-shadow 0.25s ease;
+  transition: box-shadow 0.25s ease;
+}
+
+.select:hover {
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.select:before {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  pointer-events: none;
+}
+
+.select select {
+  cursor: pointer;
+  padding: 0.5em;
+  padding-right: 2em;
+  width: 100%;
+  border: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+}
+
+.select select:focus {
+  outline: none;
+}
+
+.select:before {
+  font-family: 'icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.select:before {
+  content: '\e600';
+}
+
+@font-face {
+  font-family: 'icons';
+  src: url('data:application/font-woff;charset=utf-8;base64,d09GRk9UVE8AAARgAAoAAAAABBgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABDRkYgAAAA9AAAANgAAADYZbVvCE9TLzIAAAHMAAAAYAAAAGAIIvy2Y21hcAAAAiwAAABMAAAATBpVzFdnYXNwAAACeAAAAAgAAAAIAAAAEGhlYWQAAAKAAAAANgAAADYAl8viaGhlYQAAArgAAAAkAAAAJANuAeZobXR4AAAC3AAAABQAAAAUAwAAdG1heHAAAALwAAAABgAAAAYABVAAbmFtZQAAAvgAAAFFAAABRVcZpu5wb3N0AAAEQAAAACAAAAAgAAMAAAEABAQAAQEBCGljb21vb24AAQIAAQA6+BwC+BsD+BgEHgoAGVP/i4seCgAZU/+LiwwHi2v4lPh0BR0AAAB2Dx0AAAB7ER0AAAAJHQAAAM8SAAYBAQgPERMWG2ljb21vb25pY29tb29udTB1MXUyMHVFNjAwAAACAYkAAwAFAQEEBwoNTPyUDvyUDvyUDvuUDvgg958VgYD7AiOLi4aFg4iEi4SLg46GkYuL+wLzgZaAloqel5eWlpqMmX8I7yvv6wWZl5qKloCXf4p4gIAIDviUFPiUFYsMCgADAgABkAAFAAABTAFmAAAARwFMAWYAAAD1ABkAhAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAEAAAOYAAeD/4P/gAeAAIAAAAAEAAAAAAAAAAAAAACAAAAAAAAIAAAADAAAAFAADAAEAAAAUAAQAOAAAAAoACAACAAIAAQAg5gD//f//AAAAAAAg5gD//f//AAH/4xoEAAMAAQAAAAAAAAAAAAAAAQAB//8ADwABAAAAAQAAss1nQF8PPPUACwIAAAAAAM/2xdgAAAAAz/bF2AAAAAABjAE1AAAACAACAAAAAAAAAAEAAAHg/+AAAAIAAAAAAAGMAAEAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAQAAAAIAAHQAAFAAAAUAAAAAAA4ArgABAAAAAAABAA4AAAABAAAAAAACAA4ARwABAAAAAAADAA4AJAABAAAAAAAEAA4AVQABAAAAAAAFABYADgABAAAAAAAGAAcAMgABAAAAAAAKADQAYwADAAEECQABAA4AAAADAAEECQACAA4ARwADAAEECQADAA4AJAADAAEECQAEAA4AVQADAAEECQAFABYADgADAAEECQAGAA4AOQADAAEECQAKADQAYwBpAGMAbwBtAG8AbwBuAFYAZQByAHMAaQBvAG4AIAAxAC4AMABpAGMAbwBtAG8AbwBuaWNvbW9vbgBpAGMAbwBtAG8AbwBuAFIAZQBnAHUAbABhAHIAaQBjAG8AbQBvAG8AbgBGAG8AbgB0ACAAZwBlAG4AZQByAGEAdABlAGQAIABiAHkAIABJAGMAbwBNAG8AbwBuAC4AAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

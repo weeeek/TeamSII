@@ -9,9 +9,9 @@
         class="btn-3d"
         onclick="window.open(`https://weibo.com/p/100808eaa925a8fccc2a30cfcc7079d5e4fbc1/super_index`)"
       >#艾斯兔表情包#</button>
-      <div class="flex-grow">
-        <button class="btn-3d float-right" @click="triggerUploader">上传</button>
-      </div>
+      <!-- <div class="flex-grow">
+        <button class="btn-3d float-right" @click="upload">上传</button>
+      </div> -->
     </div>
     <div class="block flex">
       <div class="search flex-grow">
