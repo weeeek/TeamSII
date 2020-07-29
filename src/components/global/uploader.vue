@@ -1,7 +1,7 @@
 <template>
   <div class="layer">
     <center>
-      <div slot class="uploader flex flex-column" v-if="!showAlert">
+      <div slot class="uploader flex flex-column" v-if="!showAlert && !showLoading">
         <div class="flex-grow">
           <div class="select" v-if="!Lock">
             <select name="Type" v-model="formData.Type">
@@ -26,6 +26,10 @@
         </div>
       </div>
       <div slot v-if="showAlert" style="color: white">感谢聚聚对本站的贡献，审核通过后更新数据</div>
+      <div slot v-if="showLoading">
+        <div class="loading"></div>
+        <p class="text-center">上传中</p>
+      </div>
     </center>
   </div>
 </template>
@@ -38,6 +42,7 @@ import axios from "axios";
 export default {
   data() {
     return {
+      showLoading: false,
       showAlert: false,
       formData: {
         Type: "",
@@ -62,7 +67,7 @@ export default {
       for (var key in this.formData) {
         formData.append(key, this.formData[key]);
       }
-
+      _vm.showLoading = true;
       axios({
         method: "post",
         url: `${webProxyServer}File/Upload`,
@@ -72,8 +77,11 @@ export default {
         withCredentials: true,
         data: formData,
       }).then((res) => {
+        _vm.showLoading = false;
         _vm.showAlert = true;
         setTimeout(() => {
+          _vm.showAlert = false;
+          (_vm.formData.Key = ""), (_vm.formData.File = null);
           _vm.triggerUploader();
         }, 3000);
       });
@@ -101,6 +109,7 @@ export default {
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
+@import '~common/stylus/variable';
 @import '~common/stylus/3dButton';
 
 .layer {
@@ -112,12 +121,23 @@ export default {
   background: rgba(0, 0, 0, 0.6);
   z-index: 2147483647;
 
+  .loading {
+    background: url('data:image/gif;base64,R0lGODlhJQAlAJECAL3L2AYrTv///wAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgACACwAAAAAJQAlAAACi5SPqcvtDyGYIFpF690i8xUw3qJBwUlSadmcLqYmGQu6KDIeM13beGzYWWy3DlB4IYaMk+Dso2RWkFCfLPcRvFbZxFLUDTt21BW56TyjRep1e20+i+eYMR145W2eefj+6VFmgTQi+ECVY8iGxcg35phGo/iDFwlTyXWphwlm1imGRdcnuqhHeop6UAAAIfkEBQoAAgAsEAACAAQACwAAAgWMj6nLXAAh+QQFCgACACwVAAUACgALAAACFZQvgRi92dyJcVJlLobUdi8x4bIhBQAh+QQFCgACACwXABEADAADAAACBYyPqcsFACH5BAUKAAIALBUAFQAKAAsAAAITlGKZwWoMHYxqtmplxlNT7ixGAQAh+QQFCgACACwQABgABAALAAACBYyPqctcACH5BAUKAAIALAUAFQAKAAsAAAIVlC+BGL3Z3IlxUmUuhtR2LzHhsiEFACH5BAUKAAIALAEAEQAMAAMAAAIFjI+pywUAIfkEBQoAAgAsBQAFAAoACwAAAhOUYJnAagwdjGq2amXGU1PuLEYBACH5BAUKAAIALBAAAgAEAAsAAAIFhI+py1wAIfkEBQoAAgAsFQAFAAoACwAAAhWUL4AIvdnciXFSZS6G1HYvMeGyIQUAIfkEBQoAAgAsFwARAAwAAwAAAgWEj6nLBQAh+QQFCgACACwVABUACgALAAACE5RgmcBqDB2MarZqZcZTU+4sRgEAIfkEBQoAAgAsEAAYAAQACwAAAgWEj6nLXAAh+QQFCgACACwFABUACgALAAACFZQvgAi92dyJcVJlLobUdi8x4bIhBQAh+QQFCgACACwBABEADAADAAACBYSPqcsFADs=') no-repeat center center;
+    width: 100px;
+    height: 100px;
+
+    &+.text-center {
+      color: white;
+      text-shadow: 0 0 5px #fff, 0 0 10px $color-team-sii, 0 0 15px $color-team-sii, 0 0 20px $color-team-sii, 0 0 35px $color-team-sii, 0 0 40px $color-team-sii, 0 0 50px $color-team-sii, 0 0 75px $color-team-sii;
+    }
+  }
+
   .uploader {
     width: 100%;
     max-width: 500px;
     height: 100%;
     max-height: 560px;
-    min-height 300px;
+    min-height: 300px;
     margin: 0 auto;
     background: white;
     padding: 10px;
