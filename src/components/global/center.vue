@@ -12,16 +12,15 @@ export default {}
 
 <style lang="stylus" scoped>
 .center-block
-    height 100%
-    width 100%
-    .center-column
+  height 100%
+  width 100%
+  &:before
+  &:after
+    content ''
+    flex-grow 1
+  .center-column
     &:before
     &:after
         content ''
         flex-grow 1
-        .center-slot
-        &:before
-        &:after
-            content ''
-            flex-grow 1
 </style>

@@ -48,10 +48,11 @@ export default {
   },
   methods: {
     tirggerFile: function (event) {
-      var file = event.target.files; // (利用console.log输出看结构就知道如何处理档案资料)
-      this.formData.File = event.target.files;
+      var file = event.target.files[0]; // (利用console.log输出看结构就知道如何处理档案资料)
+      this.formData.File = event.target.files[0];
     },
     onSubmit() {
+      let _vm = this;
       /* json格式提交： */
       // let formData = JSON.stringify(this.formData);
 
@@ -64,16 +65,16 @@ export default {
 
       axios({
         method: "post",
-        url: `${webProxyServer}api/UploadFile`,
+        url: `${webProxyServer}File/Upload`,
         headers: {
           "Content-Type": "multipart/form-data",
         },
         withCredentials: true,
         data: formData,
       }).then((res) => {
-        this.showAlert = true;
-        this.$setTimeout(() => {
-          this.triggerUploader();
+        _vm.showAlert = true;
+        setTimeout(() => {
+          _vm.triggerUploader();
         }, 3000);
       });
     },
@@ -116,6 +117,7 @@ export default {
     max-width: 500px;
     height: 100%;
     max-height: 560px;
+    min-height 300px;
     margin: 0 auto;
     background: white;
     padding: 10px;
