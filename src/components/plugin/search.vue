@@ -55,7 +55,6 @@
     box-sizing: border-box
     width: 100%
     padding: 0 6px
-    height: 40px
     background: $color-bg
     border-radius: 6px
     svg
@@ -76,4 +75,16 @@
     .icon-dismiss
       font-size: 16px
       color: $color-bg
+
+@media screen and (min-width 1366px)
+  .search-box
+    height 40px
+
+@media screen and (max-width 1366px) and (min-width 768px) 
+  .search-box
+    height 32px
+
+@media screen and (max-width 768px) 
+  .search-box
+    height 24px
 </style>

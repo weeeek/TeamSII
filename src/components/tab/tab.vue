@@ -62,7 +62,7 @@
     </keep-alive> -->
     <keep-alive>
       <router-link tag="div" class="tab-item" to="/film">
-        <span class="tab-link">影视</span>
+        <span class="tab-link">影综</span>
       </router-link>
     </keep-alive>
   </div>

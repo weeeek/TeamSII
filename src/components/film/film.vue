@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="block-transparent" v-for="data in filmFilter">
-      <h2 style="margin: .5em 0">{{data.type}}</h2>
+      <h2 style="margin: .5em 0" v-if="data.list.length > 0">{{data.type}}</h2>
       <div class="waterfall flex-grow">
         <a
           :href="getVideoPlayUrl(item)"
@@ -59,7 +59,7 @@ export default {
           .trim()
           .toLowerCase()
           .split("+");
-        this.timelinelist.map((x, xindex) => {
+        this.DataList.map((x, xindex) => {
           data.push({
             type: x.type,
             list: []
@@ -71,18 +71,11 @@ export default {
             while (index < queryArr.length && allmatch) {
               // 匹配这一个关键词
               if (
+                !y.actor ||
                 y.title.toLowerCase().includes(queryArr[index]) ||
                 y.actor.toLowerCase().includes(queryArr[index])
               ) {
-                // 替换文本
-                target.title = target.title.replace(
-                  queryArr[index],
-                  '<span class="keywords">' + queryArr[index] + "</span>"
-                );
-                target.actor = target.actor.replace(
-                  queryArr[index],
-                  '<span class="keywords">' + queryArr[index] + "</span>"
-                );
+
               } else {
                 allmatch = false;
               }
@@ -110,6 +103,7 @@ export default {
             let match = false;
             while (index < queryArr.length) {
               if (
+                !y.actor ||
                 y.title.toLowerCase().includes(queryArr[index]) ||
                 y.actor.toLowerCase().includes(queryArr[index])
               ) {
