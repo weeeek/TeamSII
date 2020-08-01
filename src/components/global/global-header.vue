@@ -3,6 +3,7 @@
     <keep-alive>
       <router-link tag="div" class="logo" to="/"></router-link>
     </keep-alive>
+    <div class="app-qrcode" v-lazy:background-image="'http://47.97.248.244/static/images/TeamSIIApp.png'"></div>
     <div class="header-container">
       <div class="header-control">
         <h1 class="title">{{ title }}</h1>
@@ -45,6 +46,11 @@
     .logo
       position absolute
       background-image url('http://47.97.248.244/static/images/flag.jpg')
+    .app-qrcode
+      position absolute
+      background-repeat no-repeat
+      &[lazy="loaded"]
+        background-size cover
   @media screen and (min-width 1366px)
     .global-header
       height 220px
@@ -70,6 +76,14 @@
         border 3px solid #FFF
         box-shadow 0 2px 4px rgba(0,0,0,0.3)
         cursor pointer
+      .app-qrcode
+        right 20px
+        bottom 20px
+        z-index 2
+        width 180px
+        height 180px
+        border 3px solid #FFF
+        box-shadow 0 2px 4px rgba(0,0,0,0.3)
   @media screen and (max-width 1366px)
     .global-header
       height 110px
@@ -100,7 +114,20 @@
         border 3px solid #FFF
         box-shadow 0 2px 4px rgba(0,0,0,0.3)
         cursor pointer
-        
+      .app-qrcode
+        right 10px
+        bottom 10px
+        z-index 2
+        background-size cover
+        width 90px
+        height 90px
+        border 3px solid #FFF
+        box-shadow 0 2px 4px rgba(0,0,0,0.3)
+
+  @media screen and (max-width 450px)
+    .app-qrcode
+      visibility hidden
+      display none
   @media screen and (max-width 320px)
     .global-header
       .header-container
