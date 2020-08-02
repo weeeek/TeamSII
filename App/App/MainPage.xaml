@@ -6,6 +6,6 @@
              mc:Ignorable="d"
              x:Class="App.MainPage">
     <StackLayout>
-        <WebView Source="http://47.97.248.244/TeamSII" HeightRequest="1000" />
+      <WebView x:Name="browser" Source="http://47.97.248.244/TeamSII" HeightRequest="1000" />
     </StackLayout>
 </ContentPage>

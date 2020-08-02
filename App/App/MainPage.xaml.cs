@@ -1,4 +1,5 @@
-﻿using System;
+using App.Services;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -8,14 +9,26 @@ using Xamarin.Forms;
 
 namespace App
 {
-    // Learn more about making custom code visible in the Xamarin.Forms previewer
-    // by visiting https://aka.ms/xamarinforms-previewer
-    [DesignTimeVisible(false)]
-    public partial class MainPage : ContentPage
+  // Learn more about making custom code visible in the Xamarin.Forms previewer
+  // by visiting https://aka.ms/xamarinforms-previewer
+  [DesignTimeVisible(false)]
+  public partial class MainPage : ContentPage
+  {
+    protected override bool OnBackButtonPressed()
     {
-        public MainPage()
-        {
-            InitializeComponent();
-        }
+      if (browser.CanGoBack)
+      {
+        browser.GoBack();
+      }
+      else
+      {
+        base.OnBackButtonPressed();
+      }
+      return true;
     }
+    public MainPage()
+    {
+      InitializeComponent();
+    }
+  }
 }
