@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "type": "影视",
         "list": [
@@ -365,6 +365,13 @@
                 "img": "//pic2.iqiyipic.com/image/20181102/a7/4e/a_100209860_m_601_m1_180_236.jpg"
             },
             {
+                "title":"里约大冒险",
+                "from":"",
+                "actor":"陈思 吴哲晗 孔肖吟 袁雨桢 戴萌 李宇琪 钱蓓婷",
+                "url":"https://space.bilibili.com/12444300/video?keyword=%E9%87%8C%E7%BA%A6",
+                "img": "//i1.hdslb.com/bfs/archive/40ec10096338078a7ce8868990828ab403939958.jpg_380x240.jpg"
+            },
+            {
                 "title": "超神偶像",
                 "from": "",
                 "actor": "莫寒 陈观慧",
@@ -391,6 +398,13 @@
                 "actor": "莫寒 李宇琪",
                 "url": "v_19rrlkr8j4",
                 "img": "http://47.97.248.244/static/film/大学生来了.jpg"
+            },
+            {
+                "title": "抱走吧！爱豆",
+                "from": "S",
+                "actor": "戴萌 莫寒 李宇琪 孔肖吟 许佳琪 吴哲晗 张语格 邵雪聪",
+                "url": "v/MjAyMDA1MDcvbjYwMDg0ODg2OC5zaHRtbA==.html",
+                "img": "http://47.97.248.244/static/film/抱走吧！爱豆.jpg"
             }
         ]
     },
