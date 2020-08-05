@@ -15,6 +15,7 @@
 </template>
 
 <script type="text/ecmascript-6">
+import { getFansData } from "config/fansData";
 import { mapGetters } from 'vuex'
 import GlobalHeader from 'components/global/global-header'
 import Tab from 'components/tab/tab'
@@ -94,7 +95,13 @@ export default {
     }
   },
   created () {
-    console.log('神秘代码了解一下～\r\n130594899 陈观慧\r\n150874160 陈思\r\n914388644 陈雨孜\r\n662933178 戴萌\r\n284331448 蒋芸\r\n221771881 孔肖吟\r\n814743123 刘丽千\r\n208081470 李宇琪\r\n460370278 刘增艳\r\n511716523 吕一\r\n290102632 莫寒\r\n277655492 钱蓓婷\r\n306979367 邱欣怡\r\n390766661 邵雪聪\r\n236647306 孙芮\r\n975479837 王贝妮\r\n881897750 王秋茹\r\n180764582 温晶婕\r\n275742112 吴哲晗\r\n219365999 徐晨辰\r\n121545472 许佳琪\r\n383411206 徐伊人\r\n200264670 徐子轩\r\n316835439 袁丹妮\r\n327766791 袁雨桢\r\n132204035 张语格\r\n364510713 赵晔\r\n471109965 成珏\r\n579439188 潘燕琦\r\n101724227 冯晓菲\r\n732027510 陈俊羽\r\n31428401  杨令仪\r\n703265307 由淼\r\n728999183 朱小丹\r\n461296095 SNH48-Team SII 应援会1群\r\n609941641 SNH48-Team SII 应援会2群')
+    let fansClubs = []
+    getFansData().then(res => {
+      console.log('神秘代码了解一下～');
+      res.map(x=>{
+        console.log(`${x[1]}：${x[0]}`)
+      })
+    })
     // console.log('%cSNH48 Team SII 应援会程序组，期待大佬的加入', 'padding:1em 2em; background-color:#000; color:#FFF; text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, rgb(145,205,235) 0px 0px 15px, rgb(145,205,235) 0px 0px 20px, rgb(145,205,235) 0px 0px 25px, rgb(145,205,235) 0px 0px 30px, rgb(145,205,235) 0px 0px 35px; font-size:2em')
   },
   name: 'App'
