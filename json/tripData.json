@@ -1120,6 +1120,7 @@
         "nameMonth": "3月17日 14:00",
         "title": "《重生计划》第16场，李宇琪生日公演",
         "description": "出席成员：李宇琪，陈观慧，陈思，戴萌，蒋芸，孔肖吟，刘增艳，莫寒，孙芮，邵雪聪，温晶婕，吴哲晗，徐晨辰，许佳琪，袁丹妮，袁雨桢，朱小丹，张语格，以及出现在生祝弹幕的徐子轩和歌词里的钱蓓婷",
+        "summarize": "新版姐妹歌S-Two",
         "type": "blue",
         "url": "https://www.bilibili.com/video/av46568906"
       },
@@ -1227,6 +1228,7 @@
         "nameMonth": "1月9日 19:30",
         "title": "SNH48 一期生 出道6周年 公演",
         "description": "出席成员：陈观慧，陈思，吴哲晗，许佳琪，袁雨桢，温晶婕，蒋芸，孙芮，徐晨辰，孔肖吟，莫寒，钱蓓婷，戴萌，袁丹妮，邵雪聪，刘增艳，李宇琪",
+        "summarize": "开启剧场两周年时光胶囊\r\n吴哲晗的雨中动物园",
         "type": "blue",
         "url": "https://www.bilibili.com/video/av40341728"
       },
@@ -1552,6 +1554,13 @@
     },
     "items": [
       {
+        "nameMonth": "12月25日",
+        "title": "环球跨年冰雪盛典",
+        "description": "梦想开始的地方",
+        "type": "green",
+        "url": "https://www.bilibili.com/video/BV1iW411B7XG"
+      },
+      {
         "nameMonth": "10月31日 19:30",
         "title": "万圣节特别公演",
         "description": "MC1：最害怕恶作剧的成员是谁,天使的圈套+糖,Blue Rose+雨中动物园,MC2：经历过最恐怖的游戏,暹罗猫+Run For The Dream,毒蜘蛛+生命所谓的意义+Thriller,最后：评选“最佳万圣节主题装扮TOP4”粉丝",
@@ -1641,6 +1650,13 @@
         "summarize": "塞纳河一生黑",
         "type": "gray",
         "url": "https://www.bilibili.com/video/BV1zx41187iM"
+      },
+      {
+        "nameMonth": "5月25日",
+        "title": "《心的旅程》第58场",
+        "description": "温暖旅程·潘燕琦特别生日环节",
+        "type": "blue",
+        "url": "https://www.bilibili.com/video/BV1rx411Y7Hv"
       },
       {
         "nameMonth": "5月21日",
@@ -1768,6 +1784,13 @@
         "url": "https://www.bilibili.com/video/av19418735"
       },
       {
+        "nameMonth": "1月27日",
+        "title": "央视春晚上海分会场伴舞",
+        "summarize": "明珠48",
+        "type": "green",
+        "url": "https://www.bilibili.com/video/BV1Qx41117gp"
+      },
+      {
         "nameMonth": "1月21日",
         "title": "辞旧迎新主题公演",
         "description": "7时12分的初恋（吕一+王露皎+林忆宁+沈之琳）,握你的手（成珏+冯晓菲）,禁忌的二人（陈观慧，温晶婕）,爱的加速器（戴萌）,MC1：年夜饭习俗,人鱼（蒋芸，赵晔）,单翼飞翔（徐子轩+王晓佳+江真仪）,MC3：年夜饭必不可少的菜,她和她（潘瑛琪+潘燕琦）",
@@ -1786,6 +1809,7 @@
         "nameMonth": "1月7日",
         "title": "SNH48 Group 第三届年度金曲大赏",
         "description": "第3名《我的舞台》：Team SII,第7名《错过奇迹》：刘炅然、许佳琪、青钰雯,第9名《狼与自尊》：戴萌、莫寒,第10名《爱到累了》：莫寒、邱欣怡、孔肖吟,第11名《天黑日记》：张语格,第13名《荣耀日》：李宇琪、袁雨桢、蒋芸,第14名《巧克力之吻》：万丽娜、戴萌、徐子轩,第20名《如果你能拥抱我》：张语格、许杨玉琢、谢妮,第23名《燃烧的道路》：许佳琪、刘炅然,第24名《单恋对角线》：钱蓓婷、孙芮、冯晓菲,第25名《不眠之夜》：黄婷婷、刘增艳、马玉灵,第33名《初恋小盗》：徐晗、陈观慧、温晶婕,第36名《王子殿下》：邵雪聪、黄彤扬、李佳恩,第42名《降落伞》：徐晨辰",
+        "summarize": "森林宇宙",
         "type": "black",
         "url": "https://v.qq.com/x/cover/5pnj5vgwgc4g583/x0022o9rgpa.html"
       }
@@ -1859,6 +1883,7 @@
         "nameMonth": "9月24日",
         "title": "《心的旅程》第24场，许佳琪生日公演",
         "description": "生日环节：KIKI Secret时装秀，If You Seek Amy,MC1：生日祝福,MC2：小时候看过的电视剧,MC3：轮流当队长",
+        "summarize": "四川盆地的秘密",
         "type": "blue",
         "url": "https://www.bilibili.com/video/av6403138"
       },
@@ -1905,6 +1930,13 @@
         "description": "",
         "type": "black",
         "url": "https://v.qq.com/x/cover/ox1wjaljy0b0lzi/f00213kcpwl.html"
+      },
+      {
+        "nameMonth": "5月28日",
+        "title": "亚洲强音盛典",
+        "description": "",
+        "type": "green",
+        "url": "http://www.bilibili.com/video/av4793737"
       },
       {
         "nameMonth": "5月20日 19:00",
@@ -2008,6 +2040,13 @@
         "description": "第4名《雨中的钢琴师》：徐子轩、李艺彤、刘佩鑫,第5名《如果你能拥抱我》：戴萌、邱欣怡、黄婷婷,第6名《再见制服》：戴萌、莫寒、张语格,第11名《天使的尾巴》：孟玥、邵雪聪、宋昕冉,第13名《格子裙妖精》：李宇琪、赵晔、袁丹妮,第14名《荣耀日》：孔肖吟、孙芮、陆婷,第15名《纯情主义》：许佳琪、袁雨桢、徐晗,第16名《糖》：陈思、罗兰、汪束,第18名《勇气重生》：Team SII,第22名《青涩的香蕉》：邱欣怡、赵粤,第23名《错过奇迹》：陈观慧、蒋芸、吴哲晗,第24名《朱丽叶》：沈之琳、温晶婕、李晶,第26名《梦之河》：徐晨辰",
         "type": "black",
         "url": "https://www.bilibili.com/video/av3458812"
+      },
+      {
+        "nameMonth": "10月31日",
+        "title": "第一届风尚大赏",
+        "description": "",
+        "type": "black",
+        "url": "https://www.bilibili.com/video/BV1Ks411b7ME"
       },
       {
         "nameMonth": "9月13日",
@@ -2150,6 +2189,13 @@
         "url": "https://www.bilibili.com/video/av10673458"
       },
       {
+        "nameMonth": "1月26日",
+        "title": "中国达人秀",
+        "description": "无尽旋转",
+        "type": "green",
+        "url": "https://www.bilibili.com/video/BV1cW411G77w"
+      },
+      {
         "nameMonth": "1月18日",
         "title": "SNH48出道一周年红白对决大型演唱会",
         "description": "—— 序 章 ——,激流之战（S+N）,梅洛斯之路（S+N）,开拓者（S+N）,—— 新世界之章 ——,神魂颠倒（S）,爱的意义（N）,曲终人散（赵嘉敏、李宇琪、吴哲晗、陈观慧）,任性的流星（孟玥、罗兰）,日升日落（S）,错过（N）,—— 混战之章 ——,剧场女神（S）,S队首推之歌（S）,最后的钟声（N）,爱的回游鱼（N）,暴风雨之夜（许佳琪、戴萌、陈思、温晶婕）,糖（张语格、邱欣怡、孔肖吟）,夜蝶（陆婷、万丽娜）,初恋小盗（赵粤、林思意、龚诗淇）,—— 歌姬之章 ——,流着泪微笑（徐晨辰）,都是夜风惹的祸（鞠婧祎）,—— 舞后之章 ——,猛犸（S）,冷酷女孩（S）,诚实的心（N）,梦想的纸飞机（N）,—— 胜利之章 ——,心电感应（S）,爱的幸运曲奇（S+N）,无尽旋转（S+N）",
@@ -2174,6 +2220,14 @@
         "url": "https://www.bilibili.com/video/av31907756"
       },
       {
+        "nameMonth": "12月12日",
+        "title": "《梦想预备生之半熟少女》",
+        "description": "",
+        "summarize": "",
+        "type": "black",
+        "url": "https://www.bilibili.com/video/BV1Fs411a7TE"
+      },
+      {
         "nameMonth": "11月16日",
         "title": "《这一年，我们追的SNH48》演唱会 广州国际体育演艺中心",
         "description": "RIVER+开拓者+梅洛斯之路,爱恨的泪(日文版 宮澤佐江 鈴木まりや),再爱一回(陈观慧 莫寒 许佳琪李宇琪),初恋小盗(赵嘉敏 邱欣怡 徐晨辰),夜蝶(张语格 吴哲晗),初恋你好(万丽娜 龚诗淇 孟玥N),糖(林思意 易嘉爱 胡思奕),都是夜风惹的祸(鞠婧祎),爱的洄游鱼,最后的钟声响起,...",
@@ -2184,7 +2238,7 @@
       {
         "nameMonth": "11月11日",
         "title": "TeamSII 建队，莫寒正队长",
-        "description":"",
+        "description": "",
         "type": "black",
         "url": "https://www.bilibili.com/video/BV1Lx4116732"
       },
