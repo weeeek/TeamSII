@@ -106,8 +106,8 @@
         ]
       },
       {
-        "title":"李宇琪",
-        "songs":[
+        "title": "李宇琪",
+        "songs": [
           {
             "image": {
               "url": "//wxt.sinaimg.cn/thumb300/b5d767d1ly1gh6xrm5oj9j21o02801l2.jpg",
@@ -126,7 +126,8 @@
             "url": "http://47.97.248.244/static/music/李宇琪-崖生花.mp3",
             "play": [],
             "opern": null
-        }]
+          }
+        ]
       },
       {
         "title": "赵晔",
@@ -2701,7 +2702,13 @@
             "mid": "002hHiP30GqDcU",
             "name": "16人姐妹歌",
             "interval": 209,
-            "play": [],
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://y.qq.com/n/yqq/mv/v/g0011dzcnmj.html"
+              }
+            ],
             "opern": null
           },
           {
@@ -4472,7 +4479,13 @@
             "mid": "003LbZal19SVst",
             "name": "无尽旋转",
             "interval": 279,
-            "play": [],
+            "play": [
+              {
+                "type": "MV",
+                "player": "",
+                "url": "https://y.qq.com/n/yqq/mv/v/v0012xubalv.html"
+              }
+            ],
             "opern": null
           },
           {
@@ -4486,7 +4499,13 @@
             "mid": "0026kiZe0RaiVl",
             "name": "激流之战",
             "interval": 279,
-            "play": [],
+            "play": [
+              {
+                "type": "MV",
+                "player": "",
+                "url": "https://y.qq.com/n/yqq/mv/v/e0012izmeu7.html"
+              }
+            ],
             "opern": null
           },
           {
@@ -4501,6 +4520,11 @@
             "name": "化作樱花树",
             "interval": 324,
             "play": [
+              {
+                "type": "MV",
+                "player": "",
+                "url": "https://y.qq.com/n/yqq/mv/v/c0012dzdtr8.html"
+              },
               {
                 "player": "白堕しょか",
                 "type": "piano",
