@@ -4,6 +4,7 @@
       "from": "2020",
       "to": "2020"
     },
+    "show":true,
     "items": [
       {
         "nameMonth": "8月22日 19:00",
@@ -11,6 +12,14 @@
         "description": "",
         "type": "blue",
         "url": ""
+      },
+      {
+        "nameMonth": "8月7日 19:30",
+        "title": "《On Stage》【星梦之声MINILIVE歌手大赛】决赛 || 袁雨桢拉票",
+        "description": "袁雨桢拉票环节：如果你也听说，Never Enough，梦,七里香：刘增艳，由淼,滚滚红尘：蒋芸，孙歆文,喜剧之王：刘增艳,最初的梦想：由淼,白月光：蒋芸,至少还有你：王秋茹,天文特征：刘增艳,开到荼靡：蒋芸,失落沙洲：袁雨桢,黑色柳丁：蒋芸",
+        "summarize":"舞台事故",
+        "type": "blue",
+        "url": "https://www.bilibili.com/video/BV1zD4y1U7RD"
       },
       {
         "nameMonth": "8月1日 19:00",
@@ -358,6 +367,7 @@
       "from": "2019",
       "to": "2019"
     },
+    "show":true,
     "items": [
       {
         "nameMonth": "12月31日 21:00",
@@ -1261,6 +1271,7 @@
       "from": "2018",
       "to": "2018"
     },
+    "show":true,
     "items": [
       {
         "nameMonth": "12月31日",
@@ -1510,6 +1521,13 @@
         "url": "https://www.bilibili.com/video/av21789837"
       },
       {
+        "nameMonth": "3月22日",
+        "title": "《Gril Crush》MV发布，7Senses成立",
+        "description": "第一个小组合",
+        "type": "black",
+        "url": "https://y.qq.com/n/yqq/mv/v/v0023j9wodw.html"
+      },
+      {
         "nameMonth": "2月18日 14:00",
         "title": "《心的旅程》第41场 邱欣怡生日公演",
         "description": "特别表演+生日环节：You are pitiful - FIESTAR,MC1：生日祝福,MC2：哪个成员私底下最爱演,MC3：0.5倍速随机歌曲,MC4：说一个觉得其他人都没做过但是自己做过的事",
@@ -1552,6 +1570,7 @@
       "from": "2017",
       "to": "2017"
     },
+    "show":true,
     "items": [
       {
         "nameMonth": "12月25日",
@@ -1821,6 +1840,7 @@
       "from": "2016",
       "to": "2016"
     },
+    "show":true,
     "items": [
       {
         "nameMonth": "12月03日",
@@ -2034,6 +2054,7 @@
       "from": "2015",
       "to": "2015"
     },
+    "show":true,
     "items": [
       {
         "nameMonth": "12月26日",
@@ -2130,6 +2151,7 @@
       "from": "2014",
       "to": "2014"
     },
+    "show":true,
     "items": [
       {
         "nameMonth": "12月28日",
@@ -2219,6 +2241,7 @@
       "from": "2013",
       "to": "2013"
     },
+    "show":true,
     "items": [
       {
         "nameMonth": "12月27日 19:00",
@@ -2260,12 +2283,12 @@
         "url": "https://www.bilibili.com/video/av10673458"
       },
       {
-        "nameMonth":"7月3日",
-        "title":"菱商机床展",
-        "description":"马尾与发圈,无尽旋转",
-        "summarize":"陈思传说外务",
-        "type":"green",
-        "url":"https://v.youku.com/v_show/id_XNTc4Njc5ODE2.html"
+        "nameMonth": "7月3日",
+        "title": "菱商机床展",
+        "description": "马尾与发圈,无尽旋转",
+        "summarize": "陈思传说外务",
+        "type": "green",
+        "url": "https://v.youku.com/v_show/id_XNTc4Njc5ODE2.html"
       },
       {
         "nameMonth": "6月22日",
@@ -2354,6 +2377,7 @@
       "from": "2012",
       "to": "2012"
     },
+    "show":true,
     "items": [
       {
         "nameMonth": "12月20日",

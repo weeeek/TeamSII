@@ -6,14 +6,17 @@
         v-for="(timelineContent, timelineIndex) in queryTimelineItems"
         :key="timelineIndex">
         <div class="section-year" v-if="timelineContent.items.length > 0">
-          <p class="year">
-            {{ timelineContent.year.to }}
-          </p>
-          <p class="year">
+          <p class="year" @click="timelineContent.show = !timelineContent.show">
             {{ timelineContent.year.from }}
           </p>
+          <p class="year" v-if="timelineContent.show" @click="timelineContent.show = !timelineContent.show">
+            {{ timelineContent.year.to }}
+          </p>
         </div>
-        <section class="timeline-items" v-if="timelineContent.items.length > 0">
+        <section class="timeline-items" v-show="!timelineContent.show">
+          <a class="item" href="javascript:void(0)"></a>
+        </section>
+        <section class="timeline-items" v-if="timelineContent.items.length > 0" v-show="timelineContent.show">
           <a :href="getUrl(item.url)" target="_blank" :title="item.summarize"
             class="item"
             v-for="(item, index) in timelineContent.items"
@@ -72,6 +75,7 @@ export default {
           this.timelineItems.map((x, xindex) => {
             data.push({
               year: x.year,
+              show: x.show,
               items: []
             })
             x.items.map((y) => {
@@ -100,6 +104,7 @@ export default {
           this.timelineItems.map((x, xindex) => {
             data.push({
               year: x.year,
+              show: x.show,
               items: []
             })
             x.items.map((y) => {

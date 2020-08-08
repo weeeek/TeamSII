@@ -116,35 +116,35 @@ export default new Router({
         keepAlive: true
       }
     }, {
-      path: '/tools/quill',
+      path: '/quill',
       name: 'quill',
       component: (resolve) => require(['@/components/tools/quill'], resolve),
       meta: {
         keepAlive: true
       }
     }, {
-      path: '/tools/lyric',
+      path: '/lyric',
       name: 'lyric',
       component: (resolve) => require(['@/components/tools/lyric'], resolve),
       meta: {
         keepAlive: true
       }
     }, {
-      path: '/tools/qrcode',
+      path: '/qrcode',
       name: 'qrcode',
       component: (resolve) => require(['@/components/tools/qrcode'], resolve),
       meta: {
         keepAlive: true
       }
     }, , {
-      path: '/tools/chat',
+      path: '/chat',
       name: 'chat',
       component: (resolve) => require(['@/components/tools/chat'], resolve),
       meta: {
         keepAlive: true
       }
     }, {
-      path: '/tools/voicedictation',
+      path: '/voicedictation',
       name: 'voicedictation',
       component: (resolve) => require(['@/components/tools/voicedictation'], resolve),
       meta: {
