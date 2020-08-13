@@ -1,186 +1,256 @@
-﻿[
-  {
-    "author": "丝芭官方",
-    "url": "https://www.snh48.com/event/s286/image/banner.jpg",
-    "weibo": "https://www.snh48.com/event/s286/"
-  },
-  {
-    "author": "艾斯喵小千同学",
-    "url": "https://wx1.sinaimg.cn/large/006wTv61ly1gf93waxe8wj30k00bmabb.jpg",
-    "weibo": "https://weibo.com/u/5982867321"
-  },
-  {
-     "author": "知乎@hello",
-     "url": "https://pic1.zhimg.com/v2-d0008da04917697e32300cb877172c4a_r.jpg",
-     "weibo": "https://www.zhihu.com/question/390658904/answer/1184766855"
-  },
-  {
-     "author": "SNH48-刘丽千",
-     "url": "https://wx3.sinaimg.cn/large/007YikbDgy1gckmquxdtxj318h1bhkih.jpg",
-     "weibo": "https://weibo.com/u/7303877489"
-  },{
-     "author": "只是小白脸i",
-     "url": "https://wx3.sinaimg.cn/large/006OwILIly1gdf9o3v7ftj337h2a1kjn.jpg",
-     "weibo": "https://weibo.com/u/6243412382"
-  },{
-     "author": "只是小白脸i",
-     "url": "https://wx1.sinaimg.cn/large/006OwILIly1gcehtzr50tj31lr2a1x6p.jpg",
-     "weibo": "https://weibo.com/u/6243412382"
-  },{
-     "author": "",
-     "url": "http://47.97.248.244/static/painting/三鹅.jpg",
-     "weibo": ""
-  },
-  {
-     "author": "",
-     "url": "http://47.97.248.244/static/painting/战歌Q版背影.jpg",
+﻿{
+  "photo": [
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/photo/6选入座前.jpg",
       "weibo": ""
-   },
-  {
-    "author": "只是小白脸i",
-    "url": "http://wx1.sinaimg.cn/large/006OwILIly1g4ihae905uj35k05k0hea.jpg",
-    "weibo": "https://weibo.com/u/6243412382"
-  },
-  {
-    "author": "",
-    "url": "http://47.97.248.244/static/painting/S早期一期生.jpg",
-    "weibo": ""
-  },
-  {
-    "author": "小小栗鼠控-阿遼",
-    "url": "http://47.97.248.244/static/painting/S老来俏（小小栗鼠控-阿遼）.jpg",
-    "weibo": ""
-  },
-  {
-    "author": "吉他他他他他他他他他他",
-    "url": "http://47.97.248.244/static/painting/呆驼（吉他他他他他他他他他他）.png",
-    "weibo": ""
-  },
-  {
-    "author": "",
-    "url": "http://47.97.248.244/static/painting/孙芮校园.png",
-    "weibo": ""
-  },
-  {
-    "author": "",
-    "url": "http://47.97.248.244/static/painting/吕一校园.png",
-    "weibo": ""
-  },
-  {
-    "author": "冯晓菲的萝卜养护中心",
-    "url": "http://47.97.248.244/static/painting/冯晓菲6.jpg",
-    "weibo": "https://weibo.com/u/5904226206"
-  },
-  {
-    "author": "",
-    "url": "http://47.97.248.244/static/painting/申月姣.jpg",
-    "weibo": ""
-  },
-  {
-    "author": "一根普通的竹子",
-    "url": "http://47.97.248.244/static/painting/莫寒总选（一根普通的竹子）.jpg",
-    "weibo": ""
-  },
-  {
-    "author": "好好做只已经是条废狗死机中",
-    "url": "http://47.97.248.244/static/painting/莫寒1.jpg",
-    "weibo": ""
-  },
-  {
-    "author": "",
-    "url": "http://47.97.248.244/static/painting/肖钱1.png",
-    "weibo": ""
-  },
-  {
-    "author": "shioly",
-    "url": "http://47.97.248.244/static/painting/KiMo（shioly）.jpg",
-    "weibo": ""
-  },
-  {
-    "author": "栞時",
-    "url": "http://47.97.248.244/static/painting/袁雨桢（栞時）.jpg",
-    "weibo": ""
-  },
-  {
-    "author": "取名字让人头疼",
-    "url": "http://47.97.248.244/static/painting/张语格1（取名字让人头疼）.png",
-    "weibo": "https://weibo.com/u/5826817845"
-  },
-  {
-    "author": "取名字让人头疼",
-    "url": "http://47.97.248.244/static/painting/张语格2（取名字让人头疼）.png",
-    "weibo": "https://weibo.com/u/5826817845"
-  },
-  {
-    "author": "取名字让人头疼",
-    "url": "http://47.97.248.244/static/painting/张语格3（取名字让人头疼）.png",
-    "weibo": "https://weibo.com/u/5826817845"
-  },
-  {
-    "author": "取名字让人头疼",
-    "url": "http://47.97.248.244/static/painting/张语格4（取名字让人头疼）.png",
-    "weibo": "https://weibo.com/u/5826817845"
-  },
-  {
-    "author": "取名字让人头疼",
-    "url": "http://47.97.248.244/static/painting/张语格5（取名字让人头疼）.jpg",
-    "weibo": "https://weibo.com/u/5826817845"
-  },
-  {
-    "author": "",
-    "url": "http://47.97.248.244/static/painting/莫寒倔强甜心.jpg",
-    "weibo": ""
-  },
-  {
-    "author": "",
-    "url": "http://47.97.248.244/static/painting/络震.jpg",
-    "weibo": ""
-  },
-  {
-    "author": "只影飞_",
-    "url": "http://47.97.248.244/static/painting/戴莫-那不勒斯的黎明（只影飞_）.jpg",
-    "weibo": ""
-  },
-  {
-    "author": "",
-    "url": "http://47.97.248.244/static/painting/徐晨辰3.png",
-    "weibo": ""
-  },
-  {
-    "author": "",
-    "url": "http://47.97.248.244/static/painting/许佳琪.jpg",
-    "weibo": ""
-  },
-  {
-    "author": "吉他",
-    "url": "http://47.97.248.244/static/painting/毛C（吉他）.png",
-    "weibo": ""
-  },
-  {
-    "author": "",
-    "url": "http://47.97.248.244/static/painting/徐晨辰1.png",
-    "weibo": ""
-  },
-  {
-    "author": "",
-    "url": "http://47.97.248.244/static/painting/艾思.png",
-    "weibo": ""
-  },
-  {
-    "author": "",
-    "url": "http://47.97.248.244/static/painting/张语格蒋芸爱未央.jpg",
-    "weibo": ""
-  }, {
-    "author": "不普通的竹子",
-    "url": "http://wx4.sinaimg.cn/large/006rzpDFgy1g275p4y892j315o1qiwxy.jpg",
-    "weibo": "https://weibo.com/u/5904198103"
-  }, {
-    "author": "不普通的竹子",
-    "url": "http://wx2.sinaimg.cn/large/006rzpDFgy1g2alu5oio2j30nr16uq7x.jpg",
-    "weibo": "https://weibo.com/u/5904198103"
-  }, {
-    "author": "不普通的竹子",
-    "url": "http://wx2.sinaimg.cn/large/006rzpDFgy1g2alu5bewsj30rs11ojwi.jpg",
-    "weibo": "https://weibo.com/u/5904198103"
-  }
-]
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/photo/5thB50初日圆阵.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/photo/第一届偶像运动会-拔河.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/photo/浅水湾4周年支柱.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/photo/燃烧吧团魂-loveshot合影.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/photo/燃烧吧团魂-流着泪微笑.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/photo/我的舞台MV合影.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/photo/战歌背影.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/photo/重生计划-七夕.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/photo/重生计划首演合影.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/photo/坐标舞台.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/photo/3FBFD803567742930EA61822404471AE.jpg",
+      "weibo": ""
+    }
+  ],
+  "draw": [
+    {
+      "author": "丝芭官方",
+      "url": "https://www.snh48.com/event/s286/image/banner.jpg",
+      "weibo": "https://www.snh48.com/event/s286/"
+    },
+    {
+      "author": "艾斯喵小千同学",
+      "url": "https://wx1.sinaimg.cn/large/006wTv61ly1gf93waxe8wj30k00bmabb.jpg",
+      "weibo": "https://weibo.com/u/5982867321"
+    },
+    {
+      "author": "知乎@hello",
+      "url": "https://pic1.zhimg.com/v2-d0008da04917697e32300cb877172c4a_r.jpg",
+      "weibo": "https://www.zhihu.com/question/390658904/answer/1184766855"
+    },
+    {
+      "author": "SNH48-刘丽千",
+      "url": "https://wx3.sinaimg.cn/large/007YikbDgy1gckmquxdtxj318h1bhkih.jpg",
+      "weibo": "https://weibo.com/u/7303877489"
+    },
+    {
+      "author": "只是小白脸i",
+      "url": "https://wx3.sinaimg.cn/large/006OwILIly1gdf9o3v7ftj337h2a1kjn.jpg",
+      "weibo": "https://weibo.com/u/6243412382"
+    },
+    {
+      "author": "只是小白脸i",
+      "url": "https://wx1.sinaimg.cn/large/006OwILIly1gcehtzr50tj31lr2a1x6p.jpg",
+      "weibo": "https://weibo.com/u/6243412382"
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/painting/三鹅.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/painting/战歌Q版背影.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "只是小白脸i",
+      "url": "http://wx1.sinaimg.cn/large/006OwILIly1g4ihae905uj35k05k0hea.jpg",
+      "weibo": "https://weibo.com/u/6243412382"
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/painting/S早期一期生.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "小小栗鼠控-阿遼",
+      "url": "http://47.97.248.244/static/painting/S老来俏（小小栗鼠控-阿遼）.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "吉他他他他他他他他他他",
+      "url": "http://47.97.248.244/static/painting/呆驼（吉他他他他他他他他他他）.png",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/painting/孙芮校园.png",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/painting/吕一校园.png",
+      "weibo": ""
+    },
+    {
+      "author": "冯晓菲的萝卜养护中心",
+      "url": "http://47.97.248.244/static/painting/冯晓菲6.jpg",
+      "weibo": "https://weibo.com/u/5904226206"
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/painting/申月姣.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "一根普通的竹子",
+      "url": "http://47.97.248.244/static/painting/莫寒总选（一根普通的竹子）.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "好好做只已经是条废狗死机中",
+      "url": "http://47.97.248.244/static/painting/莫寒1.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/painting/肖钱1.png",
+      "weibo": ""
+    },
+    {
+      "author": "shioly",
+      "url": "http://47.97.248.244/static/painting/KiMo（shioly）.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "栞時",
+      "url": "http://47.97.248.244/static/painting/袁雨桢（栞時）.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "取名字让人头疼",
+      "url": "http://47.97.248.244/static/painting/张语格1（取名字让人头疼）.png",
+      "weibo": "https://weibo.com/u/5826817845"
+    },
+    {
+      "author": "取名字让人头疼",
+      "url": "http://47.97.248.244/static/painting/张语格2（取名字让人头疼）.png",
+      "weibo": "https://weibo.com/u/5826817845"
+    },
+    {
+      "author": "取名字让人头疼",
+      "url": "http://47.97.248.244/static/painting/张语格3（取名字让人头疼）.png",
+      "weibo": "https://weibo.com/u/5826817845"
+    },
+    {
+      "author": "取名字让人头疼",
+      "url": "http://47.97.248.244/static/painting/张语格4（取名字让人头疼）.png",
+      "weibo": "https://weibo.com/u/5826817845"
+    },
+    {
+      "author": "取名字让人头疼",
+      "url": "http://47.97.248.244/static/painting/张语格5（取名字让人头疼）.jpg",
+      "weibo": "https://weibo.com/u/5826817845"
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/painting/莫寒倔强甜心.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/painting/络震.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "只影飞_",
+      "url": "http://47.97.248.244/static/painting/戴莫-那不勒斯的黎明（只影飞_）.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/painting/徐晨辰3.png",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/painting/许佳琪.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "吉他",
+      "url": "http://47.97.248.244/static/painting/毛C（吉他）.png",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/painting/徐晨辰1.png",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/painting/艾思.png",
+      "weibo": ""
+    },
+    {
+      "author": "",
+      "url": "http://47.97.248.244/static/painting/张语格蒋芸爱未央.jpg",
+      "weibo": ""
+    },
+    {
+      "author": "不普通的竹子",
+      "url": "http://wx4.sinaimg.cn/large/006rzpDFgy1g275p4y892j315o1qiwxy.jpg",
+      "weibo": "https://weibo.com/u/5904198103"
+    },
+    {
+      "author": "不普通的竹子",
+      "url": "http://wx2.sinaimg.cn/large/006rzpDFgy1g2alu5oio2j30nr16uq7x.jpg",
+      "weibo": "https://weibo.com/u/5904198103"
+    },
+    {
+      "author": "不普通的竹子",
+      "url": "http://wx2.sinaimg.cn/large/006rzpDFgy1g2alu5bewsj30rs11ojwi.jpg",
+      "weibo": "https://weibo.com/u/5904198103"
+    }
+  ]
+}

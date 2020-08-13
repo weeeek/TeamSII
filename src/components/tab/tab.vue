@@ -27,7 +27,7 @@
     </keep-alive>
     <keep-alive>
       <router-link tag="div" class="tab-item" to="/painting">
-        <span class="tab-link">手绘</span>
+        <span class="tab-link">图·绘</span>
       </router-link>
     </keep-alive>
     <keep-alive>
