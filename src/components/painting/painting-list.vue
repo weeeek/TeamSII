@@ -1,23 +1,13 @@
 <template>
   <div id="painting-container">
-    <div class="block">
+    <div class="block clearfix">
       <button class="btn-3d btn-upload float-right" @click="upload">上传</button>
+      <div class="clearfix"></div>
     </div>
     <div class="waterfall">
       <a
         class="fallitem"
-        v-for="(item) in data.draw"
-        :key="item.url"
-        :title="getAuthor(item.author)"
-        @click="view(item)"
-      >
-        <img v-lazy="item.url" />
-      </a>
-    </div>
-    <div class="waterfall">
-      <a
-        class="fallitem"
-        v-for="(item) in data.photo"
+        v-for="(item) in data"
         :key="item.url"
         :title="getAuthor(item.author)"
         @click="view(item)"
