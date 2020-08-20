@@ -7,11 +7,19 @@
     "show":true,
     "items": [
       {
-        "nameMonth": "8月22日 19:00",
+        "nameMonth": "8月29日 14:00",
         "title": "《重生计划》第74场 钱蓓婷生日公演",
         "description": "",
         "type": "blue",
         "url": ""
+      },
+      {
+        "nameMonth":"8月15日",
+        "title":"SNH48 GROUP 第七届年度总决选 《创造炙热的青春》",
+        "description":"La La La,Yes OK（青春有你组）,花园舞曲（炙热的我们组）,一期一会VCR,勇不勇敢（高飞组）,Black Baccara（孔肖吟）,黑天鹅（孙芮、张语格）,深海之声（吴哲晗）,爱未央（戴萌、许佳琪）,远方的海（莫寒）,第1名孙芮,第21名刘增艳,第23名蒋芸,第48名由淼",
+        "summarize":"狮子不会因为犬吠而回头 ---- by 孙芮\r\n是蓝色的，是蓝色的 ---- 戴萌 to 孙芮",
+        "type":"black",
+        "url":"https://www.bilibili.com/video/BV1wT4y1L7hx"
       },
       {
         "nameMonth": "8月7日 19:30",
@@ -2252,9 +2260,9 @@
         "url": "https://www.bilibili.com/video/av31907756"
       },
       {
-        "nameMonth": "12月12日",
+        "nameMonth": "12月6日",
         "title": "《梦想预备生之半熟少女》",
-        "description": "",
+        "description": "汤敏、赵嘉敏、莫寒、张语格、吴哲晗、孔肖吟、陈观慧、董芷依、蒋羽熙、邱欣怡、徐晨辰、许佳琪、顾香君、陈思、李宇琪、戴萌",
         "summarize": "",
         "type": "black",
         "url": "https://www.bilibili.com/video/BV1Fs411a7TE"

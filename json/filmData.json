@@ -169,6 +169,13 @@
                 "actor": "蒋芸",
                 "url": "https://m.weibo.cn/2689280541/4140747374656184",
                 "img": "http://47.97.248.244/static/film/白蛇传奇之大话许仙.jpg"
+            },
+            {
+                "title":"周末父母",
+                "from":"B",
+                "actor":"吴哲晗、许佳琪、袁雨桢、孙珍妮、谢妮、邵雪聪、宋昕冉、杨冰怡",
+                "url":"8644059",
+                "img":"http://tiebapic.baidu.com/forum/w%3D580/sign=0a169ddfc7a20cf44690fed746084b0c/b71255ee3d6d55fbe16f6c7e7a224f4a21a4dd46.jpg"
             }
         ]
     },
@@ -365,10 +372,10 @@
                 "img": "//pic2.iqiyipic.com/image/20181102/a7/4e/a_100209860_m_601_m1_180_236.jpg"
             },
             {
-                "title":"里约大冒险",
-                "from":"",
-                "actor":"陈思 吴哲晗 孔肖吟 袁雨桢 戴萌 李宇琪 钱蓓婷",
-                "url":"https://space.bilibili.com/12444300/video?keyword=%E9%87%8C%E7%BA%A6",
+                "title": "里约大冒险",
+                "from": "",
+                "actor": "陈思 吴哲晗 孔肖吟 袁雨桢 戴萌 李宇琪 钱蓓婷",
+                "url": "https://space.bilibili.com/12444300/video?keyword=%E9%87%8C%E7%BA%A6",
                 "img": "//i1.hdslb.com/bfs/archive/40ec10096338078a7ce8868990828ab403939958.jpg_380x240.jpg"
             },
             {
@@ -417,6 +424,20 @@
                 "actor": "徐晨辰 袁丹妮 吕一 蒋芸 刘增艳 徐子轩 成珏",
                 "url": "14W411q7Nh",
                 "img": "http://47.97.248.244/static/film/向阳的星光.jpg"
+            },
+            {
+                "title": "十万个冷笑话",
+                "from": "",
+                "actor": "戴萌、许佳琪、林思意；陈观慧、陈思、蒋芸（代：莫寒）、孔肖吟、李宇琪、钱蓓婷、邱欣怡、孙芮、温晶婕、徐晨辰、张语格",
+                "url": "https://www.acfun.cn/v/ac1755781",
+                "img": "http://tiebapic.baidu.com/forum/w%3D580/sign=8a4f88e3b11ea8d38a22740ca70b30cf/5a6a7a094b36acaf9768a9a46bd98d1000e99c67.jpg"
+            },
+            {
+                "title":"奔跑吧！小百合",
+                "from":"B",
+                "actor":"孙芮 吴燕文",
+                "url":"7632583",
+                "img":"http://tiebapic.baidu.com/forum/w%3D580/sign=7da70817892f07085f052a08d925b865/104e35dbb6fd52662a67264cbc18972bd507369b.jpg"
             }
         ]
     },
