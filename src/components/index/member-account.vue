@@ -15,7 +15,7 @@
       v-if="data.bilibili"
     ></a>
     <a
-      :href="`https://www.iesdouyin.com/share/user/${data.douyin.id}`"
+      :href="`https://v.douyin.com/${data.douyin.id}`"
       :title="`${data.name}-抖音号：${data.douyin.number}`"
       target="_blank"
       class="favicon favicon-douyin"

@@ -7,7 +7,7 @@
       "bilibili": "192476819",
       "douyin": {
         "number": "602985242",
-        "id": "95594516797"
+        "id": "JBe82dD"
       },
       "changba": "150709347",
       "lvzhou": 4525589572264535,
@@ -29,7 +29,7 @@
       "bilibili": "19383319",
       "douyin": {
         "number": "665951014",
-        "id": "96028160417"
+        "id": "JBeB8J4"
       },
       "changba": null,
       "miaopai": null,
@@ -69,7 +69,7 @@
       "bilibili": "18946307",
       "douyin": {
         "number": "diamooond28",
-        "id": "61363027939"
+        "id": "JBe8t3C"
       },
       "changba": null,
       "lvzhou": 4530692674029806,
@@ -85,13 +85,57 @@
       }
     },
     {
+      "name": "段艺璇",
+      "photo": "https://www.snh48.com/images/member/zp_10113.jpg",
+      "weibo": "u/5681004199",
+      "bilibili": "85592005",
+      "douyin": {
+        "number": "708114321",
+        "id": "JBJA9dG"
+      },
+      "changba": "",
+      "lvzhou": "4521641423558718",
+      "miaopai": null,
+      "group": null,
+      "pocket48": {
+        "id": 0,
+        "roomId": 0
+      },
+      "modian": {
+        "enabled": false,
+        "id": "0"
+      }
+    },
+    {
+      "name": "黄恩茹",
+      "photo": "https://www.snh48.com/images/member/zp_10228.jpg",
+      "weibo": "u/6013611098",
+      "bilibili": "414122160",
+      "douyin": {
+        "number": "28800995",
+        "id": "JBJ3MJ6"
+      },
+      "changba": "",
+      "lvzhou": "4538221058336483",
+      "miaopai": null,
+      "group": null,
+      "pocket48": {
+        "id": 0,
+        "roomId": 0
+      },
+      "modian": {
+        "enabled": false,
+        "id": "0"
+      }
+    },
+    {
       "name": "蒋芸",
       "photo": "http://www.snh48.com/images/member/zp_10004.jpg",
       "weibo": "u/3675573934",
       "bilibili": "114866",
       "douyin": {
         "number": "Yunnuy327",
-        "id": "60912589230"
+        "id": "JBJ4kat"
       },
       "changba": "46716517",
       "lvzhou": 4530228636685834,
@@ -113,7 +157,7 @@
       "bilibili": null,
       "douyin": {
         "number": "371432782",
-        "id": "75478657854"
+        "id": "JBJqG68"
       },
       "changba": "147320351",
       "lvzhou": 4530288354408054,
@@ -129,24 +173,25 @@
       }
     },
     {
-      "name": "李宇琪",
-      "photo": "http://www.snh48.com/images/member/zp_10006.jpg",
-      "weibo": "u/3050792913",
-      "bilibili": "3882983",
+      "name": "李慧",
+      "photo": "https://www.snh48.com/images/member/zp_10248.jpg",
+      "weibo": "u/6076987148",
+      "bilibili": "",
       "douyin": {
-        "number": "28221702",
-        "id": "62383502337"
+        "number": "dytwkrz3hi36",
+        "id": "JBJqPSL"
       },
-      "changba": null,
+      "changba": "",
+      "lvzhou": "4520396335877109",
       "miaopai": null,
+      "group": null,
       "pocket48": {
-        "id": 20,
-        "roomId": 67303256
+        "id": 0,
+        "roomId": 0
       },
-      "group": "blueV",
       "modian": {
-        "enabled": true,
-        "id": "1186273"
+        "enabled": false,
+        "id": "0"
       }
     },
     {
@@ -169,13 +214,34 @@
       }
     },
     {
+      "name": "李宇琪",
+      "photo": "http://www.snh48.com/images/member/zp_10006.jpg",
+      "weibo": "u/3050792913",
+      "bilibili": "3882983",
+      "douyin": {
+        "number": "28221702",
+        "id": "JBJn96k"
+      },
+      "changba": null,
+      "miaopai": null,
+      "pocket48": {
+        "id": 20,
+        "roomId": 67303256
+      },
+      "group": "blueV",
+      "modian": {
+        "enabled": true,
+        "id": "1186273"
+      }
+    },
+    {
       "name": "刘增艳",
       "photo": "http://www.snh48.com/images/member/zp_10125.jpg",
       "weibo": "u/5681431767",
       "bilibili": "472626",
       "douyin": {
         "number": "869971950",
-        "id": "97575976658"
+        "id": "JBekhVx"
       },
       "changba": null,
       "lvzhou": 4525606232503206,
@@ -199,7 +265,7 @@
       "bilibili": "323856",
       "douyin": {
         "number": "708165492",
-        "id": "96585259273"
+        "id": "JBJc6w8"
       },
       "changba": null,
       "lvzhou": 4530241806021478,
@@ -215,13 +281,79 @@
       }
     },
     {
+      "name": "马玉灵",
+      "photo": "https://www.snh48.com/images/member/zp_10229.jpg",
+      "weibo": "u/5886797829",
+      "bilibili": "23553661",
+      "douyin": {
+        "number": "99106myl",
+        "id": "JBJX3ku"
+      },
+      "changba": "",
+      "lvzhou": "4520940015504796",
+      "miaopai": null,
+      "group": null,
+      "pocket48": {
+        "id": 0,
+        "roomId": 0
+      },
+      "modian": {
+        "enabled": false,
+        "id": "0"
+      }
+    },
+    {
+      "name": "宁轲",
+      "photo": "https://www.snh48.com/images/member/zp_10230.jpg",
+      "weibo": "u/7306259383",
+      "bilibili": "476024460",
+      "douyin": {
+        "number": "dyyn9k85ugnh",
+        "id": "JBJt76V"
+      },
+      "changba": "",
+      "lvzhou": "4520389092427257",
+      "miaopai": null,
+      "group": null,
+      "pocket48": {
+        "id": 0,
+        "roomId": 0
+      },
+      "modian": {
+        "enabled": false,
+        "id": "0"
+      }
+    },
+    {
+      "name": "彭嘉敏",
+      "photo": "https://www.snh48.com/images/member/zp_10231.jpg",
+      "weibo": "u/6525600041",
+      "bilibili": "93789411",
+      "douyin": {
+        "number": "PJM1657394226",
+        "id": "JBeeRgE"
+      },
+      "changba": "",
+      "lvzhou": "4538217019743696",
+      "miaopai": null,
+      "group": null,
+      "pocket48": {
+        "id": 0,
+        "roomId": 0
+      },
+      "modian": {
+        "enabled": false,
+        "id": "0"
+      }
+    },
+    {
       "name": "钱蓓婷",
       "photo": "http://www.snh48.com/images/member/zp_10008.jpg",
       "weibo": "u/3055272517",
       "bilibili": "22062404",
       "douyin": {
         "number": "572856432",
-        "id": "94481054620"
+        "id": "JBJTYAG"
       },
       "changba": null,
       "lvzhou": 4531011898312794,
@@ -243,7 +375,7 @@
       "bilibili": "144873060",
       "douyin": {
         "number": "62534021",
-        "id": "57476731686"
+        "id": "JBJwPMr"
       },
       "changba": null,
       "lvzhou": 4530261092734096,
@@ -265,7 +397,7 @@
       "bilibili": "11777755",
       "douyin": {
         "number": "srsrsr333333srsr",
-        "id": "58050466587"
+        "id": "JBJ7JQt"
       },
       "changba": null,
       "lvzhou": 4522953109490234,
@@ -281,13 +413,35 @@
       }
     },
     {
+      "name": "沈小爱",
+      "photo": "https://www.snh48.com/images/member/zp_10232.jpg",
+      "weibo": "u/6249091150",
+      "bilibili": "109607529",
+      "douyin": {
+        "number": "53902767",
+        "id": "JBJwLco"
+      },
+      "changba": "",
+      "lvzhou": "4520399327125653",
+      "miaopai": null,
+      "group": null,
+      "pocket48": {
+        "id": 0,
+        "roomId": 0
+      },
+      "modian": {
+        "enabled": false,
+        "id": "0"
+      }
+    },
+    {
       "name": "邵雪聪",
       "photo": "http://www.snh48.com/images/member/zp_10086.jpg",
       "weibo": "u/5460952383",
       "bilibili": "18736885",
       "douyin": {
         "number": "1050881824",
-        "id": "79294218830"
+        "id": "JBJ3apU"
       },
       "changba": null,
       "lvzhou": 4530911780278663,
@@ -300,6 +454,28 @@
       "modian": {
         "enabled": true,
         "id": "987799"
+      }
+    },
+    {
+      "name": "田姝丽",
+      "photo": "https://www.snh48.com/images/member/zp_10130.jpg",
+      "weibo": "u/5786991235",
+      "bilibili": "15084177",
+      "douyin": {
+        "number": "sweety1109",
+        "id": "JBJKfTu"
+      },
+      "changba": "",
+      "lvzhou": "",
+      "miaopai": null,
+      "group": null,
+      "pocket48": {
+        "id": 0,
+        "roomId": 0
+      },
+      "modian": {
+        "enabled": false,
+        "id": "0"
       }
     },
     {
@@ -328,7 +504,7 @@
       "bilibili": null,
       "douyin": {
         "number": "67595439",
-        "id": "67802915334"
+        "id": "JBeD7BH"
       },
       "quanmin": "6b9e9c802628368f30",
       "changba": null,
@@ -351,7 +527,7 @@
       "bilibili": "299303884",
       "douyin": {
         "number": "570521305",
-        "id": "61360812916"
+        "id": "JBe1UXr"
       },
       "changba": "119484593",
       "lvzhou": 4529473682408112,
@@ -373,7 +549,7 @@
       "bilibili": "16227822",
       "douyin": {
         "number": "583908288",
-        "id": "58423660275"
+        "id": "JBJGBga"
       },
       "changba": "99463480",
       "lvzhou": 4530634150910116,
@@ -396,7 +572,7 @@
       "bilibili": "18873979",
       "douyin": {
         "number": "hellokiki77",
-        "id": "57825100366"
+        "id": "JBJWeA1"
       },
       "changba": null,
       "lvzhou": 4521646280409366,
@@ -419,7 +595,7 @@
       "bilibili": "100188115",
       "douyin": {
         "number": "0805ym",
-        "id": "109340794499"
+        "id": "JBJwcot"
       },
       "changba": null,
       "lvzhou": 4530221041326013,
@@ -435,13 +611,35 @@
       }
     },
     {
+      "name": "闫明筠",
+      "photo": "https://www.snh48.com/images/member/zp_10094.jpg",
+      "weibo": "u/5490236021",
+      "bilibili": "3684011",
+      "douyin": {
+        "number": "31889311",
+        "id": "JBJsrun"
+      },
+      "changba": "",
+      "lvzhou": "4532118991943165",
+      "miaopai": null,
+      "group": null,
+      "pocket48": {
+        "id": 0,
+        "roomId": 0
+      },
+      "modian": {
+        "enabled": false,
+        "id": "0"
+      }
+    },
+    {
       "name": "袁雨桢",
       "photo": "http://www.snh48.com/images/member/zp_10017.jpg",
       "weibo": "u/3720838047",
       "bilibili": "213790489",
       "douyin": {
         "number": "576412860",
-        "id": "94405513146"
+        "id": "JBe11A7"
       },
       "changba": "58705105",
       "lvzhou": 4529910234743225,
@@ -457,13 +655,35 @@
       }
     },
     {
+      "name": "赵天杨",
+      "photo": "https://www.snh48.com/images/member/zp_10233.jpg",
+      "weibo": "u/6379039876",
+      "bilibili": "382751025",
+      "douyin": {
+        "number": "617596778",
+        "id": "JBe183t"
+      },
+      "changba": "",
+      "lvzhou": "4535383402221292",
+      "miaopai": null,
+      "group": null,
+      "pocket48": {
+        "id": 0,
+        "roomId": 0
+      },
+      "modian": {
+        "enabled": false,
+        "id": "0"
+      }
+    },
+    {
       "name": "张语格",
       "photo": "http://www.snh48.com/images/member/zp_10019.jpg",
       "weibo": "u/3050783091",
       "bilibili": "605599077",
       "douyin": {
         "number": "368860177",
-        "id": "93454322158"
+        "id": "JBJpJyC"
       },
       "changba": null,
       "lvzhou": 4530664827519602,
@@ -528,6 +748,9 @@
     {
       "name": "蛋挞",
       "master": "刘增艳"
+    },{
+      "name":"coffee",
+      "master":"彭嘉敏"
     }
   ],
   "otherTeamMemberData": [
@@ -538,7 +761,7 @@
       "bilibili": "11399736",
       "douyin": {
         "number": "Kokoi_",
-        "id": "97775160809"
+        "id": "JBJqTDd"
       },
       "changba": "291711662",
       "lvzhou": 4531002259277340,
@@ -580,7 +803,7 @@
       "bilibili": null,
       "douyin": {
         "number": "wbn920",
-        "id": "57565144916"
+        "id": "JBJvJJM"
       },
       "changba": null,
       "miaopai": null,
@@ -619,7 +842,7 @@
       "bilibili": null,
       "douyin": {
         "number": "yuandanni",
-        "id": "95917037675"
+        "id": "JBJbBdR"
       },
       "changba": null,
       "miaopai": null,
@@ -640,7 +863,7 @@
       "bilibili": "1846928",
       "douyin": {
         "number": "xzx_0330",
-        "id": "96293082639"
+        "id": "JBJV439"
       },
       "changba": null,
       "miaopai": null,
@@ -689,7 +912,10 @@
       "photo": "//wx3.sinaimg.cn/middle/ded797acly1fzbxehf66nj223u35shdt.jpg",
       "weibo": "iamtangmin",
       "bilibili": null,
-      "douyin": null,
+      "douyin": {
+        "name": "99790925",
+        "id": "JBea9Vo"
+      },
       "changba": null,
       "lvzhou": "4535741747827016",
       "miaopai": null,
@@ -767,7 +993,7 @@
       "bilibili": "11909915",
       "douyin": {
         "number": "CJ_0103",
-        "id": "93201175230"
+        "id": "JBJ3hjC"
       },
       "changba": null,
       "miaopai": null,
@@ -785,7 +1011,7 @@
       "bilibili": "2310475",
       "douyin": {
         "number": "Yukino828",
-        "id": "85714074050"
+        "id": "JBJWhp7"
       },
       "changba": null,
       "miaopai": null,
@@ -818,7 +1044,7 @@
       "bilibili": null,
       "douyin": {
         "number": "4746929",
-        "id": "58128809529"
+        "id": "JBJTYGA"
       },
       "changba": null,
       "miaopai": null,
@@ -839,7 +1065,7 @@
       "bilibili": "14801692",
       "douyin": {
         "number": "163927666",
-        "id": "81404951604"
+        "id": "JBJ7C39"
       },
       "changba": null,
       "miaopai": null,

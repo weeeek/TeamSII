@@ -138,6 +138,8 @@ export const trasferMixin = {
   methods: {
     getVideoPlayUrl (videoinfo) {
       switch (videoinfo.from) {
+        case `A`:
+          return `https://www.acfun.cn/v/ac${videoinfo.url}`
         case `BV`:
           return `https://www.bilibili.com/video/BV${videoinfo.url}`
         case `B`:

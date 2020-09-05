@@ -4,20 +4,95 @@
       "from": "2020",
       "to": "2020"
     },
-    "show":true,
+    "show": true,
     "items": [
       {
-        "nameMonth": "8月22日 19:00",
-        "title": "《重生计划》第74场 钱蓓婷生日公演",
+        "nameMonth": "9月27日",
+        "title": "《重生计划》第78场 李宇琪，徐晨辰，邱欣怡生日公演",
         "description": "",
         "type": "blue",
         "url": ""
       },
       {
+        "nameMonth": "9月20日",
+        "title": "《重生计划》第77场 陈观慧，陈思生日公演",
+        "description": "",
+        "type": "blue",
+        "url": ""
+      },
+      {
+        "nameMonth": "9月19日",
+        "title": "《重生计划》第76场 张语格生日公演",
+        "description": "",
+        "type": "blue",
+        "url": ""
+      },
+      {
+        "nameMonth": "9月13日 14:00",
+        "title": "广州巡演",
+        "description": "",
+        "type": "blue",
+        "url": ""
+      },
+      {
+        "nameMonth": "9月12日 19:00",
+        "title": "广州巡演",
+        "description": "",
+        "type": "blue",
+        "url": ""
+      },
+      {
+        "nameMonth": "9月5日 14:00",
+        "title": "《重生计划》第75场 吴哲晗生日公演",
+        "description": "生日环节：Yonce+Maria+有形的翅膀+恋爱中的美人鱼,生日PV,队友生日采访,队友送礼,MC1：生日祝福,Lost：莫寒,Hold me tight：戴萌，孔肖吟,解语者：钱蓓婷，王秋茹，袁雨桢,最终回合：张语格，徐晨辰，邵雪聪，陈思,无罪无我：温晶婕，刘增艳，陈观慧,somewhere：吴哲晗，李宇琪，由淼,噩梦轮回：蒋芸,神魂颠倒+告白趁现在",
+        "type": "blue",
+        "url": "https://www.bilibili.com/video/BV1VK411M7wi"
+      },
+      {
+        "nameMonth": "9月4日",
+        "title": "《莫莫有闻》第三季第十期·刘增艳",
+        "description": "成熟治愈前辈莫莫,重压做自己刺猬后辈",
+        "summarize": "刚进入SII的时候\r\n做偶像还是做自己\r\n关于做SII的抗旗人\r\n大组阁的冲击\r\n有想过改变自己的怼怼吗\r\n糊作非为\r\n关于向粉丝表达自己的不开心的情绪\r\n要舍弃自己的一部分，来吸更多的粉吗",
+        "type": "gray",
+        "url": "https://www.bilibili.com/video/BV19a4y1778p"
+      },
+      {
+        "nameMonth": "9月4日",
+        "title": "团队调整",
+        "description": "新加入成员：段艺璇，黄恩茹，李慧，马玉灵，宁轲，彭嘉敏，沈小爱，田姝丽，闫明筠，赵天杨",
+        "summarize": "重组",
+        "type": "black",
+        "url": "https://www.snh48.com/html/snh/allnews/activity/202009/5683.html#SNH"
+      },
+      {
+        "nameMonth": "8月29日 14:00",
+        "title": "《重生计划》第74场 钱蓓婷生日公演",
+        "description": "生日环节：未接来电+祝福VCR+无声的探戈+我还年轻我还年轻+生日VCR+茶话会+国王游戏,晨光,预言,彼岸花,重生计划,MC1：生日祝福,Lost：钱蓓婷,Hold me tight：刘增艳，陈思,解语者：钱蓓婷，王睿琦，王秋茹,最终回合：温晶婕，蒋芸，邵雪聪，徐晨辰,无罪无我：莫寒，袁雨桢，陈思,somewhere：蒋芸，刘丽千，温晶婕,噩梦轮回：邵雪聪,黑与白PV,毒蜘蛛,勇不勇敢,化作樱花树",
+        "summarize": "让国王飞\r\nCC有闻",
+        "type": "blue",
+        "url": "https://www.bilibili.com/video/BV1Xz4y1f7Pf"
+      },
+      {
+        "nameMonth": "8月24日",
+        "title": "《莫莫有闻》第三季第八期·段艺璇",
+        "description": "",
+        "summarize": "选秀带来的变化\r\n关于这一次选拔\r\n努力是否有回报\r\nDDD与悠唐\r\n个人与团队\r\n如何看待粉丝的建议\r\n如果DDD来S队会怎么样",
+        "type": "gray",
+        "url": "https://www.bilibili.com/video/BV1vC4y1t7vN"
+      },
+      {
+        "nameMonth": "8月15日",
+        "title": "SNH48 GROUP 第七届年度总决选 《创造炙热的青春》",
+        "description": "La La La,Yes OK（青春有你组）,花园舞曲（炙热的我们组）,一期一会VCR,勇不勇敢（高飞组）,Black Baccara（孔肖吟）,黑天鹅（孙芮、张语格）,深海之声（吴哲晗）,爱未央（戴萌、许佳琪）,远方的海（莫寒）,第1名孙芮,第21名刘增艳,第23名蒋芸,第48名由淼",
+        "summarize": "狮子不会因为犬吠而回头 ---- by 孙芮\r\n是蓝色的，是蓝色的 ---- 戴萌 to 孙芮",
+        "type": "black",
+        "url": "https://www.bilibili.com/video/BV1wT4y1L7hx"
+      },
+      {
         "nameMonth": "8月7日 19:30",
         "title": "《On Stage》【星梦之声MINILIVE歌手大赛】决赛 || 袁雨桢拉票",
         "description": "袁雨桢拉票环节：如果你也听说，Never Enough，梦,七里香：刘增艳，由淼,滚滚红尘：蒋芸，孙歆文,喜剧之王：刘增艳,最初的梦想：由淼,白月光：蒋芸,至少还有你：王秋茹,天文特征：刘增艳,开到荼靡：蒋芸,失落沙洲：袁雨桢,黑色柳丁：蒋芸",
-        "summarize":"舞台事故",
+        "summarize": "舞台事故",
         "type": "blue",
         "url": "https://www.bilibili.com/video/BV1zD4y1U7RD"
       },
@@ -367,7 +442,7 @@
       "from": "2019",
       "to": "2019"
     },
-    "show":true,
+    "show": true,
     "items": [
       {
         "nameMonth": "12月31日 21:00",
@@ -1271,7 +1346,7 @@
       "from": "2018",
       "to": "2018"
     },
-    "show":true,
+    "show": true,
     "items": [
       {
         "nameMonth": "12月31日",
@@ -1570,7 +1645,7 @@
       "from": "2017",
       "to": "2017"
     },
-    "show":true,
+    "show": true,
     "items": [
       {
         "nameMonth": "12月25日",
@@ -1840,7 +1915,7 @@
       "from": "2016",
       "to": "2016"
     },
-    "show":true,
+    "show": true,
     "items": [
       {
         "nameMonth": "12月03日",
@@ -2054,7 +2129,7 @@
       "from": "2015",
       "to": "2015"
     },
-    "show":true,
+    "show": true,
     "items": [
       {
         "nameMonth": "12月26日",
@@ -2151,7 +2226,7 @@
       "from": "2014",
       "to": "2014"
     },
-    "show":true,
+    "show": true,
     "items": [
       {
         "nameMonth": "12月28日",
@@ -2241,7 +2316,7 @@
       "from": "2013",
       "to": "2013"
     },
-    "show":true,
+    "show": true,
     "items": [
       {
         "nameMonth": "12月27日 19:00",
@@ -2377,7 +2452,7 @@
       "from": "2012",
       "to": "2012"
     },
-    "show":true,
+    "show": true,
     "items": [
       {
         "nameMonth": "12月20日",

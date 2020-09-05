@@ -4,7 +4,7 @@
       <word-cloud :id="wordsId" :options="wordsOptions"></word-cloud>
       <div class="slogan">{{ slogan }}</div>
     </div>
-    <div class="block">
+    <div class="block" v-if="memberDataList.length > 0">
       <h2>每当世界在变幻，这舞台就是你旅程的港湾</h2>
       <div class="members">
         <div class="member" v-for="m in memberDataList" :key="m.name">
@@ -26,7 +26,7 @@
         </div>
       </div>
     </div>
-    <div class="block">
+    <div class="block" v-if="pet48DataList.length > 0">
       <h2>沿途是否记得，一起欢笑泪水的伙伴</h2>
       <div class="members">
         <div class="member" v-for="m in pet48DataList" :key="m.name">
@@ -45,7 +45,7 @@
         </div>
       </div>
     </div>
-    <div class="block">
+    <div class="block" v-if="otherTeamMemberDataList.length > 0">
       <h2>回忆还感动吗，梦是否已在青空上盛开</h2>
       <div class="members">
         <div class="member" v-for="m in otherTeamMemberDataList" :key="m.name">
@@ -66,7 +66,7 @@
         </div>
       </div>
     </div>
-    <div class="block">
+    <div class="block" v-if="exitMemberDataList.length > 0">
       <h2>十年后再回首，我们初心不改</h2>
       <div class="members">
         <div class="member" v-for="m in exitMemberDataList" :key="m.name">
@@ -128,7 +128,7 @@
         otherTeamMemberDataList: []
       }
     },
-    created () {
+    mounted () {
       getMemberData().then((res) => {
         this.memberDataList = res.memberData
         this.pet48DataList = res.pet48Data
