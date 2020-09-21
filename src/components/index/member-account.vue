@@ -64,7 +64,7 @@
       v-if="data.quanmin"
     ></a>
     <a
-      :href="`https://oasis.weibo.cn/v1/h5/share?sid=${data.lvzhou}`"
+      :href="`https://m.oasis.weibo.cn/v1/h5/share?uid=${data.lvzhou}`"
       :title="`绿洲-${data.name}`"
       target="_blank"
       class="favicon favicon-lvzhou"

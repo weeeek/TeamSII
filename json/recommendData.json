@@ -204,10 +204,10 @@
     "type": "舞台",
     "list": [
       {
-        "title":"第七届年度总决选 《创造炙热的青春》",
-        "from":"BV",
-        "url":"1wT4y1L7hx",
-        "img":"//i0.hdslb.com/bfs/archive/409cf60f3d89877f359d11a471eef0ce3e1c5603.png_380x240.png"
+        "title": "第七届年度总决选 《创造炙热的青春》",
+        "from": "BV",
+        "url": "1wT4y1L7hx",
+        "img": "//i0.hdslb.com/bfs/archive/409cf60f3d89877f359d11a471eef0ce3e1c5603.png_380x240.png"
       },
       {
         "title": "燃烧吧团魂",
@@ -483,8 +483,8 @@
         "img": "//i2.hdslb.com/bfs/archive/ba08b86a91e481f3d896ecd6b9f24c2529e05204.jpg_380x240.jpg"
       },
       {
-        "title":"塞纳河演义",
-        "from":"BV",
+        "title": "塞纳河演义",
+        "from": "BV",
         "url": "https://space.bilibili.com/210188847/video?keyword=%E5%A1%9E%E7%BA%B3%E6%B2%B3%E6%BC%94%E4%B9%89",
         "img": "//i2.hdslb.com/bfs/archive/05a00b92cf4a3501f434e50fc9cd8002493f2c64.jpg_380x240.jpg"
       },
@@ -669,6 +669,12 @@
         "from": "B",
         "url": "28257152",
         "img": "//i1.hdslb.com/bfs/archive/0a224a5f432a56625a84fb0696831ebbe7336148.jpg_380x240.jpg"
+      },
+      {
+        "title": "戴萌莫寒首次对谈",
+        "from": "BV",
+        "url": "14s411x7qo",
+        "img": "//i0.hdslb.com/bfs/archive/59ce884fbf5bacfc68cb2c110b871c659a5f6517.jpg_380x240.jpg"
       },
       {
         "title": "SNH48_BLUEV 出道成长全纪录",

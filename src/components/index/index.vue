@@ -156,6 +156,8 @@
       },
       getGroupWeibo (group) {
         switch (group) {
+          case 'aw9':
+            return '//weibo.com/u/6004762452'
           case 'sense':
             return '//weibo.com/u/5901077408'
           case 'blueV':
@@ -229,9 +231,10 @@
           width 40px
           height 40px
           box-shadow 0 0 3px #000
+        .aw9
+          background-image url('http://47.97.248.244/static/images/aw9.jpg')
         .sense
           background-image url('http://47.97.248.244/static/images/sense.jpg')
-          background-color black
         .blueV
           background-image url('http://47.97.248.244/static/images/bluev.jpg')
         .demoon

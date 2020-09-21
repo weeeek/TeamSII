@@ -1,16 +1,18 @@
 <template>
-  <div class="block">
-    <div class="qrcode" :style="{'background-image': `url('${code}')`}">
-      <div class="icon-logo" :style="{'background-image': `url('${icon}')`}"></div>
-    </div>
-  </div>
+  <center class="qrcode" v-lazy:background-image="code">
+    <div slot class="icon-logo"  v-lazy:background-image="icon"></div>
+  </center>
 </template>
 
 <script>
+import Center from '@/components/global/center'
 export default {
   props: {
     code: String,
     icon: String
+  },
+  components: {
+    Center
   }
 }
 </script>
@@ -19,17 +21,20 @@ export default {
 .qrcode
   background-repeat no-repeat
   background-size cover
-  width 235px
-  height 235px
-  position relative
+  width 100%
+  height 100%
   .icon-logo
-    position absolute
+    flex-basis 35px
     background-repeat no-repeat
     background-size cover
-    width 35px
     height 35px
-    left 100px
-    top 100px
+    border 5px solid white
     border-radius 5px
-    box-shadow 0 0 2px black
+    box-shadow 0 0 5px black
+
+@media screen and (max-width: 1366px) {
+  .icon-logo{
+    display none
+  }
+}
 </style>
