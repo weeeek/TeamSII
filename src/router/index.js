@@ -11,7 +11,7 @@ function getAbsolutePath() {
 }
 
 export default new Router({
-  mode: 'history',
+  // mode: 'history',
   base: getAbsolutePath(),
   routes: [
     {

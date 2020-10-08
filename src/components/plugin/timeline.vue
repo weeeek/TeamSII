@@ -61,6 +61,9 @@ export default {
       }
     },
     splitDescription (str) {
+      if (!str) {
+        return ''
+      }
       return str.split(',').join('<br>')
     }
   },

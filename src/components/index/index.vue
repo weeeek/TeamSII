@@ -46,11 +46,33 @@
       </div>
     </div>
     <div class="block">
-      <h2>回忆还感动吗，梦是否已在青空上盛开</h2>
+      <h2>回忆还感动吗</h2>
       <div class="members">
         <div class="member" v-for="m in otherTeamMemberDataList" :key="m.name">
           <div class="photo" v-lazy:background-image="m.photo">
             <a v-if="m.group" class="group name" :class="m.group" target="_blank" :href="getGroupWeibo(m.group)"></a>
+            <div class="flex flex-column cover">
+              <div class="flex-grow bg-white"></div>
+              <div class="flex cover-v">
+                <div class="flex-grow bg-white"></div>
+                <div class="cover-border"></div>
+                <div class="flex-grow bg-white"></div>
+              </div>
+              <div class="flex-grow bg-white"></div>
+            </div>
+          </div>
+          <div class="name">{{m.name}}</div>
+          <MemberAccount :data="m"></MemberAccount>
+        </div>
+      </div>
+    </div>
+    <div class="block" v-if="graduateDataList.length > 0">
+      <h2>梦是否已在青空上盛开</h2>
+      <div class="members">
+        <div class="member" v-for="m in graduateDataList" :key="m.name">
+          <div class="photo" v-lazy:background-image="m.photo">
+            <a v-if="m.group" class="group name" :class="m.group" target="_blank" :href="getGroupWeibo(m.group)"></a>
+            <a v-if="m.association" class="association name" :class="m.association" target="_blank" :href="getGroupWeibo(m.association)"></a>
             <div class="flex flex-column cover">
               <div class="flex-grow bg-white"></div>
               <div class="flex cover-v">
@@ -123,6 +145,7 @@
           }
         },
         memberDataList: [],
+        graduateDataList: [],
         pet48DataList: [],
         exitMemberDataList: [],
         otherTeamMemberDataList: []
@@ -132,6 +155,7 @@
       getMemberData().then((res) => {
         this.memberDataList = res.memberData
         this.pet48DataList = res.pet48Data
+        this.graduateDataList = res.graduateMemberData
         this.exitMemberDataList = res.exitMemberData
         this.otherTeamMemberDataList = res.otherTeamMemberData
       })

@@ -48,10 +48,25 @@
   {
     "member": true,
     "finish": true,
-    "name": "前SNH48成员董芷依回忆录",
+    "name": "回忆录-莫寒",
     "author": {
-      "name": "前SNH48-董芷依",
-      "link": ""
+      "name": "SNH48-莫寒",
+      "link": "https://weibo.com/momo0v03"
+    },
+    "articles": [
+      {
+        "url": "https://m.weibo.cn/status/4556701069739247",
+        "title": "彼岸"
+      }
+    ]
+  },
+  {
+    "member": true,
+    "finish": true,
+    "name": "回忆录-董芷依",
+    "author": {
+      "name": "董芷依",
+      "link": "https://weibo.com/dzy820"
     },
     "articles": [
       {
