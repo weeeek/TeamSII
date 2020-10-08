@@ -11,6 +11,34 @@
       "miaopai": null,
       "group": null
     },
+	{
+      "name": "陈观慧",
+      "photo": "http://www.snh48.com/images/member/zp_10001.jpg",
+      "weibo": "u/3050708243",
+      "bilibili": "192476819",
+      "douyin": {
+        "number": "602985242",
+        "id": "JBe82dD"
+      },
+      "changba": "150709347",
+      "lvzhou": 3050708243,
+      "miaopai": null,
+      "group": null
+    },
+    {
+      "name": "陈思",
+      "photo": "http://www.snh48.com/images/member/zp_10002.jpg",
+      "weibo": "u/3050742117",
+      "bilibili": "19383319",
+      "douyin": {
+        "number": "665951014",
+        "id": "JBeB8J4"
+      },
+      "lvzhou": 3050742117,
+      "changba": null,
+      "miaopai": null,
+      "group": null
+    },
     {
       "name": "陈雨孜",
       "photo": "http://www.snh48.com/images/member/zp_10221.jpg",
@@ -21,6 +49,21 @@
       "lvzhou": 6613839986,
       "miaopai": null,
       "group": null,
+      "association": "aw9"
+    },
+    {
+      "name": "戴萌",
+      "photo": "http://www.snh48.com/images/member/zp_10003.jpg",
+      "weibo": "dddiamonddd",
+      "bilibili": "18946307",
+      "douyin": {
+        "number": "diamooond28",
+        "id": "JBe8t3C"
+      },
+      "changba": null,
+      "lvzhou": 3050709151,
+      "miaopai": null,
+      "group": "sense",
       "association": "aw9"
     },
     {
@@ -75,6 +118,20 @@
       "lvzhou": 3675573934,
       "miaopai": null,
       "group": null
+    },
+    {
+      "name": "孔肖吟",
+      "photo": "http://www.snh48.com/images/member/zp_10005.jpg",
+      "weibo": "u/3058127927",
+      "bilibili": null,
+      "douyin": {
+        "number": "371432782",
+        "id": "JBJqG68"
+      },
+      "changba": "147320351",
+      "lvzhou": 3058127927,
+      "miaopai": null,
+      "group": "sense"
     },
     {
       "name": "李慧",
@@ -138,6 +195,20 @@
       "miaopai": null,
       "group": null
     },
+	{
+      "name": "李宇琪",
+      "photo": "http://www.snh48.com/images/member/zp_10006.jpg",
+      "weibo": "u/3050792913",
+      "bilibili": "3882983",
+      "douyin": {
+        "number": "28221702",
+        "id": "JBJn96k"
+      },
+      "lvzhou": "3050792913",
+      "changba": null,
+      "miaopai": null,
+      "group": "blueV"
+    },
     {
       "name": "刘增艳",
       "photo": "http://www.snh48.com/images/member/zp_10125.jpg",
@@ -153,6 +224,21 @@
       "acfun": 4214570,
       "miaopai": null,
       "group": null,
+      "association": "aw9"
+    },
+    {
+      "name": "莫寒",
+      "photo": "http://www.snh48.com/images/member/zp_10007.jpg",
+      "weibo": "momo0v03",
+      "bilibili": "323856",
+      "douyin": {
+        "number": "708165492",
+        "id": "JBJc6w8"
+      },
+      "changba": null,
+      "lvzhou": 3053424305,
+      "miaopai": null,
+      "group": "blueV",
       "association": "aw9"
     },
     {
@@ -194,6 +280,35 @@
       },
       "changba": "",
       "lvzhou": "6525600041",
+      "miaopai": null,
+      "group": null
+    },
+    {
+      "name": "钱蓓婷",
+      "photo": "http://www.snh48.com/images/member/zp_10008.jpg",
+      "weibo": "u/3055272517",
+      "bilibili": "22062404",
+      "douyin": {
+        "number": "572856432",
+        "id": "JBJTYAG"
+      },
+      "changba": null,
+      "lvzhou": 3050792913,
+      "miaopai": "https://www.miaopai.comu/paike_f77xpyubxr",
+      "group": null,
+      "association": "aw9"
+    },
+    {
+      "name": "邱欣怡",
+      "photo": "http://www.snh48.com/images/member/zp_10009.jpg",
+      "weibo": "u/3062769307",
+      "bilibili": "144873060",
+      "douyin": {
+        "number": "62534021",
+        "id": "JBJwPMr"
+      },
+      "changba": null,
+      "lvzhou": 3062769307,
       "miaopai": null,
       "group": null
     },
@@ -280,6 +395,50 @@
       "group": null
     },
     {
+      "name": "吴哲晗",
+      "photo": "http://www.snh48.com/images/member/zp_10013.jpg",
+      "weibo": "u/3050731261",
+      "bilibili": "299303884",
+      "douyin": {
+        "number": "570521305",
+        "id": "JBe1UXr"
+      },
+      "changba": "119484593",
+      "lvzhou": 3050731261,
+      "miaopai": null,
+      "group": "demoon"
+    },
+    {
+      "name": "徐晨辰",
+      "photo": "http://www.snh48.com/images/member/zp_10014.jpg",
+      "weibo": "u/3050758665",
+      "bilibili": "16227822",
+      "douyin": {
+        "number": "583908288",
+        "id": "JBJGBga"
+      },
+      "changba": "99463480",
+      "lvzhou": 3050758665,
+      "weibomusic": "http://music.weibo.com/t/s/3050758665.html",
+      "miaopai": null,
+      "group": null
+    },
+    {
+      "name": "许佳琪",
+      "photo": "http://www.snh48.com/images/member/zp_10015.jpg",
+      "weibo": "u/3050737061",
+      "bilibili": "18873979",
+      "douyin": {
+        "number": "hellokiki77",
+        "id": "JBJWeA1"
+      },
+      "changba": null,
+      "lvzhou": 3050737061,
+      "miaopai": null,
+      "group": "sense",
+      "association": "nine"
+    },
+    {
       "name": "由淼",
       "photo": "http://www.snh48.com/images/member/zp_10227.jpg",
       "weibo": "u/7337600874",
@@ -334,6 +493,20 @@
       "lvzhou": "6379039876",
       "miaopai": null,
       "group": null
+    },
+    {
+      "name": "张语格",
+      "photo": "http://www.snh48.com/images/member/zp_10019.jpg",
+      "weibo": "u/3050783091",
+      "bilibili": "605599077",
+      "douyin": {
+        "number": "368860177",
+        "id": "JBJpJyC"
+      },
+      "changba": null,
+      "lvzhou": 3050783091,
+      "miaopai": null,
+      "group": "sense"
     }
   ],
   "pet48Data": [
@@ -391,181 +564,7 @@
       "master": "彭嘉敏"
     }
   ],
-  "graduateMemberData": [
-    {
-      "name": "陈观慧",
-      "photo": "http://www.snh48.com/images/member/zp_10001.jpg",
-      "weibo": "u/3050708243",
-      "bilibili": "192476819",
-      "douyin": {
-        "number": "602985242",
-        "id": "JBe82dD"
-      },
-      "changba": "150709347",
-      "lvzhou": 3050708243,
-      "miaopai": null,
-      "group": null
-    },
-    {
-      "name": "陈思",
-      "photo": "http://www.snh48.com/images/member/zp_10002.jpg",
-      "weibo": "u/3050742117",
-      "bilibili": "19383319",
-      "douyin": {
-        "number": "665951014",
-        "id": "JBeB8J4"
-      },
-      "lvzhou": 3050742117,
-      "changba": null,
-      "miaopai": null,
-      "group": null
-    },
-    {
-      "name": "戴萌",
-      "photo": "http://www.snh48.com/images/member/zp_10003.jpg",
-      "weibo": "dddiamonddd",
-      "bilibili": "18946307",
-      "douyin": {
-        "number": "diamooond28",
-        "id": "JBe8t3C"
-      },
-      "changba": null,
-      "lvzhou": 3050709151,
-      "miaopai": null,
-      "group": "sense",
-      "association": "aw9"
-    },
-    {
-      "name": "孔肖吟",
-      "photo": "http://www.snh48.com/images/member/zp_10005.jpg",
-      "weibo": "u/3058127927",
-      "bilibili": null,
-      "douyin": {
-        "number": "371432782",
-        "id": "JBJqG68"
-      },
-      "changba": "147320351",
-      "lvzhou": 3058127927,
-      "miaopai": null,
-      "group": "sense"
-    },
-    {
-      "name": "李宇琪",
-      "photo": "http://www.snh48.com/images/member/zp_10006.jpg",
-      "weibo": "u/3050792913",
-      "bilibili": "3882983",
-      "douyin": {
-        "number": "28221702",
-        "id": "JBJn96k"
-      },
-      "lvzhou": "3050792913",
-      "changba": null,
-      "miaopai": null,
-      "group": "blueV"
-    },
-    {
-      "name": "莫寒",
-      "photo": "http://www.snh48.com/images/member/zp_10007.jpg",
-      "weibo": "momo0v03",
-      "bilibili": "323856",
-      "douyin": {
-        "number": "708165492",
-        "id": "JBJc6w8"
-      },
-      "changba": null,
-      "lvzhou": 3053424305,
-      "miaopai": null,
-      "group": "blueV",
-      "association": "aw9"
-    },
-    {
-      "name": "钱蓓婷",
-      "photo": "http://www.snh48.com/images/member/zp_10008.jpg",
-      "weibo": "u/3055272517",
-      "bilibili": "22062404",
-      "douyin": {
-        "number": "572856432",
-        "id": "JBJTYAG"
-      },
-      "changba": null,
-      "lvzhou": 3050792913,
-      "miaopai": "https://www.miaopai.comu/paike_f77xpyubxr",
-      "group": null,
-      "association": "aw9"
-    },
-    {
-      "name": "邱欣怡",
-      "photo": "http://www.snh48.com/images/member/zp_10009.jpg",
-      "weibo": "u/3062769307",
-      "bilibili": "144873060",
-      "douyin": {
-        "number": "62534021",
-        "id": "JBJwPMr"
-      },
-      "changba": null,
-      "lvzhou": 3062769307,
-      "miaopai": null,
-      "group": null
-    },
-    {
-      "name": "吴哲晗",
-      "photo": "http://www.snh48.com/images/member/zp_10013.jpg",
-      "weibo": "u/3050731261",
-      "bilibili": "299303884",
-      "douyin": {
-        "number": "570521305",
-        "id": "JBe1UXr"
-      },
-      "changba": "119484593",
-      "lvzhou": 3050731261,
-      "miaopai": null,
-      "group": "demoon"
-    },
-    {
-      "name": "徐晨辰",
-      "photo": "http://www.snh48.com/images/member/zp_10014.jpg",
-      "weibo": "u/3050758665",
-      "bilibili": "16227822",
-      "douyin": {
-        "number": "583908288",
-        "id": "JBJGBga"
-      },
-      "changba": "99463480",
-      "lvzhou": 3050758665,
-      "weibomusic": "http://music.weibo.com/t/s/3050758665.html",
-      "miaopai": null,
-      "group": null
-    },
-    {
-      "name": "许佳琪",
-      "photo": "http://www.snh48.com/images/member/zp_10015.jpg",
-      "weibo": "u/3050737061",
-      "bilibili": "18873979",
-      "douyin": {
-        "number": "hellokiki77",
-        "id": "JBJWeA1"
-      },
-      "changba": null,
-      "lvzhou": 3050737061,
-      "miaopai": null,
-      "group": "sense",
-      "association": "nine"
-    },
-    {
-      "name": "张语格",
-      "photo": "http://www.snh48.com/images/member/zp_10019.jpg",
-      "weibo": "u/3050783091",
-      "bilibili": "605599077",
-      "douyin": {
-        "number": "368860177",
-        "id": "JBJpJyC"
-      },
-      "changba": null,
-      "lvzhou": 3050783091,
-      "miaopai": null,
-      "group": "sense"
-    }
-  ],
+  "graduateMemberData": [],
   "otherTeamMemberData": [
     {
       "name": "吕一",

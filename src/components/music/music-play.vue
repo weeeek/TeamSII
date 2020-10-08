@@ -811,7 +811,7 @@ export default {
             }
 
             .play {
-              animation: rotate 20s linear infinite
+              animation: rotate 60s linear infinite
             }
           }
         }

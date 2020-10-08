@@ -46,7 +46,8 @@
       </div>
     </div>
     <div class="block">
-      <h2>回忆还感动吗</h2>
+      <h2 v-if="graduateDataList.length > 0">回忆还感动吗</h2>
+      <h2 v-else>回忆还感动吗，梦是否已在青空上盛开</h2>
       <div class="members">
         <div class="member" v-for="m in otherTeamMemberDataList" :key="m.name">
           <div class="photo" v-lazy:background-image="m.photo">
