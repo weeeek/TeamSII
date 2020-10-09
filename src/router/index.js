@@ -150,6 +150,13 @@ export default new Router({
       meta: {
         keepAlive: true
       }
+    }, {
+      path: '/video/:id',
+      name: 'video',
+      component: (resolve) => require(['@/components/video/video-play.vue'], resolve),
+      meta: {
+        keepAlive: false
+      }
     }
   ]
 })

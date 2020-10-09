@@ -20,6 +20,7 @@
     "create-keyframe-animation": "^0.1.0",
     "crypto-js": "^4.0.0",
     "css-loader": "^0.28.0",
+    "dplayer": "^1.26.0",
     "eslint-plugin-vue": "^4.7.1",
     "extract-text-webpack-plugin": "^2.0.0",
     "fastclick": "^1.0.6",
