@@ -19,3 +19,5 @@ yarn-error.log*
 /App/App.Android/bin
 /App/App.iOS/obj
 /App/App.iOS/bin
+/HttpProxy/.vs
+/HttpProxy/packages

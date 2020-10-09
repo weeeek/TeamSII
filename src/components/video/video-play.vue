@@ -14,7 +14,7 @@ export default {
   },
   mounted(){
     // 解析传进来的videoId，过后台，拿到配置，生成播放器
-    this.$route.params.id
+    // this.$route.params.id
 
     this.dp = new DPlayer({
         container: document.getElementById('dplayer'),
@@ -30,7 +30,7 @@ export default {
         volume: 0.7,
         mutex: true,       // 互斥，阻止多个播放器同时播放，当前播放器播放时暂停其他播放器
         video: {
-            url: 'dplayer.mp4',
+            url: `http://47.97.248.244/static\\unauthorized\\performance\\20201008\\无尽旋转+蒙娜丽莎没有自拍照.mp4`,
             pic: 'dplayer.png', // 封面
             thumbnails: 'thumbnails.jpg',  // 缩略图
             type: 'auto',  // 可选值: 'auto', 'hls', 'flv', 'dash', 'webtorrent', 'normal' 或其他自定义类型
