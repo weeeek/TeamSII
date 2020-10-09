@@ -14,7 +14,7 @@ export default {
   },
   mounted(){
     // 解析传进来的videoId，过后台，拿到配置，生成播放器
-    this.$route.params.id
+    // this.$route.params.id
 
     this.dp = new DPlayer({
         container: document.getElementById('dplayer'),
@@ -30,9 +30,9 @@ export default {
         volume: 0.7,
         mutex: true,       // 互斥，阻止多个播放器同时播放，当前播放器播放时暂停其他播放器
         video: {
-            url: 'dplayer.mp4',
-            pic: 'dplayer.png', // 封面
-            thumbnails: 'thumbnails.jpg',  // 缩略图
+            url: `http://47.97.248.244/static/unauthorized/performance/20201008/无尽旋转&蒙娜丽莎没有自拍照.mp4`,
+            pic: 'http://47.97.248.244/static/unauthorized/performance/20201008/无尽旋转.jpg', // 封面
+            thumbnails: 'http://47.97.248.244/static/unauthorized/performance/20201008/无尽旋转.jpg',  // 缩略图
             type: 'auto',  // 可选值: 'auto', 'hls', 'flv', 'dash', 'webtorrent', 'normal' 或其他自定义类型
         },
         subtitle: {  // 外挂字幕
@@ -43,11 +43,11 @@ export default {
             color: '#b7daff',
         },
         danmaku: {
-            id: '9E2E3368B56CDBB4',  // 弹幕池 id
-            api: 'https://api.prprpr.me/dplayer/',
+            id: '20201008',  // 弹幕池 id
+            api: 'http://47.97.248.244/WebProxy/api/danmaku',
             token: 'tokendemo', // 弹幕后端验证 token
             maximum: 1000,  // 弹幕最大数量
-            addition: ['https://api.prprpr.me/dplayer/v3/bilibili?aid=4157142'],  // 额外外挂弹幕
+            addition: [],  // 额外外挂弹幕
             user: 'TeamSIISite',
             bottom: '15%',
             unlimited: true,
