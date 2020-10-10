@@ -22,4 +22,6 @@ yarn-error.log*
 /HttpProxy/.vs
 /HttpProxy/packages
 /HttpProxy/HttpProxy/bin
+obj
 /HttpProxy/HttpProxy/obj
+obj

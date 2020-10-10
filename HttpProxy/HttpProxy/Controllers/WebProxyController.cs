@@ -1,4 +1,4 @@
-﻿using HttpProxy.Models;
+using HttpProxy.Models;
 using HttpProxy.Utils;
 using Newtonsoft.Json;
 using System;
@@ -16,11 +16,11 @@ using System.Web.Http.Cors;
 
 namespace HttpProxy.Controllers
 {
-    /// <summary>
-    /// 请求代理
-    /// </summary>
-    [EnableCors("*", "*", "*")]
-    public class WebProxyController : ApiController
+  /// <summary>
+  /// 请求代理
+  /// </summary>
+  [EnableCorsAttribute("*", "*", "*")]
+  public class WebProxyController : ApiController
     {
         /// <summary>
         /// 获取歌词

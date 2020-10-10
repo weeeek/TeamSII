@@ -4,104 +4,75 @@
 
 <script>
 // http://dplayer.js.org/zh/guide.html#%E5%8F%82%E6%95%B0
-import DPlayer from 'dplayer'
+import DPlayer from "dplayer";
+import { getVideoData } from "config/videoData";
 export default {
-  name: 'VideoPlay',
-  data () {
+  name: "VideoPlay",
+  data() {
     return {
-      dp = {}
-    }
+      dp: {},
+    };
   },
-  mounted(){
+  mounted() {
     // 解析传进来的videoId，过后台，拿到配置，生成播放器
-    // this.$route.params.id
-
-    this.dp = new DPlayer({
-        container: document.getElementById('dplayer'),
-        autoplay: false,
-        theme: '#FADFA3',
-        loop: false,
-        lang: 'zh-cn',
-        screenshot: false, // 如果开启截图，视频和视频封面需要允许跨域
-        hotkey: true,      // 开启热键，支持快进快退音量控制播放暂停
-        airplay: true,     // 在 Safari 中开启 AirPlay
-        preload: 'auto',
-        logo: 'logo.png',
-        volume: 0.7,
-        mutex: true,       // 互斥，阻止多个播放器同时播放，当前播放器播放时暂停其他播放器
-        video: {
-            url: `http://47.97.248.244/static/unauthorized/performance/20201008/无尽旋转&蒙娜丽莎没有自拍照.mp4`,
-            pic: 'http://47.97.248.244/static/unauthorized/performance/20201008/无尽旋转.jpg', // 封面
-            thumbnails: 'http://47.97.248.244/static/unauthorized/performance/20201008/无尽旋转.jpg',  // 缩略图
-            type: 'auto',  // 可选值: 'auto', 'hls', 'flv', 'dash', 'webtorrent', 'normal' 或其他自定义类型
-        },
-        subtitle: {  // 外挂字幕
-            url: 'dplayer.vtt',
-            type: 'webvtt',
-            fontSize: '25px',
-            bottom: '10%',
-            color: '#b7daff',
-        },
-        danmaku: {
-            id: '20201008',  // 弹幕池 id
-            api: 'http://47.97.248.244/WebProxy/api/danmaku',
-            token: 'tokendemo', // 弹幕后端验证 token
-            maximum: 1000,  // 弹幕最大数量
-            addition: [],  // 额外外挂弹幕
-            user: 'TeamSIISite',
-            bottom: '15%',
-            unlimited: true,
-        },
-        contextmenu: [  // 	自定义右键菜单
+    getVideoData(this.$route.params.id).then((json) => {
+      var options = JSON.parse(json);
+      options.forEach((x) => {
+        Object.assign(x, {
+          container: document.getElementById("dplayer"),
+          autoplay: false,
+          theme: "#FADFA3",
+          loop: false,
+          lang: "zh-cn",
+          screenshot: false, // 如果开启截图，视频和视频封面需要允许跨域
+          hotkey: true, // 开启热键，支持快进快退音量控制播放暂停
+          airplay: true, // 在 Safari 中开启 AirPlay
+          preload: "auto",
+          logo: "logo.png",
+          volume: 0.7,
+          mutex: true, // 互斥，阻止多个播放器同时播放，当前播放器播放时暂停其他播放器
+          contextmenu: [
+            // 	自定义右键菜单
             {
-                text: '播放器github',
-                link: 'https://github.com/DIYgod/DPlayer',
+              text: "视频地址",
+              link: x.video.url
             },
             {
-                text: '自定义事件',
-                click: (player) => {
-                    console.log(player);
-                },
+              text: "播放器github",
+              link: "https://github.com/DIYgod/DPlayer",
             },
-        ],
-        highlight: [ // 自定义进度条提示点
-            {
-                time: 20,
-                text: '这是第 20 秒',
-            },
-            {
-                time: 120,
-                text: '这是 2 分钟',
-            },
-        ],
-    })
+          ],
+        });
+        this.dp = new DPlayer(options[0]);
+      });
+    });
   },
-  methods:{
+  methods: {
     // 发送一个弹幕
-    send(txt='',color='#FFFFFF',type='right'){
-      if(txt.trim())
-        return
-      this.dp.danmaku.send({
-        text: txt,
-        color: color,
-        type: type, // should be `top` `bottom` or `right`
-      },
-      () => {
-        this.draw(txt,color,type);
-      })
+    send(txt = "", color = "#FFFFFF", type = "right") {
+      if (txt.trim()) return;
+      this.dp.danmaku.send(
+        {
+          text: txt,
+          color: color,
+          type: type, // should be `top` `bottom` or `right`
+        },
+        () => {
+          this.draw(txt, color, type);
+        }
+      );
     },
     // 实时绘制弹幕
-    draw(txt='',color='#FFFFFF',type='right'){
-      if(txt.trim())
-        return
+    draw(txt = "", color = "#FFFFFF", type = "right") {
+      if (txt.trim()) return;
       this.dp.danmaku.draw({
         text: txt,
         color: color,
         type: type,
       });
-    }
-  }
-}
+    },
+  },
+};
 // url传一个videoID
 // 后台拿着这个id去找json文件，读取后加密，返回到前端，前端解密到option
 // 弹幕接口返回 { code：0，data:[]  }
@@ -109,8 +80,10 @@ export default {
 //                         视频时间，弹幕类型，10进制颜色，用户id（我5bc0fae6），弹幕内容
 // https://s-sh-17-dplayercdn.oss.dogecdn.com/1678963.json 某个时间点爬下来的B站弹幕数据
 // 1678963是个av号，demo视频就是这个
-
 </script>
 
 <style scoped>
+.dplayer-logo{
+  display: none;
+}
 </style>
