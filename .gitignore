@@ -21,3 +21,7 @@ yarn-error.log*
 /App/App.iOS/bin
 /HttpProxy/.vs
 /HttpProxy/packages
+/HttpProxy/HttpProxy/bin
+obj
+/HttpProxy/HttpProxy/obj
+obj
