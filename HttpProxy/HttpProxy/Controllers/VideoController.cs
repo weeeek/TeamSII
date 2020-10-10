@@ -11,7 +11,7 @@ using System.Web.Http.Cors;
 
 namespace HttpProxy.Controllers
 {
-  [EnableCors("*", "*", "*")]
+  [EnableCorsAttribute("*", "*", "*")]
   public class VideoController : ApiController
   {
     /// <summary>
@@ -20,19 +20,18 @@ namespace HttpProxy.Controllers
     /// <param name="id"></param>
     /// <returns></returns>
     [HttpGet, Route("api/GetVideoOption")]
-    public Options[] GetVideoOption(string id)
+    public string GetVideoOption(string id)
     {
       // 根据id读取对应的json文件
       var data = File.ReadAllText(@"C:\inetpub\wwwroot\json\Video\" + id + ".json", System.Text.Encoding.UTF8);
-      return JsonConvert.DeserializeObject<Options[]>(data);
+      return data;
     }
 
-    [HttpPost, Route("api/GetDanmaku")]
-    public List<object[]> GetDanmaku(string id)
+    [HttpGet, Route("api/danmakuv3")]
+    public List<object[]> GetDanmaku(string id, int max)
     {
       try
       {
-        // [256.148, 0, 16777215, "ccf77860", "ありがとうございました"]
         var danmaku = File.ReadAllLines(@"C:\inetpub\wwwroot\json\Danmaku\" + id + ".json", System.Text.Encoding.UTF8).ToList();
         var result = new List<object[]>();
         danmaku.ForEach(x =>
@@ -47,21 +46,31 @@ namespace HttpProxy.Controllers
       }
     }
 
-    [HttpPost, Route("api/SendDanmaku")]
-    public bool SendDanmaku(string id, double time, int type, int color, string bilibiliId, string text)
+    [HttpPost, Route("api/danmakuv3")]
+    public bool SendDanmaku(DanmakuRequest request)
     {
       try
       {
-        var path = @"C:\inetpub\wwwroot\json\Danmaku\" + id + ".json";
+        var path = @"C:\inetpub\wwwroot\json\Danmaku\" + request.id + ".json";
         if (!File.Exists(path))
         {
-          using (FileStream fs = new FileStream(path, FileMode.CreateNew, FileAccess.ReadWrite)) {
+          using (FileStream fs = new FileStream(path, FileMode.CreateNew, FileAccess.ReadWrite))
+          {
+            using (StreamWriter sw = new StreamWriter(fs))
+            {
+              sw.WriteLine(string.Format("[{0}, {1}, {2}, \"{3}\", \"{4}\"]", request.time, request.type, request.color, "site", request.text));// 直接追加文件末尾，换行
+              sw.Flush();
+              sw.Close();
+            }
             fs.Close();
           }
         }
-        using (StreamWriter sw = new StreamWriter(path, true, System.Text.Encoding.UTF8))
+        else
         {
-          sw.WriteLine(string.Format("[{0}, {1}, {2}, \"{3}\", \"{4}\"]", time, type, color, bilibiliId, text));// 直接追加文件末尾，换行 
+          using (StreamWriter sw = new StreamWriter(path, true, System.Text.Encoding.UTF8))
+          {
+            sw.WriteLine(string.Format("[{0}, {1}, {2}, \"{3}\", \"{4}\"]", request.time, request.type, request.color, "site", request.text));// 直接追加文件末尾，换行 
+          }
         }
         return true;
       }

@@ -1,0 +1,28 @@
+[{
+    "video": {
+        "url": "http://47.97.248.244/static/unauthorized/performance/20201007/无尽旋转&蒙娜丽莎没有自拍照.mp4",
+        "pic": "http://47.97.248.244/static/unauthorized/performance/20201007/无尽旋转.jpg",
+        "thumbnails": "http://47.97.248.244/static/unauthorized/performance/20201007/无尽旋转.jpg",
+        "type": "auto"
+    },
+    "danmaku": {
+        "id": "20201007P1",
+        "api": "http://47.97.248.244/WebProxy/api/danmaku",
+        "token": "TeamSIISite",
+        "maximum": 1000,
+        "addition": [],
+        "user": "TeamSIISite",
+        "bottom": "15%",
+        "unlimited": true
+    },
+    "highlight": [
+        {
+            "time": 20,
+            "text": "这是第 20 秒"
+        },
+        {
+            "time": 120,
+            "text": "这是 2 分钟"
+        }
+    ]
+}]

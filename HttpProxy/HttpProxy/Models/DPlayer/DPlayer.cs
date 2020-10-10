@@ -1,27 +1,17 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Web;
 
 namespace HttpProxy.Models.DPlayer
 {
     public class Options
     {
-        public bool autoplay { get; set; } = false;
-        public string theme { get; set; } = "#ffffff";
-        public bool loop { get; set; } = false;
-        public string lang { get; set; } = "zh-cn";
-        public bool screenshot { get; set; } = false;
-        public bool hotkey { get; set; } = false;
-        public bool airplay { get; set; } = false;
-        public string preload { get; set; } = "auto";
-        public string logo { get; set; }
-        public float volume { get; set; } = 0.5f;
-        public bool mutex { get; set; } = true;
         public Video video { get; set; }
-        public SubTitle subtitle { get; set; }
+        // public SubTitle subtitle { get; set; }
         public Danmaku danmaku { get; set; }
-        public HighLight[] highlight { get; set; }
+        public List<HighLight> highlight { get; set; }
     }
 
     public class Video
@@ -53,5 +43,15 @@ namespace HttpProxy.Models.DPlayer
     public class HighLight {
         public int time { get; set; }
         public string text { get; set; }
+    }
+
+  public class DanmakuRequest {
+        public string author { get; set; }
+        public int color { get; set; }
+        public string id { get; set; }
+        public string text { get; set; }
+        public double time { get; set; }
+        public string token { get; set; }
+        public int type { get; set; }
     }
 }
