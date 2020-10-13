@@ -28,26 +28,26 @@ namespace HttpProxy.Controllers
     }
 
     [HttpGet, Route("api/danmakuv3")]
-    public List<object[]> GetDanmaku(string id, int max)
+    public Response<List<object[]>> GetDanmaku(string id, int max)
     {
       try
       {
-        var danmaku = File.ReadAllLines(@"C:\inetpub\wwwroot\json\Danmaku\" + id + ".json", System.Text.Encoding.UTF8).ToList();
+        var danmaku = File.ReadAllLines(@"C:\inetpub\wwwroot\json\Danmaku\" + id + ".json", System.Text.Encoding.UTF8).ToList().Where(s => !string.IsNullOrEmpty(s)).ToList();
         var result = new List<object[]>();
         danmaku.ForEach(x =>
         {
           result.Add(JsonConvert.DeserializeObject<object[]>(x));
         });
-        return result;
+        return new Response<List<object[]>>(result);
       }
       catch (Exception ex)
       {
-        return new List<object[]>();
+        return new Response<List<object[]>>(null);
       }
     }
 
     [HttpPost, Route("api/danmakuv3")]
-    public bool SendDanmaku(DanmakuRequest request)
+    public Response<bool> SendDanmaku(DanmakuRequest request)
     {
       try
       {
@@ -72,11 +72,11 @@ namespace HttpProxy.Controllers
             sw.WriteLine(string.Format("[{0}, {1}, {2}, \"{3}\", \"{4}\"]", request.time, request.type, request.color, "site", request.text));// 直接追加文件末尾，换行 
           }
         }
-        return true;
+        return new Response<bool>(true);
       }
       catch (Exception ex)
       {
-        return false;
+        return new Response<bool>(false);
       }
     }
   }

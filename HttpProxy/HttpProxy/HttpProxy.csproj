@@ -218,6 +218,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\DPlayer\DPlayer.cs" />
+    <Compile Include="Models\DPlayer\Response.cs" />
     <Compile Include="Models\FileUploadRequest.cs" />
     <Compile Include="Models\QQAudioUrlRequest.cs" />
     <Compile Include="Models\QQLyricRequest.cs" />
