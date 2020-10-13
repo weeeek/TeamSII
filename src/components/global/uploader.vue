@@ -3,23 +3,41 @@
     <center>
       <div slot class="uploader flex flex-column" v-if="!showAlert && !showLoading">
         <div class="flex-grow">
+          <label for="key">&#12288;&#12288;类型</label>
           <div class="select" v-if="!Lock">
             <select name="Type" v-model="formData.Type">
               <option value="Emoji">表情包</option>
               <option value="Painting">手绘</option>
+              <option value="Photo">精修图</option>
             </select>
           </div>
           <input disabled type="text" name="Type" id="Type" v-model="formData.Type" v-if="Lock" />
-          <label for="key">类型</label>
         </div>
-        <div class="email flex-grow">
+        <div class="flex-grow">
+          <label for="key">&#12288;关键字</label>
           <input type="text" name="Key" id="key" v-model="formData.Key" />
-          <label for="key">关键字</label>
         </div>
-        <div class="file flex-grow">
+        <div class="flex-grow">
+          <label for="IdolName">&#12288;&#12288;成员</label>
+          <input type="text" name="IdolName" id="IdolName" v-model="formData.IdolName" />
+        </div>
+        <div class="flex-grow" v-if="formData.Type == 'Painting'">
+          <label for="Weibo">作者微博</label>
+          <input type="text" name="Weibo" id="Weibo" v-model="formData.Weibo" />
+        </div>
+        <div class="flex-grow" v-if="formData.Type != 'Emoji'">
+          <label for="Online">网络资源</label>
+          <input type="checkbox" name="Online" id="Online" v-model="formData.Online" />
+        </div>
+        <div class="file flex-grow" v-if="formData.Type == 'Emoji' || !formData.Online">
+          <label for="key">&#12288;&#12288;文件</label>
           <input type="file" name="File" id="file" accept="image/*" v-on:change="tirggerFile" />
-          <label for="key">文件</label>
         </div>
+        <div class="flex-grow" v-else>
+          <label for="Url">资源网址</label>
+          <input type="text" name="Url" id="Url" v-model="formData.Url" />
+        </div>
+        <br />
         <div class="flex flex-grow flex-justify-between">
           <button class="btn-3d" @click="onSubmit">提交</button>
           <button class="btn-3d" @click="triggerUploader">取消</button>
@@ -45,8 +63,12 @@ export default {
       showLoading: false,
       showAlert: false,
       formData: {
+        Online: false,
+        Weibo: "",
+        IdolName: "",
         Type: "",
         Key: "",
+        Url: "",
         File: null,
       },
     };
@@ -143,11 +165,12 @@ export default {
     padding: 10px;
 
     label {
-      margin-left: 10px;
+      margin-right: 15px;
       color: #999999;
     }
 
     input {
+      margin 3px 0;
       padding: 9px;
       border: solid 1px #e5e5e5;
       outline: 0;
@@ -158,7 +181,10 @@ export default {
       box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
       -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
       -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
-
+      &[type=checkbox]{
+        margin 11px 0 12px 0
+        width auto
+      }
       &:hover, &:focus {
         border-color: #c9c9c9;
         -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
