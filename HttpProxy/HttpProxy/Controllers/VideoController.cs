@@ -11,21 +11,21 @@ using System.Web.Http.Cors;
 
 namespace HttpProxy.Controllers
 {
-  [EnableCorsAttribute("*", "*", "*")]
-  public class VideoController : ApiController
-  {
-    /// <summary>
-    /// 读取对应json文件并序列化成对象
-    /// </summary>
-    /// <param name="id"></param>
-    /// <returns></returns>
-    [HttpGet, Route("api/GetVideoOption")]
-    public string GetVideoOption(string id)
-    {
-      // 根据id读取对应的json文件
-      var data = File.ReadAllText(@"C:\inetpub\wwwroot\json\Video\" + id + ".json", System.Text.Encoding.UTF8);
-      return data;
-    }
+	[EnableCorsAttribute("*", "*", "*")]
+	public class VideoController : ApiController
+	{
+		/// <summary>
+		/// 读取对应json文件并序列化成对象
+		/// </summary>
+		/// <param name="id"></param>
+		/// <returns></returns>
+		[HttpGet, Route("api/GetVideoOption")]
+		public string GetVideoOption(string id)
+		{
+			// 根据id读取对应的json文件
+			var data = File.ReadAllText(@"C:\inetpub\wwwroot\json\Video\" + id + ".json", System.Text.Encoding.UTF8);
+			return data;
+		}
 
     [HttpGet, Route("api/danmakuv3")]
     public Response<List<object[]>> GetDanmaku(string id, int max)

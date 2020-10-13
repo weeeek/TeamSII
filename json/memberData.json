@@ -64,7 +64,7 @@
       "lvzhou": 3050709151,
       "miaopai": null,
       "group": "sense",
-      "association": "aw9"
+      "association": null
     },
     {
       "name": "段艺璇",
@@ -560,6 +560,10 @@
       "master": "刘增艳"
     },
     {
+      "name": "嘟嘟",
+      "master": "钱蓓婷"
+    },
+    {
       "name": "coffee",
       "master": "彭嘉敏"
     }
@@ -618,7 +622,7 @@
     {
       "name": "袁丹妮",
       "photo": "http://www.snh48.com/images/member/zp_10073.jpg",
-      "weibo": "u/5225886388",
+      "weibo": "u/1889707493",
       "bilibili": null,
       "douyin": {
         "number": "yuandanni",
