@@ -1,7 +1,11 @@
 <template>
   <div class="layer">
     <center>
-      <div slot class="uploader flex flex-column" v-if="!showAlert && !showLoading">
+      <div
+        slot
+        class="uploader flex flex-column"
+        v-if="!showAlert && !showLoading"
+      >
         <div class="flex-grow">
           <label for="key">&#12288;&#12288;类型</label>
           <div class="select" v-if="!Lock">
@@ -11,7 +15,14 @@
               <option value="Photo">精修图</option>
             </select>
           </div>
-          <input disabled type="text" name="Type" id="Type" v-model="formData.Type" v-if="Lock" />
+          <input
+            disabled
+            type="text"
+            name="Type"
+            id="Type"
+            v-model="formData.Type"
+            v-if="Lock"
+          />
         </div>
         <div class="flex-grow">
           <label for="key">&#12288;关键字</label>
@@ -19,7 +30,12 @@
         </div>
         <div class="flex-grow">
           <label for="IdolName">&#12288;&#12288;成员</label>
-          <input type="text" name="IdolName" id="IdolName" v-model="formData.IdolName" />
+          <input
+            type="text"
+            name="IdolName"
+            id="IdolName"
+            v-model="formData.IdolName"
+          />
         </div>
         <div class="flex-grow" v-if="formData.Type == 'Painting'">
           <label for="Weibo">作者微博</label>
@@ -27,11 +43,25 @@
         </div>
         <div class="flex-grow" v-if="formData.Type != 'Emoji'">
           <label for="Online">网络资源</label>
-          <input type="checkbox" name="Online" id="Online" v-model="formData.Online" />
+          <input
+            type="checkbox"
+            name="Online"
+            id="Online"
+            v-model="formData.Online"
+          />
         </div>
-        <div class="file flex-grow" v-if="formData.Type == 'Emoji' || !formData.Online">
+        <div
+          class="file flex-grow"
+          v-if="formData.Type == 'Emoji' || !formData.Online"
+        >
           <label for="key">&#12288;&#12288;文件</label>
-          <input type="file" name="File" id="file" accept="image/*" v-on:change="tirggerFile" />
+          <input
+            type="file"
+            name="File"
+            id="file"
+            accept="image/*"
+            v-on:change="tirggerFile"
+          />
         </div>
         <div class="flex-grow" v-else>
           <label for="Url">资源网址</label>
@@ -43,7 +73,9 @@
           <button class="btn-3d" @click="triggerUploader">取消</button>
         </div>
       </div>
-      <div slot v-if="showAlert" style="color: white">感谢聚聚对本站的贡献，审核通过后更新数据</div>
+      <div slot v-if="showAlert" style="color: white">
+        感谢聚聚对本站的贡献，审核通过后更新数据
+      </div>
       <div slot v-if="showLoading">
         <div class="loading"></div>
         <p class="text-center">上传中</p>
@@ -167,24 +199,29 @@ export default {
     label {
       margin-right: 15px;
       color: #999999;
+      height: 43px;
+      line-height: 43px;
     }
 
     input {
-      margin 3px 0;
+      margin: 3px 0;
       padding: 9px;
       border: solid 1px #e5e5e5;
       outline: 0;
       font: normal 13px / 100% Verdana, Tahoma, sans-serif;
-      width: 200px;
+      width: 380px;
       background: -webkit-gradient(linear, left top, left 25, from(#ffffff), color-stop(4%, #eeeeee), to(#ffffff));
       background: -moz-linear-gradient(top, #ffffff, #eeeeee 1px, #ffffff 25px);
       box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
       -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
       -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
-      &[type=checkbox]{
-        margin 11px 0 12px 0
-        width auto
+      height: 43px;
+
+      &[type=checkbox] {
+        width: auto;
+        height: auto;
       }
+
       &:hover, &:focus {
         border-color: #c9c9c9;
         -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
