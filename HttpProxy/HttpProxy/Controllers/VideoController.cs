@@ -4,15 +4,11 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
-using System.Web.Http.Cors;
 
 namespace HttpProxy.Controllers
 {
-	[EnableCorsAttribute("*", "*", "*")]
-	public class VideoController : ApiController
+    public class VideoController : ApiController
 	{
 		/// <summary>
 		/// 读取对应json文件并序列化成对象

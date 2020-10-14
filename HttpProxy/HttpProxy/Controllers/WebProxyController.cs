@@ -1,21 +1,17 @@
-using System;
-using System.Configuration;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Web;
-using System.Web.Http;
-using System.Web.Http.Cors;
 using HttpProxy.Models;
 using HttpProxy.Utils;
 using Newtonsoft.Json;
+using System;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Web.Http;
 
 namespace HttpProxy.Controllers
 {
-		/// <summary>
-		/// 请求代理
-		/// </summary>
-		[EnableCorsAttribute("*", "*", "*")]
-		public class WebProxyController : ApiController
+    /// <summary>
+    /// 请求代理
+    /// </summary>
+    public class WebProxyController : ApiController
 		{
 				/// <summary>
 				/// 获取歌词
@@ -47,7 +43,7 @@ namespace HttpProxy.Controllers
 				/// 获取Vkey
 				/// </summary>
 				/// <returns></returns>
-				[HttpPost, Route("api/QQAudioUrl"), EnableCors("*", "*", "*")]
+				[HttpPost, Route("api/QQAudioUrl")]
 				public HttpResponseMessage QQAudioUrl(QQAudioUrlRequest request)
 				{
 					string uri = $"https://u.y.qq.com/cgi-bin/musicu.fcg";

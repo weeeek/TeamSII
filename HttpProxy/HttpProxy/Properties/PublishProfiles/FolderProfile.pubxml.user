@@ -85,10 +85,10 @@
       <publishTime>10/10/2020 09:18:06</publishTime>
     </File>
     <File Include="bin/HttpProxy.dll">
-      <publishTime>10/13/2020 17:21:24</publishTime>
+      <publishTime>10/14/2020 16:26:33</publishTime>
     </File>
     <File Include="bin/HttpProxy.pdb">
-      <publishTime>10/13/2020 17:21:24</publishTime>
+      <publishTime>10/14/2020 16:26:33</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>11/30/2016 16:07:42</publishTime>
@@ -796,7 +796,7 @@
       <publishTime>10/10/2020 09:18:06</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/10/2020 17:18:43</publishTime>
+      <publishTime>10/14/2020 16:26:34</publishTime>
     </File>
   </ItemGroup>
 </Project>
