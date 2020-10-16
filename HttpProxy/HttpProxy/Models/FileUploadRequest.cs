@@ -1,4 +1,5 @@
 using HttpProxy.Enums;
+using System.Web;
 
 namespace HttpProxy.Models
 {
@@ -11,7 +12,7 @@ namespace HttpProxy.Models
     /// <summary>
     /// 类型
     /// </summary>
-    public UploadType Type { get; set; }
+    public string Type { get; set; }
     /// <summary>
     /// 关键字
     /// </summary>

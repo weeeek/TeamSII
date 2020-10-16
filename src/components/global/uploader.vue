@@ -107,24 +107,20 @@ export default {
   },
   methods: {
     tirggerFile: function (event) {
-      var file = event.target.files[0]; // (利用console.log输出看结构就知道如何处理档案资料)
+      var file = event.target.files[0];
       this.formData.File = event.target.files[0];
     },
     onSubmit() {
       let _vm = this;
-      /* json格式提交： */
-      // let formData = JSON.stringify(this.formData);
-
       /* formData格式提交： */
       let formData = new FormData();
-      // formData.append("Type", this.uploadType);
       for (var key in this.formData) {
         formData.append(key, this.formData[key]);
       }
       _vm.showLoading = true;
       axios({
         method: "post",
-        url: `${webProxyServer}File/Upload`,
+        url: `${webProxyServer}api/UploadFile`,
         headers: {
           "Content-Type": "multipart/form-data",
         },
@@ -138,6 +134,8 @@ export default {
           (_vm.formData.Key = ""), (_vm.formData.File = null);
           _vm.triggerUploader();
         }, 3000);
+      }).error(ex => {
+        alert("出错啦，联系一下407351071让他多掉几根头发吧")
       });
     },
     ...mapActions(["triggerUploader"]),

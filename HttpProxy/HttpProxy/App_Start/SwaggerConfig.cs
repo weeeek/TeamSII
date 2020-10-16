@@ -16,7 +16,7 @@ namespace HttpProxy
             GlobalConfiguration.Configuration
                 .EnableSwagger(c =>
                 {
-                    c.SingleApiVersion("v1", "Ò»°ãµÄÇëÇó´úÀí");
+                    c.SingleApiVersion("v1", "TeamSIIèµ„æºä¸­å¿ƒæœåŠ¡å™¨");
                     c.IncludeXmlComments(string.Format("{0}/bin/HttpProxy.xml", System.AppDomain.CurrentDomain.BaseDirectory));
                 })
                 .EnableSwaggerUi(c => { });
