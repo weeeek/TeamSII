@@ -6,7 +6,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>D:\发布\WebProxy</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\HttpProxy</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="ApplicationInsights.config">
@@ -85,10 +85,10 @@
       <publishTime>10/10/2020 09:18:06</publishTime>
     </File>
     <File Include="bin/HttpProxy.dll">
-      <publishTime>10/14/2020 16:26:33</publishTime>
+      <publishTime>10/19/2020 11:13:18</publishTime>
     </File>
     <File Include="bin/HttpProxy.pdb">
-      <publishTime>10/14/2020 16:26:33</publishTime>
+      <publishTime>10/19/2020 11:13:18</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>11/30/2016 16:07:42</publishTime>
@@ -796,7 +796,7 @@
       <publishTime>10/10/2020 09:18:06</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/14/2020 16:26:34</publishTime>
+      <publishTime>10/19/2020 10:07:29</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -6,10 +6,6 @@ namespace HttpProxy.Models
   public class FileUploadRequest
   {
     /// <summary>
-    /// 为网络资源
-    /// </summary>
-    public bool Online { get; set; } = false;
-    /// <summary>
     /// 类型
     /// </summary>
     public string Type { get; set; }
@@ -29,5 +25,9 @@ namespace HttpProxy.Models
     /// 微博地址，可不填
     /// </summary>
     public string Weibo { get; set; }
+    /// <summary>
+    /// 为网络资源
+    /// </summary>
+    public bool Online { get; set; }
   }
 }
