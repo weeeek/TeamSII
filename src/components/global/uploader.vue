@@ -89,6 +89,7 @@ import Center from "./center";
 import { mapActions, mapGetters } from "vuex";
 import { webProxyServer } from "config/common";
 import axios from "axios";
+
 export default {
   data() {
     return {
@@ -118,13 +119,13 @@ export default {
         formData.append(key, this.formData[key]);
       }
       _vm.showLoading = true;
+
       axios({
         method: "post",
-        url: `${webProxyServer}api/UploadFile`,
+        url: `${webProxyServer}File/Upload`,
         headers: {
           "Content-Type": "multipart/form-data",
         },
-        withCredentials: true,
         data: formData,
       }).then((res) => {
         _vm.showLoading = false;
