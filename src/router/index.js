@@ -136,7 +136,14 @@ export default new Router({
       meta: {
         keepAlive: true
       }
-    }, , {
+    }, {
+      path: "/ball",
+      name: 'ball',
+      component: (resolve) => require(['@/components/tools/ball'], resolve),
+      meta: {
+        keepAlive: true
+      }
+    }, {
       path: '/chat',
       name: 'chat',
       component: (resolve) => require(['@/components/tools/chat'], resolve),

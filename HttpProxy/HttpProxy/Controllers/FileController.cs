@@ -43,6 +43,7 @@ namespace HttpProxy.Controllers
     public void UploadFile()
     {
       string path;
+      string fileName;
       //获取参数信息
       var forms = HttpContext.Current.Request.Form;      //定义传统request对象
       FileUploadRequest request = new FileUploadRequest()
@@ -59,6 +60,7 @@ namespace HttpProxy.Controllers
       if (request.Online)
       {
         path = request.Url;
+        fileName = request.Url;
       }
       else
       {
@@ -68,7 +70,8 @@ namespace HttpProxy.Controllers
         string type = file.FileName.Split('.')[1];
         path = $"{folderPath}\\{request.IdolName}{request.Key}{DateTime.Now.ToString("yyyyMMddhhmmss")}.{type}";
         file.SaveAs(path);
-        path = $"http://47.97.248.244/static/{request.Type}/{request.IdolName}{request.Key}.{type}";
+        fileName = $"{request.IdolName}{request.Key}.{type}";
+        path = $"http://47.97.248.244/static/{request.Type}/{fileName}";
       }
 
       //                                                                   追加
@@ -93,7 +96,7 @@ namespace HttpProxy.Controllers
             }));
             break;
           case "Emoji":
-            sw.WriteLine(path);
+            sw.WriteLine(fileName);
             break;
           default:
             break;
