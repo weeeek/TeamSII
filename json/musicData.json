@@ -1537,6 +1537,29 @@
             "opern": null
           }
         ]
+      },
+      {
+        "title": "中国韵2020",
+        "songs": [
+          {
+            "image": {
+              "url": "http://i0.hdslb.com/bfs/archive/e5212d07dcd472b716b041bd0c9a905eb2da54b8.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "孙芮",
+              "戴萌"
+            ],
+            "id": 284735824,
+            "mid": "00316sBl1aIWiX",
+            "name": "步香阶",
+            "interval": 218,
+            "play": [],
+            "opern": null
+          }
+        ]
       }
     ]
   },
@@ -1560,6 +1583,7 @@
             "mid": "002u2sCn4ckSwx",
             "name": "意浓",
             "interval": 250,
+            "url": "http://47.97.248.244/static/music/许琪佳-意浓.mp3",
             "play": [
               {
                 "player": "",
@@ -1706,6 +1730,55 @@
             "mid": "003AXYqU3aYVXk",
             "name": "Keep Fighting",
             "interval": 221,
+            "play": [],
+            "opern": null
+          }
+        ]
+      },
+      {
+        "title": "莫寒",
+        "songs": [
+          {
+            "image": {
+              "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000002nhUoB3JGeQq_1.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "莫寒"
+            ],
+            "id": 285106670,
+            "mid": "002Ulxyi1Zi7tT",
+            "url":"http://47.97.248.244/static/music/莫寒-在雨中.mp3",
+            "name": "在雨中",
+            "interval": 191,
+            "play": [{
+              "player":"",
+              "type":"MV",
+              "url":"https://www.bilibili.com/video/BV1nf4y1v7wr"
+            }],
+            "opern": null
+          }
+        ]
+      },
+      {
+        "title": "戴萌",
+        "songs": [
+          {
+            "image": {
+              "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000000g4fBF1hYn2Y_1.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "戴萌"
+            ],
+            "id": 285645462,
+            "mid": "000mx5yo3LvsFF",
+            "name": "Ready For You",
+            "interval": 225,
             "play": [],
             "opern": null
           }
@@ -1891,6 +1964,89 @@
   {
     "typeName": "公演曲",
     "group": [
+      {
+        "title": "天黑请闭眼",
+        "songs": [
+          {
+            "image": {
+              "url": "//i1.hdslb.com/bfs/archive/f9f5df336b7511a62a165fc8daaa5caccc6a4238.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "袁雨桢",
+              "温晶婕",
+              "刘增艳"
+            ],
+            "id": 102348824,
+            "mid": "0030Ocbk1ZjyRX",
+            "name": "血腥爱情故事",
+            "url": "http://47.97.248.244/static/music/血腥爱情故事.mp3",
+            "interval": 264,
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/BV1TZ4y1G7hJ"
+              }
+            ],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "//i2.hdslb.com/bfs/archive/582a10d9199a1388a660516337338315769a02ea.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "段艺璇",
+              "宁轲",
+              "沈小爱"
+            ],
+            "id": 232104875,
+            "mid": "003nliV10gnpHF",
+            "name": "对话",
+            "lyric": "W3RpOuWvueivnSAoTGl2ZSldClthcjrmsaroi4/ms7ddClthbDrmiJHmmK/llLHkvZzkurog56ysNeacn10KW2J5Ol0KW29mZnNldDowXQpbMDA6MDAuMDBd5a+56K+dIChMaXZlKSAtIOauteiJuueShyDlroHovbIg5rKI5bCP54ixClswMDowMS4xMV3or43vvJrmsaroi4/ms7cKWzAwOjAxLjkwXeabsu+8muaxquiLj+aztwpbMDA6MDIuNzBd57yW5puy77ya5Lu75Lit5by6ClswMDowMy42NV3liLbkvZzkurrvvJrku7vlr5LlhrAKWzAwOjA0Ljc3XeW8puS5kOe8luWGme+8muS7u+S4reW8ui/liJjpopzlmIkKWzAwOjA2LjY3XeWwj+aPkOeQtOe8luWGme+8muWImOminOWYiQpbMDA6MDguMTBd5omL6aOO55C057yW5YaZ77ya5rGq6IuP5rO3L+WImOminOWYiQpbMDA6MTAuMTdd5ZKM6Z+z57yW5YaZ77ya546L6K+t5pqEL+mDkeWfueaWsApbMDA6MTIuMDhd5bCP5o+Q55C077ya5byg55C0ClswMDoxMy4wM13miYvpo47nkLTvvJrpn6nor5HplJAKWzAwOjE0LjE1Xemfs+S5kOaAu+ebke+8muiwreS8iuWTskBUWVoKWzAwOjE1Ljc0Xea3t+mfs++8muael+aipua0iwpbMDA6MTYuNjldVFla5LmQ6Zif77yaClswMDoxNy4zM13kuZDpmJ/pmJ/plb8m5ZCJ5LuW77ya6buE56uj55CuQFRZWgpbMDA6MTkuMzldVFla6Z+z5LmQ57uf562577ya5L+u5Y2T6L6wQFRZWgpbMDA6MjEuMTRd5ZCJ5LuW77yaTWlrZSBNY0xhdWdobGluClswMDoyMS45NF3otJ3mlq/vvJpSeWFuIEJyYWRldGljaApbMDA6MjIuNzNd6ZSu55uY77ya6Z+p5aSp6LWrL1Jva3NhbmEKWzAwOjI0LjAxXem8k++8mkdhYnJpZWwgQ29ybmVsaXVzClswMDoyNC42NF3miZPlh7vkuZDvvJrog6HnkYDovakKWzAwOjI1Ljc1XeWSjOWjsO+8muaigeWPpOmpsC/njovmgJ3mgJ0v546L6Iul5Y2JClswMDoyNy45OF1Qcm9ncmFt77ya6b2Q5paH5rabClswMDoyOC42Ml3lvKbkuZDvvJrpnbPmtbfpn7PCruW8puS5kOWbogpbMDA6MjkuNTRd5LiA5Liq5oiRClswMDozMi4wM13lgYfoo4Xng63niLHnlJ/mtLsKWzAwOjM1LjMzXeW+iOWuiemdmeeahOW/q+S5kApbMDA6MzguODZd5LuO5LiN5ZCs5L+h5Yir5Lq655qE6ICz5py1ClswMDo0NS43Nl3lj6/lj6bkuIDkuKrmiJEKWzAwOjQ4LjkyXeWDj+WkseaOp+eahOmHjueBqwpbMDA6NTIuMzFd6IKG5oSP5Zyw5oqK5aSp55yf5oyl6ZyNClswMDo1Ny40OV3kuIDmrKHkuIDmrKHnmoTkuIvlnaAKWzAxOjAwLjk0XemZt+WFpeazpeayvOS4reWPiOWQjuaClApbMDE6MDQuMzBd6YCD5LiN5byA55eb55qE5YyF5Zu0ClswMTowOC4wM13ov5jmnInlh6DmrKHmnLrkvJoKWzAxOjExLjExXeWPjOiCqeS4iuWkqeS9v+WSjOmtlOmsvApbMDE6MTQuNDNd5pel5aSc5LiN5YGc55qE5ouM5Zi0ClswMToxNy42MF3liIbkuI3muIXplJnlr7kKWzAxOjE5LjE5XeaMo+aJjueahOa7i+WRswpbMDE6MjEuNTZd6ICM5L2g5Yiw5bqV5piv6LCBClswMToyNy41MF3kuI3opoHlho3nrJHmiJEKWzAxOjI5LjIwXeS4jeimgeWQpuWumuaIkQpbMDE6MzAuOTBd5LiN6KaB5o6n5ZGK5oiRClswMTozMi41MF3kuI3opoHmr4Hnga3miJEKWzAxOjM0LjI0XemAj+aYjuiJsueahOaet+mUgQpbMDE6MzUuOTVd56aB6ZSi552A5oiR6a2C6a2EClswMTozNy42M13orqnmiJHmtJLohLEg6K6p5oiR5b+r5rS7ClswMTozOS40Ml3orqnmiJHkuI3lho3mipjno6gKWzAxOjQwLjk4XeS4jeimgeWuieaFsOaIkQpbMDE6NDIuNzBd5LiN6KaB5a6a5LmJ5oiRClswMTo0NC40M13kuI3opoHmsaHolJHmiJEKWzAxOjQ1Ljk1XeS4jeimgeaSleijguaIkQpbMDE6NDcuNzNd5Zyo5b+D6YeM55qE5oG26a2UClswMTo0OS40N13orqnku5botKXnmoTliKnokL0KWzAxOjUxLjEwXeiuqeaIkeeIseaIkSDorqnmiJHmgajmiJEKWzAxOjUyLjk0XeiuqeaIkeWBmuWbnueugOWNlSDnmoTmiJEKWzAyOjA4LjU0XeS4gOasoeS4gOasoeeahOS4i+WdoApbMDI6MTEuOTVd6Zm35YWl5rOl5rK85Lit5Y+I5ZCO5oKUClswMjoxNS4zOF3pgIPkuI3lvIDnl5vnmoTljIXlm7QKWzAyOjE4Ljg5Xei/mOacieWHoOasoeacuuS8mgpbMDI6MjEuNzNd5Y+M6IKp5LiK5aSp5L2/5ZKM6a2U6ay8ClswMjoyNS43NV3ml6XlpJzkuI3lgZznmoTmi4zlmLQKWzAyOjI4LjMxXeWIhuS4jea4hemUmeWvuQpbMDI6MzAuMDVd5oyj5omO55qE5ruL5ZGzClswMjozMi41NF3ogIzmiJHliLDlupXmmK/osIEKWzAyOjM4LjQwXeS4jeimgeWGjeeskeaIkQpbMDI6NDAuMjRd5LiN6KaB5ZCm5a6a5oiRClswMjo0MS45NF3kuI3opoHmjqflkYrmiJEKWzAyOjQzLjUxXeS4jeimgeavgeeBreaIkQpbMDI6NDUuMjNd6YCP5piO6Imy55qE5p636ZSBClswMjo0Ni44N13npoHplKLnnYDmiJHprYLprYQKWzAyOjQ4LjYzXeiuqeaIkea0kuiEsSDorqnmiJHlv6vmtLsKWzAyOjUwLjM5XeiuqeaIkeS4jeWGjeaKmOejqApbMDI6NTEuOTFd5LiN6KaB5a6J5oWw5oiRClswMjo1My43MV3kuI3opoHlrprkuYnmiJEKWzAyOjU1LjMyXeS4jeimgeaxoeiUkeaIkQpbMDI6NTcuMDhd5LiN6KaB5pKV6KOC5oiRClswMjo1OC44Ml3lnKjlv4Pph4znmoTmgbbprZQKWzAzOjAwLjMzXeiuqeS7lui0peeahOWIqeiQvQpbMDM6MDIuMTNd6K6p5oiR54ix5oiRIOiuqeaIkeaBqOaIkQpbMDM6MDMuNzFd6K6p5oiR5YGa5Zue566A5Y2VIOeahOaIkQpbMDM6MTkuNjVd55m95aSpIOaMguedgOeahOmdouWFtwpbMDM6MjEuNTVd6buR5pqX6YeM5q6L56C055qE6Lqr6LqvClswMzoyMy4yNl3mt7flnKjov5nni63pmpjnqbnpobYKWzAzOjI0LjgzXeWmhOaDs+i1tuW/q+mAg+emuwpbMDM6MjYuNDVd56qX5Y+w5LiK5ruh5pyI55qE5YCS5b2xClswMzoyOC4xNl3lroPorqnmiJHnjrDlh7rljp/lvaIKWzAzOjI5Ljc3XeiZmuaXoOeahOWQjOexuwpbMDM6MzAuNTNd5ZG85ZaK5Zue5bqUClswMzozMS4zM13ogIzmiJHlj6rog73ni6zooYwKWzAzOjMzLjMyXeS5n+iuuCDpu5HlpJznmoTmt7HpgoMKWzAzOjM1LjEyXeeci+S4jea4heS6uuS7rOeahOiZmuS8qgpbMDM6MzYuNzZd5aSa5bCR5qyh5oqK5qKm54Wn56KOClswMzozOC4zMF3pmr7pgZPkuI3kvJrmg63mhKcKWzAzOjM5Ljk4Xea4hemGkuWQjueahOWkseiQveS4jueLvOeLiOe0p+e0p+aKiuaIkeWMheWbtApbMDM6NDMuMzBd6K6p5L2g55qE5L2c5ZOBClswMzo0NC4wNV3mia3mm7LnmoTlgoDlhKEKWzAzOjQ0LjkwXeaYr+WtsOa3u+eahOe0r+i1mApbMDM6NDYuODdd5L2g55yL6YKj6L+c5pa56ISx6IOO5pe25L2g5omN5piv5oG26ay8ClswMzo1MC4yMF3kvaDlkKzpgqPlnIbosI7nurXnhLbor4TliKTmg4roibPljY7plJAKWzAzOjUzLjUzXeadg+WKm+aLvOS6pOS4i+eahOS9nOWvuQpbMDM6NTUuMjFd5qyy5pyb5L2v6KOF5LuW55qE5L2c56WfClswMzo1Ni45Nl3osIHkuLrmraTotJ/nvarogIzmiJHliLDlupXmmK/osIEKWzA0OjAwLjU0XeadpeWQp+WGjeeskeaIkQpbMDQ6MDIuOTld5p2l5ZCn5ZCm5a6a5oiRClswNDowNC41MF3mnaXlkKfmjqflkYrmiJEKWzA0OjA2LjE3XeadpeWQp+avgeeBreaIkQpbMDQ6MDcuODBd6YCP5piO6Imy55qE5p636ZSBClswNDowOS42MF3npoHplKLnnYDmiJHprYLprYQKWzA0OjExLjI2XeiuqeaIkea0kuiEsSDorqnmiJHlv6vmtLsKWzA0OjEzLjAyXeiuqeaIkeS4jeWGjeaKmOejqApbMDQ6MTQuNjFd5p2l5ZCn5a6J5oWw5oiRClswNDoxNi40MF3mnaXlkKflrprkuYnmiJEKWzA0OjE4LjA0XeadpeWQp+axoeiUkeaIkQpbMDQ6MTkuNTld5p2l5ZCn5pKV6KOC5oiRClswNDoyMS40MV3lnKjlv4Pph4znmoTmgbbprZQKWzA0OjIzLjEyXeiuqeS7lui0peeahOWIqeiQvQpbMDQ6MjQuODNd6K6p5oiR54ix5oiRIOiuqeaIkeaBqOaIkQpbMDQ6MjYuNjJd6K6p5oiR5YGa5Zue566A5Y2VIOeahOaIkQo=",
+            "url": "http://47.97.248.244/static/music/对话.mp3",
+            "interval": 273,
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/BV1UK4y1Z7g7"
+              }
+            ],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "//i1.hdslb.com/bfs/archive/1f76cc44af90efb069f358129846128db0bb4225.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "由淼",
+              "刘倩倩"
+            ],
+            "id": 102298939,
+            "mid": "003XLqcx20e6PG",
+            "name": "样",
+            "url": "http://47.97.248.244/static/music/样.mp3",
+            "interval": 259,
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/BV1iy4y1z7qg"
+              }
+            ],
+            "opern": null
+          }
+        ]
+      },
       {
         "title": "重生计划",
         "songs": [
@@ -3831,7 +3987,8 @@
                 "player": "",
                 "type": "MV",
                 "url": "https://www.bilibili.com/video/BV14a4y1s7uc"
-              }],
+              }
+            ],
             "opern": null
           }
         ]
