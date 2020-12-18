@@ -7,7 +7,7 @@
       "bilibili": "",
       "douyin": null,
       "changba": "",
-      "lvzhou": "",
+      "lvzhou": "7508131036",
       "miaopai": null,
       "group": null
     },
@@ -44,7 +44,7 @@
       "bilibili": "",
       "douyin": null,
       "changba": "",
-      "lvzhou": "",
+      "lvzhou": "7509283505",
       "miaopai": null,
       "group": null
     },
@@ -97,7 +97,7 @@
       "bilibili": "",
       "douyin": null,
       "changba": "",
-      "lvzhou": "",
+      "lvzhou": "7508940698",
       "miaopai": null,
       "group": null
     },
@@ -134,7 +134,7 @@
       "bilibili": "",
       "douyin": null,
       "changba": "",
-      "lvzhou": "",
+      "lvzhou": "7509155658",
       "miaopai": null,
       "group": null
     },
@@ -258,7 +258,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10012.jpg",
       "weibo": "u/3675603887",
       "bilibili": "355647007",
-      "douyin": null,
+      "douyin": {
+        "number": "wenjingjie0315",
+        "id": "JC9C71m"
+      },
       "changba": null,
       "lvzhou": 3675603887,
       "miaopai": null,
@@ -387,8 +390,17 @@
       "master": "刘增艳"
     },
     {
+      "name": "芋头",
+      "master": "温晶婕",
+      "photo": "https://wx1.sinaimg.cn/large/0071hPgPly1ghu8piv3qwj30n00n00up.jpg"
+    },
+    {
       "name": "coffee",
       "master": "彭嘉敏"
+    },
+    {
+      "name": "得意",
+      "master": "赵天杨"
     }
   ],
   "graduateMemberData": [
@@ -620,7 +632,7 @@
       "name": "袁丹妮",
       "photo": "http://www.snh48.com/images/member/zp_10073.jpg",
       "weibo": "u/1889707493",
-      "bilibili": null,
+      "bilibili": "2072955488",
       "douyin": {
         "number": "yuandanni",
         "id": "JBJbBdR"
