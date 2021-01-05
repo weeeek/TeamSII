@@ -26,3 +26,7 @@ obj
 /HttpProxy/HttpProxy/obj
 obj
 /package-lock.json
+/HttpProxy/.vs
+/HttpProxy/packages
+/HubCore/.vs
+/HubCore/bin
