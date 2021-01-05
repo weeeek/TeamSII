@@ -66,7 +66,7 @@ class tools {
     }
 
     monitor() {
-        this.message.monitor(msg => this.showMessage(msg), () => this.hideMessage())
+        this.message.monitor((msg) => this.showMessage(msg), () => this.hideMessage())
     }
 
     showMessage(message) {

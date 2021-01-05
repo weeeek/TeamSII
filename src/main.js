@@ -11,14 +11,18 @@ import Highcharts from 'highcharts'
 import VueCollapse from 'vue2-collapse'
 import VueJamIcons from 'common/jam-icons/index'
 // import AnimateNumber from 'vue-animate-number'
-// import live2d from 'common/live2d-vue/index'
+import live2d from 'common/live2d-vue/index'
 import infiniteScroll from 'vue-infinite-scroll'
+import { Timeline, TimelineItem } from 'view-design';
+Vue.component('Timeline', Timeline);
+Vue.component('TimelineItem', TimelineItem);
+
 // 全局初始化
 import store from './store'
 
 fastclick.attach(document.body)
 
-// Vue.use(live2d)
+Vue.use(live2d)
 Vue.use(VueJamIcons)
 // Vue.use(AnimateNumber)
 Vue.use(VueCollapse)

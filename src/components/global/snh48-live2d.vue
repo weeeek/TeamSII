@@ -1,27 +1,26 @@
 <template>
-  <div id="live-snh">
+  <div id="live-snh" v-if="live2dInitDone">
     <div class="live2d-panel">
-      <dialogue ref="dialogue" v-if="this.isDialogue" :customDialogue="this.customDialogue"></dialogue>
+      <dialogue ref="dialogue" v-if="isDialogue" :customDialogue="customDialogue"></dialogue>
       <live2d :width="width" :height="height" v-if="this.islive2d" :modelPath="this.modelPath" ref="l2dMange"></live2d>  
     </div>
     <div class="tools-panel">
-      <live2dTools v-for="(item,index) in toolsData" :key="index" v-if="item.show"  @click="toolsClick(item)" :width="item.width" :toolsID="item.tabMsg" :tabMsg="item.tabMsg" :customDialogue='item.customDialogue' :backgroundColor="item.backgroundColor" ref='tool'></live2dTools>
+      <live2dTools v-for="(item,index) in toolsData" :key="index" v-if="item.show"  @click="toolsClick(item)" :width="item.width" :toolsID="item.tabMsg" :tabMsg="item.tabMsg" :customDialogue='item.customDialogue' :backgroundColor="item.backgroundColor" ref="tool"></live2dTools>
     </div>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
-import {live2dCofnig} from 'config/snh48-live2d'
+import { getLive2dCofnig } from 'config/snh48-live2d'
 
-export default {  
-  name: "live-snh",
+export default {
   data() {
     return {
       modelPath: "http://47.97.248.244/static/live2d/Terisa/model.json",
-      customDialogue: live2dCofnig,
+      customDialogue: {},
       toolsData: [
         { tabMsg: "home", backgroundColor: "#ff0", show: false },
-        { tabMsg: "dialogue", width: 280, customDialogue: live2dCofnig, show: true },
+        { tabMsg: "dialogue", width: 280, customDialogue: {}, show: true },
         { tabMsg: "change", backgroundColor: "#add8e6", show: false },
         { tabMsg: "save", backgroundColor: "green", show: false },
         { tabMsg: "about", backgroundColor: "#eb7a77", show: false },
@@ -30,26 +29,37 @@ export default {
       islive2d: true,
       isDialogue: false,
       width: 300,
-      height: 400
+      height: 400,
+      live2dInitDone: false
     };
   },
   mounted() {
-    setInterval(() => {
-      fetch(
-        "https://api.imjad.cn/hitokoto/?cat=&charset=utf-8&length=28&encode=json"
-      ).then(res => res.json()).then(data => {
-          if (!this.isDialogue) {
-            let tool = this.$refs.tool.filter(item => {
-              return item.customDialogue
-            })
-            if (tool && tool.length > 0) tool[0].showMessage(data.hitokoto);
-          } else {
-            this.$refs.dialogue.showMessage(data.hitokoto)
-          }
-        })
-    }, 30000)
+    this.init()
   },
   methods: {
+    init(){
+      let _vm = this
+      getLive2dCofnig().then(res => {
+        _vm.live2dInitDone = true;
+        _vm.customDialogue = res;
+        _vm.toolsData[1].customDialogue = res;
+        //  一言网(Hitokoto.cn)创立于2016年，隶属于萌创Team，目前网站主要提供一句话服务。
+        setInterval(() => {
+          fetch(
+            "https://api.imjad.cn/hitokoto/?cat=&charset=utf-8&length=28&encode=json"
+          ).then(res => res.json()).then(data => {
+              if (!_vm.isDialogue) {
+                let tool = _vm.$refs.tool.filter(item => {
+                  return item.customDialogue
+                })
+                if (tool && tool.length > 0) tool[0].showMessage(data.hitokoto);
+              } else {
+                _vm.$refs.dialogue.showMessage(data.hitokoto)
+              }
+            })
+        }, 30000)
+      })
+    },
     toolsClick(item) {
       switch (item.tabMsg) {
         case "home":

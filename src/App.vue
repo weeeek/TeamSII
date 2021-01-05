@@ -10,7 +10,7 @@
       </keep-alive>
       <router-view v-if="!$route.meta.keepAlive"></router-view>
     </div>
-    <!-- <snh48-live2d v-show="showLive2d"></snh48-live2d> -->
+    <snh48-live2d v-show="showLive2d"></snh48-live2d>
   </div>
 </template>
 
@@ -21,15 +21,15 @@ import GlobalHeader from 'components/global/global-header'
 import Tab from 'components/tab/tab'
 import MusicPlayer from 'components/music/music-play'
 import Uploader from 'components/global/uploader'
-// import Snh48Live2d from 'components/global/snh48-live2d'
+import Snh48Live2d from 'components/global/snh48-live2d'
 
 export default {
   components: {
     GlobalHeader,
     Tab,
     MusicPlayer,
-    Uploader
-    // Snh48Live2d
+    Uploader,
+    Snh48Live2d
   },
   data () {
     return {
@@ -42,6 +42,7 @@ export default {
     const that = this
     window.onresize = () => {
       return (() => {
+        console.log("浏览器宽度大于1600像素才有live2d")
         that.innerWidth = window.innerWidth
       })()
     }
@@ -52,10 +53,10 @@ export default {
     }
   },
   computed: {
-    ...mapGetters(['playlist', 'uploaderShow'])
-    // showLive2d () {
-    //   return this.innerWidth > 1800
-    // }
+    ...mapGetters(['playlist', 'uploaderShow']),
+    showLive2d () {
+      return this.innerWidth > 1600
+    }
   },
   methods: {
     handleMove (liveModel) {
@@ -97,12 +98,12 @@ export default {
   created () {
     let fansClubs = []
     getFansData().then(res => {
-      console.log('神秘代码了解一下～');
+      let code = ""
       res.map(x=>{
-        console.log(`${x[1]}：${x[0]}`)
+        code +=`\r\n${x[1]}：${x[0]}`;
       })
+      console.log('神秘代码',code);
     })
-    // console.log('%cSNH48 Team SII 应援会程序组，期待大佬的加入', 'padding:1em 2em; background-color:#000; color:#FFF; text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, rgb(145,205,235) 0px 0px 15px, rgb(145,205,235) 0px 0px 20px, rgb(145,205,235) 0px 0px 25px, rgb(145,205,235) 0px 0px 30px, rgb(145,205,235) 0px 0px 35px; font-size:2em')
   },
   name: 'App'
 }

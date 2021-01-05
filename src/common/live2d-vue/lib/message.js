@@ -10,20 +10,8 @@ class message {
             message = `Hello! 来自<span style="color:#0099CC"> ${referrer.hostname}</span> 朋友`
             let domain = referrer.hostname.split('.')[1]
             switch (domain) {
-                case 'google':
-                    message += `Hello! 来自 谷歌 的朋友 <br/> 你是搜索 <span style="color:#0099CC"> ${referrer.searchParams.get('q')} </span> 找到我的么 ?`
-                    break
-                case 'baidu':
-                    message = `Hello! 来自 百度 的朋友 <br/> 你是搜索 <span style="color:#0099CC"> ${referrer.searchParams.get('wd')} </span> 找到我的么 ?`
-                    break
-                case 'so':
-                    message = `Hello! 来自 360 的朋友 <br/> 你是搜索 <span style="color:#0099CC"> ${referrer.searchParams.get('q')} </span> 找到我的么 ?`
-                    break
-                case 'bing':
-                    message = `Hello! 来自 必应 的朋友 <br/> 你是搜索 <span style="color:#0099CC"> ${referrer.searchParams.get('q')} </span> 找到我的么 ?`
-                    break
-                case 'sogou':
-                    message = `Hello! 来自 搜狗 的朋友 <br/> 你是搜索 <span style="color:#0099CC"> ${referrer.searchParams.get('query')} </span> 找到我的么 ?`
+                default:
+                    message = `Hello! 我的朋友 <br/> 你是如何找到我的?`
                     break
             }
         } else {
@@ -45,7 +33,7 @@ class message {
             } else if (now > 21 && now <= 23) {
                 message = '已经这么晚了呀，早点休息吧，晚安~'
             } else {
-                message = `欢迎阅读<span style="color:#0099cc;">『${document.title}』</span>`
+                message = `欢迎访问<span style="color:#0099cc;">『${document.title}』</span>`
             }
         }
         return message
@@ -54,6 +42,8 @@ class message {
     monitor(showCallback, hideCallback) {
         let elMouseover = this.customDialogue.mouseover
         let elClick = this.customDialogue.click
+        console.log(elMouseover)
+        console.log(elClick)
         for (let itemMouseover of elMouseover) {
             for (let iMouseover = 0, lenMouseover = itemMouseover.selector.length; iMouseover < lenMouseover; iMouseover++) {
                 let selectorMouseover = document.querySelector(itemMouseover.selector[iMouseover])
@@ -76,6 +66,7 @@ class message {
                 }
             }
         }
+        console.log("finish")
     }
 
     randomInteger(max, min = 0) {

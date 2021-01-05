@@ -399,6 +399,30 @@
           },
           {
             "image": {
+              "url": "//i1.hdslb.com/bfs/archive/072fb204e5137bf824ccb04dd4ab88b2619e4266.jpg",
+              "left": "40%",
+              "top": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "刘增艳"
+            ],
+            "id": 214245727,
+            "mid": "004FjJo32TISsY",
+            "name": "叹云兮",
+            "interval": 283,
+            "url": "http://47.97.248.244/static/music/刘增艳-叹云兮.mp3",
+            "play": [
+              {
+                "player": "重生计划20201217",
+                "type": "bilibili",
+                "url": "https://www.bilibili.com/video/BV1oK411u7sn"
+              }
+            ],
+            "opern": null
+          },
+          {
+            "image": {
               "url": "//i1.hdslb.com/bfs/archive/c4c1cf0a2751552abc900ae42865673b6bd24ec2.jpg",
               "left": "50%",
               "top": "50%",
@@ -1750,14 +1774,16 @@
             ],
             "id": 285106670,
             "mid": "002Ulxyi1Zi7tT",
-            "url":"http://47.97.248.244/static/music/莫寒-在雨中.mp3",
+            "url": "http://47.97.248.244/static/music/莫寒-在雨中.mp3",
             "name": "在雨中",
             "interval": 191,
-            "play": [{
-              "player":"",
-              "type":"MV",
-              "url":"https://www.bilibili.com/video/BV1nf4y1v7wr"
-            }],
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/BV1nf4y1v7wr"
+              }
+            ],
             "opern": null
           }
         ]
@@ -1779,6 +1805,28 @@
             "mid": "000mx5yo3LvsFF",
             "name": "Ready For You",
             "interval": 225,
+            "play": [],
+            "opern": null
+          }
+        ]
+      },
+      {
+        "title": "徐晨辰",
+        "songs": [
+          {
+            "image": {
+              "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000000Ok1E11E5MMs_1.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "徐晨辰"
+            ],
+            "id": 290967887,
+            "mid": "0015CZn71rczEb",
+            "name": "Merry Christmas, Miss Jane",
+            "interval": 301,
             "play": [],
             "opern": null
           }

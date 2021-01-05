@@ -151,6 +151,13 @@ export default new Router({
         keepAlive: true
       }
     }, {
+      path: '/sudo',
+      name: 'sudo',
+      component: (resolve) => require(['@/components/game/sudo'], resolve),
+      meta: {
+        keepAlive: true
+      }
+    }, {
       path: '/voicedictation',
       name: 'voicedictation',
       component: (resolve) => require(['@/components/tools/voicedictation'], resolve),

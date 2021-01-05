@@ -23,7 +23,7 @@ namespace HttpProxy.Controllers
     /// <param name="mid">mid</param>
     /// <returns></returns>
     [HttpGet, Route("api/QQlyric")]
-    public HttpResponseMessage QQLyricWebProxy(string id, string mid)
+    public HttpResponseMessage QQLyric(string id, string mid)
     {
       var a = DateTime.Now.Ticks;
       // string uri = "https://c.y.qq.com/lyric/fcgi-bin/fcg_query_lyric_yqq.fcg?nobase64=1&musicid=" + id + "&-=jsonp1&g_tk_new_20200303=5381&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0";
@@ -62,6 +62,28 @@ namespace HttpProxy.Controllers
       HttpContent content = new StringContent(JsonConvert.SerializeObject(new QQAudioUrlPostModel(request.guid, request.mids)));
       content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
       return client.PostAsync(new Uri(uri), content).Result.EnsureSuccessStatusCode();
+    }
+
+    /// <summary>
+    /// 不成功
+    /// </summary>
+    /// <param name="request"></param>
+    /// <returns></returns>
+    [HttpPost, Route("api/QQVkey")]
+    public HttpResponseMessage QQVkey(QQAudioUrlRequest request) {
+      string uri = $"https://u.y.qq.com/cgi-bin/musics.fcg";
+      HttpClient client = new HttpClient();
+      client.DefaultRequestHeaders.Add("accept", "application/json");
+      client.DefaultRequestHeaders.Add("accept-encoding", "gzip, deflate, br");
+      client.DefaultRequestHeaders.Add("accept-language", "zh-CN,zh;q=0.9");
+      client.DefaultRequestHeaders.Add("sec-fetch-dest", "empty");
+      client.DefaultRequestHeaders.Add("sec-fetch-mode", "cors");
+      client.DefaultRequestHeaders.Add("sec-fetch-site", "same-site");
+      var str = JsonConvert.SerializeObject(new QQVkeyPostModel(request.guid, request.mids));
+      HttpContent content = new StringContent(str);
+      content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+      return client.PostAsync(new Uri(uri), content).Result.EnsureSuccessStatusCode();
+
     }
   }
 }
