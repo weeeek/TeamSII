@@ -5,7 +5,7 @@
       <live2d :width="width" :height="height" v-if="this.islive2d" :modelPath="this.modelPath" ref="l2dMange"></live2d>  
     </div>
     <div class="tools-panel">
-      <live2dTools v-for="(item,index) in toolsData" :key="index" v-if="item.show"  @click="toolsClick(item)" :width="item.width" :toolsID="item.tabMsg" :tabMsg="item.tabMsg" :customDialogue='item.customDialogue' :backgroundColor="item.backgroundColor" ref="tool"></live2dTools>
+      <live2dTools v-for="(item,index) in toolsData" :key="index" v-if="item.show" @click="toolsClick(item)" :width="item.width" :toolsID="item.tabMsg" :tabMsg="item.tabMsg" :customDialogue='item.customDialogue' :backgroundColor="item.backgroundColor" ref="tool"></live2dTools>
     </div>
   </div>
 </template>
@@ -62,20 +62,7 @@ export default {
     },
     toolsClick(item) {
       switch (item.tabMsg) {
-        case "home":
-          window.open("https://github.com/LingHanChuJian/live2d-vue")
-          break
-        case "change":
-          // this.$refs.l2dMange.initL2dMange('http://pjxaahzsk.bkt.clouddn.com/Pio/modelv2.json')
-          // this.modelPath = 'http://pjxaahzsk.bkt.clouddn.com/Pio/modelv2.json'
-          break;
-        case "save":
-          window.Live2D.captureName = `live2d-${Date.now()}.png`
-          window.Live2D.captureFrame = true
-          break;
-        case "about":
-          window.open("https://github.com/LingHanChuJian/live2d-vue")
-          break
+        case "x":
         case "hide":
           this.islive2d = false;
           this.toolsDisplay("hide")
@@ -84,6 +71,8 @@ export default {
           this.islive2d = true;
           this.toolsDisplay("show")
           break
+        case "dialogue":
+          break;
       }
     },
     toolsDisplay(display) {

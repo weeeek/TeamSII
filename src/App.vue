@@ -42,7 +42,7 @@ export default {
     const that = this
     window.onresize = () => {
       return (() => {
-        console.log("浏览器宽度大于1600像素才有live2d")
+        console.log("浏览器视口宽度大于1400像素才有live2d")
         that.innerWidth = window.innerWidth
       })()
     }
@@ -55,7 +55,8 @@ export default {
   computed: {
     ...mapGetters(['playlist', 'uploaderShow']),
     showLive2d () {
-      return this.innerWidth > 1600
+      console.log(process.env.NODE_ENV)
+      return process.env.NODE_ENV === 'development' || this.innerWidth > 1400
     }
   },
   methods: {
