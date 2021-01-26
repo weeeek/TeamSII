@@ -14,6 +14,12 @@
 import { getLive2dCofnig } from 'config/snh48-live2d'
 
 export default {
+  props:{
+    autoFetch:{
+      type: Boolean,
+      default: true
+    }
+  },
   data() {
     return {
       modelPath: "http://47.97.248.244/static/live2d/Terisa/model.json",
@@ -30,7 +36,8 @@ export default {
       isDialogue: false,
       width: 300,
       height: 400,
-      live2dInitDone: false
+      live2dInitDone: false,
+      interval: null
     };
   },
   mounted() {
@@ -44,20 +51,23 @@ export default {
         _vm.customDialogue = res;
         _vm.toolsData[1].customDialogue = res;
         //  一言网(Hitokoto.cn)创立于2016年，隶属于萌创Team，目前网站主要提供一句话服务。
-        setInterval(() => {
-          fetch(
-            "https://api.imjad.cn/hitokoto/?cat=&charset=utf-8&length=28&encode=json"
-          ).then(res => res.json()).then(data => {
-              if (!_vm.isDialogue) {
-                let tool = _vm.$refs.tool.filter(item => {
-                  return item.customDialogue
-                })
-                if (tool && tool.length > 0) tool[0].showMessage(data.hitokoto);
-              } else {
-                _vm.$refs.dialogue.showMessage(data.hitokoto)
-              }
-            })
-        }, 30000)
+        if(this.autoFetch)
+          _vm.interval = setInterval(() => {
+            fetch(
+              "https://api.imjad.cn/hitokoto/?cat=&charset=utf-8&length=28&encode=json"
+            ).then(res => res.json()).then(data => {
+                if (!_vm.isDialogue) {
+                  let tool = _vm.$refs.tool.filter(item => {
+                    return item.customDialogue
+                  })
+                  if (tool && tool.length > 0) tool[0].showMessage(data.hitokoto);
+                } else {
+                  _vm.$refs.dialogue.showMessage(data.hitokoto)
+                }
+              })
+          }, 30000)
+        else
+          clearInterval(_vm.interval)
       })
     },
     toolsClick(item) {

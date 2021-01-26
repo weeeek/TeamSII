@@ -10,7 +10,7 @@
       </keep-alive>
       <router-view v-if="!$route.meta.keepAlive"></router-view>
     </div>
-    <snh48-live2d v-show="showLive2d"></snh48-live2d>
+    <!-- <snh48-live2d v-if="showLive2d" :autoFetch="showLive2d"></snh48-live2d> -->
   </div>
 </template>
 
@@ -21,7 +21,7 @@ import GlobalHeader from 'components/global/global-header'
 import Tab from 'components/tab/tab'
 import MusicPlayer from 'components/music/music-play'
 import Uploader from 'components/global/uploader'
-import Snh48Live2d from 'components/global/snh48-live2d'
+// import Snh48Live2d from 'components/global/snh48-live2d'
 
 export default {
   components: {
@@ -29,12 +29,10 @@ export default {
     Tab,
     MusicPlayer,
     Uploader,
-    Snh48Live2d
+    // Snh48Live2d
   },
   data () {
     return {
-      musicBoxShow: false,
-      currentMp3: '',
       innerWidth: window.innerWidth
     }
   },
@@ -47,17 +45,16 @@ export default {
       })()
     }
   },
-  watch: {
-    innerWidth (val) {
-      this.innerWidth = val
-    }
-  },
+  // watch: {
+  //   innerWidth (val) {
+  //     this.innerWidth = val
+  //   }
+  // },
   computed: {
     ...mapGetters(['playlist', 'uploaderShow']),
-    showLive2d () {
-      console.log(process.env.NODE_ENV)
-      return process.env.NODE_ENV === 'development' || this.innerWidth > 1400
-    }
+    // showLive2d () {
+    //   return process.env.NODE_ENV === 'development' && this.innerWidth > 1400
+    // }
   },
   methods: {
     handleMove (liveModel) {
@@ -97,7 +94,6 @@ export default {
     }
   },
   created () {
-    let fansClubs = []
     getFansData().then(res => {
       let code = ""
       res.map(x=>{

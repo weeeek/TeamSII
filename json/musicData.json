@@ -602,6 +602,43 @@
         "songs": [
           {
             "image": {
+              "url": "//wx2.sinaimg.cn/mw690/ddc77b9fgy3gn0qqkfg0aj21kw1kwb2c.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "袁雨桢"
+            ],
+            "id": 290885851,
+            "mid": "003FoZ980Uyj9i",
+            "name": "永不失联的爱",
+            "url": "http://47.97.248.244/static/music/袁雨桢-永不失联的爱.MP3",
+            "interval": 272,
+            "play": [],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "//i0.hdslb.com/bfs/archive/75a4bd989a4924b6030c0c82ab1d708ba737170e.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "袁雨桢"
+            ],
+            "id": 105461543,
+            "mid": "001EOQc70a1cxg",
+            "name": "鲸落",
+            "interval": 249,
+            "url": "http://47.97.248.244/static/music/袁雨桢-鲸落.MP3",
+            "play": [],
+            "opern": null
+          },
+
+          {
+            "image": {
               "url": "//i1.hdslb.com/bfs/archive/a4871e2697c114b056e3e2aaf15d5d34c04e7ebc.jpg",
               "left": "50%",
               "top": "50%",
