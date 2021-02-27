@@ -91,17 +91,6 @@
       "group": null
     },
     {
-      "name": "刘晨雪",
-      "photo": "http://www.snh48.com/images/member/zp_10253.jpg",
-      "weibo": "https://weibo.com/u/7508940698",
-      "bilibili": "",
-      "douyin": null,
-      "changba": "",
-      "lvzhou": "7508940698",
-      "miaopai": null,
-      "group": null
-    },
-    {
       "name": "刘丽千",
       "photo": "http://www.snh48.com/images/member/zp_10222.jpg",
       "weibo": "u/7303877489",
@@ -451,7 +440,7 @@
       "name": "孔肖吟",
       "photo": "http://www.snh48.com/images/member/zp_10005.jpg",
       "weibo": "u/3058127927",
-      "bilibili": null,
+      "bilibili": "308958166",
       "douyin": {
         "number": "371432782",
         "id": "JBJqG68"
@@ -602,6 +591,17 @@
       "bilibili": "4873439",
       "douyin": null,
       "changba": null,
+      "miaopai": null,
+      "group": null
+    },
+    {
+      "name": "刘晨雪",
+      "photo": "http://www.snh48.com/images/member/zp_10253.jpg",
+      "weibo": "https://weibo.com/u/7508940698",
+      "bilibili": "",
+      "douyin": null,
+      "changba": "",
+      "lvzhou": "7508940698",
       "miaopai": null,
       "group": null
     },
