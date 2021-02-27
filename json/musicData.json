@@ -253,6 +253,28 @@
           },
           {
             "image": {
+              "url": "//wx2.sinaimg.cn/mw690/db14ceaegy3go1bdbsd7jj216o1kwhdv.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "蒋芸"
+            ],
+            "id": 104864837,
+            "mid": "001Wjd7l2BBBsv",
+            "name": "遇萤",
+            "interval": 239,
+            "url": "http://47.97.248.244/static/music/蒋芸-遇莹.mp3",
+            "play": [{
+              "player": "未来·Mirai",
+              "type": "bilibili",
+              "url": "https://www.bilibili.com/video/BV1ps41187mx"
+            }],
+            "opern": null
+          },
+          {
+            "image": {
               "url": "//wxt.sinaimg.cn/thumb300/db14ceaegy1g4hvqp4uqdj23gg56ohe4.jpg",
               "left": "50%",
               "top": "50%",
@@ -600,6 +622,43 @@
       {
         "title": "袁雨桢",
         "songs": [
+          {
+            "image": {
+              "url": "//wx2.sinaimg.cn/mw690/ddc77b9fgy3gn0qqkfg0aj21kw1kwb2c.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "袁雨桢"
+            ],
+            "id": 290885851,
+            "mid": "003FoZ980Uyj9i",
+            "name": "永不失联的爱",
+            "url": "http://47.97.248.244/static/music/袁雨桢-永不失联的爱.MP3",
+            "interval": 272,
+            "play": [],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "//i0.hdslb.com/bfs/archive/75a4bd989a4924b6030c0c82ab1d708ba737170e.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "袁雨桢"
+            ],
+            "id": 105461543,
+            "mid": "001EOQc70a1cxg",
+            "name": "鲸落",
+            "interval": 249,
+            "url": "http://47.97.248.244/static/music/袁雨桢-鲸落.MP3",
+            "play": [],
+            "opern": null
+          },
+
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/a4871e2697c114b056e3e2aaf15d5d34c04e7ebc.jpg",
@@ -5753,6 +5812,22 @@
               }
             ],
             "opern": "https://weeeek.github.io/SNH48/SNH48TeamSII5周年应援曲谱.html"
+          },
+          {
+            "id": 20191111,
+            "mid": null,
+            "name": "BLUE",
+            "lyric": "WzAwOjAwLjAwXeOAkFNOSDQ4IFRlYW1TSUnlupTmj7Tmm7LjgJHjgIpCTFVF44CLClswMDowMy4zNV3kvZzmm7LvvJrmgJ3lu7oKWzAwOjA2LjM5XeS9nOivje+8muaAneW7uu+8jOWwj+axkApbMDA6MDkuOTdd5ryU5ZSx77ya5Lit6Ze05ZWG77yM56ul5bm0ClswMDoxMi41Ml3pn7PkuZDliarovpHvvJrlsI/msZDvvIzlsI/nhooKWzAwOjE1LjIyXeOAikJMVUXjgIsKWzAwOjE3LjU3XeWboOS4uuWQjOS4gOS4quaipgpbMDA6MjEuMjld6LWw5Zyo5ZCM5LiA5p2h6LevClswMDoyNS4zNV3kvaDmiJHCoOS6kuWKqQpbMDA6MjkuMzBd5Zyo6IOM5ZCO5LuY5Ye6ClswMDozMy40N13ku7DmnJvmu6HlpKnmmJ/nqboKWzAwOjM3LjIyXeWmguWQjOS9oOaIkeWuiOaKpApbMDA6NDEuMjdd5Z2a5a6awqDohJrmraUKWzAwOjQ1LjE4Xei/meS4gOadoeaXhemAlApbMDA6NTAuODFdQmVjYXVzZcKgbG92ZcKgdcKgZXZlcnl0aGluZwpbMDA6NTIuNzRd6Z2i5a+555qE6aOO5rWqClswMDo1NC43MV3miJHku6zlpZTlkJHmnKrnn6XnmoTov5zmlrkKWzAwOjU5LjAzXeaYjuWkqcKg6IO95aSf562J5YiwClswMTowMy4yM13nu73mlL7nmoTlhYnoipIKWzAxOjA2LjY0XUJlY2F1c2XCoGxvdmXCoHXCoGV2ZXJ5dGhpbmcKWzAxOjA4LjY3Xea7oeWkqeeahOaYn+WFiQpbMDE6MTAuNzld5Zyo6JOd6Imy55qE5rW35rSLClswMToxNS4zMl3miazotbfpo47luIYKWzAxOjE5LjE5XeeJtei1t+eahOaJi+aOjApbMDE6MjIuMzJd6LWw5ZCR5YmN5pa5ClswMTo0MS4zOV3ml6Dorrrlho3ov5znmoTot68KWzAxOjQ1LjE5XeacieaIkem7mOm7mOWuiOaKpApbMDE6NDkuMjFd5aaC5ZCMwqDmnIDliJ0KWzAxOjUzLjEyXeaIkeS5ieaXoOWPjemhvgpbMDE6NTguNjVdQmVjYXVzZcKgbG92ZcKgdcKgZXZlcnl0aGluZwpbMDI6MDAuNzFd6Z2i5a+555qE6aOO5rWqClswMjowMi43MV3miJHku6zlpZTlkJHmnKrnn6XnmoTov5zmlrkKWzAyOjA3LjA5XeaYjuWkqcKg6IO95aSf562J5YiwClswMjoxMS4wN13nu73mlL7nmoTlhYnoipIKWzAyOjE4LjgwXeWcqOiTneiJsueahOa1t+a0iwpbMDI6MjMuMzFd5oms6LW36aOO5biGClswMjoyNy4yOF3nibXotbfnmoTmiYvmjowKWzAyOjMwLjE1Xei1sOWQkeWJjeaWuQpbMDI6MzMuMzldQmVjYXVzZcKgbG92ZcKgdcKgZXZlcnl0aGluZwpbMDI6MzQuNzZd6Z2i5a+555qE6aOO5rWqClswMjozNi43M13miJHku6zlpZTlkJHmnKrnn6XnmoTov5zmlrkKWzAyOjQxLjE3XeaYjuWkqcKg6IO95aSf562J5YiwClswMjo0NS4xOV3nu73mlL7nmoTlhYnoipIKWzAyOjUyLjk0XeWcqOiTneiJsueahOa1t+a0iwpbMDI6NTcuMjdd5oms6LW36aOO5biGClswMzowMS4yOV3nibXotbfnmoTmiYvmjowKWzAzOjA0LjQxXei1sOWQkeWJjeaWuQpbMDM6MTYuNjZdVGVhbVNJSSDmmK/msLjmgZLnmoQKWzAzOjE5Ljk2XeawuOi/nOmDveWtmOWcqAo=",
+            "interval": 206,
+            "url": "http://47.97.248.244/static/music/blue.mp3",
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/BV1oK411K7Vx"
+              }
+            ],
+            "opern": null
           },
           {
             "image": {
