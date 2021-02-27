@@ -49,8 +49,8 @@ export const playMode = {
   loop: false
 }
 
+const dev = process.env.NODE_ENV === 'development'
+
 export const server = 'http://47.97.248.244/json/'
-// export const webProxyServer = 'http://47.97.248.244/WebProxy/'
-export const webProxyServer = 'http://localhost//HttpProxy/'
-// export const webProxyServer = 'http://localhost//FileProxy/'
+export const webProxyServer = dev ? 'http://localhost//HttpProxy/' : 'http://47.97.248.244/WebProxy/'
 

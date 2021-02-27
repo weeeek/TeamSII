@@ -103,9 +103,11 @@
                 v-model="currentVolume"
               ></range-slider>
             </div>
-            <!-- <div class="icon i-right">
-              <i :class="volumeIcon"></i>
-            </div>-->
+            <div class="icon i-right">
+              <a :href="currentSong.url" target="_blank" :download="currentSong.url">
+                <jam-download @click="" :fillColor="fillColor" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
