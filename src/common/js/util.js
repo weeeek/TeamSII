@@ -1,4 +1,4 @@
-function getRandomInt (min, max) {
+export function getRandomInt (min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
@@ -24,4 +24,13 @@ export function debounce (func, delay) {
       func.apply(this, args)
     }, delay)
   }
+}
+
+export function findIndex(list, song) {
+  if (!song) {
+    return -1
+  }
+  return list.findIndex((item) => {
+    return item.id === song.id
+  })
 }

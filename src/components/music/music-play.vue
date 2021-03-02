@@ -132,12 +132,12 @@
           <p class="desc" v-html="currentSong.singer"></p>
         </div>
         <div class="currentLyc" v-if="currentLyric" v-html="currentLyric.lines[currentLineNum].txt"></div>
-        <div class="currentLyc" v-if="!currentLyric"></div>
+        <div class="currentLyc" v-else></div>
         <div class="control">
           <progress-circle :radius="radius" :percent="percent">
-            <div class="icon-mini">
-              <jam-play :fillColor="fillColor" v-if="!miniIcon" @click="togglePlaying" />
-              <jam-pause :fillColor="fillColor" v-if="miniIcon" @click="togglePlaying" />
+            <div class="icon-mini" v-on:click.stop="togglePlaying">
+              <jam-play :fillColor="fillColor" v-if="!miniIcon" />
+              <jam-pause :fillColor="fillColor" v-if="miniIcon" />
             </div>
           </progress-circle>
         </div>

@@ -8,27 +8,30 @@ using System.Web.Http;
 
 namespace HttpProxy.Controllers
 {
-    public class VideoController : ApiController
-	{
-		/// <summary>
-		/// 读取对应json文件并序列化成对象
-		/// </summary>
-		/// <param name="id"></param>
-		/// <returns></returns>
-		[HttpGet, Route("api/GetVideoOption")]
-		public string GetVideoOption(string id)
-		{
-			// 根据id读取对应的json文件
-			var data = File.ReadAllText(@"C:\inetpub\wwwroot\json\Video\" + id + ".json", System.Text.Encoding.UTF8);
-			return data;
-		}
+    /// <summary>
+    /// DPlayer弹幕控制
+    /// </summary>
+    public class VideoController : IController
+  {
+    /// <summary>
+    /// 读取对应json文件并序列化成对象
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns></returns>
+    [HttpGet, Route("api/GetVideoOption")]
+    public string GetVideoOption(string id)
+    {
+      // 根据id读取对应的json文件
+      var data = File.ReadAllText(@$"{jsonFolder}\Video\" + id + ".json", System.Text.Encoding.UTF8);
+      return data;
+    }
 
     [HttpGet, Route("api/danmakuv3")]
     public Response<List<object[]>> GetDanmaku(string id, int max)
     {
       try
       {
-        var danmaku = File.ReadAllLines(@"C:\inetpub\wwwroot\json\Danmaku\" + id + ".json", System.Text.Encoding.UTF8).ToList().Where(s => !string.IsNullOrEmpty(s)).ToList();
+        var danmaku = File.ReadAllLines(@$"{jsonFolder}\Danmaku\" + id + ".json", System.Text.Encoding.UTF8).ToList().Where(s => !string.IsNullOrEmpty(s)).ToList();
         var result = new List<object[]>();
         danmaku.ForEach(x =>
         {
@@ -47,7 +50,7 @@ namespace HttpProxy.Controllers
     {
       try
       {
-        var path = @"C:\inetpub\wwwroot\json\Danmaku\" + request.id + ".json";
+        var path = @$"{jsonFolder}\Danmaku\" + request.id + ".json";
         if (!File.Exists(path))
         {
           using (FileStream fs = new FileStream(path, FileMode.CreateNew, FileAccess.ReadWrite))

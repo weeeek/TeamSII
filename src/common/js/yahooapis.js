@@ -1,7 +1,7 @@
 import jQuery from 'jquery'
 // for detail
 // https://developer.yahoo.com/yql/
-
+// 一个雅虎的请求代理，早已不可用
 export default function getJson (url, data, fn) {
   url += (url.indexOf('?') < 0 ? '?' : '&') + param(data)
   jQuery.getJSON(`https://query.yahooapis.com/v1/public/yql`, {

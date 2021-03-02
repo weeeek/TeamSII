@@ -9,8 +9,10 @@ export const fullScreen = state => state.fullScreen
 
 export const volume = state => state.volume
 
+// 播放队列，洗牌（shuff）打乱这个队列
 export const playlist = state => state.playlist
 
+// 显示队列，拖拽（drag）更改这个队列，同时如果播放模式不是随机，要同步更改playlist
 export const sequenceList = state => state.sequenceList
 
 export const mode = state => state.mode
@@ -18,6 +20,7 @@ export const mode = state => state.mode
 export const currentIndex = state => state.currentIndex
 
 export const currentSong = (state) => {
+  console.log('getter的currentSong', state.playlist[state.currentIndex] && state.playlist[state.currentIndex].name)
   return state.playlist[state.currentIndex] || {}
 }
 

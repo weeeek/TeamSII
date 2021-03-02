@@ -52,5 +52,5 @@ export const playMode = {
 const dev = process.env.NODE_ENV === 'development'
 
 export const server = 'http://47.97.248.244/json/'
-export const webProxyServer = dev ? 'http://localhost//HttpProxy/' : 'http://47.97.248.244/WebProxy/'
+export const webProxyServer = dev ? 'http://localhost:4848/' : 'http://47.97.248.244/WebProxy/'
 

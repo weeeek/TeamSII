@@ -1,6 +1,6 @@
-import {mapGetters, mapMutations, mapActions} from 'vuex'
-import {playMode} from 'common/js/config'
-import {shuffle} from 'common/js/util'
+import { mapGetters, mapMutations, mapActions } from 'vuex'
+import { playMode } from 'common/js/config'
+import { shuffle } from 'common/js/util'
 
 export const playlistMixin = {
   computed: {
@@ -8,19 +8,19 @@ export const playlistMixin = {
       'playlist'
     ])
   },
-  mounted () {
+  mounted() {
     this.handlePlaylist(this.playlist)
   },
-  activated () {
+  activated() {
     this.handlePlaylist(this.playlist)
   },
   watch: {
-    playlist (newVal) {
+    playlist(newVal) {
       this.handlePlaylist(newVal)
     }
   },
   methods: {
-    handlePlaylist () {
+    handlePlaylist() {
       throw new Error('component must implement handlePlaylist method')
     }
   }
@@ -28,7 +28,7 @@ export const playlistMixin = {
 
 export const playerMixin = {
   computed: {
-    iconMode () {
+    iconMode() {
       switch (this.mode) {
         case playMode.sequence:
           return 'icon-sequence'
@@ -46,12 +46,12 @@ export const playerMixin = {
       'mode',
       'favoriteList'
     ]),
-    favoriteIcon () {
+    favoriteIcon() {
       return this.getFavoriteIcon(this.currentSong)
     }
   },
   methods: {
-    changeMode () {
+    changeMode() {
       const mode = (this.mode + 1) % 3
       this.setPlayMode(mode)
       let list = null
@@ -63,26 +63,27 @@ export const playerMixin = {
       this.resetCurrentIndex(list)
       this.setPlaylist(list)
     },
-    resetCurrentIndex (list) {
+    resetCurrentIndex(list) {
       let index = list.findIndex((item) => {
         return item.id === this.currentSong.id && item.mid === this.currentSong.mid
       })
+      console.log(index)
       this.setCurrentIndex(index)
     },
-    toggleFavorite (song) {
+    toggleFavorite(song) {
       if (this.isFavorite(song)) {
         this.deleteFavoriteList(song)
       } else {
         this.saveFavoriteList(song)
       }
     },
-    getFavoriteIcon (song) {
+    getFavoriteIcon(song) {
       if (this.isFavorite(song)) {
         return 'icon-favorite'
       }
       return 'icon-not-favorite'
     },
-    isFavorite (song) {
+    isFavorite(song) {
       const index = this.favoriteList.findIndex((item) => {
         return item.id === song.id && item.mid === song.mid
       })
@@ -102,7 +103,7 @@ export const playerMixin = {
 }
 
 export const searchMixin = {
-  data () {
+  data() {
     return {
       query: '',
       refreshDelay: 120
@@ -114,17 +115,17 @@ export const searchMixin = {
     ])
   },
   methods: {
-    onQueryChange (query) {
+    onQueryChange(query) {
       // 处理带空格的情况
       this.query = query.trim().toLowerCase()
     },
-    blurInput () {
+    blurInput() {
       this.$refs.searchBox.blur()
     },
-    addQuery (query) {
+    addQuery(query) {
       this.$refs.searchBox.setQuery(query)
     },
-    saveSearch () {
+    saveSearch() {
       this.saveSearchHistory(this.query)
     },
     ...mapActions([
@@ -136,7 +137,7 @@ export const searchMixin = {
 
 export const trasferMixin = {
   methods: {
-    getVideoPlayUrl (videoinfo) {
+    getVideoPlayUrl(videoinfo) {
       switch (videoinfo.from) {
         case `BV`:
           return `https://www.bilibili.com/video/BV${videoinfo.url}`

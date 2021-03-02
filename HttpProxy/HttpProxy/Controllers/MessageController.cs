@@ -5,7 +5,7 @@ using System.Web.Http;
 
 namespace HttpProxy.Controllers
 {
-  public class MessageController : ApiController
+  public class MessageController : IController
   {
     private const string MSMQPath = ".\\private$\\48";
     private MessageQueue mq;
@@ -31,13 +31,22 @@ namespace HttpProxy.Controllers
     public void Send(string msg)
     {
       mq.Send(msg);
+      // 解析 msg 类型
+      var arr = msg.Split('|');
+      switch (arr[0])
+      {
+        case "music":
+
+        default:
+          break;
+      }
     }
 
     /// <summary>
     /// 消息队列，接收
     /// </summary>
     /// <returns></returns>
-    [HttpGet,Route("api/MSMQ/Recieve")]
+    [HttpGet, Route("api/MSMQ/Recieve")]
     public string Recieve()
     {
       //从队列中接收消息
@@ -50,8 +59,9 @@ namespace HttpProxy.Controllers
     /// <summary>
     /// 清空
     /// </summary>
-    [HttpGet,Route("api/MSMQ/Clean")]
-    public void Clean() {
+    [HttpGet, Route("api/MSMQ/Clean")]
+    public void Clean()
+    {
       mq.Purge();
     }
 
@@ -59,8 +69,9 @@ namespace HttpProxy.Controllers
     /// 获取所有消息
     /// </summary>
     /// <returns></returns>
-    [HttpGet,Route("api/MSMQ/GetAll")]
-    public List<string> GetAllMessage() {
+    [HttpGet, Route("api/MSMQ/GetAll")]
+    public List<string> GetAllMessage()
+    {
       var result = new List<string>();
       Message[] allMessage = mq.GetAllMessages();
       for (int i = 0; i < allMessage.Length; i++)
