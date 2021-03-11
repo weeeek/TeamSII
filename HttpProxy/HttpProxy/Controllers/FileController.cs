@@ -12,14 +12,23 @@ using System.Web.Http;
 
 namespace HttpProxy.Controllers
 {
+  /// <summary>
+  /// 文件上传
+  /// </summary>
   public class FileController : ApiController
   {
+    /// <summary>
+    /// 上传文件夹，Web.config中配置
+    /// </summary>
     public static string UploadFolder = ConfigurationManager.AppSettings["UploadFolder"];
     private string GetJsonFile(string type)
     {
       return $"{UploadFolder}\\{type}.json";
     }
 
+    /// <summary>
+    /// 表情包上传
+    /// </summary>
     [HttpGet, Route("api/EmojiUploadFileConcat")]
     public void EmojiUploadFileConcat()
     {
@@ -38,7 +47,6 @@ namespace HttpProxy.Controllers
     /// <summary>
     /// 文件上传
     /// </summary>
-    /// <param name="request"></param>
     [HttpPost, Route("api/UploadFile")]
     public void UploadFile()
     {
@@ -68,7 +76,7 @@ namespace HttpProxy.Controllers
         // 上传存储
         HttpPostedFile file = HttpContext.Current.Request.Files[0];
         string type = file.FileName.Split('.')[1];
-        path = $"{folderPath}\\{request.IdolName}{request.Key}{DateTime.Now.ToString("yyyyMMddhhmmss")}.{type}";
+        path = $"{folderPath}\\{request.IdolName}{request.Key}{DateTime.Now:yyyyMMddhhmmss}.{type}";
         file.SaveAs(path);
         fileName = $"{request.IdolName}{request.Key}.{type}";
         path = $"http://47.97.248.244/static/{request.Type}/{fileName}";

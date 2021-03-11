@@ -2,11 +2,16 @@
   <div id="film-container" class="flex flex-column">
     <div class="block">
       <div class="search">
-        <search :placeholder="'搜索关键字（用单英文空格分隔）'" @query="onQueryChange"></search>
+        <search
+          :placeholder="'搜索关键字（用单英文空格分隔）'"
+          @query="onQueryChange"
+        ></search>
       </div>
     </div>
     <div class="block-transparent" v-for="data in filmFilter">
-      <h2 style="margin: .5em 0" v-if="data.list.length > 0">{{data.type}}</h2>
+      <h2 style="margin: 0.5em 0" v-if="data.list.length > 0">
+        {{ data.type }}
+      </h2>
       <div class="waterfall flex-grow">
         <a
           :href="getVideoPlayUrl(item)"
@@ -15,6 +20,7 @@
           v-for="item in data.list"
           :key="item.title"
           :title="item.title"
+          @click="MQSend(mqType.film, item.title)"
         >
           <img v-lazy="item.img" :alt="item.title" :title="item.title" />
           <h2>{{ item.title }}</h2>
@@ -27,20 +33,20 @@
 <script>
 import { getFilmData } from "config/filmData";
 import Search from "components/plugin/search";
-import { searchMixin, trasferMixin } from "common/js/mixin";
+import { searchMixin, trasferMixin, mqMixin } from "common/js/mixin";
 
 export default {
   data() {
     return {
-      DataList: []
+      DataList: [],
     };
   },
-  mixins: [searchMixin, trasferMixin],
+  mixins: [searchMixin, trasferMixin, mqMixin],
   components: {
-    Search
+    Search,
   },
   mounted() {
-    getFilmData().then(res => {
+    getFilmData().then((res) => {
       // 全部数据
       this.DataList = res;
     });
@@ -55,16 +61,13 @@ export default {
       var data = [];
       // 同时包含
       if (this.query.includes("+")) {
-        queryArr = this.query
-          .trim()
-          .toLowerCase()
-          .split("+");
+        queryArr = this.query.trim().toLowerCase().split("+");
         this.DataList.map((x, xindex) => {
           data.push({
             type: x.type,
-            list: []
+            list: [],
           });
-          x.list.map(y => {
+          x.list.map((y) => {
             let index = 0;
             let allmatch = true;
             let target = Object.assign({}, y);
@@ -75,7 +78,6 @@ export default {
                 y.title.toLowerCase().includes(queryArr[index]) ||
                 y.actor.toLowerCase().includes(queryArr[index])
               ) {
-
               } else {
                 allmatch = false;
               }
@@ -88,16 +90,13 @@ export default {
         });
       } else {
         // 关键字分割的关键字数组
-        queryArr = this.query
-          .trim()
-          .toLowerCase()
-          .split(" ");
+        queryArr = this.query.trim().toLowerCase().split(" ");
         this.DataList.map((x, xindex) => {
           data.push({
             type: x.type,
-            list: []
+            list: [],
           });
-          x.list.map(y => {
+          x.list.map((y) => {
             let index = 0;
             let target = Object.assign({}, y);
             let match = false;
@@ -117,9 +116,9 @@ export default {
           });
         });
       }
-      return data
-    }
-  }
+      return data;
+    },
+  },
 };
 </script>
 

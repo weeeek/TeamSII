@@ -1,6 +1,8 @@
 import { mapGetters, mapMutations, mapActions } from 'vuex'
 import { playMode } from 'common/js/config'
 import { shuffle } from 'common/js/util'
+import { MQSend } from "common/js/mq";
+import { mqType } from "common/js/config";
 
 export const playlistMixin = {
   computed: {
@@ -160,4 +162,18 @@ export const trasferMixin = {
       }
     }
   },
+}
+
+export const mqMixin = {
+  data() {
+    return {
+      mqType: mqType
+    }
+  },
+  methods: {
+    MQSend(type, body) {
+      MQSend(type, body)
+      return true;
+    }
+  }
 }

@@ -2,11 +2,11 @@
   <div id="emoji-container">
     <div class="block flex">
       <button
-        class="btn-3d"
+        class="btn-3d" style="height: 24px"
         onclick="window.open(`https://weibo.com/p/10080895b3a71856d76c4435c477e4ac01e57a/super_index`)"
       >#勇气重生419#</button>
       <button
-        class="btn-3d"
+        class="btn-3d" style="height: 24px"
         onclick="window.open(`https://weibo.com/p/100808eaa925a8fccc2a30cfcc7079d5e4fbc1/super_index`)"
       >#艾斯兔表情包#</button>
       <div class="flex-grow">
@@ -36,10 +36,10 @@
 import { mapActions } from "vuex";
 import { getEmojiData } from "config/emojiData";
 import Search from "components/plugin/search";
-import { searchMixin } from "common/js/mixin";
+import { searchMixin,mqMixin } from "common/js/mixin";
 
 export default {
-  mixins: [searchMixin],
+  mixins: [searchMixin,mqMixin],
   components: {
     Search,
   },
@@ -58,6 +58,7 @@ export default {
       return "http://47.97.248.244/static/emoji/" + url;
     },
     view(item) {
+      this.MQSend(this.mqType.emoji, item)
       window.open(this.calcPath(item));
     },
     upload() {

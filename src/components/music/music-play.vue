@@ -1,5 +1,5 @@
 <template>
-  <div class="player" v-show="playlist.length>0">
+  <div class="player" v-show="playlist.length > 0">
     <transition
       name="normal"
       @enter="enter"
@@ -45,28 +45,32 @@
             </div>
             <canvas ref="canvas" id="canvas" width="575" height="250"></canvas>
           </div>
-          <scroll class="middle-r" ref="lyricList" :data="currentLyric && currentLyric.lines">
+          <scroll
+            class="middle-r"
+            ref="lyricList"
+            :data="currentLyric && currentLyric.lines"
+          >
             <div class="lyric-wrapper">
               <div v-if="currentLyric">
                 <p
                   v-if="currentLyric.lines"
                   ref="lyricLine"
                   class="text"
-                  :class="{'current': currentLineNum === index}"
-                  v-for="(line,index) in currentLyric.lines"
+                  :class="{ current: currentLineNum === index }"
+                  v-for="(line, index) in currentLyric.lines"
                   :key="index"
                   v-html="line.txt"
                 ></p>
               </div>
               <div class="pure-music" v-show="isPureMusic">
-                <p>{{pureMusicLyric}}</p>
+                <p>{{ pureMusicLyric }}</p>
               </div>
             </div>
           </scroll>
         </div>
         <div class="bottom">
           <div class="progress-wrapper">
-            <span class="time time-l">{{format(currentTime)}}</span>
+            <span class="time time-l">{{ format(currentTime) }}</span>
             <div class="progress-bar-wrapper">
               <progress-bar
                 ref="progressBar"
@@ -75,20 +79,31 @@
                 @percentChanging="onProgressBarChanging"
               ></progress-bar>
             </div>
-            <span class="time time-r">{{format(currentSong.duration)}}</span>
+            <span class="time time-r">{{ format(currentSong.duration) }}</span>
           </div>
           <div class="operators">
             <div class="icon i-left" @click="changeMode">
               <jam-repeat :fillColor="fillColor" v-show="this.mode == 1" />
               <jam-shuffle :fillColor="fillColor" v-show="this.mode == 2" />
-              <jam-ordered-list :fillColor="fillColor" v-show="this.mode == 0" />
+              <jam-ordered-list
+                :fillColor="fillColor"
+                v-show="this.mode == 0"
+              />
             </div>
             <div class="icon i-left" :class="disableCls">
               <jam-set-backward-circle :fillColor="fillColor" @click="prev" />
             </div>
             <div class="icon i-center" :class="disableCls">
-              <jam-play v-if="!playIcon" :fillColor="fillColor" @click="togglePlaying" />
-              <jam-pause v-if="playIcon" :fillColor="fillColor" @click="togglePlaying" />
+              <jam-play
+                v-if="!playIcon"
+                :fillColor="fillColor"
+                @click="togglePlaying"
+              />
+              <jam-pause
+                v-if="playIcon"
+                :fillColor="fillColor"
+                @click="togglePlaying"
+              />
             </div>
             <div class="icon i-right" :class="disableCls">
               <jam-set-forward-circle @click="next" :fillColor="fillColor" />
@@ -104,7 +119,11 @@
               ></range-slider>
             </div>
             <div class="icon i-right">
-              <a :href="currentSong.url" target="_blank" :download="currentSong.url">
+              <a
+                :href="currentSong.url"
+                target="_blank"
+                :download="currentSong.url"
+              >
                 <jam-download @click="" :fillColor="fillColor" />
               </a>
             </div>
@@ -131,7 +150,11 @@
           <h2 class="name" v-html="currentSong.name"></h2>
           <p class="desc" v-html="currentSong.singer"></p>
         </div>
-        <div class="currentLyc" v-if="currentLyric" v-html="currentLyric.lines[currentLineNum].txt"></div>
+        <div
+          class="currentLyc"
+          v-if="currentLyric"
+          v-html="currentLyric.lines[currentLineNum].txt"
+        ></div>
         <div class="currentLyc" v-else></div>
         <div class="control">
           <progress-circle :radius="radius" :percent="percent">
@@ -160,31 +183,30 @@
 </template>
 
 <script type="text/ecmascript-6">
-import { mapGetters, mapMutations, mapActions } from 'vuex'
-import animations from 'create-keyframe-animation'
-import { prefixStyle } from 'common/js/dom'
-import ProgressBar from 'base/progress-bar/progress-bar'
-import ProgressCircle from 'base/progress-circle/progress-circle'
-import { playMode } from 'common/js/config'
-import Lyric from 'lyric-parser'
-import Scroll from 'base/scroll/scroll'
-import { playerMixin } from 'common/js/mixin'
-import Playlist from 'components/music/playlist'
-
-import RangeSlider from 'vue-range-slider'
+import { mapGetters, mapMutations, mapActions } from "vuex";
+import animations from "create-keyframe-animation";
+import { prefixStyle } from "common/js/dom";
+import ProgressBar from "base/progress-bar/progress-bar";
+import ProgressCircle from "base/progress-circle/progress-circle";
+import { playMode } from "common/js/config";
+import Lyric from "lyric-parser";
+import Scroll from "base/scroll/scroll";
+import { playerMixin, mqMixin } from "common/js/mixin";
+import Playlist from "components/music/playlist";
+import RangeSlider from "vue-range-slider";
 // you probably need to import built-in style
-import 'vue-range-slider/dist/vue-range-slider.css'
+import "vue-range-slider/dist/vue-range-slider.css";
 
-const transform = prefixStyle('transform')
-const transitionDuration = prefixStyle('transitionDuration')
+const transform = prefixStyle("transform");
+const transitionDuration = prefixStyle("transitionDuration");
 
-const timeExp = /\[(\d{2}):(\d{2}):(\d{2})]/g
+const timeExp = /\[(\d{2}):(\d{2}):(\d{2})]/g;
 
 export default {
-  mixins: [playerMixin],
-  data () {
+  mixins: [playerMixin, mqMixin],
+  data() {
     return {
-      fillColor: '#87cefa',
+      fillColor: "#87cefa",
 
       ctx: null,
       analyser: null,
@@ -196,7 +218,7 @@ export default {
       meterWidth: 10,
       gap: 2,
       capHeight: 2,
-      capStyle: '#FFF',
+      capStyle: "#FFF",
       meterNum: 800 / (10 + 2),
       capYPositionArray: [],
       gradient: null,
@@ -206,399 +228,406 @@ export default {
       radius: 32,
       currentLyric: null,
       currentLineNum: 0,
-      currentShow: 'cd',
-      playingLyric: '',
+      currentShow: "cd",
+      playingLyric: "",
       isPureMusic: false,
-      pureMusicLyric: '',
-      currentVolume: 0.2
-    }
+      pureMusicLyric: "",
+      currentVolume: 0.2,
+    };
   },
   computed: {
-    cdCls () {
-      return this.playing ? 'play' : ''
+    cdCls() {
+      return this.playing ? "play" : "";
     },
-    playIcon () {
-      return this.playing
+    playIcon() {
+      return this.playing;
       // return this.playing ? 'icon-pause' : 'icon-play'
     },
-    volumeIcon () {
+    volumeIcon() {
       // return this.volume==0 ? 'icon-volume' : 'icon-play'
-      return 'icon-play'
+      return "icon-play";
     },
-    miniIcon () {
+    miniIcon() {
       // return this.playing ? 'icon-pause-mini' : 'icon-play-mini'
-      return this.playing
+      return this.playing;
     },
-    disableCls () {
-      return this.songReady ? '' : 'disable'
+    disableCls() {
+      return this.songReady ? "" : "disable";
     },
-    percent () {
-      return this.currentTime / this.currentSong.duration
+    percent() {
+      return this.currentTime / this.currentSong.duration;
     },
-    ...mapGetters(['volume', 'currentIndex', 'fullScreen', 'playing'])
+    ...mapGetters(["volume", "currentIndex", "fullScreen", "playing"]),
   },
-  created () {
-    this.touch = {}
+  created() {
+    this.touch = {};
   },
-  mounted () {
-    document.getElementsByTagName('audio')[0].volume = this.currentVolume
+  mounted() {
+    document.getElementsByTagName("audio")[0].volume = this.currentVolume;
   },
   methods: {
-    back () {
-      this.setFullScreen(false)
+    back() {
+      this.setFullScreen(false);
     },
-    open () {
-      this.setFullScreen(true)
+    open() {
+      this.setFullScreen(true);
     },
-    enter (el, done) {
-      const { x, y, scale } = this._getPosAndScale()
+    enter(el, done) {
+      const { x, y, scale } = this._getPosAndScale();
 
       let animation = {
         0: {
-          transform: `translate3d(${x}px,${y}px,0) scale(${scale})`
+          transform: `translate3d(${x}px,${y}px,0) scale(${scale})`,
         },
         60: {
-          transform: `translate3d(0,0,0) scale(1.1)`
+          transform: `translate3d(0,0,0) scale(1.1)`,
         },
         100: {
-          transform: `translate3d(0,0,0) scale(1)`
-        }
-      }
+          transform: `translate3d(0,0,0) scale(1)`,
+        },
+      };
 
       animations.registerAnimation({
-        name: 'move',
+        name: "move",
         animation,
         presets: {
           duration: 400,
-          easing: 'linear'
-        }
-      })
+          easing: "linear",
+        },
+      });
 
-      animations.runAnimation(this.$refs.cdWrapper, 'move', done)
+      animations.runAnimation(this.$refs.cdWrapper, "move", done);
     },
-    afterEnter () {
-      animations.unregisterAnimation('move')
-      this.$refs.cdWrapper.style.animation = ''
+    afterEnter() {
+      animations.unregisterAnimation("move");
+      this.$refs.cdWrapper.style.animation = "";
     },
-    leave (el, done) {
-      this.$refs.cdWrapper.style.transition = 'all 0.4s'
-      const { x, y, scale } = this._getPosAndScale()
-      this.$refs.cdWrapper.style[transform] = `translate3d(${x}px,${y}px,0) scale(${scale})`
-      const timer = setTimeout(done, 400)
-      this.$refs.cdWrapper.addEventListener('transitionend', () => {
-        clearTimeout(timer)
-        done()
-      })
+    leave(el, done) {
+      this.$refs.cdWrapper.style.transition = "all 0.4s";
+      const { x, y, scale } = this._getPosAndScale();
+      this.$refs.cdWrapper.style[
+        transform
+      ] = `translate3d(${x}px,${y}px,0) scale(${scale})`;
+      const timer = setTimeout(done, 400);
+      this.$refs.cdWrapper.addEventListener("transitionend", () => {
+        clearTimeout(timer);
+        done();
+      });
     },
-    afterLeave () {
-      this.$refs.cdWrapper.style.transition = ''
-      this.$refs.cdWrapper.style[transform] = ''
+    afterLeave() {
+      this.$refs.cdWrapper.style.transition = "";
+      this.$refs.cdWrapper.style[transform] = "";
     },
-    togglePlaying () {
+    togglePlaying() {
       if (!this.songReady) {
-        return
+        return;
       }
-      this.setPlayingState(!this.playing)
+      this.setPlayingState(!this.playing);
       if (this.currentLyric) {
-        this.currentLyric.togglePlay()
+        this.currentLyric.togglePlay();
       }
     },
-    end () {
-      this.currentTime = 0
+    end() {
+      this.currentTime = 0;
       if (this.mode === playMode.loop) {
-        this.loop()
+        this.loop();
       } else {
-        this.next()
+        this.next();
       }
     },
-    loop () {
-      this.$refs.audio.currentTime = 0
-      this.$refs.audio.play()
-      this.setPlayingState(true)
+    loop() {
+      this.$refs.audio.currentTime = 0;
+      this.$refs.audio.play();
+      this.setPlayingState(true);
       if (this.currentLyric) {
-        this.currentLyric.seek(0)
+        this.currentLyric.seek(0);
       }
     },
-    next () {
+    next() {
       if (!this.songReady) {
-        return
+        return;
       }
       if (this.playlist.length === 1) {
-        this.loop()
-        return
+        this.loop();
+        return;
       } else {
-        let index = this.currentIndex + 1
+        let index = this.currentIndex + 1;
         if (index === this.playlist.length) {
-          index = 0
+          index = 0;
         }
-        this.setCurrentIndex(index)
+        this.setCurrentIndex(index);
         if (!this.playing) {
-          this.togglePlaying()
+          this.togglePlaying();
         }
       }
     },
-    prev () {
+    prev() {
       if (!this.songReady) {
-        return
+        return;
       }
       if (this.playlist.length === 1) {
-        this.loop()
-        return
+        this.loop();
+        return;
       } else {
-        let index = this.currentIndex - 1
+        let index = this.currentIndex - 1;
         if (index === -1) {
-          index = this.playlist.length - 1
+          index = this.playlist.length - 1;
         }
-        this.setCurrentIndex(index)
+        this.setCurrentIndex(index);
         if (!this.playing) {
-          this.togglePlaying()
+          this.togglePlaying();
         }
       }
     },
-    ready () {
-      clearTimeout(this.timer)
+    ready() {
+      clearTimeout(this.timer);
       // 监听 playing 这个事件可以确保慢网速或者快速切换歌曲导致的 DOM Exception
-      this.songReady = true
-      this.canLyricPlay = true
-      this.savePlayHistory(this.currentSong)
+      this.songReady = true;
+      this.canLyricPlay = true;
+      this.savePlayHistory(this.currentSong);
       // 如果歌曲的播放晚于歌词的出现，播放的时候需要同步歌词
       if (this.currentLyric && !this.isPureMusic) {
-        this.currentLyric.seek(this.currentTime * 1000)
+        this.currentLyric.seek(this.currentTime * 1000);
       }
     },
-    paused () {
-      this.setPlayingState(false)
+    paused() {
+      this.setPlayingState(false);
       if (this.currentLyric) {
-        this.currentLyric.stop()
+        this.currentLyric.stop();
       }
     },
-    error () {
-      clearTimeout(this.timer)
-      this.songReady = true
+    error() {
+      clearTimeout(this.timer);
+      this.songReady = true;
     },
-    updateTime (e) {
-      this.currentTime = e.target.currentTime
+    updateTime(e) {
+      this.currentTime = e.target.currentTime;
     },
-    format (interval) {
-      interval = interval | 0
-      const minute = (interval / 60) | 0
-      const second = this._pad(interval % 60)
-      return `${minute}:${second}`
+    format(interval) {
+      interval = interval | 0;
+      const minute = (interval / 60) | 0;
+      const second = this._pad(interval % 60);
+      return `${minute}:${second}`;
     },
-    onProgressBarChanging (percent) {
-      this.currentTime = this.currentSong.duration * percent
+    onProgressBarChanging(percent) {
+      this.currentTime = this.currentSong.duration * percent;
       if (this.currentLyric) {
-        this.currentLyric.seek(this.currentTime * 1000)
+        this.currentLyric.seek(this.currentTime * 1000);
       }
     },
-    onProgressBarChange (percent) {
-      const currentTime = this.currentSong.duration * percent
-      this.currentTime = this.$refs.audio.currentTime = currentTime
+    onProgressBarChange(percent) {
+      const currentTime = this.currentSong.duration * percent;
+      this.currentTime = this.$refs.audio.currentTime = currentTime;
       if (this.currentLyric) {
-        this.currentLyric.seek(currentTime * 1000)
+        this.currentLyric.seek(currentTime * 1000);
       }
       if (!this.playing) {
-        this.togglePlaying()
+        this.togglePlaying();
       }
     },
-    getLyric () {
-      this.currentSong.getLyric(this.currentSong.id, this.currentSong.mid)
-        .then(lyric => {
+    getLyric() {
+      this.currentSong
+        .getLyric(this.currentSong.id, this.currentSong.mid)
+        .then((lyric) => {
           if (this.currentSong.lyric !== lyric || lyric == null) {
-            return
+            return;
           }
-          this.currentLyric = new Lyric(lyric, this.handleLyric)
-          this.isPureMusic = !this.currentLyric.lines.length
+          this.currentLyric = new Lyric(lyric, this.handleLyric);
+          this.isPureMusic = !this.currentLyric.lines.length;
           if (this.isPureMusic) {
             this.pureMusicLyric = this.currentLyric.lrc
-              .replace(timeExp, '')
-              .trim()
-            this.playingLyric = this.pureMusicLyric
+              .replace(timeExp, "")
+              .trim();
+            this.playingLyric = this.pureMusicLyric;
           } else {
             if (this.playing && this.canLyricPlay) {
               // 这个时候有可能用户已经播放了歌曲，要切到对应位置
-              this.currentLyric.seek(this.currentTime * 1000)
+              this.currentLyric.seek(this.currentTime * 1000);
             }
           }
         })
         .catch(() => {
-          this.currentLyric = null
-          this.playingLyric = ''
-          this.currentLineNum = 0
-        })
+          this.currentLyric = null;
+          this.playingLyric = "";
+          this.currentLineNum = 0;
+        });
     },
-    handleLyric ({ lineNum, txt }) {
+    handleLyric({ lineNum, txt }) {
       if (!this.$refs.lyricLine) {
-        return
+        return;
       }
-      this.currentLineNum = lineNum
+      this.currentLineNum = lineNum;
       if (lineNum > 5) {
-        let lineEl = this.$refs.lyricLine[lineNum - 5]
-        this.$refs.lyricList.scrollToElement(lineEl, 1000)
+        let lineEl = this.$refs.lyricLine[lineNum - 5];
+        this.$refs.lyricList.scrollToElement(lineEl, 1000);
       } else {
-        this.$refs.lyricList.scrollTo(0, 0, 1000)
+        this.$refs.lyricList.scrollTo(0, 0, 1000);
       }
-      this.playingLyric = txt
+      this.playingLyric = txt;
     },
-    showPlaylist () {
-      this.$refs.playlist.show()
+    showPlaylist() {
+      this.$refs.playlist.show();
     },
-    middleTouchStart (e) {
-      this.touch.initiated = true
+    middleTouchStart(e) {
+      this.touch.initiated = true;
       // 用来判断是否是一次移动
-      this.touch.moved = false
-      const touch = e.touches[0]
-      this.touch.startX = touch.pageX
-      this.touch.startY = touch.pageY
+      this.touch.moved = false;
+      const touch = e.touches[0];
+      this.touch.startX = touch.pageX;
+      this.touch.startY = touch.pageY;
     },
-    middleTouchMove (e) {
+    middleTouchMove(e) {
       if (!this.touch.initiated) {
-        return
+        return;
       }
-      const touch = e.touches[0]
-      const deltaX = touch.pageX - this.touch.startX
-      const deltaY = touch.pageY - this.touch.startY
+      const touch = e.touches[0];
+      const deltaX = touch.pageX - this.touch.startX;
+      const deltaY = touch.pageY - this.touch.startY;
       if (Math.abs(deltaY) > Math.abs(deltaX)) {
-        return
+        return;
       }
       if (!this.touch.moved) {
-        this.touch.moved = true
+        this.touch.moved = true;
       }
-      const left = this.currentShow === 'cd' ? 0 : -window.innerWidth
+      const left = this.currentShow === "cd" ? 0 : -window.innerWidth;
       const offsetWidth = Math.min(
         0,
         Math.max(-window.innerWidth, left + deltaX)
-      )
-      this.touch.percent = Math.abs(offsetWidth / window.innerWidth)
-      this.$refs.lyricList.$el.style[transform] = `translate3d(${offsetWidth}px,0,0)`
-      this.$refs.lyricList.$el.style[transitionDuration] = 0
-      this.$refs.middleL.style.opacity = 1 - this.touch.percent
-      this.$refs.middleL.style[transitionDuration] = 0
+      );
+      this.touch.percent = Math.abs(offsetWidth / window.innerWidth);
+      this.$refs.lyricList.$el.style[
+        transform
+      ] = `translate3d(${offsetWidth}px,0,0)`;
+      this.$refs.lyricList.$el.style[transitionDuration] = 0;
+      this.$refs.middleL.style.opacity = 1 - this.touch.percent;
+      this.$refs.middleL.style[transitionDuration] = 0;
     },
-    middleTouchEnd () {
+    middleTouchEnd() {
       if (!this.touch.moved) {
-        return
+        return;
       }
-      let offsetWidth
-      let opacity
-      if (this.currentShow === 'cd') {
+      let offsetWidth;
+      let opacity;
+      if (this.currentShow === "cd") {
         if (this.touch.percent > 0.1) {
-          offsetWidth = -window.innerWidth
-          opacity = 0
-          this.currentShow = 'lyric'
+          offsetWidth = -window.innerWidth;
+          opacity = 0;
+          this.currentShow = "lyric";
         } else {
-          offsetWidth = 0
-          opacity = 1
+          offsetWidth = 0;
+          opacity = 1;
         }
       } else {
         if (this.touch.percent < 0.9) {
-          offsetWidth = 0
-          this.currentShow = 'cd'
-          opacity = 1
+          offsetWidth = 0;
+          this.currentShow = "cd";
+          opacity = 1;
         } else {
-          offsetWidth = -window.innerWidth
-          opacity = 0
+          offsetWidth = -window.innerWidth;
+          opacity = 0;
         }
       }
-      const time = 300
-      this.$refs.lyricList.$el.style[transform] = `translate3d(${offsetWidth}px,0,0)`
-      this.$refs.lyricList.$el.style[transitionDuration] = `${time}ms`
-      this.$refs.middleL.style.opacity = opacity
-      this.$refs.middleL.style[transitionDuration] = `${time}ms`
-      this.touch.initiated = false
+      const time = 300;
+      this.$refs.lyricList.$el.style[
+        transform
+      ] = `translate3d(${offsetWidth}px,0,0)`;
+      this.$refs.lyricList.$el.style[transitionDuration] = `${time}ms`;
+      this.$refs.middleL.style.opacity = opacity;
+      this.$refs.middleL.style[transitionDuration] = `${time}ms`;
+      this.touch.initiated = false;
     },
-    _pad (num, n = 2) {
-      let len = num.toString().length
+    _pad(num, n = 2) {
+      let len = num.toString().length;
       while (len < n) {
-        num = '0' + num
-        len++
+        num = "0" + num;
+        len++;
       }
-      return num
+      return num;
     },
-    _getPosAndScale () {
-      const targetWidth = 40
-      const paddingLeft = 40
-      const paddingBottom = 30
-      const paddingTop = 80
-      const width = window.innerWidth * 0.8
-      const scale = targetWidth / width
-      const x = -(window.innerWidth / 2 - paddingLeft)
-      const y = window.innerHeight - paddingTop - width / 2 - paddingBottom
+    _getPosAndScale() {
+      const targetWidth = 40;
+      const paddingLeft = 40;
+      const paddingBottom = 30;
+      const paddingTop = 80;
+      const width = window.innerWidth * 0.8;
+      const scale = targetWidth / width;
+      const x = -(window.innerWidth / 2 - paddingLeft);
+      const y = window.innerHeight - paddingTop - width / 2 - paddingBottom;
       return {
         x,
         y,
-        scale
-      }
+        scale,
+      };
     },
     /**
      * 计算内层Image的transform，并同步到外层容器
      * @param wrapper
      * @param inner
      */
-    syncWrapperTransform (wrapper, inner) {
+    syncWrapperTransform(wrapper, inner) {
       if (!this.$refs[wrapper]) {
-        return
+        return;
       }
-      let imageWrapper = this.$refs[wrapper]
-      let image = this.$refs[inner]
-      let wTransform = getComputedStyle(imageWrapper)[transform]
-      let iTransform = getComputedStyle(image)[transform]
+      let imageWrapper = this.$refs[wrapper];
+      let image = this.$refs[inner];
+      let wTransform = getComputedStyle(imageWrapper)[transform];
+      let iTransform = getComputedStyle(image)[transform];
       imageWrapper.style[transform] =
-        wTransform === 'none' ? iTransform : iTransform.concat(' ', wTransform)
+        wTransform === "none" ? iTransform : iTransform.concat(" ", wTransform);
     },
     ...mapMutations({
-      setFullScreen: 'SET_FULL_SCREEN',
-      setVolume: 'SET_VOLUME'
+      setFullScreen: "SET_FULL_SCREEN",
+      setVolume: "SET_VOLUME",
     }),
-    ...mapActions(['savePlayHistory']),
-    analys () {
+    ...mapActions(["savePlayHistory"]),
+    analys() {
       window.AudioContext =
         window.AudioContext ||
         window.webkitAudioContext ||
-        window.mozAudioContext
-      this.ctx = new AudioContext()
-      this.analyser = this.ctx.createAnalyser()
+        window.mozAudioContext;
+      this.ctx = new AudioContext();
+      this.analyser = this.ctx.createAnalyser();
       // this.audio = document.getElementById('audio')
-      this.audio = this.$refs.audio
+      this.audio = this.$refs.audio;
       // this.audio.volume = 0.3
-      this.audioSrc = this.ctx.createMediaElementSource(this.audio)
+      this.audioSrc = this.ctx.createMediaElementSource(this.audio);
       // we have to connect the MediaElementSource with the analyser
-      this.audioSrc.connect(this.analyser)
-      this.analyser.connect(this.ctx.destination)
+      this.audioSrc.connect(this.analyser);
+      this.analyser.connect(this.ctx.destination);
       // we could configure the analyser: e.g. analyser.fftSize (for further infos read the spec)
       // analyser.fftSize = 64
       // frequencyBinCount tells you how many values you'll receive from the analyser
-      this.frequencyData = new Uint8Array(this.analyser.frequencyBinCount)
+      this.frequencyData = new Uint8Array(this.analyser.frequencyBinCount);
       // we're ready to receive some data!
-      this.canvas = this.$refs.canvas
-      this.cwidth = this.canvas.width
-      this.cheight = this.canvas.height - 2
-      this.meterWidth = 10 // width of the meters in the spectrum
-      this.gap = 2 // gap between meters
-      this.capHeight = 2
-      this.capStyle = '#fff'
-      this.meterNum = 800 / 10 // count of the meters
-      this.capYPositionArray = [] // store the vertical position of hte caps for the preivous frame
-      this.ctx = this.canvas.getContext('2d')
-      this.gradient = this.ctx.createLinearGradient(0, 0, 0, 300)
+      this.canvas = this.$refs.canvas;
+      this.cwidth = this.canvas.width;
+      this.cheight = this.canvas.height - 2;
+      this.meterWidth = 10; // width of the meters in the spectrum
+      this.gap = 2; // gap between meters
+      this.capHeight = 2;
+      this.capStyle = "#fff";
+      this.meterNum = 800 / 10; // count of the meters
+      this.capYPositionArray = []; // store the vertical position of hte caps for the preivous frame
+      this.ctx = this.canvas.getContext("2d");
+      this.gradient = this.ctx.createLinearGradient(0, 0, 0, 300);
       // 0f0绿，ff0红 f00黄
-      this.gradient.addColorStop(1, '#0f0')
-      this.gradient.addColorStop(0.5, '#ff0')
-      this.gradient.addColorStop(0, '#f00')
+      this.gradient.addColorStop(1, "#0f0");
+      this.gradient.addColorStop(0.5, "#ff0");
+      this.gradient.addColorStop(0, "#f00");
     },
-    loadstart () {
-      let _this = this
+    loadstart() {
+      let _this = this;
       let renderFrame = () => {
-        var array = new Uint8Array(_this.analyser.frequencyBinCount)
-        _this.analyser.getByteFrequencyData(array)
-        var step = Math.round(array.length / _this.meterNum) // sample limited data from the total array
-        _this.ctx.clearRect(0, 0, _this.cwidth, _this.cheight)
+        var array = new Uint8Array(_this.analyser.frequencyBinCount);
+        _this.analyser.getByteFrequencyData(array);
+        var step = Math.round(array.length / _this.meterNum); // sample limited data from the total array
+        _this.ctx.clearRect(0, 0, _this.cwidth, _this.cheight);
         for (var i = 0; i < _this.meterNum; i++) {
-          var value = array[i * step]
+          var value = array[i * step];
           if (_this.capYPositionArray.length < Math.round(_this.meterNum)) {
-            _this.capYPositionArray.push(value)
+            _this.capYPositionArray.push(value);
           }
-          _this.ctx.fillStyle = _this.capStyle
+          _this.ctx.fillStyle = _this.capStyle;
           // draw the cap, with transition effect
           if (value < _this.capYPositionArray[i]) {
             _this.ctx.fillRect(
@@ -606,31 +635,31 @@ export default {
               _this.cheight - --_this.capYPositionArray[i],
               _this.meterWidth,
               _this.capHeight
-            )
+            );
           } else {
             _this.ctx.fillRect(
               i * 12,
               _this.cheight - value,
               _this.meterWidth,
               _this.capHeight
-            )
-            _this.capYPositionArray[i] = value
+            );
+            _this.capYPositionArray[i] = value;
           }
-          _this.ctx.fillStyle = _this.gradient // set the filllStyle to gradient for a better look
+          _this.ctx.fillStyle = _this.gradient; // set the filllStyle to gradient for a better look
           _this.ctx.fillRect(
             i * 12, // meterWidth+gap
             _this.cheight - value + _this.capHeight,
             _this.meterWidth,
             _this.cheight
-          ) // the meter
+          ); // the meter
         }
-        requestAnimationFrame(renderFrame)
-      }
-      renderFrame()
-    }
+        requestAnimationFrame(renderFrame);
+      };
+      renderFrame();
+    },
   },
   watch: {
-    currentSong (newSong, oldSong) {
+    currentSong(newSong, oldSong) {
       if (
         !newSong ||
         !newSong.id ||
@@ -638,454 +667,457 @@ export default {
         newSong.id === oldSong.id ||
         !this.$refs.audio
       ) {
-        return
+        return;
       }
-      this.songReady = false
-      this.canLyricPlay = false
+      this.songReady = false;
+      this.canLyricPlay = false;
       if (this.currentLyric) {
-        this.currentLyric.stop()
+        this.currentLyric.stop();
         // 重置为null
-        this.currentLyric = null
-        this.currentTime = 0
-        this.playingLyric = ''
-        this.currentLineNum = 0
+        this.currentLyric = null;
+        this.currentTime = 0;
+        this.playingLyric = "";
+        this.currentLineNum = 0;
       }
-      this.$refs.audio.src = newSong.url
+      this.$refs.audio.src = newSong.url;
       // 播放歌曲
-      this.$refs.audio.play()
+      this.$refs.audio.play();
+      // 消息记录
+      this.MQSend(this.mqType.music, newSong.singer + "-" + newSong.name);
+
       // 加载分析
       // this.analys()
       // 开始分析音频
       // this.loadstart()
       // 若歌曲 5s 未播放，则认为超时，修改状态确保可以切换歌曲。
-      clearTimeout(this.timer)
+      clearTimeout(this.timer);
       this.timer = setTimeout(() => {
-        this.songReady = true
-      }, 5000)
-      this.getLyric()
+        this.songReady = true;
+      }, 5000);
+      this.getLyric();
     },
-    playing (newPlaying) {
+    playing(newPlaying) {
       if (!this.songReady) {
-        return
+        return;
       }
-      const audio = this.$refs.audio
+      const audio = this.$refs.audio;
       this.$nextTick(() => {
-        newPlaying ? audio.play() : audio.pause()
-      })
+        newPlaying ? audio.play() : audio.pause();
+      });
       if (!newPlaying) {
         if (this.fullScreen) {
-          this.syncWrapperTransform('imageWrapper', 'image')
+          this.syncWrapperTransform("imageWrapper", "image");
         } else {
-          this.syncWrapperTransform('miniWrapper', 'miniImage')
+          this.syncWrapperTransform("miniWrapper", "miniImage");
         }
       }
     },
-    fullScreen (newVal) {
+    fullScreen(newVal) {
       if (newVal) {
         setTimeout(() => {
-          this.$refs.lyricList.refresh()
-          this.$refs.progressBar.setProgressOffset(this.percent)
-        }, 20)
+          this.$refs.lyricList.refresh();
+          this.$refs.progressBar.setProgressOffset(this.percent);
+        }, 20);
       }
     },
-    currentVolume (num) {
+    currentVolume(num) {
       if (num) {
-        document.getElementsByTagName('audio')[0].volume = num
+        document.getElementsByTagName("audio")[0].volume = num;
         // this.setVolume(num)
       }
-    }
+    },
   },
   components: {
     ProgressBar,
     ProgressCircle,
     Scroll,
     Playlist,
-    RangeSlider
-  }
-}
+    RangeSlider,
+  },
+};
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
-@import '~common/stylus/variable'
-@import '~common/stylus/mixin'
-@import '~common/stylus/animation'
+@import '~common/stylus/variable';
+@import '~common/stylus/mixin';
+@import '~common/stylus/animation';
 
 .range-slider {
-  padding: 0 30px 0 0
+  padding: 0 30px 0 0;
 }
 
 .player {
   .normal-player {
-    position: fixed
-    left: 0
-    right: 0
-    top: 0
-    bottom: 0
-    z-index: 1500
-    background: $color-background
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1500;
+    background: $color-background;
 
     .background {
-      position: absolute
-      left: 0
-      top: 0
-      width: 100%
-      height: 100%
-      z-index: -1
-      opacity: 0.6
-      filter: blur(20px)
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 0.6;
+      filter: blur(20px);
     }
 
     .top {
-      position: relative
+      position: relative;
 
       .back {
-        position: absolute
-        top: 1em
-        left: 1em
-        z-index: 50
+        position: absolute;
+        top: 1em;
+        left: 1em;
+        z-index: 50;
 
         .icon-back {
-          display: block
-          padding: 9px
-          font-size: $font-size-large-x
-          color: $color-theme
-          transform: rotate(-90deg)
+          display: block;
+          padding: 9px;
+          font-size: $font-size-large-x;
+          color: $color-theme;
+          transform: rotate(-90deg);
         }
       }
 
       .title {
-        width: 70%
-        margin: 0 auto
-        line-height: 40px
-        text-align: center
-        no-wrap()
-        font-size: $font-size-large
-        color: $color-text
+        width: 70%;
+        margin: 0 auto;
+        line-height: 40px;
+        text-align: center;
+        no-wrap();
+        font-size: $font-size-large;
+        color: $color-text;
       }
 
       .subtitle {
-        line-height: 20px
-        text-align: center
-        font-size: $font-size-medium
-        color: $color-text
+        line-height: 20px;
+        text-align: center;
+        font-size: $font-size-medium;
+        color: $color-text;
       }
     }
 
     .middle {
-      display: flex
-      width: 100%
-      height: calc(100% - 80px - 180px)
-      white-space: nowrap
-      justify-content: space-around
+      display: flex;
+      width: 100%;
+      height: calc(100% - 80px - 180px);
+      white-space: nowrap;
+      justify-content: space-around;
 
       .middle-l {
-        vertical-align: top
+        vertical-align: top;
 
         .cd-wrapper {
-          box-sizing: border-box
+          box-sizing: border-box;
 
           .cd {
-            margin: 0 auto
-            border-radius: 50%
+            margin: 0 auto;
+            border-radius: 50%;
 
             .image {
-              width: 100%
-              height: 100%
-              box-sizing: border-box
-              border-radius: 50%
-              border: 10px solid rgba(255, 255, 255, 0.1)
+              width: 100%;
+              height: 100%;
+              box-sizing: border-box;
+              border-radius: 50%;
+              border: 10px solid rgba(255, 255, 255, 0.1);
 
               &.image-object-p-left {
-                object-position: left
+                object-position: left;
               }
 
               &.image-object-p-right {
-                object-position: right
+                object-position: right;
               }
 
               &.image-object-p-top {
-                object-position: top
+                object-position: top;
               }
 
               &.image-object-p-bottom {
-                object-position: bottom
+                object-position: bottom;
               }
             }
 
             .play {
-              animation: rotate 60s linear infinite
+              animation: rotate 60s linear infinite;
             }
           }
         }
 
         .playing-lyric-wrapper {
-          width: 80%
-          margin: 30px auto 0 auto
-          overflow: hidden
-          text-align: center
+          width: 80%;
+          margin: 30px auto 0 auto;
+          overflow: hidden;
+          text-align: center;
 
           .playing-lyric {
-            height: 20px
-            line-height: 20px
-            font-size: $font-size-medium
-            color: $color-text-l
+            height: 20px;
+            line-height: 20px;
+            font-size: $font-size-medium;
+            color: $color-text-l;
           }
         }
       }
 
       .middle-r {
-        vertical-align: top
-        overflow: hidden
+        vertical-align: top;
+        overflow: hidden;
 
         .lyric-wrapper {
-          margin: 0 auto
-          overflow: hidden
-          text-align: center
-          padding: 50px 30px
+          margin: 0 auto;
+          overflow: hidden;
+          text-align: center;
+          padding: 50px 30px;
 
           .text {
-            line-height: 32px
-            color: $color-text-l
-            font-size: $font-size-medium
-            transition: all 0.6s ease-in-out
+            line-height: 32px;
+            color: $color-text-l;
+            font-size: $font-size-medium;
+            transition: all 0.6s ease-in-out;
 
             &.current {
-              color: $color-text
-              font-size: 1.4em
-              text-shadow: 0 0 5px #fff, 0 0 10px $color-team-sii, 0 0 15px $color-team-sii, 0 0 20px $color-team-sii, 0 0 35px $color-team-sii, 0 0 40px $color-team-sii, 0 0 50px $color-team-sii, 0 0 75px $color-team-sii
+              color: $color-text;
+              font-size: 1.4em;
+              text-shadow: 0 0 5px #fff, 0 0 10px $color-team-sii, 0 0 15px $color-team-sii, 0 0 20px $color-team-sii, 0 0 35px $color-team-sii, 0 0 40px $color-team-sii, 0 0 50px $color-team-sii, 0 0 75px $color-team-sii;
             }
           }
 
           .pure-music {
-            padding-top: 50%
-            line-height: 32px
-            color: $color-text-l
-            font-size: $font-size-medium
+            padding-top: 50%;
+            line-height: 32px;
+            color: $color-text-l;
+            font-size: $font-size-medium;
           }
         }
       }
     }
 
     .bottom {
-      position: absolute
-      bottom: 50px
-      width: 100%
+      position: absolute;
+      bottom: 50px;
+      width: 100%;
 
       .dot-wrapper {
-        text-align: center
-        font-size: 0
+        text-align: center;
+        font-size: 0;
 
         .dot {
-          display: inline-block
-          vertical-align: middle
-          margin: 0 4px
-          width: 8px
-          height: 8px
-          border-radius: 50%
-          background: $color-text-l
+          display: inline-block;
+          vertical-align: middle;
+          margin: 0 4px;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background: $color-text-l;
 
           &.active {
-            width: 20px
-            border-radius: 5px
-            background: $color-text-ll
+            width: 20px;
+            border-radius: 5px;
+            background: $color-text-ll;
           }
         }
       }
 
       .progress-wrapper {
-        display: flex
-        align-items: center
-        width: 80%
-        margin: 0px auto
-        padding: 10px 0
+        display: flex;
+        align-items: center;
+        width: 80%;
+        margin: 0px auto;
+        padding: 10px 0;
 
         .time {
-          color: $color-text
-          font-size: $font-size-small
-          flex: 0 0 30px
-          line-height: 30px
+          color: $color-text;
+          font-size: $font-size-small;
+          flex: 0 0 30px;
+          line-height: 30px;
 
           &.time-l {
-            text-align: left
+            text-align: left;
           }
 
           &.time-r {
-            text-align: right
+            text-align: right;
           }
         }
 
         .progress-bar-wrapper {
-          flex: 1
+          flex: 1;
         }
 
         .volume {
-          flex: 0 0 30px
-          line-height: 30px
+          flex: 0 0 30px;
+          line-height: 30px;
 
           &.volume-center {
-            text-aligncenter
+            text-aligncenter;
           }
 
           .icon {
-            flex: 1
-            color: $color-theme
+            flex: 1;
+            color: $color-theme;
           }
         }
       }
 
       .operators {
-        display: flex
-        align-items: center
+        display: flex;
+        align-items: center;
 
         .icon {
-          cursor: pointer
-          flex: 1
-          color: $color-theme
+          cursor: pointer;
+          flex: 1;
+          color: $color-theme;
 
           &.disable {
-            color: $color-theme-d
+            color: $color-theme-d;
           }
 
           i {
-            font-size: 30px
+            font-size: 30px;
           }
         }
 
         .i-left {
-          text-align: right
+          text-align: right;
         }
 
         .i-center {
-          padding: 0
-          text-align: center
+          padding: 0;
+          text-align: center;
 
           i {
-            font-size: 40px
+            font-size: 40px;
           }
         }
 
         .i-right {
-          text-align: left
+          text-align: left;
         }
 
         .icon-favorite {
-          color: $color-sub-theme
+          color: $color-sub-theme;
         }
       }
     }
 
     &.normal-enter-active, &.normal-leave-active {
-      transition: all 0.4s
+      transition: all 0.4s;
 
       .top, .bottom {
-        transition: all 0.4s cubic-bezier(0.86, 0.18, 0.82, 1.32)
+        transition: all 0.4s cubic-bezier(0.86, 0.18, 0.82, 1.32);
       }
     }
 
     &.normal-enter, &.normal-leave-to {
-      opacity: 0
+      opacity: 0;
 
       .top {
-        transform: translate3d(0, -100px, 0)
+        transform: translate3d(0, -100px, 0);
       }
 
       .bottom {
-        transform: translate3d(0, 100px, 0)
+        transform: translate3d(0, 100px, 0);
       }
     }
   }
 
   .mini-player {
-    display: flex
-    align-items: center
-    position: fixed
-    left: 0
-    bottom: 0
-    z-index: 180
-    width: 100%
-    height: $mini-player-height
-    background: $color-highlight-background
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 180;
+    width: 100%;
+    height: $mini-player-height;
+    background: $color-highlight-background;
 
     .currentLyc {
-      color: white !important
-      text-shadow: 0 0 5px #fff, 0 0 10px $color-team-sii, 0 0 15px $color-team-sii, 0 0 20px $color-team-sii, 0 0 35px $color-team-sii, 0 0 40px $color-team-sii, 0 0 50px $color-team-sii, 0 0 75px $color-team-sii !important
+      color: white !important;
+      text-shadow: 0 0 5px #fff, 0 0 10px $color-team-sii, 0 0 15px $color-team-sii, 0 0 20px $color-team-sii, 0 0 35px $color-team-sii, 0 0 40px $color-team-sii, 0 0 50px $color-team-sii, 0 0 75px $color-team-sii !important;
     }
 
     &.mini-enter-active, &.mini-leave-active {
-      transition: all 0.4s
+      transition: all 0.4s;
     }
 
     &.mini-enter, &.mini-leave-to {
-      opacity: 0
+      opacity: 0;
     }
 
     .icon {
-      flex: 0 0 40px
-      height: 40px
-      padding: 0 10px 0 10px
+      flex: 0 0 40px;
+      height: 40px;
+      padding: 0 10px 0 10px;
 
       .imgWrapper {
-        height: 100%
-        width: 100%
+        height: 100%;
+        width: 100%;
 
         img {
-          border-radius: 50%
+          border-radius: 50%;
 
           &.play {
-            animation: rotate 10s linear infinite
+            animation: rotate 10s linear infinite;
           }
 
           &.pause {
-            animation-play-state: paused
+            animation-play-state: paused;
           }
         }
       }
     }
 
     .text {
-      display: flex
-      flex-direction: column
-      justify-content: center
-      flex: 0 0 180px
-      line-height: 20px
-      overflow: hidden
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex: 0 0 180px;
+      line-height: 20px;
+      overflow: hidden;
 
       .name {
-        margin-bottom: 2px
-        no-wrap()
-        font-size: $font-size-medium
-        color: $color-text
+        margin-bottom: 2px;
+        no-wrap();
+        font-size: $font-size-medium;
+        color: $color-text;
       }
 
       .desc {
-        no-wrap()
-        font-size: $font-size-small
-        color: $color-text-d
+        no-wrap();
+        font-size: $font-size-small;
+        color: $color-text-d;
       }
     }
 
     .currentLyc {
-      flex: 1
-      line-height: 60px
-      color: $color-team-sii
-      font-size: 24px
-      text-shadow: 0 0 1px #fff, 0 0 2px $color-team-sii, 0 0 3px $color-team-sii, 0 0 4px $color-team-sii, 0 0 5px $color-team-sii
+      flex: 1;
+      line-height: 60px;
+      color: $color-team-sii;
+      font-size: 24px;
+      text-shadow: 0 0 1px #fff, 0 0 2px $color-team-sii, 0 0 3px $color-team-sii, 0 0 4px $color-team-sii, 0 0 5px $color-team-sii;
     }
 
     .control {
-      flex: 0 0 30px
-      padding: 0 10px
+      flex: 0 0 30px;
+      padding: 0 10px;
 
       .icon-play-mini, .icon-pause-mini, .icon-playlist {
-        font-size: 30px
-        color: $color-theme-d
+        font-size: 30px;
+        color: $color-theme-d;
       }
 
       .icon-mini {
-        font-size: 32px
-        position: absolute
-        left: 4px
-        top: -1px
+        font-size: 32px;
+        position: absolute;
+        left: 4px;
+        top: -1px;
       }
     }
   }
@@ -1093,93 +1125,93 @@ export default {
 
 @media screen and (min-width: 1366px) {
   .top {
-    margin-bottom: 40px
+    margin-bottom: 40px;
   }
 
   .middle-l {
-    padding-top: 50px
+    padding-top: 50px;
 
     .cd-wrapper {
       .cd {
-        width: 600px
-        height: 600px
+        width: 600px;
+        height: 600px;
       }
     }
   }
 
   .middle-r {
-    flex: 0 0 50%
+    flex: 0 0 50%;
   }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1366px) {
   .top {
-    margin-bottom: 20px
+    margin-bottom: 20px;
   }
 
   .range-slider {
-    width: 200px
+    width: 200px;
   }
 
   .middle-l {
-    flex: 0 0 50%
-    padding-top: 0
+    flex: 0 0 50%;
+    padding-top: 0;
 
     .cd-wrapper {
       .cd {
-        width: 400px
-        height: 400px
+        width: 400px;
+        height: 400px;
       }
     }
   }
 
   .middle-r {
-    flex: 0 0 50%
+    flex: 0 0 50%;
   }
 }
 
 @media screen and (max-width: 1200px) and (min-width: 1000px) {
   .range-slider {
-    width: 150px
+    width: 150px;
   }
 
   .middle-l {
-    flex: 0 0 50%
+    flex: 0 0 50%;
 
     .cd-wrapper {
       .cd {
-        width: 400px
-        height: 400px
+        width: 400px;
+        height: 400px;
       }
     }
   }
 
   .middle-r {
-    flex: 0 0 50%
+    flex: 0 0 50%;
   }
 }
 
 @media screen and (max-width: 1000px) {
   .range-slider {
-    width: 100px
+    width: 100px;
   }
 
   .player {
     .normal-player {
       .middle {
-        flex-direction: column
+        flex-direction: column;
 
         .middle-l {
-          display none
+          display: none;
         }
 
         .middle-r {
-          padding-top: 10px
-          flex-grow: 1
-          position: relative
+          padding-top: 10px;
+          flex-grow: 1;
+          position: relative;
 
           .lyric-wrapper {
-            padding: 30px 15px
+            padding: 30px 15px;
           }
         }
       }
@@ -1187,17 +1219,17 @@ export default {
 
     .mini-player {
       .text {
-        flex: 0 0 70px
-        display: none
+        flex: 0 0 70px;
+        display: none;
       }
 
       .currentLyc {
-        text-align: center
-        overflow: hidden
-        text-overflow: ellipsis
-        white-space: nowrap
-        padding: 0 15px
-        font-size: 20px
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding: 0 15px;
+        font-size: 20px;
       }
     }
   }

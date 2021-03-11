@@ -1,6 +1,8 @@
+using HttpProxy.Models.MSMQ;
 using System;
 using System.Collections.Generic;
 using System.Messaging;
+using System.Threading.Tasks;
 using System.Web.Http;
 
 namespace HttpProxy.Controllers
@@ -28,18 +30,9 @@ namespace HttpProxy.Controllers
     /// </summary>
     /// <param name="msg"></param>
     [HttpPost, Route("api/MSMQ/Send")]
-    public void Send(string msg)
+    public void Send(SendRequest request)
     {
-      mq.Send(msg);
-      // 解析 msg 类型
-      var arr = msg.Split('|');
-      switch (arr[0])
-      {
-        case "music":
-
-        default:
-          break;
-      }
+      mq.Send(request.msg);
     }
 
     /// <summary>

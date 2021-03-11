@@ -3,9 +3,8 @@ using System.Web.Http;
 
 namespace HttpProxy.Controllers
 {
-    public class IController : ApiController
+  public class IController : ApiController
   {
-    public readonly string jsonFolder = ConfigurationManager.AppSettings["JsonFilder"];
-
+    public readonly string jsonFolder = ConfigurationManager.AppSettings["JsonFolder"];
   }
 }

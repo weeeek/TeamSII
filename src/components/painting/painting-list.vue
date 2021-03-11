@@ -21,6 +21,7 @@
 <script type="ecmascript-6">
 import { mapActions } from "vuex";
 import { getPaintingData } from "config/paintingData";
+import { mqMixin } from 'common/js/mixin'
 
 export default {
   data() {
@@ -41,6 +42,7 @@ export default {
       return weibo || "javascript:void(0)";
     },
     view(item) {
+      this.MQSend(this.mqType.painting, item.url)
       window.open(item.url);
     },
     upload() {
@@ -49,6 +51,7 @@ export default {
     },
     ...mapActions(["triggerUploader", "setUploadType"]),
   },
+  mixins:[mqMixin]
 };
 </script>
 

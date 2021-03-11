@@ -22,7 +22,7 @@ namespace HttpProxy.Controllers
     public string GetVideoOption(string id)
     {
       // 根据id读取对应的json文件
-      var data = File.ReadAllText(@$"{jsonFolder}\Video\" + id + ".json", System.Text.Encoding.UTF8);
+      var data = File.ReadAllText($"{jsonFolder}\\Video\\" + id + ".json", System.Text.Encoding.UTF8);
       return data;
     }
 
@@ -31,7 +31,7 @@ namespace HttpProxy.Controllers
     {
       try
       {
-        var danmaku = File.ReadAllLines(@$"{jsonFolder}\Danmaku\" + id + ".json", System.Text.Encoding.UTF8).ToList().Where(s => !string.IsNullOrEmpty(s)).ToList();
+        var danmaku = File.ReadAllLines($"{jsonFolder}\\Danmaku\\" + id + ".json", System.Text.Encoding.UTF8).ToList().Where(s => !string.IsNullOrEmpty(s)).ToList();
         var result = new List<object[]>();
         danmaku.ForEach(x =>
         {
@@ -50,7 +50,7 @@ namespace HttpProxy.Controllers
     {
       try
       {
-        var path = @$"{jsonFolder}\Danmaku\" + request.id + ".json";
+        var path = $"{jsonFolder}\\Danmaku\\" + request.id + ".json";
         if (!File.Exists(path))
         {
           using (FileStream fs = new FileStream(path, FileMode.CreateNew, FileAccess.ReadWrite))
