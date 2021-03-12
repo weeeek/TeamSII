@@ -12,9 +12,7 @@ namespace HttpProxy
       // Web API 路由
       config.MapHttpAttributeRoutes();
 
-      //var formatter = GlobalConfiguration.Configuration.Formatters.Where(f => f is MediaTypeFormatter).FirstOrDefault();
-      //if (!formatter.SupportedMediaTypes.Any(m => m.MediaType == "multipart/form-data"))
-      //  formatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("multipart/form-data"));
+      config.Formatters.XmlFormatter.SupportedMediaTypes.Add(new System.Net.Http.Headers.MediaTypeHeaderValue("multipart/form-data"));
 
       config.Routes.MapHttpRoute(
           name: "DefaultApi",

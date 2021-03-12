@@ -1,4 +1,3 @@
-using HttpProxy.Enums;
 using HttpProxy.Models;
 using HttpProxy.Models.Upload;
 using Newtonsoft.Json;
@@ -7,15 +6,14 @@ using System.Configuration;
 using System.IO;
 using System.Text;
 using System.Web;
-using System.Web.Hosting;
-using System.Web.Http;
+using System.Web.Mvc;
 
 namespace HttpProxy.Controllers
 {
   /// <summary>
   /// 文件上传
   /// </summary>
-  public class FileController : ApiController
+  public class FileController : Controller
   {
     /// <summary>
     /// 上传文件夹，Web.config中配置
@@ -27,88 +25,62 @@ namespace HttpProxy.Controllers
     }
 
     /// <summary>
-    /// 表情包上传
-    /// </summary>
-    [HttpGet, Route("api/EmojiUploadFileConcat")]
-    public void EmojiUploadFileConcat()
-    {
-      var path = $"{UploadFolder}\\{UploadType.Emoji}";
-      var folder = new DirectoryInfo(path);
-      //                                                           覆盖
-      using (StreamWriter sw = new StreamWriter(GetJsonFile("Emoji"), false, Encoding.UTF8))
-      {
-        foreach (var file in folder.GetFiles())
-        {
-          sw.WriteLine($"\"{file.Name}\",");
-        }
-      }
-    }
-
-    /// <summary>
     /// 文件上传
     /// </summary>
-    [HttpPost, Route("api/UploadFile")]
-    public void UploadFile()
+    [HttpPost]
+    public JsonResult Upload(FileUploadRequest model)
     {
-      string path;
-      string fileName;
-      //获取参数信息
-      var forms = HttpContext.Current.Request.Form;      //定义传统request对象
-      FileUploadRequest request = new FileUploadRequest()
-      {
-        Online = Convert.ToBoolean(forms["Online"]),
-        Type = forms["Type"],
-        Key = forms["Key"],
-        IdolName = forms["IdolName"],
-        Url = forms["Url"],
-        Weibo = forms["Weibo"]
-      };
+      var files = Request.Files;
 
-      // 非网络资源先上传文件
-      if (request.Online)
+      string path = "";
+      string type = "";
+      string fileName = "";
+      var folderPath = $"C:\\inetpub\\wwwroot\\static\\import\\{model.Type}";
+      HttpPostedFileBase file;
+      switch (files.Count)
       {
-        path = request.Url;
-        fileName = request.Url;
-      }
-      else
-      {
-        var folderPath = $"C:\\inetpub\\wwwroot\\static\\import\\{request.Type}";
-        // 上传存储
-        HttpPostedFile file = HttpContext.Current.Request.Files[0];
-        string type = file.FileName.Split('.')[1];
-        path = $"{folderPath}\\{request.IdolName}{request.Key}{DateTime.Now:yyyyMMddhhmmss}.{type}";
-        file.SaveAs(path);
-        fileName = $"{request.IdolName}{request.Key}.{type}";
-        path = $"http://47.97.248.244/static/{request.Type}/{fileName}";
-      }
-
-      //                                                                   追加
-      using (StreamWriter sw = new StreamWriter(GetJsonFile(request.Type), true, Encoding.UTF8))
-      {
-        switch (request.Type)
-        {
-          case "Painting":
-            sw.WriteLine(JsonConvert.SerializeObject(new UploadTypeJsonPainting()
+        case 1:
+          file = files[0];
+          type = file.FileName.Substring(file.FileName.LastIndexOf('.'));
+          fileName = $"{model.IdolName}{model.Key}.{type}";
+          path = $"{folderPath}\\{fileName}";
+          file.SaveAs(path);              //将上传的东西保存
+          using (StreamWriter sw = new StreamWriter(GetJsonFile(model.Type), true, Encoding.UTF8))
+          {
+            switch (model.Type)
             {
-              author = "",
-              url = path,
-              weibo = request.Weibo
-            }));
-            break;
-          case "Photo":
-            sw.WriteLine(JsonConvert.SerializeObject(new UploadTypeJsonPhoto()
-            {
-              title = request.Key,
-              img = path,
-              from = request.IdolName
-            }));
-            break;
-          case "Emoji":
-            sw.WriteLine(fileName);
-            break;
-          default:
-            break;
-        }
+              case "Painting":
+                sw.WriteLine(JsonConvert.SerializeObject(new UploadTypeJsonPainting()
+                {
+                  author = "",
+                  url = path,
+                  weibo = model.Weibo
+                }));
+                break;
+              case "Photo":
+                sw.WriteLine(JsonConvert.SerializeObject(new UploadTypeJsonPhoto()
+                {
+                  title = model.Key,
+                  img = path,
+                  from = model.IdolName
+                }));
+                break;
+              case "Emoji":
+                sw.WriteLine(fileName);
+                break;
+              default:
+                break;
+            }
+          }
+          return Json(true);
+        default:
+          for (int i = 0; i < files.Count; i++)
+          {
+            file = files[i];
+            path = $"{folderPath}\\{model.IdolName}{model.Key}{i}.{file.FileName.Substring(file.FileName.LastIndexOf('.'))}";
+            file.SaveAs(path);              //将上传的东西保存
+          }
+          return Json(true);
       }
     }
   }

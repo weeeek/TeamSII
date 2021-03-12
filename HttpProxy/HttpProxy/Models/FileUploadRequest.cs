@@ -1,9 +1,8 @@
-using HttpProxy.Enums;
 using System.Web;
 
 namespace HttpProxy.Models
 {
-  public class FileUploadRequest
+    public class FileUploadRequest
   {
     /// <summary>
     /// 类型
@@ -29,5 +28,7 @@ namespace HttpProxy.Models
     /// 为网络资源
     /// </summary>
     public bool Online { get; set; }
+
+    public HttpPostedFile File { get; set; }
   }
 }

@@ -61,6 +61,7 @@
             id="file"
             accept="image/*"
             v-on:change="tirggerFile"
+            multiple
           />
         </div>
         <div class="flex-grow" v-else>
@@ -107,22 +108,31 @@ export default {
     };
   },
   methods: {
-    tirggerFile: function (event) {
-      var file = event.target.files[0];
-      this.formData.File = event.target.files[0];
+    tirggerFile(event) {
+      this.formData.File = event.target.files;
     },
     onSubmit() {
       let _vm = this;
       /* formData格式提交： */
       let formData = new FormData();
       for (var key in this.formData) {
-        formData.append(key, this.formData[key]);
+        if(key=="File"){
+          debugger
+          for(var i = 0; i < _vm.formData.File.length; i++){
+            formData.append(key, _vm.formData.File[i])
+          }
+        }
+        else
+          formData.append(key, this.formData[key]);
       }
       _vm.showLoading = true;
 
+      console.log(formData)
+
       axios({
         method: "post",
-        url: `${webProxyServer}File/Upload`,
+        // url: `${webProxyServer}File/Upload`,
+        url: `http://localhost/HttpProxy/File/Upload`,
         headers: {
           "Content-Type": "multipart/form-data",
         },
@@ -132,10 +142,11 @@ export default {
         _vm.showAlert = true;
         setTimeout(() => {
           _vm.showAlert = false;
-          (_vm.formData.Key = ""), (_vm.formData.File = null);
+          _vm.formData.Key = "";
+          _vm.formData.File = null;
           _vm.triggerUploader();
         }, 3000);
-      }).error(ex => {
+      }).catch(ex => {
         alert("出错啦，联系一下407351071让他多掉几根头发吧")
       });
     },
