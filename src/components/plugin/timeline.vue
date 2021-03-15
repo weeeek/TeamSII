@@ -267,6 +267,10 @@ export default {
         background: #c3c3c3;
       }
 
+      .dot-yellow {
+        background: #ffd700;
+      }
+
       .dot-sea {
         background: #006ab7;
       }

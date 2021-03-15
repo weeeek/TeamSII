@@ -9,16 +9,16 @@
       {
         "nameMonth":"3月14日",
         "title":"白色情人节特别公演",
-        "description":"",
+        "description":"小品（全都要出道！）,花园舞曲,MC1：给白色情人节特殊公演起名,爱的加速器,临兵斗者皆阵列在前,观自在,一体同心,爱U&OMG,SPY,The Shadows,Mad World,废墟纪元,MC3：害你在心口难开,MC4：默契问答,生命之风,Drop it,绿光,好友创可贴",
         "summarize":"",
         "type":"blue",
-        "url":""
+        "url":"https://www.bilibili.com/video/BV1Xp4y1H7FC"
       },
       {
         "nameMonth": "3月9日",
         "title": "《寒了鑫》第三期",
         "description": "",
-        "type": "gray",
+        "type": "orange",
         "url": "https://www.bilibili.com/video/BV1gf4y1t73n"
       },
       {
@@ -55,14 +55,14 @@
         "nameMonth": "2月26日",
         "title": "李宇琪生日会",
         "description": "顾香君，钱蓓婷，莫寒，张语格，小朱老师",
-        "type": "gray",
+        "type": "orange",
         "url": "https://www.bilibili.com/video/BV1Rr4y1A7Bf"
       },
       {
         "nameMonth": "2月25日",
         "title": "《寒了鑫》第二期",
         "description": "",
-        "type": "gray",
+        "type": "orange",
         "url": "https://www.bilibili.com/video/BV1Kp4y1W7Gd"
       },
       {
@@ -90,7 +90,7 @@
         "nameMonth":"2月8日",
         "title":"孔肖吟B站首播 | 汤敏",
         "description":"",
-        "type":"gray",
+        "type":"orange",
         "url":"https://www.bilibili.com/video/BV1eK4y1p7Gb"
       },
       {
@@ -118,7 +118,7 @@
         "nameMonth": "1月27日",
         "title": "《寒了鑫》第一期",
         "description": "",
-        "type": "gray",
+        "type": "orange",
         "url": "https://www.bilibili.com/video/BV1PK4y1s7bT"
       },
       {
@@ -140,7 +140,7 @@
         "title": "SNH48 Group 第七届年度金曲大赏",
         "description": "恋爱告急（孔肖吟）,Like I Do（戴萌）,重生计划（TeamSII）+新公演站位公布,Me&You（孙芮）,雨中钢琴师（刘增艳）,9 to 9（段艺璇）,SPY（张语格）,暴走少女（蒋芸）,美杜莎的温柔（蒋芸 田姝丽 邵雪聪）,双行道（宁轲）,花园舞曲（张语格）,SWAN-天鹅（温晶婕 沈小爱 王秋茹 刘增艳 卞楚娴）,触电（陈雨孜 陆叶卉 冯雨停）,灵魂使者（袁雨桢 黄恩茹 彭嘉敏）,MYKEY（赵天杨）,SHOW（李慧）,新年这一刻",
         "summarize": "",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1iV411t7r4"
       },
       {
@@ -155,7 +155,7 @@
         "title": "吴雨霏生日公演助演 钱蓓婷",
         "description": "时间的歌",
         "summarize": "",
-        "type": "orange",
+        "type": "yellow",
         "url": "https://www.bilibili.com/video/BV1op4y1s73p"
       },
       {
@@ -163,7 +163,7 @@
         "title": "陈琳生日公演助演 彭嘉敏",
         "description": "战歌",
         "summarize": "",
-        "type": "orange",
+        "type": "yellow",
         "url": "https://www.bilibili.com/video/BV1Qi4y1F7CF"
       },
       {
@@ -178,7 +178,7 @@
         "nameMonth": "1月3日",
         "title": "刘姝贤生日公演助演 莫寒",
         "description": "春夏秋冬",
-        "type": "orange",
+        "type": "yellow",
         "url": "https://www.bilibili.com/video/BV1UK411M7VZ"
       },
       {
@@ -331,7 +331,7 @@
         "title": "《莫莫有闻》第三季第十五期·赵天杨",
         "description": "",
         "summarize": "",
-        "type": "gray",
+        "type": "orange",
         "url": "https://www.bilibili.com/video/BV1ra411c7Jr"
       },
       {
@@ -371,7 +371,7 @@
         "title": "《莫莫有闻》第三季第十四期·徐晨辰",
         "description": "",
         "summarize": "",
-        "type": "gray",
+        "type": "orange",
         "url": "https://www.bilibili.com/video/BV1Ea4y1s7oG"
       },
       {
@@ -445,7 +445,7 @@
         "nameMonth": "9月21日",
         "title": "浪彩少女AW9发布会戴萌 刘增艳 莫寒 钱蓓婷 陈雨孜",
         "description": "",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1kT4y1A7mV"
       },
       {
@@ -453,7 +453,7 @@
         "title": "《莫莫有闻》第三季第十二期·闫明筠",
         "description": "",
         "summarize": "",
-        "type": "gray",
+        "type": "orange",
         "url": "https://www.bilibili.com/video/BV155411j7tE"
       },
       {
@@ -499,7 +499,7 @@
         "title": "《莫莫有闻》第三季第十期·刘增艳",
         "description": "成熟治愈前辈莫莫,重压做自己刺猬后辈",
         "summarize": "刚进入SII的时候\r\n做偶像还是做自己\r\n关于做SII的抗旗人\r\n大组阁的冲击\r\n有想过改变自己的怼怼吗\r\n糊作非为\r\n关于向粉丝表达自己的不开心的情绪\r\n要舍弃自己的一部分，来吸更多的粉吗",
-        "type": "gray",
+        "type": "orange",
         "url": "https://www.bilibili.com/video/BV19a4y1778p"
       },
       {
@@ -507,7 +507,7 @@
         "title": "团队调整",
         "description": "新加入成员：段艺璇，黄恩茹，李慧，马玉灵，宁轲，彭嘉敏，沈小爱，田姝丽，闫明筠，赵天杨",
         "summarize": "重组",
-        "type": "black",
+        "type": "red",
         "url": "https://www.snh48.com/html/snh/allnews/activity/202009/5683.html#SNH"
       },
       {
@@ -523,7 +523,7 @@
         "title": "《莫莫有闻》第三季第八期·段艺璇",
         "description": "",
         "summarize": "选秀带来的变化\r\n关于这一次选拔\r\n努力是否有回报\r\nDDD与悠唐\r\n个人与团队\r\n如何看待粉丝的建议\r\n如果DDD来S队会怎么样",
-        "type": "gray",
+        "type": "orange",
         "url": "https://www.bilibili.com/video/BV1vC4y1t7vN"
       },
       {
@@ -531,7 +531,7 @@
         "title": "SNH48 GROUP 第七届年度总决选 《创造炙热的青春》",
         "description": "La La La,Yes OK（青春有你组）,花园舞曲（炙热的我们组）,一期一会VCR,勇不勇敢（高飞组）,Black Baccara（孔肖吟）,黑天鹅（孙芮、张语格）,深海之声（吴哲晗）,爱未央（戴萌、许佳琪）,远方的海（莫寒）,第1名孙芮,第21名刘增艳,第23名蒋芸,第48名由淼",
         "summarize": "狮子不会因为犬吠而回头 ---- by 孙芮\r\n是蓝色的，是蓝色的 ---- 戴萌 to 孙芮",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1wT4y1L7hx"
       },
       {
@@ -604,7 +604,7 @@
         "title": "《莫莫有闻》第三季第三期·由淼",
         "description": "大前辈莫寒与小后辈由淼间的机智对答",
         "summarize": "当初是最想进哪个队\r\n如何看待与团内朋友之间的关系\r\n作为后辈如何看待各个队伍之间的纠葛（S与N）提到去N代役\r\n进团以来最负能量的事情\r\n习惯受到的伤害\r\n如何看待“后辈坟墓”这个说法\r\n怎么看待“正统偶像”\r\n缺少沟通交流机会，被质疑不会说MC\r\n入团的原因以及对待总选和名次的心态",
-        "type": "gray",
+        "type": "orange",
         "url": "https://www.bilibili.com/video/BV1Rk4y1z7dQ"
       },
       {
@@ -627,7 +627,7 @@
         "title": "《莫莫有闻》第三季第二期·蒋芸",
         "description": "两个成年人之间的深度话题",
         "summarize": "我们是负责开头的人 没有人会把未来放在我们身上",
-        "type": "gray",
+        "type": "orange",
         "url": "https://www.bilibili.com/video/BV1Yk4y1q7C1"
       },
       {
@@ -662,42 +662,42 @@
         "nameMonth": "5月31日",
         "title": "《On Stage》【我行我秀·塞纳河之光初心舞台】青葱组决赛 || 陈雨孜 王秋茹 由淼",
         "description": "Swalla & Red flavor：王秋茹,说好不哭 & adios：由淼,Millenia & All the jazz：陈雨孜,BOOMBAYAH_s：王秋茹，由淼,舞娘：陈雨孜，卢天慧,现场学舞",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1MK411s7Rz"
       },
       {
         "nameMonth": "5月23日 19:00",
         "title": "云MINILIVE || 张语格",
         "description": "告白气球,MC1：出厂之后有哪些事情让你们觉得时代变了,关不掉,MC2：最近有什么让你想要沉迷的事情,R&B all Night,MC3：最近有什么想要报复性消费的东西吗,Open,encore：张扬",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1Qa4y1e7PV"
       },
       {
         "nameMonth": "5月17日",
         "title": "《On Stage》【我行我秀·塞纳河之光初心舞台】青葱组 || 刘丽千",
         "description": "Feel special & mushroom chocolate：刘丽千,有一种悲伤：刘丽千，王睿琦,现场学舞",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1FC4y1p7pV"
       },
       {
         "nameMonth": "5月16日",
         "title": "《On Stage》【我行我秀·塞纳河之光初心舞台】绽放组 || 钱蓓婷生日特殊表演",
         "description": "痒：钱蓓婷,一体同心：钱蓓婷，孙歆文,Say my name：钱蓓婷，张怡，姜杉,现场学舞",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1QV411k7S2"
       },
       {
         "nameMonth": "5月10日",
         "title": "《On Stage》【我行我秀·塞纳河之光初心舞台】绽放组 || 蒋芸 刘增艳",
         "description": "风月：蒋芸,一分一秒：刘增艳,爱未央：刘增艳，万丽娜,Touble Maker：蒋芸，李钊,Lion Heart：蒋芸，刘增艳，李钊,现场学舞",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1sT4y1372b"
       },
       {
         "nameMonth": "5月3日",
         "title": "《On Stage》【我行我秀·塞纳河之光初心舞台】绽放组 || 邵雪聪 温晶婕",
         "description": "芒种：邵雪聪,On：温晶婕,没有明天：邵雪聪，温晶婕,DUN DUN：邵雪聪，温晶婕,现场学舞",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1754y1X7U8"
       },
       {
@@ -711,21 +711,21 @@
         "nameMonth": "4月25日 14:00",
         "title": "王者荣耀·峡谷争霸 明星赛",
         "description": "主持人：潘璐瑶,解说员：陈观慧，祁静，张怡,猛男擦屏幕队：钱蓓婷，温晶婕，徐晨辰，陆婷，袁一琦,烈女砸手机队：林思意，卢天惠，沈梦瑶，万丽娜，张雨鑫",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1qK4y1b7Te"
       },
       {
         "nameMonth": "4月24日",
         "title": "《On Stage》【我行我秀·塞纳河之光初心舞台】青葱组 || 陈雨孜 王贝妮",
         "description": "Take A Hike&Havana：王贝妮,春夏秋冬：陈雨孜,无声的探戈：陈雨孜，潘璐瑶,Touble maker：王贝妮，张睿婕,现场学舞",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1Pt4y1m7VH"
       },
       {
         "nameMonth": "4月19日",
         "title": "《On Stage》【我行我秀·塞纳河之光初心舞台】青葱组 || 吕一 王秋茹 由淼",
         "description": "Love Shot：由淼,Fancy&attention：王秋茹,金凤玉露：吕一,Don't touch：王秋茹，由淼,Don't touch：吕一，王菲妍,现场学舞",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1GV411Z7tX"
       },
       {
@@ -739,7 +739,7 @@
         "nameMonth": "4月11日 14:00",
         "title": "王者荣耀·峡谷争霸 第三场",
         "description": "主持人：潘璐瑶,解说员：刘增艳，袁一琦，卢天惠，金莹玥,争队成员：陈思，卢天惠，冉蔚，沈梦瑶，张怡,霸队成员：钱蓓婷，徐晨辰，金莹玥，李钊，王睿琦,塞队成员：陈俊羽，温晶婕，祁静，王奕，张雨鑫,纳队成员：陈观慧，郝婧怡，杨冰怡，汪佳翎，万丽娜,小幸运：由淼,bo3季军争夺：争队 VS 霸队,bo3冠军争夺：塞队 VS 纳队",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1aC4y1s7v9"
       },
       {
@@ -753,7 +753,7 @@
         "nameMonth": "3月29日 14:00",
         "title": "王者荣耀·峡谷争霸 第二场",
         "description": "最终回合：徐晨辰,主持人：潘璐瑶,解说员：王秋茹，万丽娜，张雨鑫,争队成员：陈思，卢天惠，冉蔚，沈梦瑶，张怡,霸队成员：钱蓓婷，徐晨辰，金莹玥，李钊，王睿琦,赛队成员：吴哲晗，陈琳，林思意，袁一琦，周诗雨,第一局：争队 VS 霸队,My Boy：张睿婕、王贝妮,第二局：赛队 VS 争队,第三局：霸队 VS 赛队",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1Ug4y1b7s1"
       },
       {
@@ -775,7 +775,7 @@
         "nameMonth": "3月27日 19:30",
         "title": "王者荣耀·峡谷争霸 第一场",
         "description": "对峙：蒋芸,心型病毒：陈雨孜，王贝妮，由淼,主持人：潘璐瑶,解说员：钱蓓婷，王秋茹，林思意,塞队成员：陈俊羽，温晶婕，祁静，王奕，张雨鑫,纳队成员：陈观慧，郝静怡，杨冰怡，汪佳翎，万丽娜,河队成员：蒋芸，刘增艳，姜杉，陆婷，林楠,第一局：塞队 VS 纳队（娱乐局）,第二局：塞队 VS 纳队,第三局：河队 VS 塞队,第四局：纳队 VS 河队",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1dA41187fM"
       },
       {
@@ -910,7 +910,7 @@
         "nameMonth": "12月21日 17:30",
         "title": "SNH48 GROUP第六届年度金曲大赏",
         "description": "炽瞳组第1名《Who I am》：莫寒，戴萌,炽瞳组第2名《美杜莎的温柔》：吴哲晗，许佳琪,荣耀队歌第3名《坐标121E 31N》,炽瞳组第4名《夕阳下的约定》：冯薪朵，陆婷，钱蓓婷、孔肖吟、孙芮、徐晨辰,云舸组第1名《不安星》：钱蓓婷，孔肖吟,云舸组第5名《Love Letter》：徐晨辰,云舸组第7名《未接来电》：李宇琪，袁一琦,云舸组第8名《占据》：戴萌，孙芮，青钰雯,云舸组第15名《Miss Victoria》：吴哲晗,流萤组第3名《关不掉》：蒋芸,流萤组第4名《就差一点点》：孙芮，孔肖吟,流萤组第9名《+-》：许佳琪，吴哲晗,流萤组第18名《废墟纪元》：许佳琪,流萤组第21名《夜行的黑猫》：刘增艳，熊素君，韩家乐,流萤组第22名《灵魂使者》：洪珮雲，赵佳蕊，邵雪聪，张润，,流萤组第24名《画》：张语格",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av80166733"
       },
       {
@@ -1099,7 +1099,7 @@
         "nameMonth": "9月21日",
         "title": "DEMOON出道巡演重庆站",
         "description": "吴哲晗",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av68521275"
       },
       {
@@ -1226,7 +1226,7 @@
         "nameMonth": "8月7日",
         "title": "《就差一点点》MV",
         "description": "戴萌，莫寒　第五届年度金曲大赏第一名",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av62497502"
       },
       {
@@ -1249,7 +1249,7 @@
         "title": "SNH48 GROUP 第六届年度总决选 《新的旅程》",
         "description": "魔女的诗篇,预言(助演：岛村绚沙（しまむら あやさ）),twinkle twinkle,(blueV)My key,(DEMOON)狐狸,天空信,终无艳,(7sense)7 o'clock,暗羽：戴萌，孔肖吟，张语格,粉红狙击手：许佳琪，林思意，谢蕾蕾,信念箭羽：陆婷，吴哲晗，钱蓓婷,一体同心：莫寒，赵粤,支柱,初日,新的旅程（纪念版）,第2名莫寒,第4名张语格,第5名吴哲晗,第6名孔肖吟,第7名许佳琪,第9名戴萌,第13名孙芮,第17名钱蓓婷,第24名冯晓菲,第30名刘增艳,第36名徐子轩",
         "summarize": "无论何时，我们都一直在你们身边",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av61024719"
       },
       {
@@ -1330,7 +1330,7 @@
         "nameMonth": "7月5日",
         "title": "“新的旅程”第六届偶像年度人气总决选专题片--《第七个夏天》",
         "description": "作为一个站在墙里面的人，我没有看到墙外面有人站着，就是那些小后辈也只是说，站在那堵墙的里面，然后现在就有点害羞，靠着墙有一点不知所措，但她们从来没有被放在外面过。",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av57930462"
       },
       {
@@ -1352,7 +1352,7 @@
         "nameMonth": "6月24日 19:00",
         "title": "《TV Station 48》第五期「密室逃脱」",
         "description": "徐子轩 戴萌 许佳琪 刘增艳 沈梦瑶 李星羽",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av56746391"
       },
       {
@@ -1396,7 +1396,7 @@
         "nameMonth": "6月18日 19:00",
         "title": "《TV Station 48》第四期「少女偶像的推理事件簿」",
         "description": "莫寒 钱蓓婷 孙芮 刘增艳 徐晨辰 温晶婕",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av56070549"
       },
       {
@@ -1439,7 +1439,7 @@
         "nameMonth": "6月7日",
         "title": "端午大作战",
         "description": "孙芮，徐子轩，刘增艳，杨冰怡，祁静，冉蔚",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av54893365"
       },
       {
@@ -1578,7 +1578,7 @@
         "title": "SNH48 Group 第二届偶像运动会",
         "description": "主持人：莫寒,内场记者：钱蓓婷、孔肖吟、袁雨桢,花式投篮接力：戴萌、李宇琪、刘增艳、吴哲晗,25*8折返跑：戴萌、吴哲晗、许佳琪、张语格,三项全能（踢毽子，跳绳，呼啦圈）：温晶婕 铜牌,气球大乱斗：陈思,跳高：张语格,射箭：袁丹妮 银牌,拔河：Team SII 金牌",
         "summarize": "恭喜Team SII成功卫冕拔河冠军",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av49191421"
       },
       {
@@ -1610,14 +1610,6 @@
         "summarize": "鹅芸商业互吹现场，小孔三行情书又一力作:芸芸众生，你我很配！\r\n莫寒回顾被骗自学call历程，络络回归三喜临门，坦诚点，说话的方式坦诚点。\r\n小戴评价白月光:别问，问就禁欲。\r\nmc惊喜悬念，增锅唱了哪首歌是允芸一期歌审的歌呢？\r\ntako上下其手，做允芸最可爱的狗腿！\r\n落枕佳琪，你，坚强！\r\n孙芮快速回顾在蒋芸手下的那几年，前辈好三个字可抵1000字检讨。\r\n梦中的婚礼被实名举报？教练与加戏粉丝共唱一曲。\r\n毛芸ttl，小艾温温恭祝允芸的毛线梦早日成真。\r\n素颜女神是冒冒最喜欢的大姐姐。\r\ncoco向毛毛发起battle，认证仙女也爱吃凉皮。\r\n生日环节:田馥甄翻唱专场，实力生唱solo《无用》《那些你很冒险的梦》《你就不要想起我》《自己的房间》古典舞《纸扇书生》英姿飒爽。\r\nmc2成员大吐槽，吐槽哪首歌好呢？扣分吗？不扣分啊！那我们就从第一首歌开始吐槽吧！\r\n掉色寒夜，假酒高脚杯，吉普赛水晶球，stf真成本控制鬼才。\r\n我们的增锅……凹了…甚至无法想象酒吧的高危桌子。\r\nmc3深情对望，互诉衷肠。尺度警告，贯穿始终。\r\n芸聪模范，尺度可以。\r\n三肖爆笑高能，到底是哭还是吐。\r\n玛利亚前车之鉴，三哥还是怕被举报。\r\n允芸对冒冒撒娇，冒冒被撩到脸红。\r\n三络油腻变幼稚，更有三钻姐妹连成排，友谊地久天长。",
         "type": "blue",
         "url": "https://www.bilibili.com/video/av47772372"
-      },
-      {
-        "nameMonth": "3月27日",
-        "title": "莫寒的8个梦",
-        "description": "",
-        "summarize": "新浪微博独播#明星制片人微计划#",
-        "type": "red",
-        "url": "https://www.bilibili.com/video/av48712575"
       },
       {
         "nameMonth": "3月25日",
@@ -1654,14 +1646,6 @@
         "summarize": "新版姐妹歌S-Two",
         "type": "blue",
         "url": "https://www.bilibili.com/video/av46568906"
-      },
-      {
-        "nameMonth": "3月9日",
-        "title": "《暴走萌妹特攻队》",
-        "description": "《暴走萌妹特攻队》是赵鹤松执导，SNH48-许佳琪、黄健、GNZ48-谢蕾蕾、BEJ48-李梓、SNH48-姜杉主演的青春奇幻网络电影。",
-        "summarize": "漫画经纪人赵一成面对重金诱惑，不惜答应出卖团队给人当枪手。\r\n一次意外，他竟然来到自己的内心世界，并且发现这里到处都是被反派控制的敌人。\r\n为了从这里逃出去，他必须唤醒自己大学毕业设计时创作的五个学科少女，而这些少女就是赵一成初心和梦想的化身，能够帮助他对付自己的野心和欲望。\r\n赵一成一路收集少女，过关斩将，他能否打败反派拯救自己的内心世界呢？",
-        "type": "red",
-        "url": "https://www.bilibili.com/video/av45820127"
       },
       {
         "nameMonth": "3月9日 19:00",
@@ -1745,7 +1729,7 @@
         "nameMonth": "1月19日 17:30",
         "title": "SNH48 Group 第五届年度金曲大赏",
         "description": "年度金曲《就差一点点》：戴萌、莫寒,耀阳组第1名《SPY》：吴哲晗、许佳琪,耀阳组第3名《钢铁之翼》：戴萌,耀阳组第4名《9 to 9》：张语格、孔肖吟,耀阳组第6名《巧克力之吻》：钱蓓婷、袁雨桢、张怀瑾,皓月组第1名《初日》：Team SII,皓月组第4名《My Boy》：钱蓓婷、孔肖吟,皓月组第9名《荣誉勋章》：莫寒,星辰组第3名《黑夜女神》：冯晓菲,星辰组第4名《女王殿下》：蒋芸,星辰组第5名《Monster》：孙芮,星辰组第14名《玛丽亚》：孔肖吟、孙芮,星辰组第25名《Don't Touch》：许佳琪,星辰组第23名《梦中的婚礼》：陈思、陈观慧",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/av41180148"
       },
       {
@@ -1826,7 +1810,7 @@
         "nameMonth": "12月28日 18:00",
         "title": "XUYIR | 喝酒聊天企划—《再来伊杯》 （下）| 跟锅吐露真言",
         "description": "徐伊人，刘增艳",
-        "type": "gray",
+        "type": "orange",
         "url": "https://www.bilibili.com/video/av39309577"
       },
       {
@@ -1840,7 +1824,7 @@
         "nameMonth": "12月28日 18:00",
         "title": "XUYIR | 喝酒聊天企划—《再来伊杯》 （上）| 跟锅组阁一年中的感受",
         "description": "徐伊人，刘增艳",
-        "type": "gray",
+        "type": "orange",
         "url": "https://www.bilibili.com/video/av39148816"
       },
       {
@@ -1877,13 +1861,6 @@
         "description": "MC1：有没有什么特别巧合的事情,MC2：团内谁最贤惠,MC3：大家有什么好的御寒方法,MC4：第一次看见雪",
         "type": "blue",
         "url": "https://www.bilibili.com/video/av38093762"
-      },
-      {
-        "nameMonth": "12月13日",
-        "title": "《养乐多青春剧场》第一话·相见恨晚",
-        "description": "莫寒 费沁源",
-        "type": "red",
-        "url": "https://www.bilibili.com/video/av38098402"
       },
       {
         "nameMonth": "12月12日",
@@ -1978,7 +1955,7 @@
         "nameMonth": "7月28日",
         "title": "SNH48 GROUP 第五届年度总决选 《砥砺前行》",
         "description": "",
-        "type": "black",
+        "type": "red",
         "url": "https://v.qq.com/x/cover/2p6ijve2w1nl2jh/s0027svxy5c.html"
       },
       {
@@ -1992,14 +1969,14 @@
         "nameMonth": "7月16日",
         "title": "《莫莫有闻》第二季第七期·李宇琪",
         "description": "谈兼任曾心态爆炸，自曝追星学生时代",
-        "type": "gray",
+        "type": "orange",
         "url": "https://www.bilibili.com/video/BV1yW411F77m?p=7"
       },
       {
         "nameMonth": "7月9日",
         "title": "《莫莫有闻》第二季第五期·张语格",
         "description": "在意粉丝想法不理流言蜚语，展现最真实的自己",
-        "type": "gray",
+        "type": "orange",
         "url": "https://www.bilibili.com/video/BV1yW411F77m?p=5"
       },
       {
@@ -2014,7 +1991,7 @@
         "nameMonth": "6月10日",
         "title": "梦想演播厅",
         "description": "20180610第一期：徐晨辰、孔肖吟《戒烟》,20180617第二期：徐子轩、吴哲晗《Don't Touch》，钱蓓婷、徐晨辰、成珏《双生花》，刘增艳《虫之诗》,20180624第三期：吴哲晗、徐子轩《女王殿下》，袁雨桢、袁丹妮《花儿为什么这样红》，陈观慧、陈思《天使的圈套》,20180701第四期：莫寒《幻梦》，吕一、蒋芸《雨声残响》,20180708第五期：许佳琪、戴萌《易燃易爆炸》，李宇琪、汪佳翎，谢天依《刀马旦》，张语格《寒夜》《红豆》,20180715第六期：孙芮、温晶婕《Havana》，冯晓菲、曾艾佳《Secret》，蒋芸《桃夭》，戴萌、许佳琪、张昕《骑士精神》",
-        "type": "black",
+        "type": "red",
         "url": "http://www.iqiyi.com/a_19rrgxbl71.html"
       },
       {
@@ -2038,14 +2015,14 @@
         "title": "SNH48 Group 第一届偶像运动会",
         "description": "Team SII 5金2铜 获得团体总冠军,解说：莫寒,长绳：孙芮、许佳琪、李宇琪、袁丹妮、陈思、刘增艳、戴萌、徐晨辰、徐子轩 金牌,跳高：许佳琪 金牌，徐伊人 铜牌,拔河：刘增艳、吴哲晗、陈思、张语格、陈观慧、徐伊人、孙芮、袁雨桢、李宇琪、戴萌、以及某260斤的聚聚 金牌,小自行车接力：袁雨桢、袁丹妮 金牌,7人6足：徐子轩、陈思、戴萌、许佳琪、吕一、蒋芸、钱蓓婷 金牌,25*8折返跑 戴萌、吴哲晗、徐伊人 铜牌",
         "summarize": "在上海宝钢体育中心举办的第一届SNH48首届偶像运动会上，艾斯兔成员齐心协力，众志成城，夺得了集体长绳，跳高，小自行车接力赛，集体竞走，拔河五个项目的冠军以及团队冠军。",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av21789837"
       },
       {
         "nameMonth": "3月22日",
         "title": "《Gril Crush》MV发布，7Senses成立",
         "description": "第一个小组合",
-        "type": "black",
+        "type": "red",
         "url": "https://y.qq.com/n/yqq/mv/v/v0023j9wodw.html"
       },
       {
@@ -2067,14 +2044,14 @@
         "nameMonth": "2月3日",
         "title": "SNH48 Group 第四届年度金曲大赏",
         "description": "第7名《9 to 9》： 戴萌、莫寒,第13名《夜蝶》：许佳琪、吴哲晗,第17名《少女的遗憾》：刘增艳、肖文铃、任心怡,第19名《如果你能拥抱我》：刘炅然、袁雨桢、罗雪丽,第20名《黑天鹅》：张语格、孙歆文、陈欣妤、王晓佳,第22名《I'm Not Your Girl》：易嘉爱、袁航、郝婉晴、邵雪聪、沈梦瑶,第25名《暗夜脚步声》：冯晓菲、杨冰怡、赵晔、黄彤扬,第26名《曲终人散》：许杨玉琢、陈思、谢妮、林嘉佩,第31名《一千零一夜》：张语格、孙珍妮、刘力菲,第32名《她和她》：莫寒、戴萌,第33名《虫之诗》：孔肖吟,第37名《地平线》：严佼君、夏越、赖梓惜、徐诗琪、陈观慧,第42名《天使的圈套》：钱蓓婷、孔肖吟,第43名《战歌》Team SII,第44名《寒夜》：邱欣怡,第45名《合理失控》：莫寒,第47名《天使与恶魔》：徐晨辰",
-        "type": "black",
+        "type": "red",
         "url": "https://v.qq.com/x/cover/ep27v9h3o3onzz4/f0025q78hwn.html"
       },
       {
         "nameMonth": "1月14日",
         "title": "舞台剧《向阳的星光》",
         "description": "演出人员列表,星儿-----------------------许逸（NII）,柳叶---------------------刘菊子（NII）,玫瑰-----------------------蒋芸（SII）,花经理-------------------徐晨辰（SII）,向阳----------------------张丹三（X）,星辰---------------------刘增艳（XII）,乔木导演-----------------徐子轩（SII）,兰陵-----------------------成珏（SII）,阿梅---------------------熊沁娴（HII）,兰兰---------------------金莹月（NII）,小枫---------------------袁丹妮（SII）",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av18310435"
       },
       {
@@ -2134,7 +2111,7 @@
         "nameMonth": "7月29日",
         "title": "SNH48 GROUP 第四届年度总决选 《我心翱翔》",
         "description": "",
-        "type": "black",
+        "type": "red",
         "url": "https://v.qq.com/x/cover/2awu5u20hbp8tvb/i0024ft73t1.html"
       },
       {
@@ -2156,7 +2133,7 @@
         "nameMonth": "7月3日",
         "title": "《莫莫有闻》第一季第五期·徐晨辰",
         "description": "少女偶像老龄化危机",
-        "type": "gray",
+        "type": "orange",
         "url": "https://www.bilibili.com/video/BV1Qx411B7bk"
       },
       {
@@ -2188,7 +2165,7 @@
         "title": "《莫莫有闻》第一季第二期·冯晓菲",
         "description": "黑到深处自然粉",
         "summarize": "塞纳河一生黑",
-        "type": "gray",
+        "type": "orange",
         "url": "https://www.bilibili.com/video/BV1zx41187iM"
       },
       {
@@ -2267,7 +2244,7 @@
         "nameMonth": "3月14日",
         "title": "《好友创可贴》MV 白色情人节礼物",
         "description": "《好友创可贴》是来自SNH48 S队《心的旅程》公演的unit曲,值此白色情人节之际，SNH48音乐团队特别改编该曲为抒情欢快的R&B版本,配合原本就很甜蜜温馨的歌词，赋予与原曲不一样的意义。",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av9156071"
       },
       {
@@ -2351,7 +2328,7 @@
         "title": "SNH48 Group 第三届年度金曲大赏",
         "description": "第3名《我的舞台》：Team SII,第7名《错过奇迹》：刘炅然、许佳琪、青钰雯,第9名《狼与自尊》：戴萌、莫寒,第10名《爱到累了》：莫寒、邱欣怡、孔肖吟,第11名《天黑日记》：张语格,第13名《荣耀日》：李宇琪、袁雨桢、蒋芸,第14名《巧克力之吻》：万丽娜、戴萌、徐子轩,第20名《如果你能拥抱我》：张语格、许杨玉琢、谢妮,第23名《燃烧的道路》：许佳琪、刘炅然,第24名《单恋对角线》：钱蓓婷、孙芮、冯晓菲,第25名《不眠之夜》：黄婷婷、刘增艳、马玉灵,第33名《初恋小盗》：徐晗、陈观慧、温晶婕,第36名《王子殿下》：邵雪聪、黄彤扬、李佳恩,第42名《降落伞》：徐晨辰",
         "summarize": "森林宇宙",
-        "type": "black",
+        "type": "red",
         "url": "https://v.qq.com/x/cover/5pnj5vgwgc4g583/x0022o9rgpa.html"
       }
     ]
@@ -2477,7 +2454,7 @@
         "nameMonth": "7月30日",
         "title": "SNH48 GROUP 第三届年度总决选 《比翼齐飞》",
         "description": "",
-        "type": "black",
+        "type": "red",
         "url": "https://v.qq.com/x/cover/ox1wjaljy0b0lzi/f00213kcpwl.html"
       },
       {
@@ -2565,7 +2542,7 @@
         "title": "《国民美少女》，一场爱意满满的青春之战",
         "description": "简称“国美”，特邀嘉宾：费玉清，叫兽易小星,出场：张语格，莫寒，许佳琪，吴哲晗，戴萌，蒋芸，李宇琪，沈之琳，袁雨桢，钱蓓婷，孔肖吟，孙芮，陈思，陈观慧,分入国美S队：宋昕冉，张菡筱，陈音，汪佳翎，邵雪聪，谢天依",
         "summarize": "优酷全集观看：http://list.youku.com/show/id_ze7bf3156ab0211e5a080.html?tpa=dW5pb25faWQ9MTAzNzUzXzEwMDAwMV8wMV8wMQ&refer=baiduald1705",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av4227744"
       },
       {
@@ -2588,7 +2565,7 @@
         "nameMonth": "12月26日",
         "title": "SNH48 Group 第二届年度金曲大赏",
         "description": "第4名《雨中的钢琴师》：徐子轩、李艺彤、刘佩鑫,第5名《如果你能拥抱我》：戴萌、邱欣怡、黄婷婷,第6名《再见制服》：戴萌、莫寒、张语格,第11名《天使的尾巴》：孟玥、邵雪聪、宋昕冉,第13名《格子裙妖精》：李宇琪、赵晔、袁丹妮,第14名《荣耀日》：孔肖吟、孙芮、陆婷,第15名《纯情主义》：许佳琪、袁雨桢、徐晗,第16名《糖》：陈思、罗兰、汪束,第18名《勇气重生》：Team SII,第22名《青涩的香蕉》：邱欣怡、赵粤,第23名《错过奇迹》：陈观慧、蒋芸、吴哲晗,第24名《朱丽叶》：沈之琳、温晶婕、李晶,第26名《梦之河》：徐晨辰",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av3458812"
       },
       {
@@ -2602,7 +2579,7 @@
         "nameMonth": "10月31日",
         "title": "第一届风尚大赏",
         "description": "",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1Ks411b7ME"
       },
       {
@@ -2623,7 +2600,7 @@
         "nameMonth": "7月25日",
         "title": "SNH48 GROUP 第二届年度总决选 《梦想高飞》",
         "description": "",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av2766137"
       },
       {
@@ -2676,7 +2653,7 @@
         "nameMonth": "1月31日",
         "title": "SNH48 Group 第一届年度金曲大赏",
         "description": "第3名《恋爱捉迷藏》：沈之琳,第7名《爱恨的泪》：莫寒、袁雨桢,第12名《禁忌的爱》：邱欣怡、吴哲晗,第13名《夕阳下的约定》：李宇琪,第14名《生命之风》：Team SII,第15名《开拓者》：Team SII,第18名《黑白格子裙》：Team SII,第19名《神魂颠倒》：孔肖吟,第20名《黑天使》：陈观慧、李宇琪、沈之琳,第21名《心型病毒》：许佳琪、徐子轩、温晶婕,第22名《流着泪微笑》：徐晨辰,第24名《借口》：Team SII,第26名《爱的幸运曲奇》：Team SII,第27名《纯情主义》：戴萌、陈思、钱蓓婷,第28名《不眠之夜》：莫寒、李宇琪、许佳琪",
-        "type": "black",
+        "type": "red",
         "url": "http://www.iqiyi.com/w_19rwcs0pd1.html"
       },
       {
@@ -2743,7 +2720,7 @@
         "nameMonth": "7月26日",
         "title": "SNH48 GROUP 第一届年度总决选 《一心向前》",
         "description": "",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av22168684"
       },
       {
@@ -2773,7 +2750,7 @@
         "title": "SNH48出道一周年红白对决大型演唱会",
         "description": "—— 序 章 ——,激流之战（S+N）,梅洛斯之路（S+N）,开拓者（S+N）,—— 新世界之章 ——,神魂颠倒（S）,爱的意义（N）,曲终人散（赵嘉敏、李宇琪、吴哲晗、陈观慧）,任性的流星（孟玥、罗兰）,日升日落（S）,错过（N）,—— 混战之章 ——,剧场女神（S）,S队首推之歌（S）,最后的钟声（N）,爱的回游鱼（N）,暴风雨之夜（许佳琪、戴萌、陈思、温晶婕）,糖（张语格、邱欣怡、孔肖吟）,夜蝶（陆婷、万丽娜）,初恋小盗（赵粤、林思意、龚诗淇）,—— 歌姬之章 ——,流着泪微笑（徐晨辰）,都是夜风惹的祸（鞠婧祎）,—— 舞后之章 ——,猛犸（S）,冷酷女孩（S）,诚实的心（N）,梦想的纸飞机（N）,—— 胜利之章 ——,心电感应（S）,爱的幸运曲奇（S+N）,无尽旋转（S+N）",
         "summarize": "徐晨辰流着泪微笑，女儿出嫁",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av21482695"
       }
     ]
@@ -2798,7 +2775,7 @@
         "title": "《梦想预备生之半熟少女》",
         "description": "",
         "summarize": "",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1Fs411a7TE"
       },
       {
@@ -2806,21 +2783,21 @@
         "title": "《这一年，我们追的SNH48》演唱会 广州国际体育演艺中心",
         "description": "RIVER+开拓者+梅洛斯之路,爱恨的泪(日文版 宮澤佐江 鈴木まりや),再爱一回(陈观慧 莫寒 许佳琪李宇琪),初恋小盗(赵嘉敏 邱欣怡 徐晨辰),夜蝶(张语格 吴哲晗),初恋你好(万丽娜 龚诗淇 孟玥N),糖(林思意 易嘉爱 胡思奕),都是夜风惹的祸(鞠婧祎),爱的洄游鱼,最后的钟声响起,...",
         "summarize": "SNH48首场万人演唱会",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av13036174"
       },
       {
         "nameMonth": "11月11日",
         "title": "TeamSII 建队，莫寒正队长",
         "description": "",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1Lx4116732"
       },
       {
         "nameMonth": "10月24日",
         "title": "第一届水着大会·夏日大作战",
         "description": "莫寒，李宇琪，邱欣怡，徐晨辰，戴萌，孔肖吟，许佳琪，汤敏，陈观慧，钱蓓婷，丁紫研，董芷依",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1CA411n7ke"
       },
       {
@@ -2850,7 +2827,7 @@
         "nameMonth": "6月21日",
         "title": "发行首张EP大碟《无尽旋转》",
         "description": "第一个EP",
-        "type": "black",
+        "type": "red",
         "url": "https://www.snh48.com/event/s12_red/"
       },
       {
@@ -2858,7 +2835,7 @@
         "title": "观摩AKB48第五届总选举",
         "description": "",
         "summarize": "我今后希望在SNH这一条道路上走下去 ---- by 宫泽佐江",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1ts411U73d?p=8"
       },
       {
@@ -2866,7 +2843,7 @@
         "title": "《星花为你绽放》演唱会 SNH48 Blooming For You 525 上海宝钢大舞台",
         "description": "石头剪刀布+马尾与发圈+爱的洄游鱼+钻石呐喊+夜蝶+初恋小盗+猛犸+最后的钟声响起+男友制作秘籍+飞翔入手+不想太伟大+暹罗猫+支柱+RIVER+誰かのために(为了谁)+机尾云+无尽旋转,MC：宮澤佐江、鈴木まりや前辈在SNH48里最喜欢哪一首歌",
         "summarize": "初代支柱",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av13030274"
       },
       {
@@ -2880,7 +2857,7 @@
         "nameMonth": "4月22日",
         "title": "《激流之战》MV",
         "description": "第一支MV",
-        "type": "black",
+        "type": "red",
         "url": "https://y.qq.com/n/yqq/mv/v/e0012izmeu7.html"
       },
       {
@@ -2902,21 +2879,21 @@
         "nameMonth": "1月21日",
         "title": "《16人姐妹歌》",
         "description": "",
-        "type": "black",
+        "type": "red",
         "url": "https://y.qq.com/n/yqq/mv/v/g0011dzcnmj.html"
       },
       {
         "nameMonth": "1月12日",
         "title": "《GIVE ME POWER！》SNH48一期生浅水湾出道演唱会",
         "description": "猛犸+最后的钟声+不想多伟大+男友制作秘籍,MC1：对这场演出的期望和心情,再爱一回+初恋小盗+对不起我的宝贝+夜之蝶+16人姐妹之歌,MC2：成员之间互动+与观众互动,战役的崛起+冷酷女孩+爱的洄游鱼,MC3：各种有趣的故事,MC4：各种有趣的故事,想去见你+安可+暹罗猫+梅洛斯之路+支柱,river+马尾和发圈+无尽旋转",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/av64069575"
       },
       {
         "nameMonth": "1月4日",
         "title": "《无尽旋转》花絮版",
         "description": "",
-        "type": "black",
+        "type": "red",
         "url": "https://www.bilibili.com/video/BV1Jp411f7VS?p=2"
       }
     ]
