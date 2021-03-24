@@ -53,7 +53,11 @@ namespace HttpProxy
       //DateTimeOffset runTime = DateBuilder.EvenMinuteDate(DateTimeOffset.UtcNow);
       ITrigger configTrigger = TriggerBuilder.Create()
           .WithIdentity("web.config配置时间触发", "用户行为")
-          .WithCronSchedule(ConfigurationManager.AppSettings["MQQuartzCronSchedule"])     //每天中午12点触发
+          // .WithCronSchedule(ConfigurationManager.AppSettings["MQQuartzCronSchedule"])     //每天中午12点触发
+          .WithSimpleSchedule(x => x
+            .WithIntervalInSeconds(86400)
+            .RepeatForever()
+          )
           .Build();
       //ITrigger trigger = TriggerBuilder.Create()
       //    .WithIdentity("1s触发", "测试")

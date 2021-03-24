@@ -42,7 +42,7 @@ namespace HttpProxy.Controllers
     [HttpGet, Route("api/MSMQ/Recieve")]
     public string Recieve()
     {
-      //从队列中接收消息
+      //从队列中接收消息，如果队列中没有，就会阻塞线程一直等。
       Message myMessage = mq.Receive();
       // myQueue.Peek();--接收后不消息从队列中移除
       myMessage.Formatter = formatter;
@@ -59,7 +59,7 @@ namespace HttpProxy.Controllers
     }
 
     /// <summary>
-    /// 获取所有消息
+    /// 获取所有消息的静态快照。
     /// </summary>
     /// <returns></returns>
     [HttpGet, Route("api/MSMQ/GetAll")]

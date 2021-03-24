@@ -2,6 +2,9 @@ using Quartz;
 using Quartz.Impl;
 using Quartz.Impl.Triggers;
 using System;
+using System.Configuration;
+using System.IO;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace HttpProxy.Quartz
@@ -13,6 +16,7 @@ namespace HttpProxy.Quartz
   {
     private static ISchedulerFactory schedulerFactory;
     private static IScheduler scheduler;
+    private static readonly string jsonFolder = ConfigurationManager.AppSettings["JsonFolder"];
 
     static QuartzSchedulerMgr()
     {
@@ -99,7 +103,7 @@ namespace HttpProxy.Quartz
     /// </summary>
     /// <param name="jobName"></param>
     /// <returns></returns>
-    public static bool UnscheduleJob(string jobName,string jobGroupName,string triggerName,string triggerGroupName)
+    public static bool UnscheduleJob(string jobName, string jobGroupName, string triggerName, string triggerGroupName)
     {
       JobKey existKey = JobKey.Create(jobName, jobGroupName);
       TriggerKey exisTriggerKey = new TriggerKey(triggerName, triggerGroupName);
@@ -118,7 +122,7 @@ namespace HttpProxy.Quartz
     /// </summary>
     /// <param name="jobName"></param>
     /// <returns></returns>
-    public static bool ExistJob(string jobName,string jobGroupName)
+    public static bool ExistJob(string jobName, string jobGroupName)
     {
       JobKey key = JobKey.Create(jobName, jobGroupName);
       return scheduler.CheckExists(key);
@@ -154,9 +158,16 @@ namespace HttpProxy.Quartz
     /// <param name="jobGroupName"></param>
     public static void ManualExecute(string jobName, string jobGroupName)
     {
-      JobKey key = new JobKey(jobName, jobGroupName);
-      scheduler.TriggerJob(key);
-      scheduler.Start();
+      try
+      {
+        JobKey key = new JobKey(jobName, jobGroupName);
+        scheduler.TriggerJob(key);
+        scheduler.Start();
+      }
+      catch (Exception ex)
+      {
+        File.AppendAllText($"{jsonFolder}\\error.txt", ex.Message, Encoding.UTF8);
+      }
     }
 
     /// <summary>

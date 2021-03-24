@@ -36,22 +36,40 @@ namespace HttpProxy.Quartz
 
     public void Execute(IJobExecutionContext context)
     {
+      try
+      {
+
         var path = $"{jsonFolder}\\statis.json";
         // 统计数据json读成对象，计算后再json写回源文件
         List<UserBehaviorStatis> statis = JsonConvert.DeserializeObject<List<UserBehaviorStatis>>(File.ReadAllText(path, Encoding.UTF8));
 
-        // 读取消息队列所有消息，并处理
-        Message[] allMessage = mq.GetAllMessages();
-        for (int i = 0; i < allMessage.Length; i++)
+        // Get a cursor into the messages in the queue.
+        MessageEnumerator myEnumerator = mq.GetMessageEnumerator2();
+        // Specify that the messages's priority should be read.
+        mq.MessageReadPropertyFilter.Priority = true;
+
+        while (myEnumerator.MoveNext())
         {
-          allMessage[i].Formatter = formatter;
-          string str = allMessage[i].Body.ToString();
-          mqType type = (mqType)Enum.Parse(typeof(mqType),str.Substring(0,1));
+          Message msg = myEnumerator.Current;
+          msg.Formatter = formatter;
+          string str = msg.Body.ToString();
+          mqType type = (mqType)Enum.Parse(typeof(mqType), str.Substring(0, 1));
           string body = str.Substring(2);
           statis.Find(s => s.Type == type).Count++;
+          myEnumerator.RemoveCurrent();
+          myEnumerator.Reset();
         }
 
         File.WriteAllText(path, JsonConvert.SerializeObject(statis));
+      }
+      catch (Exception ex)
+      {
+        File.AppendAllText($"{jsonFolder}\\log.txt", ex.Message, Encoding.UTF8);
+      }
+      finally
+      {
+        File.AppendAllText($"{jsonFolder}\\log.txt", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "执行完毕", Encoding.UTF8);
+      }
     }
   }
 }
