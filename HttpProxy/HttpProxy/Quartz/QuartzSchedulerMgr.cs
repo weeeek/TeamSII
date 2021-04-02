@@ -35,6 +35,17 @@ namespace HttpProxy.Quartz
     }
 
     /// <summary>
+    /// 关停Scheduler，但是IsStarted依然true
+    /// </summary>
+    /// <param name="immediately"></param>
+    public static void Shutdown(bool immediately)
+    {
+      var s = GetScheduler();
+      if (s.IsStarted)
+        s.Shutdown(immediately);
+    }
+
+    /// <summary>
     /// 创建一个任务
     /// </summary>
     /// <typeparam name="T"></typeparam>
@@ -52,6 +63,17 @@ namespace HttpProxy.Quartz
           .Build();
 
       return scheduler.ScheduleJob(job, trigger);
+    }
+
+    /// <summary>
+    /// 下一次触发时间
+    /// </summary>
+    /// <param name="triggerName"></param>
+    /// <param name="triggerGroupName"></param>
+    /// <returns></returns>
+    public static DateTimeOffset? NextTriggerTime(string triggerName, string triggerGroupName) {
+      TriggerKey key = new TriggerKey(triggerName, triggerGroupName);
+      return GetScheduler().GetTrigger(key).GetNextFireTimeUtc();
     }
 
     /// <summary>

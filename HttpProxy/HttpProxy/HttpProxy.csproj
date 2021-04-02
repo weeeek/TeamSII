@@ -247,6 +247,7 @@
     <Compile Include="Models\Statis\UserBehaviorStatis.cs" />
     <Compile Include="Models\Upload\UploadTypeJsonModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quartz\MainScheduler.cs" />
     <Compile Include="Quartz\TestJob.cs" />
     <Compile Include="Quartz\MQJob.cs" />
     <Compile Include="Quartz\QuartzSchedulerMgr.cs" />

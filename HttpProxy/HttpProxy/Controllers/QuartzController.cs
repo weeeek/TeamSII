@@ -20,31 +20,38 @@ namespace HttpProxy.Controllers
     [HttpGet, Route("api/Quartz/List")]
     public List<JobInfo> List()
     {
-      var scheduler = QuartzSchedulerMgr.GetScheduler();
-      var groups = scheduler.GetJobGroupNames();
-      var list = new List<JobInfo>();
-      foreach (var groupName in groups)
+      try
       {
-        foreach (var jobKey in QuartzSchedulerMgr.GetScheduler().GetJobKeys(GroupMatcher<JobKey>.GroupEquals(groupName)))
+        var scheduler = QuartzSchedulerMgr.GetScheduler();
+        var groups = scheduler.GetJobGroupNames();
+        var list = new List<JobInfo>();
+        foreach (var groupName in groups)
         {
-          string jobName = jobKey.Name;
-          string jobGroup = jobKey.Group;
-          DateTimeOffset? nextFire = null;
-          var triggers = QuartzSchedulerMgr.GetScheduler().GetTriggersOfJob(jobKey);
-          foreach (ITrigger trigger in triggers)
+          foreach (var jobKey in QuartzSchedulerMgr.GetScheduler().GetJobKeys(GroupMatcher<JobKey>.GroupEquals(groupName)))
           {
-            nextFire = trigger.GetNextFireTimeUtc();
+            string jobName = jobKey.Name;
+            string jobGroup = jobKey.Group;
+            DateTimeOffset? nextFire = null;
+            var triggers = QuartzSchedulerMgr.GetScheduler().GetTriggersOfJob(jobKey);
+            foreach (ITrigger trigger in triggers)
+            {
+              nextFire = trigger.GetNextFireTimeUtc();
+            }
+            list.Add(new JobInfo
+            {
+              JobGroup = jobGroup,
+              JobName = jobName,
+              Triggers = triggers,
+              NextFire = nextFire
+            });
           }
-          list.Add(new JobInfo
-          {
-            JobGroup = jobGroup,
-            JobName = jobName,
-            Triggers = triggers,
-            NextFire = nextFire
-          });
         }
+        return list;
       }
-      return list;
+      catch (Exception ex)
+      {
+        throw ex;
+      }
     }
 
     /// <summary>
@@ -88,6 +95,39 @@ namespace HttpProxy.Controllers
     public void ExecuteNow(string triggerName, string triggerGroupName)
     {
       QuartzSchedulerMgr.ManualExecuteNow(triggerName, triggerGroupName);
+    }
+
+    /// <summary>
+    /// 关闭Quartz任务
+    /// </summary>
+    [HttpPost, Route("api/Quartz/Shutdown")]
+    public void Shutdown(bool immediately) {
+      QuartzSchedulerMgr.Shutdown(immediately);
+    }
+
+    /// <summary>
+    /// Is Quartz Started ?
+    /// </summary>
+    /// <returns></returns>
+    [HttpGet, Route("api/Quartz/NextTriggerTime")]
+    public string NextTriggerTime(string triggerName, string triggerGroupName) {
+      var result = QuartzSchedulerMgr.NextTriggerTime(triggerName, triggerGroupName);
+      if (result.HasValue)
+      {
+        return result.Value.DateTime.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss");
+      }
+      else {
+        return null;
+      }
+    }
+
+    /// <summary>
+    /// Restart Main Scheduler
+    /// </summary>
+    /// <returns></returns>
+    [HttpGet, Route("api/Quartz/RestartMainScheduler")]
+    public void RestartMainScheduler() {
+      MainScheduler.Init();
     }
   }
 }

@@ -8,14 +8,13 @@ using System.Configuration;
 using System.IO;
 using System.Messaging;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace HttpProxy.Quartz
 {
-  /// <summary>
-  /// 消息队列定时任务
-  /// </summary>
-  public class MQJob : IJob
+    /// <summary>
+    /// 消息队列定时任务
+    /// </summary>
+    public class MQJob : IJob
   {
     private const string MSMQPath = ".\\private$\\48";
     private MessageQueue mq;
@@ -53,6 +52,7 @@ namespace HttpProxy.Quartz
           Message msg = myEnumerator.Current;
           msg.Formatter = formatter;
           string str = msg.Body.ToString();
+          File.AppendAllText($"{jsonFolder}\\mq.txt", str + "\r\n", Encoding.UTF8);
           mqType type = (mqType)Enum.Parse(typeof(mqType), str.Substring(0, 1));
           string body = str.Substring(2);
           statis.Find(s => s.Type == type).Count++;
@@ -64,11 +64,11 @@ namespace HttpProxy.Quartz
       }
       catch (Exception ex)
       {
-        File.AppendAllText($"{jsonFolder}\\log.txt", ex.Message, Encoding.UTF8);
+        File.AppendAllText($"{jsonFolder}\\log.txt", ex.Message + "\r\n", Encoding.UTF8);
       }
       finally
       {
-        File.AppendAllText($"{jsonFolder}\\log.txt", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "执行完毕", Encoding.UTF8);
+        File.AppendAllText($"{jsonFolder}\\log.txt", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "执行完毕\r\n", Encoding.UTF8);
       }
     }
   }

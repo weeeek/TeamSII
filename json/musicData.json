@@ -106,6 +106,34 @@
         ]
       },
       {
+        "title":"许佳琪",
+        "songs":[
+          {
+            "image": {
+              "url": "http://i0.hdslb.com/bfs/archive/b43d130043b5ae1559219613a700f8277470a40e.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "许佳琪"
+            ],
+            "lyric": "WzAwOjAwLjAwXeatjOWQje+8muaMr+e/hQpbMDA6MDYuMDdd5L2c6K+N77ya6buR55Cq5YabClswMDowNy41NF3kvZzmm7LvvJrpu5HnkKrlhpsKWzAwOjE5LjgzXeaIkeW/g+mHjOeahOWuneiXjwpbMDA6MjIuNzJd5YCf6LSr55ig6K+t6KiA5p2l6K6yClswMDoyNi40MF3kuZjpo47noLTmtaog6Ieq5pyJ5L+h5LuwClswMDoyOS45MV3lnZrpn6fml6DnlY/lnLDnlJ/plb8KWzAwOjMzLjMwXeacgOWKqOS6uueahOaEv+acmwpbMDA6MzYuMzFd56Oo56C65Ye65pyA5rip5p+U6ZSL6IqSClswMDo0MC4yNF3okL3kuIvnmoTnnLzms6rkuI7msZfmsLQKWzAwOjQzLjU0XeaDs+S4uuS9oOWwveaVsOaUtuiXjwpbMDA6NDcuMTdd5oiR5o6M5Lit55qE6J206J22ClswMDo1MC4wMF3mj4/mkbnmnKrmnaXnmoTmqKHmoLcKWzAwOjUzLjkzXei3jOi3jOaSnuaSniDmt6HmirnmtZPlpoYKWzAwOjU3LjMyXeesqOaLmeWwj+WtqeS5n+acieS6uuaso+i1jwpbMDE6MDAuODFd5bGP6JS96YKj5Lqb5Lit5LykClswMTowMy42Nl3po47pnJzkuIDotbfljrvmirXmipcKWzAxOjA3LjcxXea7oeW/g+eCmeeDrSDmoqblpJrmu5rng6sKWzAxOjExLjA2XeS9oOS4jeS8muawuOi/nOS7sOacmwpbMDE6MTYuMTdd6LWw6L+H5peg5Lq65Zyo5oSP55qE5pel5LiO5aScClswMToxOS40OF3oiJ7lj7DlsLHmmK/kuIDmlrnlsI/lsI/liaflnLoKWzAxOjIzLjQ0Xei4rui1t+iEmuWwliDml4vovazov4flm5vlraPnqbrml7cKWzAxOjI5LjgwXeWkmuWKquWKm+aJjeiDveiiq+S4lueVjOeci+WIsApbMDE6MzMuMzBd546r55Gw55ub5byA5LqO6I2S6YeO5Zyf5aOkClswMTozNi44M13onbTonbbnoLTojKfopoHlhrLnoLTlpJrlsJHpmLvmjKAKWzAxOjQ0LjAwXeS5n+aciei/h+Wus+aAlSDljbTku47mnKrlgZzkuIsKWzAyOjA0LjMyXeaIkeW/g+mHjOeahOidtOidtuWcqOaMh+WwlueFveWKqOe/heiGgApbMDI6MTEuMDld5b6u5byx5Yqb6YePIOi9veaipumjnue/lApbMDI6MTQuNDVd5oWi5oWi5Yed6IGa5omA5pyJ55uu5YWJClswMjoxNy44OV3ouI/noo7onJrnn63mtYHplb8KWzAyOjIwLjc2XeaKq+iNhuaWqeajmOetieW+hee7veaUvgpbMDI6MjQuNzJd6LWi6KaB5ryC5LquIOi+k+S5n+WdpuiNoQpbMDI6MjguMDVd5Y+q5YGa6Ieq5bex55qE546LClswMjozMy4zMF3pgqPkupvpu5jpu5jml6Dpl7vnmoTml6XkuI7lpJwKWzAyOjM2LjYwXeeUqOWdmuaMgeeDmeS4i+S4gOS4quS4quWLi+eroApbMDI6NDAuNTBd6Liu6LW36ISa5bCWIOaXi+i9rOi/h+Wbm+Wto+epuuaXtwpbMDI6NDYuODld6L+Z5Lu95Yqq5Yqb57uI5Lya6KKr55yL5YiwClswMjo1MC4zNl3njqvnkbDmt7Hmt7HmiY7moLnkuo7lnJ/lo6QKWzAyOjU0LjAwXeidtOidtuaMr+e/hSDlho3pgaXov5zkuZ/mnInlm57lk40KWzAzOjAwLjk4XeS9oOS4jeW/heWus+aAlQpbMDM6MDIuNTZd5L2g5Y+q566h5Y676L+c5pa5ClswMzowNy43M13ov5npppbmrYzmraTliLvmg7Pot5/kvaDkuIDotbfllLEKWzAzOjE0LjQ2XeS9oOeahOaVheS6i+mHjOmXqueDgeedgOWFieiKkgpbMDM6MjEuMzZd6Lev6L+Y6L+c5qKm5b6I6ZW/ClswMzoyNC40OF3ntK/kuoblgZzlnKjmiJHmiYvmjowKWzAzOjI4LjE2Xei/mOacieW9vOatpOWcqOi6q+aXgQo=",
+            "id": 20200827,
+            "mid": null,
+            "name": "振翅",
+            "interval": 226,
+            "url": "http://47.97.248.244/static/music/许佳琪-振翅.mp3",
+            "play": [{
+              "player":"许佳琪应援会",
+              "type":"MV",
+              "url":"https://www.bilibili.com/video/BV1Ui4y1g7ux"
+            }],
+            "opern": null
+          }
+        ]
+      },
+      {
         "title": "李宇琪",
         "songs": [
           {
@@ -1756,41 +1784,19 @@
           },
           {
             "image": {
-              "url": "//i2.hdslb.com/bfs/archive/34c20e03c13084c2751de7a7125addf19a5e3a1f.jpg",
+              "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000004EroFu42efeL_1.jpg",
               "left": "50%",
               "top": "50%",
               "objectfit": "contain"
             },
             "singer": [
-              "莫寒"
+              "孙芮",
+              "戴萌"
             ],
-            "id": 215059243,
-            "mid": "0004Z2VS4fomBw",
-            "name": "哪种朋友",
-            "interval": 298,
-            "play": [
-              {
-                "player": "大师之大",
-                "type": "bilibili",
-                "url": "https://www.bilibili.com/video/av49984336"
-              }
-            ],
-            "opern": null
-          },
-          {
-            "image": {
-              "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000004adF7t3fyp8y_1.jpg",
-              "left": "50%",
-              "top": "50%",
-              "objectfit": "contain"
-            },
-            "singer": [
-              "张语格"
-            ],
-            "id": 107602020,
-            "mid": "000uymk300Vg9z",
-            "name": "天黑日记",
-            "interval": 251,
+            "id": 284735824,
+            "mid": "00316sBl1aIWiX",
+            "name": "中国韵2020·步香阶",
+            "interval": 218,
             "play": [],
             "opern": null
           }
@@ -1861,6 +1867,29 @@
               }
             ],
             "opern": null
+          },
+          {
+            "image": {
+              "url": "//i2.hdslb.com/bfs/archive/34c20e03c13084c2751de7a7125addf19a5e3a1f.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "莫寒"
+            ],
+            "id": 215059243,
+            "mid": "0004Z2VS4fomBw",
+            "name": "哪种朋友",
+            "interval": 298,
+            "play": [
+              {
+                "player": "大师之大",
+                "type": "bilibili",
+                "url": "https://www.bilibili.com/video/av49984336"
+              }
+            ],
+            "opern": null
           }
         ]
       },
@@ -1907,6 +1936,26 @@
             "opern": null
           }
         ]
+      },
+      {
+        "title":"张语格",
+        "songs":[{
+          "image": {
+            "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000004adF7t3fyp8y_1.jpg",
+            "left": "50%",
+            "top": "50%",
+            "objectfit": "contain"
+          },
+          "singer": [
+            "张语格"
+          ],
+          "id": 107602020,
+          "mid": "000uymk300Vg9z",
+          "name": "天黑日记",
+          "interval": 251,
+          "play": [],
+          "opern": null
+        }]
       },
       {
         "title": "公演live",
