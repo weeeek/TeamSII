@@ -131,8 +131,7 @@ export default {
 
       axios({
         method: "post",
-        // url: `${webProxyServer}File/Upload`,
-        url: `http://localhost/HttpProxy/File/Upload`,
+        url: `${webProxyServer}File/Upload`,
         headers: {
           "Content-Type": "multipart/form-data",
         },

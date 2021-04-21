@@ -376,7 +376,8 @@
     },
     {
       "name": "蛋挞",
-      "master": "刘增艳"
+      "master": "刘增艳",
+      "class": "filter-gray"
     },
     {
       "name": "芋头",

@@ -155,7 +155,14 @@ export default new Router({
       name: 'sudo',
       component: (resolve) => require(['@/components/game/sudo'], resolve),
       meta: {
-        keepAlive: true
+        keepAlive: false
+      }
+    }, {
+      path: '/piano',
+      name: 'piano',
+      component: (resolve) => require(['@/components/game/piano'], resolve),
+      meta: {
+        keepAlive: false
       }
     }, {
       path: '/voicedictation',

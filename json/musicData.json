@@ -110,7 +110,7 @@
         "songs":[
           {
             "image": {
-              "url": "http://i0.hdslb.com/bfs/archive/b43d130043b5ae1559219613a700f8277470a40e.jpg",
+              "url": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000Z1rzg1ZQyAG.jpg",
               "left": "50%",
               "top": "50%",
               "objectfit": "cover"
@@ -3329,6 +3329,7 @@
             },
             "id": 273465905,
             "mid": "003uFkXF3tJId5",
+            "url": "http://47.97.248.244/static/music/7SENSES-WeAre.mp3",
             "name": "We Are (special)",
             "interval": 215,
             "play": [],

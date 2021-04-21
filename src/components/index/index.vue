@@ -30,7 +30,7 @@
       <h2>沿途是否记得，一起欢笑泪水的伙伴</h2>
       <div class="members">
         <div class="member" v-for="m in pet48DataList" :key="m.name">
-          <div class="photo" v-lazy:background-image="getPetPhoto(m)">
+          <div class="photo" :class="m.class" v-lazy:background-image="getPetPhoto(m)">
             <div class="flex flex-column cover">
               <div class="flex-grow bg-white"></div>
               <div class="flex cover-v">
@@ -213,6 +213,14 @@
   color #87cefa
   font-family sans-serif
   font-weight 600
+
+.filter-gray
+  -webkit-filter: grayscale(100%); 
+  -moz-filter: grayscale(100%); 
+  -ms-filter: grayscale(100%); 
+  -o-filter: grayscale(100%); 
+  filter: grayscale(100%); 
+  filter: gray; 
 
 .block
   h2

@@ -7,6 +7,51 @@
     "show": true,
     "items": [
       {
+        "nameMonth": "4月24日",
+        "title": "OPPO Enco & SNH48 Let's Play特殊公演",
+        "description": "",
+        "type": "blue",
+        "url": ""
+      },
+      {
+        "nameMonth": "4月18日",
+        "title": "《重生计划》第108场李慧生日公演",
+        "description": "生日环节：触电+生日pv+石头剪刀布+借口+初恋蝴蝶+Miss Camellia+青春的约定+下课铃声+幸福的压力+我的世界还有你,MC1：生日祝福,Lost：刘增艳,Hold Me Tight：段艺璇，马玉灵,解语者：王秋茹，刘倩倩，卞楚娴,最终回合：由淼，蒋芸，陈雨孜，彭嘉敏,无罪无我：赵天杨，袁雨桢，宁轲,Somewhere：田姝丽，邵雪聪，沈小爱,噩梦轮回：李慧,MC3：击鼓传花,守护天使活动抽签,MC4：五毛一块",
+        "type": "blue",
+        "url": "https://www.bilibili.com/video/BV1kK4y1P7x1"
+      },
+      {
+        "nameMonth": "4月17日",
+        "title": "《重生计划》第107场",
+        "description": "MC1：想开一家什么店,Lost：李慧,Hold Me Tight：段艺璇，马玉灵,解语者：赵天杨，陈雨孜，宁轲,最终回合：由淼，王秋茹，邵雪聪，卞楚娴,无罪无我：刘增艳，袁雨桢，彭嘉敏,Somewhere：田姝丽，蒋芸，刘倩倩,噩梦轮回：沈小爱,MC2：谁的私服需要拯救,MC3：辩论赛朋友是1v1的好还是1v多,MC4：蒙眼抱人猜情话",
+        "type": "blue",
+        "url": "https://www.bilibili.com/video/BV1qi4y1A7Ga"
+      },
+      {
+        "nameMonth": "4月2日",
+        "title": "《重生计划》第106场",
+        "description": "MC1：4月最希望发生的事,Lost：刘增艳,Hold Me Tight：宁轲，马玉灵,解语者：蒋芸，陆叶卉，陈雨孜,最终回合：袁雨桢，王秋茹，刘倩倩，卞楚娴,无罪无我：由淼，陈雨孜，王睿琦,Somewhere：田姝丽，邵雪聪，赵天杨,噩梦轮回：彭嘉敏,MC2：推荐的头发颜色,MC3：模仿鬼才,MC4：小兔崽子Nico",
+        "summarize": "",
+        "type": "blue",
+        "url": "https://www.bilibili.com/video/BV1Tb4y1X7mz"
+      },
+      {
+        "nameMonth": "3月27日·最佳拍档",
+        "title": "《重生计划》第105场",
+        "description": "MC1：国内最时尚的城市,Lost：刘增艳,Hold Me Tight：田姝丽，马玉灵,解语者：彭嘉敏，刘丽千，冯雨停,最终回合：袁雨桢，王秋茹，刘倩倩，卞楚娴,无罪无我：沈小爱，宁轲，陈雨孜,Somewhere：李慧，邵雪聪，刘丽千,噩梦轮回：赵天杨,MC2：成语接龙,MC3：国王游戏,美杜莎的温柔：宁轲，陈雨孜,曲终人散：袁雨桢，刘增艳,下一站是你：李慧，刘丽千,MC4：舞台构思",
+        "summarize": "",
+        "type": "blue",
+        "url": "https://www.bilibili.com/video/BV1Ty4y1b7xL"
+      },
+      {
+        "nameMonth": "3月25日",
+        "title": "《重生计划》第104场",
+        "description": "MC1：被坑过最惨的经历,Lost：刘增艳,Hold Me Tight：宁轲，彭嘉敏,解语者：邵雪聪，陆叶卉，冯雨停,最终回合：袁雨桢，马玉灵，王秋茹，卞楚娴,无罪无我：李慧，赵天杨，刘倩倩,Somewhere：田姝丽，刘丽千，陈雨孜,噩梦轮回：沈小爱,MC2：最温柔的人是什么样子,MC3：别人都对你有什么误解,MC4：蒙眼摸人",
+        "summarize": "",
+        "type": "blue",
+        "url": "https://www.bilibili.com/video/BV1zK4y1T7ep"
+      },
+      {
         "nameMonth": "3月22日",
         "title": "《寒了鑫》第四期",
         "description": "",
@@ -157,6 +202,7 @@
         "nameMonth": "1月30日 19:00",
         "title": "《重生计划》第99场 赵天杨第300场",
         "description": "MC1：最喜欢收集的东西,Lost：刘增艳,Hold Me Tight：赵天杨，马玉灵,解语者：蒋芸，闫明筠，王秋茹,最终回合：刘倩倩，冯雨停，陈雨孜，沈小爱,无罪无我：由淼，彭嘉敏，宁轲,Somewhere：田姝丽，邵雪聪，袁雨桢,噩梦轮回：温晶婕,MC2：当代年轻人社交方式,MC3：猜歌名,MC4：当然了",
+        "summarize": "有SPY就没有我 ---- by 赵天杨",
         "type": "blue",
         "url": "https://www.bilibili.com/video/BV14y4y1n7M4"
       },
