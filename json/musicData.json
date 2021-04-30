@@ -106,8 +106,8 @@
         ]
       },
       {
-        "title":"许佳琪",
-        "songs":[
+        "title": "许佳琪",
+        "songs": [
           {
             "image": {
               "url": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000Z1rzg1ZQyAG.jpg",
@@ -124,11 +124,13 @@
             "name": "振翅",
             "interval": 226,
             "url": "http://47.97.248.244/static/music/许佳琪-振翅.mp3",
-            "play": [{
-              "player":"许佳琪应援会",
-              "type":"MV",
-              "url":"https://www.bilibili.com/video/BV1Ui4y1g7ux"
-            }],
+            "play": [
+              {
+                "player": "许佳琪应援会",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/BV1Ui4y1g7ux"
+              }
+            ],
             "opern": null
           }
         ]
@@ -294,11 +296,13 @@
             "name": "遇萤",
             "interval": 239,
             "url": "http://47.97.248.244/static/music/蒋芸-遇莹.mp3",
-            "play": [{
-              "player": "未来·Mirai",
-              "type": "bilibili",
-              "url": "https://www.bilibili.com/video/BV1ps41187mx"
-            }],
+            "play": [
+              {
+                "player": "未来·Mirai",
+                "type": "bilibili",
+                "url": "https://www.bilibili.com/video/BV1ps41187mx"
+              }
+            ],
             "opern": null
           },
           {
@@ -686,7 +690,6 @@
             "play": [],
             "opern": null
           },
-
           {
             "image": {
               "url": "//i1.hdslb.com/bfs/archive/a4871e2697c114b056e3e2aaf15d5d34c04e7ebc.jpg",
@@ -1411,6 +1414,58 @@
     "typeName": "综艺",
     "group": [
       {
+        "title": "金曲青春",
+        "songs": [
+          {
+            "image": {
+              "url": "https://i2.hdslb.com/bfs/archive/0336aafa74d15f6ac02a7148aa02e4e3d0efdd03.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "孙芮"
+            ],
+            "id": 304285978,
+            "mid": "002sTCdc3kC6Xv",
+            "name": "打起手鼓唱起歌",
+            "interval": 204,
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/BV1Zb4y1S7kt"
+              }
+            ],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "https://i1.hdslb.com/bfs/archive/41a2a2ca2e68606a146712481a8b73c1c1536f7f.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "戴萌",
+              "李佳恩"
+            ],
+            "id": 304899050,
+            "mid": "0010LsIX3okUem",
+            "name": "有一个姑娘",
+            "interval": 219,
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/BV1DZ4y1c7Gd"
+              }
+            ],
+            "opern": null
+          }
+        ]
+      },
+      {
         "title": "炙热的我们",
         "songs": [
           {
@@ -1838,7 +1893,7 @@
               "莫寒"
             ],
             "id": 292313498,
-            "mid": "0017LwPL2XjJkA",            
+            "mid": "0017LwPL2XjJkA",
             "name": "远距离恋爱",
             "interval": 238,
             "play": [],
@@ -1938,24 +1993,26 @@
         ]
       },
       {
-        "title":"张语格",
-        "songs":[{
-          "image": {
-            "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000004adF7t3fyp8y_1.jpg",
-            "left": "50%",
-            "top": "50%",
-            "objectfit": "contain"
-          },
-          "singer": [
-            "张语格"
-          ],
-          "id": 107602020,
-          "mid": "000uymk300Vg9z",
-          "name": "天黑日记",
-          "interval": 251,
-          "play": [],
-          "opern": null
-        }]
+        "title": "张语格",
+        "songs": [
+          {
+            "image": {
+              "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000004adF7t3fyp8y_1.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "张语格"
+            ],
+            "id": 107602020,
+            "mid": "000uymk300Vg9z",
+            "name": "天黑日记",
+            "interval": 251,
+            "play": [],
+            "opern": null
+          }
+        ]
       },
       {
         "title": "公演live",
