@@ -422,92 +422,222 @@
       <div class="keys-black">
         <div class="key-black"></div>
         <div class="key-black">
-          <button name="key" hz="29.135" index="1" @mousedown="play(1)"></button>
+          <button
+            name="key"
+            hz="29.135"
+            index="1"
+            @mousedown="play(1)"
+          ></button>
         </div>
         <div class="key-black"></div>
         <div class="key-black">
-          <button name="key" hz="34.648" index="4" @mousedown="play(4)"></button>
+          <button
+            name="key"
+            hz="34.648"
+            index="4"
+            @mousedown="play(4)"
+          ></button>
         </div>
         <div class="key-black">
-          <button name="key" hz="38.891" index="6" @mousedown="play(6)"></button>
-        </div>
-        <div class="key-black"></div>
-        <div class="key-black">
-          <button name="key" hz="46.249" index="9" @mousedown="play(9)"></button>
-        </div>
-        <div class="key-black">
-          <button name="key" hz="51.913" index="11" @mousedown="play(11)"></button>
-        </div>
-        <div class="key-black">
-          <button name="key" hz="58.270" index="13" @mousedown="play(13)"></button>
-        </div>
-        <div class="key-black"></div>
-        <div class="key-black">
-          <button name="key" hz="59.296" index="16" @mousedown="play(16)"></button>
-        </div>
-        <div class="key-black">
-          <button name="key" hz="77.782" index="18" @mousedown="play(18)"></button>
+          <button
+            name="key"
+            hz="38.891"
+            index="6"
+            @mousedown="play(6)"
+          ></button>
         </div>
         <div class="key-black"></div>
         <div class="key-black">
-          <button name="key" hz="92.499" index="21" @mousedown="play(21)"></button>
+          <button
+            name="key"
+            hz="46.249"
+            index="9"
+            @mousedown="play(9)"
+          ></button>
         </div>
         <div class="key-black">
-          <button name="key" hz="97.999" index="23" @mousedown="play(23)"></button>
+          <button
+            name="key"
+            hz="51.913"
+            index="11"
+            @mousedown="play(11)"
+          ></button>
         </div>
         <div class="key-black">
-          <button name="key" hz="116.541" index="25" @mousedown="play(25)"></button>
-        </div>
-        <div class="key-black"></div>
-        <div class="key-black">
-          <button name="key" hz="138.591" index="28" @mousedown="play(28)"></button>
-        </div>
-        <div class="key-black">
-          <button name="key" hz="155.563" index="30" @mousedown="play(30)"></button>
-        </div>
-        <div class="key-black"></div>
-        <div class="key-black">
-          <button name="key" hz="184.997" index="33" @mousedown="play(33)"></button>
-        </div>
-        <div class="key-black">
-          <button name="key" hz="207.652" index="35" @mousedown="play(35)"></button>
-        </div>
-        <div class="key-black">
-          <button name="key" hz="233.082" index="37" @mousedown="play(37)"></button>
+          <button
+            name="key"
+            hz="58.270"
+            index="13"
+            @mousedown="play(13)"
+          ></button>
         </div>
         <div class="key-black"></div>
         <div class="key-black">
-          <button name="key" hz="277.183" index="40" @mousedown="play(40)"></button>
+          <button
+            name="key"
+            hz="59.296"
+            index="16"
+            @mousedown="play(16)"
+          ></button>
         </div>
         <div class="key-black">
-          <button name="key" hz="311.127" index="42" @mousedown="play(42)"></button>
-        </div>
-        <div class="key-black"></div>
-        <div class="key-black">
-          <button name="key" hz="369.994" index="45" @mousedown="play(45)"></button>
-        </div>
-        <div class="key-black">
-          <button name="key" hz="415.305" index="47" @mousedown="play(47)"></button>
-        </div>
-        <div class="key-black">
-          <button name="key" hz="466.164" index="49" @mousedown="play(49)"></button>
-        </div>
-        <div class="key-black"></div>
-        <div class="key-black">
-          <button name="key" hz="554.365" index="52" @mousedown="play(52)"></button>
-        </div>
-        <div class="key-black">
-          <button name="key" hz="622.254" index="54" @mousedown="play(54)"></button>
+          <button
+            name="key"
+            hz="77.782"
+            index="18"
+            @mousedown="play(18)"
+          ></button>
         </div>
         <div class="key-black"></div>
         <div class="key-black">
-          <button name="key" hz="739.989" index="57" @mousedown="play(57)"></button>
+          <button
+            name="key"
+            hz="92.499"
+            index="21"
+            @mousedown="play(21)"
+          ></button>
         </div>
         <div class="key-black">
-          <button name="key" hz="830.609" index="59" @mousedown="play(59)"></button>
+          <button
+            name="key"
+            hz="97.999"
+            index="23"
+            @mousedown="play(23)"
+          ></button>
         </div>
         <div class="key-black">
-          <button name="key" hz="932.328" index="61" @mousedown="play(61)"></button>
+          <button
+            name="key"
+            hz="116.541"
+            index="25"
+            @mousedown="play(25)"
+          ></button>
+        </div>
+        <div class="key-black"></div>
+        <div class="key-black">
+          <button
+            name="key"
+            hz="138.591"
+            index="28"
+            @mousedown="play(28)"
+          ></button>
+        </div>
+        <div class="key-black">
+          <button
+            name="key"
+            hz="155.563"
+            index="30"
+            @mousedown="play(30)"
+          ></button>
+        </div>
+        <div class="key-black"></div>
+        <div class="key-black">
+          <button
+            name="key"
+            hz="184.997"
+            index="33"
+            @mousedown="play(33)"
+          ></button>
+        </div>
+        <div class="key-black">
+          <button
+            name="key"
+            hz="207.652"
+            index="35"
+            @mousedown="play(35)"
+          ></button>
+        </div>
+        <div class="key-black">
+          <button
+            name="key"
+            hz="233.082"
+            index="37"
+            @mousedown="play(37)"
+          ></button>
+        </div>
+        <div class="key-black"></div>
+        <div class="key-black">
+          <button
+            name="key"
+            hz="277.183"
+            index="40"
+            @mousedown="play(40)"
+          ></button>
+        </div>
+        <div class="key-black">
+          <button
+            name="key"
+            hz="311.127"
+            index="42"
+            @mousedown="play(42)"
+          ></button>
+        </div>
+        <div class="key-black"></div>
+        <div class="key-black">
+          <button
+            name="key"
+            hz="369.994"
+            index="45"
+            @mousedown="play(45)"
+          ></button>
+        </div>
+        <div class="key-black">
+          <button
+            name="key"
+            hz="415.305"
+            index="47"
+            @mousedown="play(47)"
+          ></button>
+        </div>
+        <div class="key-black">
+          <button
+            name="key"
+            hz="466.164"
+            index="49"
+            @mousedown="play(49)"
+          ></button>
+        </div>
+        <div class="key-black"></div>
+        <div class="key-black">
+          <button
+            name="key"
+            hz="554.365"
+            index="52"
+            @mousedown="play(52)"
+          ></button>
+        </div>
+        <div class="key-black">
+          <button
+            name="key"
+            hz="622.254"
+            index="54"
+            @mousedown="play(54)"
+          ></button>
+        </div>
+        <div class="key-black"></div>
+        <div class="key-black">
+          <button
+            name="key"
+            hz="739.989"
+            index="57"
+            @mousedown="play(57)"
+          ></button>
+        </div>
+        <div class="key-black">
+          <button
+            name="key"
+            hz="830.609"
+            index="59"
+            @mousedown="play(59)"
+          ></button>
+        </div>
+        <div class="key-black">
+          <button
+            name="key"
+            hz="932.328"
+            index="61"
+            @mousedown="play(61)"
+          ></button>
         </div>
         <div class="key-black"></div>
         <div class="key-black">
@@ -703,7 +833,10 @@
           &nbsp;
         </button>
       </div>
-      <div class="simulation-piano-line" style="margin-top: 14px">
+      <div
+        class="simulation-piano-line"
+        style="margin-top: 14px; width: 1286px"
+      >
         <button
           disabled
           class="simulation-piano-key piano-key-wave"
@@ -713,61 +846,71 @@
         </button>
         <button
           class="simulation-piano-key piano-key-1 note-up-1"
-          id="piano-key-49" @mousedown="play(67)"
+          id="piano-key-49"
+          @mousedown="play(51)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-2 note-up-1"
-          id="piano-key-50" @mousedown="play(69)"
+          id="piano-key-50"
+          @mousedown="play(53)"
         >
           2
         </button>
         <button
           class="simulation-piano-key piano-key-3 note-up-1"
-          id="piano-key-51" @mousedown="play(71)"
+          id="piano-key-51"
+          @mousedown="play(55)"
         >
           3
         </button>
         <button
           class="simulation-piano-key piano-key-4 note-up-1"
           id="piano-key-52"
+          @mousedown="play(56)"
         >
           4
         </button>
         <button
           class="simulation-piano-key piano-key-5 note-up-1"
           id="piano-key-53"
+          @mousedown="play(58)"
         >
           5
         </button>
         <button
           class="simulation-piano-key piano-key-6 note-up-1"
           id="piano-key-54"
+          @mousedown="play(60)"
         >
           6
         </button>
         <button
           class="simulation-piano-key piano-key-7 note-up-1"
           id="piano-key-55"
+          @mousedown="play(62)"
         >
           7
         </button>
         <button
           class="simulation-piano-key piano-key-8 note-up-2"
           id="piano-key-56"
+          @mousedown="play(63)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-9 note-up-2"
           id="piano-key-57"
+          @mousedown="play(65)"
         >
           2
         </button>
         <button
           class="simulation-piano-key piano-key-0 note-up-2"
           id="piano-key-48"
+          @mousedown="play(67)"
         >
           3
         </button>
@@ -796,18 +939,21 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-mid-left piano-key-insert note-up-2"
           id="piano-key-45"
+          @mousedown="play(68)"
         >
           4
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-home note-up-2"
           id="piano-key-36"
+          @mousedown="play(70)"
         >
           5
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-mid-right piano-key-pageup note-up-2"
           id="piano-key-33"
+          @mousedown="play(72)"
         >
           6
         </button>
@@ -815,31 +961,35 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-numlock note-up-1"
           id="piano-key-144"
+          @mousedown="play(56)"
         >
           4
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-divide note-up-1"
           id="piano-key-111"
+          @mousedown="play(58)"
         >
           5
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-multiply note-up-1"
           id="piano-key-106"
+          @mousedown="play(60)"
         >
           6
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-subtract note-up-1"
           id="piano-key-109"
+          @mousedown="play(62)"
         >
           7
         </button>
       </div>
       <div
         class="simulation-piano-line"
-        style="margin-top: 7px; vertical-align: top"
+        style="margin-top: 7px; vertical-align: top; width: 1229px"
       >
         <button
           disabled
@@ -848,42 +998,73 @@
         >
           &nbsp;
         </button>
-        <button class="simulation-piano-key piano-key-q" id="piano-key-81" @mousedown="play(55)">
+        <button
+          class="simulation-piano-key piano-key-q"
+          id="piano-key-81"
+          @mousedown="play(39)"
+        >
           1
         </button>
-        <button class="simulation-piano-key piano-key-w" id="piano-key-87" @mousedown="play(57)">
+        <button
+          class="simulation-piano-key piano-key-w"
+          id="piano-key-87"
+          @mousedown="play(41)"
+        >
           2
         </button>
-        <button class="simulation-piano-key piano-key-e" id="piano-key-69" @mousedown="play(59)">
+        <button
+          class="simulation-piano-key piano-key-e"
+          id="piano-key-69"
+          @mousedown="play(43)"
+        >
           3
         </button>
-        <button class="simulation-piano-key piano-key-r" id="piano-key-82" @mousedown="play(60)">
+        <button
+          class="simulation-piano-key piano-key-r"
+          id="piano-key-82"
+          @mousedown="play(44)"
+        >
           4
         </button>
-        <button class="simulation-piano-key piano-key-t" id="piano-key-84" @mousedown="play(62)">
+        <button
+          class="simulation-piano-key piano-key-t"
+          id="piano-key-84"
+          @mousedown="play(46)"
+        >
           5
         </button>
-        <button class="simulation-piano-key piano-key-y" id="piano-key-89" @mousedown="play(64)">
+        <button
+          class="simulation-piano-key piano-key-y"
+          id="piano-key-89"
+          @mousedown="play(48)"
+        >
           6
         </button>
-        <button class="simulation-piano-key piano-key-u" id="piano-key-85" @mousedown="play(66)">
+        <button
+          class="simulation-piano-key piano-key-u"
+          id="piano-key-85"
+          @mousedown="play(50)"
+        >
           7
         </button>
         <button
           class="simulation-piano-key piano-key-i note-up-1"
-          id="piano-key-73" @mousedown="play(67)"
+          id="piano-key-73"
+          @mousedown="play(51)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-o note-up-1"
-          id="piano-key-79" @mousedown="play(69)"
+          id="piano-key-79"
+          @mousedown="play(53)"
         >
           2
         </button>
         <button
           class="simulation-piano-key piano-key-p note-up-1"
-          id="piano-key-80" @mousedown="play(71)"
+          id="piano-key-80"
+          @mousedown="play(55)"
         >
           3
         </button>
@@ -912,18 +1093,21 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-mid-left piano-key-delete note-up-2"
           id="piano-key-46"
+          @mousedown="play(63)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-end note-up-2"
           id="piano-key-35"
+          @mousedown="play(65)"
         >
           2
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-mid-right piano-key-pagedown note-up-2"
           id="piano-key-34"
+          @mousedown="play(67)"
         >
           3
         </button>
@@ -931,18 +1115,21 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-num7"
           id="piano-key-103"
+          @mousedown="play(50)"
         >
           7
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-num8 note-up-1"
           id="piano-key-104"
+          @mousedown="play(51)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-num9 note-up-1"
           id="piano-key-105"
+          @mousedown="play(53)"
         >
           2
         </button>
@@ -955,6 +1142,7 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-num-plus note-up-1"
           id="piano-key-107"
+          @mousedown="play(55)"
         >
           3
         </button>
@@ -962,7 +1150,7 @@
 
       <div
         class="simulation-piano-line"
-        style="margin-top: 7px; vertical-align: top"
+        style="margin-top: 7px; vertical-align: top; width: 1229px"
       >
         <button
           disabled
@@ -973,50 +1161,65 @@
         </button>
         <button
           class="simulation-piano-key piano-key-a note-under-1"
-          id="piano-key-65" @mousedown="play(39)"
+          id="piano-key-65"
+          @mousedown="play(27)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-s note-under-1"
-          id="piano-key-83" @mousedown="play(41)"
+          id="piano-key-83"
+          @mousedown="play(29)"
         >
           2
         </button>
         <button
           class="simulation-piano-key piano-key-d note-under-1"
-          id="piano-key-68" @mousedown="play(43)"
+          id="piano-key-68"
+          @mousedown="play(31)"
         >
           3
         </button>
         <button
           class="simulation-piano-key piano-key-f note-under-1"
-          id="piano-key-70" @mousedown="play(44)"
+          id="piano-key-70"
+          @mousedown="play(32)"
         >
           4
         </button>
         <button
           class="simulation-piano-key piano-key-g note-under-1"
-          id="piano-key-71" @mousedown="play(46)"
+          id="piano-key-71"
+          @mousedown="play(34)"
         >
           5
         </button>
         <button
           class="simulation-piano-key piano-key-h note-under-1"
-          id="piano-key-72" @mousedown="play(48)"
+          id="piano-key-72"
+          @mousedown="play(36)"
         >
           6
         </button>
         <button
           class="simulation-piano-key piano-key-j note-under-1"
-          id="piano-key-74" @mousedown="play(50)"
+          id="piano-key-74"
+          @mousedown="play(38)"
         >
           7
         </button>
-        <button class="simulation-piano-key piano-key-k" id="piano-key-75" @mousedown="play(51)">
+        <button
+          class="simulation-piano-key piano-key-k"
+          id="piano-key-75"
+          @mousedown="play(39)"
+        >
           1
         </button>
-        <button class="simulation-piano-key piano-key-l" id="piano-key-76" @mousedown="play(53)">
+        <button
+          class="simulation-piano-key piano-key-l"
+          id="piano-key-76"
+          @mousedown="play(41)"
+        >
           2
         </button>
         <button
@@ -1042,20 +1245,38 @@
         </button>
 
         <button
+          class="simulation-piano-key piano-key-right piano-key-mid-left  piano-key-invisible"
+        >
+          &nbsp;
+        </button>
+        <button
+          class="simulation-piano-key piano-key-right piano-key-invisible"
+        >
+          &nbsp;
+        </button>
+        <button
+          class="simulation-piano-key piano-key-right piano-key-mid-right piano-key-invisible"
+        >
+          &nbsp;
+        </button>
+        <button
           class="simulation-piano-key piano-key-right piano-key-num4"
           id="piano-key-100"
+          @mousedown="play(44)"
         >
           4
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-num5"
           id="piano-key-101"
+          @mousedown="play(46)"
         >
           5
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-num6"
           id="piano-key-102"
+          @mousedown="play(48)"
         >
           6
         </button>
@@ -1063,7 +1284,7 @@
 
       <div
         class="simulation-piano-line"
-        style="margin-top: 7px; vertical-align: top"
+        style="margin-top: 7px; vertical-align: top; width: 1229px"
       >
         <button
           disabled
@@ -1074,43 +1295,50 @@
         </button>
         <button
           class="simulation-piano-key piano-key-z note-under-2"
-          id="piano-key-90" @mousedown="play(27)"
+          id="piano-key-90"
+          @mousedown="play(15)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-x note-under-2"
-          id="piano-key-88" @mousedown="play(29)"
+          id="piano-key-88"
+          @mousedown="play(17)"
         >
           2
         </button>
         <button
           class="simulation-piano-key piano-key-c note-under-2"
-          id="piano-key-67" @mousedown="play(31)"
+          id="piano-key-67"
+          @mousedown="play(19)"
         >
           3
         </button>
         <button
           class="simulation-piano-key piano-key-v note-under-2"
-          id="piano-key-86" @mousedown="play(32)"
+          id="piano-key-86"
+          @mousedown="play(20)"
         >
           4
         </button>
         <button
           class="simulation-piano-key piano-key-b note-under-2"
-          id="piano-key-66" @mousedown="play(34)"
+          id="piano-key-66"
+          @mousedown="play(22)"
         >
           5
         </button>
         <button
           class="simulation-piano-key piano-key-n note-under-2"
-          id="piano-key-78" @mousedown="play(36)"
+          id="piano-key-78"
+          @mousedown="play(24)"
         >
           6
         </button>
         <button
           class="simulation-piano-key piano-key-m note-under-2"
-          id="piano-key-77" @mousedown="play(38)"
+          id="piano-key-77"
+          @mousedown="play(26)"
         >
           7
         </button>
@@ -1151,6 +1379,7 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-arrow-up note-under-1"
           id="piano-key-38"
+          @mousedown="play(32)"
         >
           4
         </button>
@@ -1163,18 +1392,21 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-num1"
           id="piano-key-97"
+          @mousedown="play(39)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-num2"
           id="piano-key-98"
+          @mousedown="play(41)"
         >
           2
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-num3"
           id="piano-key-99"
+          @mousedown="play(43)"
         >
           3
         </button>
@@ -1186,13 +1418,14 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-num-enter note-under-1"
           id="piano-key-108"
+          @mousedown="play(38)"
         >
           7
         </button>
       </div>
       <div
         class="simulation-piano-line"
-        style="margin-top: 7px; vertical-align: top"
+        style="margin-top: 7px; vertical-align: top; width: 1229px"
       >
         <button
           disabled
@@ -1231,18 +1464,21 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-mid-left piano-key-arrow-left note-under-1"
           id="piano-key-37"
+          @mousedown="play(27)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-arrow-down note-under-1"
           id="piano-key-40"
+          @mousedown="play(29)"
         >
           2
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-mid-right piano-key-arrow-right note-under-1"
           id="piano-key-39"
+          @mousedown="play(31)"
         >
           3
         </button>
@@ -1250,12 +1486,14 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-num0 note-under-1"
           id="piano-key-96"
+          @mousedown="play(34)"
         >
           5
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-dot note-under-1"
           id="piano-key-110"
+          @mousedown="play(36)"
         >
           6
         </button>
@@ -1266,7 +1504,7 @@
 
 <script>
 import { getpianoNotes } from "config/gameData";
-import jQuery from 'jquery'
+import jQuery from "jquery";
 export default {
   data() {
     return {
@@ -1299,19 +1537,23 @@ export default {
       console.log(e.keyCode);
       document.getElementById("piano-key-" + e.keyCode).classList.add("active");
       this.playNote(e.keyCode);
+      e.preventDefault();
     };
     window.onkeyup = (e) => {
       document
         .getElementById("piano-key-" + e.keyCode)
         .classList.remove("active");
     };
-    jQuery("button[name='key']").on('mousedown', function(){
-      jQuery(this).addClass("active-left");
-    }).on('mouseup', function(){
-      jQuery(this).removeClass("active-left");
-    }).on('mouseout', function(){
-      jQuery(this).removeClass("active-left");
-    })
+    jQuery("button[name='key']")
+      .on("mousedown", function () {
+        jQuery(this).addClass("active-left");
+      })
+      .on("mouseup", function () {
+        jQuery(this).removeClass("active-left");
+      })
+      .on("mouseout", function () {
+        jQuery(this).removeClass("active-left");
+      });
   },
   methods: {
     keySignatureChange() {
@@ -1327,110 +1569,110 @@ export default {
       switch (keyCode) {
         //z-m
         case 90:
-          this.play(27);
+          this.play(15);
           break;
         case 88:
-          this.play(29);
+          this.play(17);
           break;
         case 67:
-          this.play(31);
+          this.play(19);
           break;
         case 86:
-          this.play(32);
+          this.play(20);
           break;
         case 66:
-          this.play(34);
+          this.play(22);
           break;
         case 78:
-          this.play(36);
+          this.play(24);
           break;
         case 77:
-          this.play(38);
+          this.play(26);
           break;
         // a-l
         case 65:
-          this.play(39);
+          this.play(27);
           break;
         case 83:
-          this.play(41);
+          this.play(29);
           break;
         case 68:
-          this.play(43);
+          this.play(31);
           break;
         case 70:
-          this.play(44);
+          this.play(32);
           break;
         case 71:
-          this.play(46);
+          this.play(34);
           break;
         case 72:
-          this.play(48);
+          this.play(36);
           break;
         case 74:
-          this.play(50);
+          this.play(38);
           break;
         case 75:
         case 81:
-          this.play(51);
+          this.play(39);
           break;
         case 76:
         case 87:
-          this.play(53);
+          this.play(41);
           break;
         case 186:
         case 69:
-          this.play(55);
+          this.play(43);
           break;
         case 222:
         case 82:
-          this.play(56);
+          this.play(44);
           break;
         // t-p
         case 84:
-          this.play(58);
+          this.play(46);
           break;
         case 89:
-          this.play(60);
+          this.play(48);
           break;
         case 85:
-          this.play(62);
+          this.play(50);
           break;
         case 73:
         case 49:
-          this.play(63);
+          this.play(51);
           break;
         case 79:
         case 50:
-          this.play(65);
+          this.play(53);
           break;
         case 80:
         case 51:
-          this.play(67);
+          this.play(55);
           break;
         // 4-0
         case 52:
-          this.play(68);
+          this.play(56);
           break;
         case 53:
-          this.play(70);
+          this.play(58);
           break;
         case 54:
-          this.play(72);
+          this.play(60);
           break;
         case 55:
-          this.play(74);
+          this.play(62);
           break;
         case 56:
-          this.play(75);
+          this.play(63);
           break;
         case 57:
-          this.play(77);
+          this.play(65);
           break;
-        case 58:
-          this.play(79);
+        case 48:
+          this.play(67);
           break;
       }
-    }
+    },
   },
   destroyed() {
     // 注销事件
@@ -1476,11 +1718,12 @@ export default {
   padding: 0;
 }
 
-.active-right{
+.active-right {
   background-color: #48a9e2;
   box-shadow: 0 4px 8px #333 inset;
 }
-.active-left{
+
+.active-left {
   background-color: #8dc221;
   box-shadow: 0 4px 8px #333 inset;
 }
@@ -1527,7 +1770,7 @@ export default {
   background-size: contain;
   background-position: center center;
   height: 382px;
-  padding: 36px 24px 27px 26px;
+  padding: 36px 26px 27px 26px
 }
 
 .simulation-piano-line {
@@ -1583,11 +1826,11 @@ export default {
 }
 
 .piano-key-mid-left {
-  margin-left: 24px;
+  margin-left: 23px;
 }
 
 .piano-key-mid-right {
-  margin-right: 24px;
+  margin-right: 23px;
 }
 
 .piano-key-num-plus, .piano-key-num-enter {
@@ -1612,7 +1855,6 @@ export default {
 
 .piano-key-enter {
   width: 104px;
-  margin-right: 217px;
 }
 
 .piano-key-left-shift {
@@ -1620,7 +1862,7 @@ export default {
 }
 
 .piano-key-right-shift {
-  width: 133px;
+  width: 132px;
 }
 
 .piano-key-invisible {
@@ -1628,7 +1870,7 @@ export default {
 }
 
 .piano-key-left-ctrl, .piano-key-right-ctrl {
-  width: 108.5px;
+  width: 108px;
 }
 
 .piano-key-space {
