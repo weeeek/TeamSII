@@ -263,8 +263,8 @@
           class="key-white key-c"
           data-key="E5"
           hz="659.255"
-          index="54"
-          @mousedown="play(54)"
+          index="55"
+          @mousedown="play(55)"
         ></button>
         <button
           name="key"
@@ -1683,6 +1683,88 @@ export default {
           break;
         case 48:
           this.play(67, play, isLeft);
+          break;
+        // 右区
+        case 37:
+          this.play(27, play, false);
+          break;
+        case 40:
+          this.play(29, play, false);
+          break;
+        case 39:
+          this.play(31, play, false);
+          break;
+        case 38:
+          this.play(32, play, false);
+          break;
+        case 96:
+          this.play(34, play, false);
+          break;
+        case 110:
+          this.play(36, play, false);
+          break;
+        case 13:
+          this.play(38, play, false);
+          break;
+        case 97:
+          this.play(39, play, false);
+          break;
+        case 98:
+          this.play(41, play, false);
+          break;
+        case 99:
+          this.play(43, play, false);
+          break;
+        case 100:
+          this.play(44, play, false);
+          break;
+        case 101:
+          this.play(46, play, false);
+          break;
+        case 102:
+          this.play(48, play, false);
+          break;
+        case 103:
+          this.play(50, play, false);
+          break;
+        case 104:
+          this.play(51, play, false);
+          break;
+        case 105:
+          this.play(53, play, false);
+          break;
+        case 107:
+          this.play(55, play, false);
+          break;
+        case 144:
+          this.play(56, play, false);
+          break;
+        case 111:
+          this.play(58, play, false);
+          break;
+        case 106:
+          this.play(60, play, false);
+          break;
+        case 109:
+          this.play(62, play, false);
+          break;
+        case 46:
+          this.play(63, play, false);
+          break;
+        case 35:
+          this.play(65, play, false);
+          break;
+        case 34:
+          this.play(67, play, false);
+          break;
+        case 45:
+          this.play(68, play, false);
+          break;
+        case 36:
+          this.play(70, play, false);
+          break;
+        case 33:
+          this.play(72, play, false);
           break;
       }
     },

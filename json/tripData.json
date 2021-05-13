@@ -7,11 +7,25 @@
     "show": true,
     "items": [
       {
+        "nameMonth": "5月13日",
+        "title": "《寒了鑫》第七期",
+        "description": "",
+        "type": "orange",
+        "url": "https://www.bilibili.com/video/BV13b4y1f798"
+      },
+      {
         "nameMonth": "5月9日",
         "title": "《重生计划》第110场",
-        "description": "",
+        "description": "MC1：妈妈做过印象深刻的事,Lost：刘增艳,Hold Me Tight：段艺璇，马玉灵,解语者：陈雨孜，温晶婕，王秋茹,最终回合：由淼，宁轲，赵天杨，闫明筠,无罪无我：李慧，袁雨桢，刘倩倩,Somewhere：田姝丽，邵雪聪，沈小爱,噩梦轮回：彭嘉敏,MC2:心中的神剧/神电影,MC3: 测试口袋48今日有缘成员",
         "type": "blue",
-        "url": ""
+        "url": "https://www.bilibili.com/video/BV1z541137sV"
+      },
+      {
+        "nameMonth": "5月8日",
+        "title": "《寒了鑫》第六期",
+        "description": "",
+        "type": "orange",
+        "url": "https://www.bilibili.com/video/BV1ep4y147X2"
       },
       {
         "nameMonth": "5月2日",
@@ -19,6 +33,14 @@
         "description": "MC1：拆守护天使礼物,Lost：刘增艳,Hold Me Tight：段艺璇，马玉灵,解语者：王秋茹，陈雨孜，刘丽千,最终回合：由淼，宁轲，刘倩倩，彭嘉敏,无罪无我：李慧，袁雨桢，闫明筠,Somewhere：田姝丽，邵雪聪，沈小爱,噩梦轮回：赵天杨,MC2：小时候上过的辅导班,MC3：守护天使揭秘",
         "type": "blue",
         "url": "https://www.bilibili.com/video/BV1oh411m7t6"
+      },
+      {
+        "nameMonth":"5月2日",
+        "title":"TeamSII ＆ 7SENSES 上海欢乐谷外务",
+        "description":"游园vlog,Restart,我的舞台,幻,第48区",
+        "summarize":"我们队所有的1都在上面啦 ---- by 刘增艳",
+        "type":"green",
+        "url":"https://www.bilibili.com/video/BV1TU4y1t7MK"
       },
       {
         "nameMonth": "5月1日",
@@ -69,6 +91,13 @@
         "summarize": "",
         "type": "blue",
         "url": "https://www.bilibili.com/video/BV1Tb4y1X7mz"
+      },
+      {
+        "nameMonth": "4月2日",
+        "title": "《寒了鑫》第五期",
+        "description": "",
+        "type": "orange",
+        "url": "https://www.bilibili.com/video/BV1P5411A7nD"
       },
       {
         "nameMonth": "3月27日·最佳拍档",
