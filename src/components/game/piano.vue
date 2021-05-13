@@ -1245,7 +1245,7 @@
         </button>
 
         <button
-          class="simulation-piano-key piano-key-right piano-key-mid-left  piano-key-invisible"
+          class="simulation-piano-key piano-key-right piano-key-mid-left piano-key-invisible"
         >
           &nbsp;
         </button>
@@ -1523,6 +1523,7 @@ export default {
         { name: "A", value: -2 },
         { name: "A#", value: -1 },
       ],
+      pressedKey: [],
     };
   },
   mounted() {
@@ -1534,7 +1535,11 @@ export default {
     });
     // 监控键盘
     window.onkeydown = (e) => {
-      console.log(e.keyCode);
+      console.log("keydown", e.keyCode);
+      if (_vm.pressedKey.includes(e.keyCode)) {
+        return;
+      }
+      _vm.pressedKey.push(e.keyCode);
       document.getElementById("piano-key-" + e.keyCode).classList.add("active");
       this.playNote(e.keyCode);
       e.preventDefault();
@@ -1543,6 +1548,8 @@ export default {
       document
         .getElementById("piano-key-" + e.keyCode)
         .classList.remove("active");
+      _vm.pressedKey.splice(_vm.pressedKey.indexOf(e.keyCode), 1);
+      this.playNote(e.keyCode, false);
     };
     jQuery("button[name='key']")
       .on("mousedown", function () {
@@ -1559,117 +1566,123 @@ export default {
     keySignatureChange() {
       // 变更调号
     },
-    play(index, isLeft = true) {
-      // C调的序号，需要调号转换。
-      var audio = new Audio(this.notes[index + this.signature]);
-      audio.play();
+    play(index, play = true, isLeft = true) {
+      if (play) {
+        // C调的序号，需要调号转换。
+        var audio = new Audio(this.notes[index + this.signature]);
+        audio.play();
+        jQuery(`button[index=${index}]`).addClass("active-right");
+      } else {
+        jQuery(`button[index=${index}]`)
+          .removeClass("active-right")
+          .removeClass("active-left");
+      }
     },
-    playNote(keyCode) {
-      console.log(keyCode);
+    playNote(keyCode, play = true, isLeft = true) {
       switch (keyCode) {
         //z-m
         case 90:
-          this.play(15);
+          this.play(15, play, isLeft);
           break;
         case 88:
-          this.play(17);
+          this.play(17, play, isLeft);
           break;
         case 67:
-          this.play(19);
+          this.play(19, play, isLeft);
           break;
         case 86:
-          this.play(20);
+          this.play(20, play, isLeft);
           break;
         case 66:
-          this.play(22);
+          this.play(22, play, isLeft);
           break;
         case 78:
-          this.play(24);
+          this.play(24, play, isLeft);
           break;
         case 77:
-          this.play(26);
+          this.play(26, play, isLeft);
           break;
         // a-l
         case 65:
-          this.play(27);
+          this.play(27, play, isLeft);
           break;
         case 83:
-          this.play(29);
+          this.play(29, play, isLeft);
           break;
         case 68:
-          this.play(31);
+          this.play(31, play, isLeft);
           break;
         case 70:
-          this.play(32);
+          this.play(32, play, isLeft);
           break;
         case 71:
-          this.play(34);
+          this.play(34, play, isLeft);
           break;
         case 72:
-          this.play(36);
+          this.play(36, play, isLeft);
           break;
         case 74:
-          this.play(38);
+          this.play(38, play, isLeft);
           break;
         case 75:
         case 81:
-          this.play(39);
+          this.play(39, play, isLeft);
           break;
         case 76:
         case 87:
-          this.play(41);
+          this.play(41, play, isLeft);
           break;
         case 186:
         case 69:
-          this.play(43);
+          this.play(43, play, isLeft);
           break;
         case 222:
         case 82:
-          this.play(44);
+          this.play(44, play, isLeft);
           break;
         // t-p
         case 84:
-          this.play(46);
+          this.play(46, play, isLeft);
           break;
         case 89:
-          this.play(48);
+          this.play(48, play, isLeft);
           break;
         case 85:
-          this.play(50);
+          this.play(50, play, isLeft);
           break;
         case 73:
         case 49:
-          this.play(51);
+          this.play(51, play, isLeft);
           break;
         case 79:
         case 50:
-          this.play(53);
+          this.play(53, play, isLeft);
           break;
         case 80:
         case 51:
-          this.play(55);
+          this.play(55, play, isLeft);
           break;
         // 4-0
         case 52:
-          this.play(56);
+          this.play(56, play, isLeft);
           break;
         case 53:
-          this.play(58);
+          this.play(58, play, isLeft);
           break;
         case 54:
-          this.play(60);
+          this.play(60, play, isLeft);
           break;
         case 55:
-          this.play(62);
+          this.play(62, play, isLeft);
           break;
         case 56:
-          this.play(63);
+          this.play(63, play, isLeft);
           break;
         case 57:
-          this.play(65);
+          this.play(65, play, isLeft);
           break;
         case 48:
-          this.play(67);
+          this.play(67, play, isLeft);
           break;
       }
     },
@@ -1770,7 +1783,7 @@ export default {
   background-size: contain;
   background-position: center center;
   height: 382px;
-  padding: 36px 26px 27px 26px
+  padding: 36px 26px 27px 26px;
 }
 
 .simulation-piano-line {
