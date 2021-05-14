@@ -162,7 +162,8 @@ export default new Router({
       name: 'piano',
       component: (resolve) => require(['@/components/game/piano'], resolve),
       meta: {
-        keepAlive: false
+        keepAlive: false,
+        hideMaster: true
       }
     }, {
       path: '/voicedictation',

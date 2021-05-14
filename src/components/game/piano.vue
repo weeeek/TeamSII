@@ -1,6 +1,27 @@
 <template>
   <div style="overflow-x: hidden" v-show="notes.length > 0">
-    <div class="note-fall-container">瀑布流区</div>
+    <div style="line-height: 46px; margin: 0 15px">
+      <span>歌曲：</span>
+      <select v-model="currentSongJsonFile" @change="changeSongJson">
+        <option v-for="o in songList" :value="o.jsonFileName">
+          {{ o.name }}
+        </option>
+      </select>
+      <span v-if="bpm > 0">曲速：{{ bpm }}</span>
+    </div>
+    <div
+      class="note-fall-container"
+      v-bind:style="{ paddingBottom: bpm + `px` }"
+    >
+      <div
+        class="note-fall-div"
+        :style="{ height: `${(totalBeat + 1) * 96}px` }"
+      >
+        <div v-for="n in songFall" :style="calcStyle(n)">
+          {{ n.noteIndex }}
+        </div>
+      </div>
+    </div>
     <!--钢琴键88个-->
     <div class="piano">
       <div class="keys-white">
@@ -832,6 +853,14 @@
         >
           &nbsp;
         </button>
+        <div style="float: right; line-height: 46px">
+          <span>调号</span>
+          <select v-model="signature">
+            <option v-for="o in signatureList" :value="o.value">
+              {{ o.name }}
+            </option>
+          </select>
+        </div>
       </div>
       <div
         class="simulation-piano-line"
@@ -847,70 +876,90 @@
         <button
           class="simulation-piano-key piano-key-1 note-up-1"
           id="piano-key-49"
-          @mousedown="play(51)"
+          @mousedown="keyboardplay(51, 49)"
+          @mouseout="keyboardstop(49)"
+          @mouseup="keyboardstop(49)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-2 note-up-1"
           id="piano-key-50"
-          @mousedown="play(53)"
+          @mousedown="keyboardplay(53, 50)"
+          @mouseout="keyboardstop(50)"
+          @mouseup="keyboardstop(50)"
         >
           2
         </button>
         <button
           class="simulation-piano-key piano-key-3 note-up-1"
           id="piano-key-51"
-          @mousedown="play(55)"
+          @mousedown="keyboardplay(55, 51)"
+          @mouseout="keyboardstop(51)"
+          @mouseup="keyboardstop(51)"
         >
           3
         </button>
         <button
           class="simulation-piano-key piano-key-4 note-up-1"
           id="piano-key-52"
-          @mousedown="play(56)"
+          @mousedown="keyboardplay(56, 52)"
+          @mouseout="keyboardstop(52)"
+          @mouseup="keyboardstop(52)"
         >
           4
         </button>
         <button
           class="simulation-piano-key piano-key-5 note-up-1"
           id="piano-key-53"
-          @mousedown="play(58)"
+          @mousedown="keyboardplay(58, 53)"
+          @mouseout="keyboardstop(53)"
+          @mouseup="keyboardstop(53)"
         >
           5
         </button>
         <button
           class="simulation-piano-key piano-key-6 note-up-1"
           id="piano-key-54"
-          @mousedown="play(60)"
+          @mousedown="keyboardplay(60, 54)"
+          @mouseout="keyboardstop(54)"
+          @mouseup="keyboardstop(54)"
         >
           6
         </button>
         <button
           class="simulation-piano-key piano-key-7 note-up-1"
           id="piano-key-55"
-          @mousedown="play(62)"
+          @mousedown="keyboardplay(62, 55)"
+          @mouseout="keyboardstop(55)"
+          @mouseup="keyboardstop(55)"
         >
           7
         </button>
         <button
           class="simulation-piano-key piano-key-8 note-up-2"
           id="piano-key-56"
-          @mousedown="play(63)"
+          @mousedown="keyboardplay(63, 56)"
+          @mouseout="keyboardstop(56)"
+          @mouseup="keyboardstop(56)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-9 note-up-2"
           id="piano-key-57"
-          @mousedown="play(65)"
+          @mousedown="keyboardplay(65, 57)"
+          @mouseout="keyboardstop(57)"
+          @mouseup="keyboardstop(57)"
         >
           2
         </button>
         <button
           class="simulation-piano-key piano-key-0 note-up-2"
           id="piano-key-48"
-          @mousedown="play(67)"
+          @mousedown="keyboardplay(67, 48)"
+          @mouseout="keyboardstop(48)"
+          @mouseup="keyboardstop(48)"
         >
           3
         </button>
@@ -939,21 +988,27 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-mid-left piano-key-insert note-up-2"
           id="piano-key-45"
-          @mousedown="play(68)"
+          @mousedown="keyboardplay(68, 45, false)"
+          @mouseout="keyboardstop(45)"
+          @mouseup="keyboardstop(45)"
         >
           4
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-home note-up-2"
           id="piano-key-36"
-          @mousedown="play(70)"
+          @mousedown="keyboardplay(70, 36, false)"
+          @mouseout="keyboardstop(36)"
+          @mouseup="keyboardstop(36)"
         >
           5
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-mid-right piano-key-pageup note-up-2"
           id="piano-key-33"
-          @mousedown="play(72)"
+          @mousedown="keyboardplay(72, 33, false)"
+          @mouseout="keyboardstop(33)"
+          @mouseup="keyboardstop(33)"
         >
           6
         </button>
@@ -961,28 +1016,36 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-numlock note-up-1"
           id="piano-key-144"
-          @mousedown="play(56)"
+          @mousedown="keyboardplay(56, 144, false)"
+          @mouseout="keyboardstop(144)"
+          @mouseup="keyboardstop(144)"
         >
           4
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-divide note-up-1"
           id="piano-key-111"
-          @mousedown="play(58)"
+          @mousedown="keyboardplay(58, 111, false)"
+          @mouseout="keyboardstop(111)"
+          @mouseup="keyboardstop(111)"
         >
           5
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-multiply note-up-1"
           id="piano-key-106"
-          @mousedown="play(60)"
+          @mousedown="keyboardplay(60, 106, false)"
+          @mouseout="keyboardstop(106)"
+          @mouseup="keyboardstop(106)"
         >
           6
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-subtract note-up-1"
           id="piano-key-109"
-          @mousedown="play(62)"
+          @mousedown="keyboardplay(62, 109, false)"
+          @mouseout="keyboardstop(109)"
+          @mouseup="keyboardstop(109)"
         >
           7
         </button>
@@ -1001,70 +1064,90 @@
         <button
           class="simulation-piano-key piano-key-q"
           id="piano-key-81"
-          @mousedown="play(39)"
+          @mousedown="keyboardplay(39, 81)"
+          @mouseout="keyboardstop(81)"
+          @mouseup="keyboardstop(81)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-w"
           id="piano-key-87"
-          @mousedown="play(41)"
+          @mousedown="keyboardplay(41, 87)"
+          @mouseout="keyboardstop(87)"
+          @mouseup="keyboardstop(87)"
         >
           2
         </button>
         <button
           class="simulation-piano-key piano-key-e"
           id="piano-key-69"
-          @mousedown="play(43)"
+          @mousedown="keyboardplay(43, 69)"
+          @mouseout="keyboardstop(69)"
+          @mouseup="keyboardstop(69)"
         >
           3
         </button>
         <button
           class="simulation-piano-key piano-key-r"
           id="piano-key-82"
-          @mousedown="play(44)"
+          @mousedown="keyboardplay(44, 82)"
+          @mouseout="keyboardstop(82)"
+          @mouseup="keyboardstop(82)"
         >
           4
         </button>
         <button
           class="simulation-piano-key piano-key-t"
           id="piano-key-84"
-          @mousedown="play(46)"
+          @mousedown="keyboardplay(46, 84)"
+          @mouseout="keyboardstop(84)"
+          @mouseup="keyboardstop(84)"
         >
           5
         </button>
         <button
           class="simulation-piano-key piano-key-y"
           id="piano-key-89"
-          @mousedown="play(48)"
+          @mousedown="keyboardplay(48, 89)"
+          @mouseout="keyboardstop(89)"
+          @mouseup="keyboardstop(89)"
         >
           6
         </button>
         <button
           class="simulation-piano-key piano-key-u"
           id="piano-key-85"
-          @mousedown="play(50)"
+          @mousedown="keyboardplay(50, 85)"
+          @mouseout="keyboardstop(85)"
+          @mouseup="keyboardstop(85)"
         >
           7
         </button>
         <button
           class="simulation-piano-key piano-key-i note-up-1"
           id="piano-key-73"
-          @mousedown="play(51)"
+          @mousedown="keyboardplay(51, 73)"
+          @mouseout="keyboardstop(73)"
+          @mouseup="keyboardstop(73)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-o note-up-1"
           id="piano-key-79"
-          @mousedown="play(53)"
+          @mousedown="keyboardplay(53, 79)"
+          @mouseout="keyboardstop(79)"
+          @mouseup="keyboardstop(79)"
         >
           2
         </button>
         <button
           class="simulation-piano-key piano-key-p note-up-1"
           id="piano-key-80"
-          @mousedown="play(55)"
+          @mousedown="keyboardplay(55, 80)"
+          @mouseout="keyboardstop(80)"
+          @mouseup="keyboardstop(80)"
         >
           3
         </button>
@@ -1093,21 +1176,27 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-mid-left piano-key-delete note-up-2"
           id="piano-key-46"
-          @mousedown="play(63)"
+          @mousedown="keyboardplay(63, 46, false)"
+          @mouseout="keyboardstop(46)"
+          @mouseup="keyboardstop(46)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-end note-up-2"
           id="piano-key-35"
-          @mousedown="play(65)"
+          @mousedown="keyboardplay(65, 35, false)"
+          @mouseout="keyboardstop(35)"
+          @mouseup="keyboardstop(35)"
         >
           2
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-mid-right piano-key-pagedown note-up-2"
           id="piano-key-34"
-          @mousedown="play(67)"
+          @mousedown="keyboardplay(67, 34, false)"
+          @mouseout="keyboardstop(34)"
+          @mouseup="keyboardstop(34)"
         >
           3
         </button>
@@ -1115,21 +1204,27 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-num7"
           id="piano-key-103"
-          @mousedown="play(50)"
+          @mousedown="keyboardplay(50, 103, false)"
+          @mouseout="keyboardstop(103)"
+          @mouseup="keyboardstop(103)"
         >
           7
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-num8 note-up-1"
           id="piano-key-104"
-          @mousedown="play(51)"
+          @mousedown="keyboardplay(51, 104, false)"
+          @mouseout="keyboardstop(104)"
+          @mouseup="keyboardstop(104)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-num9 note-up-1"
           id="piano-key-105"
-          @mousedown="play(53)"
+          @mousedown="keyboardplay(53, 105, false)"
+          @mouseout="keyboardstop(105)"
+          @mouseup="keyboardstop(105)"
         >
           2
         </button>
@@ -1142,7 +1237,9 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-num-plus note-up-1"
           id="piano-key-107"
-          @mousedown="play(55)"
+          @mousedown="keyboardplay(55, 107, false)"
+          @mouseout="keyboardstop(107)"
+          @mouseup="keyboardstop(107)"
         >
           3
         </button>
@@ -1162,63 +1259,81 @@
         <button
           class="simulation-piano-key piano-key-a note-under-1"
           id="piano-key-65"
-          @mousedown="play(27)"
+          @mousedown="keyboardplay(27, 65)"
+          @mouseout="keyboardstop(65)"
+          @mouseup="keyboardstop(65)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-s note-under-1"
           id="piano-key-83"
-          @mousedown="play(29)"
+          @mousedown="keyboardplay(29, 83)"
+          @mouseout="keyboardstop(83)"
+          @mouseup="keyboardstop(83)"
         >
           2
         </button>
         <button
           class="simulation-piano-key piano-key-d note-under-1"
           id="piano-key-68"
-          @mousedown="play(31)"
+          @mousedown="keyboardplay(31, 68)"
+          @mouseout="keyboardstop(68)"
+          @mouseup="keyboardstop(68)"
         >
           3
         </button>
         <button
           class="simulation-piano-key piano-key-f note-under-1"
           id="piano-key-70"
-          @mousedown="play(32)"
+          @mousedown="keyboardplay(32, 70)"
+          @mouseout="keyboardstop(70)"
+          @mouseup="keyboardstop(70)"
         >
           4
         </button>
         <button
           class="simulation-piano-key piano-key-g note-under-1"
           id="piano-key-71"
-          @mousedown="play(34)"
+          @mousedown="keyboardplay(34, 71)"
+          @mouseout="keyboardstop(71)"
+          @mouseup="keyboardstop(71)"
         >
           5
         </button>
         <button
           class="simulation-piano-key piano-key-h note-under-1"
           id="piano-key-72"
-          @mousedown="play(36)"
+          @mousedown="keyboardplay(36, 72)"
+          @mouseout="keyboardstop(72)"
+          @mouseup="keyboardstop(72)"
         >
           6
         </button>
         <button
           class="simulation-piano-key piano-key-j note-under-1"
           id="piano-key-74"
-          @mousedown="play(38)"
+          @mousedown="keyboardplay(38, 74)"
+          @mouseout="keyboardstop(74)"
+          @mouseup="keyboardstop(74)"
         >
           7
         </button>
         <button
           class="simulation-piano-key piano-key-k"
           id="piano-key-75"
-          @mousedown="play(39)"
+          @mousedown="keyboardplay(39, 75)"
+          @mouseout="keyboardstop(75)"
+          @mouseup="keyboardstop(75)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-l"
           id="piano-key-76"
-          @mousedown="play(41)"
+          @mousedown="keyboardplay(41, 76)"
+          @mouseout="keyboardstop(76)"
+          @mouseup="keyboardstop(76)"
         >
           2
         </button>
@@ -1262,21 +1377,27 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-num4"
           id="piano-key-100"
-          @mousedown="play(44)"
+          @mousedown="keyboardplay(44, 100, false)"
+          @mouseout="keyboardstop(100)"
+          @mouseup="keyboardstop(100)"
         >
           4
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-num5"
           id="piano-key-101"
-          @mousedown="play(46)"
+          @mousedown="keyboardplay(46, 101, false)"
+          @mouseout="keyboardstop(101)"
+          @mouseup="keyboardstop(101)"
         >
           5
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-num6"
           id="piano-key-102"
-          @mousedown="play(48)"
+          @mousedown="keyboardplay(48, 102, false)"
+          @mouseout="keyboardstop(102)"
+          @mouseup="keyboardstop(102)"
         >
           6
         </button>
@@ -1296,49 +1417,63 @@
         <button
           class="simulation-piano-key piano-key-z note-under-2"
           id="piano-key-90"
-          @mousedown="play(15)"
+          @mousedown="keyboardplay(15, 90)"
+          @mouseout="keyboardstop(90)"
+          @mouseup="keyboardstop(90)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-x note-under-2"
           id="piano-key-88"
-          @mousedown="play(17)"
+          @mousedown="keyboardplay(17, 88)"
+          @mouseout="keyboardstop(88)"
+          @mouseup="keyboardstop(88)"
         >
           2
         </button>
         <button
           class="simulation-piano-key piano-key-c note-under-2"
           id="piano-key-67"
-          @mousedown="play(19)"
+          @mousedown="keyboardplay(19, 67)"
+          @mouseout="keyboardstop(67)"
+          @mouseup="keyboardstop(67)"
         >
           3
         </button>
         <button
           class="simulation-piano-key piano-key-v note-under-2"
           id="piano-key-86"
-          @mousedown="play(20)"
+          @mousedown="keyboardplay(20, 86)"
+          @mouseout="keyboardstop(86)"
+          @mouseup="keyboardstop(86)"
         >
           4
         </button>
         <button
           class="simulation-piano-key piano-key-b note-under-2"
           id="piano-key-66"
-          @mousedown="play(22)"
+          @mousedown="keyboardplay(22, 66)"
+          @mouseout="keyboardstop(66)"
+          @mouseup="keyboardstop(66)"
         >
           5
         </button>
         <button
           class="simulation-piano-key piano-key-n note-under-2"
           id="piano-key-78"
-          @mousedown="play(24)"
+          @mousedown="keyboardplay(24, 78)"
+          @mouseout="keyboardstop(78)"
+          @mouseup="keyboardstop(78)"
         >
           6
         </button>
         <button
           class="simulation-piano-key piano-key-m note-under-2"
           id="piano-key-77"
-          @mousedown="play(26)"
+          @mousedown="keyboardplay(26, 77)"
+          @mouseout="keyboardstop(77)"
+          @mouseup="keyboardstop(77)"
         >
           7
         </button>
@@ -1379,7 +1514,9 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-arrow-up note-under-1"
           id="piano-key-38"
-          @mousedown="play(32)"
+          @mousedown="keyboardplay(32, 38, false)"
+          @mouseout="keyboardstop(38)"
+          @mouseup="keyboardstop(38)"
         >
           4
         </button>
@@ -1392,21 +1529,27 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-num1"
           id="piano-key-97"
-          @mousedown="play(39)"
+          @mousedown="keyboardplay(39, 97, false)"
+          @mouseout="keyboardstop(97)"
+          @mouseup="keyboardstop(97)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-num2"
           id="piano-key-98"
-          @mousedown="play(41)"
+          @mousedown="keyboardplay(41, 98, false)"
+          @mouseout="keyboardstop(98)"
+          @mouseup="keyboardstop(98)"
         >
           2
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-num3"
           id="piano-key-99"
-          @mousedown="play(43)"
+          @mousedown="keyboardplay(43, 99, false)"
+          @mouseout="keyboardstop(99)"
+          @mouseup="keyboardstop(99)"
         >
           3
         </button>
@@ -1418,7 +1561,9 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-num-enter note-under-1"
           id="piano-key-108"
-          @mousedown="play(38)"
+          @mousedown="keyboardplay(38, 108, false)"
+          @mouseout="keyboardstop(108)"
+          @mouseup="keyboardstop(108)"
         >
           7
         </button>
@@ -1464,21 +1609,27 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-mid-left piano-key-arrow-left note-under-1"
           id="piano-key-37"
-          @mousedown="play(27)"
+          @mousedown="keyboardplay(27, 37, false)"
+          @mouseout="keyboardstop(37)"
+          @mouseup="keyboardstop(37)"
         >
           1
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-arrow-down note-under-1"
           id="piano-key-40"
-          @mousedown="play(29)"
+          @mousedown="keyboardplay(29, 40, false)"
+          @mouseout="keyboardstop(40)"
+          @mouseup="keyboardstop(40)"
         >
           2
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-mid-right piano-key-arrow-right note-under-1"
           id="piano-key-39"
-          @mousedown="play(31)"
+          @mousedown="keyboardplay(31, 39, false)"
+          @mouseout="keyboardstop(39)"
+          @mouseup="keyboardstop(39)"
         >
           3
         </button>
@@ -1486,14 +1637,18 @@
         <button
           class="simulation-piano-key piano-key-right piano-key-num0 note-under-1"
           id="piano-key-96"
-          @mousedown="play(34)"
+          @mousedown="keyboardplay(34, 96, false)"
+          @mouseout="keyboardstop(96)"
+          @mouseup="keyboardstop(96)"
         >
           5
         </button>
         <button
           class="simulation-piano-key piano-key-right piano-key-dot note-under-1"
           id="piano-key-110"
-          @mousedown="play(36)"
+          @mousedown="keyboardplay(36, 110, false)"
+          @mouseout="keyboardstop(110)"
+          @mouseup="keyboardstop(110)"
         >
           6
         </button>
@@ -1503,7 +1658,11 @@
 </template>
 
 <script>
-import { getpianoNotes } from "config/gameData";
+import {
+  getpianoNotes,
+  getPianoSongFallList,
+  getSongNoteFall,
+} from "config/gameData";
 import jQuery from "jquery";
 export default {
   data() {
@@ -1524,6 +1683,12 @@ export default {
         { name: "A#", value: -1 },
       ],
       pressedKey: [],
+      songList: [],
+      currentSongJsonFile: "",
+      songFall: [],
+      // 每分钟节拍数
+      bpm: 0,
+      totalBeat: 0
     };
   },
   mounted() {
@@ -1533,15 +1698,19 @@ export default {
         _vm.notes.push(`data:audio/mpeg;base64,${e}`);
       });
     });
+    getPianoSongFallList().then((res) => {
+      res.forEach((e) => {
+        _vm.songList.push(e);
+      });
+    });
     // 监控键盘
     window.onkeydown = (e) => {
-      console.log("keydown", e.keyCode);
       if (_vm.pressedKey.includes(e.keyCode)) {
         return;
       }
       _vm.pressedKey.push(e.keyCode);
       document.getElementById("piano-key-" + e.keyCode).classList.add("active");
-      this.playNote(e.keyCode);
+      _vm.playNote(e.keyCode);
       e.preventDefault();
     };
     window.onkeyup = (e) => {
@@ -1549,222 +1718,280 @@ export default {
         .getElementById("piano-key-" + e.keyCode)
         .classList.remove("active");
       _vm.pressedKey.splice(_vm.pressedKey.indexOf(e.keyCode), 1);
-      this.playNote(e.keyCode, false);
+      _vm.playNote(e.keyCode, false);
     };
+    // 琴键鼠标点击
     jQuery("button[name='key']")
       .on("mousedown", function () {
         jQuery(this).addClass("active-left");
       })
       .on("mouseup", function () {
-        jQuery(this).removeClass("active-left");
+        jQuery(this).removeClass("active-right").removeClass("active-left");
       })
       .on("mouseout", function () {
-        jQuery(this).removeClass("active-left");
+        jQuery(this).removeClass("active-right").removeClass("active-left");
       });
+    // 模拟键盘鼠标点击
   },
   methods: {
+    changeSongJson() {
+      let _vm = this;
+      // 读json,生成fall
+      getSongNoteFall(this.currentSongJsonFile).then((res) => {
+        _vm.songFall = res.notes;
+        _vm.signature = res.signature;
+        _vm.bpm = res.bpm;
+        _vm.totalBeat = 0;
+        var leftBottom = 0,
+          rightBottom = 0;
+        res.notes.forEach((x) => {
+          _vm.totalBeat += x.beat;
+          if (x.isRight) {
+            rightBottom += x.beat * 96;
+            x.bottom = rightBottom;
+          } else {
+            leftBottom += x.beat * 96;
+            x.bottom = leftBottom;
+          }
+        });
+        // 每分钟下落 bmp * 96px
+        // 下落时间
+        var fallTime = totalBeat / _vm.bpm;
+
+        // jQuery('.note-fall-div').animate()
+      });
+    },
     keySignatureChange() {
       // 变更调号
     },
     play(index, play = true, isLeft = true) {
       if (play) {
-        // C调的序号，需要调号转换。
-        var audio = new Audio(this.notes[index + this.signature]);
+        // C调的序号,需要调号转换。
+        var audio = new Audio(this.notes[index]);
         audio.play();
-        jQuery(`button[index=${index}]`).addClass("active-right");
+        jQuery(`button[index=${index}]`).addClass(
+          isLeft ? "active-left" : "active-right"
+        );
       } else {
         jQuery(`button[index=${index}]`)
           .removeClass("active-right")
           .removeClass("active-left");
       }
     },
+    keyboardplay(noteIndex, keyCode, isLeft) {
+      this.play(noteIndex + this.signature, true, isLeft);
+      jQuery(`#piano-key-${keyCode}`).addClass("active");
+    },
+    keyboardstop(keyCode) {
+      jQuery(`#piano-key-${keyCode}`).removeClass("active");
+      // 模拟键盘的鼠标点击不会一次点两个的情况
+      jQuery(`.piano button`)
+        .removeClass("active-left")
+        .removeClass("active-right");
+    },
+    calcStyle(n) {
+      var keyElement = jQuery(`button[index=${n.noteIndex}]`)[0];
+      var result = {
+        position: "absolute",
+        width: keyElement.clientWidth,
+        height: `${n.beat * 96}px`,
+        left: `${keyElement.offsetLeft}px`,
+        bottom: `${n.bottom}px`,
+        background: n.isRight ? "#8dc221" : "#48a9e2",
+        lineHeight: `${n.beat * 96}px`,
+      };
+      if (n.rest) {
+        result.visibility = "hidden";
+      }
+      return result;
+    },
     playNote(keyCode, play = true, isLeft = true) {
       switch (keyCode) {
         //z-m
         case 90:
-          this.play(15, play, isLeft);
+          this.play(15 + this.signature, play, isLeft);
           break;
         case 88:
-          this.play(17, play, isLeft);
+          this.play(17 + this.signature, play, isLeft);
           break;
         case 67:
-          this.play(19, play, isLeft);
+          this.play(19 + this.signature, play, isLeft);
           break;
         case 86:
-          this.play(20, play, isLeft);
+          this.play(20 + this.signature, play, isLeft);
           break;
         case 66:
-          this.play(22, play, isLeft);
+          this.play(22 + this.signature, play, isLeft);
           break;
         case 78:
-          this.play(24, play, isLeft);
+          this.play(24 + this.signature, play, isLeft);
           break;
         case 77:
-          this.play(26, play, isLeft);
+          this.play(26 + this.signature, play, isLeft);
           break;
         // a-l
         case 65:
-          this.play(27, play, isLeft);
+          this.play(27 + this.signature, play, isLeft);
           break;
         case 83:
-          this.play(29, play, isLeft);
+          this.play(29 + this.signature, play, isLeft);
           break;
         case 68:
-          this.play(31, play, isLeft);
+          this.play(31 + this.signature, play, isLeft);
           break;
         case 70:
-          this.play(32, play, isLeft);
+          this.play(32 + this.signature, play, isLeft);
           break;
         case 71:
-          this.play(34, play, isLeft);
+          this.play(34 + this.signature, play, isLeft);
           break;
         case 72:
-          this.play(36, play, isLeft);
+          this.play(36 + this.signature, play, isLeft);
           break;
         case 74:
-          this.play(38, play, isLeft);
+          this.play(38 + this.signature, play, isLeft);
           break;
         case 75:
         case 81:
-          this.play(39, play, isLeft);
+          this.play(39 + this.signature, play, isLeft);
           break;
         case 76:
         case 87:
-          this.play(41, play, isLeft);
+          this.play(41 + this.signature, play, isLeft);
           break;
         case 186:
         case 69:
-          this.play(43, play, isLeft);
+          this.play(43 + this.signature, play, isLeft);
           break;
         case 222:
         case 82:
-          this.play(44, play, isLeft);
+          this.play(44 + this.signature, play, isLeft);
           break;
         // t-p
         case 84:
-          this.play(46, play, isLeft);
+          this.play(46 + this.signature, play, isLeft);
           break;
         case 89:
-          this.play(48, play, isLeft);
+          this.play(48 + this.signature, play, isLeft);
           break;
         case 85:
-          this.play(50, play, isLeft);
+          this.play(50 + this.signature, play, isLeft);
           break;
         case 73:
         case 49:
-          this.play(51, play, isLeft);
+          this.play(51 + this.signature, play, isLeft);
           break;
         case 79:
         case 50:
-          this.play(53, play, isLeft);
+          this.play(53 + this.signature, play, isLeft);
           break;
         case 80:
         case 51:
-          this.play(55, play, isLeft);
+          this.play(55 + this.signature, play, isLeft);
           break;
         // 4-0
         case 52:
-          this.play(56, play, isLeft);
+          this.play(56 + this.signature, play, isLeft);
           break;
         case 53:
-          this.play(58, play, isLeft);
+          this.play(58 + this.signature, play, isLeft);
           break;
         case 54:
-          this.play(60, play, isLeft);
+          this.play(60 + this.signature, play, isLeft);
           break;
         case 55:
-          this.play(62, play, isLeft);
+          this.play(62 + this.signature, play, isLeft);
           break;
         case 56:
-          this.play(63, play, isLeft);
+          this.play(63 + this.signature, play, isLeft);
           break;
         case 57:
-          this.play(65, play, isLeft);
+          this.play(65 + this.signature, play, isLeft);
           break;
         case 48:
-          this.play(67, play, isLeft);
+          this.play(67 + this.signature, play, isLeft);
           break;
         // 右区
         case 37:
-          this.play(27, play, false);
+          this.play(27 + this.signature, play, false);
           break;
         case 40:
-          this.play(29, play, false);
+          this.play(29 + this.signature, play, false);
           break;
         case 39:
-          this.play(31, play, false);
+          this.play(31 + this.signature, play, false);
           break;
         case 38:
-          this.play(32, play, false);
+          this.play(32 + this.signature, play, false);
           break;
         case 96:
-          this.play(34, play, false);
+          this.play(34 + this.signature, play, false);
           break;
         case 110:
-          this.play(36, play, false);
+          this.play(36 + this.signature, play, false);
           break;
         case 13:
-          this.play(38, play, false);
+          this.play(38 + this.signature, play, false);
           break;
         case 97:
-          this.play(39, play, false);
+          this.play(39 + this.signature, play, false);
           break;
         case 98:
-          this.play(41, play, false);
+          this.play(41 + this.signature, play, false);
           break;
         case 99:
-          this.play(43, play, false);
+          this.play(43 + this.signature, play, false);
           break;
         case 100:
-          this.play(44, play, false);
+          this.play(44 + this.signature, play, false);
           break;
         case 101:
-          this.play(46, play, false);
+          this.play(46 + this.signature, play, false);
           break;
         case 102:
-          this.play(48, play, false);
+          this.play(48 + this.signature, play, false);
           break;
         case 103:
-          this.play(50, play, false);
+          this.play(50 + this.signature, play, false);
           break;
         case 104:
-          this.play(51, play, false);
+          this.play(51 + this.signature, play, false);
           break;
         case 105:
-          this.play(53, play, false);
+          this.play(53 + this.signature, play, false);
           break;
         case 107:
-          this.play(55, play, false);
+          this.play(55 + this.signature, play, false);
           break;
         case 144:
-          this.play(56, play, false);
+          this.play(56 + this.signature, play, false);
           break;
         case 111:
-          this.play(58, play, false);
+          this.play(58 + this.signature, play, false);
           break;
         case 106:
-          this.play(60, play, false);
+          this.play(60 + this.signature, play, false);
           break;
         case 109:
-          this.play(62, play, false);
+          this.play(62 + this.signature, play, false);
           break;
         case 46:
-          this.play(63, play, false);
+          this.play(63 + this.signature, play, false);
           break;
         case 35:
-          this.play(65, play, false);
+          this.play(65 + this.signature, play, false);
           break;
         case 34:
-          this.play(67, play, false);
+          this.play(67 + this.signature, play, false);
           break;
         case 45:
-          this.play(68, play, false);
+          this.play(68 + this.signature, play, false);
           break;
         case 36:
-          this.play(70, play, false);
+          this.play(70 + this.signature, play, false);
           break;
         case 33:
-          this.play(72, play, false);
+          this.play(72 + this.signature, play, false);
           break;
       }
     },
@@ -1814,13 +2041,13 @@ export default {
 }
 
 .active-right {
-  background-color: #48a9e2;
-  box-shadow: 0 4px 8px #333 inset;
+  background-color: #48a9e2 !important;
+  box-shadow: 0 4px 8px #333 inset !important;
 }
 
 .active-left {
-  background-color: #8dc221;
-  box-shadow: 0 4px 8px #333 inset;
+  background-color: #8dc221 !important;
+  box-shadow: 0 4px 8px #333 inset !important;
 }
 
 .key-c::after {
@@ -1854,9 +2081,10 @@ export default {
 }
 
 .note-fall-container {
-  height: 200px;
+  height: 440px;
   background: #002b36;
-  filter: blur(20px);
+  // filter: blur(20px);
+  overflow: hidden;
 }
 
 .simulation-piano {
@@ -2058,5 +2286,57 @@ export default {
   left: calc(50% - 2px);
   font-weight: bolder;
   background-color: #545454;
+}
+
+.note-fall-div {
+  position: relative;
+}
+
+.note-fall-div div{
+  border: 1px solid white;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5) inset;
+}
+
+.beat-32 {
+  height: 12px;
+}
+
+.beat-16 {
+  height: 24px;
+}
+
+.beat-8 {
+  height: 48px;
+}
+
+// 8分音符的3连音
+.beat-8-3 {
+  height: 16px;
+}
+
+.beat-4 {
+  height: 96px;
+}
+
+// 4分音符的三连音
+.beat-4-3 {
+  height: 32px;
+}
+
+.beat-2 {
+  height: 192px;
+}
+
+// 2分音符的三连音
+.beat-2-3 {
+  height: 64px;
+}
+
+.beat-1 {
+  height: 284px;
+}
+
+.beat-rest {
+  visibility: hidden;
 }
 </style>

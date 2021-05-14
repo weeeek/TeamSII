@@ -1,0 +1,356 @@
+{
+    "signature": 2,
+    "signatureName": "D",
+    "songName": "洋娃娃与小熊跳舞",
+    "bpm": "88",
+    "notes": [
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 41,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 41,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "8",
+            "beat": 0.5,
+            "rest": true
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 41,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 41,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5,
+            "rest": true
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 41,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "8",
+            "beat": 0.5,
+            "rest": true
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 41,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 41,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        }
+    ]
+}
