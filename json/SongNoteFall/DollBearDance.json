@@ -35,6 +35,11 @@
             "beat": 0.5
         },
         {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
             "noteIndex": 44,
             "beatClass": "16",
             "beat": 0.25
@@ -119,6 +124,11 @@
             "noteIndex": 46,
             "beatClass": "8",
             "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
         },
         {
             "noteIndex": 44,
@@ -303,6 +313,11 @@
             "beat": 0.5
         },
         {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
             "noteIndex": 44,
             "beatClass": "16",
             "beat": 0.25
@@ -349,8 +364,8 @@
         },
         {
             "noteIndex": 39,
-            "beatClass": "8",
-            "beat": 0.5
+            "beatClass": "4",
+            "beat": 1
         }
     ]
 }

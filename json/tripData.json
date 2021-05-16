@@ -7,6 +7,13 @@
     "show": true,
     "items": [
       {
+        "nameMonth":"5月15日",
+        "title":"《重生计划》第111场",
+        "description":"MC1：谁点的外卖最好吃,Lost：赵天杨,Hold Me Tight：刘增艳，袁雨桢,解语者：陈雨孜，闫明筠，王秋茹,最终回合：李慧，马玉灵，卞楚娴，彭嘉敏,无罪无我：由淼，温晶婕，宁轲,Somewhere：田姝丽，邵雪聪，刘倩倩,噩梦轮回：沈小爱,MC2: 想买但一直没买的东西,MC3: 丢手绢真心话大冒险,MC4：不笑挑战",
+        "type":"blue",
+        "url":"https://www.bilibili.com/video/BV1pv41157gM"
+      },
+      {
         "nameMonth": "5月13日",
         "title": "《寒了鑫》第七期",
         "description": "",

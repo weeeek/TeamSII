@@ -3,21 +3,19 @@
     <div style="line-height: 46px; margin: 0 15px">
       <span>歌曲：</span>
       <select v-model="currentSongJsonFile" @change="changeSongJson">
-        <option v-for="o in songList" :value="o.jsonFileName">
+        <option
+          v-for="(o, index) in songList"
+          :key="index"
+          :value="o.jsonFileName"
+        >
           {{ o.name }}
         </option>
       </select>
       <span v-if="bpm > 0">曲速：{{ bpm }}</span>
     </div>
-    <div
-      class="note-fall-container"
-      v-bind:style="{ paddingBottom: bpm + `px` }"
-    >
-      <div
-        class="note-fall-div"
-        :style="{ height: `${(totalBeat + 1) * 96}px` }"
-      >
-        <div v-for="n in songFall" :style="calcStyle(n)">
+    <div class="note-fall-container">
+      <div id="note-fall-div" :style="{ height: `${(totalBeat + 1) * 96}px` }">
+        <div v-for="(n, index) in songFall" :key="index" :style="calcStyle(n)">
           {{ n.noteIndex }}
         </div>
       </div>
@@ -1688,7 +1686,7 @@ export default {
       songFall: [],
       // 每分钟节拍数
       bpm: 0,
-      totalBeat: 0
+      totalBeat: 0,
     };
   },
   mounted() {
@@ -1711,6 +1709,8 @@ export default {
       _vm.pressedKey.push(e.keyCode);
       document.getElementById("piano-key-" + e.keyCode).classList.add("active");
       _vm.playNote(e.keyCode);
+      if([123].includes(e.keyCode))
+        return;
       e.preventDefault();
     };
     window.onkeyup = (e) => {
@@ -1738,28 +1738,85 @@ export default {
       let _vm = this;
       // 读json,生成fall
       getSongNoteFall(this.currentSongJsonFile).then((res) => {
-        _vm.songFall = res.notes;
-        _vm.signature = res.signature;
-        _vm.bpm = res.bpm;
-        _vm.totalBeat = 0;
-        var leftBottom = 0,
-          rightBottom = 0;
+        _vm.songFall = []
+        _vm.signature = res.signature
+        _vm.bpm = res.bpm
+        _vm.totalBeat = 0
+        let leftBottom = 0, rightBottom = 0
+        // 主音区
         res.notes.forEach((x) => {
-          _vm.totalBeat += x.beat;
-          if (x.isRight) {
-            rightBottom += x.beat * 96;
-            x.bottom = rightBottom;
-          } else {
-            leftBottom += x.beat * 96;
-            x.bottom = leftBottom;
-          }
-        });
-        // 每分钟下落 bmp * 96px
-        // 下落时间
-        var fallTime = totalBeat / _vm.bpm;
+          _vm.totalBeat += x.beat
+          x.bottom = rightBottom
+          rightBottom += x.beat * 96
 
-        // jQuery('.note-fall-div').animate()
+          if (x.noteIndex.length > 0) {
+            x.noteIndex.forEach(n => {
+              _vm.songFall.push({
+                noteIndex: n,
+                beatClass: x.beatClass,
+                beat: x.beat,
+                bottom: x.bottom,
+                isRight: true
+              })
+            })
+          } else {
+            _vm.songFall.push(x)
+          }
+        })
+
+        res.accompanyNotes && res.accompanyNotes.forEach((x) => {
+          x.bottom = leftBottom
+          leftBottom += x.beat * 96
+
+          if (x.noteIndex.length > 0) {
+            x.noteIndex.forEach(n => {
+              _vm.songFall.push({
+                noteIndex: n,
+                beatClass: x.beatClass,
+                beat: x.beat,
+                bottom: x.bottom,
+                isRight: false
+              })
+            })
+          } else {
+            _vm.songFall.push(x)
+          }
+        })
+
+        document.getElementById(
+          "note-fall-div"
+        ).style.transform = `translateY(-${this.totalBeat * 96 - 440 + 96}px)`;
+        // 每分钟下落 bmp * 96px
+        // 下落时间，总拍数/每分钟拍树 = 时长（分钟）
+        var fallTime = Math.round((_vm.totalBeat / _vm.bpm) * 60);
+        // 1秒之后开始下落
+        setTimeout(() => {
+          document.getElementById(
+            "note-fall-div"
+          ).style.transition = `transform ${fallTime}s linear`;
+          jQuery("#note-fall-div").addClass("falling");
+          _vm.fallPlay(res.notes, 0, 0, false);
+          if(res.accompanyNotes)
+            _vm.fallPlay(res.accompanyNotes, 0, 0, true)
+        }, 1000);
       });
+    },
+    fallPlay(arr, i, wait, isLeft) {
+      if(arr.length == i)
+        return
+      let _vm = this;
+      setTimeout(() => {
+        if (arr[i] && !arr[i].rest) {
+          // 播放声音
+          _vm.play(arr[i].noteIndex, true, isLeft)
+        }
+      }, wait)
+      
+      console.log(wait, arr[i].noteIndex)
+      _vm.$nextTick(() => {
+        wait += (60000 / _vm.bpm) * arr[i].beat
+        _vm.fallPlay(arr, ++i, wait, isLeft)
+      })
     },
     keySignatureChange() {
       // 变更调号
@@ -1767,11 +1824,21 @@ export default {
     play(index, play = true, isLeft = true) {
       if (play) {
         // C调的序号,需要调号转换。
-        var audio = new Audio(this.notes[index]);
-        audio.play();
-        jQuery(`button[index=${index}]`).addClass(
-          isLeft ? "active-left" : "active-right"
-        );
+        if(index.length > 1){
+          index.map( n => {
+            var audio = new Audio(this.notes[n]);
+            audio.play();
+            jQuery(`button[index=${n}]`).addClass(
+              isLeft ? "active-left" : "active-right"
+            );
+          })
+        } else {
+          var audio = new Audio(this.notes[index]);
+            audio.play();
+            jQuery(`button[index=${index}]`).addClass(
+              isLeft ? "active-left" : "active-right"
+            );
+        }
       } else {
         jQuery(`button[index=${index}]`)
           .removeClass("active-right")
@@ -1790,7 +1857,12 @@ export default {
         .removeClass("active-right");
     },
     calcStyle(n) {
-      var keyElement = jQuery(`button[index=${n.noteIndex}]`)[0];
+      var keyElement
+      if (n.noteIndex.length > 1) {
+        keyElement = jQuery(`button[index=${n.noteIndex[0]}]`)[0]
+      } else {
+        keyElement = jQuery(`button[index=${n.noteIndex}]`)[0]
+      }
       var result = {
         position: "absolute",
         width: keyElement.clientWidth,
@@ -2000,8 +2072,8 @@ export default {
     // 注销事件
     window.onkeydown = null;
     window.onkeyup = null;
-  },
-};
+  }
+}
 </script>
 
 <style lang="stylus" scoped>
@@ -2288,13 +2360,17 @@ export default {
   background-color: #545454;
 }
 
-.note-fall-div {
+#note-fall-div {
   position: relative;
 }
 
-.note-fall-div div{
+#note-fall-div div {
   border: 1px solid white;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5) inset;
+}
+
+#note-fall-div.falling {
+  transform: translateY(344px) !important;
 }
 
 .beat-32 {

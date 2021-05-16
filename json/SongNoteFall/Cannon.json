@@ -1,0 +1,194 @@
+{
+    "signature": 0,
+    "signatureName": "C",
+    "songName": "卡农C",
+    "bpm": "72",
+    "notes": [
+        {
+            "noteIndex": 43,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 41,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": [
+                55,
+                46
+            ],
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": [
+                53,
+                46
+            ],
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": [
+                51,
+                43
+            ],
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": [
+                50,
+                43
+            ],
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": [
+                48,
+                39
+            ],
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": [
+                46,
+                39
+            ],
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": [
+                48,
+                39
+            ],
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": [
+                50,
+                41
+            ],
+            "beatClass": "2",
+            "beat": 2
+        }
+    ],
+    "accompanyNotes": [
+        {
+            "noteIndex": 27,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 24,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 19,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 24,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 19,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "2",
+            "beat": 2
+        }
+    ]
+}
