@@ -80,6 +80,14 @@
       v-if="data.lvzhou"
       @click="MQSend(mqType.account, data.name + '绿洲')"
     ></a>
+    <a
+      :href="``"
+      :title="`小红书-${data.name}`"
+      target="_blank"
+      class="favicon favicon-小红书"
+      v-if="data.redbook"
+      @click="MQSend(mqType.account, data.name + '小红书')"
+    ></a>
   </div>
 </template>
 
@@ -155,6 +163,10 @@ export default {
 
     &.favicon-lvzhou {
       background-image: url('//oasis.weibo.cn/static/image/logo96.png');
+    }
+
+    &.favicon-xiaohongshu{
+      background-image url('//www.xiaohongshu.com/favicon.ico');
     }
   }
 }
