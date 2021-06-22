@@ -3,10 +3,13 @@
     {
       "name": "卞楚娴",
       "photo": "https://www.snh48.com/images/member/zp_10251.jpg",
-      "weibo": "https://weibo.com/u/7508131036",
+      "weibo": "u/7508131036",
       "bilibili": "",
-      "douyin": null,
-      "changba": "",
+      "douyin": {
+        "number": "71220631247",
+        "id": "efSyG9P"
+      },
+      "changba": null,
       "lvzhou": "7508131036",
       "miaopai": null,
       "group": null
@@ -16,7 +19,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10221.jpg",
       "weibo": "u/6613839986",
       "bilibili": "12294969",
-      "douyin": null,
+      "douyin": {
+        "number": "1732457092888750",
+        "id": "efSfBon"
+      },
       "changba": null,
       "lvzhou": 6613839986,
       "miaopai": null,
@@ -32,19 +38,8 @@
         "number": "708114321",
         "id": "JBJA9dG"
       },
-      "changba": "",
+      "changba": null,
       "lvzhou": "5681004199",
-      "miaopai": null,
-      "group": null
-    },
-    {
-      "name": "冯雨停",
-      "photo": "https://www.snh48.com/images/member/zp_10252.jpg",
-      "weibo": "u/7509283505",
-      "bilibili": "",
-      "douyin": null,
-      "changba": "",
-      "lvzhou": "7509283505",
       "miaopai": null,
       "group": null
     },
@@ -57,7 +52,7 @@
         "number": "28800995",
         "id": "JBJ3MJ6"
       },
-      "changba": "",
+      "changba": null,
       "lvzhou": "6013611098",
       "miaopai": null,
       "group": null
@@ -71,7 +66,7 @@
         "number": "Yunnuy327",
         "id": "JBJ4kat"
       },
-      "changba": "46716517",
+      "changba": "ZyzCyDTFerQw8LcuUCvrVA",
       "lvzhou": 3675573934,
       "miaopai": null,
       "group": null
@@ -85,7 +80,7 @@
         "number": "dytwkrz3hi36",
         "id": "JBJqPSL"
       },
-      "changba": "",
+      "changba": null,
       "lvzhou": "6076987148",
       "miaopai": null,
       "group": null
@@ -117,17 +112,6 @@
       "association": "aw9"
     },
     {
-      "name": "陆叶卉",
-      "photo": "http://www.snh48.com/images/member/zp_10254.jpg",
-      "weibo": "https://weibo.com/u/7509155658",
-      "bilibili": "",
-      "douyin": null,
-      "changba": "",
-      "lvzhou": "7509155658",
-      "miaopai": null,
-      "group": null
-    },
-    {
       "name": "刘增艳",
       "photo": "http://www.snh48.com/images/member/zp_10125.jpg",
       "weibo": "u/5681431767",
@@ -136,7 +120,7 @@
         "number": "869971950",
         "id": "JBekhVx"
       },
-      "changba": null,
+      "changba": "2V3oYUvJgtmhbb7zmDscVA",
       "lvzhou": 5681431767,
       "wangyiCloud": 389979421,
       "acfun": 4214570,
@@ -153,7 +137,7 @@
         "number": "99106myl",
         "id": "JBJX3ku"
       },
-      "changba": "",
+      "changba": null,
       "lvzhou": "5886797829",
       "miaopai": null,
       "group": null
@@ -167,7 +151,7 @@
         "number": "dyyn9k85ugnh",
         "id": "JBJt76V"
       },
-      "changba": "",
+      "changba": null,
       "lvzhou": "7306259383",
       "miaopai": null,
       "group": null
@@ -181,7 +165,7 @@
         "number": "PJM1657394226",
         "id": "JBeeRgE"
       },
-      "changba": "",
+      "changba": null,
       "lvzhou": "6525600041",
       "miaopai": null,
       "group": null
@@ -195,7 +179,7 @@
         "number": "srsrsr333333srsr",
         "id": "JBJ7JQt"
       },
-      "changba": null,
+      "changba": "GdeHD-1Y6OaqLvpy8KZtsQ",
       "lvzhou": 3669091483,
       "miaopai": null,
       "group": "blueV"
@@ -209,7 +193,7 @@
         "number": "53902767",
         "id": "JBJwLco"
       },
-      "changba": "",
+      "changba": null,
       "lvzhou": "6249091150",
       "miaopai": null,
       "group": null
@@ -237,7 +221,7 @@
         "number": "sweety1109",
         "id": "JBJKfTu"
       },
-      "changba": "",
+      "changba": null,
       "lvzhou": "5786991235",
       "miaopai": null,
       "group": null
@@ -251,7 +235,7 @@
         "number": "wenjingjie0315",
         "id": "JC9C71m"
       },
-      "changba": null,
+      "changba": "Xpt_7WKVO5X5NPU9rvkN1A",
       "lvzhou": 3675603887,
       "miaopai": null,
       "group": null
@@ -294,7 +278,7 @@
         "number": "31889311",
         "id": "JBJsrun"
       },
-      "changba": "",
+      "changba": null,
       "lvzhou": "5490236021",
       "miaopai": null,
       "group": null
@@ -308,7 +292,7 @@
         "number": "576412860",
         "id": "JBe11A7"
       },
-      "changba": "58705105",
+      "changba": "O2yesbgfDsDcwwnCgFr1ag",
       "lvzhou": 3720838047,
       "miaopai": null,
       "group": null
@@ -322,7 +306,7 @@
         "number": "617596778",
         "id": "JBe183t"
       },
-      "changba": "",
+      "changba": null,
       "lvzhou": "6379039876",
       "miaopai": null,
       "group": null
@@ -403,7 +387,7 @@
         "number": "602985242",
         "id": "JBe82dD"
       },
-      "changba": "150709347",
+      "changba": "RjQjBLb_zkx9xA-8Q3SqEQ",
       "lvzhou": 3050708243,
       "miaopai": null,
       "group": null
@@ -418,7 +402,7 @@
         "id": "JBeB8J4"
       },
       "lvzhou": 3050742117,
-      "changba": null,
+      "changba": "tfxOP67kFLlszpT3UvG9DQ",
       "miaopai": null,
       "group": null
     },
@@ -431,7 +415,7 @@
         "number": "diamooond28",
         "id": "JBe8t3C"
       },
-      "changba": null,
+      "changba": "UQHOCRMeiTSnExvFRnTiRw",
       "lvzhou": 3050709151,
       "miaopai": null,
       "group": "sense",
@@ -446,7 +430,7 @@
         "number": "371432782",
         "id": "JBJqG68"
       },
-      "changba": "147320351",
+      "changba": null,
       "lvzhou": 3058127927,
       "miaopai": null,
       "group": "sense"
@@ -504,7 +488,7 @@
         "number": "62534021",
         "id": "JBJwPMr"
       },
-      "changba": null,
+      "changba": "RyRYw9rZDatFG2hzdBnxJA",
       "lvzhou": 3062769307,
       "miaopai": null,
       "group": null
@@ -532,7 +516,7 @@
         "number": "583908288",
         "id": "JBJGBga"
       },
-      "changba": "99463480",
+      "changba": "2vL84OGGpp4FLbUxtxyWsw",
       "lvzhou": 3050758665,
       "weibomusic": "http://music.weibo.com/t/s/3050758665.html",
       "miaopai": null,
@@ -547,7 +531,7 @@
         "number": "hellokiki77",
         "id": "JBJWeA1"
       },
-      "changba": null,
+      "changba": "6fxSthWWggziG4rSTfC1gw",
       "lvzhou": 3050737061,
       "miaopai": null,
       "group": "sense",
@@ -578,13 +562,41 @@
         "number": "Kokoi_",
         "id": "JBJqTDd"
       },
-      "changba": "291711662",
+      "changba": "0IeCUGZF5d-rngDryQgVzQ",
       "lvzhou": 6021143413,
       "miaopai": null,
       "group": "blueV"
     }
   ],
   "exitMemberData": [
+    {
+      "name": "冯雨停",
+      "photo": "https://www.snh48.com/images/member/zp_10252.jpg",
+      "weibo": "u/7509283505",
+      "bilibili": "94040467",
+      "douyin": {
+        "number": "62681522507",
+        "id": "efSxUqA"
+      },
+      "changba": null,
+      "lvzhou": "7509283505",
+      "miaopai": null,
+      "group": null
+    },
+    {
+      "name": "陆叶卉",
+      "photo": "http://www.snh48.com/images/member/zp_10254.jpg",
+      "weibo": "u/7509155658",
+      "bilibili": "2127419651",
+      "douyin": {
+        "number": "2005132702915151",
+        "id": "efSpnAH"
+      },
+      "changba": null,
+      "lvzhou": "7509155658",
+      "miaopai": null,
+      "group": null
+    },
     {
       "name": "冯晓菲",
       "photo": "http://www.snh48.com/images/member/zp_10082.jpg",
@@ -598,10 +610,10 @@
     {
       "name": "刘晨雪",
       "photo": "http://www.snh48.com/images/member/zp_10253.jpg",
-      "weibo": "https://weibo.com/u/7508940698",
+      "weibo": "u/7508940698",
       "bilibili": "",
       "douyin": null,
-      "changba": "",
+      "changba": null,
       "lvzhou": "7508940698",
       "miaopai": null,
       "group": null
@@ -624,7 +636,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10206.jpg",
       "weibo": "u/6501690381",
       "bilibili": 18064789,
-      "douyin": null,
+      "douyin": {
+        "number": "95940889952",
+        "id": "ex1XSHe"
+      },
       "changba": null,
       "miaopai": null,
       "group": null
@@ -704,7 +719,10 @@
       "photo": "http://www.snh48.com/images/member/zp_10155.jpg",
       "weibo": "u/6292981540",
       "bilibili": "",
-      "douyin": null,
+      "douyin": {
+        "number": "58179134820",
+        "id": "ex1RfYG"
+      },
       "lvzhou": 6292981540,
       "changba": null,
       "miaopai": null,
@@ -713,9 +731,12 @@
     {
       "name": "潘燕琦",
       "photo": "http://www.snh48.com/images/member/zp_10154.jpg",
-      "weibo": "",
+      "weibo": "u/6199834544",
       "bilibili": "",
-      "douyin": null,
+      "douyin": {
+        "number": "62792536161",
+        "id": "e56nr4q"
+      },
       "changba": null,
       "miaopai": null,
       "group": null
@@ -804,11 +825,11 @@
     },
     {
       "name": "申月姣",
-      "photo": "//wxt.sinaimg.cn/thumb300/007R1VGply1g7vqxzapwej32b33h07wk.jpg",
+      "photo": "//i0.hdslb.com/bfs/archive/d271dcf927fc722dc36825038e96ca4edabc3636.jpg",
       "weibo": "u/7196535697",
       "bilibili": 2550894,
       "douyin": null,
-      "changba": null,
+      "changba": "RUss4OzaVvxTarK-8w5kPw",
       "miaopai": null,
       "group": null
     },
@@ -824,7 +845,7 @@
     },
     {
       "name": "宫小荷",
-      "photo": "//wxt.sinaimg.cn/thumb300/6a33ab53ly1gf06uk7wmij20u01hc46a.jpg",
+      "photo": "https:////wx4.sinaimg.cn/thumb300/6a33ab53ly1gf06uk7wmij20u01hc46a.jpg",
       "weibo": "hehe12345",
       "bilibili": "146943307",
       "douyin": null,
@@ -838,7 +859,7 @@
       "weibo": "u/2367936797",
       "bilibili": null,
       "douyin": null,
-      "changba": null,
+      "changba": "dloJRg0lS-9JIlC72QjcnA",
       "miaopai": null,
       "group": null
     },

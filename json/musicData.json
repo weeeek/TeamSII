@@ -420,6 +420,31 @@
               }
             ],
             "opern": null
+          },
+          {
+            "image": {
+              "url": "//i1.hdslb.com/bfs/archive/5087c56526bacad3d58cac8079b1a1417f0dc150.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "蒋芸",
+              "王晓佳"
+            ],
+            "id": 238837519,
+            "mid": "000P2caB1mMko8",
+            "name": "大小姐和大少爷的反派生涯",
+            "interval": 171,
+            "url": "http://47.97.248.244/static/music/蒋芸-大小姐和大少爷的反派生涯.MP3",
+            "play": [
+              {
+                "player": "未来·Mirai",
+                "type": "bilibili",
+                "url": "https://www.bilibili.com/video/BV1Mo4y127kB"
+              }
+            ],
+            "opern": null
           }
         ]
       },
@@ -447,6 +472,30 @@
                 "player": "増える",
                 "type": "bilibili",
                 "url": "https://www.bilibili.com/video/BV1UZ4y157EU"
+              }
+            ],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "//i1.hdslb.com/bfs/archive/2bb4877feb53938220210d271b1eb1742b7e4f34.jpg",
+              "left": "60%",
+              "top": "50%",
+              "objectfit": "cover"
+            },
+            "singer": [
+              "刘增艳"
+            ],
+            "id": 97759,
+            "mid": "0017K7gL4WYnw2",
+            "name": "反方向的钟",
+            "interval": 259,
+            "url": "http://47.97.248.244/static/music/刘增艳-反方向的钟.mp3",
+            "play": [
+              {
+                "player": "増える",
+                "type": "bilibili",
+                "url": "https://www.bilibili.com/video/BV1Kq4y1E7ct"
               }
             ],
             "opern": null
@@ -1515,6 +1564,126 @@
               }
             ],
             "opern": null
+          },
+          {
+            "image": {
+              "url": "//i1.hdslb.com/bfs/archive/ea051beca00397ce7debaba3586963466b32a816.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "戴萌",
+              "张语格",
+              "陆婷",
+              "许杨玉琢",
+              "袁一琦",
+              "陈倩楠",
+              "沈梦瑶",
+              "陈琳",
+              "张昕"
+            ],
+            "id": 310426385,
+            "mid": "003CejbU3mfyCm",
+            "name": "红昭愿",
+            "interval": 234,
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/BV1u44y1r7os"
+              }
+            ],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "//i2.hdslb.com/bfs/archive/ffd7a6a213b1f60e6af5a569d00129aec29286c2.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "戴萌",
+              "张语格",
+              "陆婷",
+              "许杨玉琢",
+              "袁一琦",
+              "陈倩楠",
+              "沈梦瑶",
+              "陈琳",
+              "张昕"
+            ],
+            "id": 311629504,
+            "mid": "003Esh8N1au7XF",
+            "name": "什么是快乐星球",
+            "interval": 197,
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/BV1u84y1F7up"
+              }
+            ],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "//i2.hdslb.com/bfs/archive/a26247a548e447fcfe767ee2c14c2b552181e7c7.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "戴萌",
+              "张语格",
+              "许杨玉琢",
+              "陈琳"
+            ],
+            "id": 312436388,
+            "mid": "001jky1N3fIFMW",
+            "name": "Control + Z",
+            "interval": 183,
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/BV1gv411V7U2"
+              }
+            ],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "//i2.hdslb.com/bfs/archive/541785ac9d693c704202a7879d7b147994a94ccd.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "孙芮",
+              "袁一琦",
+              "张语格",
+              "许杨玉琢",
+              "陈琳",
+              "段艺璇",
+              "戴萌",
+              "张昕",
+              "沈梦瑶",
+              "杨冰怡"
+            ],
+            "id": 313114240,
+            "mid": "0030s74z0guI1v",
+            "name": "追光者",
+            "interval": 203,
+            "play": [
+              {
+                "player": "",
+                "type": "MV",
+                "url": "https://www.bilibili.com/video/BV1n64y1R79z"
+              }
+            ],
+            "opern": null
           }
         ]
       },
@@ -1530,6 +1699,7 @@
             },
             "id": 267507646,
             "mid": "003t7yf61Osq6w",
+            "url": "http://47.97.248.244/static/music/你要跳舞吗.mp3",
             "name": "你要跳舞吗",
             "interval": 265,
             "play": [
@@ -1546,10 +1716,11 @@
               "url": "https://wx4.sinaimg.cn/mw1024/a04b2a1dgy1gfg9lay646j20u0140kjt.jpg",
               "left": "50%",
               "top": "50%",
-              "objectfit": "cover"
+              "objectfit": "contain"
             },
             "id": 268021449,
             "mid": "002pxMWj44cV3I",
+            "url": "http://47.97.248.244/static/music/你好毒.mp3",
             "name": "你好毒",
             "interval": 261,
             "play": [
@@ -1566,10 +1737,11 @@
               "url": "//i1.hdslb.com/bfs/archive/9f681515954274099715eae795031115628948cc.jpg",
               "left": "50%",
               "top": "50%",
-              "objectfit": "cover"
+              "objectfit": "contain"
             },
             "id": 268700496,
             "mid": "001eWMzA3z4qJ5",
+            "url": "http://47.97.248.244/static/music/梦不落雨林.mp3",
             "name": "梦不落雨林",
             "interval": 286,
             "play": [
@@ -1590,6 +1762,7 @@
             },
             "id": 269242848,
             "mid": "003Wg9ZW3Ndwlc",
+            "url": "http://47.97.248.244/static/music/杀破狼.mp3",
             "name": "杀破狼",
             "interval": 305,
             "play": [
@@ -1610,6 +1783,7 @@
             },
             "id": 269830660,
             "mid": "00416sUF4Z3I6B",
+            "url": "http://47.97.248.244/static/music/大艺术家.mp3",
             "name": "大艺术家",
             "interval": 298,
             "play": [
@@ -1633,13 +1807,14 @@
             ],
             "id": 270346717,
             "mid": "004W7bhU0Ycfmo",
+            "url": "http://47.97.248.244/static/music/让我留在你身边.mp3",
             "name": "让我留在你身边",
             "interval": 191,
             "play": [
               {
                 "player": "",
                 "type": "MV",
-                "url": "https://y.qq.com/n/yqq/mv/v/k0034n7qbb6.html"
+                "url": "https://www.bilibili.com/video/BV1Wf4y117Ar"
               }
             ],
             "opern": null
@@ -1653,6 +1828,7 @@
             },
             "id": 270346716,
             "mid": "0025gfjl1HK7Gk",
+            "url": "http://47.97.248.244/static/music/NeverSurrender.mp3",
             "name": "Never Surrender",
             "interval": 289,
             "play": [
@@ -1678,12 +1854,13 @@
             "id": 271086249,
             "mid": "004fYhxb0Ggnaj",
             "name": "Y'all Don't Touch It",
-            "interval": 300,
+            "url": "http://47.97.248.244/static/music/YallDontTouchIt.mp3",
+            "interval": 276,
             "play": [
               {
                 "player": "",
                 "type": "MV",
-                "url": "https://y.qq.com/n/yqq/mv/v/k0034k0vayd.html"
+                "url": "https://www.bilibili.com/video/BV1Yf4y1R7zP"
               }
             ],
             "opern": null
@@ -1697,6 +1874,7 @@
             },
             "id": 271086269,
             "mid": "000sl1p51YSXK3",
+            "url": "http://47.97.248.244/static/music/花园舞曲.mp3",
             "name": "花园舞曲",
             "interval": 314,
             "play": [
@@ -1717,6 +1895,7 @@
             },
             "id": 273023067,
             "mid": "002ITox63UTem5",
+            "url": "http://47.97.248.244/static/music/魔女的诗篇.mp3",
             "name": "魔女的诗篇",
             "interval": 310,
             "play": [
@@ -1911,6 +2090,102 @@
         ]
       },
       {
+        "title": "徐晨辰",
+        "songs": [
+          {
+            "image": {
+              "url": "http://p1.music.126.net/M5v9gVaEhbYb3KHSG9VQfg==/109951166104504463.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "徐晨辰"
+            ],
+            "id": 1854825356,
+            "mid": null,
+            "lyric": "WzAwOjAwLjY3Nl3kvZzmm7LvvJrog6Hoh7vvvIhLb3NoaW7vvIks5bmz5bC+5rSL5a2Q77yIWU9LTyBISVJBTUFUU1XvvIkKWzAwOjAyLjE4Ml3nvJbmm7LvvJrog6Hoh7vvvIhLb3NoaW7vvIkKWzAwOjAzLjkyOV3kvZzor43vvJrnlJjkuJbkvbMKWzAwOjA0LjE3OV3kurrlo7DnvJbovpHvvJrpgrnpobrliKkKWzAwOjA1LjQyNl3mt7fpn7PvvJrmiLjnlLDmuIXnq6AoU2VpamkgVG9kYSkoUy5PLkwuSS5EIHNvdW5kIGxhYiBDby4sTHRkLikKWzAwOjA3LjE4Ml3mr43luKbvvJrmiLjnlLDmuIXnq6AoU2VpamkgVG9kYSkoUy5PLkwuSS5EIHNvdW5kIGxhYiBDby4sTHRkLikKWzAwOjA3LjQxOV3liLbkvZzkurrvvJrog6Hoh7vvvIhLb3NoaW7vvIkKWzAwOjA4LjY3Nl3nm5HliLbvvJrog6Hoh7vvvIhLb3NoaW7vvIksIOaWsOaymea0nuiAgeiZju+8iFPigJlUaWdlciDvvIkKWzAwOjA5LjkzMF3lvZXpn7PvvJrlp5rlmInpkasKWzAwOjEwLjE3M13lvZXpn7Pmo5rvvJrlk43lvZXpn7Pmo5oKWzAwOjEwLjkyM13lkozlo7DvvJrlvpDmmajovrAKWzAwOjExLjY3OF3lh7rlk4HvvJrmt7fmoLjln7rpn7NIWUJSSURHRU5FClswMDoxMi4xODJdT1DvvJrkuIrmtbfpo5Ppo47mupDmlofljJblj5HlsZXmnInpmZDlhazlj7gKWzAwOjEyLjY3M11TUO+8mlVuaXZlcnNhbCBNdXNpYyBQdWJsaXNoaW5nIENISU5BClswMDoxMy40Mjdd54q55aaC55Sf5q275LmL6Ze0ClswMDoxNS4xODBd5YaN6K+05LiA6YGNIOWGjeivtOS4gOmBjQpbMDA6MTguMTcxXeS9oOWdmuWuiOeahOS/oeW/tQpbMDA6MTkuOTMxXemCquaBtuWSq+WwuuS5i+mXtApbMDA6MjEuNDIzXeWGjeeci+S4gOmBjSDlho3nnIvkuIDpgY0KWzAwOjI0LjY3N13orqnot6/kurrmk6bkuq7nnLwKWzAwOjI2LjE3NV3kvaDlnZrkv6HmraPkuYkg6ZmE552A5Zyo5L2g6KeC54K5ClswMDoyOS40Mjld5L2g55u45L+h6YKq5oG2IOato+e6t+e6t+i2iui/h+eVjApbMDA6MzMuMTIyXeS9oOS4jeivtApbMDA6MzQuNjMyXeecn+eQhuWwseS8muWRveaCrOS4gOe6vwpbMDA6MzYuODE5XVllYWgKWzAwOjM4LjI0Nl1JbiBZb3VyIEV5ZXMKWzAwOjQxLjk5MF3mmK/ml6DlpYjlh7rmiYsKWzAwOjQ0LjQ4N11JbiBZb3VyIEV5ZXMKWzAwOjQ4LjI0NF3mmK/ml6Dot6/lj6/otbAKWzAwOjUxLjc0NV3kvaDooqvov6vkuLrmraPkuYnlj5Hlh7rmgJLlkLwKWzAwOjU0LjQzNF3kuIfmgbbkuI3otabnmoTmlYzkurrnu5nmiJHpl63lj6MKWzAwOjU3LjY4OF1JbiBZb3VyIEV5ZXMKWzAxOjAwLjkzOF3lgZrlvpfov5jov5zov5wg5LiN5aSfClswMTowNC44NjJd5oCV5oiY5Y+L55yL5LiN6KeBClswMTowNi4xMTFd5YaN5Lqu5LiA5LqbIOWGjeS6ruS4gOS6mwpbMDE6MDkuMTExXeWDj+ikkuWnkueahOeLvOeDnwpbMDE6MTEuMTA2XeS4gOWtl+ikkui0rOaYpeeniwpbMDE6MTIuODYzXeWGjeWHtuS4gOS6myDlho3lh7bkuIDkupsKWzAxOjE1LjYxM13kuI3orrjosIHnq5nkuK3pl7QKWzAxOjE3LjM2MV3nv7vlvIDljoblj7LkuaYg5oKy5Ymn5oC75piv6YeN5ryUClswMToyMC4zNjNd5Lq65b+D5Lit5aWU5Ye6IOWmguaBtuWFveeahOWYtOiEuApbMDE6MjQuMTA5XeWPquebuOS/oQpbMDE6MjYuMTE2XeS9oOS7o+ihqOato+S5ieS/oeW/tQpbMDE6MjguMTE2XVllYWgKWzAxOjI5LjA0MV1JbiBZb3VyIEV5ZXMKWzAxOjMzLjAzNl3mmK/ml6DlpYjlh7rmiYsKWzAxOjM1LjUzN11JbiBZb3VyIEV5ZXMKWzAxOjM5LjU0Ml3mmK/ml6Dot6/lj6/otbAKWzAxOjQyLjc5N13kvaDooqvov6vkuLrmraPkuYnlj5Hlh7rmgJLlkLwKWzAxOjQ1Ljc4OV3kuIfmgbbkuI3otabnmoTmlYzkurrnu5nmiJHpl63lj6MKWzAxOjQ4Ljc4N11JbiBZb3VyIEV5ZXMKWzAxOjUyLjI5M13lgZrlvpfov5jov5zov5wg5LiN5aSfClswMjoyMC45Nzld5L2g5piv5ZCm5Lya5Y6M5YCmClswMjoyMi45ODZd5a2X6YeM6KGM6Ze0IOWtl+mHjOihjOmXtApbMDI6MjUuOTkyXeWOu+aLhuWIhuWSjOabsuinowpbMDI6MjcuNzM3XeS9oOaYr+WQpuS5n+aAgOeWkQpbMDI6MjkuNDg1XeWPquaJi+mBruWkqSDlj6rmiYvpga7lpKkKWzAyOjM0LjY4Ml1JbiBZb3VyIEV5ZXMKWzAyOjM4LjQyNV3mmK/ng63ooYDlpZTmtYEKWzAyOjQxLjE3Nl1JbiBZb3VyIEV5ZXMKWzAyOjQ0LjkzMV3mmK/nlJ/mrbvlhbPlpLQKWzAyOjQ4LjQyNl3miY3li4fmlaLlr7nomZrnqbrlj5Hlh7rmgJLlkLwKWzAyOjUxLjE3Nl3kuYnmhKTloavohrrmnaXlr7nnnYDpo47ovabmiJjmlpcKWzAyOjU0LjQyN11JbiBZb3VyIEV5ZXMKWzAyOjU3LjQzMF3lo67ng4jliLDnvZXmnIkKWzAzOjAwLjYxM11JbiBZb3VyIEV5ZXMKWzAzOjAyLjI4OF3mmK/ml6DlpYjlh7rmiYsKWzAzOjA0LjAzNl3mmK/ml6Dot6/lj6/otbAKWzAzOjA1LjUzMF3kvaDlgZrnmoTov5jov5zov5zkuI3lpJ8KWzAzOjA3LjU0MV1JbiBZb3VyIEV5ZXMKWzAzOjA5LjAzMl3mmK/ml6DlpYjlh7rmiYsKWzAzOjEwLjUzMF3mmK/ml6Dot6/lj6/otbAKWzAzOjEyLjAzNl3kvaDlgZrnmoTov5jov5zov5zkuI3lpJ8KWzAzOjEzLjUzMF1JbiBZb3VyIEV5ZXMKWzAzOjE1LjIxM13mmK/ml6DlpYjlh7rmiYsKWzAzOjE2Ljk1OF3mmK/ml6Dot6/lj6/otbAKWzAzOjE4LjIxMV3kvaDlgZrnmoTov5jov5zov5zkuI3lpJ8KWzAzOjE5Ljk2MV1JbiBZb3VyIEV5ZXMKWzAzOjIxLjY1M13mmK/ml6DlpYjlh7rmiYsKWzAzOjIzLjA4Ml3mmK/ml6Dot6/lj6/otbAKWzAzOjI0LjgzMF3kvaDlgZrnmoTov5jov5zov5zkuI3lpJ8K",
+            "name": "In Your Eyes",
+            "url": "http://47.97.248.244/static/music/徐晨辰-InYourEyes.mp3",
+            "interval": 218,
+            "play": [],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "http://p1.music.126.net/NnR4EWFKoIqC3nBxhollSQ==/109951165564940633.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "徐晨辰"
+            ],
+            "id": 1854825358,
+            "mid": null,
+            "lyric": "WzAwOjAwLjY2OF3kvZzmm7LvvJrmu5XlsJHvvIhST0NLWe+8iQpbMDA6MDEuMTY2Xee8luabsu+8mk1YTQpbMDA6MDEuOTE4XeS9nOivje+8muespumFtwpbMDA6MDIuNjY3XeS6uuWjsOe8lui+ke+8mumCuemhuuWIqQpbMDA6MDMuMTY5Xea3t+mfs++8mumCuemhuuWIqQpbMDA6MDMuNDE4XeavjeW4pu+8mumCuemhuuWIqQpbMDA6MDMuOTE5XeWItuS9nOS6uu+8muiDoeiHu++8iEtvc2hpbu+8iQpbMDA6MDQuNDE3XeebkeWItu+8muiDoeiHu++8iEtvc2hpbu+8iSwg5paw5rKZ5rSe6ICB6JmO77yIU+KAmVRpZ2VyIO+8iQpbMDA6MDQuOTE2XeW9lemfs++8muWnmuWYiemRqwpbMDA6MDUuMTcxXeW9lemfs+ajmu+8muWTjeW9lemfs+ajmgpbMDA6MDUuNjY4XeWSjOWjsO+8muW+kOaZqOi+sApbMDA6MDYuMTcxXeWHuuWTge+8mua3t+aguOWfuumfs0hZQlJJREdFTkUKWzAwOjA2LjY2OV1PUO+8muS4iua1t+mjk+mjjua6kOaWh+WMluWPkeWxleaciemZkOWFrOWPuApbMDA6MDcuMDkzXVNQ77yaVW5pdmVyc2FsIE11c2ljIFB1Ymxpc2hpbmcgQ0hJTkEKWzAwOjA3LjA5M10KWzAwOjA3LjQ3Ml3ml6Dop4bpgqPpo5jlv73nmoTlhbPns7sKWzAwOjA5LjUzMl3mm7Tnoa7lrprlhoXlv4PpgIPpgb8KWzAwOjE0LjAzMl3kuI7lhbbmlYXkvZxzb21ldGhpbmcgZWFzeQpbMDA6MTYuNzgxXeS4jeWmgueci+a4healmuiHquW3sQpbMDA6MjEuMDMyXeayoeWFtOi2o+aPj+e7mOaDs+ixoeWKmwpbMDA6MjMuNTM0XeWPquaDs+WwhueOsOWunuWFnOW6lQpbMDA6MjguMjA4XeS4ouS4jeS6huWbuuaJp+eahOW/g+awlApbMDA6MzAuNzA4XUnigJhtIHNvIHNvcnJ5ClswMDozMi43MDZdSeKAmW0gc28gc29ycnkKWzAwOjMzLjg3NF0KWzAwOjM0LjEzMF1Zb3UgYmV0dGVyIExldCBtZSBvdXQgT2ggTGV0IG1lIG91dCBSdW4gYXdheQpbMDA6NDEuMDU0XVlvdSBiZXR0ZXIgTGV0IG1lIG91dCBPaCBMZXQgbWUgb3V0ClswMDo0NC44MDZdQW5kIFJ1biBhd2F5ClswMDo0OC4zMDRdSSBkb24ndCB3YW5uYSBtYWtlIGEgbm9pc2UKWzAwOjUxLjU1NV1JIGRvbid0IHdhbm5hIGhpZGUgbm8gbW9yZQpbMDA6NTUuMDU1XVlvdSBiZXR0ZXIgTGV0IG1lIG91dCBPaCBMZXQgbWUgb3V0ClswMDo1OS4yMjhdTGVhdmUgbWUgYWxvbmUKWzAxOjAyLjQ3OF3vvIhZb3UgYmV0dGVyIExldCBtZSBvdXTvvIkKWzAxOjI5LjE0M11KdXN0IGxlYXZlIG1lIGFsb25lClswMTozNi44OTVdClswMTozOC4wNjBd55u45aSE5b6X5aSq5aSN5p2CIOadpeaDheivnemHjOaJvuiMrApbMDE6NDEuNTY0XeeijueijuW/teaXoOazleino+etlCDli4nlvLrkuI3opoHkuZ/nvaIKWzAxOjQ1LjU2MF1TbyBzb3JyeSBJIHNhaWQg5Y2P6K6u5bCx5L2c5bqfClswMTo0OS4wNjFd5LiN6YWN5ZCI5rip5p+U6Jma5LyqIOS4jeWBmuS9oOeahOWCgOWEoQpbMDE6NTEuNTY1XQpbMDE6NTEuODExXeWIsOatpOS4uuatoiBTbyBzb3JyeSDkuI3lpYnpmaoKWzAxOjU1Ljk5Ml3nm7TliLDmnIDlkI4gT3VyIHN0b3J5ClswMTo1OC40Mjdd5LiN5oOz5YaNIOacgOWQjuS4gOasoeWQjumAgApbMDI6MDEuOTI4XUnigJhtIHNvIHNvcnJ5ClswMjowNC4zNDldClswMjowNS4zNTJdWW91IGJldHRlciBMZXQgbWUgb3V0IE9oIExldCBtZSBvdXQgUnVuIGF3YXkKWzAyOjEyLjEwM11Zb3UgYmV0dGVyIExldCBtZSBvdXQgT2ggTGV0IG1lIG91dApbMDI6MTYuMDIyXUFuZCBSdW4gYXdheQpbMDI6MTkuMjA2XUkgZG9uJ3Qgd2FubmEgbWFrZSBhIG5vaXNl77yITGV0IGl0IGdv77yJClswMjoyNi4yMDZdSSBkb24ndCB3YW5uYSBoaWRlIG5vIG1vcmXvvIhMZXQgeW91IGtub3fvvIkKWzAyOjMyLjY0Nl1Zb3UgYmV0dGVyIExldCBtZSBvdXQKWzAzOjAwLjE0Nl1KdXN0IGxlYXZlIG1lIGFsb25lCg==",
+            "name": "So Sorry",
+            "url": "http://47.97.248.244/static/music/徐晨辰-SoSorry.mp3",
+            "interval": 198,
+            "play": [],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "//y.qq.com/music/photo_new/T002R300x300M000002xAt33307hhj_1.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "徐晨辰"
+            ],
+            "id": 313641004,
+            "mid": "001dn4Hc1sjFap",
+            "name": "偏宠",
+            "interval": 222,
+            "play": [],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000000Ok1E11E5MMs_1.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "徐晨辰"
+            ],
+            "id": 290967887,
+            "mid": "0015CZn71rczEb",
+            "name": "Merry Christmas, Miss Jane",
+            "interval": 301,
+            "play": [],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "//y.qq.com/music/photo_new/T002R300x300M000003QEhS31enF2V_1.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "强东玥",
+              "徐晨辰"
+            ],
+            "id": 127588873,
+            "mid": "003UC0jT027nhp",
+            "url": "http://47.97.248.244/static/music/强东玥&徐晨辰-她和她.mp3",
+            "name": "她和她",
+            "interval": 301,
+            "play": [],
+            "opern": null
+          }
+        ]
+      },
+      {
         "title": "孙芮",
         "songs": [
           {
@@ -2024,28 +2299,6 @@
         ]
       },
       {
-        "title": "徐晨辰",
-        "songs": [
-          {
-            "image": {
-              "url": "//y.gtimg.cn/music/photo_new/T002R300x300M000000Ok1E11E5MMs_1.jpg",
-              "left": "50%",
-              "top": "50%",
-              "objectfit": "contain"
-            },
-            "singer": [
-              "徐晨辰"
-            ],
-            "id": 290967887,
-            "mid": "0015CZn71rczEb",
-            "name": "Merry Christmas, Miss Jane",
-            "interval": 301,
-            "play": [],
-            "opern": null
-          }
-        ]
-      },
-      {
         "title": "张语格",
         "songs": [
           {
@@ -2063,6 +2316,51 @@
             "name": "天黑日记",
             "interval": 251,
             "play": [],
+            "opern": null
+          }
+        ]
+      },
+      {
+        "title": "李宇琪",
+        "songs": [
+          {
+            "image": {
+              "url": "//y.qq.com/music/photo_new/T002R300x300M000000DprL34CDMLo_1.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "李宇琪"
+            ],
+            "id": 312123576,
+            "mid": "003pkRpG3b8EKW",
+            "name": "女儿郎",
+            "interval": 179,
+            "play": [],
+            "opern": null
+          },
+          {
+            "image": {
+              "url": "//i1.hdslb.com/bfs/archive/3238689b4296b1e44a06a04edeee115540ec52ff.jpg",
+              "left": "50%",
+              "top": "50%",
+              "objectfit": "contain"
+            },
+            "singer": [
+              "李宇琪"
+            ],
+            "id": 312123603,
+            "mid": "003B580k2rRZfc",
+            "name": "嘿 听说你以前是丝芭的",
+            "interval": 142,
+            "play": [
+              {
+                "type": "MV",
+                "player": "白猫yuki",
+                "url": "https://www.bilibili.com/video/BV1eg41137wp"
+              }
+            ],
             "opern": null
           }
         ]
@@ -4802,6 +5100,11 @@
                 "player": "",
                 "type": "MV",
                 "url": "https://www.bilibili.com/video/av6668234"
+              },
+              {
+                "player": "CIP_Music",
+                "type": "piano",
+                "url": "https://www.bilibili.com/video/BV1nA411G7Sn"
               }
             ],
             "opern": null

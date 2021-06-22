@@ -107,6 +107,2641 @@
             ],
             "beatClass": "2",
             "beat": 2
+        },
+        {
+            "noteIndex": [
+                55,
+                46
+            ],
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": [
+                53,
+                46
+            ],
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": [
+                44,
+                48
+            ],
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": [
+                41,
+                46
+            ],
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 60,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8-5",
+            "beat": 0.75
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8-5",
+            "beat": 0.75
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "8-5",
+            "beat": 0.75
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8-5",
+            "beat": 0.75
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": [
+                44,
+                48
+            ],
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8-5",
+            "beat": 0.75
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8-5",
+            "beat": 0.75
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "8-5",
+            "beat": 0.75
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8-5",
+            "beat": 0.75
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": [
+                44,
+                48
+            ],
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8-5",
+            "beat": 0.75
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 41,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 41,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "1",
+            "beat": 4
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "1",
+            "beat": 4,
+            "rest": true
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "1",
+            "beat": 4,
+            "rest": true
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "1",
+            "beat": 4,
+            "rest": true
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.25,
+            "rest": true
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5,
+            "rest": true
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "8",
+            "beat": 0.5,
+            "rest": true
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5,
+            "rest": true
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "8",
+            "beat": 0.5,
+            "rest": true
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "8",
+            "beat": 0.5,
+            "rest": true
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "8",
+            "beat": 0.5,
+            "rest": true
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25,
+            "rest": true
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "8",
+            "beat": 0.5,
+            "rest": true
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5,
+            "rest": true
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25,
+            "rest": true
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5,
+            "rest": true
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 60,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 60,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 60,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 60,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 60,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 60,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 62,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 60,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": [
+                46,
+                55
+            ],
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "8-5",
+            "beat": 0.75
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "8-5",
+            "beat": 0.75
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 62,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 63,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 62,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 60,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": [
+                51,
+                55
+            ],
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 60,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 58,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": [
+                51,
+                55
+            ],
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": [
+                44,
+                51
+            ],
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": [
+                44,
+                48
+            ],
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": [
+                51,
+                55
+            ],
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 56,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": [
+                44,
+                51
+            ],
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": [
+                44,
+                48
+            ],
+            "beatClass": "4",
+            "beat": 1
+        },
+        {
+            "noteIndex": 44,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "16",
+            "beat": 0.25
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 55,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 53,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 51,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 46,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 48,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": 50,
+            "beatClass": "2",
+            "beat": 2
+        },
+        {
+            "noteIndex": [
+                43,
+                51
+            ],
+            "beatClass": "2",
+            "beat": 2
         }
     ],
     "accompanyNotes": [
@@ -189,6 +2824,1741 @@
             "noteIndex": 22,
             "beatClass": "2",
             "beat": 2
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 26,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 24,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 19,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 24,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 19,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 24,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 19,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 24,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 19,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+
+
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 39,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 38,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 24,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 39,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 19,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 34,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 36,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 39,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 36,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 38,
+            "beatClass": "4",
+            "beat": 1
+        },
+        
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 39,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 38,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 24,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 39,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 19,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 34,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 36,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 39,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 36,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 38,
+            "beatClass": "4",
+            "beat": 1
+        },
+        
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 39,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 38,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 24,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 39,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 19,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 34,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 36,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 39,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 36,
+            "beatClass": "4",
+            "beat": 1
+        },{
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 38,
+            "beatClass": "4",
+            "beat": 1
+        },
+
+
+
+
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 24,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 19,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 43,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 24,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 19,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 24,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 19,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 24,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 19,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },{
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 24,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 19,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 39,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 20,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 22,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 38,
+            "beatClass": "8",
+            "beat": 0.5
         }
     ]
 }
