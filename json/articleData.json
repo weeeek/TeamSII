@@ -215,6 +215,25 @@
     ]
   },
   {
+    "member":false,
+    "finish":false,
+    "name":"无限之蔚蓝城",
+    "author":{
+      "name":"流浪-段柯基爱刘增锅",
+      "link":"https://weibo.com/u/7569074274"
+    },
+    "articles":[{
+      "title":"序章",
+      "url":"https://weibo.com/ttarticle/p/show?id=2309404623840209666701"
+    },{
+      "title":"第一章",
+      "url":"https://weibo.com/ttarticle/p/show?id=2309404623841027817553"
+    },{
+      "title":"第三章",
+      "url":"https://weibo.com/ttarticle/p/show?id=2309404638258956206656"
+    }]
+  },
+  {
     "member": false,
     "finish": false,
     "name": "爱在校园",

@@ -1690,6 +1690,7 @@ export default {
     };
   },
   mounted() {
+    window.jQuery = jQuery
     let _vm = this;
     getpianoNotes().then((res) => {
       res.forEach((e) => {
@@ -1810,26 +1811,35 @@ export default {
           ).style.transition = `transform ${fallTime}s linear`;
           jQuery("#note-fall-div").addClass("falling");
           _vm.fallPlay(res.notes, 0, 0, false);
+          // 有第二声部播放第二声部
           if (res.accompanyNotes) _vm.fallPlay(res.accompanyNotes, 0, 0, true);
         }, 1000);
       });
     },
+    keyRenew(index, time){
+      return function(){
+        setTimeout(function(){
+          jQuery(`button[index=${index}]`).removeClass("active-left").removeClass("active-right");
+        }, time)
+      }
+    },
     fallPlay(arr, i, wait, isLeft) {
       if (arr.length == i) return;
       let _vm = this;
+      let takes = (60000 / _vm.bpm) * arr[i].beat;
       // 先放一个音，计算等待，再放下一个
       if (arr[i] && !arr[i].rest) {
-        _vm.play(arr[i].noteIndex, true, isLeft, false);
+        _vm.play(arr[i].noteIndex, true, isLeft, true, _vm.keyRenew(arr[i].noteIndex,takes));
       }
       // 等待一个节奏时间播放下一声音
       setTimeout(() => {
-        _vm.fallPlay(arr, ++i, wait, isLeft);
-      }, (60000 / _vm.bpm) * arr[i].beat);
+        _vm.fallPlay(arr, ++i, wait, isLeft, true);
+      }, takes);
     },
     keySignatureChange() {
       // 变更调号
     },
-    play(index, play = true, isLeft = true, pressKey = true) {
+    play(index, play = true, isLeft = true, pressKey = true, callback) {
       if (play) {
         // C调的序号,需要调号转换。
         if (index.length > 1) {
@@ -1857,6 +1867,10 @@ export default {
           .removeClass("active-right")
           .removeClass("active-left");
       }
+      // 有回调执行回调
+      if(callback){
+        callback();
+      }
     },
     keyboardplay(noteIndex, keyCode, isLeft) {
       this.play(noteIndex + this.signature, true, isLeft);
@@ -1876,11 +1890,12 @@ export default {
       } else {
         keyElement = jQuery(`button[index=${n.noteIndex}]`)[0];
       }
+      // 如果是黑键，则offsetleft需要再偏移一点
       var result = {
         position: "absolute",
         width: keyElement.clientWidth,
         height: `${n.beat * 96}px`,
-        left: `${keyElement.offsetLeft}px`,
+        left: `${keyElement.offsetLeft - (keyElement.className.indexOf("key-white") > -1 ? 0 : 11)}px`,
         bottom: `${n.bottom}px`,
         background: n.isLeft ? "#8dc221" : "#48a9e2",
         lineHeight: `${n.beat * 96}px`,

@@ -1,0 +1,976 @@
+{
+    "signature": 0,
+    "signatureName": "C",
+    "songName": "小星星",
+    "bpm": "120",
+    "notes": [
+        {
+            "noteIndex": 39,
+            "noteName": "C4",
+            "noteSimple": "1",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 39,
+            "noteName": "C4",
+            "noteSimple": "1",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 46,
+            "noteName": "G4",
+            "noteSimple": "5",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 46,
+            "noteName": "G4",
+            "noteSimple": "5",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 48,
+            "noteName": "A4",
+            "noteSimple": "6",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 48,
+            "noteName": "A4",
+            "noteSimple": "6",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 46,
+            "noteName": "G4",
+            "noteSimple": "5",
+            "beatClass": "2",
+            "beat": 2.0
+        },
+        {
+            "noteIndex": 44,
+            "noteName": "F4",
+            "noteSimple": "4",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 44,
+            "noteName": "F4",
+            "noteSimple": "4",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 43,
+            "noteName": "E4",
+            "noteSimple": "3",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 43,
+            "noteName": "E4",
+            "noteSimple": "3",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 41,
+            "noteName": "D4",
+            "noteSimple": "2",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 41,
+            "noteName": "D4",
+            "noteSimple": "2",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 39,
+            "noteName": "C4",
+            "noteSimple": "1",
+            "beatClass": "2",
+            "beat": 2.0
+        },
+        {
+            "noteIndex": 46,
+            "noteName": "G4",
+            "noteSimple": "5",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 46,
+            "noteName": "G4",
+            "noteSimple": "5",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 44,
+            "noteName": "F4",
+            "noteSimple": "4",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 44,
+            "noteName": "F4",
+            "noteSimple": "4",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 43,
+            "noteName": "E4",
+            "noteSimple": "3",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 43,
+            "noteName": "E4",
+            "noteSimple": "3",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 41,
+            "noteName": "D4",
+            "noteSimple": "2",
+            "beatClass": "2",
+            "beat": 2.0
+        },
+        {
+            "noteIndex": 46,
+            "noteName": "G4",
+            "noteSimple": "5",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 46,
+            "noteName": "G4",
+            "noteSimple": "5",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 44,
+            "noteName": "F4",
+            "noteSimple": "4",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 44,
+            "noteName": "F4",
+            "noteSimple": "4",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 43,
+            "noteName": "E4",
+            "noteSimple": "3",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 43,
+            "noteName": "E4",
+            "noteSimple": "3",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 41,
+            "noteName": "D4",
+            "noteSimple": "2",
+            "beatClass": "2",
+            "beat": 2.0
+        },
+        {
+            "noteIndex": 39,
+            "noteName": "C4",
+            "noteSimple": "1",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 39,
+            "noteName": "C4",
+            "noteSimple": "1",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 46,
+            "noteName": "G4",
+            "noteSimple": "5",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 46,
+            "noteName": "G4",
+            "noteSimple": "5",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 48,
+            "noteName": "A4",
+            "noteSimple": "6",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 48,
+            "noteName": "A4",
+            "noteSimple": "6",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 46,
+            "noteName": "G4",
+            "noteSimple": "5",
+            "beatClass": "2",
+            "beat": 2.0
+        },
+        {
+            "noteIndex": 44,
+            "noteName": "F4",
+            "noteSimple": "4",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 44,
+            "noteName": "F4",
+            "noteSimple": "4",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 43,
+            "noteName": "E4",
+            "noteSimple": "3",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 43,
+            "noteName": "E4",
+            "noteSimple": "3",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 41,
+            "noteName": "D4",
+            "noteSimple": "2",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 41,
+            "noteName": "D4",
+            "noteSimple": "2",
+            "beatClass": "4",
+            "beat": 1.0
+        },
+        {
+            "noteIndex": 39,
+            "noteName": "C4",
+            "noteSimple": "1",
+            "beatClass": "2",
+            "beat": 2.0
+        }
+    ],
+    "accompanyNotes": [
+        {
+            "noteIndex": 27,
+            "noteName": "C3",
+            "noteSimple": "-1",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "noteName": "E3",
+            "noteSimple": "-3",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "noteName": "C3",
+            "noteSimple": "-1",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "noteName": "E3",
+            "noteSimple": "-3",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "noteName": "C3",
+            "noteSimple": "-1",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "noteName": "A3",
+            "noteSimple": "-6",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "noteName": "F3",
+            "noteSimple": "-4",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "noteName": "A3",
+            "noteSimple": "-6",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "noteName": "C3",
+            "noteSimple": "-1",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "noteName": "E3",
+            "noteSimple": "-3",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 26,
+            "noteName": "B2",
+            "noteSimple": "--7",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "noteName": "D3",
+            "noteSimple": "-2",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "noteName": "C3",
+            "noteSimple": "-1",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "noteName": "E3",
+            "noteSimple": "-3",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 26,
+            "noteName": "B2",
+            "noteSimple": "--7",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "noteName": "D3",
+            "noteSimple": "-2",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "noteName": "C3",
+            "noteSimple": "-1",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "noteName": "E3",
+            "noteSimple": "-3",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "noteName": "C3",
+            "noteSimple": "-1",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "noteName": "E3",
+            "noteSimple": "-3",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 26,
+            "noteName": "B2",
+            "noteSimple": "--7",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "noteName": "D3",
+            "noteSimple": "-2",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "noteName": "C3",
+            "noteSimple": "-1",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "noteName": "E3",
+            "noteSimple": "-3",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 26,
+            "noteName": "B2",
+            "noteSimple": "--7",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "noteName": "D3",
+            "noteSimple": "-2",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "noteName": "C3",
+            "noteSimple": "-1",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "noteName": "E3",
+            "noteSimple": "-3",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 26,
+            "noteName": "B2",
+            "noteSimple": "--7",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "noteName": "D3",
+            "noteSimple": "-2",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "noteName": "C3",
+            "noteSimple": "-1",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "noteName": "E3",
+            "noteSimple": "-3",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 26,
+            "noteName": "B2",
+            "noteSimple": "--7",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "noteName": "D3",
+            "noteSimple": "-2",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "noteName": "C3",
+            "noteSimple": "-1",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "noteName": "E3",
+            "noteSimple": "-3",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "noteName": "C3",
+            "noteSimple": "-1",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "noteName": "E3",
+            "noteSimple": "-3",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "noteName": "C3",
+            "noteSimple": "-1",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "noteName": "A3",
+            "noteSimple": "-6",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 32,
+            "noteName": "F3",
+            "noteSimple": "-4",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 36,
+            "noteName": "A3",
+            "noteSimple": "-6",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "noteName": "C3",
+            "noteSimple": "-1",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "noteName": "E3",
+            "noteSimple": "-3",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 26,
+            "noteName": "B2",
+            "noteSimple": "--7",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "noteName": "D3",
+            "noteSimple": "-2",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "noteName": "C3",
+            "noteSimple": "-1",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "noteName": "E3",
+            "noteSimple": "-3",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 26,
+            "noteName": "B2",
+            "noteSimple": "--7",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 29,
+            "noteName": "D3",
+            "noteSimple": "-2",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 27,
+            "noteName": "C3",
+            "noteSimple": "-1",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 31,
+            "noteName": "E3",
+            "noteSimple": "-3",
+            "beatClass": "8",
+            "beat": 0.5
+        },
+        {
+            "noteIndex": 34,
+            "noteName": "G3",
+            "noteSimple": "-5",
+            "beatClass": "8",
+            "beat": 0.5
+        }
+    ]
+}

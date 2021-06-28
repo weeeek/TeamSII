@@ -1,7 +1,10 @@
-[{
+﻿[{
     "name":"洋娃娃与小熊跳舞",
     "jsonFileName":"DollBearDance"
 },{
     "name":"卡农",
     "jsonFileName":"Cannon"
+},{
+    "name":"小星星",
+    "jsonFileName":"LittleStar"
 }]
