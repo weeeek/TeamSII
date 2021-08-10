@@ -2397,6 +2397,10 @@ export default {
 .beat-8 {
   height: 48px;
 }
+// 8分音符的附点
+.beat-8-5 {
+  height: 72px;
+}
 
 // 8分音符的3连音
 .beat-8-3 {
@@ -2405,6 +2409,10 @@ export default {
 
 .beat-4 {
   height: 96px;
+}
+// 4分音符的附点
+.beat-4-5 {
+  height: 144px;
 }
 
 // 4分音符的三连音
@@ -2415,6 +2423,10 @@ export default {
 .beat-2 {
   height: 192px;
 }
+// 2分音符的附点
+.beat-2-5 {
+  height: 288px;
+}
 
 // 2分音符的三连音
 .beat-2-3 {
@@ -2423,6 +2435,22 @@ export default {
 
 .beat-1 {
   height: 284px;
+}
+.beat-1-5 {
+  height: 426px;
+}
+
+.beat-long-5{
+  height: 480;
+}
+.beat-long-6{
+  height: 576;
+}
+.beat-long-7{
+  height: 672;
+}
+.beat-long-8{
+  height: 768;
 }
 
 .beat-rest {

@@ -25,7 +25,7 @@
       @click="MQSend(mqType.account, data.name + '抖音')"
     ></a>
     <a
-      :href="`http://changba.com/u/${data.changba}`"
+      :href="`https://changba.com/wap/index.php?s=${data.changba}`"
       :title="`唱吧-${data.name}`"
       target="_blank"
       class="favicon favicon-changba"
@@ -84,16 +84,16 @@
 </template>
 
 <script>
-import { mqMixin } from "common/js/mixin";
+import { mqMixin } from "common/js/mixin"
 export default {
   props: {
     data: {
       type: Object,
-      default: {},
-    },
+      default: {}
+    }
   },
-  mixins: [mqMixin],
-};
+  mixins: [mqMixin]
+}
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">

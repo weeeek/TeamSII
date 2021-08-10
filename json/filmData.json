@@ -6,7 +6,7 @@
                 "title": "梦想预备生",
                 "from": "BV",
                 "actor": "汤敏 赵嘉敏 董芷依 蒋羽熙 吴哲晗 张语格 莫寒",
-                "url": "BV1Fs411a7TE",
+                "url": "1Fs411a7TE",
                 "img": "http://47.97.248.244/static/film/梦想预备生.jpg"
             },
             {
@@ -38,18 +38,18 @@
                 "img": "http://47.97.248.244/static/images/yunxizhuan.jpg"
             },
             {
-                "title": "如意芳菲",
-                "from": "",
-                "actor": "许佳琪",
-                "url": "https://weibo.com/u/5602281354",
-                "img": "http://47.97.248.244/static/film/如意芳菲.jpg"
-            },
-            {
                 "title": "夜蝶",
                 "from": "I",
                 "actor": "孔肖吟 吴哲晗",
                 "url": "v_19rsjs0hyk",
                 "img": "http://wx2.sinaimg.cn/large/0076gXBegy1g3rn6uwifvj34mo2lskjq.jpg"
+            },
+            {
+                "title": "有言在仙",
+                "from": "",
+                "actor": "李梓 陈倩楠 李想 黄恩茹",
+                "url": "https://v.qq.com/x/cover/0zi4x4n86xhabki.html",
+                "img": "//pic6.iqiyipic.com/image/20171009/1b/df/v_113651468_m_601_180_236.jpg"
             },
             {
                 "title": "贴身校花",
@@ -66,11 +66,11 @@
                 "img": "http://47.97.248.244/static/film/贴身校花之君临天下.jpg"
             },
             {
-                "title":"将军家的小娘子",
-                "from":"",
-                "actor":"汤敏",
-                "url":"https://so.youku.com/search_video/q_%E5%B0%86%E5%86%9B%E5%AE%B6%E7%9A%84%E5%B0%8F%E5%A8%98%E5%AD%90",
-                "img":"https://pics4.baidu.com/feed/203fb80e7bec54e752a969b651e775564ec26a33.png?token=13e423d331422e34dcec658351905869"
+                "title": "将军家的小娘子",
+                "from": "",
+                "actor": "汤敏",
+                "url": "https://so.youku.com/search_video/q_%E5%B0%86%E5%86%9B%E5%AE%B6%E7%9A%84%E5%B0%8F%E5%A8%98%E5%AD%90",
+                "img": "https://pics4.baidu.com/feed/203fb80e7bec54e752a969b651e775564ec26a33.png?token=13e423d331422e34dcec658351905869"
             },
             {
                 "title": "保龙一族",
@@ -88,9 +88,9 @@
             },
             {
                 "title": "恋爱脱线时",
-                "from": "Q",
+                "from": "",
                 "actor": "钱蓓婷 陈观慧",
-                "url": "sdp001job770w57",
+                "url": "http://www.diezhan.me/dalu/lianaituoxianshi/",
                 "img": "http://77fkxu.com1.z0.glb.clouddn.com/20170801/1501584082_80196.jpg"
             },
             {
@@ -197,6 +197,13 @@
         "type": "综艺",
         "list": [
             {
+                "title": "金曲青春",
+                "from": "",
+                "actor": "张语格 戴萌 孙芮 段艺璇 李佳恩 陆婷 许杨玉琢 沈梦瑶 袁一琦 陈琳 陈倩楠 张昕 杨冰怡",
+                "url": "http://www.xxm4.com/su/1647.html",
+                "img": "https://bkimg.cdn.bcebos.com/pic/738b4710b912c8fcc3ceacc8bd4f8545d688d43f8b28"
+            },
+            {
                 "title": "炙热的我们",
                 "from": "Q",
                 "actor": "吴哲晗 孔肖吟",
@@ -239,6 +246,13 @@
                 "img": "//i1.hdslb.com/bfs/archive/436f3dc1975b4324f92db6ef624f0c4284c0a38f.jpg_380x250.jpg"
             },
             {
+                "title": "创造营2020·塞纳河开学啦",
+                "from": "BV",
+                "actor": "马玉灵 黄恩茹",
+                "url": "13a4y1i77Y",
+                "img": "//i2.hdslb.com/bfs/archive/e9b9d194222ce37323cae2010eeeee3a146f6c49.jpg"
+            },
+            {
                 "title": "青春有你2·青春有日记",
                 "from": "B",
                 "actor": "许佳琪 戴萌 张语格 孙芮",
@@ -258,6 +272,13 @@
                 "actor": "许佳琪 孔肖吟 戴萌 张语格",
                 "url": "https://space.bilibili.com/12444300/favlist?fid=320055400&ftype=create",
                 "img": "//i2.hdslb.com/bfs/archive/95e3eb68a7af7968a4b34113c8c035a8211330f2.jpg_380x240.jpg"
+            },
+            {
+                "title": "天生音雄",
+                "from": "",
+                "url": "https://space.bilibili.com/44916289/video?keyword=%E5%A4%A9%E7%94%9F%E9%9F%B3%E9%9B%84",
+                "actor": "黄恩茹",
+                "img": "https://t12.baidu.com/it/u=357304961,142591600&fm=173&app=49&f=JPEG"
             },
             {
                 "title": "意想不到的假期",
@@ -295,6 +316,13 @@
                 "img": "//i0.hdslb.com/bfs/archive/745d0563015c1f5d30953f99059157d3c286d4bd.jpg_380x240.jpg"
             },
             {
+                "title": "莫莫有闻第三季",
+                "from": "",
+                "actor": "莫寒",
+                "url": "https://space.bilibili.com/12444300/video?keyword=%E8%8E%AB%E8%8E%AB%E6%9C%89%E9%97%BB%E7%AC%AC%E4%B8%89%E5%AD%A3",
+                "img": "//i1.hdslb.com/bfs/archive/47f5d8f7ec8d8d5f700cfdae6c6d5dd5afe2052d.png"
+            },
+            {
                 "title": "莫莫有闻第二季",
                 "from": "B",
                 "actor": "莫寒",
@@ -307,6 +335,13 @@
                 "actor": "莫寒",
                 "url": "21439860",
                 "img": "//i1.hdslb.com/bfs/archive/afb5c5bfc8657e35e1ab58c713cb9ee957e604b0.png_380x240.png"
+            },
+            {
+                "title": "进击的女生",
+                "from": "",
+                "actor": "徐子轩 莫寒 张语格 孔肖吟 陈思 钱蓓婷 陈观慧 徐晨辰 许佳琪 吴哲晗 孙芮 袁雨桢 闫明筠 邵雪聪 徐伊人",
+                "url": "https://v.qq.com/detail/3/30740.html",
+                "img": "https://www.snh48.com/event/s106/images/top_2.jpg"
             },
             {
                 "title": "SNHello星萌学院",
